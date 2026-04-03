@@ -1,0 +1,21 @@
+# World Index — POV Life Simulation Engine (PVLE)
+# Version: v1.0
+
+worlds:
+  WORLD_US_PRESIDENT_FAMILY:
+    file: "pvle/worlds/WORLD_US_PRESIDENT_FAMILY.yaml"
+    display_name: "Child of the US President"
+    domain: GOVERNMENT_PRIVILEGE
+    identity_mode: GENERIC_ARCHETYPE
+    tags: [privilege, surveillance, identity, freedom, legacy]
+    episodes: []
+    created: "2026-04-03"
+
+  WORLD_PRESIDENT_YOUNGEST_SON:
+    file: "pvle/worlds/WORLD_PRESIDENT_YOUNGEST_SON.yaml"
+    display_name: "The President's Youngest Son"
+    domain: GOVERNMENT
+    identity_mode: TRANSPARENT_VEIL
+    tags: [presidential_family, political_privilege, childhood_under_surveillance, identity_formation]
+    episodes: [PV_0001]
+    created: "2026-04-03"

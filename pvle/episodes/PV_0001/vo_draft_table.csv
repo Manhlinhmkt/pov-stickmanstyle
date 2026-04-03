@@ -1,0 +1,48 @@
+Beat_ID,Life_Phase,Beat_Type,Mood_Tag,Content_Sketch,VO_Draft_EN,Word_Count
+BEAT_01_01,HOOK,ESTABLISH,WONDER,"Born on the top floor of a Manhattan tower","The day you are born, you come home to the top floor of a tower in Manhattan. The entire floor is yours. You are one day old, and you already have more space than most people will ever own.",40
+BEAT_01_01,HOOK,ESTABLISH,WONDER,"","There are men in dark suits outside the door. There always will be.",12
+BEAT_01_02,HOOK,PRIVILEGE,WONDER,"Name in newspapers before you can speak","Your name appears in newspapers before you learn to say it. Cameras are already pointed at the building where you sleep.",22
+BEAT_01_03,HOOK,CONSTRAINT,WONDER,"You didn't choose this family","You did not choose this family. This family chose you.",10
+BEAT_02_01,PHASE_EARLY,TIME_MARKER,WONDER,"Age four — bilingual","You are four. You speak two languages. One is your father's. The other belongs to your mother's homeland — a small country in Eastern Europe most of your classmates cannot find on a map.",33
+BEAT_02_02,PHASE_EARLY,PRIVILEGE,WONDER,"Age seven — private school","You are seven. A black SUV takes you to school every morning. Your friends must pass a background check before they can come to your birthday party.",28
+BEAT_02_02,PHASE_EARLY,PRIVILEGE,WONDER,"","Some of their parents say no. Not because of you. Because of the paperwork.",14
+BEAT_02_03,PHASE_EARLY,CONSTRAINT,LONGING,"Fake name at school","At school, you use a different name. You tell people your name is something ordinary. No one knows which family you belong to. And for a few hours each day, that is enough.",32
+BEAT_02_04,PHASE_EARLY,TIME_MARKER,WONDER,"Age ten — father wins","You are ten. Your father wins. You move into a house with one hundred thirty-two rooms, thirty-five bathrooms, and six floors. None of them feel like yours.",27
+BEAT_02_04,PHASE_EARLY,TIME_MARKER,WONDER,"","You are the first son to live in this house since the nineteen sixties.",13
+BEAT_02_05,PHASE_EARLY,REFLECT,LONGING,"Mother stays behind","Your mother stays in New York for a few more months. So you can finish the school year. She chose you over the spotlight. That is something you will not forget.",30
+BEAT_02_06,PHASE_EARLY,CONSTRAINT,LONGING,"Everything changes","From here on. Everything changes.",5
+BEAT_03_01,PHASE_CONFLICT,CONSTRAINT,TENSION,"Secret Service at school","There are agents outside your classroom in the school in Maryland. They wear plain clothes. But everyone knows.",18
+BEAT_03_01,PHASE_CONFLICT,CONSTRAINT,TENSION,"","Your desk is the same as everyone else's. But the hallway outside it is not.",14
+BEAT_03_02,PHASE_CONFLICT,CONFLICT,TENSION,"Friends background-checked","Your friends want to come over. They need to pass a federal security check. Some stop asking.",15
+BEAT_03_02,PHASE_CONFLICT,CONFLICT,TENSION,"","While other kids make plans after school, yours require a security advance team.",13
+BEAT_03_03,PHASE_CONFLICT,REFLECT,TENSION,"Siblings on TV — you silent","Your older siblings go on television. They argue. They campaign. They become the public face of the family. You watch from the couch. You say nothing.",25
+BEAT_03_03,PHASE_CONFLICT,REFLECT,TENSION,"","Silence becomes your first language.",5
+BEAT_03_04,PHASE_CONFLICT,CONFLICT,TENSION,"Father impeached — age 13","Your father is impeached for the first time. You are thirteen. You find out the way everyone else does — on your phone, in your bedroom, alone.",26
+BEAT_03_04,PHASE_CONFLICT,CONFLICT,TENSION,"","No one in the house explains it to you. You are old enough to read. That is explanation enough.",17
+BEAT_03_05,PHASE_CONFLICT,TIME_MARKER,LONGING,"Age 14 — move to Florida","You are fourteen. The family leaves Washington. Florida. New school. New state. Fourth school in three states.",17
+BEAT_03_06,PHASE_CONFLICT,CONSTRAINT,TENSION,"Age 17 — too tall to hide","You are seventeen. You are over six foot seven. You cannot disappear into a crowd anymore. You tower over everyone in every room you enter.",24
+BEAT_03_06,PHASE_CONFLICT,CONSTRAINT,TENSION,"","Your body made the decision your mind kept avoiding. You are visible. Permanently.",12
+BEAT_03_07,PHASE_CONFLICT,REFLECT,TENSION,"Photographed just walking","People photograph you walking. Just walking. That is enough to make the news.",12
+BEAT_04_01,PHASE_CRISIS,TIME_MARKER,DREAD,"Age 18 — graduation and campaign","You are eighteen. You graduate. Your father is running again.",10
+BEAT_04_02,PHASE_CRISIS,CRISIS,DREAD,"Invited as delegate — decline","You are invited to stand as a delegate at the party convention. You decline. Prior commitments, they announce. The truth is simpler. You are not ready to be a symbol.",31
+BEAT_04_03,PHASE_CRISIS,CRISIS,CLARITY,"Inauguration — taller than everyone","Inauguration day. The second one. You stand on the stage in front of the entire country. You are the tallest person there. The cameras find you every time they sweep the platform.",32
+BEAT_04_03,PHASE_CRISIS,CRISIS,CLARITY,"","You did not speak. You did not wave. You just stood there. And that was more than enough.",17
+BEAT_04_04,PHASE_CRISIS,REFLECT,CLARITY,"World watching — you say nothing","The whole world is watching you. And you have not said a single word.",13
+BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,BITTERSWEET,"Age 19 — business school NYC","You are nineteen. You enroll in a business school in New York. Manhattan. The same city where you were born.",18
+BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,BITTERSWEET,"","You have come full circle. But you are not the same person.",11
+BEAT_05_02,PHASE_RESOLUTION,RESOLVE,BITTERSWEET,"Agents still follow","The agents still follow you. Into the lecture hall. Outside your door at night. Some things do not change.",17
+BEAT_05_03,PHASE_RESOLUTION,REFLECT,CLARITY,"First time choosing","But for the first time, you chose. You chose the school. You chose the city. You chose business. Not law. Not politics. Not your father's path.",25
+BEAT_05_04,PHASE_RESOLUTION,REFLECT,BITTERSWEET,"Not freedom but closest","It is not freedom. But it is the closest you have ever had.",12
+BEAT_06_01,PHASE_PRESENT,TIME_MARKER,BITTERSWEET,"Age 20 — transfer to DC","You are twenty. You transfer to the campus in Washington. You move back into the old house. This time, it is your choice.",22
+BEAT_06_02,PHASE_PRESENT,PRIVILEGE,WONDER,"King of the internet","Your father calls you the king of the internet. You are the one who connected the campaign to a generation that does not watch television. Podcasters. Streamers. Influencers. You understood them before anyone on the team did.",37
+BEAT_06_03,PHASE_PRESENT,CONSTRAINT,TENSION,"No social media but millions discuss","You do not have a single social media account. Not one. But millions of people talk about you online every single day.",21
+BEAT_06_03,PHASE_PRESENT,CONSTRAINT,TENSION,"","They build you without your permission.",6
+BEAT_06_04,PHASE_PRESENT,CONFLICT,TENSION,"Fake accounts and rumors","People create accounts using your name. They fabricate dating stories. They doctor photographs and post them everywhere. You do not respond.",22
+BEAT_06_04,PHASE_PRESENT,CONFLICT,TENSION,"","You never respond.",3
+BEAT_06_05,PHASE_PRESENT,PRIVILEGE,CLARITY,"Business ventures","You begin appearing in business meetings. Technology. Beverages. Real estate. You are building something. Quietly. On your own terms.",19
+BEAT_06_06,PHASE_PRESENT,REFLECT,CLARITY,"State of the Union","You attend the address to the nation. Front row. You are taller than every legislator in the chamber.",16
+BEAT_06_07,PHASE_PRESENT,REFLECT,BITTERSWEET,"Silence as brand","You still have not spoken publicly. Not once. But somehow, your silence became a brand.",14
+BEAT_07_01,CALLBACK_CLOSE,CALLBACK,DEEP_CONNECTION,"Remember the penthouse","Remember the tower? The penthouse in Manhattan? The floor that was entirely yours?",13
+BEAT_07_02,CALLBACK_CLOSE,REFLECT,DEEP_CONNECTION,"Never really lived there","The whole floor was yours. But you never really lived there.",11
+BEAT_07_03,CALLBACK_CLOSE,REFLECT,DEEP_CONNECTION,"Still haven't decided","You are twenty years old. And you still have not decided who you are.",13
+BEAT_07_04,CALLBACK_CLOSE,CTA,DEEP_CONNECTION,"The one right","But maybe — that is the one right no one can take from you.",13

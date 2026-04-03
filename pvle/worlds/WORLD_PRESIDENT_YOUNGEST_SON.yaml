@@ -1,0 +1,182 @@
+WORLD_ID: WORLD_PRESIDENT_YOUNGEST_SON
+display_name: "The President's Youngest Son"
+domain: GOVERNMENT
+era: MODERN_CONTEMPORARY
+implied_identity_mode: TRANSPARENT_VEIL
+implied_person: "Barron Trump"
+veil_strictness: MAXIMUM
+
+tags:
+  - presidential_family
+  - political_privilege
+  - childhood_under_surveillance
+  - identity_formation
+  - public_scrutiny
+  - generational_contrast
+
+seed_keywords:
+  - "barron trump"
+  - "president's son"
+  - "first son"
+  - "youngest son of president"
+  - "donald trump son"
+  - "white house child"
+
+era_anchors:
+  - year: 2006
+    age: 0
+    event: "Born in a penthouse tower in Manhattan — had an entire floor to himself"
+  - year: 2017
+    age: 10
+    event: "Moved into the White House — first presidential son to live there since the 1960s"
+  - year: 2021
+    age: 14
+    event: "Left Washington for Florida when father's first term ended"
+  - year: 2024
+    age: 18
+    event: "Graduated prep school, enrolled in business school in New York City"
+  - year: 2025
+    age: 18
+    event: "Father inaugurated for second term — stood on stage, now taller than everyone"
+
+unique_circumstance_stack:
+  - "Had an entire floor of a Manhattan skyscraper as childhood home"
+  - "Spoke a second language from birth — mother's Eastern European native tongue"
+  - "Used a fake name at school to protect identity"
+  - "First presidential son to live in White House since the 1960s"
+  - "Mother delayed moving to Washington so he could finish the school year"
+  - "Secret Service agents followed him to every class, every friend's house"
+  - "Stood over six foot seven by age seventeen — physically impossible to be anonymous"
+  - "Invited as political party delegate at eighteen — declined"
+  - "Credited by father for connecting campaign to younger voters through influencers"
+  - "Attended four different schools across three states in eighteen years"
+
+public_perception_markers:
+  - "Most protected and least visible presidential child in modern history"
+  - "Mother fiercely shielded him — more than any other First Lady in recent memory"
+  - "Height became a cultural fascination — memes, news coverage, constant commentary"
+  - "The quiet one — while older siblings were public political figures"
+
+key_facts:
+  - "Secret Service protection begins at birth for presidential children"
+  - "White House has 132 rooms, 35 bathrooms, and 6 levels"
+  - "Presidential children cannot attend public events without advance security teams"
+  - "All friends and visitors must pass background checks"
+  - "Air Force One serves as family transport — no commercial flights"
+  - "Presidential children's school records, medical information, and location are classified"
+  - "After a president leaves office, children receive Secret Service protection for limited years"
+
+key_locations:
+  - id: LOC_PENTHOUSE_TOWER
+    name: "The Penthouse Tower"
+    description: "Manhattan skyscraper — childhood home, entire floor, gold-toned interiors"
+  - id: LOC_WHITE_HOUSE
+    name: "The White House"
+    description: "132 rooms, none truly private — every hallway has history and cameras"
+  - id: LOC_PREP_SCHOOL_MARYLAND
+    name: "The Prep School in Maryland"
+    description: "Private school with Secret Service SUVs in the parking lot"
+  - id: LOC_FLORIDA_ESTATE
+    name: "The Family Estate in Florida"
+    description: "Palm trees, ocean, gated — where the family retreated after Washington"
+  - id: LOC_BUSINESS_SCHOOL_NYC
+    name: "Business School in New York"
+    description: "Back to Manhattan — agents in the lecture hall, guards at the dorm"
+
+key_tensions:
+  - PRIVILEGE_VS_FREEDOM
+  - IDENTITY_VS_LEGACY
+  - PROTECTION_VS_CONTROL
+  - NORMAL_DESIRE_VS_IMPOSSIBLE_REALITY
+
+character_anchors:
+  SUBJECT:
+    implied_person: "Barron Trump"
+    veil_name: "you / the subject"
+    visual_traits_by_phase:
+      CHILD_0_6:
+        height: "small stickman, normal child proportions"
+        hair: "wisp of straight light blonde hair"
+        clothing: "simple light blue jacket shape (flat color, no detail)"
+        face: "dot eyes, small neutral mouth"
+        distinguishing: "small, quiet posture, slightly oversized head"
+      CHILD_7_12:
+        height: "medium stickman, starting to be taller than peer stickmen"
+        hair: "straight light blonde hair, parted to one side"
+        clothing: "dark blazer shape with white collar line (flat color)"
+        face: "dot eyes, neutral mouth"
+        distinguishing: "beginning to stand out in height among classmates"
+      TEEN_13_17:
+        height: "noticeably taller than ALL other figures, head clearly above peers"
+        hair: "light blonde hair, longer on top, styled upward"
+        clothing: "dark suit jacket shape (simple flat fill), tie line"
+        face: "dot eyes, neutral to slight frown mouth"
+        distinguishing: "towers over everyone, impossible to miss in any scene"
+      ADULT_18_PLUS:
+        height: "extremely tall, dominates frame vertically, tallest figure in every scene"
+        hair: "light blonde hair, neat, styled back"
+        clothing: "fitted dark suit shape (simple flat fill), tie line"
+        face: "dot eyes, neutral mouth"
+        distinguishing: "confident posture, shoulders back, commanding presence"
+
+  FATHER:
+    implied_person: "Donald Trump"
+    veil_name: "your father"
+    visual_traits:
+      height: "average-tall stickman, stocky wide proportions"
+      hair: "distinctive swooped blonde-orange hair silhouette, styled back and to one side"
+      clothing: "dark suit shape (flat fill), long red tie line extending below waist"
+      face: "dot eyes, firm mouth line"
+      distinguishing: "always surrounded by smaller figures, hand gestures"
+    appears_in_phases: [PHASE_EARLY, PHASE_CONFLICT, PHASE_CRISIS, PHASE_PRESENT]
+
+  MOTHER:
+    implied_person: "Melania"
+    veil_name: "your mother"
+    visual_traits:
+      height: "tall stickman, slim elegant proportions"
+      hair: "long straight dark brown hair, past shoulders"
+      clothing: "elegant simple dress shape (flat color, no pattern)"
+      face: "dot eyes, small gentle mouth"
+      distinguishing: "graceful upright posture, standing close to SUBJECT"
+    appears_in_phases: [HOOK, PHASE_EARLY, PHASE_CRISIS]
+
+  SIBLINGS:
+    veil_name: "your brothers / your sisters"
+    visual_traits:
+      generic: "adult stickmen in dark suits, no individual distinguishing features"
+      face: "dot eyes only, no mouth detail"
+    appears_in_phases: [PHASE_CONFLICT]
+
+  AGENTS:
+    veil_name: "the agents"
+    visual_traits:
+      generic: "faceless dark-suited stickman figures, small earpiece dot on right side, rigid upright posture"
+      face: "NO face — completely blank white circle head"
+    appears_in_phases: [ALL]
+
+forbidden_terms:
+  names:
+    - "Barron": "you"
+    - "Trump": "[omit entirely]"
+    - "Melania": "your mother"
+    - "Donald": "your father"
+    - "Ivanka": "your older sister"
+    - "Don Jr.": "your oldest brother"
+    - "Eric": "your older brother"
+    - "Tiffany": "your older sister"
+  companies:
+    - "Trump Organization": "the family business"
+    - "Trump Tower": "the tower"
+  places:
+    - "Mar-a-Lago": "the family estate in Florida"
+    - "Oxbridge Academy": "the prep school in Florida"
+    - "NYU": "a business school in New York"
+    - "Stern School": "the business program"
+    - "St. Andrew's Episcopal": "the school in Maryland"
+    - "Columbia Grammar": "the private school in Manhattan"
+  titles:
+    - "First Son": "the president's youngest child"
+
+used_in_episodes: []
+created: "2026-04-03"

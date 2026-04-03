@@ -1,0 +1,71 @@
+# World Registry — US President's Family
+# WORLD_ID: WORLD_US_PRESIDENT_FAMILY
+# Version: v1.0 | Created: 2026-04-03
+
+WORLD_ID: WORLD_US_PRESIDENT_FAMILY
+display_name: "Child of the US President"
+domain: GOVERNMENT_PRIVILEGE
+era: MODERN_CONTEMPORARY
+tags: [privilege, surveillance, identity, freedom, legacy, isolation]
+
+seed_keywords:
+  - "son of us president"
+  - "daughter of us president"
+  - "child of president"
+  - "first son"
+  - "first daughter"
+  - "life as presidential child"
+  - "growing up in white house"
+
+key_facts:
+  - "Secret Service (USSS) protection begins at birth — agents present in delivery room"
+  - "Presidential children cannot attend public school without full security clearance of all staff"
+  - "All childhood friendships require USSS vetting — background checks for playmates"
+  - "The White House has 132 rooms across 6 floors — open to public tours, offering no privacy"
+  - "Air Force One becomes a second home — travel is never spontaneous"
+  - "A Secret Service code name is assigned — presidential children receive their own"
+  - "Social media is prohibited or operated under monitored accounts"
+  - "Press pool coverage follows major life events from first day of school to prom"
+  - "Camp David (presidential retreat in Maryland) offers more privacy but equal isolation"
+  - "After presidency ends, protection continues but at reduced intensity for years"
+
+key_locations:
+  - id: LOC_WHITE_HOUSE
+    name: "The White House"
+    description: "132-room official residence open to public tours — museum that is also home, no true private space"
+
+  - id: LOC_CAMP_DAVID
+    name: "Camp David"
+    description: "Presidential mountain retreat — more relaxed than White House but equally isolated from normal life"
+
+  - id: LOC_AIR_FORCE_ONE
+    name: "Air Force One"
+    description: "Presidential aircraft — childhood 'family trips' conducted in flying command center"
+
+  - id: LOC_OVAL_OFFICE
+    name: "The Oval Office"
+    description: "Father's workplace — power center of the world, visited by subject as a child like other kids visit a parent's office"
+
+  - id: LOC_PRIVATE_SCHOOL
+    name: "Elite Private School"
+    description: "Only option — full security sweep of all staff, classmates know who you are before you arrive"
+
+  - id: LOC_WASHINGTON_DC
+    name: "Washington DC (streets)"
+    description: "City that belongs to the presidency — streets cleared for motorcades, restaurants evacuated for security"
+
+key_tensions:
+  - PRIVILEGE_VS_FREEDOM
+  - IDENTITY_VS_LEGACY
+  - FRIENDSHIP_VS_SURVEILLANCE
+  - NORMAL_DESIRE_VS_IMPOSSIBLE_REALITY
+
+accessory_tags:
+  - suit_tie        # formal White House occasions
+  - backpack        # school/childhood scenes
+  - earpiece        # Secret Service agents (NOT subject — supporting characters)
+
+used_in_episodes:
+  - PV_0001
+
+created: "2026-04-03"
