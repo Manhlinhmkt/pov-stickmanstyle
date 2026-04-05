@@ -112,6 +112,41 @@
 
 ---
 
+## CHARACTER REGISTRY
+> Source: `WORLD_PRESIDENT_YOUNGEST_SON.yaml → character_anchors`  
+> Approved for PV_0001. Used by `/pvle-gen-image-prompts`.
+
+### Master Character Table
+
+| Char_ID | Veil_Name | Visual_Summary | Appears_In_Phases |
+|---------|-----------|---------------|-------------------|
+| SUBJECT | you / the subject | See phase table below | ALL |
+| FATHER | your father | Stocky-wide proportions. Swooped blonde-orange hair silhouette. Dark suit (flat fill), long red tie line. Dot eyes, firm mouth. Always surrounded by smaller figures, hand gestures. | PHASE_EARLY, PHASE_CONFLICT, PHASE_CRISIS, PHASE_PRESENT |
+| MOTHER | your mother | Tall slim proportions. Long straight dark brown hair past shoulders. Elegant simple dress shape (flat color). Dot eyes, small gentle mouth. Graceful upright posture, close to SUBJECT. | HOOK, PHASE_EARLY, PHASE_CRISIS |
+| SIBLINGS | your brothers / your sisters | Generic adult stickmen in dark suits. Dot eyes only, no mouth detail. No individual distinguishing features. | PHASE_CONFLICT |
+| AGENTS | the agents | Faceless stickman figures — completely blank white circle head. Dark suit (flat fill). Small earpiece dot on right. Rigid upright posture. | ALL |
+
+### SUBJECT Visual Traits by Phase
+
+| Phase | Age_Range | Height | Hair | Clothing | Face | Distinguishing |
+|-------|-----------|--------|------|----------|------|---------------|
+| HOOK | 0 | Small stickman, normal child proportions | Wisp of straight light blonde hair | Simple light blue jacket shape (flat color, no detail) | Dot eyes, small neutral mouth | Small, quiet posture, slightly oversized head |
+| PHASE_EARLY (early) | 4–6 | Small stickman, normal child proportions | Straight light blonde hair, parted to one side | Simple light blue jacket shape (flat color) | Dot eyes, neutral mouth | Begins slightly taller than peers by end of phase |
+| PHASE_EARLY (late) | 7–12 | Medium stickman, starting taller than peer stickmen | Straight light blonde hair, parted to one side | Dark blazer shape with white collar line (flat color) | Dot eyes, neutral mouth | Beginning to stand out in height among classmates |
+| PHASE_CONFLICT | 13–17 | Noticeably taller than ALL other figures — head clearly above peers | Light blonde hair, longer on top, styled upward | Dark suit jacket shape (simple flat fill), tie line | Dot eyes, neutral to slight frown mouth | Towers over everyone — impossible to miss in any scene |
+| PHASE_CRISIS | 18 | Extremely tall, dominates frame vertically | Light blonde hair, neat, styled back | Fitted dark suit shape (simple flat fill), tie line | Dot eyes, neutral mouth | Confident posture, shoulders back, commanding presence |
+| PHASE_RESOLUTION | 19 | Extremely tall, dominates frame vertically | Light blonde hair, neat, slightly relaxed | Fitted dark suit shape, slightly more casual | Dot eyes, neutral mouth | Posture slightly more relaxed than CRISIS |
+| PHASE_PRESENT | 20 | Extremely tall, dominates frame vertically | Light blonde hair, neat, styled back | Fitted dark suit shape (simple flat fill), tie line | Dot eyes, neutral mouth | Confident, shoulders back, commanding presence |
+| CALLBACK_CLOSE | 20 | Extremely tall, dominates frame vertically | Light blonde hair, neat, styled back | Fitted dark suit shape (simple flat fill), tie line | Dot eyes, neutral mouth | Standing in childhood room — now filling the frame completely |
+
+### Injection Rules
+- **SUBJECT always has most visual detail** among all characters in scene
+- **AGENTS are always FACELESS** — blank white circle head, no eyes, no mouth
+- **REAL NAMES FORBIDDEN** in prompts — use veil_name only
+- **Height must scale** — SUBJECT becomes progressively taller stickman across phases
+
+---
+
 ## EPISODE NOTES
 
 - **Duration:** EXTENDED — 7 phases (standard 5 + PHASE_PRESENT + expanded beats)

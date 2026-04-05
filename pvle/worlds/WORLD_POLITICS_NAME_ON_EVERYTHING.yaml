@@ -1,0 +1,316 @@
+WORLD_ID: WORLD_POLITICS_NAME_ON_EVERYTHING
+display_name: "The Man Who Put His Name on Everything"
+domain: POLITICS_BUSINESS
+era: MODERN_CONTEMPORARY
+implied_identity_mode: TRANSPARENT_VEIL
+implied_person: "Donald J. Trump"   # INTERNAL ONLY — never appears in any output
+veil_strictness: MAXIMUM
+
+tags:
+  - real_estate_empire
+  - brand_obsession
+  - political_ascent
+  - public_persona_vs_private_self
+  - legacy_hunger
+  - comeback_narrative
+  - impossible_defied
+
+seed_keywords:
+  - "donald trump"
+  - "trump"
+  - "real estate developer president"
+  - "man who put his name on everything"
+  - "45th president"
+  - "47th president"
+
+era_anchors:
+  - year: 1946
+    age: 0
+    event: "Born in the outer borough of New York, son of a property developer — wealth present, but not yet power"
+  - year: 1959
+    age: 13
+    event: "Sent to military academy after behavior issues — father's method of installing discipline"
+  - year: 1968
+    age: 22
+    event: "Graduated from business school — joined father's company with one instruction: win"
+  - year: 1971
+    age: 25
+    event: "Took control of the family company, moved operations to Manhattan — refused to stay in the outer borough"
+  - year: 1983
+    age: 37
+    event: "Completed 68-floor tower on Fifth Avenue — put his own name on it in gold letters six feet tall"
+  - year: 1990
+    age: 44
+    event: "Near bankruptcy — $900 million in personal debt — restructured, refused to disappear"
+  - year: 2004
+    age: 58
+    event: "Began hosting a reality television show — built a second identity on screen, not just in concrete"
+  - year: 2015
+    age: 69
+    event: "Announced presidential campaign — the political establishment laughed"
+  - year: 2016
+    age: 70
+    event: "Won. Nobody expected it. Including, some say, him."
+  - year: 2021
+    age: 74
+    event: "Impeached for the second time. Left office. Refused to concede. Refused to disappear."
+  - year: 2024
+    age: 78
+    event: "Indicted on federal charges — ran anyway. Won again."
+
+unique_circumstance_stack:
+  - "Father: a Queens property developer who taught that weakness is a choice and that losing is a form of death"
+  - "Sent to military academy at 13 — learned early that structure and authority are things you either master or are mastered by"
+  - "Took father's company and immediately moved it from the outer borough to Manhattan — geography as ambition"
+  - "Filed for corporate bankruptcy six times — survived each time by putting his name on the next thing before the last one fell"
+  - "Put his own name on buildings, steaks, water, casinos, universities, golf courses, and eventually a country"
+  - "Became globally famous on television before he became globally powerful in politics"
+  - "Won the most powerful elected office on earth in his first attempt at political office — no prior elected experience"
+  - "Impeached twice — more than any other president — and still the story did not end"
+  - "First former president in American history to be convicted of criminal charges — then elected again anyway"
+  - "Supporters see a man who never quit. Critics see a man who never accepted accountability. Both are correct about the facts."
+
+public_perception_markers:
+  - "Perhaps the most polarizing public figure of the 21st century — no neutral opinion is possible"
+  - "His name, on any object or building, immediately doubles both its appeal and its controversy"
+  - "Decades of tabloid coverage, business coverage, political coverage — the man was always news"
+  - "Even in defeat, he remained the dominant subject of conversation — losing changed nothing about his presence"
+
+key_tensions:
+  - BRAND_VS_PERSON: "The name became larger than the man — and the man had to keep expanding to stay ahead of it"
+  - FATHER_SHADOW: "Fred Trump built the foundation. The son swore he would build higher. He did. It cost something."
+  - PUBLIC_VS_PRIVATE: "Cameras everywhere, name everywhere — and yet the interior life remains almost entirely unknown"
+  - WIN_VS_COST: "Every win came with a price. Every loss was refused, reframed, denied. The psychological cost of never losing is losing yourself."
+  - LEGACY_ANXIETY: "What is the name worth when he is gone? The question everyone around him avoids asking."
+
+forbidden_terms:
+  names:
+    - "Donald" → "you"
+    - "Trump" → [omit entirely in VO and prompts]
+    - "Don" → [omit]
+    - "DJT" → [omit]
+  brands:
+    - "Trump Tower" → "the tower on Fifth Avenue"
+    - "Trump Organization" → "the family company"
+    - "The Apprentice" → "the television show"
+    - "Mar-a-Lago" → "the Florida estate"
+    - "Truth Social" → "the platform you built"
+    - "Trump University" → "the education venture"
+    - "Trump Steaks" → "the beef brand"
+    - "Trump Vodka" → "the vodka brand"
+    - "MAGA" → "the movement"
+  people:
+    - "Fred Trump" → "your father"
+    - "Mary Trump" → "your mother"
+    - "Ivana" → "your first wife"
+    - "Marla Maples" → "your second wife"
+    - "Melania" → "your third wife"
+    - "Ivanka" → "your eldest daughter"
+    - "Don Jr." → "your eldest son"
+    - "Eric" → "your second son"
+    - "Barron" → "your youngest son"
+    - "Steve Bannon" → [avoid]
+    - "Roger Stone" → [avoid]
+    - "Mike Pence" → "your vice president"
+    - "Biden" → "the man who beat you — for a time"
+    - "Hillary Clinton" → "your 2016 opponent"
+  places:
+    - "Queens" → "the outer borough"
+    - "Jamaica Estates" → "the neighborhood where you grew up"
+    - "Kew-Forest School" → [avoid — too specific]
+    - "New York Military Academy" → "the military academy"
+    - "Fordham University" → "your first university"
+    - "Wharton School" → "the business school"
+    - "Palm Beach" → "the Florida estate location"
+  events:
+    - "January 6" → "the day the certification was disrupted"
+    - "Access Hollywood tape" → "the recording that almost ended everything"
+    - "Mueller investigation" → "the two-year investigation"
+    - "impeachment" → "the proceedings" / "what they tried"
+
+key_locations:
+  - id: LOC_QUEENS_HOME
+    display: "childhood home in the outer borough"
+    description: "Upper-middle-class house in a wealthy Queens neighborhood — large for outer borough, modest by Manhattan standards"
+    visual_tone: "Brick, suburban, respectable but not spectacular"
+  - id: LOC_FIFTH_AVE_TOWER
+    display: "the tower on Fifth Avenue"
+    description: "68-story glass-and-marble skyscraper, gold-lettered name at the top, gold elevator interior, penthouse triplex"
+    visual_tone: "Gold, glass, vertical dominance, excess as aesthetic"
+  - id: LOC_WHITE_HOUSE
+    display: "the house on Pennsylvania Avenue"
+    description: "132 rooms, history on every wall — but the office is what matters"
+    visual_tone: "Formal, historic, the weight of every occupant before"
+  - id: LOC_FLORIDA_ESTATE
+    display: "the Florida estate"
+    description: "Sprawling beachfront property — ornate, warm, his preferred home even as president"
+    visual_tone: "Mediterranean, gold, warm light, private behind high walls"
+
+character_anchors:
+  SUBJECT:
+    veil_name: "you / the subject"
+    real_name: "Donald J. Trump"   # INTERNAL ONLY
+    subject_phase_traits:
+
+      PHASE_EARLY:
+        age_range: "6–18"
+        life_phase_label: "Queens to Military Academy"
+        height: "Normal child and teen proportions — athletic, energetic"
+        hair: "Natural dark brown hair, neatly combed — no signature color yet"
+        clothing: "Preppy outer-borough kid — blazer and slacks, military uniform at academy"
+        face: "Dot eyes, small neutral mouth — young, unformed"
+        distinguishing: "Slightly taller than peer stickmen. Sits differently — already watching the room."
+        character_block: >
+          Simple stickman, age-appropriate proportions, slightly taller than peers.
+          Round white circle head, dot eyes, small neutral mouth. Thin black lines.
+          Dark brown hair wisp, neat. Simple blazer or military jacket shape (flat color).
+
+      PHASE_CONFLICT:
+        age_range: "18–30"
+        life_phase_label: "Building the Machine"
+        height: "Tall adult stickman — full adult proportions"
+        hair: "Dark brown hair, beginning to style upward — ambition showing in the hair"
+        clothing: "Dark power suit shape, white collar line, simple tie line"
+        face: "Dot eyes — more focused. Forward-directed."
+        distinguishing: "Gestures more — arms raised, pointing. Takes more space in the frame."
+        character_block: >
+          Tall adult stickman, full proportions.
+          Round white circle head, dot eyes, small neutral mouth. Thin black lines.
+          Dark brown hair slicked upward. Dark suit flat fill, white collar line, dark tie.
+          Expansive posture — arms gesturing outward.
+
+      PHASE_CRISIS:
+        age_range: "44–58"
+        life_phase_label: "Near Bankrupt to Television Icon"
+        height: "Tall adult stickman — substantial frame"
+        hair: "Transitional — the hair begins its iconic transformation. Swept back, lightening to blonde-orange."
+        clothing: "Dark suit, white collar, long red tie line (signature)"
+        face: "Dot eyes — defiant. Never looking down."
+        distinguishing: "The red tie appears for the first time. Long, distinctive vertical red line. Never tucked."
+        character_block: >
+          Tall adult stickman, substantial frame.
+          Round white circle head, dot eyes, small neutral mouth. Thin black lines.
+          Swept-back blonde-orange hair silhouette forming. Dark suit flat fill,
+          white collar line, long red tie vertical line to below belt.
+
+      PHASE_RESOLUTION:
+        age_range: "58–70"
+        life_phase_label: "The Apprentice to the Campaign"
+        height: "Tall adult stickman — wide-shouldered, commanding"
+        hair: "Full iconic swooped blonde-orange hair — volume forward, swept from side"
+        clothing: "Dark suit, white collar line, LONG red tie line extending to mid-thigh"
+        face: "Dot eyes — self-assured. The persona is complete."
+        distinguishing: "The hair is the silhouette. Any stickman with this hair = immediately recognizable."
+        character_block: >
+          Tall wide-shouldered adult stickman.
+          Round white circle head, dot eyes, small neutral mouth. Thin black lines.
+          Swooped thick blonde-orange hair silhouette, volume prominent.
+          Dark suit flat fill, white collar line, LONG red tie line from collar to mid-thigh.
+
+      PHASE_PRESENT:
+        age_range: "70–80"
+        life_phase_label: "President to President Again"
+        height: "Tall adult stickman — commanding but heavier frame implied"
+        hair: "Full iconic swooped blonde-orange hair — same silhouette, same volume"
+        clothing: "Dark suit, white collar line, extra-long red tie line — prominent"
+        face: "Dot eyes — this is the face that the whole world knows, distilled to dots"
+        distinguishing: "AGENTS always present. He is the center of every room. The hair and tie identify without name."
+        character_block: >
+          Tall heavy-framed adult stickman.
+          Round white circle head, dot eyes, small neutral mouth. Thin black lines.
+          Swooped thick blonde-orange hair silhouette — prominent.
+          Dark suit flat fill, white collar line, EXTRA-LONG red tie line from collar to below mid-thigh.
+          AGENTS flanking: FACELESS dark-suited stickman figures (blank white circle heads, earpiece dots, rigid posture).
+
+  FATHER:
+    veil_name: "your father"
+    appears_in_phases: [PHASE_EARLY, PHASE_CONFLICT]
+    visual_anchor: >
+      Shorter stickman than SUBJECT. Round white circle head, dot eyes, small serious mouth.
+      Grey hair flat silhouette, combed to one side. Dark suit flat fill, white collar line.
+      Upright posture — commanding in a smaller frame.
+
+  FIRST_WIFE:
+    veil_name: "your first wife"
+    appears_in_phases: [PHASE_CONFLICT, PHASE_CRISIS]
+    visual_anchor: >
+      Slim tall stickwoman. Round white circle head, dot eyes, small mouth.
+      Voluminous light blonde hair shape. Elegant dress or business suit shape (flat color).
+      Poised upright posture — businesswoman energy. Sits at the table, not beside it.
+
+  SECOND_WIFE:
+    veil_name: "your second wife"
+    appears_in_phases: [PHASE_CRISIS]
+    visual_anchor: >
+      Slim stickwoman, shorter than FIRST_WIFE. Round white circle head, dot eyes, small mouth.
+      Medium-length wavy hair silhouette, lighter tone. Casual-elegant outfit shape (flat color).
+      Warmer posture — less formal, more social. Appears during flamboyant excess period.
+
+  THIRD_WIFE:
+    veil_name: "your third wife"
+    appears_in_phases: [PHASE_RESOLUTION, PHASE_PRESENT]
+    visual_anchor: >
+      Very slim tall stickwoman. Round white circle head, dot eyes, small composed mouth.
+      Sleek straight hair — dark to light gradient silhouette, long past shoulders.
+      High-fashion outfit shape (flat color, strong silhouette). Upright, composed, contained.
+      Rarely gestures broadly — presence through stillness.
+
+  CHILDREN:
+    veil_name: "your children"
+    appears_in_phases: [PHASE_RESOLUTION, PHASE_PRESENT]
+    visual_anchor: >
+      Three adult-proportioned stickman/woman figures — dark suit shapes for sons,
+      elegant outfit shape for daughter. All with SUBJECT's height roughly matched.
+      Dot eyes, small neutral mouths. In PHASE_PRESENT: appear at campaign podium flanking.
+
+  AGENTS:
+    veil_name: "the agents"
+    appears_in_phases: [PHASE_CONFLICT, PHASE_CRISIS, PHASE_RESOLUTION, PHASE_PRESENT]
+    visual_anchor: >
+      FACELESS dark-suited stickman figures — blank white circle heads, NO dot eyes,
+      NO mouth. Small earpiece dots on head sides. Rigid upright symmetrical posture.
+      Always flanking SUBJECT symmetrically.
+
+  AIDES_BUSINESS:
+    veil_name: "the associates"
+    appears_in_phases: [PHASE_CONFLICT, PHASE_CRISIS]
+    visual_anchor: >
+      Generic shorter adult stickmen in dark suit shapes, white collar lines. Dot eyes,
+      small neutral mouths. Carry briefcase or document rectangle shapes. Cluster around
+      negotiation tables, boardrooms. Shorter than SUBJECT — always shorter.
+      In PHASE_CRISIS: some have arms-raised panic gestures, clipboard shapes,
+      phone-to-ear gestures (conveying urgent restructuring communications).
+
+  AIDES_CAMPAIGN:
+    veil_name: "the campaign team"
+    appears_in_phases: [PHASE_RESOLUTION, PHASE_PRESENT]
+    visual_anchor: >
+      Generic shorter adult stickmen and stickwomen in dark suit shapes. Dot eyes,
+      small neutral mouths. In PHASE_RESOLUTION: clustered around a strategy table,
+      phone shapes, chart/map shapes in background. In PHASE_PRESENT: flanking
+      campaign rally podium — headset dots on some, clipboard shapes on others.
+      Energetic postures, arms gesturing toward SUBJECT or toward crowd.
+
+  CROWD:
+    veil_name: "the crowd"
+    appears_in_phases: [PHASE_PRESENT]
+    visual_anchor: >
+      Large mass of generic stickmen at varying heights — rally/event background element.
+      Arms raised in various directions, suggesting cheer or protest depending on context.
+      No individual detail — pure collective mass. Cap-silhouette shapes visible on some
+      (rally context). Fills background frame behind campaign podium.
+
+accessory_tags:
+  - "gold elevator interior"
+  - "helicopter silhouette (personal)"
+  - "campaign podium shape with teleprompter flanks"
+  - "gold nameplate on building facade (6-feet-tall letters)"
+  - "long red tie — extra-long, past belt, never tucked"
+  - "presidential seal shape"
+  - "rally crowd silhouette mass"
+  - "mug shot framing (flat, frontal, PHASE_PRESENT)"
+  - "courtroom interior (PHASE_PRESENT)"
+  - "helicopter landing pad on tower rooftop"
+
+used_in_episodes: [PV_0002]
+created: "2026-04-04"

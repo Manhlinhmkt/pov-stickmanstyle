@@ -1,4 +1,4 @@
-﻿---
+---
 description: Save confirmed world data to PVLE World Registry
 skills_required:
   - pvle-engine
@@ -20,8 +20,8 @@ Validate:
 - [ ] `key_facts` has 5-8 entries
 - [ ] `key_locations` has 3-5 entries
 - [ ] `key_tensions` has 2-4 entries
-- [ ] `seed_keywords` has â‰¥ 2 entries
-- [ ] `accessory_tags` has â‰¥ 1 entry
+- [ ] `seed_keywords` has ≥ 2 entries
+- [ ] `accessory_tags` has ≥ 1 entry
 
 ---
 
@@ -42,6 +42,7 @@ Append new entry:
     file: "pvle/worlds/{WORLD_ID}.yaml"
     display_name: "[display_name]"
     domain: [domain]
+    identity_mode: [identity_mode]
     tags: [tags list]
     episodes: []
     created: "[today's date]"
@@ -54,9 +55,8 @@ Write updated world-index.yaml.
 ## STEP 4: Confirm
 
 ```
-âœ… World ingested: [WORLD_ID]
+✅ World ingested: [WORLD_ID]
    File: pvle/worlds/{WORLD_ID}.yaml
    Index updated: pvle/engines/core/world-index.yaml
-â†’ Ready for: /pvle-gen-outline [WORLD_ID]
+→ Ready for: /pvle-gen-outline [WORLD_ID]
 ```
-

@@ -225,7 +225,7 @@ Auto-trigger `/pvle-ingest-world` with assembled YAML.
    World ID: [WORLD_ID]
    Title: "[approved title]"
    Veil: TRANSPARENT_VEIL / MAXIMUM
-→ Next: /pvle-gen-outline [WORLD_ID]
+→ Next: /analyze-seed Step 1c (speech time input) → then /pvle-gen-outline [WORLD_ID]
 ```
 
 ---

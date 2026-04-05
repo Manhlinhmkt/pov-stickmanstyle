@@ -1,4 +1,4 @@
-﻿---
+---
 description: Analyze seed topic, match World Registry, suggest or create new world data
 skills_required:
   - pvle-engine
@@ -7,7 +7,7 @@ skills_required:
 # WORKFLOW: /analyze-seed
 
 > **Phase:** Pre-ideation  
-> **Purpose:** Parse user seed â†’ detect named entity OR match world â†’ confirm before proceeding
+> **Purpose:** Parse user seed → detect named entity OR match world → confirm before proceeding
 
 ---
 
@@ -30,30 +30,81 @@ parsed_seed:
 
 **Before any world matching, check if seed contains a real person's name.**
 
-Scan seed for known public figures â€” living, historical, or widely recognized:
+Scan seed for known public figures — living, historical, or widely recognized:
 - Format patterns: `"as [Name]"`, `"of [Name]"`, `"[Name]'s life"`, `"[Name]'s child"`
 - Entity types: business figures, political figures, scientists, artists, athletes, historical leaders
 
 ```yaml
 examples:
-  "your life as Elon Musk"       â†’ NAMED_ENTITY: "Elon Musk"   â†’ LIVING_PUBLIC_FIGURE
-  "son of Obama"                 â†’ NAMED_ENTITY: "Obama"       â†’ POLITICAL_FIGURE
-  "your life as Einstein"        â†’ NAMED_ENTITY: "Einstein"    â†’ HISTORICAL_FIGURE
-  "your life as a billionaire"   â†’ NO named entity â†’ continue Step 2
-  "child of the US president"    â†’ NO named entity â†’ continue Step 2
+  "your life as Elon Musk"       → NAMED_ENTITY: "Elon Musk"   → LIVING_PUBLIC_FIGURE
+  "son of Obama"                 → NAMED_ENTITY: "Obama"       → POLITICAL_FIGURE
+  "your life as Einstein"        → NAMED_ENTITY: "Einstein"    → HISTORICAL_FIGURE
+  "your life as a billionaire"   → NO named entity → continue Step 1c
+  "child of the US president"    → NO named entity → continue Step 1c
 ```
 
 **If NAMED_ENTITY detected:**
 ```
-â†’ STOP standard flow
-â†’ Run /pvle-extract-anchor with detected entity name + entity_type
-â†’ /pvle-extract-anchor handles: classification, anchor extraction, title options, world build, ingest
-â†’ Rejoin at Step 6 (Proceed) after /pvle-extract-anchor completes
+→ STOP standard flow
+→ Run /pvle-extract-anchor with detected entity name + entity_type
+→ /pvle-extract-anchor handles: classification, anchor extraction, title options, world build, ingest
+→ After /pvle-extract-anchor completes → continue to Step 1c (speech time)
 ```
 
 **If NO named entity detected:**
 ```
-â†’ Continue to Step 2 (standard generic flow below)
+→ Continue to Step 1c (speech time input)
+```
+
+---
+
+## STEP 1c: Speech Time Input
+
+**Ask user:**
+
+```
+🎤 Target speech time cho episode này là bao nhiêu phút?
+   (Ví dụ: 10, 15, 20)
+```
+
+**Wait for user input.**
+
+Once received, compute:
+
+```yaml
+speech_time_config:
+  target_minutes: {{user_input}}                    # e.g. 15
+  wpm: 130                                          # constant: PVLE narration speed
+  
+  # Core calculation
+  target_words: target_minutes * 130                # e.g. 15 * 130 = 1950
+  
+  # Tolerance band: -10% to +20%
+  word_budget_min: target_words * 0.90              # e.g. 1755
+  word_budget_max: target_words * 1.20              # e.g. 2340
+  word_budget_display: "{word_budget_min} - {word_budget_max}"
+  
+  # Duration equivalents
+  duration_min_minutes: word_budget_min / 130       # e.g. 13.5
+  duration_max_minutes: word_budget_max / 130       # e.g. 18.0
+
+# Reference table:
+#   10 min → 1170 - 1560 words →  9.0 - 12.0 min
+#   15 min → 1755 - 2340 words → 13.5 - 18.0 min  
+#   20 min → 2340 - 3120 words → 18.0 - 24.0 min
+```
+
+Store `speech_time_config` — passed to all downstream steps:
+- `/pvle-gen-episode-brief` → `Word_Budget` + `Target_Duration_Min`
+- `/pvle-gen-vo` → validation target (replaces hardcoded ±15%)
+
+Display:
+```
+✅ Speech time config:
+   Target: {{target_minutes}} min
+   Word budget: {{word_budget_min}} - {{word_budget_max}} words
+   Tolerance: -10% / +20%
+→ Proceeding to world matching...
 ```
 
 ---
@@ -69,8 +120,8 @@ For each world in registry:
 
 ```yaml
 match_result:
-  EXACT_MATCH:    "seed_keywords overlap â‰¥ 3 AND domain matches"
-  PARTIAL_MATCH:  "domain matches AND â‰¥ 1 seed_keyword OR privilege_type matches"
+  EXACT_MATCH:    "seed_keywords overlap >= 3 AND domain matches"
+  PARTIAL_MATCH:  "domain matches AND >= 1 seed_keyword OR privilege_type matches"
   NO_MATCH:       "no overlap found"
 ```
 
@@ -81,7 +132,7 @@ match_result:
 Display to user:
 
 ```
-âœ… World found: [WORLD_ID]
+✅ World found: [WORLD_ID]
    Display name: [display_name]
    Domain: [domain]
    Mode: [implied_identity_mode]
@@ -93,7 +144,7 @@ Display to user:
    - [fact 3]
    ...
 
-â†’ Proceed with this world? (yes / create variation / create new)
+→ Proceed with this world? (yes / create variation / create new)
 ```
 
 Wait for user confirmation.
@@ -139,7 +190,7 @@ key_tensions:
    NORMAL_DESIRE_VS_IMPOSSIBLE_REALITY / POWER_VS_ISOLATION / DUTY_VS_SELF / PROTECTION_VS_CONTROL)
 
 accessory_tags:
-  - "[Stickman accessory for this world â€” e.g. earpiece, crown, lab coat]"
+  - "[Stickman accessory for this world — e.g. earpiece, crown, lab coat]"
 
 used_in_episodes: []
 created: "[today's date]"
@@ -152,18 +203,18 @@ Display to user for review and edits.
 ## STEP 4: User Confirms
 
 Wait for explicit user confirmation:
-- "OK" / "proceed" / "looks good" â†’ go to Step 5
-- Edits â†’ apply, redisplay, wait for re-confirmation
+- "OK" / "proceed" / "looks good" → go to Step 5
+- Edits → apply, redisplay, wait for re-confirmation
 
 ---
 
 ## STEP 5: Ingest (if new world)
 
 If world is NEW (Step 3b confirmed):
-â†’ Run `/pvle-ingest-world` automatically
+→ Run `/pvle-ingest-world` automatically
 
 If world is EXISTING (Step 3a confirmed):
-â†’ Skip ingest, proceed directly to `/pvle-gen-outline`
+→ Skip ingest, proceed directly to `/pvle-gen-outline`
 
 ---
 
@@ -171,9 +222,10 @@ If world is EXISTING (Step 3a confirmed):
 
 Report:
 ```
-âœ… World confirmed: [WORLD_ID]
+✅ World confirmed: [WORLD_ID]
    Mode: [implied_identity_mode]
-â†’ Ready for: /pvle-gen-outline [WORLD_ID]
+   Speech time: {{target_minutes}} min ({{word_budget_min}}-{{word_budget_max}} words)
+→ Ready for: /pvle-gen-outline [WORLD_ID]
 ```
 
 ---
@@ -181,4 +233,3 @@ Report:
 ## USER INPUT
 
 > `Seed`: {{user_seed_text}}
-

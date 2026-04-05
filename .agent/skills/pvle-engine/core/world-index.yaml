@@ -19,3 +19,49 @@ worlds:
     tags: [presidential_family, political_privilege, childhood_under_surveillance, identity_formation]
     episodes: [PV_0001]
     created: "2026-04-03"
+
+  WORLD_POLITICS_NAME_ON_EVERYTHING:
+    file: "pvle/worlds/WORLD_POLITICS_NAME_ON_EVERYTHING.yaml"
+    display_name: "The Man Who Put His Name on Everything"
+    domain: POLITICS_BUSINESS
+    identity_mode: TRANSPARENT_VEIL
+    tags: [real_estate_empire, brand_obsession, political_ascent, legacy_hunger, comeback_narrative]
+    episodes: [PV_0002]
+    created: "2026-04-04"
+
+  WORLD_MILITARY_MEDIA_PENTAGON_CHIEF:
+    file: "pvle/worlds/WORLD_MILITARY_MEDIA_PENTAGON_CHIEF.yaml"
+    display_name: "The Weekend Anchor Who Became the Pentagon Chief"
+    domain: MILITARY_MEDIA_POLITICS
+    identity_mode: TRANSPARENT_VEIL
+    tags: [military_veteran, media_personality, culture_warrior, controversial_appointment, loyalty_over_credentials]
+    episodes: [PV_0003]
+    created: "2026-04-05"
+
+  WORLD_MIDEAST_LEADER_FINAL_DECISION:
+    file: "pvle/worlds/WORLD_MIDEAST_LEADER_FINAL_DECISION.yaml"
+    display_name: "The Man Who Had to Make the Final Decision"
+    domain: POLITICS_MILITARY
+    identity_mode: TRANSPARENT_VEIL
+    tags: [longest_serving_leader, iran_obsession, military_commando, brother_martyrdom, political_survival, corruption_trial, final_decision]
+    episodes: [PV_0004]
+    created: "2026-04-05"
+
+  WORLD_SHADOW_HEIR_REVOLUTION:
+    file: "pvle/worlds/WORLD_SHADOW_HEIR_REVOLUTION.yaml"
+    display_name: "The Son Who Inherited a War from the Shadows"
+    domain: POLITICS_MILITARY
+    identity_mode: TRANSPARENT_VEIL
+    tags: [theocratic_dynasty, shadow_power, revolution_heir, invisible_ruler, 2026_iran_war, crackdown_architect]
+    episodes: [PV_0005]
+    created: "2026-04-05"
+
+  WORLD_GUARD_COMMANDER_SHADOW_WAR:
+    file: "pvle/worlds/WORLD_GUARD_COMMANDER_SHADOW_WAR.yaml"
+    display_name: "The Man Who Built a War from the Shadows"
+    domain: POLITICS_MILITARY
+    identity_mode: TRANSPARENT_VEIL
+    tags: [irgc_commander, quds_force_founder, interpol_wanted, amia_bombing, decentralized_war, last_commander_standing]
+    episodes: [PV_0006]
+    created: "2026-04-05"
+

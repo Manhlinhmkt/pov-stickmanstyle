@@ -1,0 +1,171 @@
+# WORLD: WORLD_SHADOW_HEIR_REVOLUTION
+# Generated: 2026-04-05
+# Source: /pvle-extract-anchor (Named Entity Mode)
+# Identity: TRANSPARENT_VEIL / MAXIMUM
+
+world_id: WORLD_SHADOW_HEIR_REVOLUTION
+title: "Your Life as the Son Who Inherited a War from the Shadows"
+domain: POLITICS_MILITARY
+sub_domain: THEOCRATIC_DYNASTY
+privilege_type: HIDDEN_POWER
+era: MODERN_CONTEMPORARY
+identity_mode: TRANSPARENT_VEIL
+veil_strictness: MAXIMUM
+
+implied_identity: "Mojtaba Khamenei — INTERNAL REFERENCE ONLY. Never appears in output."
+
+defining_roles:
+  primary: "the son who inherited the throne of a revolution"
+  secondary: "the shadow commander who crushed protests from behind closed doors"
+  tertiary: "the phantom ruler of a nation at war — governing from a room no one can find"
+
+era_anchors:
+  - year: 1969
+    event: "Born in holy city in the east — clerical family claiming prophetic lineage"
+  - year: 1979
+    event: "Revolution transforms nation — father rises to inner circle of new regime"
+  - year: 1987
+    event: "Joins revolutionary guard at 18 — fights in eight-year war with western neighbor"
+  - year: 1989
+    event: "Father appointed supreme authority — subject is 20 years old"
+  - year: 1989b
+    event: "Enters seminary in the theological capital — pursues clerical rank"
+  - year: 2005
+    event: "First allegations of election interference — engineering preferred candidate's win"
+  - year: 2009
+    event: "Green uprising — orchestrates crackdown via militia from father's office"
+  - year: 2019
+    event: "Fuel price protests — security forces kill 1,500+ under his coordination"
+  - year: 2022
+    event: "Hijab uprising — again suppressed under his shadow command"
+  - year: 2026-02-28
+    event: "Father killed in joint US-Israel airstrike on capital compound"
+  - year: 2026-02-28b
+    event: "Wife killed in same strike — subject reportedly injured"
+  - year: 2026-03-08
+    event: "Named 3rd supreme authority by council of clerics — first dynastic succession"
+  - year: 2026-present
+    event: "Has not appeared publicly — rules from unknown location during active war"
+
+key_facts:
+  - "Born into clerical dynasty in holy city — father was mid-ranking cleric before revolution"
+  - "Revolution happened when he was 10 — entire childhood rewritten overnight"
+  - "Father becomes supreme authority when subject is 20 — moves into the compound"
+  - "Sent to war at 18 — served in revolutionary guard during eight-year war"
+  - "Studied theology in seminary city — achieved mid-ranking clerical title only"
+  - "Never held elected office — all power derived from proximity to father"
+  - "Married speaker's daughter — political marriage into regime aristocracy"
+  - "Controlled militia that crushed 2009 protests — crowds chanted his death"
+  - "Linked to suppression of 2019 and 2022 uprisings — security-state architect"
+  - "Father and wife killed in same airstrike (Feb 28 2026) — subject possibly injured"
+  - "IRGC pressured clerical council to appoint him — not consensus candidate"
+  - "First dynastic transfer in republic's history — revolution becomes monarchy"
+  - "Has not been seen publicly since appointment — governs as phantom"
+  - "Three children — current status and location unknown"
+
+key_tensions:
+  - id: DYNASTY_VS_REVOLUTION
+    description: "The republic was built to destroy dynasties — now it has become one"
+  - id: SHADOW_VS_THRONE
+    description: "He operated best as invisible — now the highest seat demands visibility he cannot provide"
+  - id: SON_VS_LEADER
+    description: "Inherited the title along with an active war he didn't start and can't stop"
+  - id: LEGITIMACY_VOID
+    description: "Mid-ranking cleric in a system that requires highest religious authority"
+  - id: WOUNDED_RULER
+    description: "Possibly injured in the strike that killed his father — rules from incapacity?"
+
+key_locations:
+  - id: LOC_COMPOUND
+    veil_name: "the compound"
+    description: "Supreme authority's residential-administrative complex in the capital"
+  - id: LOC_HOLY_CITY_EAST
+    veil_name: "the holy city in the east"
+    description: "Birthplace — major pilgrimage city"
+  - id: LOC_SEMINARY_CITY
+    veil_name: "the seminary city"
+    description: "Theological capital — where clerical education happens"
+  - id: LOC_CAPITAL
+    veil_name: "the capital"
+    description: "National capital — seat of power, target of strikes"
+  - id: LOC_WARFRONT
+    veil_name: "the western border"
+    description: "Iran-Iraq war frontline (1980s)"
+  - id: LOC_FATHERS_OFFICE
+    veil_name: "your father's office"
+    description: "The office of the supreme authority — where shadow power operated"
+  - id: LOC_UNKNOWN_BUNKER
+    veil_name: "the room no one can find"
+    description: "Current location — undisclosed bunker/safe house post-strike"
+
+character_anchors:
+  SUBJECT:
+    veil_name: "you"
+    role: "the son / the shadow / the heir / the phantom ruler"
+    visual_primary: "Black turban, dark clerical robes, trimmed beard"
+    visual_secondary: "Reading glasses, prayer beads, no insignia of rank"
+    distinguishing: "Always partially in shadow — face never fully lit"
+
+  CHAR_FATHER:
+    veil_name: "your father"
+    role: "the supreme authority — predecessor"
+    visual_primary: "Large black turban, thick glasses, aged clerical robes"
+    visual_secondary: "Walking with slight stoop, always surrounded by guards"
+    appears_in: "EARLY, CONFLICT, CRISIS (death)"
+
+  CHAR_WIFE:
+    veil_name: "your wife"
+    role: "the speaker's daughter — political union"
+    visual_primary: "Full chador, only eyes visible"
+    appears_in: "CONFLICT, CRISIS (death)"
+
+  CHAR_GUARD_COMMANDER:
+    veil_name: "the commander of the guard"
+    role: "IRGC chief — the military power behind the appointment"
+    visual_primary: "Military uniform, no face, broad shoulders"
+    appears_in: "CRISIS, RESOLUTION, PRESENT"
+
+  CHAR_PROTESTERS:
+    veil_name: "the crowd"
+    role: "Protesters from 2009, 2019, 2022 uprisings"
+    visual_primary: "Mass of faceless stickmen with signs, some bleeding"
+    appears_in: "CONFLICT, CRISIS"
+
+  CHAR_BROTHER_FIGURE:
+    veil_name: "the preferred candidate / the other cleric"
+    role: "Alternative succession candidate — blocked by IRGC"
+    visual_primary: "White turban, moderate robes"
+    appears_in: "RESOLUTION"
+
+forbidden_terms:
+  names:
+    - "Mojtaba" → FORBIDDEN
+    - "Khamenei" → FORBIDDEN
+    - "Ali Khamenei" → "your father"
+    - "Haddad-Adel" → FORBIDDEN
+    - "Raisi" → FORBIDDEN
+    - "Ahmadinejad" → "the president you helped install"
+  organizations:
+    - "IRGC" → "the revolutionary guard"
+    - "Basij" → "the militia"
+    - "Assembly of Experts" → "the council of clerics"
+    - "Islamic Republic" → "the republic"
+  places:
+    - "Iran" → "the republic" / "your country"
+    - "Tehran" → "the capital"
+    - "Qom" → "the seminary city"
+    - "Mashhad" → "the holy city in the east"
+    - "Iraq" → "the western neighbor"
+  events:
+    - "Green Movement" → "the green uprising"
+    - "Operation Roaring Lion" → "the joint campaign"
+    - "Operation Rising Lion" → "the solo strikes"
+
+accessory_tags:
+  - black_turban
+  - prayer_beads
+  - clerical_robes
+  - shadow_motif
+
+used_in_episodes: [PV_0005]
+created: "2026-04-05"

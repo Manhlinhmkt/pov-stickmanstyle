@@ -1,0 +1,175 @@
+# World Data — WORLD_MILITARY_MEDIA_PENTAGON_CHIEF
+# Created: 2026-04-05
+# Source: /pvle-extract-anchor (Named Entity Mode)
+
+WORLD_ID: WORLD_MILITARY_MEDIA_PENTAGON_CHIEF
+display_name: "The Weekend Anchor Who Became the Pentagon Chief"
+domain: MILITARY_MEDIA_POLITICS
+era: MODERN_CONTEMPORARY
+implied_identity_mode: TRANSPARENT_VEIL
+implied_person: "Pete Hegseth"
+veil_strictness: MAXIMUM
+
+tags:
+  - military_veteran
+  - media_personality
+  - culture_warrior
+  - controversial_appointment
+  - institutional_disruption
+  - loyalty_over_credentials
+
+seed_keywords:
+  - "Pete Hegseth"
+  - "weekend anchor pentagon"
+  - "TV host defense secretary"
+  - "culture warrior military"
+  - "confirmed by one vote"
+
+era_anchors:
+  - year: 1980
+    event: "Born in small-town Minnesota to a basketball coach and a leadership trainer"
+  - year: 1999
+    event: "Valedictorian — accepted to the Ivy League school in New Jersey"
+  - year: 2004
+    event: "First deployment — guarding detainees at the offshore military prison"
+  - year: 2007
+    event: "Infantry officer in Baghdad and Samarra — two Bronze Stars"
+  - year: 2012
+    event: "Ran for U.S. Senate in his home state — lost"
+  - year: 2014
+    event: "Joined the cable network as on-air contributor"
+  - year: 2017
+    event: "Co-host of the most-watched weekend morning show in the country"
+  - year: 2024
+    event: "Nominated to run the most powerful military in human history"
+  - year: 2025
+    event: "Confirmed 51-50 — the vice president broke the tie"
+
+unique_circumstance_stack:
+  - "Grew up in a small lakeside town — Norwegian heritage, Christian household, father coached basketball"
+  - "Class valedictorian, lettered in football and basketball, ran the conservative student paper at an Ivy League school"
+  - "Commissioned as infantry officer through college ROTC — served in the National Guard for 18 years"
+  - "Three combat deployments: offshore prison, Iraq, Afghanistan — earned two Bronze Stars and a Combat Infantryman Badge"
+  - "Ran a veterans' advocacy nonprofit, then ran for U.S. Senate and lost"
+  - "Pivoted to cable television — became one of the most recognized faces on weekend morning TV"
+  - "Published multiple books on military culture, nationalism, and what he saw as the decline of warrior ethos"
+  - "Married three times — the timelines overlapped more than once"
+  - "Nominated to lead the entire military despite never commanding more than a platoon"
+  - "Confirmed by the narrowest margin possible — one vote, cast by the vice president"
+  - "Shared sensitive operational details on an unsecure messaging app — inspector general confirmed the violation"
+  - "Accused of ordering lethal force beyond rules of engagement during a Caribbean operation"
+
+public_perception_markers:
+  - "Seen as a culture warrior elevated by loyalty, not credentials"
+  - "Celebrated and condemned simultaneously — depends which channel you're watching"
+  - "Every decision at the Pentagon framed as either bold reform or reckless destruction"
+
+forbidden_terms:
+  names:
+    - original: "Pete"
+      replacement: "you"
+    - original: "Hegseth"
+      replacement: "[omit]"
+  companies:
+    - original: "Fox News"
+      replacement: "the network / the cable channel"
+    - original: "Fox & Friends Weekend"
+      replacement: "the weekend show"
+  organizations:
+    - original: "Vets for Freedom"
+      replacement: "the veterans' group"
+    - original: "Concerned Veterans for America"
+      replacement: "the advocacy organization"
+    - original: "Princeton"
+      replacement: "the Ivy League school / the university in New Jersey"
+    - original: "Harvard"
+      replacement: "the rival Ivy / the grad school in Cambridge"
+    - original: "The Princeton Tory"
+      replacement: "the conservative student paper"
+  people:
+    - original: "Trump"
+      replacement: "the president / him"
+    - original: "JD Vance"
+      replacement: "the vice president"
+    - original: "Meredith Schwarz"
+      replacement: "your high school sweetheart"
+    - original: "Samantha Deering"
+      replacement: "your second wife"
+    - original: "Jennifer Rauchet"
+      replacement: "a producer at the network"
+  places:
+    - original: "Forest Lake"
+      replacement: "a small lakeside town"
+    - original: "Guantanamo Bay"
+      replacement: "the offshore military prison"
+    - original: "Pentagon"
+      replacement: "the building / headquarters"
+
+key_facts:
+  - "Born 1980 in Minnesota — father was a basketball coach, mother ran leadership programs"
+  - "Valedictorian, Ivy League politics degree, later master's from rival Ivy"
+  - "18 years in the Army National Guard — infantry officer, rank of Major"
+  - "Three combat deployments: Cuba (2004), Iraq (2007), Afghanistan"
+  - "Two Bronze Stars, Combat Infantryman Badge"
+  - "Failed Senate run in 2012 — pivoted to cable news"
+  - "Weekend morning show co-host for 7 years — became a household name in conservative media"
+  - "Confirmed as Secretary of Defense by 51-50 tie-breaking vote in January 2025"
+
+key_locations:
+  - id: LOC_LAKESIDE_TOWN
+    name: "Small lakeside town, Minnesota"
+    description: "Childhood hometown — basketball courts, church, suburban normalcy"
+  - id: LOC_IVY_CAMPUS
+    name: "The Ivy League campus"
+    description: "Where conviction met intellect — politics degree, ROTC, conservative paper"
+  - id: LOC_OFFSHORE_PRISON
+    name: "The offshore military prison"
+    description: "First deployment — guarding detainees, chain-link fences, Caribbean heat"
+  - id: LOC_BAGHDAD
+    name: "Baghdad / Samarra"
+    description: "Combat deployment — convoys, checkpoints, Bronze Stars"
+  - id: LOC_TV_STUDIO
+    name: "The cable news studio"
+    description: "Weekend show set — couch, cameras, millions watching over breakfast"
+  - id: LOC_PENTAGON
+    name: "The building"
+    description: "The five-sided headquarters — the most powerful military office on Earth"
+
+key_tensions:
+  - CREDENTIAL_VS_LOYALTY
+  - SOLDIER_VS_PERFORMER
+  - CONVICTION_VS_CONSEQUENCE
+  - AMBITION_VS_QUALIFICATION
+
+accessory_tags:
+  - "military dog tags visible under collar"
+  - "American flag lapel pin"
+
+character_anchors:
+  SUBJECT:
+    veil_name: "SUBJECT"
+    visual_phases:
+      CHILD_0_12:
+        description: "Small-town Midwest kid — stocky build, varsity jacket, clean cut"
+      TEEN_13_17:
+        description: "Valedictorian — letterman jacket, earnest posture, confidence beyond his age"
+      YOUNG_ADULT_18_25:
+        description: "Ivy League ROTC cadet then newly commissioned officer — dress uniform, crisp bearing"
+      ADULT_COMBAT:
+        description: "Infantry officer — combat gear, helmet, desert camo, Bronze Star ribbon"
+      ADULT_MEDIA:
+        description: "Weekend anchor — suit and flag pin, studio lighting, camera-ready posture"
+      ADULT_PENTAGON:
+        description: "Defense secretary — dark suit, dog tags under collar, standing in the five-sided building"
+  AGENTS:
+    veil_name: "SECRET_SERVICE"
+    description: "Faceless stickmen — dark suits, earpieces, blank circle heads"
+  MILITARY_FIGURES:
+    veil_name: "GENERALS"
+    description: "Tall stickmen with star insignia — formal bearing, stoic"
+  NETWORK_FIGURES:
+    veil_name: "PRODUCERS"
+    description: "Stickmen with headsets and clipboards — studio backdrop"
+
+used_in_episodes: []
+created: "2026-04-05"

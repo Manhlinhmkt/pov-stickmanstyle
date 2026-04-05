@@ -17,14 +17,14 @@ skills_required:
 ### A1: Read Inputs
 
 Load:
-- `l2_breakdown_table.csv` â†’ all beats with Life_Phase, Beat_Type, Mood_Tag, Content_Sketch
-- `episode_brief.md` â†’ Stickman_Accessory, Key_Locations, Core_Tension, Episode_Notes, **Identity_Mode**
-- `phase-2/scripting-rules.md` â†’ VOICE_POV_DRAMATIST patterns, sentence rules
-- `phase-2/scripting-rules.md` â†’ phase-level rhetorical strategies
-- `phase-1/ideation-rules.md` â†’ Hook_Type template for this episode
+- `l2_breakdown_table.csv` → all beats with Life_Phase, Beat_Type, Mood_Tag, Content_Sketch
+- `episode_brief.md` → Stickman_Accessory, Key_Locations, Core_Tension, Episode_Notes, **Identity_Mode**, **Word_Budget** (from speech_time_config)
+- `phase-2/scripting-rules.md` → VOICE_POV_DRAMATIST patterns, sentence rules
+- `phase-2/scripting-rules.md` → phase-level rhetorical strategies
+- `phase-1/ideation-rules.md` → Hook_Type template for this episode
 
 **If Identity_Mode = TRANSPARENT_VEIL:**
-- Also load `pvle/worlds/{WORLD_ID}.yaml` â†’ extract:
+- Also load `pvle/worlds/{WORLD_ID}.yaml` → extract:
   - `forbidden_terms` (names, companies, places + replacement phrases)
   - `era_anchors` (inject into TIME_MARKER beats)
   - `unique_circumstance_stack` (inject into PHASE_EARLY + PHASE_CONFLICT beats)
@@ -65,17 +65,17 @@ For each beat's `VO_Draft_EN`:
 
 ### B2: Translate to Japanese (VO_JA)
 
-Apply translation rules from `phase-2/scripting-rules.md Â§6 VO_JA`:
-- Address: ã‚ãªãŸ (always)
+Apply translation rules from `phase-2/scripting-rules.md §6 VO_JA`:
+- Address: あなた (always)
 - Natural spoken Japanese, not literal translation
 - Short EN = short JA (match rhythm)
-- US proper nouns keep English (White House â†’ ãƒ›ãƒ¯ã‚¤ãƒˆãƒã‚¦ã‚¹ in katakana)
-- Formality: neutral â€” plain form for dramatic lines
+- US proper nouns keep English (White House → ホワイトハウス in katakana)
+- Formality: neutral — plain form for dramatic lines
 
 ### B3: Translate to Vietnamese (VO_VI)
 
-Apply translation rules from `phase-2/scripting-rules.md Â§6 VO_VI`:
-- Address: báº¡n (always)
+Apply translation rules from `phase-2/scripting-rules.md §6 VO_VI`:
+- Address: bạn (always)
 - Natural documentary-style Vietnamese
 - Tighten aggressively (Vietnamese runs longer than EN)
 - US proper nouns: keep English names
@@ -83,7 +83,7 @@ Apply translation rules from `phase-2/scripting-rules.md Â§6 VO_VI`:
 
 ### B4: Assign Pause Values
 
-Apply pause rules from `phase-2/scripting-rules.md Â§4`:
+Apply pause rules from `phase-2/scripting-rules.md §4`:
 - After TIME_MARKER: 1.0
 - After WEIGHT_LINE: 1.5
 - At phase transitions (last line of each phase): 2.0
@@ -94,11 +94,11 @@ Apply pause rules from `phase-2/scripting-rules.md Â§4`:
 
 Before output:
 - [ ] ALL rows have VO_EN + VO_JA + VO_VI populated (RULE_TRILINGUAL_COMPLETENESS)
-- [ ] All rows â‰¥ 2 words in VO_EN (RULE_TTS_COMPLIANCE)
-- [ ] Every "you"/"your" in VO_EN â†’ ã‚ãªãŸ/ã‚ãªãŸã® in VO_JA â†’ báº¡n/cá»§a báº¡n in VO_VI
+- [ ] All rows ≥ 2 words in VO_EN (RULE_TTS_COMPLIANCE)
+- [ ] Every "you"/"your" in VO_EN → あなた/あなたの in VO_JA → bạn/của bạn in VO_VI
 - [ ] No inline pause markers in any VO column
-- [ ] Pause_After at phase transitions â‰¥ required minimums (core/validation-core.md)
-- [ ] Total Word_Count_EN â‰ˆ episode word budget (Â±10%)
+- [ ] Pause_After at phase transitions ≥ required minimums (core/validation-core.md)
+- [ ] Total Word_Count_EN within speech_time_config range (word_budget_min to word_budget_max, i.e. -10% to +20% of target)
 - [ ] VO_ID is sequential with no gaps
 
 ### B5b: Veil Enforcement (TRANSPARENT_VEIL only)
@@ -109,21 +109,21 @@ For every row in vo_script_table.csv, scan VO_EN, VO_JA, VO_VI:
 
 ```yaml
 scan_order:
-  1. forbidden_terms.names    â†’ on match: REMOVE or REPLACE with "you" context
-  2. forbidden_terms.companies â†’ on match: REPLACE with approved_phrase from mapping
-  3. forbidden_terms.places   â†’ on match: REPLACE with approved_phrase
-  4. forbidden_bypass check   â†’ initials, nicknames, partial names â†’ FLAG + FIX
+  1. forbidden_terms.names    → on match: REMOVE or REPLACE with "you" context
+  2. forbidden_terms.companies → on match: REPLACE with approved_phrase from mapping
+  3. forbidden_terms.places   → on match: REPLACE with approved_phrase
+  4. forbidden_bypass check   → initials, nicknames, partial names → FLAG + FIX
 
 examples:
-  "Tesla stock" â†’ "the electric car company's stock"
-  "At SpaceX"   â†’ "At the rocket company"
-  "ãƒ†ã‚¹ãƒ©"       â†’ "é›»æ°—è‡ªå‹•è»Šä¼šç¤¾"
-  "Tesla"       â†’ "cÃ´ng ty xe Ä‘iá»‡n"
+  "Tesla stock" → "the electric car company's stock"
+  "At SpaceX"   → "At the rocket company"
+  "テスラ"       → "電気自動車会社"
+  "Tesla"       → "công ty xe điện"
 
 era_anchor_check:
-  - Verify â‰¥ 2 era_anchors appear somewhere in VO_EN rows (RULE_ERA_ANCHOR_INJECTION)
-  - Verify â‰¥ 3 unique_circumstance_stack items appear in PHASE_EARLY/PHASE_CONFLICT rows
-  - Verify â‰¥ 1 public_perception_marker echoed in PHASE_CONFLICT/PHASE_CRISIS rows
+  - Verify ≥ 2 era_anchors appear somewhere in VO_EN rows (RULE_ERA_ANCHOR_INJECTION)
+  - Verify ≥ 3 unique_circumstance_stack items appear in PHASE_EARLY/PHASE_CONFLICT rows
+  - Verify ≥ 1 public_perception_marker echoed in PHASE_CONFLICT/PHASE_CRISIS rows
   - If missing: insert as additional NARRATION row in appropriate phase
 ```
 
@@ -142,7 +142,6 @@ Columns: `VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_JA,VO_V
 ## EXAMPLE OUTPUT ROW
 
 ```csv
-1,PV_0001,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"The moment you are born, the world already knows your name.","ã‚ãªãŸãŒç”Ÿã¾ã‚ŒãŸçž¬é–“ã€ä¸–ç•Œã¯ã™ã§ã«ã‚ãªãŸã®åå‰ã‚’çŸ¥ã£ã¦ã„ãŸã€‚","Khoáº£nh kháº¯c báº¡n chÃ o Ä‘á»i, tháº¿ giá»›i Ä‘Ã£ biáº¿t tÃªn báº¡n rá»“i.",11,0
 1,PV_0001,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"The moment you are born, the world already knows your name.","あなたが生まれた瞬間、世界はすでにあなたの名前を知っていた。","Khoảnh khắc bạn chào đời, thế giới đã biết tên bạn rồi.",11,0
 2,PV_0001,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"There are men outside the door.","扉の外には男たちがいる。","Có những người đàn ông đứng ngoài cửa.",6,0
 3,PV_0001,BEAT_01_01,HOOK,ESTABLISH,WEIGHT_LINE,"There always will be.","これからもずっと。","Và họ luôn ở đó.",4,1.5
@@ -270,7 +269,7 @@ checks:
   WORD_COUNT:
     total_en: calculate
     duration_estimate: total / 130 wpm
-    target_check: within ±15% of episode word budget
+    target_check: within speech_time_config.word_budget_min to speech_time_config.word_budget_max (-10% / +20%)
 ```
 
 ### D2: Generate Compliance Report
@@ -331,7 +330,7 @@ OVERALL: {PASS / NEEDS_ADJUSTMENT}
 
 ### E1: Load Performance Rules
 
-Load `phase-2/performance-rules.md` — all 6 layers + retention map + viral checklist.
+Load `phase-2/performance-rules.md` — all layers (P1–P9) + retention map + viral checklist + anti-patterns.
 
 ### E2: Map Retention Dip Zones
 
@@ -367,7 +366,7 @@ Insert 1-2 clip-worthy dualities:
 ### E6: Apply Layer P4 — Phase Transitions
 
 Check energy drops between phases:
-- If CRISIS → RESOLUTION has no bridge → add "And then it's over. / Just like that."
+- If CRISIS → RESOLUTION has no bridge → add short punch (max 2 lines)
 - Bridge = max 2 lines, short punch
 
 ### E7: Apply Layer P5 — Roughen Clean Lines
@@ -382,16 +381,41 @@ Split 2-3 polished lines into fragments:
 Re-check after all performance edits:
 1. All uncertainty patterns still ≤ 3 each
 2. No 2 consecutive WEIGHT_LINEs (except clip duality)
-3. Total word count still within ±15% of target
+3. Total word count still within speech_time_config range (-10% / +20%)
 4. New insertions don't create repetitive pattern
 
-### E9: Translate New Lines
+### E9: Apply Layer P7 — Narrator Texture
 
-For every new EN line added in E3-E7:
+Apply narrator-layer rules from `performance-rules.md §12`:
+- Add 1-2 narrator self-corrections (mid-sentence right-word-finding)
+- Add 1-2 useless human moments (non-metaphorical sensory noise)
+- Vary motif syntactic structure at anchor points
+- Add 1 cognitive friction point (forces active processing)
+- Verify ellipsis count ≤ 1 per episode (narrator correction only)
+
+### E10: Apply Layer P8 — Rhythm & Tension
+
+Apply rhythm rules from `performance-rules.md §13`:
+- Verify ≥ 3 sentences >20 words with delayed meaning in mid-section
+- Add 1 physical foreboding spike before CRISIS (body-based, not analytical)
+- Add 1 ambient dread zone at CONFLICT→CRISIS transition
+- Check information density: long sentences must carry uneven cognitive load
+
+### E11: Apply Layer P9 — Production Discipline
+
+Apply production discipline from `performance-rules.md §14`:
+- WEIGHT_LINE pattern break: anchor lines must break motif's syntactic prediction
+- Reframe over insert: prefer rewriting existing lines over adding new ones
+- Humanization density check: ≥ 1 texture point per 50 lines minimum
+- Version awareness: confirm current line count matches expected
+
+### E12: Translate New Lines
+
+For every new EN line added in E3-E11:
 - Generate VO_JA + VO_VI
 - Update Word_Count_EN + Pause_After
 
-### E10: Renumber + Output
+### E13: Renumber + Output
 
 1. Renumber all VO_ID sequentially
 2. Overwrite `vo_script_table.csv`
@@ -432,7 +456,7 @@ checks:
   ENDING:
     scan: Last 5 lines contain fragment/unfinished thought
 
-  # === PERFORMANCE CHECKS ===
+  # === PERFORMANCE CHECKS (P1-P6) ===
   REHOOK_COUNT:
     scan: Count re-hook patterns
     threshold: "≥ 3, ≤ 5"
@@ -448,12 +472,48 @@ checks:
   TRANSITION_BRIDGE:
     scan: Bridge at CRISIS→RESOLUTION
     threshold: ≥ 1
+
+  # === NARRATOR TEXTURE CHECKS (P7-P9) ===
+  NARRATOR_TEXTURE:
+    self_correction: ≥ 1
+    useless_moment: ≥ 1
+    motif_vary: "no 3+ consecutive identical positions"
+    ellipsis: ≤ 1
+
+  RHYTHM_TENSION:
+    long_sentences: "≥ 3 sentences >20w with delayed meaning"
+    emotional_spike: ≥ 1 physical foreboding before CRISIS
+    
+  HUMANIZATION_DENSITY:
+    scan: Count texture points per 50 lines
+    threshold: ≥ 1 per 50 lines
+
+  # === RHYTHM & DEPTH CHECKS (P10-P12) ===
+  RHYTHM_DISTRIBUTION:
+    scan: Count lines by word-count range
+    targets:
+      short_1_5: "3-6%"
+      base_6_14: "65-78%"
+      surge_20_30: "4-8% (minimum 4 lines)"
+    fail_action: "Rewrite medium lines at inflection points as surges"
+
+  MICRO_CRACK:
+    scan: Identify body-betrayal suppression lines in CRISIS
+    threshold: "= 1"
+    test: "3-beat pattern (body act → involuntary → override)"
+    integrity: "No verbal acknowledgment, no behavior change after"
+
+  NEAR_BREAK:
+    scan: Identify bandwidth-overload recovery lines in RESOLUTION/PRESENT
+    threshold: "= 1"
+    test: "4-beat pattern (overwhelm → blur → recover → seal)"
+    placement: "Must NOT be in same phase as micro-crack"
     
   # === GENERAL CHECKS ===
   WORD_COUNT:
     total_en: calculate
     duration_estimate: total / 130 wpm
-    target_check: within ±15% of episode word budget
+    target_check: within speech_time_config.word_budget_min to speech_time_config.word_budget_max (-10% / +20%)
     
   TRILINGUAL:
     scan: All rows have VO_EN + VO_JA + VO_VI
@@ -487,15 +547,32 @@ Contraction: {n} remaining formal ✅/⚠️
 Density: {n} violations ✅/⚠️
 Ending: Imperfect ✅/❌
 
-─── PERFORMANCE ───
+─── PERFORMANCE (P1-P6) ───
 Re-hooks: {n} ✅/⚠️
 Emotional spike: {n} ✅/❌
 Clip moment: {n} ✅/❌
 Transition bridge: {n} ✅/❌
 
+─── NARRATOR TEXTURE (P7-P9) ───
+Self-correction: {n} ✅/❌
+Useless moment: {n} ✅/❌
+Motif vary: ✅/❌
+Rhythm break (>20w): {n} ✅/❌
+Physical foreboding: {n} ✅/❌
+Humanization density: {ratio} ✅/⚠️
+
+─── RHYTHM & DEPTH (P10-P12) ───
+Surge sentences (20-30w): {n} / 4-8 target ✅/❌
+Short punches (1-5w): {n}% ✅/⚠️
+Base rhythm (6-14w): {n}% ✅/⚠️
+Micro-crack (CRISIS): {present/missing} ✅/❌
+Near-break (RESOLUTION/PRESENT): {present/missing} ✅/❌
+Crack/break phase separation: ✅/❌
+
 ─── OVERALL ───
 Humanize: {PASS/NEEDS_FIX}
 Performance: {PASS/NEEDS_FIX}
+Rhythm & Depth: {PASS/NEEDS_FIX}
 FINAL: {READY / NEEDS_ADJUSTMENT}
 ```
 

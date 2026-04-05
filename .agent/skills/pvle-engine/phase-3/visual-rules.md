@@ -71,11 +71,14 @@ Matches key_locations from WORLD_*.yaml.
 ```
 --no realistic human faces, no complex facial features, no detailed clothing folds,
 no body shading on stickman characters, no 3D render on characters, no anime style,
-no chibi proportions, no filled body volume, no oversized main character
+no chibi proportions, no filled body volume, no oversized main character,
+no text overlay, no subtitles, no captions, no written words, no readable text in image,
+no door signs, no name plates, no labels, no watermarks, no speech bubbles
 ```
 
 > Note: "no photorealism" removed — background SHOULD be near-photorealistic painted style.
 > Negative applies to CHARACTERS only, not backgrounds.
+> Text prohibition applies to ENTIRE image — no readable text anywhere.
 
 ---
 
@@ -163,13 +166,25 @@ CALLBACK_CLOSE:   [NARRATIVE_SCENE, TEXT_OVERLAY]
 RULE_PROMPT_COMPONENTS:
   required_in_every_image_prompt:
     - STYLE_LOCK prefix
-    - NEGATIVE_SUFFIX
+    - NEGATIVE_SUFFIX (full version including text prohibition)
     - Specific background (not generic)
   forbidden:
     - Generic backgrounds ("a room", "outside", "somewhere")
     - Realistic face descriptions
     - Photorealism keywords
   on_violation: REVISE_PROMPT
+
+RULE_NO_VO_TEXT_IN_PROMPT:
+  check: "Image prompt must contain ZERO verbatim sentences from VO_EN"
+  rationale: "Image generators interpret verbatim VO text as subtitle/caption instructions"
+  forbidden:
+    - Copying VO_EN lines directly into prompt description
+    - Including full VO sentences as 'context lines'
+    - Quoting narrative phrases inside scene description block
+  allowed:
+    - Visual paraphrase of VO content (describe WHAT IS SEEN, not what is said)
+    - Short location/action refs: 'stickman at school desk' not 'you sit at your desk'
+  on_violation: REWRITE_PROMPT_AS_VISUAL_DESCRIPTION_ONLY
 
 RULE_ACCESSORY_CONSISTENCY:
   check: "Same accessory description word-for-word in all prompts of same episode"

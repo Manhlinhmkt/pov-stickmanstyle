@@ -18,7 +18,11 @@ skills_required:
 Load:
 - `vo_script_table.csv` → VO_ID, Beat_ID, Life_Phase, Beat_Type, VO_Type, VO_EN, Word_Count_EN, Pause_After
 - `l2_breakdown_table.csv` → Beat_ID → Illustration_Note mapping
-- `episode_brief.md` → Stickman_Accessory, Key_Locations, Opening_Scene
+- `episode_brief.md` → Stickman_Accessory, Key_Locations, Opening_Scene, **CHARACTER REGISTRY**
+
+From CHARACTER REGISTRY in `episode_brief.md`, extract:
+- `character_table[]` — list of all Char_IDs with veil_name, visual_summary, appears_in_phases
+- `subject_phase_traits{}` — map of Life_Phase → {height, hair, clothing, face, distinguishing}
 
 ---
 
@@ -26,13 +30,17 @@ Load:
 
 Load:
 - `phase-3/illustration-mapping-rules.md` → strip grouping logic
-- `phase-3/visual-rules.md` → scene type formulas + style constants
+- `phase-3/visual-rules.md` → scene type formulas + style constants + character injection rules
 
 Extract style constants:
 ```
-STYLE_LOCK: "Minimalist stickman illustration. Simple stick figure with round white circle head and thin black body lines, no facial features."
+STYLE_LOCK: "Simple stickman character with oversized round white circle head,
+dot eyes, and minimal mouth expression. Body drawn with thin black lines.
+Clothing as simple flat-colored shapes (no detail, no folds, no shading)."
 
-NEGATIVE_SUFFIX: "--no realistic human faces, no photorealism, no anime style, no chibi proportions, no 3D render, no facial features on stickman, no complex shading on characters"
+NEGATIVE_SUFFIX: "--no realistic human faces, no complex facial features, no detailed clothing folds,
+no body shading on stickman characters, no 3D render on characters, no anime style,
+no chibi proportions, no filled body volume, no oversized main character"
 
 PRIMARY_ACCESSORY: [from episode_brief.md Stickman_Accessory]
 ```
@@ -107,49 +115,105 @@ Columns: `Strip_ID,Start_VO_ID,End_VO_ID,VO_Count,Life_Phase,Scene_Type,Duration
 
 For each strip in `illustration_strip_table.csv`, generate 1 image prompt.
 
-**Select formula by Scene_Type (from visual-rules.md §4):**
+### 4a: Look up Character Traits
+
+Before writing each prompt:
+1. Get `Life_Phase` from strip
+2. Look up `subject_phase_traits[Life_Phase]` → height, hair, clothing, face, distinguishing
+3. Check if any supporting characters appear in this Life_Phase → look up their visual_summary from character_table
+4. AGENTS: always FACELESS (blank white circle head, no eyes, no mouth) whenever in scene
+
+Phase-to-traits lookup order:
+```yaml
+HOOK:             → CHILD_0_6 traits (or episode-specific if stated in registry)
+PHASE_EARLY:      → CHILD_0_6 (early beats) → CHILD_7_12 (later beats)
+PHASE_CONFLICT:   → TEEN_13_17 traits
+PHASE_CRISIS:     → ADULT_18_PLUS traits
+PHASE_RESOLUTION: → ADULT_18_PLUS traits
+PHASE_PRESENT:    → ADULT_18_PLUS traits
+CALLBACK_CLOSE:   → ADULT_18_PLUS traits
+```
+
+### 4b: Build CHARACTER BLOCK
+
+For NARRATIVE_SCENE, CONTRAST_SPLIT, EMOTIONAL_CLOSEUP:
+```
+SUBJECT_BLOCK: "{height}. {hair}. {clothing}. {face}. {distinguishing}."
+
+SUPPORT_BLOCK (only if character.appears_in_phases includes this strip's Life_Phase):
+  "{character.veil_name}: {character.visual_summary}."
+
+AGENTS_BLOCK (if agents are in scene context):
+  "FACELESS dark-suited stickman figures (blank white circle head, small earpiece dot, rigid upright posture)."
+```
+
+For TIME_SKIP_SCENE:
+```
+Per panel, use the respective phase's subject_phase_traits
+LEFT_PANEL_BLOCK: "{younger_phase traits}"
+RIGHT_PANEL_BLOCK: "{older_phase traits}"
+```
+
+For POV_SHOT:
+```
+HANDS_BLOCK: "Two simple flat black stickman hands at bottom frame corners —
+{small child hands / large adult hands per Life_Phase}, {clothing cue from phase traits}."
+```
+
+### 4c: Select Formula by Scene_Type
 
 ```yaml
 NARRATIVE_SCENE:
-  formula: "{STYLE_LOCK} {ACCESSORY}. {ACTION from Strip_Summary} in {LOCATION — detailed, colorful, architectural}. Flat illustration, clean lines. {NEGATIVE_SUFFIX}"
+  formula: "{STYLE_LOCK} {SUBJECT_BLOCK} {SUPPORT_BLOCK if applicable}. {ACTION from Strip_Summary} in {LOCATION — detailed, colorful, architectural}. {AGENTS_BLOCK if applicable}. Flat illustration, clean lines. {NEGATIVE_SUFFIX}"
 
 TIME_SKIP_SCENE:
-  formula: "Split panel illustration, time skip. Left panel labeled 'AGE {X}': {STYLE_LOCK} {CHILD_CONTEXT} in {CHILDHOOD_LOCATION}. Right panel labeled 'AGE {Y}': {STYLE_LOCK} {ADULT_CONTEXT} in {ADULT_LOCATION}. Clean dividing line. Flat illustration. {NEGATIVE_SUFFIX}"
-  note: "Use when Strip_Summary references age transition"
+  formula: "{STYLE_LOCK} Two-panel layout. Clean vertical dividing line. Left panel label '{AGE X}': {LEFT_PANEL_BLOCK} in {EARLIER_LOCATION}. Right panel label '{AGE Y}': {RIGHT_PANEL_BLOCK} in {LATER_LOCATION}. Minimal flat color palette. {Strip_Summary context line}. {NEGATIVE_SUFFIX}"
+  note: "Use subject_phase_traits for EACH panel's respective age phase separately"
 
 POV_SHOT:
-  formula: "First-person POV illustration. Two simple flat black stickman hands {HAND_POSITION} at bottom frame corners. {DETAILED_VIEW from Strip_Summary}. Flat illustration, immersive. {NEGATIVE_SUFFIX}"
+  formula: "First-person POV illustration. {HANDS_BLOCK}. Rich, detailed background: {DETAILED_LOCATION from key_locations, specific architecture}. {Strip_Summary context line}. Flat illustration, immersive perspective. {NEGATIVE_SUFFIX}"
 
 EMOTIONAL_CLOSEUP:
-  formula: "{STYLE_LOCK} {POSTURE_CUE from Mood_Tag: LONGING=hunched/DREAD=curled/PRIDE=upright}. Background fades from {LOCATION_DETAIL} on one edge to pure white opposite. {COLOR_TINT from visual-rules.md §5}. Flat illustration. {NEGATIVE_SUFFIX}"
+  formula: "{STYLE_LOCK} {SUBJECT_BLOCK} {POSTURE_CUE: hunched forward/standing rigid/standing still head tilted}. Background fades from {LOCATION_REFERENCE} on one side to pure white opposite. {COLOR_TINT from visual-rules.md §5}. Single subject, centered. {Strip_Summary context line}. Flat illustration. {NEGATIVE_SUFFIX}"
 
 TEXT_OVERLAY:
-  formula: "{BACKGROUND_COLOR} background. Large bold {TEXT_COLOR} sans-serif text centered: '{KEY_PHRASE from Strip_Summary}'. {Optional: smaller second line}. Flat design, premium typography. {NEGATIVE_SUFFIX}"
+  formula: "{BACKGROUND_COLOR} background. Large bold {TEXT_COLOR} sans-serif text centered: '{KEY_PHRASE from Strip_Summary}'. {Optional smaller secondary text line}. Flat design, premium typography. {NEGATIVE_SUFFIX}"
 
 CONTRAST_SPLIT:
-  formula: "Split screen, vertical dividing line. LEFT labeled 'YOU': {STYLE_LOCK} {SUBJECT_WITH_PRIVILEGE} in {PRIVILEGE_ENVIRONMENT}. RIGHT labeled 'EVERYONE ELSE': same stickman in {NORMAL_EQUIVALENT_ENVIRONMENT}. Flat illustration. {NEGATIVE_SUFFIX}"
+  formula: "{STYLE_LOCK} {SUBJECT_BLOCK}. Vertical split composition. Clean dividing line center. Left side label 'YOU': {SUBJECT in extraordinary/exclusive context}. Right side label '{CONTRAST_LABEL}': same stickman proportions in ordinary equivalent context. {Strip_Summary context}. Equal sizing both sides. Flat color palette. {NEGATIVE_SUFFIX}"
 ```
 
 **COLOR_TINT rules (from visual-rules.md §5):**
 ```
-LONGING / TENSION     → cool blue wash
-DREAD                 → desaturated cold grey
-BITTERSWEET           → warm amber glow
-PRIDE / CLARITY       → soft gold light
+LONGING / TENSION     → cool blue wash fading at edges
+DREAD                 → desaturated cold grey vignette at edges
+BITTERSWEET           → warm amber glow at edges
+PRIDE / CLARITY       → soft gold light from upper right
 WONDER                → neutral bright (no tint)
+DEEP_CONNECTION       → soft warm white — edges slightly blurred
 ```
 
 ---
 
 ## STEP 5: Validate Image Prompts
 
+> **CRITICAL RULE — RULE_NO_VO_TEXT_IN_PROMPT:**  
+> Image prompt phải mô tả thuần visual — KHÔNG được copy VO_EN vào prompt.  
+> VO text trong prompt = image generator tạo subtitle/caption text trong ảnh.  
+> Hãy diễn đạt bằng visual description: "stickman sitting at desk" thay vì "you sit at your desk".
+
 - [ ] Prompt count == Strip count (1:1 mapping from strips, NOT from VO lines)
-- [ ] Every prompt starts with STYLE_LOCK (except POV_SHOT and TEXT_OVERLAY)
-- [ ] Every prompt ends with NEGATIVE_SUFFIX
-- [ ] Slate IDs match Strip_IDs
-- [ ] No generic backgrounds ("a room", "outside")
+- [ ] Every NARRATIVE_SCENE / EMOTIONAL_CLOSEUP / CONTRAST_SPLIT / TIME_SKIP_SCENE starts with STYLE_LOCK
+- [ ] Every prompt ends with full NEGATIVE_SUFFIX (including text prohibition block)
+- [ ] **ZERO verbatim VO_EN sentences in any prompt** (RULE_NO_VO_TEXT_IN_PROMPT)
+- [ ] Slate IDs match Strip_IDs exactly
+- [ ] No generic backgrounds ("a room", "outside", "somewhere")
 - [ ] No realistic face descriptions in any prompt
-- [ ] Accessory description identical across all prompts in episode
+- [ ] CHARACTER BLOCK traits match the strip's Life_Phase (height / hair / clothing must be phase-consistent)
+- [ ] AGENTS described as FACELESS in every scene they appear in
+- [ ] Supporting characters (FATHER, MOTHER, SIBLINGS) only appear in prompts when appears_in_phases matches
+- [ ] Real names ABSENT from all prompts — veil_name used throughout
+- [ ] POV_SHOT hand descriptions match Life_Phase (child hands in HOOK/EARLY, adult hands in CRISIS+)
 
 ---
 
@@ -161,7 +225,7 @@ File: `pvle/episodes/{EP}/image_prompts.csv`
 
 Columns: `Slate,Start_VO_ID,End_VO_ID,Life_Phase,Scene_Type,Image_Prompt`
 
-> **Note:** Slate now maps to Strip_ID (1:1 with strips, not with VO lines).
+> **Note:** Slate maps to Strip_ID (1:1 with strips, not with VO lines).
 > `Start_VO_ID` and `End_VO_ID` indicate which VO lines this image covers.
 
 ---

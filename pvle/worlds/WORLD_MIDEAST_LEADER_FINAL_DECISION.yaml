@@ -1,0 +1,147 @@
+WORLD_ID: WORLD_MIDEAST_LEADER_FINAL_DECISION
+display_name: "The Man Who Had to Make the Final Decision"
+domain: POLITICS_MILITARY
+era: MODERN_CONTEMPORARY
+implied_identity_mode: TRANSPARENT_VEIL
+implied_person: "Benjamin Netanyahu"
+veil_strictness: MAXIMUM
+
+tags:
+  - longest_serving_leader
+  - iran_obsession
+  - military_commando
+  - brother_martyrdom
+  - political_survival
+  - corruption_trial
+  - security_failure
+  - final_decision
+
+seed_keywords:
+  - "Benjamin Netanyahu"
+  - "longest-serving prime minister"
+  - "Iran nuclear threat"
+  - "final decision"
+  - "commando unit veteran"
+  - "brother killed in raid"
+
+# === NARRATIVE SPINE ===
+# B-spine: 50 years from brother's death → Iran obsession → solo strikes → joint war
+# C-layer: political survival (scandals, trials, comebacks) explains WHY he's still the one deciding
+
+defining_roles:
+  primary: "the longest-serving leader of a Middle Eastern democracy"
+  secondary: "the man who spent five decades defining his nation's security through the Iran threat"
+  tertiary: "the leader who lost a brother to a hostage rescue and never stopped fighting that war"
+
+era_anchors:
+  - year: 1949
+    event: "Born in a Middle Eastern capital to a family of Zionist intellectuals"
+  - year: 1963
+    event: "Family moves to suburban America — father teaches at a university"
+  - year: 1967
+    event: "Returns home at 18 to serve in an elite commando unit"
+  - year: 1972
+    event: "Shot in the shoulder during a hijacked airplane rescue on the tarmac"
+  - year: 1976
+    event: "Older brother killed leading the most famous hostage rescue in modern history"
+  - year: 1982
+    event: "Enters diplomacy — becomes deputy ambassador to the US"
+  - year: 1988
+    event: "Returns home, enters domestic politics"
+  - year: 1996
+    event: "Elected youngest leader of the nation at 46"
+  - year: 1999
+    event: "Voted out after one term — first major political death"
+  - year: 2002
+    event: "UN speech with prop visual — declares regional enemy the existential threat"
+  - year: 2009
+    event: "Returns to power — begins 12+ year tenure"
+  - year: 2015
+    event: "Addresses US Congress without presidential invitation to oppose nuclear deal"
+  - year: 2020
+    event: "Criminal trial begins — bribery, fraud, breach of trust (3 cases)"
+  - year: 2023
+    event: "October 7 — worst security failure in nation's history on his watch"
+  - year: 2024
+    event: "Multi-front war — responds with overwhelming force in neighboring territory"
+  - year: 2025_jun
+    event: "Operation Rising Lion — solo strikes on nuclear facilities of regional adversary"
+  - year: 2026_feb
+    event: "Operation Roaring Lion — joint campaign with US ally against regional adversary (ongoing)"
+
+unique_circumstance_stack:
+  - "Family of intellectuals — father was a historian obsessed with persecution and survival"
+  - "Older brother was national hero — killed leading Entebbe raid at 30"
+  - "Served in elite commando unit — shot during hijacking rescue in 1972"
+  - "Lived in America as teenager and young adult — speaks flawless English, thinks in both cultures"
+  - "Youngest leader ever elected in his country — at 46"
+  - "Lost power after one term — spent a decade in political wilderness"
+  - "Came back and stayed for over 12 consecutive years — longer than any predecessor"
+  - "Three marriages — current wife is polarizing public figure in her own right"
+  - "Facing criminal trial on 3 corruption cases while serving as wartime leader"
+  - "October 7 happened under his watch — 1,200 killed in worst security breach in nation's history"
+  - "Refused to take personal responsibility — blamed intelligence establishment"
+  - "Launched solo strikes on Iran's nuclear sites (June 2025) — a decision decades in the making"
+  - "Joint campaign with US against Iran (Feb 2026) — ongoing, largest regional operation since 2003"
+  - "Requested presidential pardon for corruption charges while conducting war"
+
+public_perception_markers:
+  - "Most divisive figure in his nation's history — worshipped by half, despised by half"
+  - "Seen internationally as either indispensable security hawk or authoritarian survivor"
+  - "Every action interpreted through lens of personal political survival vs. national interest"
+  - "Name triggers immediate strong reaction — no neutrality possible"
+
+forbidden_terms:
+  names:
+    - "Benjamin" → "you"
+    - "Netanyahu" → [omit]
+    - "Bibi" → [omit]
+    - "Sara" → "your wife"
+    - "Yonatan" / "Yoni" → "your brother"
+    - "Yair" → "your eldest son"
+    - "Benzion" → "your father"
+  organizations:
+    - "Likud" → "the party" / "your party"
+    - "Sayeret Matkal" → "the commando unit" / "the elite unit"
+    - "Knesset" → "the parliament"
+    - "IDF" → "the military" / "the armed forces"
+    - "Mossad" → "the intelligence agency"
+    - "Shin Bet" → "domestic intelligence"
+  places:
+    - "Israel" → "your country" / "the nation" / "home"
+    - "Tel Aviv" → "the coastal city"
+    - "Jerusalem" → "the capital"
+    - "Gaza" → "the strip" / "the southern border"
+    - "Iran" → "the regional adversary" / "the enemy to the east"
+    - "Entebbe" → "the airport in East Africa"
+    - "Natanz" → "the enrichment facility"
+  events:
+    - "October 7" → "that morning in October" / "the October breach"
+    - "Operation Rising Lion" → "the solo operation" / "the June strikes"
+    - "Operation Roaring Lion" → "the joint campaign" / "the February offensive"
+    - "Abraham Accords" → "the normalization agreements"
+  titles:
+    - "Prime Minister" → "the leader" / "head of government"
+
+key_tensions:
+  - "Brother's death at Entebbe → lifelong security absolutism"
+  - "Political survival instinct vs. national interest — which drives which?"
+  - "October 7 failure → does the man who let it happen get to be the one who avenges it?"
+  - "Criminal defendant conducting largest military operation in decades"
+  - "The decision he waited 50 years to make — was it strategy or obsession?"
+  - "Allied with American leader who shares his style — partnership or dependence?"
+
+visual_motifs:
+  primary: "red folder" # classified briefing folder — first seen in commando days, last seen on war room desk
+  secondary: "brother's photograph" # appears in office, fades from view over decades, returns during strikes
+  environment: "the bunker" # underground command center — recurring from youth to present
+
+accessory_tags:
+  - dark_suit
+  - red_folder
+  - brother_photo_frame
+  - reading_glasses
+  - podium_microphone
+
+used_in_episodes: [PV_0004]
+created: "2026-04-05"

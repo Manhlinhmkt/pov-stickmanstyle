@@ -1,0 +1,186 @@
+# WORLD: WORLD_GUARD_COMMANDER_SHADOW_WAR
+# Generated: 2026-04-05
+# Source: /pvle-extract-anchor (Named Entity Mode)
+# Identity: TRANSPARENT_VEIL / MAXIMUM
+
+world_id: WORLD_GUARD_COMMANDER_SHADOW_WAR
+title: "Your Life as the Man Who Built a War from the Shadows"
+domain: POLITICS_MILITARY
+sub_domain: PARAMILITARY_COMMANDER
+privilege_type: MILITARY_POWER
+era: MODERN_CONTEMPORARY
+identity_mode: TRANSPARENT_VEIL
+veil_strictness: MAXIMUM
+
+implied_identity: "Ahmad Vahidi — INTERNAL REFERENCE ONLY. Never appears in output."
+
+defining_roles:
+  primary: "the man who built the foreign operations arm of the revolutionary guard"
+  secondary: "the commander wanted by an international police agency for a bombing in South America"
+  tertiary: "the last commander standing — appointed after two predecessors were killed in weeks"
+
+era_anchors:
+  - year: 1958
+    event: "Born in a southern city — real name later changed"
+  - year: 1979
+    event: "Joins the revolutionary guard immediately after the revolution"
+  - year: 1980
+    event: "Iran-Iraq war begins — fights for eight years"
+  - year: 1988
+    event: "Founds the elite foreign operations unit — first commander"
+  - year: 1994
+    event: "A community center in South America is bombed — 85 dead"
+  - year: 1997
+    event: "Steps down from foreign ops command after nearly a decade"
+  - year: 2007
+    event: "International police agency issues arrest warrant — Red Notice"
+  - year: 2009
+    event: "Appointed defense minister — oversees military procurement"
+  - year: 2013
+    event: "Leaves defense ministry"
+  - year: 2021
+    event: "Appointed interior minister — controls domestic security"
+  - year: 2022
+    event: "Oversees crackdown on hijab protests — women killed in custody"
+  - year: 2025-06
+    event: "First IRGC commander killed in 12-day conflict with regional adversary"
+  - year: 2025-12
+    event: "Appointed deputy commander of the guard"
+  - year: 2026-02-28
+    event: "Second IRGC commander killed in joint strikes — supreme leader also killed"
+  - year: 2026-03-01
+    event: "Named commander-in-chief of the guard — third commander in nine months"
+  - year: 2026-present
+    event: "Commands decentralized war machine — active multi-front conflict"
+
+key_facts:
+  - "Born in southern city — changed his name after joining the guard"
+  - "Joined revolutionary guard at 21 — immediately after revolution"
+  - "Eight years of combat in the western war — rose through ranks"
+  - "Founded the elite foreign operations unit (1988) — first commander"
+  - "Under his command: operations in Lebanon, Iraq, Afghanistan, South America"
+  - "1994: community center in Buenos Aires bombed — 85 dead — attributed to his unit"
+  - "2007: international police agency issues Red Notice — unable to travel to 190+ countries"
+  - "Served as defense minister (2009-2013) — military procurement and doctrine"
+  - "Served as interior minister (2021-2024) — oversaw crackdown on women's protests"
+  - "Dec 2025: appointed deputy commander — a sign the guard expected leadership losses"
+  - "Feb 28 2026: his predecessor and the supreme leader killed in same strikes"
+  - "Mar 1 2026: named third commander-in-chief in nine months"
+  - "Now commands decentralized force — mid-level officers operate independently"
+  - "PhD in strategic studies — intellectual soldier, not just battlefield fighter"
+  - "67 years old — the oldest officer in the chain, the last one alive at this level"
+
+key_tensions:
+  - id: BUILDER_VS_INHERITOR
+    description: "Built the foreign ops arm decades ago — now forced to command the entire guard in its largest war"
+  - id: WANTED_MAN_COMMANDS_ARMY
+    description: "International fugitive running a national military — cannot travel but commands missiles"
+  - id: SURVIVOR_GUILT
+    description: "Everyone above him has been killed — he is alive because he was always in the shadows"
+  - id: BUENOS_AIRES_GHOST
+    description: "85 dead in South America — the weight that never left and no court ever settled"
+  - id: DECENTRALIZED_CHAOS
+    description: "Commands a force that no longer waits for his orders — is he leading or just surviving?"
+
+key_locations:
+  - id: LOC_SOUTHERN_CITY
+    veil_name: "the southern city"
+    description: "Birthplace — Shiraz"
+  - id: LOC_CAPITAL
+    veil_name: "the capital"
+    description: "Tehran — seat of military command"
+  - id: LOC_WESTERN_FRONT
+    veil_name: "the western front"
+    description: "Iran-Iraq war frontline"
+  - id: LOC_SOUTH_AMERICA
+    veil_name: "the building in South America"
+    description: "AMIA Jewish community center, Buenos Aires"
+  - id: LOC_COMMAND_BUNKER
+    veil_name: "the operations room"
+    description: "Current war command — mobile, underground"
+  - id: LOC_DEFENSE_MINISTRY
+    veil_name: "the ministry"
+    description: "Defense and Interior ministry buildings"
+  - id: LOC_SEMINARY_CITY
+    veil_name: "the seminary city"
+    description: "Qom — where the council meets"
+
+character_anchors:
+  SUBJECT:
+    veil_name: "you"
+    role: "the commander / the builder / the last one standing"
+    visual_primary: "Stickman in military uniform with epaulettes and medals"
+    visual_secondary: "Greying hair, square glasses, trimmed mustache"
+    distinguishing: "Always standing — never sitting — battlefield posture"
+
+  CHAR_SUPREME_LEADER_1:
+    veil_name: "the supreme authority"
+    role: "the old leader — killed Feb 28 2026"
+    visual_primary: "Tall stickman with large turban and thick glasses"
+    appears_in: "EARLY, CONFLICT, CRISIS"
+
+  CHAR_PREDECESSOR_1:
+    veil_name: "the first commander"
+    role: "IRGC commander killed June 2025"
+    visual_primary: "Faceless stickman in military uniform"
+    appears_in: "CRISIS"
+
+  CHAR_PREDECESSOR_2:
+    veil_name: "the second commander"
+    role: "IRGC commander killed Feb 28 2026"
+    visual_primary: "Faceless stickman in military uniform"
+    appears_in: "CRISIS"
+
+  CHAR_HEIR:
+    veil_name: "the son"
+    role: "The new supreme authority — Mojtaba (PV_0005 subject)"
+    visual_primary: "Stickman in black turban, always in shadow"
+    appears_in: "RESOLUTION, PRESENT"
+
+  CHAR_FRONTLINE_OFFICERS:
+    veil_name: "your officers"
+    role: "Mid-level IRGC commanders making independent decisions"
+    visual_primary: "Multiple faceless stickmen in uniform at separate screens"
+    appears_in: "PRESENT"
+
+  CHAR_BUENOS_AIRES_DEAD:
+    veil_name: "the eighty-five"
+    role: "Victims of the South American bombing — weight that follows"
+    visual_primary: "Shadowy silhouettes in background — faceless — recurring ghost motif"
+    appears_in: "CONFLICT, CRISIS, CALLBACK"
+
+forbidden_terms:
+  names:
+    - "Ahmad Vahidi" → FORBIDDEN
+    - "Vahid Shahcheraghi" → FORBIDDEN
+    - "Hossein Salami" → "your predecessor" / "the first commander"
+    - "Mohammad Pakpour" → "the second commander"
+    - "Ali Khamenei" → "the supreme authority"
+    - "Mojtaba Khamenei" → "the son" / "the new supreme authority"
+    - "Qasem Soleimani" → "your successor at the foreign unit"
+  organizations:
+    - "IRGC" → "the guard"
+    - "Quds Force" → "the foreign operations unit"
+    - "Basij" → "the militia"
+    - "Interpol" → "the international police agency"
+    - "AMIA" → "the community center"
+  places:
+    - "Iran" → "the republic" / "your country"
+    - "Tehran" → "the capital"
+    - "Shiraz" → "the southern city"
+    - "Buenos Aires" → "the city in South America"
+    - "Argentina" → "the southern country"
+    - "Iraq" → "the western neighbor"
+  events:
+    - "AMIA bombing" → "the explosion in South America"
+    - "Operation Epic Fury" → "the joint campaign"
+    - "2026 Iran war" → "the war"
+
+accessory_tags:
+  - military_uniform
+  - medals
+  - square_glasses
+  - standing_posture
+
+used_in_episodes: [PV_0006]
+created: "2026-04-05"

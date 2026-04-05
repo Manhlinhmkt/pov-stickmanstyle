@@ -14,17 +14,19 @@ skills_required:
 ## PIPELINE
 
 ```
-Step 1: /analyze-seed
-        ├─ [Generic seed]      → world match or generate → Steps 2-8
-        └─ [Named entity seed] → /pvle-extract-anchor → Steps 3-8
-
-Step 2: /pvle-ingest-world (if new world)
-Step 3: /pvle-gen-outline
-Step 4: /pvle-gen-episode-brief
-Step 5: /pvle-gen-breakdown
-Step 6: /pvle-gen-vo               (includes Veil Enforcement if TRANSPARENT_VEIL)
-Step 7: /pvle-gen-image-prompts
-Step 8: /pvle-gen-video-prompts
+Step 1:  /analyze-seed
+         ├─ [Generic seed]      → world match or generate
+         └─ [Named entity seed] → /pvle-extract-anchor
+         ↓
+Step 1c: Speech Time Input (user specifies target minutes → word budget calculated)
+         ↓
+Step 2:  /pvle-ingest-world (if new world)
+Step 3:  /pvle-gen-outline
+Step 4:  /pvle-gen-episode-brief  (uses speech_time_config → Word_Budget + Target_Duration_Min)
+Step 5:  /pvle-gen-breakdown
+Step 6:  /pvle-gen-vo             (validates against speech_time_config: -10% / +20%)
+Step 7:  /pvle-gen-image-prompts
+Step 8:  /pvle-gen-video-prompts
 ```
 
 ---
