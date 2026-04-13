@@ -1,0 +1,63 @@
+# WORLD: WORLD_MILITARY_DRONE_OPERATOR
+# Display: The Person Who Kills from a Screen
+# Created: 2026-04-11
+
+WORLD_ID: WORLD_MILITARY_DRONE_OPERATOR
+display_name: "The Person Who Kills from a Screen"
+domain: MILITARY
+era: MODERN_CONTEMPORARY
+implied_identity_mode: GENERIC_ARCHETYPE
+implied_person: null
+
+tags:
+  - remote_warfare
+  - moral_injury
+  - kill_decision
+  - psychological_whiplash
+  - pattern_of_life
+  - invisible_soldier
+
+seed_keywords:
+  - "drone operator"
+  - "RPA pilot"
+  - "remote pilot"
+  - "MQ-9 Reaper"
+  - "screen warfare"
+  - "moral injury"
+
+key_facts:
+  - "US Air Force RPA pilots train for approximately 1 year through Undergraduate Pilot Training then a specialized RPA pipeline before qualifying on the MQ-9 Reaper"
+  - "Operators work rotating shifts (days, swings, mids) from Ground Control Stations - often at Creech AFB, Nevada - thousands of miles from the combat zone"
+  - "Before a strike, operators conduct Pattern of Life surveillance - watching a target's daily routines, family interactions, and movements for weeks or months"
+  - "After a strike, operators must stay on target for Battle Damage Assessment - watching the aftermath in high-definition"
+  - "Operators experience psychological whiplash - transitioning from a lethal combat mission to suburban family life in the same day"
+  - "PTSD rates among drone operators are comparable to those of combat-deployed personnel, despite never being physically in danger"
+  - "The RPA community has historically faced stigma from the broader fighter-pilot culture - being told their experience does not count"
+  - "A single Reaper orbit provides 24-hour persistent surveillance coverage, requiring crews to rotate continuously"
+
+key_locations:
+  - id: LOC_GROUND_CONTROL_STATION
+    name: "Ground Control Station (GCS)"
+    description: "A windowless, air-conditioned trailer housing multiple screens, joystick, and throttle - where the operator flies and kills from"
+  - id: LOC_CREECH_AFB
+    name: "Creech Air Force Base"
+    description: "Remote desert base 45 miles northwest of Las Vegas - the epicenter of US drone operations"
+  - id: LOC_SUBURBAN_HOME
+    name: "Suburban Home"
+    description: "The operator's house in a Las Vegas suburb - the place they return to after each shift"
+  - id: LOC_TARGET_ZONE
+    name: "The Target Zone"
+    description: "A village, compound, or road thousands of miles away - seen only through a screen but inhabiting the operator's mind"
+
+key_tensions:
+  - DUTY_VS_SELF
+  - POWER_VS_ISOLATION
+  - NORMAL_DESIRE_VS_IMPOSSIBLE_REALITY
+  - PROTECTION_VS_CONTROL
+
+accessory_tags:
+  - "headset with microphone"
+  - "flight suit in a desk chair"
+
+used_in_episodes: [PV_0011]
+created: "2026-04-11"

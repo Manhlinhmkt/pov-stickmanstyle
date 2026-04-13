@@ -1,0 +1,127 @@
+﻿Strip_ID,Start_VO_ID,End_VO_ID,VO_Count,Life_Phase,Scene_Type,Duration_Sec,Strip_Summary
+PV_0012_001,1,3,3,HOOK,TEXT_OVERLAY,9.8,Bold text on dark: 'They trust you. That's how you win. The man across the table is laughing at something you said.'
+PV_0012_002,4,6,3,HOOK,NARRATIVE_SCENE,10.6,Stickman in interior scene. His hand is warm when he shakes yours.
+PV_0012_003,7,9,3,HOOK,NARRATIVE_SCENE,8.8,Stickman in interior scene. He thinks you like the same wine.
+PV_0012_004,10,12,3,HOOK,NARRATIVE_SCENE,5.1,Stickman in interior scene. You know his real name.
+PV_0012_005,13,15,3,HOOK,NARRATIVE_SCENE,11.7,Stickman in interior scene. He doesn't know yours.
+PV_0012_006,16,18,3,HOOK,NARRATIVE_SCENE,8.8,Stickman in Vienna apartment. You've never told anyone who you are.
+PV_0012_007,19,20,2,HOOK,NARRATIVE_SCENE,9.3,Stickman in Tel Aviv. Not even the man beside you on the plane back to Tel Aviv.
+PV_0012_008,21,23,3,HOOK,EMOTIONAL_CLOSEUP,11.1,Stickman wrist closeup showing plain watch. Minimal background fading to warm amber.
+PV_0012_009,24,24,1,HOOK,NARRATIVE_SCENE,1.8,Stickman in interior scene. No brand. No markings.
+PV_0012_010,25,25,1,HOOK,TEXT_OVERLAY,5.7,Bold text on dark: 'Just time. That's all you're allowed to keep.'
+PV_0012_011,26,28,3,PHASE_EARLY,NARRATIVE_SCENE,10.2,Stickman in interior scene. You are twenty-one.
+PV_0012_012,29,33,5,PHASE_EARLY,NARRATIVE_SCENE,12.0,IDF barracks interior. Stickman in olive uniform answering phone. Military setting.
+PV_0012_013,34,37,4,PHASE_EARLY,NARRATIVE_SCENE,10.2,Stickman in Tel Aviv. No organization name.
+PV_0012_014,38,38,1,PHASE_EARLY,NARRATIVE_SCENE,3.7,Stickman in doorway. The building has no sign on the door.
+PV_0012_015,39,40,2,PHASE_EARLY,NARRATIVE_SCENE,8.8,Stickman in interior scene. The screening lasts five months.
+PV_0012_016,41,41,1,PHASE_EARLY,NARRATIVE_SCENE,5.5,"Stickman in interior scene. They give you a name, a backstory, a childhood you never had"
+PV_0012_017,42,43,2,PHASE_EARLY,NARRATIVE_SCENE,7.8,Stickman in European cafe. You walk into a cafe in Haifa and order coffee as a man name
+PV_0012_018,44,44,1,PHASE_EARLY,NARRATIVE_SCENE,6.0,Stickman in interior scene. They test whether you flinch when someone calls a name that 
+PV_0012_019,45,45,1,PHASE_EARLY,NARRATIVE_SCENE,6.9,Stickman in interior scene. They test whether you can lie to someone's face while they'r
+PV_0012_020,46,46,1,PHASE_EARLY,NARRATIVE_SCENE,7.4,Stickman in European cafe. There's a woman in the third round who brings you coffee and
+PV_0012_021,47,47,1,PHASE_EARLY,NARRATIVE_SCENE,5.1,Stickman in interior scene. You tell her a story about a woman who doesn't exist.
+PV_0012_022,48,51,4,PHASE_EARLY,NARRATIVE_SCENE,6.1,Stickman in interior scene. She believes you.
+PV_0012_023,52,54,3,PHASE_EARLY,NARRATIVE_SCENE,8.8,Stickman in Midrasha academy. The Midrasha. Near Herzliya.
+PV_0012_024,55,56,2,PHASE_EARLY,NARRATIVE_SCENE,9.7,Stickman in interior scene. How to recruit a source who doesn't want to be recruited.
+PV_0012_025,57,59,3,PHASE_EARLY,NARRATIVE_SCENE,10.6,Stickman in parking garage. You practice dead drops in parking garages.
+PV_0012_026,60,61,2,PHASE_EARLY,NARRATIVE_SCENE,11.6,Stickman in interior scene. You forget which accent belongs to which name.
+PV_0012_027,62,64,3,PHASE_EARLY,NARRATIVE_SCENE,6.0,Stickman in interior scene. You don't respond.
+PV_0012_028,65,66,2,PHASE_EARLY,NARRATIVE_SCENE,6.0,Stickman in interior scene. This is the part they don't put in the movies.
+PV_0012_029,67,67,1,PHASE_EARLY,NARRATIVE_SCENE,0.9,Stickman in interior scene. It's repetitive.
+PV_0012_030,68,68,1,PHASE_EARLY,TEXT_OVERLAY,5.2,Bold text on dark: 'It's designed to make lying feel like breathing.'
+PV_0012_031,69,71,3,PHASE_EARLY,NARRATIVE_SCENE,9.7,Stickman in Vienna apartment. Final exercise.
+PV_0012_032,72,72,1,PHASE_EARLY,NARRATIVE_SCENE,5.1,Stickman in dinner table. You eat dinner with people who believe every word you say.
+PV_0012_033,73,73,1,PHASE_EARLY,NARRATIVE_SCENE,8.3,Stickman in interior scene. By the end of the third week you respond to the fake name fa
+PV_0012_034,74,79,6,PHASE_EARLY,NARRATIVE_SCENE,7.9,Stickman in interior scene. Something shifts.
+PV_0012_035,80,81,2,PHASE_EARLY,NARRATIVE_SCENE,7.9,Stickman in interior scene. Nothing proves you were ever here.
+PV_0012_036,82,82,1,PHASE_EARLY,TEXT_OVERLAY,3.8,Bold text on dark: 'Don't forget who you are.'
+PV_0012_037,83,86,4,PHASE_CONFLICT,NARRATIVE_SCENE,11.5,Stickman in Vienna apartment. Vienna.
+PV_0012_038,87,88,2,PHASE_CONFLICT,NARRATIVE_SCENE,9.7,Stickman in Vienna apartment. Your apartment is leased under a company that doesn't exist.
+PV_0012_039,89,90,2,PHASE_CONFLICT,NARRATIVE_SCENE,7.8,Vienna cafe exterior. Stickman at morning coffee table. European architecture.
+PV_0012_040,91,92,2,PHASE_CONFLICT,NARRATIVE_SCENE,4.2,Stickman in Vienna apartment. You're building a pattern.
+PV_0012_041,93,94,2,PHASE_CONFLICT,NARRATIVE_SCENE,10.6,Stickman in interior scene. Your first target is a man named Friedrich.
+PV_0012_042,95,97,3,PHASE_CONFLICT,NARRATIVE_SCENE,7.4,Stickman in interior scene. You meet him at a conference.
+PV_0012_043,98,100,3,PHASE_CONFLICT,NARRATIVE_SCENE,11.6,Stickman in interior scene. He's lonely. Most targets are.
+PV_0012_044,101,103,3,PHASE_CONFLICT,NARRATIVE_SCENE,9.2,Vienna cafe exterior. Stickman at morning coffee table. European architecture.
+PV_0012_045,104,105,2,PHASE_CONFLICT,NARRATIVE_SCENE,3.2,Stickman in interior scene. He's moved by this.
+PV_0012_046,106,106,1,PHASE_CONFLICT,TEXT_OVERLAY,5.2,Bold text on dark: 'You remembered because it was in the file.'
+PV_0012_047,107,107,1,PHASE_CONFLICT,EMOTIONAL_CLOSEUP,3.2,Stickman in interior scene. Friedrich tells you about his daughter's illness.
+PV_0012_048,108,109,2,PHASE_CONFLICT,NARRATIVE_SCENE,9.2,Stickman in interior scene. He tells you about his failing marriage.
+PV_0012_049,110,111,2,PHASE_CONFLICT,NARRATIVE_SCENE,8.3,Stickman in interior scene. You listen. You nod. You say the right things.
+PV_0012_050,112,113,2,PHASE_CONFLICT,NARRATIVE_SCENE,5.6,Stickman in interior scene. It doesn't come out right.
+PV_0012_051,114,116,3,PHASE_CONFLICT,EMOTIONAL_CLOSEUP,8.3,Safe house desk. Stickman typing report. Cold blue monitor glow. Sparse room.
+PV_0012_052,117,119,3,PHASE_CONFLICT,EMOTIONAL_CLOSEUP,9.7,Stickman washing hands at sink. Dim bathroom. Cool blue tint at edges.
+PV_0012_053,120,121,2,PHASE_CONFLICT,EMOTIONAL_CLOSEUP,6.1,Stickman washing hands at sink. Dim bathroom. Cool blue tint at edges.
+PV_0012_054,122,125,4,PHASE_CONFLICT,EMOTIONAL_CLOSEUP,8.8,Stickman in interior scene. You call home on Thursdays.
+PV_0012_055,126,129,4,PHASE_CONFLICT,EMOTIONAL_CLOSEUP,11.6,"Stickman in interior scene. Abba, when are you coming home?"
+PV_0012_056,130,132,3,PHASE_CONFLICT,NARRATIVE_SCENE,7.9,Stickman in interior scene. A family. Four stick figures.
+PV_0012_057,133,134,2,PHASE_CONFLICT,NARRATIVE_SCENE,6.0,Stickman in Vienna apartment. You hang up and sit in Martin Kessler's apartment.
+PV_0012_058,135,135,1,PHASE_CONFLICT,EMOTIONAL_CLOSEUP,2.8,Stickman wrist closeup showing plain watch. Minimal background fading to warm amber.
+PV_0012_059,136,136,1,PHASE_CONFLICT,TEXT_OVERLAY,4.7,Bold text on dark: 'You're not sure whose time it's keeping.'
+PV_0012_060,137,137,1,PHASE_CONFLICT,NARRATIVE_SCENE,8.3,Stickman in parking garage. A man you've never met leaves a car in a parking garage with
+PV_0012_061,138,138,1,PHASE_CONFLICT,NARRATIVE_SCENE,7.8,Stickman in interior scene. A dentist in the third district treats your tooth under a na
+PV_0012_062,139,140,2,PHASE_CONFLICT,NARRATIVE_SCENE,7.8,Stickman in Vienna apartment. A woman rents an apartment for you and never asks a single q
+PV_0012_063,141,142,2,PHASE_CONFLICT,NARRATIVE_SCENE,7.8,Stickman in interior scene. They do it because they believe in something larger than you
+PV_0012_064,143,145,3,PHASE_CONFLICT,NARRATIVE_SCENE,9.8,Stickman in interior scene. You never say thank you.
+PV_0012_065,146,147,2,PHASE_CONFLICT,NARRATIVE_SCENE,7.9,Stickman in interior scene. What he tells his wife when she asks where it went.
+PV_0012_066,148,151,4,PHASE_CRISIS,NARRATIVE_SCENE,7.9,"Friedrich's warm home interior. German dining room. Wife in kitchen, child setting table."
+PV_0012_067,152,154,3,PHASE_CRISIS,NARRATIVE_SCENE,9.2,"Friedrich's warm home interior. German dining room. Wife in kitchen, child setting table."
+PV_0012_068,155,157,3,PHASE_CRISIS,NARRATIVE_SCENE,10.2,Stickman in interior scene. You say yes.
+PV_0012_069,158,160,3,PHASE_CRISIS,NARRATIVE_SCENE,11.6,Stickman in Vienna apartment. The crayon box on her desk has teeth marks on one end.
+PV_0012_070,161,163,3,PHASE_CRISIS,NARRATIVE_SCENE,8.3,Stickman in bathroom. Your phone buzzes in your jacket pocket.
+PV_0012_071,164,166,3,PHASE_CRISIS,EMOTIONAL_CLOSEUP,9.3,Stickman staring at mirror reflection. Tight jaw. Desaturated grey vignette at edges.
+PV_0012_072,167,169,3,PHASE_CRISIS,NARRATIVE_SCENE,7.4,Stickman in dinner table. You flush the toilet for the sound.
+PV_0012_073,170,172,3,PHASE_CRISIS,NARRATIVE_SCENE,7.8,Stickman in interior scene. You pour yourself more wine.
+PV_0012_074,173,175,3,PHASE_CRISIS,NARRATIVE_SCENE,6.5,Stickman in dinner table. Nobody at the table notices anything.
+PV_0012_075,176,176,1,PHASE_CRISIS,TEXT_OVERLAY,2.9,Bold text on dark: 'Everything is steady.'
+PV_0012_076,177,178,2,PHASE_CRISIS,NARRATIVE_SCENE,7.8,Stickman in Vienna apartment. You could refuse.
+PV_0012_077,179,181,3,PHASE_CRISIS,NARRATIVE_SCENE,7.4,Stickman in interior scene. I work for a foreign intelligence service.
+PV_0012_078,182,183,2,PHASE_CRISIS,NARRATIVE_SCENE,5.1,Stickman in interior scene. Nobody's holding a gun to your head.
+PV_0012_079,184,185,2,PHASE_CRISIS,NARRATIVE_SCENE,10.7,Stickman in dinner table. This isn't a movie.
+PV_0012_080,186,187,2,PHASE_CRISIS,EMOTIONAL_CLOSEUP,9.2,"Close-up of stickman hand gripping wine glass, fingers trembling. Grey vignette."
+PV_0012_081,188,190,3,PHASE_CRISIS,EMOTIONAL_CLOSEUP,5.6,"Close-up of stickman hand gripping wine glass, fingers trembling. Grey vignette."
+PV_0012_082,191,191,1,PHASE_CRISIS,TEXT_OVERLAY,4.8,Bold text on dark: 'You choose to finish the wine.'
+PV_0012_083,192,195,4,PHASE_CRISIS,NARRATIVE_SCENE,9.3,Stickman in interior scene. You steer the conversation to the project.
+PV_0012_084,196,197,2,PHASE_CRISIS,NARRATIVE_SCENE,8.3,Stickman in interior scene. You remember every detail.
+PV_0012_085,198,199,2,PHASE_CRISIS,NARRATIVE_SCENE,7.8,Stickman in dinner table. Two people at a table. One is smiling.
+PV_0012_086,200,202,3,PHASE_CRISIS,NARRATIVE_SCENE,7.4,Stickman in doorway. You say goodnight at the door.
+PV_0012_087,203,204,2,PHASE_CRISIS,NARRATIVE_SCENE,7.9,Stickman in interior scene. You walk to your car and don't look back.
+PV_0012_088,205,207,3,PHASE_CRISIS,NARRATIVE_SCENE,7.9,Empty apartment interior. Morning light on bare floor. All traces removed.
+PV_0012_089,208,209,2,PHASE_CRISIS,NARRATIVE_SCENE,8.8,Stickman in Vienna apartment. Martin Kessler no longer exists.
+PV_0012_090,210,211,2,PHASE_CRISIS,NARRATIVE_SCENE,4.2,Stickman in interior scene. Friedrich has been arrested.
+PV_0012_091,212,213,2,PHASE_CRISIS,NARRATIVE_SCENE,7.4,Stickman in interior scene. His daughter's drawings are still on the wall of an empty ho
+PV_0012_092,214,214,1,PHASE_CRISIS,EMOTIONAL_CLOSEUP,1.8,Stickman washing hands at sink. Dim bathroom. Cool blue tint at edges.
+PV_0012_093,215,215,1,PHASE_CRISIS,TEXT_OVERLAY,2.9,Bold text on dark: 'That's it.'
+PV_0012_094,216,220,5,PHASE_RESOLUTION,NARRATIVE_SCENE,7.5,Stickman in interior scene. And then it's over.
+PV_0012_095,221,223,3,PHASE_RESOLUTION,NARRATIVE_SCENE,8.3,Stickman in interior scene. You stop counting after the seventh.
+PV_0012_096,224,227,4,PHASE_RESOLUTION,EMOTIONAL_CLOSEUP,10.2,"Same cafe. Stickman scanning exits, counting people near door. Alert posture."
+PV_0012_097,228,229,2,PHASE_RESOLUTION,EMOTIONAL_CLOSEUP,8.8,Stickman wrist closeup showing plain watch. Minimal background fading to warm amber.
+PV_0012_098,230,232,3,PHASE_RESOLUTION,NARRATIVE_SCENE,6.5,Stickman in interior scene. Same one since the academy.
+PV_0012_099,233,235,3,PHASE_RESOLUTION,NARRATIVE_SCENE,10.6,Stickman in doorway. Between assignments you go home to Israel.
+PV_0012_100,236,237,2,PHASE_RESOLUTION,NARRATIVE_SCENE,9.3,Stickman in interior scene. Your wife looks at you the way you look at a stranger on a t
+PV_0012_101,238,240,3,PHASE_RESOLUTION,NARRATIVE_SCENE,9.7,Stickman in interior scene. She says it one night.
+PV_0012_102,241,242,2,PHASE_RESOLUTION,NARRATIVE_SCENE,3.2,Stickman in interior scene. You don't say that.
+PV_0012_103,243,244,2,PHASE_RESOLUTION,NARRATIVE_SCENE,10.7,"Stickman in kitchen interior. You stand in the kitchen for a while, looking at the tiles."
+PV_0012_104,245,248,4,PHASE_RESOLUTION,NARRATIVE_SCENE,7.4,Stickman in interior scene. You leave.
+PV_0012_105,249,252,4,PHASE_RESOLUTION,NARRATIVE_SCENE,11.1,Stickman in interior scene. No medal.
+PV_0012_106,253,256,4,PHASE_RESOLUTION,NARRATIVE_SCENE,9.7,Tel Aviv cafe. Stickman in grey shirt. Bright urban Israeli street outside.
+PV_0012_107,257,257,1,PHASE_RESOLUTION,NARRATIVE_SCENE,4.2,Stickman in interior scene. Then you realize he's talking to someone else.
+PV_0012_108,258,258,1,PHASE_RESOLUTION,EMOTIONAL_CLOSEUP,8.8,Stickman looking at shaking hands around coffee cup. Everything blurring. Warm amber glow.
+PV_0012_109,259,262,4,PHASE_RESOLUTION,EMOTIONAL_CLOSEUP,6.9,Stickman looking at shaking hands around coffee cup. Everything blurring. Warm amber glow.
+PV_0012_110,263,263,1,PHASE_RESOLUTION,TEXT_OVERLAY,4.7,Bold text on dark: 'You don't know whose hands these are.'
+PV_0012_111,264,266,3,PHASE_RESOLUTION,NARRATIVE_SCENE,7.8,Therapist office. Faceless female stickman with notepad. Subject sitting across.
+PV_0012_112,267,270,4,PHASE_RESOLUTION,NARRATIVE_SCENE,8.9,Stickman in interior scene. You sit there.
+PV_0012_113,271,273,3,PHASE_RESOLUTION,NARRATIVE_SCENE,8.8,Stickman in interior scene. She writes something down.
+PV_0012_114,274,277,4,PHASE_RESOLUTION,NARRATIVE_SCENE,9.7,Stickman in interior scene. You Google Friedrich once.
+PV_0012_115,278,281,4,PHASE_RESOLUTION,EMOTIONAL_CLOSEUP,10.7,Stickman in interior scene. You stare at the screen.
+PV_0012_116,282,286,5,CALLBACK,NARRATIVE_SCENE,7.9,Tel Aviv cafe. Stickman in grey shirt alone at table. Bright Mediterranean light.
+PV_0012_117,287,290,4,CALLBACK,NARRATIVE_SCENE,9.7,Tel Aviv cafe. Stickman in grey shirt alone at table. Bright Mediterranean light.
+PV_0012_118,291,292,2,CALLBACK,NARRATIVE_SCENE,8.3,Stickman in dinner table. You notice the man two tables over checked his phone three t
+PV_0012_119,293,295,3,CALLBACK,NARRATIVE_SCENE,6.0,"Same cafe. Stickman scanning exits, counting people near door. Alert posture."
+PV_0012_120,296,296,1,CALLBACK,TEXT_OVERLAY,4.7,Bold text on dark: 'Your eyes are still reading the room.'
+PV_0012_121,297,299,3,CALLBACK,EMOTIONAL_CLOSEUP,7.8,Stickman wrist closeup showing plain watch. Minimal background fading to warm amber.
+PV_0012_122,300,301,2,CALLBACK,NARRATIVE_SCENE,10.2,Stickman in interior scene. The only honest thing you ever carried.
+PV_0012_123,302,303,2,CALLBACK,NARRATIVE_SCENE,10.2,Tel Aviv cafe. Stickman in grey shirt alone at table. Bright Mediterranean light.
+PV_0012_124,304,305,2,CALLBACK,NARRATIVE_SCENE,6.0,Stickman in interior scene. You don't know which life was real.
+PV_0012_125,306,306,1,CALLBACK,NARRATIVE_SCENE,6.0,Stickman in interior scene. If you ever wondered what it costs to make someone believe i
+PV_0012_126,307,307,1,CALLBACK,TEXT_OVERLAY,3.4,Bold text on dark: 'Now you know.'

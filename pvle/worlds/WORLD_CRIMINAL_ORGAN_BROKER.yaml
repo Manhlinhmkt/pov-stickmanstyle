@@ -1,0 +1,84 @@
+# WORLD: WORLD_CRIMINAL_ORGAN_BROKER
+# Display: The Middleman in the Organ Trade
+# Created: 2026-04-13
+
+WORLD_ID: WORLD_CRIMINAL_ORGAN_BROKER
+display_name: "The Middleman in the Organ Trade"
+domain: CRIMINAL
+era: MODERN_CONTEMPORARY
+implied_identity_mode: GENERIC_ARCHETYPE
+implied_person: null
+
+tags:
+  - organ_trafficking
+  - middleman_broker
+  - moral_decay
+  - self_rationalization
+  - invisible_victims
+  - black_market_medicine
+
+seed_keywords:
+  - "organ trafficking"
+  - "kidney broker"
+  - "black market organs"
+  - "human trafficking"
+  - "organ trade middleman"
+  - "transplant tourism"
+
+key_facts:
+  - "5-10% of all organ transplants globally each year are illegal - roughly 5,000 to 12,000 illicit transplants annually"
+  - "The illegal organ trade generates between $840 million and $1.7 billion in annual profits worldwide"
+  - "Kidneys are the most trafficked organ because they can be taken from living donors and chronic kidney disease creates massive global demand"
+  - "The broker is the most critical role in the network - connecting desperate sellers with wealthy buyers, managing logistics, documents, travel, and medical facilities"
+  - "Recruiters target impoverished communities - promising large payments that are rarely delivered in full"
+  - "Victims are told lies - that kidneys regenerate or that humans have three kidneys - to minimize perceived risk"
+  - "Operations require corrupt medical professionals - surgeons, nurses, anesthesiologists - working in private clinics or compromised hospitals"
+  - "Donors are typically abandoned after surgery without follow-up care - leading to lifelong health damage and inability to work"
+  - "Wealthy patients from developed nations engage in transplant tourism - traveling to countries with weak oversight to bypass legal waiting lists"
+  - "A single kidney can be bought from a desperate seller for $5,000 and sold to a wealthy recipient for $150,000 or more"
+
+key_locations:
+  - id: LOC_RECRUITING_GROUND
+    name: "The Recruiting Ground"
+    description: "Impoverished neighborhood where brokers find desperate sellers through local contacts and former victims turned recruiters"
+  - id: LOC_BROKER_OFFICE
+    name: "The Broker's Office"
+    description: "Nondescript room with a phone and a ledger - where deals are negotiated and payments promised but rarely honored"
+  - id: LOC_PRIVATE_CLINIC
+    name: "The Private Clinic"
+    description: "Unmarked medical facility where extractions happen behind closed doors - the one room you never enter"
+  - id: LOC_TRANSPLANT_DESTINATION
+    name: "The Transplant Destination"
+    description: "Legitimate-looking hospital in a country with weak oversight where wealthy recipients receive their new organs"
+  - id: LOC_ABANDONMENT_ROOM
+    name: "The Abandonment Room"
+    description: "Cheap hotel room where donors are left post-surgery with stitches, painkillers, and no aftercare"
+
+key_tensions:
+  - DUTY_VS_SELF
+  - POWER_VS_ISOLATION
+  - NORMAL_DESIRE_VS_IMPOSSIBLE_REALITY
+
+accessory_tags:
+  - "disposable phone"
+  - "envelope of cash"
+  - "cheap briefcase"
+
+# CREATIVE CONSTRAINTS (episode-level enforcement)
+creative_constraints:
+  primary_rule: "NEVER_ENTER_OPERATING_ROOM"
+  description: "The entire narrative operates in the spaces BETWEEN violence. Subject deals in logistics - phone calls, addresses, envelopes. The horror lives in mundanity."
+  subject_framing: "Active in logistics and organization, moral distance from physical violence. Self-rationalization is the core mechanism of moral decay."
+  forbidden_framing:
+    - "Subject as active perpetrator of physical violence"
+    - "Graphic surgical descriptions"
+    - "Glorification or power fantasy framing"
+    - "Cool villain one-liners as resolution"
+  required_framing:
+    - "Moral unease experience throughout"
+    - "Self-rationalization as narrative engine"
+    - "Consequences shown through aftermath, not action"
+    - "Ending lands on emptiness or moral paralysis, not coolness"
+
+used_in_episodes: [PV_0015]
+created: "2026-04-13"

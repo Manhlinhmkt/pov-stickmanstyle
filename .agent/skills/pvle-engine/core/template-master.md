@@ -96,10 +96,11 @@ World_ID:    "WORLD_{DOMAIN}"    # e.g. WORLD_US_PRESIDENT_FAMILY
 
 ---
 
-## 2.4. TPL_VO_SCRIPT_TABLE
+## 2.3b. TPL_VO_ENHANCED_TABLE
 
-**Type:** Horizontal Table  
-**File:** `pvle/episodes/{EP}/vo_script_table.csv`
+**Type:** Horizontal Table
+**File:** `pvle/episodes/{EP}/vo_enhanced_table.csv`
+**Stage:** Post-humanize, EN only
 
 | Column | Type | Description |
 |--------|------|-------------|
@@ -109,15 +110,54 @@ World_ID:    "WORLD_{DOMAIN}"    # e.g. WORLD_US_PRESIDENT_FAMILY
 | Life_Phase | Enum | HOOK / PHASE_EARLY / PHASE_CONFLICT / PHASE_CRISIS / PHASE_RESOLUTION / CALLBACK_CLOSE |
 | Beat_Type | Enum | Beat type |
 | VO_Type | Enum | NARRATION / TIME_MARKER / WEIGHT_LINE / REFLECTION / CONTRAST_LINE |
-| VO_EN | Text | English narration (clean, TTS-ready, no markers) |
-| VO_JA | Text | Japanese translation (2nd person あなた, natural spoken style) |
-| VO_VI | Text | Vietnamese translation (2nd person bạn, natural spoken style) |
+| VO_EN | Text | English narration (humanized, TTS-ready) |
+| Word_Count_EN | Integer | Word count of VO_EN |
+| Pause_After | Float | Seconds of silence after line |
+
+---
+
+## 2.3c. TPL_VO_FINALIZE_TABLE
+
+**Type:** Horizontal Table
+**File:** `pvle/episodes/{EP}/vo_finalize_table.csv`
+**Stage:** Post-performance optimization, EN only
+
+| Column | Type | Description |
+|--------|------|-------------|
+| VO_ID | Integer | Sequential line number (1, 2, 3...) |
+| Episode_ID | ID | Episode reference |
+| Beat_ID | ID | Parent beat from L2 |
+| Life_Phase | Enum | HOOK / PHASE_EARLY / PHASE_CONFLICT / PHASE_CRISIS / PHASE_RESOLUTION / CALLBACK_CLOSE |
+| Beat_Type | Enum | Beat type |
+| VO_Type | Enum | NARRATION / TIME_MARKER / WEIGHT_LINE / REFLECTION / CONTRAST_LINE |
+| VO_EN | Text | English narration (performance-optimized, TTS-ready) |
+| Word_Count_EN | Integer | Word count of VO_EN |
+| Pause_After | Float | Seconds of silence after line |
+
+---
+
+## 2.4. TPL_VO_SCRIPT_TABLE
+
+**Type:** Horizontal Table  
+**File:** `pvle/episodes/{EP}/vo_script_table.csv`
+**Stage:** Final output - bilingual EN + VI
+
+| Column | Type | Description |
+|--------|------|-------------|
+| VO_ID | Integer | Sequential line number (1, 2, 3...) |
+| Episode_ID | ID | Episode reference |
+| Beat_ID | ID | Parent beat from L2 |
+| Life_Phase | Enum | HOOK / PHASE_EARLY / PHASE_CONFLICT / PHASE_CRISIS / PHASE_RESOLUTION / CALLBACK_CLOSE |
+| Beat_Type | Enum | Beat type |
+| VO_Type | Enum | NARRATION / TIME_MARKER / WEIGHT_LINE / REFLECTION / CONTRAST_LINE |
+| VO_EN | Text | English narration (final, TTS-ready, no markers) |
+| VO_VI | Text | Vietnamese translation (2nd person ban, natural spoken style) |
 | Word_Count_EN | Integer | Word count of VO_EN |
 | Pause_After | Float | Seconds of silence after line (0 / 0.5 / 1.0 / 1.5 / 2.0) |
 
 **Example row:**
 ```csv
-1,PV_0001,BEAT_01,HOOK,ESTABLISH,NARRATION,"The moment you are born, the world already knows your name.","あなたが生まれた瞬間、世界はすでにあなたの名前を知っていた。","Khoảnh khắc bạn chào đời, thế giới đã biết tên bạn rồi.",11,0
+1,PV_0011,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"The screen glows blue in the dark.","Man hinh phat sang xanh trong bong toi.",7,0
 ```
 
 ---
@@ -269,7 +309,7 @@ SLOW_PULL_BACK     — Dolly back, reveal environment
 | `RULE_SCHEMA_LOCK` | Output ONLY defined columns, no additions |
 | `RULE_ID_AUTHORITY` | All IDs/Enums must exist in this file or linked resources |
 | `RULE_SILENT_OUTPUT` | Tables only, no commentary |
-| `RULE_VO_TRILINGUAL` | Every VO_SCRIPT row must have VO_EN + VO_JA + VO_VI populated |
+| `RULE_VO_BILINGUAL` | Every VO_SCRIPT row must have VO_EN + VO_VI populated |
 | `RULE_IMAGE_VIDEO_PARITY` | Every image_prompts row must have a matching video_prompts row |
 
 ---

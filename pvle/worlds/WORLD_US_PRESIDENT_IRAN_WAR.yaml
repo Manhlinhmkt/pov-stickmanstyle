@@ -1,0 +1,180 @@
+WORLD_ID: WORLD_US_PRESIDENT_IRAN_WAR
+display_name: "The President Who Promised Peace — Then Set the Middle East on Fire"
+domain: POLITICS_MILITARY
+era: MODERN_CONTEMPORARY
+implied_identity_mode: TRANSPARENT_VEIL
+implied_person: "Donald Trump"
+veil_strictness: MAXIMUM
+
+tags:
+  - real_estate_mogul
+  - reality_tv_president
+  - iran_obsession
+  - deal_breaker
+  - maximum_pressure
+  - felony_conviction
+  - assassination_survivor
+  - wartime_president
+  - trade_war
+  - middle_east_escalation
+
+seed_keywords:
+  - "Donald Trump"
+  - "president Iran war"
+  - "US Israel Iran conflict"
+  - "promised peace started war"
+  - "deal withdrawal consequences"
+  - "maximum pressure campaign"
+  - "wartime president"
+
+# === NARRATIVE SPINE ===
+# B-spine: Real estate empire → TV fame → presidency → JCPOA withdrawal → Soleimani strike → re-election → joint war with ally → Hormuz crisis
+# C-layer: felony conviction + assassination survival + impeachments = WHY this man keeps returning to power
+# Irony engine: Every "peace" promise → escalation. Every "deal" → destruction. The dealmaker who broke the one deal that mattered.
+
+defining_roles:
+  primary: "the president who launched the largest American military operation in the Middle East since 2003"
+  secondary: "a real estate mogul turned reality TV star who became the most polarizing leader of the 21st century"
+  tertiary: "the only president convicted of felonies — then re-elected — then took the nation to war"
+
+era_anchors:
+  - year: 1946
+    event: "Born in the outer boroughs of a major American city — fourth of five children in a real estate family"
+  - year: 1959
+    event: "Sent to military boarding school at 13 — disciplinary issues at private school"
+  - year: 1968
+    event: "Graduated from an Ivy League business school — received medical deferment from the draft"
+  - year: 1971
+    event: "Took control of father's real estate company — pivoted from middle-class housing to luxury towers"
+  - year: 1983
+    event: "Opened flagship tower on the most famous avenue in the country — became symbol of 1980s excess"
+  - year: 1990
+    event: "Casino empire began collapsing — multiple corporate bankruptcies over the next decade"
+  - year: 2004
+    event: "Became host of a hit reality television show — reinvented as national media brand"
+  - year: 2015
+    event: "Announced presidential run — descended the golden escalator of his own building"
+  - year: 2017
+    event: "Inaugurated as president — no prior political or military experience"
+  - year: 2018
+    event: "Withdrew from the multilateral nuclear agreement — re-imposed sanctions on regional adversary"
+  - year: 2020_jan
+    event: "Ordered drone strike that killed the adversary's most powerful military commander"
+  - year: 2020_sep
+    event: "Brokered normalization agreements between Middle Eastern ally and four Arab nations"
+  - year: 2021_jan
+    event: "Supporters stormed the legislature — impeached a second time, acquitted again"
+  - year: 2023
+    event: "Indicted on 88 criminal counts across four separate cases — first former president charged"
+  - year: 2024_may
+    event: "Convicted on 34 felony counts — received unconditional discharge"
+  - year: 2024_jul
+    event: "Survived assassination attempt at outdoor rally — bullet grazed his ear"
+  - year: 2024_nov
+    event: "Won re-election despite felony conviction — returned to power"
+  - year: 2025_apr
+    event: "Declared national trade emergency — launched tariff war against most trading partners"
+  - year: 2025_jun
+    event: "Authorized joint strikes on the adversary's nuclear facilities"
+  - year: 2026_feb
+    event: "Launched joint military campaign — largest American deployment to the region since 2003"
+  - year: 2026_apr
+    event: "The strait is effectively closed — negotiations at dead end — war ongoing with no exit"
+
+unique_circumstance_stack:
+  - "Father built real estate empire in outer boroughs — son moved it to the most expensive addresses in the country"
+  - "Sent to military boarding school at 13 for discipline — later became commander-in-chief"
+  - "Received medical draft deferment during wartime — decades later commanded the military he avoided joining"
+  - "Casino empire went bankrupt three times — reinvented himself as television personality"
+  - "First president with zero political or military experience prior to taking office"
+  - "Impeached twice in a single term — acquitted both times by the upper chamber"
+  - "Lost re-election, refused to concede, supporters attacked the national legislature"
+  - "Charged with 88 criminal counts — convicted on 34 felonies — won re-election anyway"
+  - "Survived two assassination attempts during campaign — bullet physically grazed his ear at a rally"
+  - "Withdrew from nuclear agreement in first term — eight years later bombing the facilities he warned about"
+  - "Ordered killing of adversary's top general in 2020 — now commanding full-scale war against same adversary"
+  - "Launched largest trade war in modern history — highest court struck down his tariff method"
+  - "Joint military campaign with Middle Eastern ally — two aircraft carrier groups deployed"
+  - "The strait that carries 20% of global oil supply closed under his watch"
+  - "Three marriages, five children — family members serve as advisors and political operatives"
+  - "Name on buildings, on ballots, on court documents — no American has occupied more public space"
+
+public_perception_markers:
+  - "Most polarizing figure in modern American history — worshipped and despised in equal measure"
+  - "Every decision analyzed through one lens: strategy or ego?"
+  - "The war president who was once a reality TV host — the arc defies comprehension"
+  - "Half the country believes he is saving the nation — the other half believes he is destroying it"
+
+forbidden_terms:
+  names:
+    - "Donald" → "you"
+    - "Trump" → [omit]
+    - "Don Jr." → "your eldest son"
+    - "Ivanka" → "your daughter"
+    - "Eric" → "your middle son"
+    - "Barron" → "your youngest son"
+    - "Melania" → "your wife"
+    - "Ivana" → "your first wife"
+    - "Marla" → "your second wife"
+    - "Fred Trump" → "your father"
+    - "Mary Anne" → "your mother"
+  organizations:
+    - "Trump Organization" → "the company" / "the family business"
+    - "Republican Party" → "the party" / "your party"
+    - "GOP" → "the party"
+    - "MAGA" → [omit — describe the movement without the label]
+    - "The Apprentice" → "the show" / "the television show"
+    - "Secret Service" → "the protection detail"
+  places:
+    - "Trump Tower" → "the tower" / "your tower on the avenue"
+    - "Mar-a-Lago" → "the estate" / "the southern estate"
+    - "White House" → "the residence" / "the executive mansion"
+    - "Capitol" → "the legislature" / "the national legislature"
+    - "Iran" → "the adversary" / "the regional adversary" / "the sanctioned nation"
+    - "Israel" → "the ally" / "the Middle Eastern ally"
+    - "Strait of Hormuz" → "the strait" / "the narrowest passage"
+    - "Iraq" → "the neighboring country"
+    - "Queens" → "the outer borough"
+    - "Manhattan" → "the island" / "the most expensive island"
+    - "Atlantic City" → "the casino town"
+    - "Pentagon" → "the defense headquarters"
+    - "Oval Office" → "the office" / "the executive office"
+    - "Wharton" → "the business school"
+  events:
+    - "JCPOA" → "the nuclear agreement" / "the multilateral deal"
+    - "Abraham Accords" → "the normalization agreements"
+    - "January 6" → "that day in January" / "the day the legislature was stormed"
+    - "Liberation Day" → "the trade emergency"
+    - "Operation Epic Fury" → "the joint campaign" / "the February offensive"
+  titles:
+    - "President" → "the leader" / "commander-in-chief" (context-dependent)
+  people:
+    - "Soleimani" → "the general" / "the adversary's most powerful commander"
+    - "Biden" → "your predecessor" (2nd term context) / "your successor" (1st term context)
+    - "Obama" → "the predecessor who signed the deal"
+    - "Netanyahu" → "the ally's leader" / "the man in the capital"
+    - "Khamenei" → "the adversary's supreme leader"
+
+key_tensions:
+  - "The dealmaker who broke the one deal that mattered — then watched consequences arrive eight years later"
+  - "Peace through strength promised — full-scale regional war delivered"
+  - "Draft dodger turned wartime commander-in-chief — does the irony register?"
+  - "Convicted felon commanding the world's most powerful military — legitimacy vs. power"
+  - "Assassination survivor who now orders the killing of others — the violence follows him"
+  - "Allied with the Middle Eastern leader who shares his style — partnership or mutual dependence?"
+  - "The strait is closed, oil prices spike, the world economy bleeds — whose war is this?"
+
+visual_motifs:
+  primary: "golden elevator doors" # opening = descent into politics, closing = no way back
+  secondary: "the red phone" # from TV prop to actual nuclear authority — same man, different stakes
+  environment: "the situation room" # real estate mogul at the table where wars are decided
+
+accessory_tags:
+  - red_tie
+  - oversize_suit
+  - golden_elevator
+  - podium_microphone
+  - military_briefing_folder
+
+used_in_episodes: [PV_0009]
+created: "2026-04-06"

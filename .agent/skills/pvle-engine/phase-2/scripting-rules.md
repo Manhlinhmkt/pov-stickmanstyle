@@ -121,54 +121,35 @@ RULE_EMOTION_MATCH:
 
 ## 6. TRANSLATION RULES
 
-### VO_JA (Japanese)
-```yaml
-address: "あなた (anata) — always 2nd person"
-formality: "Neutral — plain form for dramatic lines"
-rhythm: "Match EN rhythm — short EN = short JA"
-forbidden:
-  - Overly formal keigo
-  - Literal word-for-word translation breaking rhythm
-adaptation:
-  - US proper nouns: keep English (White House → ホワイトハウス katakana)
-  - Emotional idioms: adapt to Japanese equivalents
-  - TIME_MARKER: "あなたは[年齢]歳だ。"
-  - CONTRAST_LINE: "他の[子供]が[X]している間、あなたは[Y]。"
-  - WEIGHT_LINE: plain form declarative
-```
-
 ### VO_VI (Vietnamese)
 ```yaml
-address: "bạn — always 2nd person"
-formality: "Neutral conversational — documentary narration style"
-rhythm: "Vietnamese runs longer — tighten aggressively"
+address: "ban - always 2nd person"
+formality: "Neutral conversational - documentary narration style"
+rhythm: "Vietnamese runs longer - tighten aggressively"
 forbidden:
-  - "Mày/tao" (too informal)
+  - "May/tao" (too informal)
   - Academic or formal register
   - Over-literal translation sounding unnatural
 adaptation:
   - US institutions: keep English names
-  - Emotional register must match — DREAD in EN = heavy tone in VI
+  - Emotional register must match - DREAD in EN = heavy tone in VI
   - Numbers translated accurately (no rounding)
-  - TIME_MARKER: "Bạn [số tuổi] tuổi."
-  - CONTRAST_LINE: "Trong khi những đứa trẻ khác [X], bạn [Y]."
+  - TIME_MARKER: "Ban [so tuoi] tuoi."
+  - CONTRAST_LINE: "Trong khi nhung dua tre khac [X], ban [Y]."
 ```
 
-### Trilingual Validation
+### Bilingual Validation
 ```yaml
-RULE_TRILINGUAL_COMPLETENESS:
-  check: "Every vo_script_table.csv row must have VO_EN + VO_JA + VO_VI populated"
+RULE_BILINGUAL_COMPLETENESS:
+  check: "Every vo_script_table.csv row must have VO_EN + VO_VI populated"
   forbidden: ["Empty cells", "'TBD'", "placeholder text"]
   on_violation: GENERATE_MISSING_TRANSLATION
 
-RULE_JA_PERSON_CONSISTENCY:
-  check: "All VO_JA use あなた for subject — never 彼/彼女"
-
 RULE_VI_PERSON_CONSISTENCY:
-  check: "All VO_VI use 'bạn' for subject — never 'anh/chị/họ'"
+  check: "All VO_VI use 'ban' for subject - never 'anh/chi/ho'"
 
 RULE_NO_LITERAL_TRANSLATION:
-  test: "Read aloud — sounds like natural narration or translated text?"
+  test: "Read aloud - sounds like natural narration or translated text?"
   if_fail: "Rephrase to preserve meaning + emotion, not word order"
 ```
 

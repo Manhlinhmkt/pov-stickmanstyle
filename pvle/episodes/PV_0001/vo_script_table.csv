@@ -1,7 +1,7 @@
-VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_JA,VO_VI,Word_Count_EN,Pause_After
+﻿VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_JA,VO_VI,Word_Count_EN,Pause_After
 1,PV_0001,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"The day you're born, they bring you home to the top floor of a tower in Manhattan.","あなたが生まれた日、マンハッタンのタワーの最上階に連れて帰られる。","Ngày bạn chào đời, họ đưa bạn về tầng thượng của một toà tháp ở Manhattan.",16,0
 2,PV_0001,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"The entire floor is yours.","そのフロア全体が、あなたのものだ。","Cả tầng là của bạn.",5,0.5
-3,PV_0001,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"One day old — and you already have more space than most people ever will.","生後一日で、ほとんどの人が一生持てない広さを持っている。","Mới một ngày tuổi — và bạn đã có nhiều không gian hơn hầu hết mọi người cả đời.",14,0.5
+3,PV_0001,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"One day old  -  and you already have more space than most people ever will.","生後一日で、ほとんどの人が一生持てない広さを持っている。","Mới một ngày tuổi  -  và bạn đã có nhiều không gian hơn hầu hết mọi người cả đời.",14,0.5
 4,PV_0001,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"There are men in dark suits outside the door.","ドアの外に黒いスーツの男たちがいる。","Có những người mặc vest đen đứng ngoài cửa.",8,0
 5,PV_0001,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"You can hear a radio crackle through the wall sometimes.","時々、壁越しに無線のノイズが聞こえる。","Thỉnh thoảng bạn nghe tiếng bộ đàm xè xè xuyên qua tường.",10,0.3
 6,PV_0001,BEAT_01_01,HOOK,ESTABLISH,WEIGHT_LINE,"They always will be.","彼らはずっとそこにいる。","Họ sẽ luôn ở đó.",5,1.5
@@ -9,12 +9,12 @@ VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_JA,VO_VI,Word_Cou
 8,PV_0001,BEAT_01_02,HOOK,PRIVILEGE,NARRATION,"Cameras are already pointed at the building where you sleep.","カメラはすでに、あなたが眠るビルに向けられている。","Máy quay đã chĩa vào toà nhà nơi bạn ngủ.",9,0.5
 9,PV_0001,BEAT_01_03,HOOK,CONSTRAINT,WEIGHT_LINE,"You did not choose this family. This family chose you.","あなたがこの家族を選んだんじゃない。この家族があなたを選んだ。","Bạn không chọn gia đình này. Gia đình này chọn bạn.",10,2.0
 10,PV_0001,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,"You are four.","あなたは四歳だ。","Bạn bốn tuổi.",3,1.0
-11,PV_0001,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,"You speak two languages — your father's, and one from your mother's homeland, a small country in Eastern Europe that most kids in your class will never find on a map.","二つの言語を話す — 父の言葉と、母の祖国の言葉。クラスのほとんどの子が地図で一生見つけられない、東ヨーロッパの小さな国。","Bạn nói hai thứ tiếng — tiếng của cha, và tiếng quê mẹ, một đất nước nhỏ ở Đông Âu mà hầu hết bạn cùng lớp sẽ chẳng bao giờ tìm được trên bản đồ.",15,0.5
+11,PV_0001,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,"You speak two languages  -  your father's, and one from your mother's homeland, a small country in Eastern Europe that most kids in your class will never find on a map.","二つの言語を話す  -  父の言葉と、母の祖国の言葉。クラスのほとんどの子が地図で一生見つけられない、東ヨーロッパの小さな国。","Bạn nói hai thứ tiếng  -  tiếng của cha, và tiếng quê mẹ, một đất nước nhỏ ở Đông Âu mà hầu hết bạn cùng lớp sẽ chẳng bao giờ tìm được trên bản đồ.",15,0.5
 12,PV_0001,BEAT_02_01,PHASE_EARLY,CONSTRAINT,NARRATION,"You learn there are words you can say at home that you can't say at school.","家で言えるはずの言葉が、学校では言えないことに気づく。","Bạn nhận ra có những từ nói được ở nhà nhưng không nói được ở trường.",14,0
-13,PV_0001,BEAT_02_01,PHASE_EARLY,CONSTRAINT,NARRATION,"Not bad words. Just — different ones.","悪い言葉じゃない。ただ — 違う言葉。","Không phải từ xấu. Chỉ là — khác.",6,0
+13,PV_0001,BEAT_02_01,PHASE_EARLY,CONSTRAINT,NARRATION,"Not bad words. Just  -  different ones.","悪い言葉じゃない。ただ  -  違う言葉。","Không phải từ xấu. Chỉ là  -  khác.",6,0
 14,PV_0001,BEAT_02_01,PHASE_EARLY,CONSTRAINT,NARRATION,"Your mother speaks to you in something that sounds like water. Soft consonants. Long vowels.","母は水のような言萙で話しかける。柔らかな子音。長い母音。","Mẹ bạn nói với bạn bằng thứ gì đó cảm giác như nước. Phụ âm mềm. Nguyên âm dài.",14,0
 15,PV_0001,BEAT_02_01,PHASE_EARLY,CONSTRAINT,NARRATION,"You answer in English. You're not sure when that started.","英語で答える。いつからそうなったのか分からない。","Bạn trả lời bằng tiếng Anh. Bạn không chắc khi nào bắt đầu vậy.",11,0.5
-16,PV_0001,BEAT_02_02,PHASE_EARLY,PRIVILEGE,NARRATION,"When you're seven, mornings have a pattern — you hear the engine outside before your cereal gets soggy. Black SUV. Same spot every day. You stopped noticing after a while.","七歳になると、朝にはパターンがある — シリアルがふやける前に外でエンジン音がする。黒いSUV。毎日同じ場所。そのうち気にならなくなった。","Khi bạn lên bảy, mỗi sáng đều có một khuôn mẫu — bạn nghe tiếng động cơ ngoài cửa trước khi ngũ cốc kịp mềm. SUV đen. Cùng một chỗ mỗi ngày. Dần dần bạn không để ý nữa.",15,0.5
+16,PV_0001,BEAT_02_02,PHASE_EARLY,PRIVILEGE,NARRATION,"When you're seven, mornings have a pattern  -  you hear the engine outside before your cereal gets soggy. Black SUV. Same spot every day. You stopped noticing after a while.","七歳になると、朝にはパターンがある  -  シリアルがふやける前に外でエンジン音がする。黒いSUV。毎日同じ場所。そのうち気にならなくなった。","Khi bạn lên bảy, mỗi sáng đều có một khuôn mẫu  -  bạn nghe tiếng động cơ ngoài cửa trước khi ngũ cốc kịp mềm. SUV đen. Cùng một chỗ mỗi ngày. Dần dần bạn không để ý nữa.",15,0.5
 17,PV_0001,BEAT_02_02,PHASE_EARLY,PRIVILEGE,NARRATION,"You adjust your backpack straps. You don't look at it.","リュックのストラップを直す。そっちは見ない。","Bạn chỉnh dây ba lô. Không nhìn chiếc xe.",9,0
 18,PV_0001,BEAT_02_02,PHASE_EARLY,PRIVILEGE,NARRATION,"Your friends have to pass a background check before they can show up to your birthday. You find this out when your mom mentions it at dinner, like it's nothing.","友達は誕生日に来る前に身元調査を通る必要がある。夕食の時に母がさらっと言って、初めてそれを知った。","Bạn bè phải qua kiểm tra lý lịch mới được đến sinh nhật. Bạn biết điều này khi mẹ nhắc ở bữa tối, như thể chẳng có gì.",15,0
 19,PV_0001,BEAT_02_02,PHASE_EARLY,PRIVILEGE,NARRATION,"You discover video games around eight.","八歳のころ、ゲームを見つける。","Bạn khám phá trò chơi điện tử vào khoảng tám tuổi.",6,0
@@ -23,7 +23,7 @@ VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_JA,VO_VI,Word_Cou
 22,PV_0001,BEAT_02_02,PHASE_EARLY,PRIVILEGE,NARRATION,"You find it eventually. Nobody tells you. You figure it out.","最終的に見つける。誰も教えてくれない。自分で気づく。","Cuối cùng bạn tìm ra. Không ai chỉ. Bạn tự tìm.",11,0
 23,PV_0001,BEAT_02_02,PHASE_EARLY,PRIVILEGE,WEIGHT_LINE,"That part you like.","そこは好きだ。","Phần đó bạn thích.",4,1.5
 24,PV_0001,BEAT_02_02,PHASE_EARLY,PRIVILEGE,NARRATION,"You peel the label off a bottle. Halfway. Then stop.","ボトルのラベルを半分剥がす。途中でやめる。","Bạn bóc nhãn chai. Nửa chừng. Rồi dừng.",9,0
-25,PV_0001,BEAT_02_02,PHASE_EARLY,PRIVILEGE,NARRATION,"Some parents say no. Not because of you — because of the paperwork.","断る親もいる。あなたのせいじゃない — 書類のせい。","Vài phụ huynh từ chối. Không phải vì bạn — vì thủ tục giấy tờ.",14,0
+25,PV_0001,BEAT_02_02,PHASE_EARLY,PRIVILEGE,NARRATION,"Some parents say no. Not because of you  -  because of the paperwork.","断る親もいる。あなたのせいじゃない  -  書類のせい。","Vài phụ huynh từ chối. Không phải vì bạn  -  vì thủ tục giấy tờ.",14,0
 26,PV_0001,BEAT_02_02,PHASE_EARLY,PRIVILEGE,NARRATION,"The birthday chair is already a little too small for you.","誕生日の椅子はもうあなたには少し小さい。","Cái ghế trong tiệc sinh nhật đã hơi nhỏ so với bạn rồi.",11,0.5
 27,PV_0001,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"At school, you use a different name. Something ordinary.","学校では別の名前を使う。ごく普通の名前。","Ở trường, bạn dùng một cái tên khác. Một cái tên bình thường.",10,0
 28,PV_0001,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"Nobody knows which family you belong to.","誰もあなたがどの家族の子か知らない。","Không ai biết bạn thuộc gia đình nào.",7,0
@@ -34,14 +34,14 @@ VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_JA,VO_VI,Word_Cou
 33,PV_0001,BEAT_02_03b,PHASE_EARLY,CONSTRAINT,NARRATION,"The year before your father wins, you move three times.","父が勝つ前の年、三回引っ越す。","Năm trước khi cha bạn thắng, bạn dọn nhà ba lần.",9,0
 34,PV_0001,BEAT_02_03b,PHASE_EARLY,CONSTRAINT,NARRATION,"Three different bedrooms. Three different sets of neighbors.","三つの別々の寱室。三つの別々の近所。","Ba phòng ngủ khác nhau. Ba tập hàng xóm khác nhau.",9,0
 35,PV_0001,BEAT_02_03b,PHASE_EARLY,CONSTRAINT,NARRATION,"You stop hanging up posters.","ポスターを貴るのをやめる。","Bạn thôi dán poster.",5,0
-36,PV_0001,BEAT_02_03b,PHASE_EARLY,CONSTRAINT,NARRATION,"Not because you stop liking things. Just —","好きなものがなくなったわけじゃない。ただ —","Không phải vì bạn không thích thứ gì nữa. Chỉ là —",10,0
+36,PV_0001,BEAT_02_03b,PHASE_EARLY,CONSTRAINT,NARRATION,"Not because you stop liking things. Just  - ","好きなものがなくなったわけじゃない。ただ  - ","Không phải vì bạn không thích thứ gì nữa. Chỉ là  - ",10,0
 37,PV_0001,BEAT_02_03b,PHASE_EARLY,CONSTRAINT,WEIGHT_LINE,"You know the drill.","分かってる。","Bạn biết cái điệu đó rồi.",4,1.5
 38,PV_0001,BEAT_02_04,PHASE_EARLY,TIME_MARKER,NARRATION,"You are ten. Your father wins.","あなたは十歳だ。父が勝った。","Bạn mười tuổi. Cha bạn thắng.",6,1.0
 39,PV_0001,BEAT_02_04,PHASE_EARLY,TIME_MARKER,NARRATION,"You move into a house with a hundred and thirty-two rooms.","百三十二の部屋がある家に引っ越す。","Bạn chuyển vào ngôi nhà một trăm ba mươi hai phòng.",10,0
-40,PV_0001,BEAT_02_04,PHASE_EARLY,TIME_MARKER,NARRATION,"Your footsteps echo. The hallways smell like old wood and something chemical — maybe paint, maybe polish. You're not sure.","足音が響く。廊下は古い木と何か化学的な匂いがする — ペンキか、ワックスか。よく分からない。","Tiếng bước chân vọng lại. Hành lang phảng phất mùi gỗ cũ và thứ gì đó hoá chất — có lẽ sơn, có lẽ đánh bóng. Bạn không chắc.",15,0
+40,PV_0001,BEAT_02_04,PHASE_EARLY,TIME_MARKER,NARRATION,"Your footsteps echo. The hallways smell like old wood and something chemical  -  maybe paint, maybe polish. You're not sure.","足音が響く。廊下は古い木と何か化学的な匂いがする  -  ペンキか、ワックスか。よく分からない。","Tiếng bước chân vọng lại. Hành lang phảng phất mùi gỗ cũ và thứ gì đó hoá chất  -  có lẽ sơn, có lẽ đánh bóng. Bạn không chắc.",15,0
 41,PV_0001,BEAT_02_04,PHASE_EARLY,TIME_MARKER,NARRATION,"None of them feel like yours.","どの部屋も自分のものとは感じられない。","Không phòng nào thấy như là của bạn.",6,0.5
 42,PV_0001,BEAT_02_04,PHASE_EARLY,TIME_MARKER,NARRATION,"You're the first son to live here since the sixties.","六〇年代以来、ここに住む最初の息子だ。","Bạn là cậu con trai đầu tiên sống ở đây kể từ thập niên sáu mươi.",12,0.5
-43,PV_0001,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,"Your mother stays behind in New York a few more months — so you can finish the school year.","母はニューヨークにもう数ヶ月残る — あなたが学年を終えられるように。","Mẹ bạn ở lại New York thêm vài tháng — để bạn hoàn thành năm học.",15,0
+43,PV_0001,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,"Your mother stays behind in New York a few more months  -  so you can finish the school year.","母はニューヨークにもう数ヶ月残る  -  あなたが学年を終えられるように。","Mẹ bạn ở lại New York thêm vài tháng  -  để bạn hoàn thành năm học.",15,0
 44,PV_0001,BEAT_02_05,PHASE_EARLY,REFLECT,WEIGHT_LINE,"She chose you over the spotlight.","彼女はスポットライトよりあなたを選んだ。","Mẹ chọn bạn thay vì ánh đèn sân khấu.",7,1.5
 45,PV_0001,BEAT_02_06,PHASE_EARLY,CONSTRAINT,WEIGHT_LINE,"From here on. Everything changes.","ここから先。すべてが変わる。","Từ đây trở đi. Mọi thứ thay đổi.",5,2.0
 46,PV_0001,BEAT_02_04,PHASE_EARLY,CONSTRAINT,NARRATION,"You think you understand how this works.","この仕組みが分かっていると思う。","Bạn nghĩ mình hiểu cách này hoạt động.",7,0
@@ -50,11 +50,11 @@ VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_JA,VO_VI,Word_Cou
 49,PV_0001,BEAT_03_01,PHASE_CONFLICT,CONSTRAINT,NARRATION,"Plain clothes. But everyone knows.","私服。でも、みんな知っている。","Thường phục. Nhưng ai cũng biết.",5,0
 50,PV_0001,BEAT_03_01,PHASE_CONFLICT,CONSTRAINT,NARRATION,"Your desk is the same as everyone else's. The hallway outside it isn't.","あなたの机はみんなと同じ。でも廊下は違う。","Bàn học bạn giống mọi người. Hành lang bên ngoài thì không.",13,0
 51,PV_0001,BEAT_03_01,PHASE_CONFLICT,CONSTRAINT,NARRATION,"Once in a while you hear a walkie-talkie through the glass. A chair shifts in the hallway. Someone's always out there.","時々ガラス越しに無線が聞こえる。廊下で椅子がきしむ。誰かがいつもそこにいる。","Thỉnh thoảng bạn nghe tiếng bộ đàm xuyên qua kính. Ghế kêu ngoài hành lang. Luôn có ai đó ở ngoài.",15,0.5
-52,PV_0001,BEAT_03_01,PHASE_CONFLICT,CONSTRAINT,NARRATION,"Or maybe it was always like that — maybe you just stopped noticing somewhere around the third school.","あるいはずっとそうだったのかもしれない――三つ目の学校あたりで気にしなくなっただけかも。","Hoặc có lẽ lúc nào cũng vậy — có lẽ bạn chỉ thôi để ý đâu đó khoảng trường thứ ba.",17,0.5
+52,PV_0001,BEAT_03_01,PHASE_CONFLICT,CONSTRAINT,NARRATION,"Or maybe it was always like that  -  maybe you just stopped noticing somewhere around the third school.","あるいはずっとそうだったのかもしれない――三つ目の学校あたりで気にしなくなっただけかも。","Hoặc có lẽ lúc nào cũng vậy  -  có lẽ bạn chỉ thôi để ý đâu đó khoảng trường thứ ba.",17,0.5
 53,PV_0001,BEAT_03_01b,PHASE_CONFLICT,CONSTRAINT,NARRATION,"Lunch is the hardest part.","昼食時間が一番つらい。","Bữa trưa là phần khó nhất.",5,0
 54,PV_0001,BEAT_03_01b,PHASE_CONFLICT,CONSTRAINT,NARRATION,"There are two agents at a table near the cafeteria entrance. Everyone else pretends not to look.","カフェテリアの入口近くにエージェントが二人座っている。みんなは見ないふりをする。","Có hai nhân viên an ninh ngồi một bàn gần lối vào căng-tin. Mọi người khác giả vờ không nhìn.",14,0
 55,PV_0001,BEAT_03_01b,PHASE_CONFLICT,CONSTRAINT,NARRATION,"You pretend not to notice them pretending.","あなたは彼らがふりをしているのに気づかないふりをする。","Bạn giả vờ không nhận ra họ đang giả vờ.",8,0
-56,PV_0001,BEAT_03_01b,PHASE_CONFLICT,CONSTRAINT,NARRATION,"You can feel it — people looking, then looking away.","感じる — 人が見て、それからそらす。","Bạn cảm nhận được — người ta nhìn, rồi nhìn đi.",10,0
+56,PV_0001,BEAT_03_01b,PHASE_CONFLICT,CONSTRAINT,NARRATION,"You can feel it  -  people looking, then looking away.","感じる  -  人が見て、それからそらす。","Bạn cảm nhận được  -  người ta nhìn, rồi nhìn đi.",10,0
 57,PV_0001,BEAT_03_01b,PHASE_CONFLICT,CONSTRAINT,NARRATION,"You eat fast. You have gotten good at that.","食事のペースが早い。得意になった。","Bạn ăn nhanh. Bạn giỏi mảng đó rồi.",9,0
 58,PV_0001,BEAT_03_01b,PHASE_CONFLICT,CONSTRAINT,NARRATION,"You wipe your hands on a napkin. Then again.","ナプキンで手を拭く。もう一度。","Bạn lau tay vào khăn giấy. Rồi lau lại.",8,0
 59,PV_0001,BEAT_03_01b,PHASE_CONFLICT,CONSTRAINT,NARRATION,"A kid tries to sit with you once. You don't know if he's being nice or if his parents told him to.","一度、子が隣に座ろうとする。寄ってきたのか、親に言われたのか分からない。","Một đứa cố ngồi cạnh bạn một lần. Bạn không biết nó tốt bụng hay bị bố mẹ bảo.",16,0
@@ -80,7 +80,7 @@ VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_JA,VO_VI,Word_Cou
 79,PV_0001,BEAT_03_03b,PHASE_CONFLICT,REFLECT,NARRATION,"Too long, probably.","長すぎるかもしれない。","Quá lâu, chắc vậy.",3,0.5
 80,PV_0001,BEAT_03_03b,PHASE_CONFLICT,REFLECT,NARRATION,"The thing is -","問題は -","Vấn đề là -",4,0
 81,PV_0001,BEAT_03_03b,PHASE_CONFLICT,REFLECT,WEIGHT_LINE,"Nobody warns you about the quiet parts.","静かな部分については誰も警告してくれない。","Không ai cảnh báo về những lúc yên lặng.",7,1.5
-82,PV_0001,BEAT_03_03,PHASE_CONFLICT,REFLECT,WEIGHT_LINE,"You get... quiet. Not on purpose. It just happens.","だんだん…静かになる。わざとじゃない。ただそうなった。","Bạn trở nên... im lặng. Không phải cố ý. Tự nhiên vậy.",10,1.5
+82,PV_0001,BEAT_03_03,PHASE_CONFLICT,REFLECT,WEIGHT_LINE,"You get... quiet. Not on purpose. It just happens.","だんだん...静かになる。わざとじゃない。ただそうなった。","Bạn trở nên... im lặng. Không phải cố ý. Tự nhiên vậy.",10,1.5
 83,PV_0001,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Your father gets impeached for the first time. You're thirteen.","父が初めて弾劾される。あなたは十三歳。","Cha bạn bị luận tội lần đầu. Bạn mười ba.",9,0
 84,PV_0001,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You find out the same way everyone else does.","みんなと同じ方法で知る。","Bạn biết tin giống mọi người.",8,0
 85,PV_0001,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Phone. Your room. Lights off.","スマホ。自分の部屋。電気は消えている。","Điện thoại. Phòng bạn. Đèn tắt.",5,0
@@ -112,7 +112,7 @@ VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_JA,VO_VI,Word_Cou
 111,PV_0001,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"Delegate.","代議員として。","Làm đại biểu.",1,0.3
 112,PV_0001,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"You say no.","断る。","Bạn từ chối.",3,0.5
 113,PV_0001,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"No one asks what you want.","誰もあなたが何を望んでいるか聞かない。","Không ai hỏi bạn muốn gì.",7,0.5
-114,PV_0001,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"They announce prior commitments. The truth is simpler — you're not ready to be a symbol.","先約があると発表される。本当はもっと単純だ — シンボルになる準備ができていない。","Họ nói bạn bận việc trước. Sự thật đơn giản hơn — bạn chưa sẵn sàng làm biểu tượng.",15,1.0
+114,PV_0001,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"They announce prior commitments. The truth is simpler  -  you're not ready to be a symbol.","先約があると発表される。本当はもっと単純だ  -  シンボルになる準備ができていない。","Họ nói bạn bận việc trước. Sự thật đơn giản hơn  -  bạn chưa sẵn sàng làm biểu tượng.",15,1.0
 115,PV_0001,BEAT_04_02b,PHASE_CRISIS,CRISIS,NARRATION,"The night of the convention you watch it on your laptop.","大会の夜、ノートパソコンでそれを見る。","Tối hôm diễn ra đại hội bạn xem trên laptop.",9,0
 116,PV_0001,BEAT_04_02b,PHASE_CRISIS,CRISIS,NARRATION,"Alone.","一人で。","Một mình.",1,0.5
 117,PV_0001,BEAT_04_02b,PHASE_CRISIS,CRISIS,NARRATION,"The room is loud on screen. In your room it's just the fan. And the crowd through the speakers in a way that doesn't feel real.","画面の中は騒々しい。自分の部屋にはファンの音だけ。群衆の音がスピーカー越しにこえるが、現実のものに感じられない。","Trên màn hình thì ồn. Trong phòng bạn chỉ có quạt. Và tiếng đám đông qua loa theo cách không thấy thật.",18,0
@@ -141,8 +141,8 @@ VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_JA,VO_VI,Word_Cou
 140,PV_0001,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,"The whole world is watching.","全世界が見ている。","Cả thế giới đang nhìn.",5,0
 141,PV_0001,BEAT_04_04,PHASE_CRISIS,REFLECT,WEIGHT_LINE,"And you haven't said a single word.","そして一言も発していない。","Và bạn chưa nói một lời nào.",8,2.0
 142,PV_0001,BEAT_04_03b,PHASE_CRISIS,REFLECT,NARRATION,"And then it's over.","そして終わる。","Rồi hết.",5,0
-143,PV_0001,BEAT_04_03b,PHASE_CRISIS,REFLECT,WEIGHT_LINE,"And then — gone.","そして――消えた。","Rồi — hết.",4,2.0
-144,PV_0001,BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,NARRATION,"The fall after everything, you enroll in a business school in New York — Manhattan, the same city where you were born.","すべてが終わった秋、ニューヨークのビジネススクールに入学する — マンハッタン、生まれた街と同じ。","Mùa thu sau tất cả, bạn vào học trường kinh doanh ở New York — Manhattan, thành phố nơi bạn sinh ra.",15,0.5
+143,PV_0001,BEAT_04_03b,PHASE_CRISIS,REFLECT,WEIGHT_LINE,"And then  -  gone.","そして――消えた。","Rồi  -  hết.",4,2.0
+144,PV_0001,BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,NARRATION,"The fall after everything, you enroll in a business school in New York  -  Manhattan, the same city where you were born.","すべてが終わった秋、ニューヨークのビジネススクールに入学する  -  マンハッタン、生まれた街と同じ。","Mùa thu sau tất cả, bạn vào học trường kinh doanh ở New York  -  Manhattan, thành phố nơi bạn sinh ra.",15,0.5
 145,PV_0001,BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,NARRATION,"The subway rumbles under the building during lectures. You feel it in your chair.","講義中、地下鉄が建物の下を走る。椅子で振動を感じる。","Tàu điện ngầm rung dưới toà nhà giữa giờ giảng. Bạn cảm thấy nó qua ghế ngồi.",13,0
 146,PV_0001,BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,NARRATION,"Same city. Same buildings.","同じ街。同じビル。","Cùng thành phố. Cùng những toà nhà.",6,0
 147,PV_0001,BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,NARRATION,"You're bigger now though.","でも今はもっと大きい。","Nhưng bạn lớn hơn rồi.",5,0
@@ -156,7 +156,7 @@ VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_JA,VO_VI,Word_Cou
 155,PV_0001,BEAT_05_01b,PHASE_RESOLUTION,REFLECT,NARRATION,"It feels normal.","普通に感じる。","Cảm giác bình thường.",3,0
 156,PV_0001,BEAT_05_01b,PHASE_RESOLUTION,REFLECT,NARRATION,"Or close to it.","それに近い。","Hoặc gần gần vậy.",5,0.5
 157,PV_0001,BEAT_05_01b,PHASE_RESOLUTION,REFLECT,WEIGHT_LINE,"Maybe ever. You don't question it.","もしかしたら、おそらく人生で。","Có lẽ là từ trước đến giờ.",4,1.5
-158,PV_0001,BEAT_05_02,PHASE_RESOLUTION,RESOLVE,NARRATION,"The agents still follow you — into the lecture hall, outside your door at night.","エージェントはまだついてくる — 講義室の中まで、夜はドアの外に。","Nhân viên an ninh vẫn theo — vào giảng đường, đứng ngoài cửa phòng ban đêm.",14,0
+158,PV_0001,BEAT_05_02,PHASE_RESOLUTION,RESOLVE,NARRATION,"The agents still follow you  -  into the lecture hall, outside your door at night.","エージェントはまだついてくる  -  講義室の中まで、夜はドアの外に。","Nhân viên an ninh vẫn theo  -  vào giảng đường, đứng ngoài cửa phòng ban đêm.",14,0
 159,PV_0001,BEAT_05_02,PHASE_RESOLUTION,RESOLVE,NARRATION,"You forget what you were about to say. It doesn't come back.","言おうとしていたことを忘れる。思い出せない。","Bạn quên mình định nói gì. Không nhớ lại được.",12,0
 160,PV_0001,BEAT_05_02b,PHASE_RESOLUTION,RESOLVE,NARRATION,"The other students figure it out by week two.","他の学生たちは二週目までに気づく。","Các sinh viên khác hiểu ra tới tuần hai.",8,0
 161,PV_0001,BEAT_05_02b,PHASE_RESOLUTION,RESOLVE,NARRATION,"Some are cool about it. One guy asks if they can take a photo.","平気な人もいる。一人は写真を撮っていいかと聞いてくる。","Nhiều người bình thản. Một người hỏi có thể chụp ảnh không.",12,0
@@ -166,14 +166,14 @@ VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_JA,VO_VI,Word_Cou
 165,PV_0001,BEAT_05_02b,PHASE_RESOLUTION,RESOLVE,WEIGHT_LINE,"But it does.","でもそうなる。","Nhưng vậy đấy.",3,1.5
 166,PV_0001,BEAT_05_02,PHASE_RESOLUTION,RESOLVE,NARRATION,"Behind you, the soft creak of a leather shoe shifting weight.","後ろで、革靴が体重を移す小さなきしみ。","Phía sau bạn, tiếng kẽo kẹt nhẹ của giày da đổi trọng tâm.",10,0.5
 167,PV_0001,BEAT_05_02,PHASE_RESOLUTION,RESOLVE,WEIGHT_LINE,"Some things don't change.","変わらないものもある。","Có những thứ không đổi.",4,1.5
-168,PV_0001,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,"But for the first time in your life, you actually chose something — the school, the city, even the major — and nobody told you otherwise.","でも人生で初めて、自分で何かを選んだ — 学校を、街を、専攻さえも — 誰にも反対されなかった。","Nhưng lần đầu tiên trong đời, bạn thực sự tự chọn — trường, thành phố, cả ngành học — và không ai bảo bạn làm khác.",15,0
+168,PV_0001,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,"But for the first time in your life, you actually chose something  -  the school, the city, even the major  -  and nobody told you otherwise.","でも人生で初めて、自分で何かを選んだ  -  学校を、街を、専攻さえも  -  誰にも反対されなかった。","Nhưng lần đầu tiên trong đời, bạn thực sự tự chọn  -  trường, thành phố, cả ngành học  -  và không ai bảo bạn làm khác.",15,0
 169,PV_0001,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,"Yeah.","うん。","Ừ.",1,0.5
 170,PV_0001,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,"Business. Not law. Not politics. Not your father's path.","ビジネス。法律じゃない。政治じゃない。父の道じゃない。","Kinh doanh. Không phải luật. Không phải chính trị. Không phải con đường của cha.",10,0
-171,PV_0001,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,"You think —","思う —","Bạn nghĩ —",2,0
+171,PV_0001,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,"You think  - ","思う  - ","Bạn nghĩ  - ",2,0
 172,PV_0001,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,"No.","いや。","Không.",1,0.3
 173,PV_0001,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,"You chose this because you wanted to.","望んでいたから選んだ。","Bạn chọn vì bạn muốn.",7,0
 174,PV_0001,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,"Or because it was the only thing left.","それとも残った唯一のものだったからか。","Hay vì đó là thứ duy nhất còn lại.",8,0
-175,PV_0001,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,"You stop there.","それとも —","Hay —",1,0.3
+175,PV_0001,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,"You stop there.","それとも  - ","Hay  - ",1,0.3
 176,PV_0001,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,"You don't think about it too long.","あまり長くは考えない。","Bạn không nghĩ về điều đó quá lâu.",7,0.5
 177,PV_0001,BEAT_05_04,PHASE_RESOLUTION,REFLECT,WEIGHT_LINE,"It is not freedom. But it is the closest you have ever had.","自由じゃない。でも、これまでで一番近い自由だ。","Đó không phải tự do. Nhưng đó là gần nhất bạn từng có.",13,2.0
 178,PV_0001,BEAT_06_01,PHASE_PRESENT,TIME_MARKER,NARRATION,"Sophomore year, you transfer to the campus in Washington.","二年生の秋、ワシントンのキャンパスに転校する。","Năm hai, bạn chuyển sang campus ở Washington.",8,0
@@ -182,14 +182,14 @@ VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_JA,VO_VI,Word_Cou
 181,PV_0001,BEAT_06_01,PHASE_PRESENT,TIME_MARKER,NARRATION,"You try to remember the first time. You can't.","最初の時を思い出そうとする。思い出せない。","Bạn cố nhớ lần đầu tiên. Không nhớ nổi.",9,0.5
 182,PV_0001,BEAT_06_02,PHASE_PRESENT,PRIVILEGE,NARRATION,"Your father calls you the king of the internet.","父はあなたを「インターネットの王」と呼ぶ。","Cha gọi bạn là vua internet.",8,0
 183,PV_0001,BEAT_06_02,PHASE_PRESENT,PRIVILEGE,NARRATION,"You laugh. Kind of.","笑う。なんとなく。","Bạn cười. Kiểu vậy.",4,0.3
-184,PV_0001,BEAT_06_02,PHASE_PRESENT,PRIVILEGE,NARRATION,"You're the one who connected the campaign to a generation that doesn't watch television — podcasters, streamers, kids with ring lights in their bedrooms.","テレビを見ない世代にキャンペーンを繋いだのはあなただ — ポッドキャスター、ストリーマー、部屋でリングライトを使う子たち。","Bạn là người kết nối chiến dịch với thế hệ không xem tivi — podcaster, streamer, những đứa trẻ có ring light trong phòng ngủ.",15,0
-185,PV_0001,BEAT_06_02,PHASE_PRESENT,PRIVILEGE,NARRATION,"You understood them before anyone on the team did. Or at least — that's what people say.","チームの誰よりも先に、あなたは彼らを理解していた。少なくとも――みんなはそう言う。","Bạn hiểu họ trước bất kỳ ai trong đội. Ít nhất — người ta nói vậy.",15,0.5
+184,PV_0001,BEAT_06_02,PHASE_PRESENT,PRIVILEGE,NARRATION,"You're the one who connected the campaign to a generation that doesn't watch television  -  podcasters, streamers, kids with ring lights in their bedrooms.","テレビを見ない世代にキャンペーンを繋いだのはあなただ  -  ポッドキャスター、ストリーマー、部屋でリングライトを使う子たち。","Bạn là người kết nối chiến dịch với thế hệ không xem tivi  -  podcaster, streamer, những đứa trẻ có ring light trong phòng ngủ.",15,0
+185,PV_0001,BEAT_06_02,PHASE_PRESENT,PRIVILEGE,NARRATION,"You understood them before anyone on the team did. Or at least  -  that's what people say.","チームの誰よりも先に、あなたは彼らを理解していた。少なくとも――みんなはそう言う。","Bạn hiểu họ trước bất kỳ ai trong đội. Ít nhất  -  người ta nói vậy.",15,0.5
 186,PV_0001,BEAT_06_02b,PHASE_PRESENT,PRIVILEGE,NARRATION,"You think you know what they respond to.","彼らが何に反応するか分かる。誠実さ、ほとんど。","Bạn biết họ phản hồi với cái gì. Chân thành, phần lớn.",10,0
 187,PV_0001,BEAT_06_02b,PHASE_PRESENT,PRIVILEGE,NARRATION,"Sincerity. Probably.","誠実さ。たぶん。","Chân thành. Chắc vậy.",3,0
 188,PV_0001,BEAT_06_02b,PHASE_PRESENT,PRIVILEGE,NARRATION,"At least the appearance of it.","少なくとも、その見た目。","Hoặc ít nhất là vẻ bề ngoài của nó.",7,0
 189,PV_0001,BEAT_06_02b,PHASE_PRESENT,PRIVILEGE,NARRATION,"Which is the same thing when it's done right.","うまくやれば、同じことだ。","Đó là cùng một thứ khi làm đúng cách.",9,0
 190,PV_0001,BEAT_06_02b,PHASE_PRESENT,PRIVILEGE,NARRATION,"You file that away. You don't look at it.","それを心にしまう。見ないようにする。","Bạn cất điều đó đi. Không nhìn lại.",10,0.5
-191,PV_0001,BEAT_06_02b,PHASE_PRESENT,PRIVILEGE,NARRATION,"Sometimes you're talking to someone and you feel yourself being —","時々誰かと話していると、何かを感じる —","Đôi khi bạn đang nói chuyện với ai đó và bạn cảm thấy mình đang —",12,0
+191,PV_0001,BEAT_06_02b,PHASE_PRESENT,PRIVILEGE,NARRATION,"Sometimes you're talking to someone and you feel yourself being  - ","時々誰かと話していると、何かを感じる  - ","Đôi khi bạn đang nói chuyện với ai đó và bạn cảm thấy mình đang  - ",12,0
 192,PV_0001,BEAT_06_02b,PHASE_PRESENT,PRIVILEGE,NARRATION,"Watched.","見られている。","Bị nhìn.",1,0.5
 193,PV_0001,BEAT_06_02b,PHASE_PRESENT,PRIVILEGE,NARRATION,"Not just by the camera. By yourself.","カメラだけじゃない。自分自身にも。","Không chỉ bởi camera. Bởi chính mình.",8,0.5
 194,PV_0001,BEAT_06_03,PHASE_PRESENT,CONSTRAINT,NARRATION,"You don't have a single social media account. Not one.","ソーシャルメディアのアカウントは一つもない。一つも。","Bạn không có lấy một tài khoản mạng xã hội. Không một cái.",11,0
@@ -198,7 +198,7 @@ VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_JA,VO_VI,Word_Cou
 197,PV_0001,BEAT_06_03,PHASE_PRESENT,CONSTRAINT,WEIGHT_LINE,"Everyone's got an opinion.","みんな意見を持っている。","Ai cũng có ý kiến.",4,0
 198,PV_0001,BEAT_06_03,PHASE_PRESENT,CONSTRAINT,NARRATION,"Your clothes. Your face. Even your name - something about it.","服。顔。名前まで。","Quần áo. Mặt mũi. Cả cái tên.",7,0
 199,PV_0001,BEAT_06_03,PHASE_PRESENT,CONSTRAINT,WEIGHT_LINE,"None of them asked.","誰も聞いてない。","Không ai hỏi.",4,1.5
-200,PV_0001,BEAT_06_04,PHASE_PRESENT,CONFLICT,NARRATION,"People make accounts with your name — fake stories, edited photos, things you've never said attached to your face.","あなたの名前でアカウントが作られる — 偽の話、加工された写真、言ったこともないことがあなたの顔に貼り付けられる。","Người ta lập tài khoản mang tên bạn — chuyện bịa, ảnh chỉnh sửa, những thứ bạn chưa bao giờ nói gắn vào mặt bạn.",15,0
+200,PV_0001,BEAT_06_04,PHASE_PRESENT,CONFLICT,NARRATION,"People make accounts with your name  -  fake stories, edited photos, things you've never said attached to your face.","あなたの名前でアカウントが作られる  -  偽の話、加工された写真、言ったこともないことがあなたの顔に貼り付けられる。","Người ta lập tài khoản mang tên bạn  -  chuyện bịa, ảnh chỉnh sửa, những thứ bạn chưa bao giờ nói gắn vào mặt bạn.",15,0
 201,PV_0001,BEAT_06_04,PHASE_PRESENT,CONFLICT,NARRATION,"Your thumb hovers over the screen. You put the phone face-down.","親指が画面の上で止まる。スマホを伏せて置く。","Ngón tay bạn lơ lửng trên màn hình. Bạn úp điện thoại xuống.",11,0
 202,PV_0001,BEAT_06_05,PHASE_PRESENT,PRIVILEGE,NARRATION,"You open a message. Don't read it. Close it.","メッセージを開く。読まない。閉じる。","Bạn mở tin nhắn. Không đọc. Đóng lại.",8,0
 203,PV_0001,BEAT_06_04,PHASE_PRESENT,CONFLICT,NARRATION,"You pick it back up.","また手に取る。","Bạn cầm lại.",4,0
@@ -208,7 +208,7 @@ VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_JA,VO_VI,Word_Cou
 207,PV_0001,BEAT_06_04,PHASE_PRESENT,CONFLICT,NARRATION,"Not once.","一度も。","Không một lần.",2,0
 208,PV_0001,BEAT_06_04,PHASE_PRESENT,CONFLICT,NARRATION,"You don't know if that's strength. Or something else.","それが強さなのか。それとも何か別のものなのか。","Bạn không biết đó là sức mạnh. Hay thứ gì khác.",10,1.0
 209,PV_0001,BEAT_06_04,PHASE_PRESENT,CONFLICT,NARRATION,"You wait.","待つ。","Bạn chờ.",2,1.5
-210,PV_0001,BEAT_06_05,PHASE_PRESENT,PRIVILEGE,NARRATION,"People pitch you things in conference rooms — apps, drinks, buildings.","会議室で色々なものを提案される — アプリ、飲料、ビル。","Người ta rao bán đủ thứ trong phòng họp — ứng dụng, đồ uống, toà nhà.",12,0
+210,PV_0001,BEAT_06_05,PHASE_PRESENT,PRIVILEGE,NARRATION,"People pitch you things in conference rooms  -  apps, drinks, buildings.","会議室で色々なものを提案される  -  アプリ、飲料、ビル。","Người ta rao bán đủ thứ trong phòng họp  -  ứng dụng, đồ uống, toà nhà.",12,0
 211,PV_0001,BEAT_06_05,PHASE_PRESENT,PRIVILEGE,NARRATION,"Your phone buzzes once. You don't check it.","スマホが一度振動する。確認しない。","Điện thoại bạn rung một cái. Bạn không kiểm tra.",10,0
 212,PV_0001,BEAT_06_05,PHASE_PRESENT,PRIVILEGE,NARRATION,"You tap the screen once. Just to see it light up.","画面を一度タップする。光るのを見るためだけに。","Bạn chạm màn hình một lần. Chỉ để thấy nó sáng lên.",10,0
 213,PV_0001,BEAT_06_05,PHASE_PRESENT,PRIVILEGE,NARRATION,"You're building something.","何かを作り始めている。","Bạn đang xây dựng thứ gì đó.",3,0
@@ -228,7 +228,7 @@ VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_JA,VO_VI,Word_Cou
 227,PV_0001,BEAT_06_06b,PHASE_PRESENT,REFLECT,NARRATION,"You check your watch. Then you remember you're not wearing one.","時計を確認する。つけていないことに気づく。","Bạn nhìn đồng hồ. Rồi nhớ ra mình không đeo.",10,0
 228,PV_0001,BEAT_06_06b,PHASE_PRESENT,REFLECT,NARRATION,"You look at the window instead.","代わりに窓の外を見る。","Bạn nhìn ra cửa sổ thay vào đó.",6,0.5
 229,PV_0001,BEAT_06_07,PHASE_PRESENT,REFLECT,NARRATION,"You still haven't spoken publicly. Not once.","まだ一度も公に発言していない。一度も。","Bạn vẫn chưa một lần phát biểu công khai.",7,0
-230,PV_0001,BEAT_06_07,PHASE_PRESENT,REFLECT,NARRATION,"You almost —","危うく —","Bạn suýt —",2,0
+230,PV_0001,BEAT_06_07,PHASE_PRESENT,REFLECT,NARRATION,"You almost  - ","危うく  - ","Bạn suýt  - ",2,0
 231,PV_0001,BEAT_06_07,PHASE_PRESENT,REFLECT,NARRATION,"Nothing.","何もない。","Không có gì.",1,0.3
 232,PV_0001,BEAT_06_07,PHASE_PRESENT,REFLECT,NARRATION,"You haven't said a word.","一言も発していない。","Bạn chưa nói một lời nào.",6,0
 233,PV_0001,BEAT_06_07,PHASE_PRESENT,REFLECT,NARRATION,"Somehow that's what people remember.","なぜかそれが人々に記憶されている。","Kỳ lạ thay, đó là thứ người ta nhớ về bạn.",6,0.5
@@ -244,4 +244,4 @@ VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_JA,VO_VI,Word_Cou
 243,PV_0001,BEAT_07_03b,CALLBACK_CLOSE,REFLECT,NARRATION,"Or it's not.","いや、違う。","Hoặc không.",3,0
 244,PV_0001,BEAT_07_03b,CALLBACK_CLOSE,REFLECT,NARRATION,"You leave it there.","まだ分かっていない。","Bạn chưa tìm ra.",6,0.5
 245,PV_0001,BEAT_07_03,CALLBACK_CLOSE,REFLECT,WEIGHT_LINE,"And you still have not decided who you are.","そしてまだ、自分が誰なのか決めていない。","Và bạn vẫn chưa quyết định mình là ai.",9,1.5
-246,PV_0001,BEAT_07_04,CALLBACK_CLOSE,CTA,WEIGHT_LINE,"But maybe — that is the one right no one can take from you.","でもたぶん — それが、誰にも奪えないあなたの唯一の権利だ。","Nhưng có lẽ — đó là quyền duy nhất không ai lấy được từ bạn.",13,2.0
+246,PV_0001,BEAT_07_04,CALLBACK_CLOSE,CTA,WEIGHT_LINE,"But maybe  -  that is the one right no one can take from you.","でもたぶん  -  それが、誰にも奪えないあなたの唯一の権利だ。","Nhưng có lẽ  -  đó là quyền duy nhất không ai lấy được từ bạn.",13,2.0

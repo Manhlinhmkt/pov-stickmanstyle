@@ -14,6 +14,19 @@ import glob
 import sys
 from pathlib import Path
 
+# Import sanitize function from fix_mojibake
+try:
+    from fix_mojibake import sanitize_text
+except ImportError:
+    import importlib.util
+    _spec = importlib.util.spec_from_file_location(
+        "fix_mojibake",
+        str(Path(__file__).parent / "fix_mojibake.py")
+    )
+    _mod = importlib.util.module_from_spec(_spec)
+    _spec.loader.exec_module(_mod)
+    sanitize_text = _mod.sanitize_text
+
 try:
     from openpyxl import Workbook
     from openpyxl.styles import Font, Alignment
@@ -33,6 +46,8 @@ def fix_csv_encoding(episode_dir: Path) -> int:
             with open(f, "r", encoding="utf-8") as fh:
                 content = fh.read()
             content = content.lstrip("\ufeff")
+            # Sanitize Unicode dashes/quotes to prevent mojibake
+            content, sanitized_count = sanitize_text(content)
             # Try direct write first
             try:
                 with open(f, "w", encoding="utf-8-sig", newline="") as fh:

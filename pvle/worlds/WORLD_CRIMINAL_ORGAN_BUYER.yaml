@@ -1,0 +1,129 @@
+# WORLD: WORLD_CRIMINAL_ORGAN_BUYER
+# Display: The Person Who Didn't Ask
+# Created: 2026-04-13
+
+WORLD_ID: WORLD_CRIMINAL_ORGAN_BUYER
+display_name: "The Person Who Didn't Ask"
+domain: CRIMINAL
+era: MODERN_CONTEMPORARY
+implied_identity_mode: GENERIC_ARCHETYPE
+implied_person: null
+
+tags:
+  - organ_trafficking
+  - transplant_tourism
+  - desperate_wealth
+  - moral_complicity
+  - buying_survival
+  - willful_blindness
+  - moral_ambiguity
+
+seed_keywords:
+  - "organ buyer"
+  - "transplant tourism"
+  - "illegal organ purchase"
+  - "buying life"
+  - "waitlist bypass"
+  - "wealthy patient organ trafficking"
+
+key_facts:
+  - "Organ waiting lists in developed countries average 3-5 years - during which 17 people die every day in the US alone waiting for a transplant"
+  - "Transplant tourism packages cost $100,000-$200,000 - including travel, surgery, recovery, and documentation laundering"
+  - "Buyers typically receive a single phone call with a date and destination - they are told nothing about the donor"
+  - "Many buyers are ordinary people - teachers, engineers, parents - who were told they would die without a transplant within months"
+  - "Post-transplant, buyers must take immunosuppressant drugs for life - a daily reminder of how the organ was obtained"
+  - "Brokers coach buyers to tell their home doctors the transplant happened through a generous family member abroad"
+  - "Some buyers discover later that their donor was a kidnapping victim or a prisoner - by then the organ is already inside them"
+  - "The Declaration of Istanbul (2008) explicitly condemns transplant tourism but enforcement remains weak across most participating nations"
+  - "Repeat buyers exist - liver segments, corneas, bone marrow - once you enter the network, they know you will pay"
+  - "A single kidney costs the buyer $100,000-$200,000 - while the donor receives $5,000 or less, often nothing"
+  - "Buyers are tracked and re-contacted by the network for future procedures - returning clients receive faster access and reduced moral resistance"
+
+key_locations:
+  - id: LOC_HOSPITAL_CORRIDOR
+    name: "The Hospital Corridor"
+    description: "Where the diagnosis lands - the doctor's words that start the countdown and the desperation"
+  - id: LOC_WAITING_LIST_OFFICE
+    name: "The Waiting List Office"
+    description: "Where you sit with a number that never moves - watching others called before you while your body fails"
+  - id: LOC_BROKER_MEETING
+    name: "The First Meeting"
+    description: "Anonymous hotel lobby or parking garage where the broker offers the option you swore you would never consider"
+  - id: LOC_FOREIGN_CLINIC
+    name: "The Foreign Clinic"
+    description: "Clean enough to look legitimate - but the silence of the staff and the speed of the process tell you everything"
+  - id: LOC_RECOVERY_HOME
+    name: "The Recovery at Home"
+    description: "Your own bed, your own house - with someone else's organ inside you and a cover story you rehearse daily"
+
+key_tensions:
+  - NORMAL_DESIRE_VS_IMPOSSIBLE_REALITY
+  - DUTY_VS_SELF
+  - POWER_VS_ISOLATION
+
+accessory_tags:
+  - "medical wristband"
+  - "pill bottle"
+  - "airline ticket"
+
+# SUBJECT VARIANTS (for multi-episode scalability)
+subject_variants:
+  - type: "THE_RELUCTANT"
+    trigger: "Delays decision until body forces the choice"
+  - type: "THE_RATIONALIZER"
+    trigger: "Builds moral framework before each step"
+  - type: "THE_REPEAT_CLIENT"
+    trigger: "Has crossed the line before - resistance is gone"
+  - type: "THE_PROXY"
+    trigger: "Buying for someone else - child, spouse"
+  - type: "THE_DENIER"
+    trigger: "Refuses to acknowledge any wrongdoing even to self"
+
+# TENSION CATALYSTS (world-level situation patterns)
+tension_catalysts:
+  - "Someone in your life asks about the scar or the timeline"
+  - "You encounter information about your donor's origin"
+  - "The network contacts you for a second transaction"
+  - "Your body rejects - and you need the system again"
+  - "You meet another buyer and see yourself reflected"
+
+# IRREVERSIBLE MARKERS (points of no return)
+irreversible_markers:
+  - "You take the first immunosuppressant pill"
+  - "You sign a false medical declaration"
+  - "You realize you do not want to know anymore"
+
+# CREATIVE CONSTRAINTS (episode-level enforcement)
+creative_constraints:
+  primary_rule: "NEVER_SEE_THE_DONOR"
+  description: >
+    The buyer's horror is the void of knowledge. You never meet the
+    donor. You never see the extraction. You only see your own
+    survival - and the questions you train yourself not to ask.
+    The narrative lives in willful blindness and the slow collapse
+    of self-justification.
+  subject_framing: >
+    Subject is not a villain - they are a dying person who chose
+    survival over ethics. The core mechanism is the corruption of
+    desperation - how ordinary moral people become complicit in
+    monstrous systems when their own life is at stake.
+  forbidden_framing:
+    - "Subject as willing criminal or thrill-seeker"
+    - "Graphic surgical descriptions from the buyer's POV"
+    - "Dehumanizing the donor or treating them as disposable"
+    - "Framing the purchase as a smart decision"
+  required_framing:
+    - "Desperation as gateway to complicity"
+    - "The question you never ask as recurring motif"
+    - "Physical intimacy with a stranger's organ inside you"
+    - "Cover story maintenance as daily psychological burden"
+    - "Ending lands on the impossibility of undoing what was done"
+
+# CROSS-WORLD METADATA (production reference only - not narrative)
+related_worlds:
+  - WORLD_CRIMINAL_ORGAN_BROKER
+  - WORLD_CRIMINAL_ORGAN_SURGEON
+trilogy_note: "Third perspective in organ trafficking trilogy. Shared network, shared locations, independent narratives."
+
+used_in_episodes: [PV_0017]
+created: "2026-04-13"

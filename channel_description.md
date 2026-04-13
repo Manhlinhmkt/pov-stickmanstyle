@@ -14,7 +14,7 @@ Built on verified facts. Narrated with restraint. Animated with deliberate simpl
 
 - **World Registry:** Every episode world is built on real, verifiable facts — not fantasy. Secret Service protocols, White House room counts, presidential travel logistics. The life feels real because the details are.
 - **Second Person Always:** No "he" or "she." Only "you." The stickman has no face because the face is yours.
-- **Trilingual:** Each episode is produced simultaneously in English, Japanese, and Vietnamese — same emotional timing, adapted for each language's natural rhythm.
+- **Bilingual:** Each episode is produced simultaneously in English and Vietnamese - same emotional timing, adapted for each language's natural rhythm.
 - **Earned Endings:** Nothing resolves easily. The close of each episode mirrors its opening — but carries the weight of everything that came between.
 
 ---

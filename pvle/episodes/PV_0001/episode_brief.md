@@ -1,4 +1,4 @@
-# Episode Brief — PV_0001
+﻿# Episode Brief  -  PV_0001
 
 ---
 
@@ -23,92 +23,92 @@
 
 ## WORLD CONTEXT
 
-- **Domain:** GOVERNMENT (POLITICAL_FIGURE implied — TRANSPARENT_VEIL)
+- **Domain:** GOVERNMENT (POLITICAL_FIGURE implied  -  TRANSPARENT_VEIL)
 - **Era:** MODERN_CONTEMPORARY (2006-2026)
-- **Veil Strictness:** MAXIMUM — no real names, no party names, no specific policy
+- **Veil Strictness:** MAXIMUM  -  no real names, no party names, no specific policy
 
 ### Key Facts Used
-1. Born in penthouse tower in Manhattan — entire floor to himself
+1. Born in penthouse tower in Manhattan  -  entire floor to himself
 2. Spoke mother's Eastern European language from birth
 3. Used fake name at school to protect identity
 4. First presidential son to live in White House since 1960s
 5. Mother delayed Washington move to let him finish school year
 6. Secret Service at every class, every friend's house
 7. Over six foot seven by age seventeen
-8. Invited as party delegate at eighteen — declined
+8. Invited as party delegate at eighteen  -  declined
 9. Credited by father for connecting campaign to young voters
 10. Four different schools across three states in eighteen years
-11. Transferred to D.C. campus sophomore year — back in White House
-12. No public social media accounts — but millions discuss him online
+11. Transferred to D.C. campus sophomore year  -  back in White House
+12. No public social media accounts  -  but millions discuss him online
 13. Business ventures: crypto, beverages, real estate
-14. Attended State of the Union — first public political appearance
+14. Attended State of the Union  -  first public political appearance
 
 ### Key Locations
-- LOC_PENTHOUSE_TOWER — Manhattan skyscraper, gold-toned interiors
-- LOC_WHITE_HOUSE — 132 rooms, history in every hallway
-- LOC_PREP_SCHOOL_MARYLAND — private school, Secret Service SUVs in lot
-- LOC_FLORIDA_ESTATE — palm trees, gated, family retreat
-- LOC_BUSINESS_SCHOOL_NYC — Manhattan campus, agents in lecture hall
-- LOC_CONGRESS_CHAMBER — State of the Union, marble, flags, cameras
+- LOC_PENTHOUSE_TOWER  -  Manhattan skyscraper, gold-toned interiors
+- LOC_WHITE_HOUSE  -  132 rooms, history in every hallway
+- LOC_PREP_SCHOOL_MARYLAND  -  private school, Secret Service SUVs in lot
+- LOC_FLORIDA_ESTATE  -  palm trees, gated, family retreat
+- LOC_BUSINESS_SCHOOL_NYC  -  Manhattan campus, agents in lecture hall
+- LOC_CONGRESS_CHAMBER  -  State of the Union, marble, flags, cameras
 
 ### Key Tensions
-- PRIVILEGE_VS_FREEDOM — everything provided, nothing chosen
-- IDENTITY_VS_LEGACY — father's name defines every room you enter
-- PROTECTION_VS_CONTROL — Secret Service protects but also confines
-- NORMAL_DESIRE_VS_IMPOSSIBLE_REALITY — fake name at school, can't walk without photos
+- PRIVILEGE_VS_FREEDOM  -  everything provided, nothing chosen
+- IDENTITY_VS_LEGACY  -  father's name defines every room you enter
+- PROTECTION_VS_CONTROL  -  Secret Service protects but also confines
+- NORMAL_DESIRE_VS_IMPOSSIBLE_REALITY  -  fake name at school, can't walk without photos
 
 ---
 
 ## CONFIRMED OUTLINE
 
 ### HOOK (2-3 beats)
-- Born on top floor of Manhattan tower — entire floor is yours
+- Born on top floor of Manhattan tower  -  entire floor is yours
 - Your name is in newspapers before you can speak
 - "You didn't choose this family. This family chose you."
 
-### PHASE_EARLY — Childhood 0-10 (4-5 beats)
-- Age 4: bilingual — father's language and mother's homeland language
+### PHASE_EARLY  -  Childhood 0-10 (4-5 beats)
+- Age 4: bilingual  -  father's language and mother's homeland language
 - Age 7: private school Manhattan, black SUV, friends background-checked
-- Used fake name at school — no one knows which family you belong to
+- Used fake name at school  -  no one knows which family you belong to
 - Age 10: father wins election → move into 132-room house, none yours
-- Mother stays in New York a few more months — so you can finish the year
+- Mother stays in New York a few more months  -  so you can finish the year
 - "From here on, everything changes."
 
-### PHASE_CONFLICT — Adolescence 10-17 (5-6 beats)
+### PHASE_CONFLICT  -  Adolescence 10-17 (5-6 beats)
 - Secret Service outside classroom door in Maryland school
 - Friends must pass federal security check to visit
-- Siblings on TV arguing — you stay silent
-- Father impeached — you are 13, reading it on your phone
+- Siblings on TV arguing  -  you stay silent
+- Father impeached  -  you are 13, reading it on your phone
 - Age 14: family leaves Washington → Florida, new school, new state
-- Age 17: over six foot seven — impossible to be anonymous
+- Age 17: over six foot seven  -  impossible to be anonymous
 - "People photograph you walking. Just walking."
 
-### PHASE_CRISIS — Age 18 (3 beats)
-- Graduate prep school — father running again
-- Invited as party delegate — decline
-- Standing on inauguration stage — taller than everyone
+### PHASE_CRISIS  -  Age 18 (3 beats)
+- Graduate prep school  -  father running again
+- Invited as party delegate  -  decline
+- Standing on inauguration stage  -  taller than everyone
 - "The world is watching. And you haven't said a word."
 
-### PHASE_RESOLUTION — Age 19 (3 beats)
-- Business school in New York — back where you were born
+### PHASE_RESOLUTION  -  Age 19 (3 beats)
+- Business school in New York  -  back where you were born
 - Secret Service still follows into lecture halls
-- First time you chose the school, the city, the major — business, not politics
+- First time you chose the school, the city, the major  -  business, not politics
 - "It's not freedom. But it's the closest you've had."
 
-### PHASE_PRESENT — Age 20 (4-5 beats)
-- Transfer to D.C. campus — back in the old house, this time by choice
-- Father calls you "king of the internet" — podcasts, streamers, influencers
-- No social media — but millions talk about you online
+### PHASE_PRESENT  -  Age 20 (4-5 beats)
+- Transfer to D.C. campus  -  back in the old house, this time by choice
+- Father calls you "king of the internet"  -  podcasts, streamers, influencers
+- No social media  -  but millions talk about you online
 - Fake accounts, fabricated dating rumors, photos doctored on TikTok
 - Business meetings: crypto, beverages, real estate
-- Attend State of the Union — front row, taller than every senator
+- Attend State of the Union  -  front row, taller than every senator
 - "You still haven't spoken publicly. But your silence became a brand."
 
 ### CALLBACK_CLOSE (2 beats)
 - Return: Manhattan tower, top floor, the day you were born
 - "The whole floor was yours. But you never really lived there."
 - "You are twenty. And you still haven't decided who you are."
-- "But maybe — that's the one right no one can take from you."
+- "But maybe  -  that's the one right no one can take from you."
 
 ---
 
@@ -124,32 +124,32 @@
 | FATHER | your father | Stocky-wide proportions. Swooped blonde-orange hair silhouette. Dark suit (flat fill), long red tie line. Dot eyes, firm mouth. Always surrounded by smaller figures, hand gestures. | PHASE_EARLY, PHASE_CONFLICT, PHASE_CRISIS, PHASE_PRESENT |
 | MOTHER | your mother | Tall slim proportions. Long straight dark brown hair past shoulders. Elegant simple dress shape (flat color). Dot eyes, small gentle mouth. Graceful upright posture, close to SUBJECT. | HOOK, PHASE_EARLY, PHASE_CRISIS |
 | SIBLINGS | your brothers / your sisters | Generic adult stickmen in dark suits. Dot eyes only, no mouth detail. No individual distinguishing features. | PHASE_CONFLICT |
-| AGENTS | the agents | Faceless stickman figures — completely blank white circle head. Dark suit (flat fill). Small earpiece dot on right. Rigid upright posture. | ALL |
+| AGENTS | the agents | Faceless stickman figures  -  completely blank white circle head. Dark suit (flat fill). Small earpiece dot on right. Rigid upright posture. | ALL |
 
 ### SUBJECT Visual Traits by Phase
 
 | Phase | Age_Range | Height | Hair | Clothing | Face | Distinguishing |
 |-------|-----------|--------|------|----------|------|---------------|
 | HOOK | 0 | Small stickman, normal child proportions | Wisp of straight light blonde hair | Simple light blue jacket shape (flat color, no detail) | Dot eyes, small neutral mouth | Small, quiet posture, slightly oversized head |
-| PHASE_EARLY (early) | 4–6 | Small stickman, normal child proportions | Straight light blonde hair, parted to one side | Simple light blue jacket shape (flat color) | Dot eyes, neutral mouth | Begins slightly taller than peers by end of phase |
-| PHASE_EARLY (late) | 7–12 | Medium stickman, starting taller than peer stickmen | Straight light blonde hair, parted to one side | Dark blazer shape with white collar line (flat color) | Dot eyes, neutral mouth | Beginning to stand out in height among classmates |
-| PHASE_CONFLICT | 13–17 | Noticeably taller than ALL other figures — head clearly above peers | Light blonde hair, longer on top, styled upward | Dark suit jacket shape (simple flat fill), tie line | Dot eyes, neutral to slight frown mouth | Towers over everyone — impossible to miss in any scene |
+| PHASE_EARLY (early) | 4 - 6 | Small stickman, normal child proportions | Straight light blonde hair, parted to one side | Simple light blue jacket shape (flat color) | Dot eyes, neutral mouth | Begins slightly taller than peers by end of phase |
+| PHASE_EARLY (late) | 7 - 12 | Medium stickman, starting taller than peer stickmen | Straight light blonde hair, parted to one side | Dark blazer shape with white collar line (flat color) | Dot eyes, neutral mouth | Beginning to stand out in height among classmates |
+| PHASE_CONFLICT | 13 - 17 | Noticeably taller than ALL other figures  -  head clearly above peers | Light blonde hair, longer on top, styled upward | Dark suit jacket shape (simple flat fill), tie line | Dot eyes, neutral to slight frown mouth | Towers over everyone  -  impossible to miss in any scene |
 | PHASE_CRISIS | 18 | Extremely tall, dominates frame vertically | Light blonde hair, neat, styled back | Fitted dark suit shape (simple flat fill), tie line | Dot eyes, neutral mouth | Confident posture, shoulders back, commanding presence |
 | PHASE_RESOLUTION | 19 | Extremely tall, dominates frame vertically | Light blonde hair, neat, slightly relaxed | Fitted dark suit shape, slightly more casual | Dot eyes, neutral mouth | Posture slightly more relaxed than CRISIS |
 | PHASE_PRESENT | 20 | Extremely tall, dominates frame vertically | Light blonde hair, neat, styled back | Fitted dark suit shape (simple flat fill), tie line | Dot eyes, neutral mouth | Confident, shoulders back, commanding presence |
-| CALLBACK_CLOSE | 20 | Extremely tall, dominates frame vertically | Light blonde hair, neat, styled back | Fitted dark suit shape (simple flat fill), tie line | Dot eyes, neutral mouth | Standing in childhood room — now filling the frame completely |
+| CALLBACK_CLOSE | 20 | Extremely tall, dominates frame vertically | Light blonde hair, neat, styled back | Fitted dark suit shape (simple flat fill), tie line | Dot eyes, neutral mouth | Standing in childhood room  -  now filling the frame completely |
 
 ### Injection Rules
 - **SUBJECT always has most visual detail** among all characters in scene
-- **AGENTS are always FACELESS** — blank white circle head, no eyes, no mouth
-- **REAL NAMES FORBIDDEN** in prompts — use veil_name only
-- **Height must scale** — SUBJECT becomes progressively taller stickman across phases
+- **AGENTS are always FACELESS**  -  blank white circle head, no eyes, no mouth
+- **REAL NAMES FORBIDDEN** in prompts  -  use veil_name only
+- **Height must scale**  -  SUBJECT becomes progressively taller stickman across phases
 
 ---
 
 ## EPISODE NOTES
 
-- **Duration:** EXTENDED — 7 phases (standard 5 + PHASE_PRESENT + expanded beats)
+- **Duration:** EXTENDED  -  7 phases (standard 5 + PHASE_PRESENT + expanded beats)
 - **Typical beat count:** 24-28 beats
 - **Veil enforcement:** Load `phase-2/veil-scan.md` at VO step
 - **Forbidden terms file:** `pvle/worlds/WORLD_PRESIDENT_YOUNGEST_SON.yaml` → forbidden_terms

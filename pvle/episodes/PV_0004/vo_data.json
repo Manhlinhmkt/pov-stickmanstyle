@@ -1,0 +1,1262 @@
+﻿[
+    {
+        "VO_ID":  "1",
+        "Beat_ID":  "BEAT_01_01",
+        "Life_Phase":  "HOOK",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "10",
+        "Pause_After":  "0",
+        "VO_EN":  "The room is underground. You\u0027ve been underground a lot lately."
+    },
+    {
+        "VO_ID":  "2",
+        "Beat_ID":  "BEAT_01_01",
+        "Life_Phase":  "HOOK",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "18",
+        "Pause_After":  "0.5",
+        "VO_EN":  "Screens line every wall. Each one shows a different set of coordinates. Each coordinate is a facility you\u0027ve memorized."
+    },
+    {
+        "VO_ID":  "3",
+        "Beat_ID":  "BEAT_01_01",
+        "Life_Phase":  "HOOK",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "24",
+        "Pause_After":  "0",
+        "VO_EN":  "The air smells like recycled oxygen and old carpet. The generals smell like coffee. You smell like nothing. You stopped noticing a long time ago."
+    },
+    {
+        "VO_ID":  "4",
+        "Beat_ID":  "BEAT_01_02",
+        "Life_Phase":  "HOOK",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "12",
+        "Pause_After":  "0",
+        "VO_EN":  "Your hand rests on the red folder. Fifty years to reach this table."
+    },
+    {
+        "VO_ID":  "5",
+        "Beat_ID":  "BEAT_01_02",
+        "Life_Phase":  "HOOK",
+        "VO_Type":  "WEIGHT_LINE",
+        "Word_Count_EN":  "10",
+        "Pause_After":  "1.5",
+        "VO_EN":  "Fifty years. And one phone call that started all of it."
+    },
+    {
+        "VO_ID":  "6",
+        "Beat_ID":  "BEAT_01_03",
+        "Life_Phase":  "HOOK",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "9",
+        "Pause_After":  "0",
+        "VO_EN":  "Everyone at the table is waiting for you to speak."
+    },
+    {
+        "VO_ID":  "7",
+        "Beat_ID":  "BEAT_01_03",
+        "Life_Phase":  "HOOK",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "12",
+        "Pause_After":  "0.5",
+        "VO_EN":  "A pen clicks somewhere to your left. Seven times. Then it stops."
+    },
+    {
+        "VO_ID":  "8",
+        "Beat_ID":  "BEAT_01_03",
+        "Life_Phase":  "HOOK",
+        "VO_Type":  "WEIGHT_LINE",
+        "Word_Count_EN":  "4",
+        "Pause_After":  "2.0",
+        "VO_EN":  "You haven\u0027t. Not yet."
+    },
+    {
+        "VO_ID":  "9",
+        "Beat_ID":  "BEAT_02_01",
+        "Life_Phase":  "PHASE_EARLY",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "10",
+        "Pause_After":  "0",
+        "VO_EN":  "You\u0027re born in the capital. A small apartment full of books."
+    },
+    {
+        "VO_ID":  "10",
+        "Beat_ID":  "BEAT_02_01",
+        "Life_Phase":  "PHASE_EARLY",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "12",
+        "Pause_After":  "0",
+        "VO_EN":  "Your father is a historian. Not the kind who writes about the past gently."
+    },
+    {
+        "VO_ID":  "11",
+        "Beat_ID":  "BEAT_02_02",
+        "Life_Phase":  "PHASE_EARLY",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "18",
+        "Pause_After":  "0.5",
+        "VO_EN":  "He teaches you one thing above all else: your people survive because they never believe the world is safe."
+    },
+    {
+        "VO_ID":  "12",
+        "Beat_ID":  "BEAT_02_02",
+        "Life_Phase":  "PHASE_EARLY",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "12",
+        "Pause_After":  "0.5",
+        "VO_EN":  "You\u0027re seven. You don\u0027t understand the sentence. But you memorize the tone."
+    },
+    {
+        "VO_ID":  "13",
+        "Beat_ID":  "BEAT_02_03",
+        "Life_Phase":  "PHASE_EARLY",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "8",
+        "Pause_After":  "0",
+        "VO_EN":  "Fourteen. The family moves to America. A suburb outside Philadelphia."
+    },
+    {
+        "VO_ID":  "14",
+        "Beat_ID":  "BEAT_02_03",
+        "Life_Phase":  "PHASE_EARLY",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "17",
+        "Pause_After":  "0.5",
+        "VO_EN":  "Green lawns. Yellow school buses. Kids who don\u0027t know where your country is on a map."
+    },
+    {
+        "VO_ID":  "15",
+        "Beat_ID":  "BEAT_02_04",
+        "Life_Phase":  "PHASE_EARLY",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "10",
+        "Pause_After":  "0",
+        "VO_EN":  "You learn English fast. Not just conversation — debate. Argument. Persuasion."
+    },
+    {
+        "VO_ID":  "16",
+        "Beat_ID":  "BEAT_02_03",
+        "Life_Phase":  "PHASE_EARLY",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "16",
+        "Pause_After":  "0.5",
+        "VO_EN":  "You play baseball in the afternoons. You\u0027re decent at it. You\u0027re better at arguing with the coach."
+    },
+    {
+        "VO_ID":  "17",
+        "Beat_ID":  "BEAT_02_04",
+        "Life_Phase":  "PHASE_EARLY",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "22",
+        "Pause_After":  "0.5",
+        "VO_EN":  "You discover something: the language of your host country is a weapon. And you wield it better than most who were born here."
+    },
+    {
+        "VO_ID":  "18",
+        "Beat_ID":  "BEAT_02_05",
+        "Life_Phase":  "PHASE_EARLY",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "9",
+        "Pause_After":  "0",
+        "VO_EN":  "Eighteen. You go back. Not to visit. To serve."
+    },
+    {
+        "VO_ID":  "19",
+        "Beat_ID":  "BEAT_02_04",
+        "Life_Phase":  "PHASE_EARLY",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "22",
+        "Pause_After":  "0.5",
+        "VO_EN":  "At night you sit with your father\u0027s books. The history of what happens when your people trust too much. When they believe the promises."
+    },
+    {
+        "VO_ID":  "20",
+        "Beat_ID":  "BEAT_02_05",
+        "Life_Phase":  "PHASE_EARLY",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "9",
+        "Pause_After":  "0.5",
+        "VO_EN":  "The elite commando unit. The one your brother is already in."
+    },
+    {
+        "VO_ID":  "21",
+        "Beat_ID":  "BEAT_02_05",
+        "Life_Phase":  "PHASE_EARLY",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "18",
+        "Pause_After":  "0.5",
+        "VO_EN":  "Your brother writes you letters from the base. Short ones. He doesn\u0027t describe what he does. He asks what you\u0027re reading."
+    },
+    {
+        "VO_ID":  "22",
+        "Beat_ID":  "BEAT_02_06",
+        "Life_Phase":  "PHASE_EARLY",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "18",
+        "Pause_After":  "0",
+        "VO_EN":  "They teach you to breach a door in under two seconds. To shoot from a crouch. To think with your hands."
+    },
+    {
+        "VO_ID":  "23",
+        "Beat_ID":  "BEAT_02_06",
+        "Life_Phase":  "PHASE_EARLY",
+        "VO_Type":  "WEIGHT_LINE",
+        "Word_Count_EN":  "8",
+        "Pause_After":  "1.5",
+        "VO_EN":  "Hesitation is death. You learn it in your bones."
+    },
+    {
+        "VO_ID":  "24",
+        "Beat_ID":  "BEAT_02_06",
+        "Life_Phase":  "PHASE_EARLY",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "22",
+        "Pause_After":  "0",
+        "VO_EN":  "They make you run until you vomit. Then they make you run again. You don\u0027t complain. Complaining is a luxury from a country with lawns."
+    },
+    {
+        "VO_ID":  "25",
+        "Beat_ID":  "BEAT_02_07",
+        "Life_Phase":  "PHASE_EARLY",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "12",
+        "Pause_After":  "0",
+        "VO_EN":  "1972. A hijacked airplane sits on a tarmac. Your team goes in."
+    },
+    {
+        "VO_ID":  "26",
+        "Beat_ID":  "BEAT_02_07",
+        "Life_Phase":  "PHASE_EARLY",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "16",
+        "Pause_After":  "0",
+        "VO_EN":  "The passengers are still inside. You can hear someone crying through the fuselage wall. You don\u0027t think about it. You breach."
+    },
+    {
+        "VO_ID":  "27",
+        "Beat_ID":  "BEAT_02_07",
+        "Life_Phase":  "PHASE_EARLY",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "8",
+        "Pause_After":  "0",
+        "VO_EN":  "A bullet hits your shoulder. You keep moving."
+    },
+    {
+        "VO_ID":  "28",
+        "Beat_ID":  "BEAT_02_07",
+        "Life_Phase":  "PHASE_EARLY",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "10",
+        "Pause_After":  "0.5",
+        "VO_EN":  "Later they pull the round out. You watch them do it."
+    },
+    {
+        "VO_ID":  "29",
+        "Beat_ID":  "BEAT_02_08",
+        "Life_Phase":  "PHASE_EARLY",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "2",
+        "Pause_After":  "0",
+        "VO_EN":  "First scar."
+    },
+    {
+        "VO_ID":  "30",
+        "Beat_ID":  "BEAT_02_08",
+        "Life_Phase":  "PHASE_EARLY",
+        "VO_Type":  "WEIGHT_LINE",
+        "Word_Count_EN":  "3",
+        "Pause_After":  "2.0",
+        "VO_EN":  "Not the last."
+    },
+    {
+        "VO_ID":  "31",
+        "Beat_ID":  "BEAT_03_01",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "12",
+        "Pause_After":  "0",
+        "VO_EN":  "1976. Your brother leads a commando team to an airport in East Africa."
+    },
+    {
+        "VO_ID":  "32",
+        "Beat_ID":  "BEAT_03_01",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "13",
+        "Pause_After":  "0",
+        "VO_EN":  "Hostages held inside. Over a hundred civilians. Your country\u0027s name on the line."
+    },
+    {
+        "VO_ID":  "33",
+        "Beat_ID":  "BEAT_03_01",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "19",
+        "Pause_After":  "0.5",
+        "VO_EN":  "You hear about the mission on the radio first. Then the phone rings. You already know what the second call means."
+    },
+    {
+        "VO_ID":  "34",
+        "Beat_ID":  "BEAT_03_02",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "11",
+        "Pause_After":  "0",
+        "VO_EN":  "He goes in first. That\u0027s the kind of officer he is."
+    },
+    {
+        "VO_ID":  "35",
+        "Beat_ID":  "BEAT_03_02",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "7",
+        "Pause_After":  "0",
+        "VO_EN":  "The mission succeeds. Every hostage comes out alive."
+    },
+    {
+        "VO_ID":  "36",
+        "Beat_ID":  "BEAT_03_02",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "WEIGHT_LINE",
+        "Word_Count_EN":  "7",
+        "Pause_After":  "1.5",
+        "VO_EN":  "Your brother doesn\u0027t. He\u0027s thirty years old."
+    },
+    {
+        "VO_ID":  "37",
+        "Beat_ID":  "BEAT_03_03",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "18",
+        "Pause_After":  "0",
+        "VO_EN":  "You get the call in America. You\u0027re sitting in a kitchen that smells like coffee and someone else\u0027s morning."
+    },
+    {
+        "VO_ID":  "38",
+        "Beat_ID":  "BEAT_03_03",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "10",
+        "Pause_After":  "0.5",
+        "VO_EN":  "The world changes between the second ring and the third."
+    },
+    {
+        "VO_ID":  "39",
+        "Beat_ID":  "BEAT_03_03",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "16",
+        "Pause_After":  "0",
+        "VO_EN":  "You fly home for the funeral. The country treats your brother like a legend. They name streets after him. Schools."
+    },
+    {
+        "VO_ID":  "40",
+        "Beat_ID":  "BEAT_03_03",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "WEIGHT_LINE",
+        "Word_Count_EN":  "9",
+        "Pause_After":  "1.5",
+        "VO_EN":  "You carry the weight they turned into a statue."
+    },
+    {
+        "VO_ID":  "41",
+        "Beat_ID":  "BEAT_03_04",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "8",
+        "Pause_After":  "0",
+        "VO_EN":  "You take his photograph. You put it on your desk."
+    },
+    {
+        "VO_ID":  "42",
+        "Beat_ID":  "BEAT_03_04",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "WEIGHT_LINE",
+        "Word_Count_EN":  "13",
+        "Pause_After":  "1.5",
+        "VO_EN":  "It will stay there for fifty years. You just don\u0027t know it yet."
+    },
+    {
+        "VO_ID":  "43",
+        "Beat_ID":  "BEAT_03_05",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "12",
+        "Pause_After":  "0",
+        "VO_EN":  "You enter diplomacy. Deputy ambassador to your host country. Then ambassador to the United Nations."
+    },
+    {
+        "VO_ID":  "44",
+        "Beat_ID":  "BEAT_03_05",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "10",
+        "Pause_After":  "0.5",
+        "VO_EN":  "The commando becomes a diplomat. The rifle becomes a podium."
+    },
+    {
+        "VO_ID":  "45",
+        "Beat_ID":  "BEAT_03_05",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "15",
+        "Pause_After":  "0",
+        "VO_EN":  "You learn the rhythm of international politics. The handshake before the threat. The smile before the veto."
+    },
+    {
+        "VO_ID":  "46",
+        "Beat_ID":  "BEAT_03_06",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "16",
+        "Pause_After":  "0",
+        "VO_EN":  "You speak at the United Nations in flawless English — the language you learned as a teenager in the suburbs."
+    },
+    {
+        "VO_ID":  "47",
+        "Beat_ID":  "BEAT_03_06",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "14",
+        "Pause_After":  "0.5",
+        "VO_EN":  "The delegates listen. Not because of what you say. Because of how you say it."
+    },
+    {
+        "VO_ID":  "48",
+        "Beat_ID":  "BEAT_03_06",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "23",
+        "Pause_After":  "0.5",
+        "VO_EN":  "Your English is your passport. No accent. No hesitation. When you speak at the podium the translators stop working — everyone already understands."
+    },
+    {
+        "VO_ID":  "49",
+        "Beat_ID":  "BEAT_03_07",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "9",
+        "Pause_After":  "0",
+        "VO_EN":  "You go home. You run for the top office. You win."
+    },
+    {
+        "VO_ID":  "50",
+        "Beat_ID":  "BEAT_03_07",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "10",
+        "Pause_After":  "0.5",
+        "VO_EN":  "Forty-six years old. The youngest person to ever hold the seat."
+    },
+    {
+        "VO_ID":  "51",
+        "Beat_ID":  "BEAT_03_07",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "15",
+        "Pause_After":  "0",
+        "VO_EN":  "The campaign is brutal. You win by less than one percent. The margin of a few thousand votes."
+    },
+    {
+        "VO_ID":  "52",
+        "Beat_ID":  "BEAT_03_08",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "9",
+        "Pause_After":  "0",
+        "VO_EN":  "One term. Short. Chaotic. You lose the next election."
+    },
+    {
+        "VO_ID":  "53",
+        "Beat_ID":  "BEAT_03_08",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "9",
+        "Pause_After":  "0.5",
+        "VO_EN":  "The newspapers print your political obituary. Several of them."
+    },
+    {
+        "VO_ID":  "54",
+        "Beat_ID":  "BEAT_03_08",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "15",
+        "Pause_After":  "0",
+        "VO_EN":  "You move into the official residence. Your wife rearranges the furniture. The staff adjusts. The country holds its breath."
+    },
+    {
+        "VO_ID":  "55",
+        "Beat_ID":  "BEAT_03_09",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "17",
+        "Pause_After":  "0.5",
+        "VO_EN":  "Ten years in the wilderness. A smaller office. Fewer calls. The brother\u0027s photo still on the desk."
+    },
+    {
+        "VO_ID":  "56",
+        "Beat_ID":  "BEAT_03_10",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "5",
+        "Pause_After":  "0",
+        "VO_EN":  "Everyone says you\u0027re done."
+    },
+    {
+        "VO_ID":  "57",
+        "Beat_ID":  "BEAT_03_09",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "20",
+        "Pause_After":  "0.5",
+        "VO_EN":  "You write op-eds nobody prints. You give speeches to half-empty rooms. You watch the person who replaced you make every mistake you predicted."
+    },
+    {
+        "VO_ID":  "58",
+        "Beat_ID":  "BEAT_03_10",
+        "Life_Phase":  "PHASE_CONFLICT",
+        "VO_Type":  "WEIGHT_LINE",
+        "Word_Count_EN":  "9",
+        "Pause_After":  "2.0",
+        "VO_EN":  "You don\u0027t think so. You\u0027ve never thought so."
+    },
+    {
+        "VO_ID":  "59",
+        "Beat_ID":  "BEAT_04_01",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "12",
+        "Pause_After":  "0",
+        "VO_EN":  "2009. You walk back into the office. The same chair. The same desk."
+    },
+    {
+        "VO_ID":  "60",
+        "Beat_ID":  "BEAT_04_01",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "10",
+        "Pause_After":  "0.5",
+        "VO_EN":  "You place your brother\u0027s photo on the corner. Same spot as before."
+    },
+    {
+        "VO_ID":  "61",
+        "Beat_ID":  "BEAT_04_01",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "18",
+        "Pause_After":  "0.5",
+        "VO_EN":  "This time nobody underestimates you. This time you\u0027ve built the coalition yourself — brick by brick and favor by favor."
+    },
+    {
+        "VO_ID":  "62",
+        "Beat_ID":  "BEAT_04_02",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "12",
+        "Pause_After":  "0",
+        "VO_EN":  "You fly to the American capital. You address their Congress. You weren\u0027t invited."
+    },
+    {
+        "VO_ID":  "63",
+        "Beat_ID":  "BEAT_04_02",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "10",
+        "Pause_After":  "0",
+        "VO_EN":  "The American president watches from a different room. He doesn\u0027t come down."
+    },
+    {
+        "VO_ID":  "64",
+        "Beat_ID":  "BEAT_04_02",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "22",
+        "Pause_After":  "0.5",
+        "VO_EN":  "You don\u0027t care. You came to kill a deal — the deal that would let the regional adversary keep its nuclear program alive."
+    },
+    {
+        "VO_ID":  "65",
+        "Beat_ID":  "BEAT_04_03",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "18",
+        "Pause_After":  "0",
+        "VO_EN":  "At the United Nations podium you hold up a diagram. A cartoon bomb with a red line drawn across it."
+    },
+    {
+        "VO_ID":  "66",
+        "Beat_ID":  "BEAT_04_03",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "9",
+        "Pause_After":  "0",
+        "VO_EN":  "Half the room laughs. The other half is afraid."
+    },
+    {
+        "VO_ID":  "67",
+        "Beat_ID":  "BEAT_04_03",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "11",
+        "Pause_After":  "0.5",
+        "VO_EN":  "You don\u0027t mind either reaction. Both mean they\u0027re listening."
+    },
+    {
+        "VO_ID":  "68",
+        "Beat_ID":  "BEAT_04_04",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "19",
+        "Pause_After":  "0.5",
+        "VO_EN":  "The regional adversary is everything. It\u0027s always been everything. Since the morning your brother didn\u0027t walk out of that airport."
+    },
+    {
+        "VO_ID":  "69",
+        "Beat_ID":  "BEAT_04_04",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "22",
+        "Pause_After":  "0.5",
+        "VO_EN":  "You\u0027ve given more speeches about this enemy than about your own economy. More hours studying their centrifuges than your country\u0027s schools."
+    },
+    {
+        "VO_ID":  "70",
+        "Beat_ID":  "BEAT_04_05",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "7",
+        "Pause_After":  "0",
+        "VO_EN":  "Three marriages by now. The third one sticks."
+    },
+    {
+        "VO_ID":  "71",
+        "Beat_ID":  "BEAT_04_05",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "14",
+        "Pause_After":  "0.5",
+        "VO_EN":  "Your wife is loved by your supporters and despised by everyone else. Sound familiar."
+    },
+    {
+        "VO_ID":  "72",
+        "Beat_ID":  "BEAT_04_06",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "10",
+        "Pause_After":  "0",
+        "VO_EN":  "The court summons arrives. Three cases. Bribery. Fraud. Breach of trust."
+    },
+    {
+        "VO_ID":  "73",
+        "Beat_ID":  "BEAT_04_06",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "17",
+        "Pause_After":  "0.5",
+        "VO_EN":  "Gifts you say were gifts. Deals you say were misread. Coverage you say you didn\u0027t trade for."
+    },
+    {
+        "VO_ID":  "74",
+        "Beat_ID":  "BEAT_04_06",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "19",
+        "Pause_After":  "0.5",
+        "VO_EN":  "You sit in the defendant\u0027s chair. The same posture as the leader\u0027s chair. You notice that. You don\u0027t think anyone else does."
+    },
+    {
+        "VO_ID":  "75",
+        "Beat_ID":  "BEAT_04_07",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "9",
+        "Pause_After":  "0",
+        "VO_EN":  "You call it political persecution. Half the country believes you."
+    },
+    {
+        "VO_ID":  "76",
+        "Beat_ID":  "BEAT_04_07",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "WEIGHT_LINE",
+        "Word_Count_EN":  "8",
+        "Pause_After":  "1.5",
+        "VO_EN":  "The other half has been waiting for this."
+    },
+    {
+        "VO_ID":  "77",
+        "Beat_ID":  "BEAT_04_08",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "7",
+        "Pause_After":  "0",
+        "VO_EN":  "October. Before dawn. Your phone buzzes on the nightstand."
+    },
+    {
+        "VO_ID":  "78",
+        "Beat_ID":  "BEAT_04_08",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "11",
+        "Pause_After":  "0",
+        "VO_EN":  "The voice on the other end is steady. The words are not."
+    },
+    {
+        "VO_ID":  "79",
+        "Beat_ID":  "BEAT_04_08",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "15",
+        "Pause_After":  "0",
+        "VO_EN":  "You get to the bunker in twelve minutes. Your driver breaks every traffic law in the capital. Nobody stops him."
+    },
+    {
+        "VO_ID":  "80",
+        "Beat_ID":  "BEAT_04_08",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "25",
+        "Pause_After":  "0.5",
+        "VO_EN":  "The southern border has been breached. Everywhere. All at once — in a way nobody planned for and nobody modeled and nobody believed was possible."
+    },
+    {
+        "VO_ID":  "81",
+        "Beat_ID":  "BEAT_04_09",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "10",
+        "Pause_After":  "0",
+        "VO_EN":  "Twelve hundred dead. In your own territory. On your watch."
+    },
+    {
+        "VO_ID":  "82",
+        "Beat_ID":  "BEAT_04_09",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "24",
+        "Pause_After":  "0.5",
+        "VO_EN":  "The security system you built — the one you pointed to in every speech and every interview and every campaign — collapsed in a single morning."
+    },
+    {
+        "VO_ID":  "83",
+        "Beat_ID":  "BEAT_04_09",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "25",
+        "Pause_After":  "0.5",
+        "VO_EN":  "Your hand grips the edge of the desk. Your knuckles go white — just for a second — then you let go. You flatten your palms. Nobody in the room noticed."
+    },
+    {
+        "VO_ID":  "84",
+        "Beat_ID":  "BEAT_04_10",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "9",
+        "Pause_After":  "0",
+        "VO_EN":  "They ask you at the press conference: who is responsible?"
+    },
+    {
+        "VO_ID":  "85",
+        "Beat_ID":  "BEAT_04_10",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "14",
+        "Pause_After":  "0.5",
+        "VO_EN":  "You don\u0027t say your name. You say: the intelligence services. The military establishment. The previous agreements."
+    },
+    {
+        "VO_ID":  "86",
+        "Beat_ID":  "BEAT_04_11",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "8",
+        "Pause_After":  "0",
+        "VO_EN":  "War begins. Multiple fronts. You command from the bunker."
+    },
+    {
+        "VO_ID":  "87",
+        "Beat_ID":  "BEAT_04_11",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "14",
+        "Pause_After":  "0.5",
+        "VO_EN":  "The same bunker from the opening. But six months earlier. The screens showed something different then."
+    },
+    {
+        "VO_ID":  "88",
+        "Beat_ID":  "BEAT_04_11",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "18",
+        "Pause_After":  "0",
+        "VO_EN":  "You sleep in the bunker now. The cot is military-grade. The pillow still has someone else\u0027s indent. You don\u0027t change it."
+    },
+    {
+        "VO_ID":  "89",
+        "Beat_ID":  "BEAT_04_12",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "21",
+        "Pause_After":  "0",
+        "VO_EN":  "The world condemns. Allies pull back. Resolutions pass at the United Nations — the same podium where you held up the bomb diagram."
+    },
+    {
+        "VO_ID":  "90",
+        "Beat_ID":  "BEAT_04_12",
+        "Life_Phase":  "PHASE_CRISIS",
+        "VO_Type":  "WEIGHT_LINE",
+        "Word_Count_EN":  "8",
+        "Pause_After":  "2.0",
+        "VO_EN":  "You don\u0027t stop. You\u0027ve never known how."
+    },
+    {
+        "VO_ID":  "91",
+        "Beat_ID":  "BEAT_05_01",
+        "Life_Phase":  "PHASE_RESOLUTION",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "8",
+        "Pause_After":  "0",
+        "VO_EN":  "June 2025. The order goes out at 2 AM."
+    },
+    {
+        "VO_ID":  "92",
+        "Beat_ID":  "BEAT_05_01",
+        "Life_Phase":  "PHASE_RESOLUTION",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "13",
+        "Pause_After":  "0",
+        "VO_EN":  "Fighter jets cross into enemy airspace. Bunker-buster munitions. Targets you\u0027ve studied for decades."
+    },
+    {
+        "VO_ID":  "93",
+        "Beat_ID":  "BEAT_05_01",
+        "Life_Phase":  "PHASE_RESOLUTION",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "24",
+        "Pause_After":  "0.5",
+        "VO_EN":  "You\u0027ve rehearsed this moment in your head a thousand times. The exact sequence. The targets ranked by priority. The fallback if the first wave fails."
+    },
+    {
+        "VO_ID":  "94",
+        "Beat_ID":  "BEAT_05_01",
+        "Life_Phase":  "PHASE_RESOLUTION",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "20",
+        "Pause_After":  "0.5",
+        "VO_EN":  "The enrichment facility — the one from the diagram and the speeches and the sleepless nights for thirty years — burns."
+    },
+    {
+        "VO_ID":  "95",
+        "Beat_ID":  "BEAT_05_02",
+        "Life_Phase":  "PHASE_RESOLUTION",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "12",
+        "Pause_After":  "0",
+        "VO_EN":  "You gave the order alone. No coalition. No partner. No phone call to the ally."
+    },
+    {
+        "VO_ID":  "96",
+        "Beat_ID":  "BEAT_05_02",
+        "Life_Phase":  "PHASE_RESOLUTION",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "22",
+        "Pause_After":  "0.5",
+        "VO_EN":  "The call to the ally comes after. Not before. You inform — you don\u0027t consult. There\u0027s a difference and everyone in the room knows it."
+    },
+    {
+        "VO_ID":  "97",
+        "Beat_ID":  "BEAT_05_02",
+        "Life_Phase":  "PHASE_RESOLUTION",
+        "VO_Type":  "WEIGHT_LINE",
+        "Word_Count_EN":  "4",
+        "Pause_After":  "1.5",
+        "VO_EN":  "This one was yours."
+    },
+    {
+        "VO_ID":  "98",
+        "Beat_ID":  "BEAT_05_03",
+        "Life_Phase":  "PHASE_RESOLUTION",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "13",
+        "Pause_After":  "0.5",
+        "VO_EN":  "The world wakes up to satellite images. Craters where centrifuges used to spin."
+    },
+    {
+        "VO_ID":  "99",
+        "Beat_ID":  "BEAT_05_03",
+        "Life_Phase":  "PHASE_RESOLUTION",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "16",
+        "Pause_After":  "0.5",
+        "VO_EN":  "The satellite images circulate online within hours. Commentators who\u0027ve never held a rifle explain what you did wrong."
+    },
+    {
+        "VO_ID":  "100",
+        "Beat_ID":  "BEAT_05_04",
+        "Life_Phase":  "PHASE_RESOLUTION",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "21",
+        "Pause_After":  "0",
+        "VO_EN":  "Fifty years since your brother bled out on an airport floor in Africa. You were twenty-seven then. You\u0027re seventy-six now."
+    },
+    {
+        "VO_ID":  "101",
+        "Beat_ID":  "BEAT_05_04",
+        "Life_Phase":  "PHASE_RESOLUTION",
+        "VO_Type":  "WEIGHT_LINE",
+        "Word_Count_EN":  "16",
+        "Pause_After":  "1.5",
+        "VO_EN":  "This is the moment you\u0027ve been building toward. All of it. Every speech. Every election. Every scar."
+    },
+    {
+        "VO_ID":  "102",
+        "Beat_ID":  "BEAT_05_05",
+        "Life_Phase":  "PHASE_RESOLUTION",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "4",
+        "Pause_After":  "0",
+        "VO_EN":  "But it\u0027s not enough."
+    },
+    {
+        "VO_ID":  "103",
+        "Beat_ID":  "BEAT_05_05",
+        "Life_Phase":  "PHASE_RESOLUTION",
+        "VO_Type":  "WEIGHT_LINE",
+        "Word_Count_EN":  "5",
+        "Pause_After":  "1.5",
+        "VO_EN":  "It\u0027s never enough with you."
+    },
+    {
+        "VO_ID":  "104",
+        "Beat_ID":  "BEAT_05_06",
+        "Life_Phase":  "PHASE_RESOLUTION",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "12",
+        "Pause_After":  "0",
+        "VO_EN":  "You submit a pardon request to the president. For the corruption cases. All three."
+    },
+    {
+        "VO_ID":  "105",
+        "Beat_ID":  "BEAT_05_06",
+        "Life_Phase":  "PHASE_RESOLUTION",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "15",
+        "Pause_After":  "0.5",
+        "VO_EN":  "You do this while commanding an active military operation. The paperwork sits on the same desk as the red folder."
+    },
+    {
+        "VO_ID":  "106",
+        "Beat_ID":  "BEAT_05_07",
+        "Life_Phase":  "PHASE_RESOLUTION",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "13",
+        "Pause_After":  "0",
+        "VO_EN":  "Protector of the nation. Or a man using the nation\u0027s war to outrun his own trial."
+    },
+    {
+        "VO_ID":  "107",
+        "Beat_ID":  "BEAT_05_07",
+        "Life_Phase":  "PHASE_RESOLUTION",
+        "VO_Type":  "WEIGHT_LINE",
+        "Word_Count_EN":  "7",
+        "Pause_After":  "2.0",
+        "VO_EN":  "Depends on who you ask. You don\u0027t ask."
+    },
+    {
+        "VO_ID":  "108",
+        "Beat_ID":  "BEAT_06_01",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "7",
+        "Pause_After":  "0",
+        "VO_EN":  "February 28, 2026. The joint campaign begins."
+    },
+    {
+        "VO_ID":  "109",
+        "Beat_ID":  "BEAT_06_01",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "10",
+        "Pause_After":  "0.5",
+        "VO_EN":  "This time you\u0027re not alone. The American ally is in."
+    },
+    {
+        "VO_ID":  "110",
+        "Beat_ID":  "BEAT_06_02",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "14",
+        "Pause_After":  "0",
+        "VO_EN":  "The largest military operation in the region since 2003. Cruise missiles. Armed drones. Stealth bombers."
+    },
+    {
+        "VO_ID":  "111",
+        "Beat_ID":  "BEAT_06_02",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "12",
+        "Pause_After":  "0.5",
+        "VO_EN":  "Every nuclear facility. Every missile depot. Every command bunker in the enemy\u0027s territory."
+    },
+    {
+        "VO_ID":  "112",
+        "Beat_ID":  "BEAT_06_02",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "17",
+        "Pause_After":  "0.5",
+        "VO_EN":  "The first forty-eight hours are surgical. Then it becomes something else. Something that doesn\u0027t stop when you want it to."
+    },
+    {
+        "VO_ID":  "113",
+        "Beat_ID":  "BEAT_06_03",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "11",
+        "Pause_After":  "0",
+        "VO_EN":  "The enemy\u0027s supreme leader — eliminated in the first wave of strikes."
+    },
+    {
+        "VO_ID":  "114",
+        "Beat_ID":  "BEAT_06_03",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "11",
+        "Pause_After":  "0.5",
+        "VO_EN":  "You watch the confirmation come through on the screen. You nod once."
+    },
+    {
+        "VO_ID":  "115",
+        "Beat_ID":  "BEAT_06_04",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "18",
+        "Pause_After":  "0",
+        "VO_EN":  "The American leader sits on the other side of the table. Same posture. Same dark suit. Same instinct to control the room."
+    },
+    {
+        "VO_ID":  "116",
+        "Beat_ID":  "BEAT_06_04",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "17",
+        "Pause_After":  "0.5",
+        "VO_EN":  "Two men who outlasted everyone who tried to end them. In the same room. Running the same war."
+    },
+    {
+        "VO_ID":  "117",
+        "Beat_ID":  "BEAT_06_04",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "14",
+        "Pause_After":  "0.5",
+        "VO_EN":  "He leans forward when he talks. You lean back. Two different styles of dominance. Same result."
+    },
+    {
+        "VO_ID":  "118",
+        "Beat_ID":  "BEAT_06_05",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "14",
+        "Pause_After":  "0.5",
+        "VO_EN":  "The strait closes. Oil prices double in forty-eight hours. Shipping lines reroute around Africa."
+    },
+    {
+        "VO_ID":  "119",
+        "Beat_ID":  "BEAT_06_05",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "18",
+        "Pause_After":  "0.5",
+        "VO_EN":  "Your economy minister calls. The numbers are bad. Tourism collapsed. Exports frozen. You tell him you\u0027ll call back. You don\u0027t."
+    },
+    {
+        "VO_ID":  "120",
+        "Beat_ID":  "BEAT_06_06",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "8",
+        "Pause_After":  "0",
+        "VO_EN":  "Retaliatory missiles hit allied bases. Three countries. Simultaneous."
+    },
+    {
+        "VO_ID":  "121",
+        "Beat_ID":  "BEAT_06_06",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "19",
+        "Pause_After":  "0.5",
+        "VO_EN":  "The pen on the table rolls — you watch it go — all the way to the edge and stop. You notice that."
+    },
+    {
+        "VO_ID":  "122",
+        "Beat_ID":  "BEAT_06_07",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "8",
+        "Pause_After":  "0",
+        "VO_EN":  "Civilian casualties. The number depends on who\u0027s counting."
+    },
+    {
+        "VO_ID":  "123",
+        "Beat_ID":  "BEAT_06_07",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "WEIGHT_LINE",
+        "Word_Count_EN":  "9",
+        "Pause_After":  "1.5",
+        "VO_EN":  "You\u0027ve heard that sentence before. You\u0027ll hear it again."
+    },
+    {
+        "VO_ID":  "124",
+        "Beat_ID":  "BEAT_06_07",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "19",
+        "Pause_After":  "0.5",
+        "VO_EN":  "Your son posts something online. Defending you. Again. You wish he wouldn\u0027t. Not because it\u0027s wrong. Because it gives them ammunition."
+    },
+    {
+        "VO_ID":  "125",
+        "Beat_ID":  "BEAT_06_08",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "8",
+        "Pause_After":  "0.5",
+        "VO_EN":  "Week six. No end date. No ceasefire on the table."
+    },
+    {
+        "VO_ID":  "126",
+        "Beat_ID":  "BEAT_06_08",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "18",
+        "Pause_After":  "0",
+        "VO_EN":  "The coffee on your desk went cold three hours ago. Someone replaced it. That one\u0027s cold now too. You drink it anyway."
+    },
+    {
+        "VO_ID":  "127",
+        "Beat_ID":  "BEAT_06_09",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "30",
+        "Pause_After":  "0.5",
+        "VO_EN":  "For a moment — screens updating and phones vibrating and two advisors talking over each other — you lose the thread. All of it blurs into white noise. Then you blink. And it\u0027s back."
+    },
+    {
+        "VO_ID":  "128",
+        "Beat_ID":  "BEAT_06_09",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "10",
+        "Pause_After":  "0.5",
+        "VO_EN":  "You are seventy-six. In the bunker. Still the one deciding."
+    },
+    {
+        "VO_ID":  "129",
+        "Beat_ID":  "BEAT_06_10",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "12",
+        "Pause_After":  "0",
+        "VO_EN":  "Your brother\u0027s photo sits on the desk. Same frame. Same face. He is forever thirty."
+    },
+    {
+        "VO_ID":  "130",
+        "Beat_ID":  "BEAT_06_10",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "19",
+        "Pause_After":  "0.5",
+        "VO_EN":  "Sometimes late at night you look at his photograph and try to remember his voice. You can\u0027t. Not exactly. That\u0027s the cruelest part."
+    },
+    {
+        "VO_ID":  "131",
+        "Beat_ID":  "BEAT_06_11",
+        "Life_Phase":  "PHASE_PRESENT",
+        "VO_Type":  "WEIGHT_LINE",
+        "Word_Count_EN":  "13",
+        "Pause_After":  "2.0",
+        "VO_EN":  "You\u0027ve outlived him by forty-six years. Not proud exactly. Not that. Something heavier."
+    },
+    {
+        "VO_ID":  "132",
+        "Beat_ID":  "BEAT_07_01",
+        "Life_Phase":  "CALLBACK_CLOSE",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "12",
+        "Pause_After":  "0.5",
+        "VO_EN":  "The red folder is still on the desk. There\u0027s a new one every day."
+    },
+    {
+        "VO_ID":  "133",
+        "Beat_ID":  "BEAT_07_02",
+        "Life_Phase":  "CALLBACK_CLOSE",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "13",
+        "Pause_After":  "0",
+        "VO_EN":  "Fifty years ago you were the younger brother. Waiting for a phone call in an American kitchen."
+    },
+    {
+        "VO_ID":  "134",
+        "Beat_ID":  "BEAT_07_02",
+        "Life_Phase":  "CALLBACK_CLOSE",
+        "VO_Type":  "WEIGHT_LINE",
+        "Word_Count_EN":  "8",
+        "Pause_After":  "1.5",
+        "VO_EN":  "Now you\u0027re the one the room waits for."
+    },
+    {
+        "VO_ID":  "135",
+        "Beat_ID":  "BEAT_07_03",
+        "Life_Phase":  "CALLBACK_CLOSE",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "14",
+        "Pause_After":  "0",
+        "VO_EN":  "The distance between losing your brother and ordering the strike — that\u0027s your entire life."
+    },
+    {
+        "VO_ID":  "136",
+        "Beat_ID":  "BEAT_07_03",
+        "Life_Phase":  "CALLBACK_CLOSE",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "16",
+        "Pause_After":  "0.5",
+        "VO_EN":  "Every year between was preparation. Not living. Not exactly. Not the way other people mean it."
+    },
+    {
+        "VO_ID":  "137",
+        "Beat_ID":  "BEAT_07_03",
+        "Life_Phase":  "CALLBACK_CLOSE",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "24",
+        "Pause_After":  "0.5",
+        "VO_EN":  "He would be eighty now. Grandchildren probably. A different life entirely. You built the one he didn\u0027t get to have — and turned it into this."
+    },
+    {
+        "VO_ID":  "138",
+        "Beat_ID":  "BEAT_07_04",
+        "Life_Phase":  "CALLBACK_CLOSE",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "17",
+        "Pause_After":  "0",
+        "VO_EN":  "You\u0027re still sitting there. In the bunker. In the chair. Same chair as the first day you came back."
+    },
+    {
+        "VO_ID":  "139",
+        "Beat_ID":  "BEAT_07_04",
+        "Life_Phase":  "CALLBACK_CLOSE",
+        "VO_Type":  "WEIGHT_LINE",
+        "Word_Count_EN":  "7",
+        "Pause_After":  "0",
+        "VO_EN":  "Because no one else stayed long enough."
+    },
+    {
+        "VO_ID":  "140",
+        "Beat_ID":  "BEAT_07_04",
+        "Life_Phase":  "CALLBACK_CLOSE",
+        "VO_Type":  "NARRATION",
+        "Word_Count_EN":  "12",
+        "Pause_After":  "2.0",
+        "VO_EN":  "The screens are still on. The folder is still red. The photograph is still young."
+    }
+]

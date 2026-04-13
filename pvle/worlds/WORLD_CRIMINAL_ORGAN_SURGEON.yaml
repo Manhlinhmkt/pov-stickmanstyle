@@ -1,0 +1,91 @@
+# WORLD: WORLD_CRIMINAL_ORGAN_SURGEON
+# Display: The Surgeon Who Cuts for the Wrong Side
+# Created: 2026-04-13
+
+WORLD_ID: WORLD_CRIMINAL_ORGAN_SURGEON
+display_name: "The Surgeon Who Cuts for the Wrong Side"
+domain: CRIMINAL
+era: MODERN_CONTEMPORARY
+implied_identity_mode: GENERIC_ARCHETYPE
+implied_person: null
+
+tags:
+  - organ_trafficking
+  - corrupt_surgeon
+  - hippocratic_betrayal
+  - kidnap_to_harvest
+  - moral_collapse
+  - hands_that_heal_and_kill
+
+seed_keywords:
+  - "organ trafficking surgeon"
+  - "illegal transplant surgery"
+  - "kidnapping organ harvest"
+  - "corrupt doctor"
+  - "black market surgeon"
+  - "hippocratic oath betrayal"
+
+key_facts:
+  - "Surgeons in trafficking networks are the scarcest and most protected asset - without them, the entire operation collapses"
+  - "Many trafficking surgeons were once legitimate doctors who lost licenses, accumulated debt, or were coerced into the network"
+  - "A single kidney extraction takes 2-4 hours - the surgeon works in silence knowing the donor may not have consented"
+  - "Trafficking networks pay surgeons $20,000-$50,000 per operation - ten times what they earned legally in their home country"
+  - "Some victims are kidnapped and wake up in unfamiliar rooms with fresh surgical scars and no memory of what happened"
+  - "Surgeons must perform without full medical teams - often with minimal anesthesia, improvised equipment, and no post-operative care plan for donors"
+  - "The Hippocratic Oath - 'First, do no harm' - is the oldest ethical code in medicine, dating back to ancient Greece"
+  - "Trafficking surgeons rationalize by telling themselves the recipient will die without the organ - reframing extraction as saving a life"
+  - "Once inside the network, surgeons cannot leave - they know too much about locations, patients, and the organization"
+  - "Medical boards in multiple countries have documented cases of licensed surgeons moonlighting in illegal transplant operations"
+
+key_locations:
+  - id: LOC_FORMER_HOSPITAL
+    name: "The Former Hospital"
+    description: "Where you once worked legally - clean halls, proper teams, patients who thanked you - the life you lost"
+  - id: LOC_UNDERGROUND_CLINIC
+    name: "The Underground Clinic"
+    description: "Converted basement or back-room facility with surgical equipment - sterile enough to operate but far from any standard"
+  - id: LOC_PREP_ROOM
+    name: "The Prep Room"
+    description: "Where donors are sedated before surgery - the last room where you can still pretend you do not know what comes next"
+  - id: LOC_OPERATING_TABLE
+    name: "The Operating Table"
+    description: "The center of everything - where your hands do what your mind has learned to disconnect from"
+  - id: LOC_RECOVERY_NOWHERE
+    name: "The Recovery Room That Does Not Exist"
+    description: "Donors are moved here briefly then abandoned - you never see what happens after you close the wound"
+
+key_tensions:
+  - DUTY_VS_SELF
+  - NORMAL_DESIRE_VS_IMPOSSIBLE_REALITY
+  - POWER_VS_ISOLATION
+
+accessory_tags:
+  - "surgical gloves"
+  - "stethoscope around neck"
+  - "scrub cap"
+
+# CREATIVE CONSTRAINTS (episode-level enforcement)
+creative_constraints:
+  primary_rule: "INSIDE_THE_OPERATING_ROOM"
+  description: >
+    Unlike the broker (PV_0015) who never sees the blood, the surgeon IS the blood.
+    The narrative lives in the hands - the same hands that once healed now extract.
+    The horror is not in violence but in clinical precision applied to monstrous purpose.
+  subject_framing: >
+    Subject is a trained medical professional whose skills are weaponized.
+    The core mechanism is the corruption of expertise - using healing knowledge to harm.
+    Self-rationalization through medical logic: 'the recipient needs this to live.'
+  forbidden_framing:
+    - "Gratuitous gore or surgical fetishism"
+    - "Power fantasy or cool-surgeon trope"
+    - "Victim-blaming or dehumanizing donors"
+    - "Subject as willing psychopath from the start"
+  required_framing:
+    - "Gradual moral descent - not sudden evil"
+    - "Clinical detachment as defense mechanism"
+    - "Hands as recurring motif - healing vs. harvesting"
+    - "The moment of recognition in a donor's eyes"
+    - "Ending lands on inability to return to legitimate medicine"
+
+used_in_episodes: [PV_0016]
+created: "2026-04-13"

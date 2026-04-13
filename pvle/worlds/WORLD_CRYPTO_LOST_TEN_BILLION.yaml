@@ -1,0 +1,153 @@
+WORLD_ID: WORLD_CRYPTO_LOST_TEN_BILLION
+display_name: "The Man Who Lost $10 Billion - Playing God with Other People's Money"
+domain: CORPORATE
+era: MODERN_CONTEMPORARY
+implied_identity_mode: TRANSPARENT_VEIL
+implied_person: "Sam Bankman-Fried"
+veil_strictness: MAXIMUM
+
+tags:
+  - crypto
+  - fraud
+  - collapse
+  - effective_altruism
+  - hubris
+  - financial_crime
+
+seed_keywords:
+  - "Sam Bankman-Fried"
+  - "SBF"
+  - "FTX"
+  - "crypto exchange fraud"
+  - "lost ten billion"
+  - "effective altruism"
+  - "Alameda Research"
+
+era_anchors:
+  - year: 1992
+    event: "Born to two law professors at an elite university in California"
+  - year: 2014
+    event: "Graduated from top science university with physics degree"
+  - year: 2017
+    event: "Founded quantitative trading firm in Berkeley at age 25"
+  - year: 2019
+    event: "Founded crypto exchange, relocated operations to the Caribbean"
+  - year: 2021
+    event: "Net worth peaked at approximately $26 billion - richest person under 30"
+  - year: 2022_nov
+    event: "Exchange collapsed in less than a week after competitor exposed balance sheet"
+  - year: 2023
+    event: "Arrested, extradited, convicted on seven counts of fraud and conspiracy"
+  - year: 2024
+    event: "Sentenced to 25 years in federal prison"
+
+unique_circumstance_stack:
+  - "Both parents are professors at one of the most elite law schools in the country - grew up in academic privilege"
+  - "Became a utilitarian philosopher before becoming a trader - believed in earning to give everything away"
+  - "Slept on beanbags in the office, wore cargo shorts to congressional hearings - cultivated image of indifference to money"
+  - "Lived in a $40M penthouse on a Caribbean island with ten roommates who were also company executives"
+  - "Played video games during investor meetings and board calls"
+  - "Donated over $100M to political campaigns - second largest individual political donor in 2022 US midterm elections"
+  - "Trading firm secretly used customer deposits to cover billions in losses and make risky bets"
+  - "Exchange processed more than $600B in total trading volume at peak"
+  - "Collapse triggered by a single social media post from a competitor revealing the balance sheet"
+  - "Went from $26B net worth to zero in approximately 72 hours"
+  - "His ex-girlfriend ran the trading firm and testified against him at trial"
+  - "Three of his closest associates - co-founder, head of trading, head of engineering - all cooperated with prosecutors"
+
+public_perception_markers:
+  - "Symbol of crypto industry fraud and excess - the face of a generation's lost trust and savings"
+  - "Most dramatic financial collapse since 2008 - compared to Madoff and Enron"
+  - "Effective altruism movement permanently tainted by association with his fraud"
+  - "Image of the nerdy genius savior was itself the con - the disheveled look was the disguise"
+
+forbidden_terms:
+  names:
+    - term: "Sam"
+      replacement: "you"
+    - term: "Bankman-Fried"
+      replacement: "[omit]"
+    - term: "SBF"
+      replacement: "[omit]"
+  companies:
+    - term: "FTX"
+      replacement: "the exchange / your exchange"
+    - term: "Alameda Research"
+      replacement: "the trading firm / your trading firm"
+    - term: "Binance"
+      replacement: "the competitor / the biggest exchange"
+    - term: "Jane Street"
+      replacement: "the Wall Street firm / the trading desk"
+    - term: "Sequoia Capital"
+      replacement: "the venture fund / the biggest investors"
+  people:
+    - term: "Caroline Ellison"
+      replacement: "the person who runs your trading firm / the one you trusted most"
+    - term: "CZ / Changpeng Zhao"
+      replacement: "the competitor / the man who built the bigger exchange"
+    - term: "Gary Wang"
+      replacement: "your co-founder / the one who built the code"
+    - term: "Nishad Singh"
+      replacement: "your roommate / the engineer"
+    - term: "Barbara Fried"
+      replacement: "your mother / the professor"
+    - term: "Joseph Bankman"
+      replacement: "your father / the professor"
+  places:
+    - term: "Bahamas"
+      replacement: "the island / the Caribbean"
+    - term: "MIT"
+      replacement: "the university"
+    - term: "Stanford"
+      replacement: "the law school / the university"
+    - term: "Nassau"
+      replacement: "the island capital"
+    - term: "Albany compound"
+      replacement: "the penthouse / the compound"
+  organizations:
+    - term: "Effective Altruism"
+      replacement: "the philosophy / the movement / earning to give"
+    - term: "Future Fund"
+      replacement: "the charity fund / the foundation"
+    - term: "SEC"
+      replacement: "the regulators / the financial authority"
+    - term: "SDNY"
+      replacement: "the prosecutors / the federal court"
+
+key_locations:
+  - id: LOC_CAMPUS_HOME
+    name: "Faculty housing at elite university"
+    description: "Where subject grew up - campus surrounded by privilege and academic certainty"
+  - id: LOC_WALL_STREET_FIRM
+    name: "The Wall Street trading desk"
+    description: "First job - learning to make money from arbitrage in a suit-and-tie world"
+  - id: LOC_BERKELEY_APARTMENT
+    name: "The cramped apartment in Berkeley"
+    description: "Where the trading firm started - mattresses on floors, screens everywhere"
+  - id: LOC_ISLAND_PENTHOUSE
+    name: "The $40M Caribbean penthouse"
+    description: "Compound where ten executives lived, worked, dated, and committed fraud together"
+  - id: LOC_CONGRESS
+    name: "Congressional hearing room"
+    description: "Where subject testified about crypto regulation while secretly insolvent"
+  - id: LOC_COURTROOM
+    name: "Federal courthouse"
+    description: "Where the trial happened and the sentence was delivered"
+  - id: LOC_PRISON
+    name: "Federal prison"
+    description: "Where the 25-year sentence is being served"
+
+key_tensions:
+  - IDENTITY_VS_LEGACY
+  - POWER_VS_ISOLATION
+  - NORMAL_DESIRE_VS_IMPOSSIBLE_REALITY
+  - DUTY_VS_SELF
+
+accessory_tags:
+  - "cargo shorts"
+  - "messy curly hair"
+  - "beanbag chair"
+  - "multiple monitors"
+
+used_in_episodes: [PV_0014]
+created: "2026-04-12"

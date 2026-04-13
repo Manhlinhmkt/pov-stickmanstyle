@@ -11,7 +11,7 @@
 - **Tagline:** *Your life. Another world.*
 - **Duration:** 8-12 min per episode (STANDARD) / 12-15 min (EXTENDED)
 - **Cadence:** Weekly
-- **Languages:** English narration (primary) + Japanese + Vietnamese subtitles/VO
+- **Languages:** English narration (primary) + Vietnamese subtitles/VO
 - **Audience:** 16-35, curious, reflective — fans of documentary, psychology, "what if" content
 
 ---
@@ -82,7 +82,7 @@ CALLBACK_CLOSE     → Return to opening — new meaning earned
 ```
 /pvle-run-full → episode_brief.md
               → l2_breakdown_table.csv
-              → vo_script_table.csv (EN | JA | VI)
+              → vo_script_table.csv (EN | VI)
               → image_prompts.csv (Nano Banana)
               → video_prompts.csv (Veo)
 ```

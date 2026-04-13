@@ -1,0 +1,134 @@
+WORLD_ID: WORLD_EXILE_PRINCE_LOST_COUNTRY
+display_name: "The Man Who Lost a Country — and Spent His Life Trying to Take It Back"
+domain: POLITICS_EXILE
+era: MODERN_CONTEMPORARY
+implied_identity_mode: TRANSPARENT_VEIL
+implied_person: "Reza Pahlavi"
+veil_strictness: MAXIMUM
+
+tags:
+  - exiled_crown_prince
+  - identity_void
+  - exile_grief
+  - dynasty_collapse
+  - 2026_iran_war
+  - watching_from_distance
+  - sibling_loss
+  - homeland_longing
+
+seed_keywords:
+  - "Reza Pahlavi"
+  - "exiled prince"
+  - "crown prince Iran"
+  - "lost country"
+  - "exile identity"
+
+era_anchors:
+  - year: 1960
+    event: "Born in the imperial palace — designated heir at age 7"
+  - year: 1978
+    event: "Left for pilot training abroad at 17 — never returned"
+  - year: 1979
+    event: "Revolution abolished the 2,500-year monarchy — family exiled"
+  - year: 1980
+    event: "Father died in exile from cancer — declared himself successor at 20"
+  - year: 1986
+    event: "Married in exile — settled in suburb outside the capital of another country"
+  - year: 2001
+    event: "Youngest sister died of overdose in a London hotel — age 31"
+  - year: 2011
+    event: "Youngest brother died by suicide — age 44"
+  - year: 2022
+    event: "Women's uprising — his name chanted in streets he cannot walk"
+  - year: 2026
+    event: "US-Israel strikes on homeland — called it liberation while civilians died"
+
+unique_circumstance_stack:
+  - "Born crown prince of a 2,500-year monarchy — lost it all at 17"
+  - "Left country for pilot training 1 year before revolution — the timing was accidental"
+  - "Never set foot in homeland again after 1978 — 48 years and counting"
+  - "Father refused surgery, hid cancer from family — died 18 months after losing power"
+  - "Two siblings died in exile — overdose and suicide — the exile killed them slowly"
+  - "Lives in a Maryland suburb — watches homeland crises on cable news from a living room"
+  - "Name chanted by millions of protesters who have never met him and never will"
+  - "Supported foreign military strikes on own country — called it humanitarian intervention"
+  - "Asked foreign generals to destroy the government but spare the infrastructure"
+  - "Has three daughters — named them heirs, breaking the dynasty's male succession"
+  - "Claims he doesn't want the throne — but never renounced the title"
+  - "Every interview: asked 'Do you want to be king?' — has answered it 10,000 times"
+
+public_perception_markers:
+  - "Hero to monarchists, traitor to revolutionaries, naive to intellectuals"
+  - "The permanent exile who represents hope and betrayal simultaneously"
+  - "Defined not by what he did but by what was taken from him before he could do anything"
+
+key_tensions:
+  - "Identity without homeland: who are you when the country that made you no longer exists?"
+  - "Liberation vs destruction: calling bombs onto your own soil to free your people"
+  - "Heir vs democrat: claiming democratic values while carrying a dynastic title"
+  - "Distance vs relevance: 48 years of watching from 10,000 km away"
+
+key_facts:
+  - "Crown prince at age 7 — exiled at 17 — declared successor at 20"
+  - "Trained as fighter pilot — never flew a combat mission"
+  - "Father's cancer hidden from public — died in a borrowed palace in exile"
+  - "Sister's hotel room death — family found out from news broadcasters"
+  - "Brother's suicide ended the male line of the dynasty"
+  - "Sold family home in Maryland suburb — listed at $8 million"
+  - "Speaks to diaspora audiences — they cry when he speaks their language"
+  - "During 2026 war: urged citizens to stay home, wait for his 'final call'"
+
+key_locations:
+  - "Imperial palace — childhood of ceremony and isolation"
+  - "Air force base abroad — where he was when the revolution happened"
+  - "Cairo borrowed palace — where his father died"
+  - "Suburban house in Maryland — 45 years of exile headquarters"
+  - "Television studio — where he gives interviews to the world about a country he can't visit"
+
+forbidden_terms:
+  names:
+    - "Reza" 
+    - "Pahlavi"
+    - "Shah"
+    - "Shahbanou"
+  people:
+    - "Mohammad Reza → your father"
+    - "Farah → your mother"
+    - "Leila → your youngest sister"
+    - "Ali Reza → your brother"
+    - "Yasmine → your wife"
+    - "Trump → the president across the river"
+    - "Netanyahu → the allied leader"
+    - "Khamenei → the man who took your father's chair"
+  places:
+    - "Tehran → the capital"
+    - "Maryland → the suburb"
+    - "Potomac → [avoid]"
+    - "Cairo → the borrowed city"
+  organizations:
+    - "IRGC → the revolutionary guard"
+    - "Pahlavi dynasty → the dynasty / your father's house"
+    - "SAVAK → your father's intelligence service"
+
+accessory_tags:
+  - military_uniform_never_worn
+  - crown_in_exile
+  - passport_of_a_country_that_rejected_him
+  - television_screens_showing_homeland
+  - suburban_living_room_as_war_room
+
+creative_direction: |
+  DO NOT tell: "he wants power back"
+  DO tell: "he doesn't know who he is without that country"
+  
+  The core experience is IDENTITY VOID — a man whose entire existence is defined 
+  by a place he cannot go, a title he cannot use, and a country that is being 
+  destroyed while he watches from a sofa in another continent.
+  
+  The war section (2026) should feel like the cruelest test: 
+  everything he wanted (regime fall) is happening, 
+  but through bombs he didn't drop, in a country he can't enter, 
+  to people he claims to represent but has never met.
+
+used_in_episodes: [PV_0007]
+created: "2026-04-05"

@@ -65,3 +65,93 @@ worlds:
     episodes: [PV_0006]
     created: "2026-04-05"
 
+  WORLD_EXILE_PRINCE_LOST_COUNTRY:
+    file: "pvle/worlds/WORLD_EXILE_PRINCE_LOST_COUNTRY.yaml"
+    display_name: "The Man Who Lost a Country — and Spent His Life Trying to Take It Back"
+    domain: POLITICS_EXILE
+    identity_mode: TRANSPARENT_VEIL
+    tags: [exiled_crown_prince, identity_void, exile_grief, dynasty_collapse, 2026_iran_war, watching_from_distance]
+    episodes: [PV_0007]
+    created: "2026-04-05"
+
+  WORLD_TECH_ESCAPE_EARTH:
+    file: "pvle/worlds/WORLD_TECH_ESCAPE_EARTH.yaml"
+    display_name: "The Man Who Was Trying to Escape Earth"
+    domain: TECH_INDUSTRY
+    identity_mode: TRANSPARENT_VEIL
+    tags: [escape_pattern, compulsive_builder, richest_person, mars_obsession, childhood_trauma, serial_departure, government_power]
+    episodes: [PV_0008]
+    created: "2026-04-05"
+
+  WORLD_US_PRESIDENT_IRAN_WAR:
+    file: "pvle/worlds/WORLD_US_PRESIDENT_IRAN_WAR.yaml"
+    display_name: "The President Who Promised Peace — Then Set the Middle East on Fire"
+    domain: POLITICS_MILITARY
+    identity_mode: TRANSPARENT_VEIL
+    tags: [real_estate_mogul, reality_tv_president, iran_obsession, deal_breaker, maximum_pressure, wartime_president, middle_east_escalation]
+    episodes: [PV_0009]
+    created: "2026-04-06"
+
+  WORLD_TECH_AI_FIRED_AND_RETURNED:
+    file: "pvle/worlds/WORLD_TECH_AI_FIRED_AND_RETURNED.yaml"
+    display_name: "The Man Who Was Fired from His Own AI Company — And Took It Back in 5 Days"
+    domain: TECH_AI
+    identity_mode: TRANSPARENT_VEIL
+    tags: [ai_revolution, boardroom_coup, mission_vs_profit, power_return, trust_crisis, god_machine]
+    episodes: [PV_0010]
+    created: "2026-04-09"
+
+  WORLD_MILITARY_DRONE_OPERATOR:
+    file: "pvle/worlds/WORLD_MILITARY_DRONE_OPERATOR.yaml"
+    display_name: "The Person Who Kills from a Screen"
+    domain: MILITARY
+    identity_mode: GENERIC_ARCHETYPE
+    tags: [remote_warfare, moral_injury, kill_decision, psychological_whiplash, pattern_of_life, invisible_soldier]
+    episodes: [PV_0011]
+    created: "2026-04-11"
+
+  WORLD_INTELLIGENCE_MOSSAD_KATSA:
+    file: "pvle/worlds/WORLD_INTELLIGENCE_MOSSAD_KATSA.yaml"
+    display_name: "The Person Who Lives Two Lives for a Country"
+    domain: MILITARY_INTELLIGENCE
+    identity_mode: GENERIC_ARCHETYPE
+    tags: [espionage, double_identity, moral_injury, sayanim_network, cover_life, state_loyalty, psychological_whiplash]
+    episodes: [PV_0012]
+    created: "2026-04-12"
+
+  WORLD_TECH_CRYPTO_ANONYMOUS_CREATOR:
+    file: "pvle/worlds/WORLD_TECH_CRYPTO_ANONYMOUS_CREATOR.yaml"
+    display_name: "The Person Who Created Digital Gold - Then Walked Away From It"
+    domain: TECH_CRYPTO
+    identity_mode: GENERIC_ARCHETYPE
+    tags: [anonymous_creator, cryptocurrency, voluntary_disappearance, cypherpunk, decentralization, untouched_fortune]
+    episodes: [PV_0013]
+    created: "2026-04-12"
+
+  WORLD_CRIMINAL_ORGAN_BROKER:
+    file: "pvle/worlds/WORLD_CRIMINAL_ORGAN_BROKER.yaml"
+    display_name: "The Middleman in the Organ Trade"
+    domain: CRIMINAL
+    identity_mode: GENERIC_ARCHETYPE
+    tags: [organ_trafficking, middleman_broker, moral_decay, self_rationalization, invisible_victims, black_market_medicine]
+    episodes: [PV_0015]
+    created: "2026-04-13"
+
+  WORLD_CRIMINAL_ORGAN_SURGEON:
+    file: "pvle/worlds/WORLD_CRIMINAL_ORGAN_SURGEON.yaml"
+    display_name: "The Surgeon Who Cuts for the Wrong Side"
+    domain: CRIMINAL
+    identity_mode: GENERIC_ARCHETYPE
+    tags: [organ_trafficking, corrupt_surgeon, hippocratic_betrayal, kidnap_to_harvest, moral_collapse, hands_that_heal_and_kill]
+    episodes: [PV_0016]
+    created: "2026-04-13"
+
+  WORLD_CRIMINAL_ORGAN_BUYER:
+    file: "pvle/worlds/WORLD_CRIMINAL_ORGAN_BUYER.yaml"
+    display_name: "The Person Who Didn't Ask"
+    domain: CRIMINAL
+    identity_mode: GENERIC_ARCHETYPE
+    tags: [organ_trafficking, transplant_tourism, desperate_wealth, moral_complicity, buying_survival, willful_blindness, moral_ambiguity]
+    episodes: [PV_0017]
+    created: "2026-04-13"
+

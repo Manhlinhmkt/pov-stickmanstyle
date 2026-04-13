@@ -84,14 +84,19 @@ Write content using the following structure:
 > Approved: [date]. Used by `/pvle-gen-image-prompts`.
 
 ### Master Character Table
-| Char_ID | Veil_Name | Visual_Summary | Appears_In_Phases |
+| Char_ID | Veil_Name | Visual_Summary | Face | Appears_In_Phases |
 
 ### SUBJECT Visual Traits by Phase
 | Phase | Age_Range | Height | Hair | Clothing | Face | Distinguishing |
 
+### Face Rule
+- **REAL_PERSON** (identifiable real individual): **dot eyes + simple mouth** — matched to real person's appearance
+- **ANONYMOUS_GROUP** (generic institutional groups, crowds): **FACELESS** — blank white circle head
+
 ### Injection Rules
 - SUBJECT always has most visual detail among all characters in scene
-- AGENTS are always FACELESS — blank white circle head, no eyes, no mouth
+- REAL_PERSON characters have dot eyes + simple mouth (expression matches real person)
+- ANONYMOUS_GROUP characters are FACELESS — blank white circle head, no eyes, no mouth
 - REAL NAMES FORBIDDEN in prompts — use veil_name only
 - Height must scale — SUBJECT becomes progressively taller stickman across phases
 
@@ -106,7 +111,7 @@ Write content using the following structure:
 From `character_anchors` in `pvle/worlds/{WORLD_ID}.yaml`, extract and generate:
 
 **Master Character Table:**
-| Char_ID | Veil_Name | Visual_Summary | Appears_In_Phases |
+| Char_ID | Veil_Name | Visual_Summary | Face | Appears_In_Phases |
 
 **SUBJECT Visual Traits by Phase** (for all phases appearing in this episode):
 | Phase | Age_Range | Height | Hair | Clothing | Face | Distinguishing |
@@ -119,11 +124,66 @@ TEEN_13_17:   → PHASE_CONFLICT (age 13-17)
 ADULT_18_PLUS: → PHASE_CRISIS, PHASE_RESOLUTION, PHASE_PRESENT, CALLBACK_CLOSE
 ```
 
+Face Rule to always include:
+- **REAL_PERSON**: dot eyes + simple mouth — expression matched to real individual
+- **ANONYMOUS_GROUP**: FACELESS — blank white circle head
+
 Injection Rules to always include:
 - SUBJECT always has most visual detail among all characters
-- AGENTS are always FACELESS — blank white circle head, no eyes, no mouth
+- REAL_PERSON characters have dot eyes + simple mouth
+- ANONYMOUS_GROUP characters are FACELESS
 - REAL NAMES FORBIDDEN in prompts — use veil_name only
 - Height must scale — SUBJECT becomes progressively taller stickman across phases
+
+---
+
+## STEP 3b-VERIFY: Research Visual Anchors (MANDATORY)
+
+> **Purpose:** Ensure every REAL_PERSON character has accurate visual description before writing registry.  
+> **Principle:** Check asset library FIRST → search_web only if needed.
+
+### For EACH character in character_table[]:
+
+**① Classify:**
+- REAL_PERSON = character whose real-world identity can be determined (searchable)
+- ANONYMOUS_GROUP = generic institutional group (generals, prosecutors, crowd)
+- If ANONYMOUS_GROUP → mark as FACELESS, skip to next character
+
+**② Check Asset Library (REAL_PERSON only):**
+```
+Look up pvle/assets/characters/character_index.yaml
+→ Search for matching character (by real_person name or CHAR_ID)
+→ FOUND: load visual_anchors from index → apply to registry → DONE (skip search)
+→ NOT FOUND: proceed to step ③
+```
+
+**③ Web Research (only if NOT in asset library):**
+```
+search_web: "{real person name} appearance clothing style photo"
+Extract:
+  - Hair: color, style, thick/thin, receding, distinctive features
+  - Face expression: signature expression (stern, smiling, squinting, neutral...)
+  - Clothing: suit color, shirt color, tie color+length+style
+  - Accessories: glasses, pins, badges, jewelry — EXACT description
+  - Build: body type, height relative, shoulder width
+  - Unique identifiers: anything that makes this person instantly recognizable
+```
+
+**④ If search insufficient:**
+- Request user to provide reference image
+- Extract visual anchors from user-provided image
+
+**⑤ Update Registry:**
+- Write accurate Visual_Summary based on research/asset data
+- Write Face column with expression description
+- REAL_PERSON: "dot eyes + simple mouth" + specific expression
+- ANONYMOUS_GROUP: "FACELESS"
+
+**⑥ Validation:**
+- [ ] Every REAL_PERSON has been researched or loaded from asset library?
+- [ ] Visual_Summary matches real person's actual appearance?
+- [ ] No guesswork — all descriptions from research or approved assets?
+- [ ] Face expressions match real person's known demeanor?
 
 ---
 

@@ -1,0 +1,280 @@
+﻿VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_VI,Word_Count_EN,Pause_After
+1,PV_0013,BEAT_01_01,HOOK,ESTABLISH,NARRATION,The news calls it digital gold.,Tin tuc goi no la vang ky thuat so.,6,0.5
+2,PV_0013,BEAT_01_01,HOOK,ESTABLISH,NARRATION,You're sitting in a cafe somewhere.,Ban dang ngoi trong mot quan cafe nao do.,6,0
+3,PV_0013,BEAT_01_01,HOOK,ESTABLISH,NARRATION,Your laptop is open.,Laptop ban dang mo.,4,0
+4,PV_0013,BEAT_01_01,HOOK,ESTABLISH,NARRATION,The price on the screen keeps climbing.,Gia tren man hinh cu leo mai.,7,0.5
+5,PV_0013,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"Somebody behind the counter is talking about blockchain - using the word like it's brand new, like nobody's ever said it before.","Ai do phia sau quay dang noi ve blockchain - dung tu do nhu the no hoan toan moi me, nhu chua ai tung noi truoc.",21,0
+6,PV_0013,BEAT_01_01,HOOK,ESTABLISH,NARRATION,You remember writing it into the first line of code.,Ban nho minh da viet no vao dong code dau tien.,10,0.5
+7,PV_0013,BEAT_01_01,HOOK,ESTABLISH,NARRATION,You know who built this.,Ban biet ai da xay ra thu nay.,5,0
+8,PV_0013,BEAT_01_01,HOOK,ESTABLISH,NARRATION,You know exactly who.,Ban biet chinh xac la ai.,4,0.5
+9,PV_0013,BEAT_01_01,HOOK,ESTABLISH,WEIGHT_LINE,You can't say a word.,Ban khong the noi mot loi.,5,1.0
+10,PV_0013,BEAT_01_02,HOOK,PRIVILEGE,NARRATION,One million coins sitting in a wallet.,Mot trieu dong coin nam trong mot chiec vi.,7,0
+11,PV_0013,BEAT_01_02,HOOK,PRIVILEGE,WEIGHT_LINE,Untouched.,Chua ai cham vao.,1,1.0
+12,PV_0013,BEAT_01_02,HOOK,PRIVILEGE,NARRATION,Worth tens of billions now.,Tri gia hang chuc ty do bay gio.,5,0.5
+13,PV_0013,BEAT_01_02,HOOK,PRIVILEGE,NARRATION,The largest fortune no one has ever moved.,Khoi tai san lon nhat ma chua ai tung dich chuyen.,8,0.5
+14,PV_0013,BEAT_01_02,HOOK,PRIVILEGE,NARRATION,No bank holds it.,Khong ngan hang nao nam giu.,4,0
+15,PV_0013,BEAT_01_02,HOOK,PRIVILEGE,NARRATION,No government controls it.,Khong chinh phu nao kiem soat.,4,0
+16,PV_0013,BEAT_01_02,HOOK,PRIVILEGE,NARRATION,It just sits there in the blockchain waiting for someone who will never come back.,No chi nam do trong blockchain cho mot nguoi se khong bao gio quay lai.,15,0.5
+17,PV_0013,BEAT_01_02,HOOK,PRIVILEGE,NARRATION,Because the person who owns it doesn't exist.,Boi vi nguoi so huu no khong ton tai.,8,1.5
+18,PV_0013,BEAT_01_03,HOOK,ESTABLISH,WEIGHT_LINE,You created digital gold.,Ban da tao ra vang ky thuat so.,4,0.5
+19,PV_0013,BEAT_01_03,HOOK,ESTABLISH,WEIGHT_LINE,Then you stood up and walked away.,Roi ban dung day va buoc di.,7,2.0
+20,PV_0013,BEAT_02_01,PHASE_EARLY,TIME_MARKER,TIME_MARKER,It starts in 2007.,Bat dau tu nam 2007.,4,1.0
+21,PV_0013,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,Late nights.,Nhung dem khuya.,2,0
+22,PV_0013,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,A desk you bought secondhand.,Mot cai ban mua lai.,5,0
+23,PV_0013,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,A screen that hums when it gets warm.,Mot man hinh keu u u khi nong len.,8,0.5
+24,PV_0013,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,The room smells like old coffee and warm plastic from the monitor.,Can phong co mui ca phe cu va nhua nong tu man hinh.,12,0
+25,PV_0013,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,You've been sitting here so long your back has shaped itself around the chair.,Ban ngoi day lau den noi lung da uon theo hinh cai ghe.,14,0
+26,PV_0013,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,Nobody asked you to fix money.,Khong ai nho ban sua lai tien.,6,0
+27,PV_0013,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,"Nobody asked you to redesign how trust works between strangers who have never met, will never meet, and don't speak the same language.","Khong ai nho ban thiet ke lai cach long tin van hanh giua nhung nguoi xa la chua bao gio gap, se khong bao gio gap, va khong noi cung mot ngon ngu.",23,0.5
+28,PV_0013,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,But the problem keeps you up at night.,Nhung van de do giu ban thuc suot dem.,7,0.5
+29,PV_0013,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,Every transaction in the world runs through a middleman.,Moi giao dich tren the gioi deu phai qua mot trung gian.,9,0
+30,PV_0013,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,A bank.,Ngan hang.,2,0
+31,PV_0013,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,A processor.,Bo xu ly.,2,0
+32,PV_0013,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,A company that charges you for the privilege of holding your own money.,Mot cong ty thu phi ban vi dac quyen giu chinh tien cua ban.,13,0
+33,PV_0013,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,You want to remove that someone.,Ban muon loai bo kẻ trung gian do.,6,0.5
+34,PV_0013,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,You want to build a system where the math does the trusting.,Ban muon xay mot he thong noi toan hoc lam nhiem vu tin tuong.,11,1.0
+35,PV_0013,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,You write code the way some people pray.,Ban viet code nhu cach nguoi ta cau nguyen.,8,0
+36,PV_0013,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,Alone.,Mot minh.,1,0
+37,PV_0013,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,Late.,Khuya.,1,0
+38,PV_0013,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,Believing in something no one else can see yet.,Tin vao mot thu chua ai nhin thay.,9,1.0
+39,PV_0013,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,You don't eat dinner most nights.,Ban khong an toi hau het cac dem.,6,0
+40,PV_0013,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"You just keep going until the screen starts to blur, you realize it's 4 AM, and the coffee beside you is cold.","Ban cu tiep tuc cho den khi man hinh bat dau nhoe, nhan ra da 4 gio sang, va ly ca phe ben canh da nguoi lanh.",20,0.5
+41,PV_0013,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,If you fail nothing happens.,Neu ban that bai thi chang co gi xay ra.,5,0
+42,PV_0013,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,Nobody knows your name.,Khong ai biet ten ban.,4,0
+43,PV_0013,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,Nobody knows you tried.,Khong ai biet ban da thu.,4,0.5
+44,PV_0013,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,If you succeed everything changes.,Neu ban thanh cong thi moi thu thay doi.,5,0
+45,PV_0013,BEAT_02_02,PHASE_EARLY,REFLECT,WEIGHT_LINE,And you still won't have a name.,Va ban van se khong co ten.,7,1.5
+46,PV_0013,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,"October 31st, 2008.","Ngay 31 thang 10, 2008.",3,0.5
+47,PV_0013,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,Halloween.,Halloween.,1,0.5
+48,PV_0013,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,You finish the whitepaper.,Ban hoan thanh ban whitepaper.,4,0
+49,PV_0013,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,Nine pages.,Chin trang.,2,0
+50,PV_0013,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,You title it: Bitcoin - A Peer-to-Peer Electronic Cash System.,Ban dat ten: Bitcoin - He Thong Tien Te Dien Tu Ngang Hang.,10,0.5
+51,PV_0013,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,You read it one last time before hitting send.,Ban doc lai lan cuoi truoc khi bam gui.,9,0
+52,PV_0013,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,Your hands are shaking slightly.,Tay ban run nhe.,5,0
+53,PV_0013,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,Not from fear.,Khong phai vi so.,3,0
+54,PV_0013,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,From something closer to belief.,Vi mot thu gi do gan voi niem tin hon.,5,0.5
+55,PV_0013,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,You send it to a cryptography mailing list.,Ban gui no den mot danh sach email mat ma hoc.,8,0
+56,PV_0013,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,A few dozen people read it.,Vai chuc nguoi doc.,6,0
+57,PV_0013,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,Most say nothing.,Phan lon khong noi gi.,3,0
+58,PV_0013,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,One replies saying it can't scale.,Mot nguoi tra loi noi no khong the mo rong.,6,0
+59,PV_0013,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,Another says the energy cost is too high.,Nguoi khac bao chi phi nang luong qua cao.,8,0.5
+60,PV_0013,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,You don't argue.,Ban khong tranh luan.,3,0
+61,PV_0013,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,You just keep writing code.,Ban chi tiep tuc viet code.,5,0
+62,PV_0013,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,You've been wrong before.,Ban da tung sai truoc day.,4,0
+63,PV_0013,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,But not about this.,Nhung khong phai lan nay.,4,1.0
+64,PV_0013,BEAT_02_04,PHASE_EARLY,ESTABLISH,NARRATION,You register the domain.,Ban dang ky ten mien.,4,0
+65,PV_0013,BEAT_02_04,PHASE_EARLY,ESTABLISH,NARRATION,Bitcoin.org.,Bitcoin.org.,1,0
+66,PV_0013,BEAT_02_04,PHASE_EARLY,ESTABLISH,NARRATION,Fake name on the registration.,Ten gia tren ban dang ky.,5,0
+67,PV_0013,BEAT_02_04,PHASE_EARLY,ESTABLISH,NARRATION,Fake address.,Dia chi gia.,2,0.5
+68,PV_0013,BEAT_02_04,PHASE_EARLY,ESTABLISH,WEIGHT_LINE,Only the code is real.,Chi co code la that.,5,1.0
+69,PV_0013,BEAT_02_04,PHASE_EARLY,ESTABLISH,NARRATION,You create a profile on the P2P Foundation.,Ban tao mot tai khoan tren P2P Foundation.,8,0
+70,PV_0013,BEAT_02_04,PHASE_EARLY,ESTABLISH,NARRATION,"Birthday: April 5th, 1975.","Ngay sinh: 5 thang 4, 1975.",4,0.5
+71,PV_0013,BEAT_02_04,PHASE_EARLY,ESTABLISH,NARRATION,Not your real birthday.,Khong phai ngay sinh that cua ban.,4,0
+72,PV_0013,BEAT_02_04,PHASE_EARLY,ESTABLISH,NARRATION,"On April 5th, 1933, the US government made it illegal for citizens to own gold.","Ngay 5 thang 4, 1933, chinh phu My cam nguoi dan so huu vang.",14,0
+73,PV_0013,BEAT_02_04,PHASE_EARLY,ESTABLISH,NARRATION,In 1975 they gave it back.,Nam 1975 ho tra lai quyen do.,6,0.5
+74,PV_0013,BEAT_02_04,PHASE_EARLY,ESTABLISH,NARRATION,You picked a birthday that's a protest.,Ban chon mot ngay sinh la mot loi phan doi.,7,0
+75,PV_0013,BEAT_02_04,PHASE_EARLY,ESTABLISH,NARRATION,Nobody notices.,Khong ai nhan ra.,2,1.0
+76,PV_0013,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,You have no team.,Ban khong co team.,4,0
+77,PV_0013,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,No funding.,Khong tai tro.,2,0
+78,PV_0013,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,No advisor.,Khong co van.,2,0
+79,PV_0013,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,No one to tell when the code compiles at 3 AM and it actually works.,Khong ai de noi khi code chay duoc luc 3 gio sang va no thuc su hoat dong.,13,0.5
+80,PV_0013,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,You push back from the desk sometimes and just sit there in the dark.,Doi khi ban day ghe lui va chi ngoi do trong bong toi.,13,0
+81,PV_0013,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,Listening to the hard drive spin.,Nghe tieng o cung quay.,6,0
+82,PV_0013,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,You wonder sometimes if you're wasting your life on a thing no one will ever use.,Doi khi ban tu hoi lieu minh co dang phi doi vao mot thu khong ai bao gio dung.,15,0.5
+83,PV_0013,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,Then you open the laptop again.,Roi ban lai mo laptop.,6,0
+84,PV_0013,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,You don't know what else to do with this feeling.,Ban khong biet phai lam gi khac voi cam giac nay.,10,0.5
+85,PV_0013,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,You live alone with this.,Ban song mot minh voi dieu nay.,5,0
+86,PV_0013,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,Not because you have to.,Khong phai vi ban buoc phai the.,5,0
+87,PV_0013,BEAT_02_05,PHASE_EARLY,REFLECT,WEIGHT_LINE,Because what you're building must never have an owner.,Vi thu ban dang xay khong bao gio duoc phep co chu.,9,2.0
+88,PV_0013,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"January 3rd, 2009.","Ngay 3 thang 1, 2009.",3,1.0
+89,PV_0013,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,You press enter.,Ban bam enter.,3,0.5
+90,PV_0013,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,The first block is mined.,Block dau tien duoc dao.,5,0
+91,PV_0013,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,Block zero.,Block so khong.,2,0
+92,PV_0013,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,The genesis block.,Block khoi nguyen.,3,0.5
+93,PV_0013,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,Inside the block you embed a headline from that morning's Times of London.,Ben trong block ban nhung mot tieu de tu bao Times of London sang hom do.,13,0
+94,PV_0013,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,Chancellor on brink of second bailout for banks.,Bo truong Tai chinh sap thuc hien goi cuu tro ngan hang lan hai.,8,0.5
+95,PV_0013,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,It's not there for decoration.,No khong nam do de trang tri.,5,0
+96,PV_0013,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,It's a timestamp.,No la mot dau moc thoi gian.,3,0
+97,PV_0013,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,WEIGHT_LINE,And a reason.,Va mot ly do.,3,1.5
+98,PV_0013,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"For two months, you are the only person on Earth running the software.","Trong hai thang, ban la nguoi duy nhat tren Trai Dat chay phan mem nay.",13,0
+99,PV_0013,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,One computer.,Mot may tinh.,2,0
+100,PV_0013,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,One node.,Mot node.,2,0
+101,PV_0013,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,The entire network is you.,Toan bo mang luoi la ban.,5,0.5
+102,PV_0013,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"You mine block after block, alone, writing transactions into a ledger that nobody else is reading, for a currency that nobody else believes in.","Ban dao tung block mot, mot minh, ghi giao dich vao mot so cai khong ai doc, cho mot loai tien khong ai tin.",23,0
+103,PV_0013,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,It's like writing letters to someone who hasn't been born yet.,Giong nhu viet thu cho mot nguoi chua sinh ra.,11,1.0
+104,PV_0013,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,Then one day someone connects.,Roi mot ngay co nguoi ket noi.,6,0.5
+105,PV_0013,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,Hal Finney.,Hal Finney.,2,0
+106,PV_0013,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,A cryptographer who downloaded the software the day it went live.,Mot nha mat ma hoc tai phan mem ngay no len song.,10,0
+107,PV_0013,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,He didn't ask what it was worth.,Ong ay khong hoi no dang gia bao nhieu.,7,0
+108,PV_0013,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,He didn't ask who you were.,Ong ay khong hoi ban la ai.,6,0
+109,PV_0013,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,He just wanted to see if it worked.,Ong ay chi muon xem no co chay khong.,8,0.5
+110,PV_0013,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,You send him ten coins.,Ban gui cho ong ay muoi dong coin.,5,0
+111,PV_0013,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,The first transaction in history.,Giao dich dau tien trong lich su.,5,0
+112,PV_0013,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,Worth exactly nothing.,Tri gia chinh xac la khong.,3,1.0
+113,PV_0013,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,"Months pass, and people start using it.","Nhieu thang troi qua, va moi nguoi bat dau su dung.",7,0.5
+114,PV_0013,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,Not because they trust you.,Khong phai vi ho tin ban.,5,0
+115,PV_0013,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,They don't even know you exist.,Ho con khong biet ban ton tai.,6,0
+116,PV_0013,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,They trust the math.,Ho tin toan hoc.,4,0
+117,PV_0013,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,They trust the code.,Ho tin dong code.,4,0.5
+118,PV_0013,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,"A few hundred users become a thousand, become ten thousand, and the more it grows, the less anyone needs to know who you are.","Vai tram nguoi dung thanh mot nghin, thanh muoi nghin, va cang lon thi cang it nguoi can biet ban la ai.",22,0.5
+119,PV_0013,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,You answer questions on the forum sometimes at 2 AM.,Ban tra loi cau hoi tren dien dan luc 2 gio sang.,10,0
+120,PV_0013,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,"Polite, patient, careful with every word.","Lich su, kien nhan, can than tung chu.",6,0
+121,PV_0013,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,"Never too much personality, never too little.","Khong bao gio qua nhieu ca tinh, cung khong qua it.",7,0
+122,PV_0013,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,You're building a voice that can disappear one day without anyone noticing the silence.,Ban dang xay dung mot giong noi co the bien mat ma khong ai nhan ra su im lang.,14,0.5
+123,PV_0013,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,You watch the network grow from your screen like watching something breathe for the first time.,Ban nhin mang luoi lon len tu man hinh nhu nhin mot thu gi do tho lan dau.,16,0.5
+124,PV_0013,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,That's exactly what you wanted.,Do chinh xac la dieu ban muon.,5,0
+125,PV_0013,BEAT_03_03,PHASE_CONFLICT,REFLECT,WEIGHT_LINE,And that's exactly what will erase you.,Va do chinh xac la dieu se xoa sach ban.,7,1.5
+126,PV_0013,BEAT_03_04,PHASE_CONFLICT,PRIVILEGE,NARRATION,"May 22nd, 2010.","Ngay 22 thang 5, 2010.",3,0.5
+127,PV_0013,BEAT_03_04,PHASE_CONFLICT,PRIVILEGE,NARRATION,A programmer in Florida buys two pizzas for ten thousand coins.,Mot lap trinh vien o Florida mua hai chiec pizza bang muoi nghin dong coin.,11,0
+128,PV_0013,BEAT_03_04,PHASE_CONFLICT,PRIVILEGE,NARRATION,Ten thousand coins.,Muoi nghin dong coin.,3,0
+129,PV_0013,BEAT_03_04,PHASE_CONFLICT,PRIVILEGE,NARRATION,Two pizzas.,Hai chiec pizza.,2,0.5
+130,PV_0013,BEAT_03_04,PHASE_CONFLICT,PRIVILEGE,NARRATION,Years from now those coins will be worth hundreds of millions of dollars.,Nhieu nam sau so coin do se tri gia hang tram trieu do.,12,0
+131,PV_0013,BEAT_03_04,PHASE_CONFLICT,PRIVILEGE,NARRATION,But right now nobody laughs.,Nhung bay gio khong ai cuoi.,5,0
+132,PV_0013,BEAT_03_04,PHASE_CONFLICT,PRIVILEGE,NARRATION,Because nobody realizes what they're holding.,Vi khong ai nhan ra ho dang nam giu thu gi.,6,0.5
+133,PV_0013,BEAT_03_04,PHASE_CONFLICT,PRIVILEGE,WEIGHT_LINE,You do.,Ban thi biet.,2,1.0
+134,PV_0013,BEAT_03_05,PHASE_CONFLICT,CONSTRAINT,NARRATION,Then WikiLeaks starts accepting it.,Roi WikiLeaks bat dau chap nhan no.,5,0.5
+135,PV_0013,BEAT_03_05,PHASE_CONFLICT,CONSTRAINT,NARRATION,The attention is enormous.,Su chu y la khong lo.,4,0
+136,PV_0013,BEAT_03_05,PHASE_CONFLICT,CONSTRAINT,NARRATION,Governments notice.,Chinh phu de y.,2,0
+137,PV_0013,BEAT_03_05,PHASE_CONFLICT,CONSTRAINT,NARRATION,Intelligence agencies are reading the forums now.,Cac co quan tinh bao dang doc dien dan.,7,0.5
+138,PV_0013,BEAT_03_05,PHASE_CONFLICT,CONSTRAINT,NARRATION,You try to explain once on the forum why the attention is dangerous.,Ban thu giai thich tren dien dan tai sao su chu y nay la nguy hiem.,12,0
+139,PV_0013,BEAT_03_05,PHASE_CONFLICT,CONSTRAINT,NARRATION,It doesn't come out right.,No khong ra dung y.,5,0
+140,PV_0013,BEAT_03_05,PHASE_CONFLICT,CONSTRAINT,NARRATION,You stop trying after that.,Ban ngung thu sau do.,5,0.5
+141,PV_0013,BEAT_03_05,PHASE_CONFLICT,CONSTRAINT,NARRATION,You post a warning instead.,Ban dang mot canh bao thay vao do.,5,0
+142,PV_0013,BEAT_03_05,PHASE_CONFLICT,CONSTRAINT,NARRATION,Your hands hover over the keyboard longer than usual before you type it.,Tay ban lo lung tren ban phim lau hon binh thuong truoc khi go.,12,0
+143,PV_0013,BEAT_03_05,PHASE_CONFLICT,CONSTRAINT,NARRATION,You've kicked a hornet's nest.,Ban da choc vao to ong.,5,0
+144,PV_0013,BEAT_03_05,PHASE_CONFLICT,CONSTRAINT,NARRATION,Too soon.,Qua som.,2,0
+145,PV_0013,BEAT_03_05,PHASE_CONFLICT,CONSTRAINT,NARRATION,Too fast.,Qua nhanh.,2,0.5
+146,PV_0013,BEAT_03_05,PHASE_CONFLICT,CONSTRAINT,NARRATION,You didn't build this to become a headline.,Ban khong xay thu nay de len bao.,8,0
+147,PV_0013,BEAT_03_05,PHASE_CONFLICT,CONSTRAINT,NARRATION,You built it to become invisible.,Ban xay no de no tro nen vo hinh.,6,0
+148,PV_0013,BEAT_03_05,PHASE_CONFLICT,CONSTRAINT,NARRATION,But you can't control what free people do with a free tool you gave them for nothing.,Nhung ban khong the kiem soat nhung gi nguoi tu do lam voi mot cong cu mien phi ban cho ho.,15,1.0
+149,PV_0013,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,And here's the thing you understand now.,Va day la dieu ban hieu ra bay gio.,7,0.5
+150,PV_0013,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,"If you stay, you're the center.","Neu ban o lai, ban la trung tam.",6,0
+151,PV_0013,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,"If you're the center, it isn't decentralized.","Neu ban la trung tam, no khong phi tap trung.",7,0
+152,PV_0013,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,"If it isn't decentralized, it's just another system run by another person with a name at the top.","Neu no khong phi tap trung, no chi la mot he thong khac do mot nguoi khac dieu hanh voi mot cai ten o tren dinh.",16,0.5
+153,PV_0013,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,You stare at the screen for a long time.,Ban nhin man hinh rat lau.,8,0.5
+154,PV_0013,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,The cursor blinks.,Con tro nhap nhay.,3,0
+155,PV_0013,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,You crack your knuckles without thinking.,Ban bẻ ngon tay ma khong suy nghi.,6,0
+156,PV_0013,BEAT_03_06,PHASE_CONFLICT,REFLECT,WEIGHT_LINE,The only way your invention survives is if you don't.,Cach duy nhat de phat minh cua ban ton tai la ban khong duoc ton tai.,10,2.0
+157,PV_0013,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,You start handing things over.,Ban bat dau ban giao moi thu.,5,0.5
+158,PV_0013,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,Quietly.,Trong im lang.,1,0
+159,PV_0013,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,The source code.,Ma nguon.,3,0
+160,PV_0013,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,The network alert key.,Khoa canh bao mang.,4,0
+161,PV_0013,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,The domain.,Ten mien.,2,0.5
+162,PV_0013,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,You give them to a developer named Gavin Andresen.,Ban giao cho mot lap trinh vien ten Gavin Andresen.,9,0
+163,PV_0013,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,He's the closest thing this project has to a successor.,Ong ay la nguoi gan nhat voi vai tro nguoi ke nhiem.,10,0.5
+164,PV_0013,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,He doesn't know it yet.,Ong ay chua biet dieu do.,5,0
+165,PV_0013,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,You don't tell him why.,Ban khong noi ly do.,5,0
+166,PV_0013,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"You don't tell him that after today, you won't be answering emails anymore.","Ban khong noi voi ong ay rang sau hom nay, ban se khong tra loi email nua.",13,0
+167,PV_0013,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"That you won't be fixing bugs at midnight, or reviewing patches in the morning, or answering strangers on the forum who still think you're just another developer.","Rang ban se khong sua loi luc nua dem, khong review ban va luc sang, khong tra loi nhung nguoi la tren dien dan vẫn nghi ban chi la mot lap trinh vien binh thuong.",27,0.5
+168,PV_0013,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,That this is the last time anyone will hear from you.,Rang day la lan cuoi cung bat ky ai nghe tu ban.,10,1.0
+169,PV_0013,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"April 23rd, 2011.","Ngay 23 thang 4, 2011.",3,0.5
+170,PV_0013,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,You email a developer named Mike Hearn.,Ban gui email cho mot lap trinh vien ten Mike Hearn.,7,0
+171,PV_0013,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,You write: I've moved on to other things.,Ban viet: Toi da chuyen sang nhung viec khac.,8,0
+172,PV_0013,BEAT_04_02,PHASE_CRISIS,CRISIS,WEIGHT_LINE,It's in good hands.,No dang o trong tay tot.,4,1.0
+173,PV_0013,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"Three days later, you email Gavin.","Ba ngay sau, ban gui email cho Gavin.",6,0
+174,PV_0013,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,Your last message.,Tin nhan cuoi cung.,3,0
+175,PV_0013,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,Ever.,Vinh vien.,1,0.5
+176,PV_0013,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"You write: I wish you wouldn't keep talking about me as a mysterious, shadowy figure.","Ban viet: Toi muon anh dung noi ve toi nhu mot nhan vat bi an, mo am nua.",15,0
+177,PV_0013,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,Give more credit to the open source contributors.,Hay ghi nhan nhieu hon cho nhung nguoi dong gop ma nguon mo.,8,0
+178,PV_0013,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,It helps motivate them.,Dieu do giup tao dong luc cho ho.,4,0.5
+179,PV_0013,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,You sit there after you send it.,Ban ngoi do sau khi bam gui.,7,0
+180,PV_0013,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,The inbox is empty.,Hop thu trong.,4,0
+181,PV_0013,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,Nobody replies.,Khong ai tra loi.,2,1.0
+182,PV_0013,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,The next day.,Ngay hom sau.,3,0.5
+183,PV_0013,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,April 27th.,27 thang 4.,2,0
+184,PV_0013,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,Gavin posts on the forum.,Gavin dang bai tren dien dan.,5,0
+185,PV_0013,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,He announces he's been invited to present Bitcoin at the CIA.,Ong ay thong bao minh duoc moi trinh bay ve Bitcoin tai CIA.,11,0.5
+186,PV_0013,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,The CIA.,CIA.,2,0.5
+187,PV_0013,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,You read that line.,Ban doc dong do.,4,0.5
+188,PV_0013,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,You read it again.,Ban doc lai lan nua.,4,0.5
+189,PV_0013,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,Your fingers stop moving on the keyboard.,Cac ngon tay ban ngung di chuyen tren ban phim.,7,0
+190,PV_0013,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,For half a second they just hover there.,Nua giay chung chi lo lung o do.,8,0
+191,PV_0013,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,Then they settle.,Roi ha xuong.,3,1.0
+192,PV_0013,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,You don't panic.,Ban khong hoang.,3,0
+193,PV_0013,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,You don't run.,Ban khong chay.,3,0
+194,PV_0013,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,You just sit there a little longer than usual.,Ban chi ngoi do lau hon binh thuong mot chut.,9,0.5
+195,PV_0013,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,With the keyboard.,Voi ban phim.,3,0
+196,PV_0013,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,With the screen.,Voi man hinh.,3,0
+197,PV_0013,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,With the thing you spent four years building alone in a room nobody knows about.,Voi thu ma ban da bo bon nam xay mot minh trong mot can phong khong ai biet.,14,1.0
+198,PV_0013,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,You close the laptop.,Ban gap laptop lai.,4,0.5
+199,PV_0013,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,The screen goes dark.,Man hinh toi den.,4,0.5
+200,PV_0013,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,Nobody forced you.,Khong ai ep ban.,3,0
+201,PV_0013,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,Nobody chased you.,Khong ai duoi theo.,3,0
+202,PV_0013,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,You just stood up.,Ban chi dung day.,4,0.5
+203,PV_0013,BEAT_04_04,PHASE_CRISIS,REFLECT,WEIGHT_LINE,And walked away.,Va buoc di.,3,2.0
+204,PV_0013,BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,NARRATION,And then it's over.,Va roi no ket thuc.,4,0.5
+205,PV_0013,BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,NARRATION,Just like that.,Don gian vay thoi.,3,1.5
+206,PV_0013,BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,NARRATION,The price starts climbing.,Gia bat dau leo.,4,0.5
+207,PV_0013,BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,NARRATION,One dollar.,Mot do.,2,0
+208,PV_0013,BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,NARRATION,Ten.,Muoi.,1,0
+209,PV_0013,BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,NARRATION,A hundred.,Mot tram.,2,0
+210,PV_0013,BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,NARRATION,A thousand.,Mot nghin.,2,0
+211,PV_0013,BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,NARRATION,Ten thousand.,Muoi nghin.,2,0
+212,PV_0013,BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,NARRATION,Sixty thousand.,Sau muoi nghin.,2,0.5
+213,PV_0013,BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,NARRATION,You watch from a cafe somewhere.,Ban nhin tu mot quan cafe nao do.,6,0
+214,PV_0013,BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,NARRATION,Different city now.,Thanh pho khac roi.,3,0
+215,PV_0013,BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,NARRATION,Different laptop.,Laptop khac.,2,0
+216,PV_0013,BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,NARRATION,Same coffee.,Van ly ca phe do.,2,0.5
+217,PV_0013,BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,NARRATION,Your coins - all one million of them - sit exactly where you left them.,Nhung dong coin cua ban - toan bo mot trieu - van nam dung cho ban de lai.,12,0.5
+218,PV_0013,BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,NARRATION,You are the richest person in the world.,Ban la nguoi giau nhat the gioi.,7,0
+219,PV_0013,BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,WEIGHT_LINE,On paper.,Tren giay.,2,0.5
+220,PV_0013,BEAT_05_01,PHASE_RESOLUTION,TIME_MARKER,NARRATION,On a paper that doesn't have your name on it.,Tren mot to giay khong co ten ban.,10,1.5
+221,PV_0013,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,You file your taxes under a name that has nothing to do with any of this.,Ban nop thue duoi mot cai ten khong lien quan gi den tat ca nhung dieu nay.,14,0
+222,PV_0013,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,You see a doctor who doesn't know who you are.,Ban di kham bac si - nguoi do khong biet ban la ai.,10,0
+223,PV_0013,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,You pay for groceries in cash.,Ban tra tien mua do bang tien mat.,6,0
+224,PV_0013,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"You date someone once, maybe twice, and they ask what you do for work.","Ban hen ho voi ai do, mot lan, co the hai lan, va ho hoi ban lam nghe gi.",13,0
+225,PV_0013,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,You say something about freelance software.,Ban noi dai gi do ve lap trinh tu do.,6,0
+226,PV_0013,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,They don't ask more.,Ho khong hoi them.,4,0
+227,PV_0013,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,You finish your drink and go home alone.,Ban uong het ly nuoc roi ve nha mot minh.,8,0.5
+228,PV_0013,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,You're relieved.,Ban thay nhe nguoi.,2,0
+229,PV_0013,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,And something in that relief makes you feel small.,Va dieu gi do trong su nhe nhom do khien ban thay minh nho be.,9,1.0
+230,PV_0013,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,The world keeps trying to find you.,The gioi cu tiep tuc tim ban.,6,0
+231,PV_0013,BEAT_05_03,PHASE_RESOLUTION,REFLECT,WEIGHT_LINE,You keep not existing.,Ban cu tiep tuc khong ton tai.,4,1.0
+232,PV_0013,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,"Every few years, someone becomes you.","Cu vai nam, lai co nguoi tro thanh ban.",6,0.5
+233,PV_0013,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,A retired engineer in California gets ambushed by reporters on his front lawn.,Mot ky su ve huu o California bi phong vien vay truoc san nha.,13,0
+234,PV_0013,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,He says he's never heard of Bitcoin.,Ong ay noi chua bao gio nghe ve Bitcoin.,7,0
+235,PV_0013,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,He's telling the truth.,Ong ay noi that.,4,0
+236,PV_0013,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,He looks scared.,Ong ay trong so hai.,3,0.5
+237,PV_0013,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,You wonder if that's what you'd look like if they found you.,Ban tu hoi lieu minh co trong nhu vay khong neu ho tim ra.,12,0.5
+238,PV_0013,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,"A man in Australia goes to court swearing under oath that he invented it all, filing patents and lawsuits and press conferences.","Mot nguoi dan ong o Australia ra toa the rang ong ta phat minh ra tat ca, nop bang sang che va kien tung va hop bao.",21,0
+239,PV_0013,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,The court disagrees.,Toa an khong dong y.,3,0.5
+240,PV_0013,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,He is not you.,Ong ta khong phai ban.,4,0.5
+241,PV_0013,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,And every time someone claims your name you let them take it.,Va moi lan ai do nhan ten ban thi ban de ho lay.,11,0
+242,PV_0013,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,Because the name was never the point.,Vi cai ten chua bao gio la dieu quan trong.,7,1.0
+243,PV_0013,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,Hal Finney dies in 2014.,Hal Finney mat nam 2014.,5,0.5
+244,PV_0013,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,ALS.,ALS.,1,0.5
+245,PV_0013,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,The first person who ever received your coins.,Nguoi dau tien nhan duoc coin cua ban.,8,0
+246,PV_0013,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,The first person who believed.,Nguoi dau tien tin.,5,0.5
+247,PV_0013,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,You can't send flowers.,Ban khong the gui hoa.,4,0
+248,PV_0013,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,You can't attend the funeral.,Ban khong the den dam tang.,5,0
+249,PV_0013,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,You can't even post a single message saying goodbye.,Ban khong the dang du chi mot dong tin nhan chia tay.,9,0.5
+250,PV_0013,BEAT_05_04,PHASE_RESOLUTION,REFLECT,WEIGHT_LINE,Because the moment you speak you destroy everything you built.,Vi giay phut ban len tieng la ban pha huy moi thu ban da xay.,10,1.5
+251,PV_0013,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,"So you sit somewhere quiet, and you remember him alone.","Nen ban ngoi o mot noi nao do yen tinh, va nho ve ong ay mot minh.",10,0
+252,PV_0013,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,The way you do everything now.,Giong cach ban lam moi thu bay gio.,6,0
+253,PV_0013,BEAT_05_04,PHASE_RESOLUTION,REFLECT,WEIGHT_LINE,Quietly.,Trong im lang.,1,1.5
+254,PV_0013,BEAT_05_05,PHASE_RESOLUTION,RESOLVE,NARRATION,Digital gold is everywhere now.,Vang ky thuat so o khap noi bay gio.,5,0.5
+255,PV_0013,BEAT_05_05,PHASE_RESOLUTION,RESOLVE,NARRATION,In portfolios.,Trong danh muc dau tu.,2,0
+256,PV_0013,BEAT_05_05,PHASE_RESOLUTION,RESOLVE,NARRATION,In legislation.,Trong phap luat.,2,0
+257,PV_0013,BEAT_05_05,PHASE_RESOLUTION,RESOLVE,NARRATION,"In arguments at dinner tables between people who've never read the whitepaper, who've never written a line of code, who use your invention without knowing it has an inventor.","Trong nhung cuoc tranh luan tren ban an giua nhung nguoi chua bao gio doc whitepaper, chua bao gio viet mot dong code, dung phat minh cua ban ma khong biet no co nguoi phat minh.",29,0.5
+258,PV_0013,BEAT_05_05,PHASE_RESOLUTION,RESOLVE,NARRATION,Governments that ignored you are now writing laws about you.,Nhung chinh phu tung pho mac ban gio dang viet luat ve ban.,10,0
+259,PV_0013,BEAT_05_05,PHASE_RESOLUTION,RESOLVE,NARRATION,Not you.,Khong phai ban.,2,0
+260,PV_0013,BEAT_05_05,PHASE_RESOLUTION,RESOLVE,NARRATION,About the thing you made.,Ve thu ban da tao ra.,5,0.5
+261,PV_0013,BEAT_05_05,PHASE_RESOLUTION,RESOLVE,NARRATION,And the person who created it is nowhere.,Va nguoi tao ra no thi o dau cung khong.,7,1.0
+262,PV_0013,BEAT_05_05,PHASE_RESOLUTION,RESOLVE,NARRATION,You sit in a cafe.,Ban ngoi trong quan cafe.,5,0
+263,PV_0013,BEAT_05_05,PHASE_RESOLUTION,RESOLVE,NARRATION,Someone at the next table says Bitcoin is the future.,Nguoi ban canh noi Bitcoin la tuong lai.,9,0
+264,PV_0013,BEAT_05_05,PHASE_RESOLUTION,RESOLVE,NARRATION,You nod.,Ban gat dau.,2,0
+265,PV_0013,BEAT_05_05,PHASE_RESOLUTION,RESOLVE,NARRATION,Politely.,Lich su.,1,0
+266,PV_0013,BEAT_05_05,PHASE_RESOLUTION,RESOLVE,NARRATION,Your hands are warm around the mug.,Tay ban am quanh chiec coc.,7,0.5
+267,PV_0013,BEAT_05_05,PHASE_RESOLUTION,RESOLVE,NARRATION,You don't correct them.,Ban khong chinh ho.,4,1.0
+268,PV_0013,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,The same cafe.,Van quan cafe do.,3,0
+269,PV_0013,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,The same laptop.,Van chiec laptop do.,3,0
+270,PV_0013,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,The same coffee.,Van ly ca phe do.,3,0.5
+271,PV_0013,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,The price is higher than yesterday.,Gia cao hon hom qua.,6,0
+272,PV_0013,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,It's always higher than yesterday.,Luc nao cung cao hon hom qua.,5,0.5
+273,PV_0013,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,A stranger leans over.,Mot nguoi la nghieng qua.,4,0
+274,PV_0013,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,"I wonder where Satoshi is, he says.","Khong biet Satoshi dang o dau nhi, anh ta noi.",7,0.5
+275,PV_0013,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,You look at your coffee.,Ban nhin ly ca phe.,5,0
+276,PV_0013,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,You take a sip.,Ban nhap mot ngum.,4,0.5
+277,PV_0013,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,You don't answer.,Ban khong tra loi.,3,1.5
+278,PV_0013,BEAT_06_02,CALLBACK,CTA,WEIGHT_LINE,The price of creating digital gold.,Cai gia cua viec tao ra vang ky thuat so.,6,1.0
+279,PV_0013,BEAT_06_02,CALLBACK,CTA,WEIGHT_LINE,Is that you can never claim it as yours.,La ban khong bao gio duoc nhan no la cua minh.,8,2.0

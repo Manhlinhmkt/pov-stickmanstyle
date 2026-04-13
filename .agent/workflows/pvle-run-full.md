@@ -22,11 +22,12 @@ Step 1c: Speech Time Input (user specifies target minutes → word budget calcul
          ↓
 Step 2:  /pvle-ingest-world (if new world)
 Step 3:  /pvle-gen-outline
-Step 4:  /pvle-gen-episode-brief  (uses speech_time_config → Word_Budget + Target_Duration_Min)
+Step 4:  /pvle-gen-episode-brief  (includes Step 3b-VERIFY: research visual anchors)
 Step 5:  /pvle-gen-breakdown
 Step 6:  /pvle-gen-vo             (validates against speech_time_config: -10% / +20%)
-Step 7:  /pvle-gen-image-prompts
-Step 8:  /pvle-gen-video-prompts
+Step 7:  /pvle-character-review   (generate visuals, user approve, save assets)
+Step 8:  /pvle-gen-image-prompts  (prerequisite: Step 7 approved)
+Step 9:  /pvle-gen-video-prompts
 ```
 
 ---
@@ -43,6 +44,8 @@ RULE_16_COMPLIANCE:
 USER_CHECKPOINTS:
   - After Step 1 (/analyze-seed): WAIT for user to confirm world
   - After Step 3 (/pvle-gen-outline): WAIT for user to confirm outline
+  - After Step 4 (/pvle-gen-episode-brief): WAIT for user to confirm CHARACTER REGISTRY
+  - After Step 7 (/pvle-character-review): WAIT for user to approve character visuals
   - All other steps: AUTO-PROCEED (no wait required)
 
 TURBO_MODE: DISABLED (default)

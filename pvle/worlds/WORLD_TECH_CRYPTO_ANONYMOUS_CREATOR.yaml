@@ -1,0 +1,71 @@
+# World: The Person Who Built a Revolution - and Disappeared
+# Domain: TECH_CRYPTO
+# Identity Mode: GENERIC_ARCHETYPE
+# Created: 2026-04-12
+
+world_id: WORLD_TECH_CRYPTO_ANONYMOUS_CREATOR
+display_name: "The Person Who Created Digital Gold - Then Walked Away From It"
+domain: TECH_CRYPTO
+era: MODERN_CONTEMPORARY
+implied_identity_mode: GENERIC_ARCHETYPE
+
+tags:
+  - anonymous_creator
+  - cryptocurrency
+  - voluntary_disappearance
+  - cypherpunk
+  - decentralization
+  - untouched_fortune
+
+seed_keywords:
+  - "satoshi nakamoto"
+  - "bitcoin creator"
+  - "anonymous inventor"
+  - "disappeared founder"
+  - "genesis block"
+  - "whitepaper"
+
+key_facts:
+  - "Mid-2007: begins writing code for a peer-to-peer electronic cash system"
+  - "Aug 18, 2008: registers bitcoin.org domain"
+  - "Oct 31, 2008: publishes 9-page whitepaper titled 'Bitcoin: A Peer-to-Peer Electronic Cash System' on cryptography mailing list"
+  - "Jan 3, 2009: mines Genesis Block (Block 0) - embeds headline in coinbase: 'The Times 03/Jan/2009 Chancellor on brink of second bailout for banks'"
+  - "Jan 9, 2009: releases Bitcoin software v0.1 on SourceForge"
+  - "Jan 12, 2009: first Bitcoin transaction - sends 10 BTC to cryptographer Hal Finney"
+  - "Mines approximately 1 million BTC in early network days - coins remain untouched to this day"
+  - "2010: hands control of source code repository and network alert key to developer Gavin Andresen"
+  - "Apr 23, 2011: tells developer Mike Hearn via email - 'I've moved on to other things. It's in good hands.'"
+  - "Apr 26, 2011: sends final email to Gavin Andresen - concerned about media portraying him as 'mysterious shadowy figure' - asks to credit open source contributors instead"
+  - "Apr 27, 2011: Andresen publicly announces invitation to present Bitcoin at CIA - Satoshi goes permanently silent after this"
+  - "P2P Foundation profile lists birthday April 5, 1975 - April 5 1933 = Executive Order 6102 (US gold ownership ban), 1975 = year US citizens could legally own gold again"
+  - "Writing analysis: British spelling mixed with American spelling; double spaces after periods (older academic/military typing convention)"
+  - "Posting time analysis suggests UK or US Pacific timezone - rarely posts during morning hours"
+  - "Used pseudonym 'Satoshi Nakamoto' - Japanese name but linguistic analysis suggests native English speaker"
+  - "Multiple people have been suspected or claimed to be Satoshi - none confirmed; Craig Wright's claim rejected by UK court in 2024"
+
+key_locations:
+  - id: LOC_HOME_OFFICE
+    name: "Unknown home office"
+    description: "Where Satoshi coded alone - desk, multiple monitors, coffee - location unknown to anyone"
+  - id: LOC_CRYPTOGRAPHY_MAILING_LIST
+    name: "Cryptography mailing list / BitcoinTalk forum"
+    description: "Digital-only communication spaces - text only, no voice, no video, no meeting"
+  - id: LOC_GENESIS_MACHINE
+    name: "The computer that mined Block 0"
+    description: "Single machine running the first Bitcoin node - January 3, 2009 - in an unknown room"
+  - id: LOC_THE_WORLD_AFTER
+    name: "The outside world (post-disappearance)"
+    description: "Cafes, streets, screens showing Bitcoin price - world Satoshi watches but cannot participate in as creator"
+
+key_tensions:
+  - IDENTITY_VS_LEGACY
+  - POWER_VS_ISOLATION
+  - NORMAL_DESIRE_VS_IMPOSSIBLE_REALITY
+  - DUTY_VS_SELF
+
+accessory_tags:
+  - "plain unmarked laptop (no brand stickers, no logos, matte dark surface)"
+  - "coffee mug (always half-full, ceramic, no brand visible)"
+
+used_in_episodes: [PV_0013]
+created: "2026-04-12"

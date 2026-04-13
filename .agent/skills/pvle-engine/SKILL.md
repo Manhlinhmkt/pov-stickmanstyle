@@ -1,8 +1,8 @@
 # SKILL: POV Life Simulation Engine (PVLE)
 
 > **Engine:** POV Life Simulation Engine  
-> **Version:** v2.0 (Phase Module Architecture)  
-> **Type:** Illustrated narrative — VO + Stickman (Nano Banana) + Video (Veo)
+> **Version:** v2.1 (Phase Module Architecture)  
+> **Type:** Illustrated narrative - VO + Stickman (Nano Banana) + Video (Veo)
 
 ---
 
@@ -69,7 +69,7 @@ vo_script_table.csv → /pvle-gen-image-prompts → illustration_strip_table.csv
 | RULE_EARNED_RESOLUTION | phase-1/ideation-rules.md | Resolution must mirror crisis |
 | RULE_SENTENCE_MAX | phase-2/scripting-rules.md | 15 words max per VO line |
 | RULE_TTS_COMPLIANCE | phase-2/scripting-rules.md | TTS-ready output |
-| RULE_TRILINGUAL_COMPLETENESS | phase-2/scripting-rules.md | All 3 langs populated |
+| RULE_BILINGUAL_COMPLETENESS | phase-2/scripting-rules.md | All 2 langs (EN + VI) populated |
 | RULE_VEIL_ENFORCEMENT | phase-2/veil-scan.md | No forbidden terms in output |
 | RULE_ERA_ANCHOR_INJECTION | phase-2/veil-scan.md | Anchor facts must appear |
 | RULE_CONTRACTION_DEFAULT | phase-2/humanize-rules.md | Use contractions, keep formal for weight lines |
@@ -91,13 +91,15 @@ vo_script_table.csv → /pvle-gen-image-prompts → illustration_strip_table.csv
 
 ```
 pvle/episodes/{PV_xxxx}/
-  episode_brief.md          ← P1 — single source of truth
-  l2_breakdown_table.csv    ← P2 — beat table
-  vo_draft_table.csv        ← P2 — EN draft
-  vo_script_table.csv       ← P2 — final EN + JA + VI (humanized + optimized)
-  illustration_strip_table.csv ← P3 — strip grouping (VO → visual mapping)
-  image_prompts.csv         ← P3 — Nano Banana
-  video_prompts.csv         ← P3 — Veo
+  episode_brief.md          ← P1 - single source of truth
+  l2_breakdown_table.csv    ← P2 - beat table
+  vo_draft_table.csv        ← P2 - EN draft per beat
+  vo_enhanced_table.csv     ← P2 - EN humanized per line
+  vo_finalize_table.csv     ← P2 - EN performance-optimized per line
+  vo_script_table.csv       ← P2 - final EN + VI
+  illustration_strip_table.csv ← P3 - strip grouping (VO to visual mapping)
+  image_prompts.csv         ← P3 - Nano Banana
+  video_prompts.csv         ← P3 - Veo
 ```
 
 ---

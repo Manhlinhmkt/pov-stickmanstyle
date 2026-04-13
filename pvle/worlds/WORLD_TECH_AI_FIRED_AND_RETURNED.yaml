@@ -1,0 +1,138 @@
+# World Data — POV Life Simulation Engine (PVLE)
+# WORLD_ID: WORLD_TECH_AI_FIRED_AND_RETURNED
+# Created: 2026-04-09
+
+WORLD_ID: WORLD_TECH_AI_FIRED_AND_RETURNED
+display_name: "The Man Who Was Fired from His Own AI Company — And Took It Back in 5 Days"
+domain: TECH_AI
+era: MODERN_CONTEMPORARY
+implied_identity_mode: TRANSPARENT_VEIL
+implied_person: "Sam Altman"   # INTERNAL ONLY — never appears in any output
+veil_strictness: MAXIMUM
+
+tags:
+  - ai_revolution
+  - boardroom_coup
+  - mission_vs_profit
+  - power_return
+  - trust_crisis
+  - god_machine
+
+seed_keywords:
+  - "Sam Altman"
+  - "fired from own AI company"
+  - "came back in 5 days"
+  - "released AI to the world"
+  - "nonprofit to for-profit"
+  - "artificial general intelligence"
+
+era_anchors:
+  - year: 1985
+    event: "Born in Chicago, grew up in suburban St. Louis — eldest of four siblings"
+  - year: 1993
+    event: "Received first computer at age 8 — taught himself to code"
+  - year: 2005
+    event: "Dropped out of Stanford at 19 to build a location-based app"
+  - year: 2012
+    event: "First app acquired for $43 million"
+  - year: 2014
+    event: "Named president of the world's most famous startup accelerator at age 28"
+  - year: 2015
+    event: "Co-founded an AI research lab as a nonprofit — mission: benefit all of humanity"
+  - year: 2019
+    event: "Left the accelerator to run the AI lab full-time as CEO"
+  - year: 2022
+    event: "Released a chatbot in November — fastest-growing consumer product in history, 100M users in 2 months"
+  - year: 2023
+    event: "Fired by own board on a Friday afternoon — 700 of 770 employees threatened to quit — reinstated 5 days later"
+  - year: 2025
+    event: "Converted nonprofit into for-profit corporation — valued at $500 billion"
+  - year: 2026
+    event: "Faces trust crisis, co-founder lawsuit demanding removal, accusations of systematic deception"
+
+unique_circumstance_stack:
+  - "Got his first computer at 8, taught himself to code, grew up gay in the Midwest — used online chat rooms to find community"
+  - "Dropped out of Stanford after 2 years; first startup funded by the very accelerator he would later lead"
+  - "First app acquired for $43M — modest by later standards, life-changing at the time"
+  - "Became president of the world's most famous startup accelerator at 28 — youngest ever"
+  - "Co-founded an AI research lab as a nonprofit with explicit mission to 'benefit all of humanity'"
+  - "Convinced the world's top AI researchers to join a nonprofit instead of trillion-dollar tech companies"
+  - "Released a chatbot that became the fastest-growing consumer product in human history — 100M users in 2 months"
+  - "Fired by his own board on a Friday afternoon via video call — told he was no longer trusted"
+  - "The chief scientist who helped fire him publicly regretted it within 48 hours and signed a letter demanding his return"
+  - "700 of 770 employees threatened to resign en masse unless he was reinstated"
+  - "The biggest investor offered him a new team — he chose to return to the company instead"
+  - "Came back as CEO five days later with a completely restructured board"
+  - "Converted the nonprofit into a for-profit corporation worth $500 billion — the exact transformation critics warned about"
+  - "A co-founder filed a lawsuit demanding his removal and reversal of the for-profit conversion"
+  - "Investigative reports in 2026 accused him of systematic deception — compared to notorious fraudsters"
+  - "Revenue surpassed $13 billion in 2025, yet projected losses of $14 billion in 2026"
+
+public_perception_markers:
+  - "Seen as both the architect of human progress and the man who privatized humanity's most dangerous invention"
+  - "Every decision analyzed in real time by millions — no action is neutral"
+  - "The firing and return became the most watched corporate drama in tech history"
+  - "Trust — the word that defines both his rise and the questions about his leadership"
+
+forbidden_terms:
+  names:
+    - "Sam" # → "you"
+    - "Altman" # → omit entirely
+    - "Samuel" # → omit entirely
+  companies:
+    - "OpenAI" # → "the AI lab" / "the company you built" / "the lab"
+    - "ChatGPT" # → "the chatbot" / "the thing you released" / "the product"
+    - "GPT" # → "the model" / "the system"
+    - "Y Combinator" # → "the startup accelerator" / "the launchpad"
+    - "Loopt" # → "your first app" / "the location app"
+    - "Worldcoin" # → "the identity project" / "the crypto venture"
+    - "Microsoft" # → "the biggest investor" / "the tech giant backing you"
+    - "DALL-E" # → "the image generator"
+    - "Sora" # → "the video generator"
+  people:
+    - "Elon Musk" # → "a co-founder" / "the man who helped start it"
+    - "Ilya Sutskever" # → "the chief scientist" / "the one who tried to stop you"
+    - "Greg Brockman" # → "your co-founder" / "your closest ally"
+    - "Paul Graham" # → "the man who ran the accelerator before you"
+    - "Satya Nadella" # → "the head of the biggest investor"
+    - "Mira Murati" # → "the interim leader" / "the CTO"
+    - "Emmett Shear" # → "the interim CEO they hired to replace you"
+  places:
+    - "San Francisco" # → "the city" (context-dependent)
+    - "Stanford" # → "the university" / "the school you left"
+    - "Clayton, Missouri" # → "a suburb in the Midwest"
+
+key_tensions:
+  - MISSION_VS_PROFIT        # nonprofit promise vs $500B for-profit
+  - POWER_VS_TRUST           # immense power but questioned integrity
+  - CREATION_VS_CONTROL      # built the thing, lost control, seized it back
+  - AMBITION_VS_ACCOUNTABILITY # moving fast vs promises made
+  - SAVIOR_VS_THREAT          # saving humanity or endangering it
+
+key_locations:
+  - id: LOC_MIDWEST_SUBURB
+    name: "Suburban St. Louis"
+    description: "Where a kid taught himself to code on an Apple computer in his bedroom"
+  - id: LOC_UNIVERSITY
+    name: "The University"
+    description: "Stanford — left after two years, never looked back"
+  - id: LOC_ACCELERATOR
+    name: "The Startup Accelerator"
+    description: "Y Combinator — ran it at 28, launched thousands of companies"
+  - id: LOC_AI_LAB
+    name: "The AI Lab"
+    description: "The nonprofit research lab that became the most valuable startup on earth"
+  - id: LOC_BOARDROOM
+    name: "The Boardroom"
+    description: "Where a video call on a Friday afternoon changed everything"
+  - id: LOC_GLOBAL_STAGE
+    name: "The Global Stage"
+    description: "Congressional hearings, world leader meetings, magazine covers"
+
+accessory_tags:
+  - "laptop"
+  - "microphone on stage"
+  - "phone with chat interface glowing"
+
+used_in_episodes: [PV_0010]
+created: "2026-04-09"

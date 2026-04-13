@@ -1,0 +1,321 @@
+﻿VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_VI,Word_Count_EN,Pause_After
+1,PV_0014,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"The number on the screen says twenty-six billion.","Con so tren man hinh la hai muoi sau ty.",8,0
+2,PV_0014,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"It's the largest number you've ever seen attached to your name.","Do la con so lon nhat ban tung thay gan lien voi ten minh.",11,0
+3,PV_0014,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"You don't think of it as money.","Ban khong nghi do la tien.",7,0
+4,PV_0014,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"You think of it as proof.","Ban nghi do la bang chung.",5,0
+5,PV_0014,BEAT_01_01,HOOK,ESTABLISH,WEIGHT_LINE,"Proof you were right about everything.","Bang chung rang ban da dung ve tat ca.",6,1.5
+6,PV_0014,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"Seventy-two hours from now, that number will be zero.","Bay muoi hai gio nua, con so do se ve khong.",9,0.5
+7,PV_0014,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"And everyone who trusted you will learn the truth at the same time.","Va tat ca nhung nguoi tin ban se biet su that cung mot luc.",12,0
+8,PV_0014,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"You just don't know that yet.","Ban chua biet dieu do.",6,1.0
+9,PV_0014,BEAT_01_02,HOOK,CONSTRAINT,NARRATION,"You're standing in a federal courtroom.","Ban dang dung trong phong xu lien bang.",6,0
+10,PV_0014,BEAT_01_02,HOOK,CONSTRAINT,NARRATION,"The lights are too white.","Den trang qua.",5,0
+11,PV_0014,BEAT_01_02,HOOK,CONSTRAINT,NARRATION,"You're wearing a suit someone else picked out.","Ban mac bo vest nguoi khac chon cho.",8,0.5
+12,PV_0014,BEAT_01_02,HOOK,CONSTRAINT,NARRATION,"The collar is stiff against your neck.","Co ao cung sat co ban.",7,0
+13,PV_0014,BEAT_01_02,HOOK,CONSTRAINT,NARRATION,"Three years ago you wore cargo shorts to testify before Congress.","Ba nam truoc ban mac quan short tui hop di dieu tran truoc Quoc hoi.",10,0
+14,PV_0014,BEAT_01_02,HOOK,CONSTRAINT,NARRATION,"Nobody stopped you.","Khong ai ngan ban.",3,0
+15,PV_0014,BEAT_01_02,HOOK,CONSTRAINT,NARRATION,"Nobody thought that was a problem.","Khong ai nghi do la van de.",5,0.5
+16,PV_0014,BEAT_01_02,HOOK,CONSTRAINT,NARRATION,"You didn't think you were gambling.","Ban khong nghi minh dang danh bac.",6,0
+17,PV_0014,BEAT_01_02,HOOK,CONSTRAINT,WEIGHT_LINE,"You thought you could fix it before anyone noticed.","Ban nghi minh co the sua no truoc khi ai do nhan ra.",9,2.0
+18,PV_0014,BEAT_01_03,HOOK,ESTABLISH,WEIGHT_LINE,"You gambled with eight million people's money.","Ban da danh bac voi tien cua tam trieu nguoi.",7,0
+19,PV_0014,BEAT_01_03,HOOK,ESTABLISH,WEIGHT_LINE,"And you lost.","Va ban da thua.",3,2.0
+20,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"You grow up on a university campus.","Ban lon len trong khuon vien dai hoc.",7,0
+21,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Faculty housing.","Khu nha giang vien.",2,0
+22,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Trees everywhere.","Cay xanh khap noi.",2,0
+23,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Your parents are both professors.","Bo me ban deu la giao su.",5,0
+24,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Law.","Luat.",1,0
+25,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"The most elite school in the country.","Truong hang dau ca nuoc.",7,0.5
+26,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Your mother teaches ethics.","Me ban day dao duc.",4,0
+27,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Your father teaches tax law.","Bo ban day luat thue.",5,0
+28,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Dinner is a debate.","Bua toi la mot cuoc tranh luan.",4,0
+29,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Breakfast is a correction.","Bua sang la mot lan chinh sua.",4,0
+30,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"You learn to argue before you learn to listen.","Ban hoc cach tranh luan truoc khi hoc cach lang nghe.",8,0.5
+31,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"You're the smartest kid in every room you walk into.","Ban la dua tre thong minh nhat trong moi can phong.",10,0
+32,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"You finish tests before anyone else.","Ban lam bai xong truoc tat ca.",6,0
+33,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"You read textbooks the way other kids read comics.","Ban doc sach giao khoa nhu nhung dua khac doc truyen tranh.",9,0
+34,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Teachers stop calling on you because you correct them.","Giao vien ngung goi ban vi ban hay chinh ho.",8,0
+35,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"A kid tries to sit with you at lunch once.","Mot dua thu ngoi cung ban luc an trua.",8,0
+36,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"You don't know if he's being nice or if his parents told him to.","Ban khong biet no tu nhan hay bo me no bao.",13,0.5
+37,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"You eat fast and leave.","Ban an nhanh roi bo di.",5,0
+38,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,WEIGHT_LINE,"You can't connect with a single person in any of them.","Ban khong the ket noi voi bat ky ai trong so ho.",10,1.5
+39,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Systems make more sense.","He thong co ly hon.",4,0
+40,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Numbers don't change their mind.","Con so khong doi y.",5,0
+41,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"People do.","Con nguoi thi co.",2,0
+42,PV_0014,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"You decide early that people are a variable you can't optimize.","Ban ket luan som rang con nguoi la bien so khong toi uu duoc.",10,0.5
+43,PV_0014,BEAT_02_02,PHASE_EARLY,REFLECT,TIME_MARKER,"You are fourteen.","Ban muoi bon tuoi.",3,1.0
+44,PV_0014,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"You find a philosophy that changes everything.","Ban tim ra mot triet ly thay doi tat ca.",7,0.5
+45,PV_0014,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"Earn as much money as you possibly can.","Kiem nhieu tien nhat co the.",7,0
+46,PV_0014,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"You read it on a website in your bedroom at two in the morning.","Ban doc no tren mot trang web trong phong ngu luc hai gio sang.",13,0
+47,PV_0014,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"Then give it all away.","Roi cho di het.",5,0
+48,PV_0014,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"Not some.","Khong phai mot phan.",2,0
+49,PV_0014,BEAT_02_02,PHASE_EARLY,REFLECT,WEIGHT_LINE,"All of it.","Tat ca.",3,1.0
+50,PV_0014,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"The math is simple.","Toan hoc rat don gian.",4,0
+51,PV_0014,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"One hedge fund manager's salary can fund malaria nets for an entire country.","Luong mot nam cua quan ly quy dau tu co the mua man chong sot ret cho ca mot quoc gia.",12,0
+52,PV_0014,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"More lives saved than any doctor.","Cuu nhieu mang song hon bat ky bac si nao.",6,0
+53,PV_0014,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"More than any politician.","Hon bat ky chinh tri gia nao.",4,0
+54,PV_0014,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"More than anyone.","Hon bat ky ai.",3,0.5
+55,PV_0014,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"For the first time in your life, the numbers and the morality point the same direction.","Lan dau tien trong doi, con so va dao duc chi cung mot huong.",14,0.5
+56,PV_0014,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"It's the cleanest thought you've ever had.","Do la suy nghi ro rang nhat ban tung co.",8,0
+57,PV_0014,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"The purpose isn't money.","Muc dich khong phai la tien.",4,0
+58,PV_0014,BEAT_02_02,PHASE_EARLY,REFLECT,WEIGHT_LINE,"The purpose is maximizing impact.","Muc dich la toi da hoa tac dong.",5,1.5
+59,PV_0014,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"That sentence will follow you to a courtroom.","Cau noi do se theo ban den phong xu.",7,0
+60,PV_0014,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"But you don't know that yet.","Nhung ban chua biet dieu do.",6,1.0
+61,PV_0014,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,"You graduate with a physics degree.","Ban tot nghiep nganh vat ly.",6,0
+62,PV_0014,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,"Not because you love physics.","Khong phai vi ban yeu vat ly.",5,0
+63,PV_0014,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,"Because it teaches you how systems work.","Vi no day ban cach he thong van hanh.",6,0.5
+64,PV_0014,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,"You get a job at a trading desk.","Ban xin viec o ban giao dich.",7,0
+65,PV_0014,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,"Suits.","Vest.",1,0
+66,PV_0014,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,"Ties.","Ca vat.",1,0
+67,PV_0014,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,"Money moving in fractions of a second.","Tien di chuyen trong tich tac.",6,0.5
+68,PV_0014,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,"You learn that money has cracks.","Ban hoc ra rang tien co khe ho.",6,0
+69,PV_0014,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,"Tiny differences between what something costs here and what it costs there.","Chenh lech nho giua gia o day va gia o kia.",11,0
+70,PV_0014,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,"Arbitrage.","Arbitrage.",1,0
+71,PV_0014,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,"You're good at finding the cracks.","Ban gioi tim khe ho.",6,0
+72,PV_0014,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,"Better than most people in the room.","Gioi hon hau het nguoi trong phong.",6,0
+73,PV_0014,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,"The desk is cold under your wrists.","Mat ban lanh duoi co tay ban.",7,0
+74,PV_0014,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,"You don't mind.","Ban khong phien.",3,0.5
+75,PV_0014,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,"Then you notice something.","Roi ban nhan ra dieu gi do.",4,0
+76,PV_0014,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,"Crypto has wider cracks.","Crypto co khe ho lon hon.",4,0
+77,PV_0014,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,"Much wider.","Lon hon nhieu.",2,0
+78,PV_0014,BEAT_02_03,PHASE_EARLY,ESTABLISH,NARRATION,"Money sitting there.","Tien nam do.",3,0
+79,PV_0014,BEAT_02_03,PHASE_EARLY,ESTABLISH,WEIGHT_LINE,"Uncollected.","Chua ai nhat.",1,1.0
+80,PV_0014,BEAT_02_04,PHASE_EARLY,TIME_MARKER,TIME_MARKER,"You are twenty-five.","Ban hai muoi lam tuoi.",4,1.0
+81,PV_0014,BEAT_02_04,PHASE_EARLY,TIME_MARKER,NARRATION,"You quit.","Ban nghi viec.",2,0
+82,PV_0014,BEAT_02_04,PHASE_EARLY,TIME_MARKER,NARRATION,"Your boss thinks you're making a mistake.","Sep ban nghi ban dang mac sai lam.",7,0
+83,PV_0014,BEAT_02_04,PHASE_EARLY,TIME_MARKER,NARRATION,"You don't even look up when he says it.","Ban khong them ngang dau khi anh ta noi.",8,0
+84,PV_0014,BEAT_02_04,PHASE_EARLY,TIME_MARKER,NARRATION,"You rent an apartment.","Ban thue mot can ho.",4,0
+85,PV_0014,BEAT_02_04,PHASE_EARLY,TIME_MARKER,NARRATION,"Mattresses on the floor.","Nem trai tren san.",4,0
+86,PV_0014,BEAT_02_04,PHASE_EARLY,TIME_MARKER,NARRATION,"Screens on every surface.","Man hinh tren moi be mat.",4,0
+87,PV_0014,BEAT_02_04,PHASE_EARLY,TIME_MARKER,NARRATION,"The air smells like instant noodles and old carpet.","Khong khi co mui mi goi va tham cu.",9,0
+88,PV_0014,BEAT_02_04,PHASE_EARLY,TIME_MARKER,NARRATION,"You hire three people.","Ban tuyen ba nguoi.",4,0
+89,PV_0014,BEAT_02_04,PHASE_EARLY,TIME_MARKER,NARRATION,"They sleep on the mattresses too.","Ho cung ngu tren nem.",6,0
+90,PV_0014,BEAT_02_04,PHASE_EARLY,TIME_MARKER,NARRATION,"You don't remember the last time you left before midnight.","Ban khong nho lan cuoi ve truoc nua dem la khi nao.",10,0
+91,PV_0014,BEAT_02_04,PHASE_EARLY,TIME_MARKER,NARRATION,"You don't mind that either.","Ban cung khong phien.",5,0.5
+92,PV_0014,BEAT_02_04,PHASE_EARLY,TIME_MARKER,NARRATION,"You're not building a company.","Ban khong xay cong ty.",5,0
+93,PV_0014,BEAT_02_04,PHASE_EARLY,TIME_MARKER,WEIGHT_LINE,"You're building a machine to save the world.","Ban dang xay mot co may de cuu the gioi.",8,1.0
+94,PV_0014,BEAT_02_04,PHASE_EARLY,TIME_MARKER,NARRATION,"At least that's what you tell yourself.","It nhat do la dieu ban noi voi chinh minh.",7,0
+95,PV_0014,BEAT_02_04,PHASE_EARLY,TIME_MARKER,NARRATION,"And for a while, the math checks out.","Va trong mot thoi gian, toan hoc van dung.",7,2.0
+96,PV_0014,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"The trading firm makes hundreds of millions in its first year.","Cong ty giao dich kiem hang tram trieu trong nam dau tien.",10,0
+97,PV_0014,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"Arbitrage.","Arbitrage.",1,0
+98,PV_0014,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"The cracks in the market.","Khe ho cua thi truong.",5,0
+99,PV_0014,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"No one else is fast enough to catch them.","Khong ai du nhanh de bat kip.",8,0.5
+100,PV_0014,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"You're proving the philosophy right.","Ban dang chung minh triet ly la dung.",5,0
+101,PV_0014,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"Earn to give.","Kiem de cho.",3,0
+102,PV_0014,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"Every dollar is a future life saved.","Moi dong la mot mang song tuong lai.",7,0
+103,PV_0014,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"You donate millions to charity.","Ban quyen gop hang trieu cho tu thien.",5,0
+104,PV_0014,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"You track the impact per dollar on a spreadsheet that nobody else sees.","Ban theo doi tac dong moi dong tren bang tinh khong ai nhin thay.",12,0
+105,PV_0014,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"Nobody is forcing you to do any of this.","Khong ai ep ban lam bat ky dieu gi trong so nay.",9,0
+106,PV_0014,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,WEIGHT_LINE,"The numbers validate everything you believe.","Con so xac nhan tat ca nhung gi ban tin.",6,1.5
+107,PV_0014,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,TIME_MARKER,"You are twenty-seven.","Ban hai muoi bay tuoi.",4,1.0
+108,PV_0014,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,"You build your own exchange.","Ban xay san giao dich rieng.",5,0
+109,PV_0014,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,"Not on Wall Street.","Khong o Wall Street.",4,0
+110,PV_0014,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,"On an island.","Tren mot hon dao.",3,0
+111,PV_0014,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,"The Caribbean.","Vung Caribbean.",2,0.5
+112,PV_0014,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,"You can see the ocean from the balcony.","Ban nhin thay bien tu ban cong.",8,0
+113,PV_0014,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,"You never look at it.","Ban khong bao gio nhin.",5,0
+114,PV_0014,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,"The penthouse costs forty million dollars.","Can penthouse gia bon muoi trieu do.",6,0
+115,PV_0014,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,"Ten people live there.","Muoi nguoi song o do.",4,0
+116,PV_0014,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,"They also work there.","Ho cung lam viec o do.",4,0
+117,PV_0014,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,"Some of them are dating each other.","Vai nguoi dang hen ho voi nhau.",6,0
+118,PV_0014,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,"You call it optimizing.","Ban goi do la toi uu hoa.",4,0
+119,PV_0014,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,WEIGHT_LINE,"Not luxury. Optimizing.","Khong phai xa xi. Toi uu hoa.",3,1.5
+120,PV_0014,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,"The air conditioning runs all day.","May lanh chay ca ngay.",6,0
+121,PV_0014,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,"The screens never turn off.","Man hinh khong bao gio tat.",5,0
+122,PV_0014,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,"You sleep on a beanbag sometimes.","Thinh thoang ban ngu tren ghe hat.",6,0
+123,PV_0014,BEAT_03_02,PHASE_CONFLICT,ESTABLISH,NARRATION,"You don't remember when that became normal.","Ban khong nho khi nao dieu do tro thanh binh thuong.",7,0.5
+124,PV_0014,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"The biggest investors in the world pour money in.","Nhung nha dau tu lon nhat the gioi do tien vao.",8,0
+125,PV_0014,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"Four hundred million.","Bon tram trieu.",3,0
+126,PV_0014,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"Then two billion.","Roi hai ty.",3,0.5
+127,PV_0014,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"They write articles about you.","Ho viet bai ve ban.",5,0
+128,PV_0014,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"They call you a once-in-a-generation founder.","Ho goi ban la nha sang lap co mot khong hai.",7,0
+129,PV_0014,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"Magazine covers.","Len bia tap chi.",2,0
+130,PV_0014,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"You bookmark the articles.","Ban luu lai nhung bai bao.",4,0
+131,PV_0014,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"You don't read them twice.","Ban khong doc lai.",5,0
+132,PV_0014,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"Or maybe you do.","Hay la co.",4,0.5
+133,PV_0014,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"Congress invites you to testify.","Quoc hoi moi ban ra dieu tran.",5,0
+134,PV_0014,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"They call you responsible.","Ho goi ban la nguoi co trach nhiem.",4,0
+135,PV_0014,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"They call you the adult in the room.","Ho goi ban la nguoi lon duy nhat trong phong.",7,0.5
+136,PV_0014,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"You play video games during board calls.","Ban choi game trong luc hop hoi dong.",6,0
+137,PV_0014,BEAT_03_33,PHASE_CONFLICT,CONFLICT,NARRATION,"Not because you don't care.","Khong phai vi ban khong quan tam.",5,0
+138,PV_0014,BEAT_03_03,PHASE_CONFLICT,CONFLICT,WEIGHT_LINE,"Because you think faster than everyone on the screen.","Vi ban nghi nhanh hon tat ca moi nguoi tren man hinh.",9,1.5
+139,PV_0014,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"Someone shakes your hand after the hearing.","Ai do bat tay ban sau buoi dieu tran.",7,0
+140,PV_0014,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"They hold it a second too long.","Ho nam lau hon mot giay.",6,0
+141,PV_0014,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"You don't know what to do with that.","Ban khong biet phai lam gi.",7,0.5
+142,PV_0014,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You donate a hundred million dollars to political campaigns.","Ban quyen gop mot tram trieu do cho cac chien dich chinh tri.",9,0
+143,PV_0014,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Both sides.","Ca hai phia.",2,0
+144,PV_0014,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Maximum impact requires maximum leverage.","Tac dong toi da can don bay toi da.",5,0
+145,PV_0014,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"The philosophy says so.","Triet ly noi nhu vay.",4,0.5
+146,PV_0014,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Every dollar has a calculation behind it.","Moi dong do deu co phep tinh dang sau.",6,0
+147,PV_0014,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Every relationship has a purpose.","Moi moi quan he deu co muc dich.",5,0
+148,PV_0014,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You try to explain it to someone once - the philosophy, the math, why it all connects.","Ban thu giai thich cho ai do mot lan - triet ly, toan hoc, vi sao tat ca ket noi voi nhau.",15,0
+149,PV_0014,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"It doesn't come out right.","No khong ra duoc dung y.",5,0
+150,PV_0014,BEAT_03_04,PHASE_CONFLICT,CONFLICT,WEIGHT_LINE,"You stop trying after that.","Ban ngung co sau lan do.",5,1.5
+151,PV_0014,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You eat the same thing every day.","Ban an cung mot thu moi ngay.",7,0
+152,PV_0014,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You wear the same shorts.","Ban mac cung mot cai quan short.",5,0
+153,PV_0014,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Optimizing decisions means eliminating the ones that don't matter.","Toi uu hoa quyet dinh la loai bo nhung quyet dinh khong quan trong.",9,0
+154,PV_0014,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You tap the edge of the table once.","Ban go mep ban mot cai.",7,0
+155,PV_0014,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Just once.","Chi mot cai.",2,0
+156,PV_0014,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Then you stop.","Roi ban dung lai.",3,0.5
+157,PV_0014,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"But behind everything, the trading firm is losing money.","Nhung dang sau tat ca, cong ty giao dich dang thua lo.",9,0
+158,PV_0014,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"Not small money.","Khong phai so nho.",3,0
+159,PV_0014,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"Big trades.","Nhung lenh lon.",2,0
+160,PV_0014,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"Bad bets.","Nhung cuoc dat sai.",2,0
+161,PV_0014,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"Bets that looked right on your model but collapsed in the real world.","Nhung cuoc dat dung tren mo hinh nhung sup do ngoai thuc te.",12,0
+162,PV_0014,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"Positions that were supposed to be hedged.","Nhung vi the dang le phai duoc phong vu.",7,0
+163,PV_0014,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"They weren't.","Khong phai vay.",2,0.5
+164,PV_0014,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"The hole gets deeper.","Lo hong ngay cang sau.",4,0
+165,PV_0014,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"And you fill it.","Va ban lap no lai.",4,0
+166,PV_0014,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"With customer money.","Bang tien khach hang.",3,0.5
+167,PV_0014,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"You don't think of it as stealing.","Ban khong nghi do la an cap.",6,0
+168,PV_0014,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"You're borrowing.","Ban dang vay.",2,0
+169,PV_0014,BEAT_03_05,PHASE_CONFLICT,CONFLICT,WEIGHT_LINE,"You'll put it back before anyone needs it.","Ban se tra lai truoc khi ai do can.",8,1.0
+170,PV_0014,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"That's what you tell yourself every morning.","Do la dieu ban tu noi voi minh moi sang.",7,0
+171,PV_0014,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"Every afternoon.","Moi chieu.",2,0
+172,PV_0014,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"Every night when the screens are still on and everyone else has gone to sleep in the rooms down the hall.","Moi dem khi man hinh van sang va tat ca da di ngu trong nhung can phong cuoi hanh lang.",18,0
+173,PV_0014,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"The coffee's cold by the time you notice it.","Ly ca phe da lanh tu luc nao.",8,0.5
+174,PV_0014,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,"There's a backdoor in the code.","Co mot cua hau trong ma nguon.",6,0
+175,PV_0014,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,"Your co-founder built it.","Dong sang lap cua ban xay no.",4,0
+176,PV_0014,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,"You asked him to.","Ban bao anh ta lam.",4,0.5
+177,PV_0014,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,"Eight billion dollars flow from the exchange to the trading firm through a door no one outside the penthouse can see.","Tam ty do chay tu san giao dich sang cong ty qua mot canh cua khong ai ngoai penthouse nhin thay.",19,0.5
+178,PV_0014,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,"They know.","Ho biet.",2,0
+179,PV_0014,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,"Your girlfriend knows.","Ban gai ban biet.",3,0
+180,PV_0014,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,"Your co-founder knows.","Dong sang lap biet.",3,0
+181,PV_0014,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,"Your best friend knows.","Ban than nhat biet.",4,0
+182,PV_0014,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,"Nobody says anything.","Khong ai noi gi.",3,0.5
+183,PV_0014,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,"On paper, it all works.","Tren giay, moi thu deu on.",5,0
+184,PV_0014,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,"You keep looking at the paper.","Ban cu nhin vao to giay.",6,0.5
+185,PV_0014,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,"You don't think you're the villain.","Ban khong nghi minh la ke xau.",6,0
+186,PV_0014,BEAT_03_06,PHASE_CONFLICT,REFLECT,WEIGHT_LINE,"You think you're the only one smart enough to fix the system.","Ban nghi minh la nguoi duy nhat du thong minh de sua he thong.",11,1.5
+187,PV_0014,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,"Your shoulders are up near your ears.","Vai ban cang len sat tai.",6,0
+188,PV_0014,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,"You lower them.","Ban ha xuong.",3,0
+189,PV_0014,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,"They go back up.","No lai cang len.",4,0.5
+190,PV_0014,BEAT_03_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,"The hole gets bigger every week.","Lo hong lon hon moi tuan.",6,0
+191,PV_0014,BEAT_03_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,"You know this.","Ban biet dieu nay.",3,0
+192,PV_0014,BEAT_03_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,"You've run the numbers.","Ban da tinh roi.",4,0.5
+193,PV_0014,BEAT_03_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,"But you can't stop.","Nhung ban khong the dung.",4,0
+194,PV_0014,BEAT_03_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,"Because stopping means telling people.","Vi dung lai nghia la phai noi cho nguoi ta.",5,0
+195,PV_0014,BEAT_03_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,"And telling people means admitting you were wrong from the beginning.","Va noi cho nguoi ta nghia la thua nhan ban da sai tu dau.",9,0
+196,PV_0014,BEAT_03_07,PHASE_CONFLICT,CONSTRAINT,WEIGHT_LINE,"And that is the one thing you cannot do.","Va do la dieu duy nhat ban khong the lam.",9,1.0
+197,PV_0014,BEAT_03_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,"You think you understand how this ends.","Ban nghi ban hieu chuyen nay se ket thuc the nao.",7,0
+198,PV_0014,BEAT_03_07,PHASE_CONFLICT,CONSTRAINT,WEIGHT_LINE,"You don't.","Khong phai vay.",2,2.0
+199,PV_0014,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"One post.","Mot bai dang.",2,0
+200,PV_0014,BEAT_04_01,PHASE_CRISIS,CRISIS,WEIGHT_LINE,"That's all it takes.","Chi can vay thoi.",4,0.5
+201,PV_0014,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"The competitor publishes your balance sheet.","Doi thu cong bo bang can doi tai san cua ban.",6,0
+202,PV_0014,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"The number that was never supposed to be public.","Con so dang le khong bao gio duoc cong khai.",8,0
+203,PV_0014,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"The screen's too bright.","Man hinh sang qua.",4,0
+204,PV_0014,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"You can feel your pulse in your wrists.","Ban cam thay mach dap o co tay.",7,0.5
+205,PV_0014,BEAT_04_01,PHASE_CRISIS,CRISIS,WEIGHT_LINE,"Seventy-two hours.","Bay muoi hai gio.",2,1.5
+206,PV_0014,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"Six billion in withdrawals.","Sau ty rut ra.",4,0
+207,PV_0014,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"In three days.","Trong ba ngay.",3,0
+208,PV_0014,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"People want their money back.","Nguoi ta muon tien cua ho.",5,0
+209,PV_0014,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"The money isn't there.","Tien khong con o do.",4,0
+210,PV_0014,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"It hasn't been there for months.","No da khong con o do tu nhieu thang truoc.",6,0.5
+211,PV_0014,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"You sit in the penthouse.","Ban ngoi trong penthouse.",5,0
+212,PV_0014,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"Staring at screens.","Nhin cham cham vao man hinh.",3,0
+213,PV_0014,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"Everyone else in the room is silent.","Tat ca nhung nguoi khac trong phong im lang.",6,0
+214,PV_0014,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"Nobody's playing games anymore.","Khong ai choi game nua.",4,0.5
+215,PV_0014,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"The air conditioning hums but it sounds different now.","May lanh van chay nhung nghe khac roi.",9,0
+216,PV_0014,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"Something happens in your chest.","Co gi do xay ra trong long nguc ban.",5,0
+217,PV_0014,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"Not pain.","Khong phai dau.",2,0
+218,PV_0014,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"Not panic.","Khong phai hoang loan.",2,0
+219,PV_0014,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"Just a skip.","Chi mot tieng nhip.",3,0
+220,PV_0014,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"And then it's gone.","Roi no bien mat.",4,0.5
+221,PV_0014,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"You still think if you had twenty-four more hours you could fix it.","Ban van nghi neu co them hai muoi bon gio nua ban co the sua no.",12,0.5
+222,PV_0014,BEAT_04_02,PHASE_CRISIS,CRISIS,WEIGHT_LINE,"You can't.","Ban khong the.",2,1.5
+223,PV_0014,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"You call the competitor.","Ban goi dien cho doi thu.",4,0
+224,PV_0014,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"The one who exposed you.","Nguoi da phanh phui ban.",5,0
+225,PV_0014,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"There's a deal on the table.","Co mot thoa thuan tren ban.",6,0
+226,PV_0014,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"A merger.","Sat nhap.",2,0
+227,PV_0014,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"Salvation.","Cuu roi.",1,0.5
+228,PV_0014,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"For eight hours it looks like it might work.","Suot tam tieng trong nhu co the thanh cong.",8,0
+229,PV_0014,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"His team looks at your books.","Doi cua anh ta nhin vao so sach ban.",6,0
+230,PV_0014,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"They see the hole.","Ho thay lo hong.",4,0.5
+231,PV_0014,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"Then he walks away.","Roi anh ta bo di.",4,0
+232,PV_0014,BEAT_04_03,PHASE_CRISIS,CRISIS,WEIGHT_LINE,"The only person who could save you chooses to watch you sink.","Nguoi duy nhat co the cuu ban chon nhin ban chim.",11,1.5
+233,PV_0014,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,"The exchange shuts down.","San dong cua.",4,0
+234,PV_0014,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,"Eight billion dollars.","Tam ty do.",3,0
+235,PV_0014,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,"Gone.","Bien mat.",1,0
+236,PV_0014,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,"Eight million people.","Tam trieu nguoi.",3,0.5
+237,PV_0014,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,"Your phone still says 'assets are fine.'","Dien thoai ban van hien 'tai san van on.'",6,0
+238,PV_0014,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,"You're still tweeting it when the police knock.","Ban van dang dang len khi canh sat go cua.",8,0
+239,PV_0014,BEAT_04_44,PHASE_CRISIS,CRISIS,NARRATION,"You open the door in cargo shorts.","Ban mo cua trong bo quan short tui hop.",6,0.5
+240,PV_0014,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,"That's it.","Vay thoi.",2,2.0
+241,PV_0014,BEAT_04_05,PHASE_CRISIS,REFLECT,NARRATION,"They bring you to New York.","Ho dua ban den New York.",5,0
+242,PV_0014,BEAT_04_05,PHASE_CRISIS,REFLECT,NARRATION,"Federal court.","Toa lien bang.",2,0.5
+243,PV_0014,BEAT_04_05,PHASE_CRISIS,REFLECT,NARRATION,"The courtroom smells like wood polish and old paper.","Phong xu co mui danh bong go va giay cu.",9,0
+244,PV_0014,BEAT_04_05,PHASE_CRISIS,REFLECT,NARRATION,"You notice that.","Ban de y dieu do.",3,0
+245,PV_0014,BEAT_04_05,PHASE_CRISIS,REFLECT,NARRATION,"Your co-founder takes the stand.","Dong sang lap cua ban ra lam chung.",5,0
+246,PV_0014,BEAT_04_05,PHASE_CRISIS,REFLECT,NARRATION,"Your engineer takes the stand.","Ky su cua ban ra lam chung.",5,0
+247,PV_0014,BEAT_04_05,PHASE_CRISIS,REFLECT,NARRATION,"Your best friend takes the stand.","Ban than nhat cua ban ra lam chung.",6,0.5
+248,PV_0014,BEAT_04_05,PHASE_CRISIS,REFLECT,NARRATION,"One by one.","Lan luot.",3,0
+249,PV_0014,BEAT_04_05,PHASE_CRISIS,REFLECT,NARRATION,"The same people who lived in the penthouse.","Nhung nguoi da tung song trong penthouse.",7,0
+250,PV_0014,BEAT_04_05,PHASE_CRISIS,REFLECT,NARRATION,"Who ate dinner with you.","Tung an toi voi ban.",5,0
+251,PV_0014,BEAT_04_05,PHASE_CRISIS,REFLECT,NARRATION,"Who said they believed in the mission.","Tung noi ho tin vao su menh.",7,0.5
+252,PV_0014,BEAT_04_05,PHASE_CRISIS,REFLECT,NARRATION,"And then she takes the stand.","Roi co ay buoc len.",6,0
+253,PV_0014,BEAT_04_05,PHASE_CRISIS,REFLECT,NARRATION,"The one who ran the trading firm.","Nguoi dieu hanh cong ty giao dich.",6,0
+254,PV_0014,BEAT_04_05,PHASE_CRISIS,REFLECT,NARRATION,"The one you trusted most.","Nguoi ban tin tuong nhat.",5,0.5
+255,PV_0014,BEAT_04_05,PHASE_CRISIS,REFLECT,NARRATION,"She tells them everything.","Co ay ke lai tat ca.",4,0
+256,PV_0014,BEAT_04_05,PHASE_CRISIS,REFLECT,NARRATION,"Every number.","Tung con so.",2,0
+257,PV_0014,BEAT_04_05,PHASE_CRISIS,REFLECT,WEIGHT_LINE,"Every lie.","Tung loi noi doi.",2,2.0
+258,PV_0014,BEAT_05_01,PHASE_RESOLUTION,REFLECT,NARRATION,"The trial lasts four weeks.","Phien toa keo dai bon tuan.",5,0
+259,PV_0014,BEAT_05_01,PHASE_RESOLUTION,REFLECT,NARRATION,"Every day you sit in a suit you didn't choose.","Moi ngay ban ngoi trong bo vest ban khong chon.",9,0
+260,PV_0014,BEAT_05_01,PHASE_RESOLUTION,REFLECT,NARRATION,"First piece of clothing in your life someone else picked.","Thu quan ao dau tien trong doi nguoi khac chon cho ban.",9,0.5
+261,PV_0014,BEAT_05_01,PHASE_RESOLUTION,REFLECT,NARRATION,"The tie is too tight.","Ca vat chat qua.",5,0
+262,PV_0014,BEAT_05_01,PHASE_RESOLUTION,REFLECT,NARRATION,"You leave it.","Ban cu de nguyen.",3,0
+263,PV_0014,BEAT_05_01,PHASE_RESOLUTION,REFLECT,NARRATION,"Your hair is short now.","Toc ban ngan roi.",5,0
+264,PV_0014,BEAT_05_01,PHASE_RESOLUTION,REFLECT,NARRATION,"A barber in the jail did it.","Tho cat toc trong trai giam lam.",6,0
+265,PV_0014,BEAT_05_01,PHASE_RESOLUTION,REFLECT,NARRATION,"You didn't ask for a mirror.","Ban khong doi guong.",6,0.5
+266,PV_0014,BEAT_05_01,PHASE_RESOLUTION,REFLECT,NARRATION,"You listen to people describe you.","Ban nghe nguoi ta mo ta ban.",6,0
+267,PV_0014,BEAT_05_01,PHASE_RESOLUTION,REFLECT,NARRATION,"They use words you don't recognize.","Ho dung nhung tu ban khong nhan ra.",6,0
+268,PV_0014,BEAT_05_01,PHASE_RESOLUTION,REFLECT,NARRATION,"Fraud.","Lua dao.",1,0
+269,PV_0014,BEAT_05_01,PHASE_RESOLUTION,REFLECT,NARRATION,"Conspiracy.","Am muu.",1,0
+270,PV_0014,BEAT_05_01,PHASE_RESOLUTION,REFLECT,NARRATION,"Wire theft.","Trom cap qua mang.",2,0.5
+271,PV_0014,BEAT_05_01,PHASE_RESOLUTION,REFLECT,NARRATION,"You look at your hands.","Ban nhin xuong tay minh.",5,0
+272,PV_0014,BEAT_05_01,PHASE_RESOLUTION,REFLECT,NARRATION,"They look the same.","Chung van giong nhu cu.",4,0
+273,PV_0014,BEAT_05_01,PHASE_RESOLUTION,REFLECT,WEIGHT_LINE,"But nothing else does.","Nhung khong co gi khac giong nhu cu.",4,1.5
+274,PV_0014,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Your parents sit in the front row.","Bo me ban ngoi hang dau.",6,0
+275,PV_0014,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Every day.","Moi ngay.",2,0.5
+276,PV_0014,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Two professors who taught you how to think.","Hai giao su da day ban cach suy nghi.",7,0
+277,PV_0014,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Who taught you about systems and consequences.","Nhung nguoi da day ban ve he thong va hau qua.",6,0
+278,PV_0014,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Now they watch the prosecution read your own words back to you - every speech about saving the world, every interview about giving it all away.","Bay gio ho ngoi nhin cong to vien doc lai chinh loi ban - moi bai dien thuyet ve cuu the gioi, moi cuoc phong van ve cho di tat ca.",24,0.5
+279,PV_0014,BEAT_05_02,PHASE_RESOLUTION,REFLECT,WEIGHT_LINE,"Used as evidence that you knew exactly what you were doing.","Duoc dung lam bang chung rang ban biet ro minh dang lam gi.",10,1.5
+280,PV_0014,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Your mother stares straight ahead.","Me ban nhin thang phia truoc.",5,0
+281,PV_0014,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Your father takes notes.","Bo ban ghi chep.",4,0
+282,PV_0014,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Old habit.","Thoi quen cu.",2,0
+283,PV_0014,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"You try to remember what you said at the last dinner you had together - the one before everything collapsed.","Ban co nho minh da noi gi trong bua com cuoi cung - bua truoc khi tat ca sup do.",18,0
+284,PV_0014,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"You can't.","Ban khong nho noi.",2,0
+285,PV_0014,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"You don't look at them.","Ban khong nhin ho.",5,0
+286,PV_0014,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Not once.","Khong mot lan.",2,1.0
+287,PV_0014,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"Guilty.","Co toi.",1,0.5
+288,PV_0014,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"Seven counts.","Bay toi danh.",2,0
+289,PV_0014,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"The judge says twenty-five years.","Tham phan tuyen hai muoi lam nam.",5,1.0
+290,PV_0014,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"You don't react.","Ban khong phan ung.",3,0
+291,PV_0014,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"Not because you're strong.","Khong phai vi ban manh me.",5,0
+292,PV_0014,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"Because you still think there's been some kind of mistake.","Vi ban van nghi co sai sot o dau do.",9,0.5
+293,PV_0014,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"Everyone trusted you.","Tat ca moi nguoi da tin ban.",3,0
+294,PV_0014,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,WEIGHT_LINE,"Everyone was wrong.","Tat ca deu sai.",3,1.5
+295,PV_0014,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"Including you.","Ke ca ban.",2,0
+296,PV_0014,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"Especially you.","Dac biet la ban.",2,0.5
+297,PV_0014,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"You spent your entire life becoming the person who could save the world.","Ban da danh ca doi de tro thanh nguoi co the cuu the gioi.",12,0
+298,PV_0014,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,WEIGHT_LINE,"Now you're just a defendant number.","Bay gio ban chi la mot so hieu bi cao.",6,1.5
+299,PV_0014,BEAT_05_04,PHASE_RESOLUTION,RESOLVE,NARRATION,"The cell has no screen.","Phong giam khong co man hinh.",5,0
+300,PV_0014,BEAT_05_04,PHASE_RESOLUTION,RESOLVE,NARRATION,"Just concrete and fluorescent light that never changes.","Chi co be tong va den huynh quang khong bao gio thay doi.",8,0
+301,PV_0014,BEAT_05_04,PHASE_RESOLUTION,RESOLVE,NARRATION,"No game controller.","Khong co tay cam.",3,0
+302,PV_0014,BEAT_05_04,PHASE_RESOLUTION,RESOLVE,NARRATION,"No arbitrage to run.","Khong co arbitrage de chay.",4,0
+303,PV_0014,BEAT_05_04,PHASE_RESOLUTION,RESOLVE,NARRATION,"No system to optimize.","Khong co he thong de toi uu.",4,0
+304,PV_0014,BEAT_05_04,PHASE_RESOLUTION,RESOLVE,NARRATION,"No one to save.","Khong ai de cuu.",4,0.5
+305,PV_0014,BEAT_05_04,PHASE_RESOLUTION,RESOLVE,NARRATION,"The walls are the same color as the ceiling.","Tuong cung mau voi tran.",8,0
+306,PV_0014,BEAT_05_04,PHASE_RESOLUTION,RESOLVE,NARRATION,"You never noticed that before about rooms.","Ban chua bao gio de y dieu do ve nhung can phong.",7,0.5
+307,PV_0014,BEAT_05_04,PHASE_RESOLUTION,RESOLVE,NARRATION,"Twenty-six billion became zero.","Hai muoi sau ty thanh so khong.",4,0
+308,PV_0014,BEAT_05_04,PHASE_RESOLUTION,RESOLVE,WEIGHT_LINE,"But zero was never yours either.","Nhung so khong cung chua bao gio la cua ban.",6,0
+309,PV_0014,BEAT_05_04,PHASE_RESOLUTION,RESOLVE,NARRATION,"It belonged to eight million people who trusted you.","No la cua tam trieu nguoi da tin ban.",8,1.0
+310,PV_0014,BEAT_05_04,PHASE_RESOLUTION,RESOLVE,NARRATION,"You don't like thinking about any of this.","Ban khong muon nghi ve bat ky dieu gi trong so nay.",8,1.0
+311,PV_0014,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,"The screen is off.","Man hinh tat.",4,0
+312,PV_0014,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,"The room is dark.","Phong toi.",4,0
+313,PV_0014,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,"No price to track.","Khong co gia de theo doi.",5,0
+314,PV_0014,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,"No spread to capture.","Khong co chenh lech de bat.",4,0
+315,PV_0014,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,"No system to fix.","Khong co he thong de sua.",4,0
+316,PV_0014,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,"No philosophy to justify what comes next.","Khong co triet ly nao bien minh cho nhung gi sap toi.",6,1.0
+317,PV_0014,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,"Just a room.","Chi la mot can phong.",3,0
+318,PV_0014,BEAT_06_01,CALLBACK,CALLBACK,WEIGHT_LINE,"And the quiet.","Va su im lang.",3,1.5
+319,PV_0014,BEAT_06_02,CALLBACK,CTA,NARRATION,"You wanted to become the person who saves the world.","Ban muon tro thanh nguoi cuu the gioi.",9,0.5
+320,PV_0014,BEAT_06_02,CALLBACK,CTA,WEIGHT_LINE,"You couldn't save yourself.","Ban khong the cuu noi chinh minh.",4,2.0

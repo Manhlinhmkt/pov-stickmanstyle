@@ -1,8 +1,8 @@
 # START — POV Life Simulation Engine (PVLE)
 
-> **Version:** v2.0 — Phase Module Architecture  
+> **Version:** v2.1 - Phase Module Architecture  
 > **Engine type:** Narrated second-person life simulation  
-> **Output:** VO script (EN/JA/VI) + Stickman image prompts (Nano Banana) + Video prompts (Veo)
+> **Output:** VO script (EN/VI) + Stickman image prompts (Nano Banana) + Video prompts (Veo)
 
 ---
 
@@ -25,7 +25,7 @@
 
 **POV Life Simulation Engine** là pipeline sản xuất nội dung AI-assisted để tạo video "sống cuộc đời của người khác".
 
-Mỗi episode đặt người xem vào bên trong một cuộc đời phi thường — được kể bằng ngôi thứ hai ("bạn"), minh hoạ bằng stickman tối giản, sản xuất đa ngữ (English / Japanese / Vietnamese).
+Mỗi episode đặt người xem vào bên trong một cuộc đời phi thường - được kể bằng ngôi thứ hai ("bạn"), minh hoạ bằng stickman tối giản, sản xuất đa ngữ (English / Vietnamese).
 
 **Công thức cơ bản:**
 ```
@@ -69,7 +69,7 @@ Seed (ý tưởng) → VO script → Stickman image prompts → Video motion pro
   Bạn có: episode_brief.md đã duyệt
   
   → /pvle-gen-breakdown        Breakdown chi tiết từng beat
-  → /pvle-gen-vo               Viết VO EN → JA → VI + humanize + optimize
+  → /pvle-gen-vo               Viết VO EN → humanize → performance → dịch VI
   
   [Nếu TRANSPARENT_VEIL: tự động chạy veil-scan để loại từ cấm]
 
@@ -180,8 +180,10 @@ pvle/episodes/PV_xxxx/
 ├── episode_brief.md              ← Nguồn sự thật duy nhất của episode
 │                                    (metadata, outline, CHARACTER REGISTRY)
 ├── l2_breakdown_table.csv        ← Beat breakdown chi tiết
-├── vo_draft_table.csv            ← VO draft tiếng Anh
-├── vo_script_table.csv           ← VO final: EN + JA + VI (humanized + optimized)
+├── vo_draft_table.csv            ← VO draft tiếng Anh (per beat)
+├── vo_enhanced_table.csv         ← VO humanized (EN, per line)
+├── vo_finalize_table.csv         ← VO performance-optimized (EN, per line)
+├── vo_script_table.csv           ← VO final: EN + VI
 ├── illustration_strip_table.csv  ← Grouping VO → visual strip (Smart Grouping)
 ├── image_prompts.csv             ← Prompts cho Nano Banana (1 prompt/strip)
 └── video_prompts.csv             ← Prompts cho Veo (1 prompt/strip)
@@ -193,7 +195,7 @@ pvle/episodes/PV_xxxx/
 |------|------------|
 | `image_prompts.csv` | Copy từng dòng `Image_Prompt` → paste vào Nano Banana |
 | `video_prompts.csv` | Copy từng dòng `Video_Prompt` → paste vào Veo |
-| `vo_script_table.csv` | `VO_EN` dùng cho TTS, `VO_JA` + `VO_VI` dùng cho bản dịch |
+| `vo_script_table.csv` | `VO_EN` dùng cho TTS, `VO_VI` dùng cho bản Việt |
 
 ---
 
@@ -318,7 +320,7 @@ A: Có. World YAML được tái sử dụng. Character_anchors sẽ tự độn
 A: VO line là 1 câu/dòng trong script. Strip là nhóm 1-7 VO lines được ghép lại thành 1 ảnh (4-12 giây). Một episode ~126 strips, ~233 VO lines.
 
 **Q: Tại sao có 2 file VO (vo_draft và vo_script)?**  
-A: `vo_draft_table.csv` là bản tiếng Anh raw chưa humanize. `vo_script_table.csv` là bản final đã qua 3 bước: humanize → trilingual translation (EN+JA+VI) → performance optimization.
+A: `vo_draft_table.csv` là bản tiếng Anh raw chưa humanize. `vo_enhanced_table.csv` là bản đã humanize. `vo_finalize_table.csv` là bản đã qua performance optimization. `vo_script_table.csv` là bản final có cả EN + VI.
 
 **Q: Tôi có thể chỉ chạy một phase cụ thể không?**  
 A: Có. Mỗi workflow có thể chạy độc lập. Ví dụ: chỉ chạy `/pvle-gen-image-prompts PV_0001` để regenerate image prompts mà không cần chạy lại VO.

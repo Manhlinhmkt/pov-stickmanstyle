@@ -9,12 +9,17 @@
 
 ### Style Lock (All Prompts)
 ```
-STYLE_LOCK: "Simple stickman character with oversized round white circle head,
-dot eyes, and minimal mouth expression. Body drawn with thin black lines.
+STYLE_LOCK: "Simple stickman character with oversized round white circle head.
+Body drawn with thin black lines.
 Clothing as simple flat-colored shapes (no detail, no folds, no shading).
 Character is deliberately simple — contrast against highly detailed,
 semi-realistic painted background environment."
 ```
+
+> **Note:** Face description (eyes, mouth) is NOT in STYLE_LOCK.
+> Face comes from CHARACTER REGISTRY per character:
+> - REAL_PERSON: "dot eyes + simple mouth" with expression matched to real person
+> - ANONYMOUS_GROUP: "blank white circle head, no eyes, no mouth" (FACELESS)
 
 ### Character Visual Injection
 ```yaml
@@ -41,17 +46,58 @@ rule: "Supporting characters have LESS detail than SUBJECT — no individual hai
 
 ### Character Prompt Block Format
 ```
-SUBJECT: {height}. {hair}. {clothing}. {face}. {distinguishing}.
-SUPPORT (if present): {role description from character_anchors}.
-BACKGROUND FIGURES: {generic stickmen, minimal, smaller than subject}.
+SUBJECT (REAL_PERSON): {height}. {hair}. {clothing}. {face — dot eyes + mouth from registry}. {distinguishing}.
+SUPPORT — REAL_PERSON: {visual_summary}. {face — dot eyes + mouth from registry}.
+SUPPORT — ANONYMOUS_GROUP: {visual_summary}. FACELESS blank white circle head, no eyes, no mouth.
+BACKGROUND FIGURES: {generic stickmen, minimal, smaller than subject}. FACELESS.
 ```
 
 ### Supporting Character Rules
 ```yaml
-rule_hierarchy: "SUBJECT > named support (FATHER, MOTHER) > generic support (AGENTS, SIBLINGS) > crowd"
+rule_hierarchy: "SUBJECT > REAL_PERSON support > ANONYMOUS_GROUP support > crowd"
 rule_detail: "Each tier has less visual detail than the one above"
 rule_veil: "NEVER use real names in prompts — use role descriptors only"
-rule_agents: "Agents are FACELESS (blank white circle head, no eyes, no mouth)"
+rule_face:
+  REAL_PERSON: "dot eyes + simple mouth — expression matched to real individual"
+  ANONYMOUS_GROUP: "FACELESS (blank white circle head, no eyes, no mouth)"
+rule_asset: "Check pvle/assets/characters/character_index.yaml for approved visual anchors"
+
+RULE_FACE_INJECTION_MANDATORY:
+  scope: "EVERY prompt where SUBJECT is visible (NARRATIVE_SCENE, EMOTIONAL_CLOSEUP, CONTRAST_SPLIT, TIME_SKIP_SCENE)"
+  check: "Face descriptor block from CHARACTER REGISTRY must appear in EVERY subject-visible prompt — not just first per phase"
+  injection_pattern: |
+    The face block must appear as a SEPARATE sentence cluster after hair/clothing:
+    "{hair}. {clothing}. Clean-shaven strong jawline circle head. Small {eye_color} dot eyes. {expression}."
+  required_elements:
+    face_shape: "clean-shaven strong jawline circle head" (or per-character variant from registry)
+    eye_descriptor: "{adjective} {color} dot eyes" — color and adjective from character_index.yaml
+    expression: "{personality-matched expression}" from registry (e.g. military-straight, warm stern)
+  child_phases:
+    face_shape: "round white circle head" (no jawline descriptor in youth)
+    eye_descriptor: "small dot eyes" or "small {color} dot eyes"
+  persistence_rule: |
+    Face block MUST appear in EVERY slate where subject is visible.
+    Do NOT assume reader remembers face from previous slate.
+    Each prompt is standalone — face descriptor is MANDATORY in each.
+  forbidden:
+    - Dropping face block after first slate in a phase
+    - Using bare "tall stickman" without face descriptors
+    - Describing subject body/action without face block
+    - Omitting eye color when registry specifies one
+  on_violation: ABORT_AND_REWRITE_ALL_PROMPTS_IN_PHASE
+
+RULE_SUPPORTING_CHAR_FACE:
+  scope: "EVERY prompt containing supporting characters"
+  REAL_PERSON_support:
+    check: "Must include face descriptors from character_index.yaml"
+    pattern: "{hair}. {eye_descriptor from registry}. {clothing}."
+  ANONYMOUS_GROUP:
+    check: "Must include explicit FACELESS marker"
+    pattern: "(faceless, blank white circle head)"
+    forbidden:
+      - Omitting "blank white circle head" for anonymous characters
+      - Using bare "faceless" without "blank white circle head"
+  on_violation: REVISE_PROMPT
 ```
 
 ---

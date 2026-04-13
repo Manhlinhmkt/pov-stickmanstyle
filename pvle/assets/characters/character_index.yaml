@@ -1,0 +1,276 @@
+# Character Asset Index
+# Approved visual references for REAL_PERSON characters
+# Reusable across episodes — check here before search_web or generate_image
+#
+# Naming convention:
+#   CHAR_{FULL_NAME}: (e.g. CHAR_DONALD_TRUMP)
+#   asset_file: "CHAR_{FULL_NAME}.png" or "CHAR_{FULL_NAME}_EVO.png" for evolution sheets
+#
+# Structure per character:
+#   CHAR_ID:
+#     real_person: "actual name"
+#     visual_anchors: {hair, face, clothing, accessories, build}
+#     asset_file: "filename.png"
+#     approved_in: EP_ID (first episode where approved)
+#     approved_date: YYYY-MM-DD
+#     reused_in: [list of episodes that reused this asset]
+#
+# Usage:
+#   1. /pvle-gen-episode-brief Step 3b-VERIFY checks this file FIRST
+#   2. /pvle-character-review Step 2 checks for existing asset images
+#   3. After user approval, Step 8 saves new entries here
+
+characters:
+
+  # ===== TRUMP FAMILY =====
+
+  CHAR_DONALD_TRUMP:
+    real_person: "Donald Trump"
+    visual_anchors:
+      hair: "Dark brown wisp neat combed (child/teen). Dark brown styling upward and back with volume forming (CONFLICT age 18-44). Transitioning swept-back lightening to blonde-orange (CRISIS age 44-58). FULL ICONIC swooped thick blonde-orange volume swept from right side (RESOLUTION age 58+ onward). Platinum fading in elder years."
+      face: "Round white circle head. Tiny squinting dot eyes. Small tight pursed mouth. Orange/bronzed tint on circle head in later phases."
+      clothing: "Blazer/military jacket (EARLY). Dark navy oversized boxy power suit with exaggerated broad structured shoulders, white shirt with French cuffs (CONFLICT+). LONG RED TIE appears CRISIS phase — extends well past belt line, grows longer each subsequent phase to EXTRA-LONG past mid-thigh (PRESENT)."
+      accessories: "Red tie is THE constant across all adult phases from CRISIS onward. Gold watch, gold cufflinks. American flag lapel pin (presidential era). Gold letter shapes on buildings."
+      build: "Child/teen slightly taller than peers athletic. Tall adult full frame expansive posture (CONFLICT). Heavier frame (CRISIS). Wide-shouldered (RESOLUTION). Commanding heavy-framed, chest-out confident stance (PRESENT). Slightly stooped in elder years."
+    reference_file: "REF_DONALD_TRUMP.png"
+    asset_file: "CHAR_DONALD_TRUMP.png"
+    evolution_file: "CHAR_DONALD_TRUMP_EVO.png"
+    approved_in: PV_0009
+    approved_date: 2026-04-06
+    reused_in: [PV_0001, PV_0002]
+
+  CHAR_FRED_TRUMP:
+    real_person: "Fred Trump"
+    visual_anchors:
+      hair: "Balding — very thin light-colored hair on sides only, top of head bare/sparse"
+      face: "Small neat pencil MUSTACHE (#1 identifier). Stern no-nonsense dot eyes."
+      clothing: "Dark double-breasted business suit, white shirt, plain dark tie"
+      accessories: "Yellow construction hard hat (carried or worn at building sites)"
+      build: "Shorter stocky frame, wide shoulders, not tall"
+    reference_file: "REF_FRED_TRUMP.png"
+    asset_file: "CHAR_FRED_TRUMP_AND_NETANYAHU.png"
+    approved_in: PV_0009
+    approved_date: 2026-04-06
+    reused_in: []
+
+  CHAR_BARRON_TRUMP:
+    real_person: "Barron Trump"
+    visual_anchors:
+      hair: "Light blonde throughout all phases. Wisp (baby). Parted to side (child). Styled upward/longer on top (teen). Slicked back neat (adult/formal). Tousled relaxed (casual)."
+      face: "Round white circle head, dot eyes, neutral mouth throughout. Slight frown in CONFLICT phase only."
+      clothing: "Light blue jacket (baby/young child). Dark blazer with white collar line (school age). Fitted dark suit with tie line (CRISIS onward). Slightly more casual suit (RESOLUTION)."
+      accessories: "Secret Service agents always flanking from PHASE_EARLY onward."
+      build: "Dramatic height progression: very small (baby) → normal child → medium starting taller → NOTICEABLY tall towers over all → EXTREMELY tall dominates every frame (6'7\"+)."
+    asset_file: "CHAR_BARRON_TRUMP.png"
+    approved_in: PV_0001
+    approved_date: 2026-04-08
+    reused_in: []
+
+  CHAR_MELANIA_TRUMP:
+    real_person: "Melania Trump"
+    visual_anchors:
+      hair: "Long straight dark brown hair past shoulders."
+      face: "Dot eyes, small gentle mouth."
+      clothing: "Elegant simple dress shape (flat color)."
+      accessories: "Graceful upright posture."
+      build: "Tall slim proportions."
+    asset_file: ""
+    approved_in: PV_0001
+    approved_date: 2026-04-08
+    reused_in: []
+
+  # ===== NETANYAHU FAMILY =====
+
+  CHAR_BENJAMIN_NETANYAHU:
+    real_person: "Benjamin Netanyahu"
+    visual_anchors:
+      hair: "Bald on top, gray hair on sides only"
+      face: "Black-framed rectangular reading glasses over dot eyes (#1 identifier). Heavy brow. Serious stern expression."
+      clothing: "Dark charcoal suit, white shirt, dark tie"
+      accessories: "Small Israeli flag pin on lapel. Reading glasses."
+      build: "Medium-height stocky, slightly hunched posture"
+    asset_file: "CHAR_BENJAMIN_NETANYAHU_EVO.png"
+    approved_in: PV_0004
+    approved_date: 2026-04-07
+    reused_in: [PV_0009]
+
+  CHAR_YONI_NETANYAHU:
+    real_person: "Yoni Netanyahu"
+    visual_anchors:
+      hair: "Dark thick curly hair"
+      face: "Dot eyes, small confident mouth — young, bright expression"
+      clothing: "Green military commando uniform, beret, tactical vest, combat gear"
+      accessories: "Military beret (#1 identifier), commando tactical equipment"
+      build: "Tall, athletic, charismatic bearing"
+    asset_file: "CHAR_YONI_NETANYAHU.png"
+    approved_in: PV_0004
+    approved_date: 2026-04-07
+    reused_in: []
+
+  CHAR_BENZION_NETANYAHU:
+    real_person: "Benzion Netanyahu"
+    visual_anchors:
+      hair: "White/silver thinning hair"
+      face: "Dot eyes behind THICK-RIMMED round glasses (#1 identifier). Thin neutral mouth. Serious intense expression."
+      clothing: "Dark academic suit, white shirt"
+      accessories: "Thick-rimmed round glasses (always worn), book tucked under arm"
+      build: "Medium height, slightly hunched scholarly posture"
+    asset_file: "CHAR_YONI_NETANYAHU.png"
+    approved_in: PV_0004
+    approved_date: 2026-04-07
+    reused_in: []
+
+  CHAR_SARA_NETANYAHU:
+    real_person: "Sara Netanyahu"
+    visual_anchors:
+      hair: "Maintained blonde highlighted hair, shoulder-length, styled with volume"
+      face: "Small dot eyes, small mouth"
+      clothing: "Formal elegant dress or professional outfit, light colored clothing"
+      accessories: "None specific — blonde hair IS the identifier"
+      build: "Medium height stickwoman"
+    asset_file: ""
+    approved_in: PV_0004
+    approved_date: 2026-04-07
+    reused_in: []
+
+  # ===== HEGSETH FAMILY =====
+
+  CHAR_PETE_HEGSETH:
+    real_person: "Pete Hegseth"
+    visual_anchors:
+      hair: "Salt-and-pepper (dark mixed with gray), short neat, close-cropped sides, slightly longer on top. Brown when young, buzz-cut in military phase, salt-and-pepper from TV era onward."
+      face: "Clean-shaven, strong jawline. Small hazel-green dot eyes. Military-straight expression."
+      clothing: "Desert camo + combat helmet + body armor (military). Dark suit + flag pin (TV/Pentagon). Dog tags chain ALWAYS visible at neck under collar in all adult phases."
+      accessories: "Military dog tags (#1 identifier — cold metal chain visible at neck from PHASE_CONFLICT onward). Bronze Star medal ribbon (military phase). Flag lapel pin (civilian phases)."
+      build: "Tall (6ft), fit athletic build, broad shoulders, military straight posture. Rigid bearing."
+    reference_file: "REF_PETE_HEGSETH.png"
+    asset_file: "CHAR_PETE_HEGSETH.png"
+    approved_in: PV_0003
+    approved_date: 2026-04-06
+    reused_in: []
+
+  CHAR_BRIAN_HEGSETH:
+    real_person: "Brian Hegseth"
+    visual_anchors:
+      hair: "Short gray hair, thinning on top"
+      face: "Small dot eyes, warm but stern expression, slight smile line. Sometimes wears glasses."
+      clothing: "Red coaching jacket or polo, khaki pants. Whistle on lanyard around neck. Coaching clipboard in hand."
+      accessories: "Whistle on lanyard (#1 identifier), coaching clipboard, basketball"
+      build: "Medium height, slightly stocky from years of coaching"
+    reference_file: "REF_BRIAN_HEGSETH.png"
+    asset_file: "CHAR_BRIAN_HEGSETH.png"
+    approved_in: PV_0003
+    approved_date: 2026-04-06
+    reused_in: []
+
+  # ===== IRANIAN FIGURES =====
+
+  CHAR_ALI_KHAMENEI:
+    real_person: "Ali Khamenei"
+    visual_anchors:
+      hair: "Hidden under large black turban (Seyyed). Never visible."
+      face: "Dot eyes behind RECTANGLE GLASSES (#1 identifier). Stern serious expression. Beard: dark with gray (middle age) → fully white (elderly)."
+      clothing: "Traditional clerical: dark qaba (robe) + aba (cloak). Very traditional conservative style."
+      accessories: "Rectangle glasses (ALWAYS worn). Right arm PARALYZED since 1981 — tucked into robe or held stiffly (#2 identifier)."
+      build: "Tall (180cm / 6ft). Upright and authoritative (middle age) → stooped and frail (elderly 80s). Shaking hands in final years."
+    asset_file: "CHAR_ALI_KHAMENEI.png"
+    approved_in: PV_0005
+    approved_date: 2026-04-07
+    reused_in: [PV_0006]
+
+  CHAR_MOJTABA_KHAMENEI:
+    real_person: "Mojtaba Khamenei"
+    visual_anchors:
+      hair: "Black hair, hidden under turban in adult phases. Dark and visible as child/teen."
+      face: "NEVER fully visible — progressive shadow overlay (30%→90%). Salt-and-pepper trimmed beard OUTLINE visible through shadow from gatekeeper phase onward."
+      clothing: "Child: simple light clothes. Military (18): olive IRGC uniform + beret. Seminary (20s): cream/brown robes + white student turban. Adult (30+): BLACK turban (Seyyed) + dark aba over qaba clerical robes."
+      accessories: "Prayer beads (adult phases). Phone in hand (gatekeeper/crisis). IRGC beret + rifle (military phase). Books (seminary phase)."
+      build: "Tall (178cm / 5'10\"), medium build (~75kg). Grows from short child → tall adult."
+    asset_file: "CHAR_MOJTABA_KHAMENEI.png"
+    approved_in: PV_0005
+    approved_date: 2026-04-07
+    reused_in: [PV_0006]
+
+  CHAR_AHMAD_VAHIDI:
+    real_person: "Ahmad Vahidi"
+    visual_anchors:
+      hair: "Short cropped hair. Dark when young, salt-and-pepper in middle age, grey-white in elderly (67+)."
+      face: "RECTANGULAR/SQUARE GLASSES (#1 identifier — constant from age 30+). Small stern dot eyes behind glasses. Neatly trimmed full beard — dark (young) → salt-and-pepper → grey-white. Small tight serious mouth."
+      clothing: "Young (21): basic olive-green military uniform. Officer (30s): dark military uniform with epaulettes. Intelligence (35-39): dark jacket over collared shirt. Minister (49-65): dark formal suit, white shirt. Commander (67): full military uniform with medals, flak vest."
+      accessories: "Rectangular glasses (ALWAYS from age 30+). Military medals (commander phases). Flak vest (crisis/present phases)."
+      build: "Medium height, solid military build. Rigid posture. ALWAYS STANDING — never sits."
+    asset_file: "CHAR_AHMAD_VAHIDI.png"
+    approved_in: PV_0006
+    approved_date: 2026-04-07
+    reused_in: []
+
+  # ===== OTHER FIGURES =====
+
+  CHAR_REZA_PAHLAVI:
+    real_person: "Reza Pahlavi"
+    visual_anchors:
+      hair: "Dark thick hair (child/teen). Dark with greying temples (30s-50s). Mostly grey (60s). Grey-silver (65+)."
+      face: "Clean-shaven. Small dot eyes — innocent (child), serious (adult), tired/exhausted (elder). No glasses typically. Strong jaw shape suggested."
+      clothing: "Child (7): miniature military dress uniform with gold buttons. Cadet (17): flight cadet uniform with pilot wings badge. Adult (20-60): dark formal suit, white shirt, dark tie — ALWAYS. Home (65): casual unbuttoned collar, no tie."
+      accessories: "Pilot wings badge (cadet phase, carried as keepsake). TV remote (home phases). Phone (crisis/present). NO CROWN — the absent crown is the motif."
+      build: "Medium-tall, fit from pilot training. Upright formal posture in public. Slumped on sofa at home."
+    asset_file: "CHAR_REZA_PAHLAVI.png"
+    approved_in: PV_0007
+    approved_date: 2026-04-07
+    reused_in: []
+
+  CHAR_ELON_MUSK:
+    real_person: "Elon Musk"
+    visual_anchors:
+      hair: "Dark neat (child/teen). Thinning on top, receding hairline (conflict/crisis age 18-37). Fuller restored dark brown, buzzed sides longer top (crisis_peak onward age 38+). NOT gray — still dark brown at 54."
+      face: "Round white circle head, dot eyes. Innocent (child) → determined (teen) → frowning (conflict) → intense with bags (crisis) → tired with bags (present). Clean-shaven throughout."
+      clothing: "School uniform (early child). Jeans + backpack (early teen). T-shirt + cheap jacket (conflict). Button-up sleeves rolled (crisis). Black T-shirt signature look (crisis_peak/present). Suit jacket + no tie + ID badge (resolution)."
+      accessories: "Book in hand (child). Ramen cup + laptop (conflict). Phone + coffee (crisis). Factory sleeping bag (crisis_peak/present/callback). Briefing folder + laptop (resolution)."
+      build: "Short thin (child) → Lanky thin (teen) → Medium-tall thin (conflict) → Tall broadening (crisis) → Tall stocky broad frame, wide shoulders (crisis_peak onward). NO hunch — stocky upright posture."
+    asset_file: "CHAR_ELON_MUSK.png"
+    approved_in: PV_0008
+    approved_date: 2026-04-08
+    reused_in: []
+
+  # ===== OPENAI FIGURES =====
+
+  CHAR_SAM_ALTMAN:
+    real_person: "Sam Altman"
+    visual_anchors:
+      hair: "Short neat dark hair throughout all phases. Closely cropped sides. NOT wavy, NOT messy — always tidy. Dark as child, same dark through adulthood."
+      face: "Clean-shaven across ALL phases. Square jawline. Dot eyes (blue-hazel). Calm neutral expression by default. Tense tight mouth in CRISIS only."
+      clothing: "Simple T-shirt + jeans (EARLY child). Polo shirt + jeans (EARLY teen). High-end gray/oatmeal cashmere crewneck sweater + dark jeans — signature look (CONFLICT onward). Same crewneck + dark navy blazer, no tie (RESOLUTION). Gray crewneck alone with laptop (CALLBACK)."
+      accessories: "Laptop/computer always present from age 8. Phone in pocket (CONFLICT). Phone in hand with glowing screen (CRISIS). Black backpack slung over one shoulder (CRISIS = leaving, RESOLVE = arriving). Microphone on stage (CONFLICT, RESOLUTION)."
+      build: "VERY TALL (6'4\" / 193cm). Tall even as child. Slim athletic build throughout — never stocky. Towers over all other characters in every scene."
+    asset_file: "CHAR_SAM_ALTMAN.png"
+    approved_in: PV_0010
+    approved_date: 2026-04-09
+    reused_in: []
+
+  CHAR_ILYA_SUTSKEVER:
+    real_person: "Ilya Sutskever"
+    visual_anchors:
+      hair: "BALDING — receding hairline, very little hair on top, short dark hair remaining on sides only."
+      face: "RECTANGULAR GLASSES over dot eyes (#1 identifier). SHORT BEARD/STUBBLE on lower face (#2 identifier). Pale complexion. Small concentrated mouth. Thoughtful serious expression."
+      clothing: "Simple dark collared shirt or sweater. Academic casual. No suit."
+      accessories: "Rectangular glasses (ALWAYS worn). No other distinctive accessories."
+      build: "Stocky-medium build, not slim. Shorter than SUBJECT. Solid frame."
+    asset_file: "CHAR_ILYA_SUTSKEVER.png"
+    approved_in: PV_0010
+    approved_date: 2026-04-09
+    reused_in: []
+
+  # ===== CRYPTO FIGURES =====
+
+  CHAR_SBF:
+    real_person: "Sam Bankman-Fried"
+    visual_anchors:
+      hair: "Messy curly dark hair throughout. Starts small as child, grows increasingly wild and voluminous through CONFLICT (signature peak - WILD messy voluminous curly). Transitions to shorter in CRISIS. SHORT CROPPED prison haircut in RESOLUTION (identity stripped). Hair arc = freedom/genius/hubris to prison/judgment."
+      face: "Round white circle head. Small black dot eyes. Simple mouth. Expression arc: curious (EARLY child) > focused intense (EARLY teen) > confident bordering on manic (CONFLICT) > panicked hollow (CRISIS) > defeated empty (RESOLUTION/CALLBACK)."
+      clothing: "Casual kid clothes, plain T-shirt + shorts (EARLY child). Plain oversized T-shirt (EARLY teen/young adult). Cargo shorts + oversized T-shirt + sneakers - SIGNATURE LOOK (CONFLICT). Ill-fitting suit forced by lawyer (CRISIS/RESOLUTION courtroom). Orange prison uniform (RESOLUTION prison)."
+      accessories: "Books in hand (child). Laptop (teen). Multiple monitors, beanbag, game controllers (CONFLICT). Phone gripped (CRISIS). Nothing - stripped bare (RESOLUTION/PRISON)."
+      build: "SHORT (child age 8-12). AVERAGE (teen age 14-18). TALL (adult age 25+). Average build throughout - not muscular, not thin."
+    asset_file: "CHAR_SBF_EVO.png"
+    approved_in: PV_0014
+    approved_date: 2026-04-13
+    reused_in: []

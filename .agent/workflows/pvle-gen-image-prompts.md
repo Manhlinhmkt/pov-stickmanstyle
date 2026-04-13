@@ -34,9 +34,16 @@ Load:
 
 Extract style constants:
 ```
-STYLE_LOCK: "Simple stickman character with oversized round white circle head,
-dot eyes, and minimal mouth expression. Body drawn with thin black lines.
-Clothing as simple flat-colored shapes (no detail, no folds, no shading)."
+STYLE_LOCK: "Simple stickman character with oversized round white circle head.
+Body drawn with thin black lines.
+Clothing as simple flat-colored shapes (no detail, no folds, no shading).
+Character is deliberately simple — contrast against highly detailed,
+semi-realistic painted background environment."
+
+# NOTE: Face description (eyes, mouth) is NOT in STYLE_LOCK.
+# Face comes from CHARACTER REGISTRY per character:
+#   REAL_PERSON → "dot eyes + simple mouth" with expression from registry
+#   ANONYMOUS_GROUP → "blank white circle head, no eyes, no mouth"
 
 NEGATIVE_SUFFIX: "--no realistic human faces, no complex facial features, no detailed clothing folds,
 no body shading on stickman characters, no 3D render on characters, no anime style,
@@ -51,12 +58,50 @@ PRIMARY_ACCESSORY: [from episode_brief.md Stickman_Accessory]
 
 Apply smart grouping from `illustration-mapping-rules.md`:
 
-### 3a: Initial Grouping
+### 3a-PRE: Speech Time Summary (MANDATORY FIRST STEP)
 
-Group consecutive VO lines by Beat_ID. Calculate accumulated duration per group:
+Before any grouping, calculate and display:
+
 ```
-duration_sec = total_words_en / 130 * 60 + sum(pause_after)
+total_words = sum(all Word_Count_EN from vo_script_table.csv)
+total_pauses = sum(all Pause_After from vo_script_table.csv)
+total_speech_time = total_words / 130 * 60 + total_pauses
+min_strips = ceil(total_speech_time / 12)
+target_strips = round(total_speech_time / 8)
+max_strips = floor(total_speech_time / 4)
 ```
+
+Output summary table:
+| Metric | Value |
+|--------|-------|
+| Total VO lines | {count} |
+| Total Word_Count_EN | {sum} |
+| Total Pause_After | {sum} seconds |
+| Total Speech Time | {seconds} sec = {minutes} min |
+| Min strip count (max 12s each) | {min_strips} |
+| Target strip count (8s sweet spot) | {target_strips} |
+| Max strip count (min 4s each) | {max_strips} |
+
+> [!CAUTION]
+> This summary MUST be calculated before proceeding.
+> Final strip count must fall within [min_strips, max_strips] range.
+> If final count < min_strips → duration calculation is wrong.
+
+---
+
+### 3a: Initial Grouping + EXACT Duration
+
+Group consecutive VO lines by Beat_ID.
+
+**MANDATORY: Calculate EXACT duration per group:**
+1. List all VO_IDs in group
+2. Look up each VO_ID's `Word_Count_EN` and `Pause_After` from `vo_script_table.csv`
+3. `duration_sec = sum(Word_Count_EN) / 130 * 60 + sum(Pause_After)`
+
+> [!CAUTION]
+> Do NOT estimate durations. Must SUM actual values from CSV.
+> Wrong: "this strip is about 7.5 seconds"
+> Right: "words=[5,7,7,6,7]=32, pauses=[0,0,0,0.5,1.5]=2.0, duration=32/130*60+2.0=16.8s"
 
 ### 3b: Apply Split Rules (in priority order)
 
@@ -100,6 +145,12 @@ Write 1-sentence visual summary per strip (max 25 words):
 - [ ] Strip_IDs sequential
 - [ ] At least 1 EMOTIONAL_CLOSEUP in PHASE_CRISIS
 - [ ] HOOK starts with POV_SHOT or TEXT_OVERLAY
+- [ ] **EXACT CALC**: Each Duration_Sec = sum(Word_Count_EN)/130*60 + sum(Pause_After) from CSV
+- [ ] **CROSSCHECK**: `sum(all Duration_Sec)` within 5% of `total_speech_time` from Step 3a-PRE
+- [ ] **SANITY**: `strip_count` within [min_strips, max_strips] from Step 3a-PRE
+
+If CROSSCHECK fails → strip durations are wrong. ABORT and recalculate from CSV data.
+If SANITY fails → strips are too long or too short. Re-split or re-merge.
 
 ### 3h: Output Strip Table
 
@@ -108,6 +159,34 @@ Write 1-sentence visual summary per strip (max 25 words):
 File: `pvle/episodes/{EP}/illustration_strip_table.csv`
 
 Columns: `Strip_ID,Start_VO_ID,End_VO_ID,VO_Count,Life_Phase,Scene_Type,Duration_Sec,Strip_Summary`
+
+---
+
+## STEP 3.5: Verify Character Review (PREREQUISITE CHECK)
+
+> **This is NOT a delegate.** Character review must be completed BEFORE running this workflow.
+
+### Check:
+1. Does `pvle/assets/characters/character_index.yaml` contain entries for REAL_PERSON characters in this episode?
+2. Does the CHARACTER REGISTRY in `episode_brief.md` have accurate Face column with researched visual anchors?
+
+```yaml
+check_result:
+  ALL_CHARACTERS_REVIEWED:
+    action: "Load approved traits from registry → proceed to Step 4"
+    
+  MISSING_REVIEW:
+    action: "ABORT workflow"
+    message: "Character visual review not completed. Run /pvle-character-review {EP} first."
+    
+  PARTIAL_REVIEW:
+    action: "ABORT workflow"
+    message: "Some characters missing from asset library. Run /pvle-character-review {EP} to complete."
+```
+
+> [!IMPORTANT]
+> If character review is missing, do NOT attempt to generate image prompts.
+> Run `/pvle-character-review {EP}` as a separate workflow first, get user approval, then re-run this workflow.
 
 ---
 
@@ -125,23 +204,39 @@ Before writing each prompt:
 
 Phase-to-traits lookup order:
 ```yaml
-HOOK:             → CHILD_0_6 traits (or episode-specific if stated in registry)
-PHASE_EARLY:      → CHILD_0_6 (early beats) → CHILD_7_12 (later beats)
-PHASE_CONFLICT:   → TEEN_13_17 traits
-PHASE_CRISIS:     → ADULT_18_PLUS traits
-PHASE_RESOLUTION: → ADULT_18_PLUS traits
-PHASE_PRESENT:    → ADULT_18_PLUS traits
-CALLBACK_CLOSE:   → ADULT_18_PLUS traits
+# Use subject_phase_traits{} extracted from CHARACTER REGISTRY in Step 1
+# and VALIDATED by user in Step 3.5 (Character Visual Review)
+#
+# Each Life_Phase maps to its OWN trait set — do NOT use generic defaults.
+# The traits were confirmed via generate_image in Step 3.5a.
+#
+# Lookup: subject_phase_traits[strip.Life_Phase] → {height, hair, clothing, face, distinguishing}
+#
+# If a phase has sub-phases (e.g. EARLY child vs EARLY teen),
+# use Beat_ID sequence to determine which sub-trait applies:
+#   - Early beats in phase → younger sub-trait
+#   - Later beats in phase → older sub-trait
+#
+# CRITICAL: traits MUST match the visuals approved by user in Step 3.5
 ```
 
 ### 4b: Build CHARACTER BLOCK
 
 For NARRATIVE_SCENE, CONTRAST_SPLIT, EMOTIONAL_CLOSEUP:
 ```
-SUBJECT_BLOCK: "{height}. {hair}. {clothing}. {face}. {distinguishing}."
+SUBJECT_BLOCK: "{height}. {hair}. {clothing}. {FACE_BLOCK}. {distinguishing}."
+
+  FACE_BLOCK (MANDATORY — from character_index.yaml):
+    Adult phases: "{jawline descriptor} circle head. Small {eye_color} dot eyes. {expression}."
+    Child phases: "round white circle head. Small dot eyes."
+    Example: "Clean-shaven strong jawline circle head. Small hazel-green dot eyes. Military-straight expression."
+
+  ⚠️ FACE_BLOCK must appear in EVERY subject-visible prompt.
+  Do NOT omit after first slate. Each prompt is standalone.
 
 SUPPORT_BLOCK (only if character.appears_in_phases includes this strip's Life_Phase):
-  "{character.veil_name}: {character.visual_summary}."
+  REAL_PERSON: "{character.veil_name}: {character.visual_summary}. {face from registry}."
+  ANONYMOUS_GROUP: "{role descriptor} stickman (faceless, blank white circle head)."
 
 AGENTS_BLOCK (if agents are in scene context):
   "FACELESS dark-suited stickman figures (blank white circle head, small earpiece dot, rigid upright posture)."
@@ -210,6 +305,9 @@ DEEP_CONNECTION       → soft warm white — edges slightly blurred
 - [ ] No generic backgrounds ("a room", "outside", "somewhere")
 - [ ] No realistic face descriptions in any prompt
 - [ ] CHARACTER BLOCK traits match the strip's Life_Phase (height / hair / clothing must be phase-consistent)
+- [ ] **FACE_BLOCK present in EVERY subject-visible prompt** (RULE_FACE_INJECTION_MANDATORY)
+- [ ] **FACE_BLOCK matches character_index.yaml** — eye color, jawline, expression must be exact
+- [ ] **Supporting characters: REAL_PERSON has face from registry, ANONYMOUS_GROUP has "(faceless, blank white circle head)"**
 - [ ] AGENTS described as FACELESS in every scene they appear in
 - [ ] Supporting characters (FATHER, MOTHER, SIBLINGS) only appear in prompts when appears_in_phases matches
 - [ ] Real names ABSENT from all prompts — veil_name used throughout

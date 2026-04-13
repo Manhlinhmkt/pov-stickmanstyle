@@ -36,6 +36,36 @@ duration_targets:
     CONTRAST_SPLIT: 6-8    # needs time to compare both sides
 ```
 
+### 1b. MANDATORY EXACT DURATION CALCULATION
+
+```yaml
+duration_calculation:
+  method: EXACT_SUM
+  forbidden: ESTIMATION
+  
+  per_strip:
+    step_1: "List all VO_IDs in strip"
+    step_2: "Look up Word_Count_EN for each VO_ID from vo_script_table.csv"
+    step_3: "Look up Pause_After for each VO_ID from vo_script_table.csv"
+    step_4: "duration_sec = sum(word_counts) / 130 * 60 + sum(pauses)"
+    step_5: "Round to 1 decimal place"
+  
+  CRITICAL: |
+    Do NOT estimate or guess durations.
+    Must SUM actual Word_Count_EN values from the CSV for every VO line in the strip.
+    Wrong: "this group covers 5 lines, about 7.5 seconds"
+    Right: "words=[5,7,7,6,7]=32, pauses=[0,0,0,0.5,1.5]=2.0, duration=32/130*60+2.0=16.8s"
+  
+  example:
+    strip: "PV_0009_001 covers VO_ID 1-5"
+    word_counts: [5, 7, 7, 6, 7]   # looked up from csv
+    pauses: [0, 0, 0, 0.5, 1.5]     # looked up from csv
+    sum_words: 32
+    sum_pauses: 2.0
+    duration: "32 / 130 * 60 + 2.0 = 16.8s"
+    result: "VIOLATION — exceeds 12s max → must split"
+```
+
 ---
 
 ## 2. SPLIT RULES (create new strip when)
@@ -273,6 +303,29 @@ RULE_SCENE_TYPE_PRESENT:
 RULE_SEQUENTIAL_IDS:
   check: "Strip_IDs sequential, no gaps"
   on_violation: RENUMBER
+
+RULE_DURATION_EXACT_CALC:
+  check: "Duration_Sec per strip = exact sum(Word_Count_EN)/130*60 + sum(Pause_After)"
+  method: "Sum actual values from vo_script_table.csv — no estimation"
+  forbidden: "Approximated or guessed durations"
+  on_violation: RECALCULATE_FROM_CSV
+
+RULE_TOTAL_DURATION_CROSSCHECK:
+  check: "sum(all strip Duration_Sec) ≈ total_speech_time"
+  total_speech_time: "sum(all Word_Count_EN in VO CSV) / 130 * 60 + sum(all Pause_After)"
+  tolerance: 5%
+  on_violation: ABORT_AND_RECALCULATE
+  example:
+    total_words_en: 2400
+    total_pauses: 85
+    total_speech_time: "2400/130*60 + 85 = 1192s ≈ 19.9 min"
+    sum_strip_durations_must_be: "within 1132s – 1252s"
+
+RULE_STRIP_COUNT_SANITY:
+  check: "strip_count >= total_speech_time / 12"
+  rationale: "If max strip duration is 12s, minimum strips = total_time / 12"
+  target: "strip_count ≈ total_speech_time / 8 (sweet spot)"
+  on_violation: RE_SPLIT_LONGEST_STRIPS
 ```
 
 ---
@@ -285,20 +338,38 @@ strip_generation:
   output: illustration_strip_table.csv
 
   steps:
+    0_PRE_CALCULATE:
+      action: "Calculate total speech time BEFORE any grouping"
+      method: |
+        total_words = sum(all Word_Count_EN from vo_script_table.csv)
+        total_pauses = sum(all Pause_After from vo_script_table.csv)
+        total_speech_time = total_words / 130 * 60 + total_pauses
+        min_strips = ceil(total_speech_time / 12)
+        target_strips = round(total_speech_time / 8)
+        max_strips = floor(total_speech_time / 4)
+      output: "Display summary table before proceeding"
+      
     1_PARSE:
-      action: "Read all VO lines with VO_ID, Beat_ID, Life_Phase, VO_Type, Word_Count, Pause_After"
+      action: "Read all VO lines with VO_ID, Beat_ID, Life_Phase, VO_Type, Word_Count_EN, Pause_After"
       
     2_INITIAL_GROUP:
       action: "Group consecutive VO lines by Beat_ID"
-      result: "Raw beat groups with accumulated duration"
+      result: "Raw beat groups"
+      
+    2b_EXACT_DURATION:
+      action: "For each beat group, calculate EXACT duration"
+      method: "sum(Word_Count_EN) / 130 * 60 + sum(Pause_After)"
+      CRITICAL: "Must use actual values from CSV. Estimation FORBIDDEN."
+      output: "Each group annotated with exact calculated duration"
       
     3_APPLY_SPLITS:
       action: "Apply split rules in priority order (phase → duration → beat → context)"
-      result: "Refined strip groups"
+      note: "Duration splits now based on EXACT calculated durations from step 2b"
+      result: "Refined strip groups — all within 3-12s range"
       
     4_APPLY_MERGES:
       action: "Merge micro-beats (< 3s) with adjacent strips"
-      constraint: "Never merge across phases. Never exceed 12s."
+      constraint: "Never merge across phases. Never exceed 12s. Recalculate duration after merge."
       
     5_SPECIAL_STRIPS:
       action: "Extract clip moments + high-impact weight lines → standalone strips"
@@ -310,7 +381,16 @@ strip_generation:
       action: "Write Strip_Summary per strip (max 25 words)"
       
     8_VALIDATE:
-      action: "Run all validation rules"
+      action: "Run all validation rules (coverage, duration range, phase purity, scene types)"
+      
+    8b_CROSSCHECK:
+      action: "Compare sum(all Duration_Sec) vs total_speech_time from step 0"
+      tolerance: 5%
+      on_fail: "ABORT — strip durations do not match speech time. Recalculate from scratch."
+      
+    8c_STRIP_COUNT_CHECK:
+      action: "Verify strip_count is within [min_strips, max_strips] from step 0"
+      on_fail: "WARNING — re-split longest strips or merge shortest ones"
       
     9_OUTPUT:
       action: "Write illustration_strip_table.csv"

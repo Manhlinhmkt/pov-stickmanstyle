@@ -1,0 +1,65 @@
+# WORLD: WORLD_INTELLIGENCE_MOSSAD_KATSA
+# Display: The Person Who Lives Two Lives for a Country
+# Created: 2026-04-12
+
+WORLD_ID: WORLD_INTELLIGENCE_MOSSAD_KATSA
+display_name: "The Person Who Lives Two Lives for a Country"
+domain: MILITARY_INTELLIGENCE
+era: MODERN_CONTEMPORARY
+implied_identity_mode: GENERIC_ARCHETYPE
+implied_person: null
+
+tags:
+  - espionage
+  - double_identity
+  - moral_injury
+  - sayanim_network
+  - cover_life
+  - state_loyalty
+  - psychological_whiplash
+
+seed_keywords:
+  - "mossad agent"
+  - "intelligence officer"
+  - "katsa case officer"
+  - "spy double life"
+  - "espionage moral cost"
+
+key_facts:
+  - "Mossad recruits primarily from elite IDF units - candidates undergo multi-stage psychological screening, simulations under assumed identities, and stress tests lasting months before acceptance"
+  - "Training at the Midrasha academy near Herzliya lasts up to two years - covering surveillance detection, agent recruitment, cover identity management, and operating in hostile environments"
+  - "A katsa (case officer) is the Mossad's core field operative - responsible for finding, recruiting, and running human sources (agents) in foreign countries under deep cover identities"
+  - "The Mossad relies on a global network of sayanim - Jewish diaspora volunteers who provide logistical support (vehicles, safe houses, medical care) to operatives without being on payroll"
+  - "Operatives live under cover identities for years abroad - often as businessmen, students, or travelers - managing a psychological split between their real and operational personas that former agents describe as partial schizophrenia"
+  - "Families of agents live in a house of silence - spouses often know only that their partner works for a vague government entity, children grow up confused by unexplained absences and strict security rules"
+  - "HUMINT work requires systematic manipulation and deception of recruited sources - building genuine trust with people you intend to use, crossing moral boundaries that are unacceptable in civilian life"
+  - "Former agents report extreme difficulty reintegrating into civilian life - the psychological effects of years of deception, the feeling of neglect by the state after service, and the lifelong obligation to keep secrets"
+
+key_locations:
+  - id: LOC_MIDRASHA
+    name: "The Midrasha"
+    description: "Mossad training academy near Herzliya - where recruits learn to become someone else"
+  - id: LOC_COVER_CITY
+    name: "The Cover City"
+    description: "A European capital where the operative lives under a fabricated identity for years - cafe meetings, surveillance routes, dead drops"
+  - id: LOC_SAFE_HOUSE
+    name: "The Safe House"
+    description: "A rented apartment provided by a sayan - no name on the lease, no trace, temporary home between operations"
+  - id: LOC_HOME_ISRAEL
+    name: "Home in Israel"
+    description: "A modest apartment in a quiet Israeli suburb - where the family waits without knowing when or why"
+  - id: LOC_HEADQUARTERS
+    name: "Mossad HQ"
+    description: "The nondescript building in Tel Aviv where debriefings happen and new missions begin"
+
+key_tensions:
+  - DUTY_VS_SELF
+  - IDENTITY_VS_LEGACY
+  - NORMAL_DESIRE_VS_IMPOSSIBLE_REALITY
+  - PROTECTION_VS_CONTROL
+
+accessory_tags:
+  - "plain wristwatch (no brand markings)"
+
+used_in_episodes: [PV_0012]
+created: "2026-04-12"

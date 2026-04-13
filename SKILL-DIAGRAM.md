@@ -61,7 +61,6 @@ WORKFLOWS (Executable Pipelines)
 /pvle-gen-vo ──► vo_draft_table.csv
              └── vo_script_table.csv
                    ├── VO_EN
-                   ├── VO_JA
                    └── VO_VI
     │
     ▼
@@ -80,7 +79,7 @@ pvle/episodes/{PV_xxxx}/
   ├── episode_brief.md          P1 — single source of truth
   ├── l2_breakdown_table.csv    P2 — beat table with phases + scene types
   ├── vo_draft_table.csv        P2 — draft narration (EN only)
-  ├── vo_script_table.csv       P2 — final trilingual script
+  ├── vo_script_table.csv       P2 - final bilingual script
   ├── image_prompts.csv         P3 — Nano Banana prompts (1 per VO line)
   └── video_prompts.csv         P3 — Veo prompts (1 per still image)
 ```

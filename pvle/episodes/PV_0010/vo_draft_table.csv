@@ -1,0 +1,34 @@
+﻿Beat_ID,Life_Phase,Beat_Type,Mood_Tag,Content_Sketch,VO_Draft_EN,Word_Count
+BEAT_01_01,HOOK,ESTABLISH,WONDER,"You built the smartest thing on Earth.","You built the smartest thing on Earth.",7
+BEAT_01_02,HOOK,CRISIS,DREAD,"On Friday they fire you from it.","On Friday, they fire you from it.",7
+BEAT_01_03,HOOK,ESTABLISH,WONDER,"By Tuesday... you own it again.","By Tuesday  -  you own it again.",7
+BEAT_02_01,PHASE_EARLY,ESTABLISH,WONDER,"You don't fit anywhere. Except online.","You don't fit anywhere. Not at school. Not at home. The only place that makes sense is a screen. A keyboard. A blinking cursor in a dark room.",29
+BEAT_02_02,PHASE_EARLY,REFLECT,WONDER,"Systems make more sense than people.","Systems make more sense than people. You learn that early. Code does what you tell it. People don't.",18
+BEAT_02_03,PHASE_EARLY,TIME_MARKER,LONGING,"You are nineteen. You drop out.","You are nineteen. You drop out of the university. Not because you're lost. Because you're bored. Because nothing they're teaching moves fast enough.",25
+BEAT_02_04,PHASE_EARLY,REFLECT,LONGING,"Your first app sells.","Your first app sells. Forty-three million dollars. It sounds like a lot. It isn't  -  not for what you actually want.",20
+BEAT_03_01,PHASE_CONFLICT,TIME_MARKER,TENSION,"You are twenty-eight.","You are twenty-eight. You're sitting in a room full of founders  -  hundreds of them  -  pitching ideas, building things. None of them are building what you want.",27
+BEAT_03_02,PHASE_CONFLICT,CONFLICT,TENSION,"You leave. You build a lab.","You leave. You start something new. A lab. You tell the whole world what it's for: humanity. The betterment of all humanity.",21
+BEAT_03_03,PHASE_CONFLICT,REFLECT,TENSION,"You just never define which one.","You just never define which one.",6
+BEAT_03_04,PHASE_CONFLICT,ESTABLISH,TENSION,"Top researchers leave million-dollar salaries.","The best researchers in the world leave their jobs. Million-dollar salaries. Corner offices at the biggest tech companies on the planet. They come to you. Because they believe you.",30
+BEAT_03_05,PHASE_CONFLICT,CONFLICT,TENSION,"You promise safety. But speed is what gets funded.","You promise safety. You say it in every interview, every meeting, every keynote. But speed is what gets funded. And you know it.",21
+BEAT_03_06,PHASE_CONFLICT,ESTABLISH,TENSION,"November. You press the button.","November. You press the button. You release a chatbot. One hundred million people use it in two months. It's the fastest-growing product in the history of the internet.",29
+BEAT_03_07,PHASE_CONFLICT,REFLECT,TENSION,"The whole world wakes up.","The whole world wakes up. Overnight. Everyone's talking about it. Everyone's afraid of it. Everyone wants it.",17
+BEAT_03_08,PHASE_CONFLICT,CONFLICT,TENSION,"Inside the lab  -  who owns it?","Inside the lab, no one asks if it's safe anymore. They ask something else. Who owns it?",16
+BEAT_04_01,PHASE_CRISIS,CRISIS,DREAD,"Friday. A message.","Friday. You get a message from the chief scientist. One line. Meet me.",12
+BEAT_04_02,PHASE_CRISIS,CRISIS,DREAD,"Video call. They don't trust you.","A video call. Four faces on a screen. We don't trust you anymore. They don't say why.",15
+BEAT_04_03,PHASE_CRISIS,CRISIS,DREAD,"You walk out. Nothing in your hands.","You walk out of that building. Your backpack over one shoulder. Nothing else. The door closes behind you.",17
+BEAT_04_04,PHASE_CRISIS,REFLECT,DREAD,"700 people choose you.","You check your phone. Then again. Then again. Seven hundred people  -  almost everyone who works for you  -  sign a letter. They choose you. Not the board.",27
+BEAT_04_05,PHASE_CRISIS,REFLECT,DREAD,"48 hours. Loyalty.","Forty-eight hours. You don't have a company. You don't have a title. You don't have a desk. But you have something more dangerous. Loyalty.",24
+BEAT_04_06,PHASE_CRISIS,CONFLICT,CLARITY,"Biggest competitor offers. You say no.","The biggest competitor calls. They offer you a team. Unlimited budget. A fresh start. You say no.",16
+BEAT_04_07,PHASE_CRISIS,RESOLVE,CLARITY,"Tuesday. You walk back in.","Tuesday. You walk back into that building. Same door. Same hallway. But this time, no one can make you leave.",19
+BEAT_05_01,PHASE_RESOLUTION,RESOLVE,BITTERSWEET,"The old board is gone.","The old board is gone. Every one of them. The new board  -  you picked them yourself.",15
+BEAT_05_02,PHASE_RESOLUTION,REFLECT,BITTERSWEET,"Worth more than most countries. Still losing money.","The company is now worth more than most countries. And it's still losing money. Billions. Every quarter.",16
+BEAT_05_03,PHASE_RESOLUTION,CONFLICT,BITTERSWEET,"Nonprofit becomes for-profit.","You convert the nonprofit into a for-profit company. The exact thing everyone warned you about. The exact thing you said would never happen.",23
+BEAT_05_04,PHASE_RESOLUTION,REFLECT,BITTERSWEET,"You control what you said no one should.","You now control the thing you once said no one should control.",12
+BEAT_05_05,PHASE_RESOLUTION,CRISIS,DREAD,"No one left to stop you.","And now there's no one left to stop you.",8
+BEAT_05_06,PHASE_RESOLUTION,CONFLICT,BITTERSWEET,"Co-founder sues. Headlines.","One of the people who helped you start this  -  he sues you. Headlines compare you to fraudsters. Magazine covers. Courtrooms.",19
+BEAT_05_07,PHASE_RESOLUTION,REFLECT,BITTERSWEET,"Saving humanity or selling it?","The question isn't whether you're right anymore. The question is whether you're saving humanity  -  or selling it.",17
+BEAT_06_01,CALLBACK_CLOSE,CALLBACK,DEEP_CONNECTION,"Back to that room. The laptop.","You're back in that room. The laptop. The screen. The cursor blinking.",12
+BEAT_06_02,CALLBACK_CLOSE,CALLBACK,DEEP_CONNECTION,"You built it. Got fired. Took it back.","You built the smartest thing in the world. It got you fired. You took it back.",14
+BEAT_06_03,CALLBACK_CLOSE,REFLECT,DEEP_CONNECTION,"One question no one can answer.","But there's one question no one can answer.",8
+BEAT_06_04,CALLBACK_CLOSE,CTA,DEEP_CONNECTION,"Did you take control of it... or did it take control of you?","Did you take control of it  -  or did it take control of you?",13

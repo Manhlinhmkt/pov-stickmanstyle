@@ -1,0 +1,184 @@
+﻿VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_JA,VO_VI,Word_Count_EN,Pause_After
+1,PV_0010,BEAT_01_01,HOOK,ESTABLISH,WEIGHT_LINE,"You built the smartest thing on Earth.","あなたは地球上で最も賢いものを作った。","Bạn đã tạo ra thứ thông minh nhất trên Trái Đất.",7,1.5
+2,PV_0010,BEAT_01_02,HOOK,CRISIS,WEIGHT_LINE,"On Friday, they fire you from it.","金曜日、あなたはそこから追い出された。","Thứ Sáu, họ sa thải bạn khỏi chính thứ đó.",7,1.5
+3,PV_0010,BEAT_01_03,HOOK,ESTABLISH,WEIGHT_LINE,"By Tuesday  -  you own it again.","火曜日には -  - あなたはそれを取り戻した。","Đến thứ Ba  -  bạn lấy lại tất cả.",7,2.0
+4,PV_0010,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"You don't fit anywhere.","あなたはどこにも馴染めない。","Bạn không vừa ở đâu cả.",5,0.5
+5,PV_0010,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Not at school. Not at the dinner table. Not in the hallway between classes where everyone seems to already know each other.","学校でも。食卓でも。授業の間の廊下でも -  - みんなはもう知り合いみたいなのに。","Không ở trường. Không ở bàn ăn. Không ở hành lang giữa giờ  -  nơi ai cũng có vẻ đã quen nhau.",22,0.5
+6,PV_0010,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"The only place that makes sense is a screen.","唯一意味のある場所は画面の前だ。","Nơi duy nhất có nghĩa là trước màn hình.",9,0
+7,PV_0010,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"A keyboard. A blinking cursor in a dark room.","キーボード。暗い部屋で点滅するカーソル。","Bàn phím. Con trỏ nhấp nháy trong phòng tối.",8,0.5
+8,PV_0010,BEAT_02_01,PHASE_EARLY,ESTABLISH,TIME_MARKER,"You are eight.","あなたは八歳だ。","Bạn tám tuổi.",3,1.0
+9,PV_0010,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Someone gives you a computer. Your first one.","誰かがコンピューターをくれた。最初の一台。","Ai đó cho bạn một cái máy tính. Cái đầu tiên.",8,0.5
+10,PV_0010,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"You don't play games on it  -  not for long.","ゲームはしない -  - 長くは続かない。","Bạn không chơi game trên đó  -  không lâu.",9,0
+11,PV_0010,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"You take it apart. You want to know how it thinks.","分解する。それがどう考えるか知りたい。","Bạn tháo nó ra. Bạn muốn biết nó nghĩ thế nào.",11,1.0
+12,PV_0010,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"Systems make more sense than people.","システムのほうが人間より理にかなっている。","Hệ thống có lý hơn con người.",6,0.5
+13,PV_0010,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"You learn that early.","あなたはそれを早くに学んだ。","Bạn học điều đó rất sớm.",4,0.5
+14,PV_0010,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"Code does what you tell it. You type something, it happens. Every time.","コードはあなたの言う通りにする。何か打てば、それが起きる。毎回。","Code làm đúng thứ bạn bảo. Bạn gõ một thứ, nó xảy ra. Mỗi lần.",13,0
+15,PV_0010,BEAT_02_02,PHASE_EARLY,REFLECT,WEIGHT_LINE,"People don't.","人間はそうしない。","Con người thì không.",2,1.5
+16,PV_0010,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"You find chat rooms. Other kids like you  -  sharp, awkward, too fast for the room they're in.","チャットルームを見つける。あなたのような子供たち -  - 鋭くて、不器用で、周りには速すぎる。","Bạn tìm được chat room. Những đứa trẻ như bạn  -  sắc sảo, vụng về, nhanh hơn căn phòng chúng đang ở.",18,0.5
+17,PV_0010,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"For the first time, you don't have to slow down.","初めて、スピードを落とさなくていい。","Lần đầu tiên, bạn không cần phải chậm lại.",9,0.5
+18,PV_0010,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"You start reading about artificial intelligence. Not for a class. Not for a grade. Because you want to know if a machine can think.","人工知能について読み始める。授業のためじゃない。成績のためでもない。機械が考えられるか知りたいから。","Bạn bắt đầu đọc về trí tuệ nhân tạo. Không phải cho lớp học. Không phải vì điểm. Vì bạn muốn biết máy có nghĩ được không.",22,0.5
+19,PV_0010,BEAT_02_02,PHASE_EARLY,REFLECT,NARRATION,"You're fourteen. The idea stays.","あなたは十四歳。そのアイデアは消えない。","Bạn mười bốn tuổi. Ý tưởng đó ở lại.",6,1.0
+20,PV_0010,BEAT_02_03,PHASE_EARLY,TIME_MARKER,TIME_MARKER,"You are nineteen.","あなたは十九歳だ。","Bạn mười chín tuổi.",3,1.0
+21,PV_0010,BEAT_02_03,PHASE_EARLY,TIME_MARKER,NARRATION,"You drop out of the university.","あなたは大学を中退する。","Bạn bỏ đại học.",6,0.5
+22,PV_0010,BEAT_02_03,PHASE_EARLY,TIME_MARKER,NARRATION,"Not because you're lost.","迷っているからじゃない。","Không phải vì lạc lõng.",5,0
+23,PV_0010,BEAT_02_03,PHASE_EARLY,TIME_MARKER,WEIGHT_LINE,"Because you're bored.","退屈だからだ。","Vì chán.",3,1.5
+24,PV_0010,BEAT_02_03,PHASE_EARLY,TIME_MARKER,NARRATION,"Nothing they're teaching moves fast enough for the thing in your head.","教わることは、あなたの頭の中にある何かほど速く動かない。","Không thứ gì họ dạy đủ nhanh cho cái thứ đang chạy trong đầu bạn.",13,0.5
+25,PV_0010,BEAT_02_03,PHASE_EARLY,TIME_MARKER,NARRATION,"You have an idea. It's not AI yet. It's a location app. Something small.","アイデアがある。まだAIじゃない。位置情報アプリ。小さなものだ。","Bạn có một ý tưởng. Chưa phải AI. Một app vị trí. Thứ gì đó nhỏ thôi.",14,0.5
+26,PV_0010,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"Your first app sells. Forty-three million dollars.","あなたの最初のアプリが売れた。四千三百万ドル。","App đầu tiên của bạn được mua lại. Bốn mươi ba triệu đô.",7,0.5
+27,PV_0010,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"It sounds like a lot. You're twenty-six.","大金に聞こえる。あなたは二十六歳だ。","Nghe có vẻ nhiều. Bạn hai mươi sáu tuổi.",8,0.5
+28,PV_0010,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"But it isn't. Not for what you actually want.","でもそうじゃない。あなたが本当に欲しいものには足りない。","Nhưng không phải. Không đủ cho thứ bạn thật sự muốn.",10,0.5
+29,PV_0010,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"You don't know what that is yet. Not exactly. Not  - ","あなたはまだそれが何か分からない。正確には。まだ -  - ","Bạn chưa biết thứ đó là gì. Chưa chính xác. Chưa  - ",11,0
+30,PV_0010,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"But you know it's bigger than an app.","でもアプリより大きいことは分かっている。","Nhưng bạn biết nó lớn hơn một cái app.",8,0.5
+31,PV_0010,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"Something that changes the way everything works. Something that thinks.","すべての仕組みを変えるもの。考えるもの。","Thứ gì đó thay đổi cách mọi thứ vận hành. Thứ biết suy nghĩ.",10,2.0
+32,PV_0010,BEAT_03_01,PHASE_CONFLICT,TIME_MARKER,TIME_MARKER,"You are twenty-eight.","あなたは二十八歳だ。","Bạn hai mươi tám tuổi.",4,1.0
+33,PV_0010,BEAT_03_01,PHASE_CONFLICT,TIME_MARKER,NARRATION,"They put you in charge of the launchpad  -  the place where startups are born, where founders come with nothing and leave with everything.","彼らはあなたにローンチパッドを任せた -  - スタートアップが生まれる場所、創業者が何もない所からすべてを持って去る場所。","Họ giao cho bạn quyền điều hành launchpad  -  nơi mà startup ra đời, nơi founder đến tay trắng rồi rời đi với tất cả.",24,0.5
+34,PV_0010,BEAT_03_01,PHASE_CONFLICT,TIME_MARKER,NARRATION,"You're the youngest person to ever run it.","あなたはこれまでで最年少のトップだ。","Bạn là người trẻ nhất từng điều hành nó.",8,0.5
+35,PV_0010,BEAT_03_01,PHASE_CONFLICT,TIME_MARKER,NARRATION,"You're sitting in a room full of founders. Hundreds of them.","何百人もの創業者でいっぱいの部屋に座っている。","Bạn ngồi trong phòng đầy founder. Hàng trăm người.",10,0.5
+36,PV_0010,BEAT_03_01,PHASE_CONFLICT,TIME_MARKER,NARRATION,"They're pitching ideas. Building things. Some of them will be worth billions in five years.","アイデアを売り込んでいる。何かを作っている。彼らの何人かは五年後に何十億ドルの価値になる。","Họ đang pitch. Đang build. Vài người trong số họ sẽ trị giá hàng tỷ đô trong năm năm nữa.",15,0.5
+37,PV_0010,BEAT_03_01,PHASE_CONFLICT,TIME_MARKER,WEIGHT_LINE,"None of them are building what you want.","誰一人、あなたが望むものを作っていない。","Không ai trong số họ đang build thứ bạn muốn.",9,1.5
+38,PV_0010,BEAT_03_01,PHASE_CONFLICT,TIME_MARKER,NARRATION,"You want the thing that doesn't exist yet. The thing that thinks.","あなたは、まだ存在しないものが欲しい。考えるもの。","Bạn muốn thứ chưa tồn tại. Thứ biết suy nghĩ.",12,1.0
+39,PV_0010,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"So you leave.","だからあなたは去る。","Vậy nên bạn rời đi.",3,0.5
+40,PV_0010,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"You start something new. Not a company. A lab. A research lab.","新しいものを始める。会社じゃない。研究所だ。","Bạn bắt đầu thứ mới. Không phải company. Một lab. Một lab nghiên cứu.",11,0.5
+41,PV_0010,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"You make it a nonprofit. That part matters.","非営利にする。それが重要だ。","Bạn làm nó thành phi lợi nhuận. Phần đó quan trọng.",8,0.5
+42,PV_0010,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"Because you're not building this to sell it. You're building it to give it away.","なぜなら、これは売るために作るんじゃない。世界に渡すために作るんだ。","Vì bạn không build thứ này để bán. Bạn build nó để trao cho thế giới.",15,0.5
+43,PV_0010,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"You tell the whole world what it's for.","あなたは世界中にその目的を伝える。","Bạn nói với cả thế giới mục đích của nó.",8,0
+44,PV_0010,BEAT_03_02,PHASE_CONFLICT,CONFLICT,WEIGHT_LINE,"Humanity. The betterment of all humanity.","人類のために。全人類の発展のために。","Nhân loại. Vì sự tiến bộ của toàn nhân loại.",6,1.5
+45,PV_0010,BEAT_03_03,PHASE_CONFLICT,REFLECT,WEIGHT_LINE,"You just never define which one.","ただ、どの人類かは定義しなかった。","Bạn chỉ không bao giờ nói rõ  -  nhân loại nào.",7,1.5
+46,PV_0010,BEAT_03_04,PHASE_CONFLICT,ESTABLISH,NARRATION,"The best researchers in the world leave their jobs.","世界最高の研究者たちが仕事を辞めた。","Những nhà nghiên cứu giỏi nhất thế giới bỏ việc.",9,0.5
+47,PV_0010,BEAT_03_04,PHASE_CONFLICT,ESTABLISH,NARRATION,"Million-dollar salaries. Corner offices at the biggest tech companies on the planet.","年収何百万ドル。世界最大のテック企業の角部屋。","Lương triệu đô. Văn phòng góc tại những công ty tech lớn nhất hành tinh.",12,0.5
+48,PV_0010,BEAT_03_04,PHASE_CONFLICT,ESTABLISH,NARRATION,"They walk away from all of it. They come to you.","そのすべてを捨てた。彼らはあなたのもとに来た。","Họ bỏ hết. Họ đến với bạn.",10,0
+49,PV_0010,BEAT_03_04,PHASE_CONFLICT,ESTABLISH,WEIGHT_LINE,"Because they believe you.","あなたを信じたから。","Vì họ tin bạn.",4,1.5
+50,PV_0010,BEAT_03_04,PHASE_CONFLICT,ESTABLISH,NARRATION,"You build a team. Small at first. Then bigger. Then bigger than that.","チームを作る。最初は小さく。それから大きく。さらに大きく。","Bạn xây team. Nhỏ lúc đầu. Rồi lớn hơn. Rồi lớn hơn nữa.",13,0.5
+51,PV_0010,BEAT_03_04,PHASE_CONFLICT,ESTABLISH,NARRATION,"Late nights. Whiteboards covered in equations. Arguments about alignment  -  what it means for a machine to want what humans want.","遅くまで。方程式で覆われたホワイトボード。アラインメントについての議論 -  - 機械が人間の望むものを望むとは何を意味するのか。","Đêm khuya. Bảng trắng phủ đầy phương trình. Tranh luận về alignment  -  nghĩa là gì khi máy muốn thứ mà con người muốn.",20,0.5
+52,PV_0010,BEAT_03_04,PHASE_CONFLICT,ESTABLISH,NARRATION,"Someone brings pizza at two in the morning. You eat it cold. You don't notice.","誰かが朝の二時にピザを持ってくる。冷めたまま食べる。気づかない。","Ai đó mang pizza lúc hai giờ sáng. Bạn ăn nguội. Không nhận ra.",14,0.5
+53,PV_0010,BEAT_03_04,PHASE_CONFLICT,ESTABLISH,NARRATION,"One of the researchers  -  the best one, the one everyone calls the conscience  -  he stays late every night.","研究者の一人 -  - 最も優秀な、みんなが良心と呼ぶ人 -  - 彼は毎晩遅くまで残る。","Một trong những nhà nghiên cứu  -  giỏi nhất, người mà ai cũng gọi là lương tâm  -  anh ta ở lại khuya mỗi đêm.",19,0.5
+54,PV_0010,BEAT_03_04,PHASE_CONFLICT,ESTABLISH,NARRATION,"He believes in this more than anyone. More than you, maybe.","彼は誰よりもこれを信じている。あなたより、もしかしたら。","Anh ta tin vào thứ này hơn bất kỳ ai. Có khi hơn cả bạn.",11,0.5
+55,PV_0010,BEAT_03_04,PHASE_CONFLICT,ESTABLISH,WEIGHT_LINE,"Remember that.","それを覚えておけ。","Nhớ điều đó.",2,1.5
+56,PV_0010,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"You promise safety.","あなたは安全を約束する。","Bạn hứa sẽ an toàn.",3,0.5
+57,PV_0010,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"You say it in every interview, every meeting, every keynote  -  and you mean it, or you think you do.","すべてのインタビューで、すべての会議で、すべての講演で -  - 本気だった、少なくともそう思っていた。","Bạn nói điều đó trong mọi phỏng vấn, mọi cuộc họp, mọi keynote  -  và bạn nghĩ mình thật lòng.",21,0.5
+58,PV_0010,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"But the models get better. Faster. Smarter. Every week, something new.","しかしモデルは良くなる。速くなる。賢くなる。毎週、何か新しいことが起きる。","Nhưng model tốt hơn. Nhanh hơn. Thông minh hơn. Mỗi tuần, thứ gì đó mới.",12,0.5
+59,PV_0010,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"And the bigger companies start paying attention. They have more money. More data. More everything.","そして大企業が注目し始める。もっと金がある。もっとデータがある。もっと何もかも。","Và các company lớn hơn bắt đầu chú ý. Họ có nhiều tiền hơn. Nhiều data hơn. Nhiều hơn mọi thứ.",16,0.5
+60,PV_0010,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"You need to move fast. Faster than them.","速く動かなければならない。彼らより速く。","Bạn cần đi nhanh. Nhanh hơn họ.",8,0
+61,PV_0010,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"But speed is what gets funded.","しかし、資金がつくのはスピードだ。","Nhưng speed mới là thứ được fund.",6,0
+62,PV_0010,BEAT_03_05,PHASE_CONFLICT,CONFLICT,WEIGHT_LINE,"And you know it.","あなたはそれを分かっている。","Và bạn biết điều đó.",4,1.5
+63,PV_0010,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"You take a billion dollars from the biggest tech company in the world.","世界最大のテック企業から十億ドルを受け取る。","Bạn nhận một tỷ đô từ công ty tech lớn nhất thế giới.",12,0.5
+64,PV_0010,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"Then ten billion more.","さらに百億ドル。","Rồi mười tỷ nữa.",4,0.5
+65,PV_0010,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"The nonprofit starts looking like something else. But you don't call it that.","非営利は別のものに見え始める。でもあなたはそう呼ばない。","Tổ chức phi lợi nhuận bắt đầu trông giống thứ khác. Nhưng bạn không gọi nó vậy.",14,0.5
+66,PV_0010,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,"Some of the original people leave. Quietly. They don't make a scene.","初期メンバーの何人かが去る。静かに。騒ぎは起こさない。","Một vài người ban đầu ra đi. Lặng lẽ. Họ không làm ồn.",12,0.5
+67,PV_0010,BEAT_03_05,PHASE_CONFLICT,CONFLICT,WEIGHT_LINE,"They just stop believing you.","ただあなたを信じなくなっただけだ。","Họ chỉ ngừng tin bạn.",5,1.5
+68,PV_0010,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"November.","十一月。","Tháng Mười Một.",1,0.5
+69,PV_0010,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"You press the button. You release a chatbot.","ボタンを押す。チャットボットを公開する。","Bạn nhấn nút. Bạn thả một chatbot ra.",7,0.5
+70,PV_0010,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"You don't think it'll be like this.","こうなるとは思っていなかった。","Bạn không nghĩ nó sẽ như thế này.",7,0.5
+71,PV_0010,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"One hundred million people in two months. It's the fastest-growing thing that has ever existed on the internet  -  faster than any social network, any search engine, any product ever built.","一億人が二ヶ月で。インターネット上に存在したどんなものよりも急速に成長した -  - どんなSNSよりも、どんな検索エンジンよりも、これまでに作られたあらゆる製品よりも速く。","Một trăm triệu người trong hai tháng. Thứ tăng trưởng nhanh nhất từng tồn tại trên internet  -  nhanh hơn bất kỳ mạng xã hội nào, bất kỳ công cụ tìm kiếm nào, bất kỳ sản phẩm nào từng được tạo ra.",30,1.0
+72,PV_0010,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"People use it to write emails. To plan trips. To pass exams. To write code. To talk to something that talks back.","メールを書くのに使う。旅行の計画に。試験に受かるために。コードを書くために。返事をしてくれる何かと話すために。","Người ta dùng nó để viết email. Lên kế hoạch du lịch. Để thi đậu. Để viết code. Để nói chuyện với thứ biết trả lời.",21,0.5
+73,PV_0010,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"You scroll through the numbers on your phone.","携帯で数字をスクロールする。","Bạn lướt các con số trên điện thoại.",8,0
+74,PV_0010,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"The coffee on your desk went cold hours ago.","デスクのコーヒーはとっくに冷めている。","Ly cà phê trên bàn đã nguội từ lâu.",9,0
+75,PV_0010,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,WEIGHT_LINE,"You didn't notice.","気づかなかった。","Bạn không nhận ra.",3,1.0
+76,PV_0010,BEAT_03_07,PHASE_CONFLICT,REFLECT,NARRATION,"The whole world wakes up. Overnight.","世界中が一夜にして目を覚ます。","Cả thế giới thức dậy. Chỉ sau một đêm.",6,0.5
+77,PV_0010,BEAT_03_07,PHASE_CONFLICT,REFLECT,NARRATION,"Everyone's talking about it. Everyone's afraid of it.","みんなが話題にしている。みんなが恐れている。","Ai cũng bàn tán. Ai cũng sợ.",9,0
+78,PV_0010,BEAT_03_07,PHASE_CONFLICT,REFLECT,WEIGHT_LINE,"Everyone wants it.","みんなが欲しがっている。","Ai cũng muốn.",3,1.0
+79,PV_0010,BEAT_03_07,PHASE_CONFLICT,REFLECT,NARRATION,"Congressional hearings. Magazine covers. World leaders calling your name  -  or trying not to.","議会公聴会。雑誌の表紙。世界の指導者があなたの名前を呼ぶ -  - あるいは呼ばないようにしている。","Phiên điều trần quốc hội. Bìa tạp chí. Lãnh đạo thế giới nhắc đến bạn  -  hoặc cố không nhắc.",15,0.5
+80,PV_0010,BEAT_03_07,PHASE_CONFLICT,REFLECT,NARRATION,"You sit in front of senators and explain what your lab built.","上院議員の前に座り、あなたのラボが何を作ったか説明する。","Bạn ngồi trước các thượng nghị sĩ và giải thích lab bạn đã build cái gì.",13,0.5
+81,PV_0010,BEAT_03_07,PHASE_CONFLICT,REFLECT,NARRATION,"Some of them don't understand the words you're using.","彼らの何人かは、あなたが使っている言葉さえ理解していない。","Một số người trong đó không hiểu những từ bạn đang dùng.",11,0
+82,PV_0010,BEAT_03_07,PHASE_CONFLICT,REFLECT,NARRATION,"You explain it again. Simpler. Slower. You use the word 'tool' a lot.","もう一度説明する。もっと簡単に。もっとゆっくり。ツールという言葉をよく使う。","Bạn giải thích lại. Đơn giản hơn. Chậm hơn. Bạn dùng từ 'công cụ' rất nhiều.",13,0
+83,PV_0010,BEAT_03_07,PHASE_CONFLICT,REFLECT,WEIGHT_LINE,"They nod. You're not sure they got it.","彼らは頷く。理解したかどうか、あなたには分からない。","Họ gật đầu. Bạn không chắc họ hiểu.",8,1.0
+84,PV_0010,BEAT_03_07,PHASE_CONFLICT,REFLECT,NARRATION,"You think you understand how this works now.","あなたは今、これがどう機能するか分かったと思っている。","Bạn nghĩ mình đã hiểu cách mọi thứ vận hành rồi.",8,0.5
+85,PV_0010,BEAT_03_07,PHASE_CONFLICT,REFLECT,WEIGHT_LINE,"You don't.","分かっていない。","Bạn không hiểu đâu.",2,1.5
+86,PV_0010,BEAT_03_08,PHASE_CONFLICT,CONFLICT,NARRATION,"Inside the lab, something shifts. You can feel it but you can't name it.","ラボの中で、何かが変わる。感じるけど名前がつけられない。","Trong lab, có gì đó thay đổi. Bạn cảm nhận được nhưng không gọi tên được.",14,0.5
+87,PV_0010,BEAT_03_08,PHASE_CONFLICT,CONFLICT,NARRATION,"The chief scientist starts asking questions. Not about the product. About you.","チーフサイエンティストが質問を始める。製品についてじゃない。あなたについてだ。","Chief scientist bắt đầu đặt câu hỏi. Không phải về sản phẩm. Về bạn.",12,0.5
+88,PV_0010,BEAT_03_08,PHASE_CONFLICT,CONFLICT,NARRATION,"About what you're doing with the investors. About the direction. About the speed.","投資家たちと何をしているのか。方向性について。スピードについて。","Về những gì bạn làm với các nhà đầu tư. Về hướng đi. Về tốc độ.",14,0.5
+89,PV_0010,BEAT_03_08,PHASE_CONFLICT,CONFLICT,NARRATION,"No one asks if it's safe anymore. They ask something else.","もう誰も安全かどうか聞かない。彼らは別のことを聞く。","Không ai hỏi nó có an toàn không nữa. Họ hỏi thứ khác.",10,0.5
+90,PV_0010,BEAT_03_08,PHASE_CONFLICT,CONFLICT,WEIGHT_LINE,"Who owns it?","誰のものだ？","Ai sở hữu nó?",3,1.0
+91,PV_0010,BEAT_03_08,PHASE_CONFLICT,CONFLICT,NARRATION,"You tap the edge of the table once. Just once. Then you stop.","テーブルの端を一度叩く。一度だけ。それから止める。","Bạn gõ nhẹ mép bàn một lần. Chỉ một lần. Rồi dừng.",12,0.5
+92,PV_0010,BEAT_03_08,PHASE_CONFLICT,CONFLICT,NARRATION,"Your shoulders are up near your ears. You lower them. They go back up.","肩が耳の近くまで上がっている。下げる。また上がる。","Vai bạn nhích lên gần tai. Bạn hạ xuống. Chúng lại nhích lên.",14,2.0
+93,PV_0010,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"Friday.","金曜日。","Thứ Sáu.",1,0.5
+94,PV_0010,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"You get a message from the chief scientist.","チーフサイエンティストからメッセージが来る。","Bạn nhận tin nhắn từ chief scientist.",8,0.5
+95,PV_0010,BEAT_04_01,PHASE_CRISIS,CRISIS,WEIGHT_LINE,"One line. Meet me.","一行。会いに来い。","Một dòng. Gặp tôi.",4,1.5
+96,PV_0010,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"You don't think anything of it. Not yet.","あなたは何も思わない。まだ。","Bạn không nghĩ gì cả. Chưa.",8,0.5
+97,PV_0010,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"A video call. Four faces on a screen.","ビデオ通話。画面に四つの顔。","Một cuộc video call. Bốn khuôn mặt trên màn hình.",7,0.5
+98,PV_0010,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"The words are short. Practiced. Like they've been rehearsed.","言葉は短い。練習されている。まるでリハーサルされたかのように。","Những lời ngắn gọn. Như đã luyện tập. Như đã diễn tập sẵn.",10,0.5
+99,PV_0010,BEAT_04_02,PHASE_CRISIS,CRISIS,WEIGHT_LINE,"We don't trust you anymore.","もうあなたを信用していない。","Chúng tôi không tin bạn nữa.",6,1.0
+100,PV_0010,BEAT_04_02,PHASE_CRISIS,CRISIS,WEIGHT_LINE,"They don't say why.","理由を言わない。","Họ không nói tại sao.",5,1.5
+101,PV_0010,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"You ask. They repeat the same sentence. Different words, same sentence.","聞く。同じ文を繰り返す。違う言葉、同じ意味。","Bạn hỏi. Họ lặp lại cùng một câu. Từ khác, ý giống.",11,0.5
+102,PV_0010,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"One of them helped you build this. He's looking at the camera, not at you.","彼らの一人はあなたと一緒にこれを作った。カメラを見ている。あなたを見ていない。","Một trong số họ từng cùng bạn build thứ này. Anh ta nhìn vào camera, không phải vào bạn.",15,1.0
+103,PV_0010,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"You walk out of that building.","あなたはそのビルを出る。","Bạn bước ra khỏi tòa nhà đó.",6,0.5
+104,PV_0010,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"Your backpack over one shoulder. Phone in your hand. Nothing else.","バックパックを片肩にかけて。携帯を手に。それだけ。","Ba lô vắt một bên vai. Điện thoại trong tay. Không gì khác.",10,0.5
+105,PV_0010,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"The air outside is cold. You notice that. You don't know why that's the thing you notice.","外の空気は冷たい。それに気づく。なぜそれに気づくのかは分からない。","Không khí bên ngoài lạnh. Bạn nhận ra điều đó. Bạn không biết tại sao đó lại là thứ bạn nhận ra.",18,0.5
+106,PV_0010,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"The door closes behind you.","ドアが後ろで閉まる。","Cánh cửa đóng lại sau lưng bạn.",5,1.0
+107,PV_0010,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"Six hours ago you ran this company. Now you don't run anything.","六時間前、あなたはこの会社を経営していた。今は何も経営していない。","Sáu giờ trước bạn còn điều hành company này. Giờ bạn không điều hành gì cả.",13,0.5
+108,PV_0010,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"You built this. You named it. You hired every person inside it.","あなたがこれを作った。名前をつけた。中にいる全員を雇った。","Bạn đã build thứ này. Đặt tên cho nó. Tuyển từng người bên trong.",12,0.5
+109,PV_0010,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"You sit in a car. You don't tell the driver where to go.","車に乗る。運転手にどこに行くか言わない。","Bạn ngồi trong xe. Bạn không nói tài xế đi đâu.",12,0.5
+110,PV_0010,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"Your phone screen is still on. You stare at it. The brightness hurts.","携帯の画面はまだ点いている。見つめる。明るさが目に痛い。","Màn hình điện thoại vẫn sáng. Bạn nhìn chằm chằm. Ánh sáng nhói mắt.",13,1.0
+111,PV_0010,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,"Saturday. You sit in your apartment. The phone doesn't stop.","土曜日。アパートに座っている。電話が止まらない。","Thứ Bảy. Bạn ngồi trong căn hộ. Điện thoại không ngừng.",10,0.5
+112,PV_0010,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,"Messages. Calls. People you haven't heard from in years. People you barely know.","メッセージ。電話。何年も連絡のなかった人たち。ほとんど知らない人たち。","Tin nhắn. Cuộc gọi. Những người bạn không nghe tin từ nhiều năm. Người bạn hầu như không quen.",14,0.5
+113,PV_0010,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,"Your co-founder calls. He got removed from the board too. He's not sure what to do.","共同創業者が電話してくる。彼も取締役会から外された。どうすればいいか分からないと言う。","Co-founder gọi. Anh ta cũng bị loại khỏi board. Anh ta không biết phải làm gì.",15,0.5
+114,PV_0010,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,"Sunday. They announce a new CEO. Someone you've never worked with.","日曜日。新しいCEOが発表される。あなたが一度も一緒に働いたことのない人だ。","Chủ Nhật. Họ công bố CEO mới. Người mà bạn chưa bao giờ làm việc cùng.",12,0.5
+115,PV_0010,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,"You check your phone. Then again. Then again.","あなたは携帯を見る。もう一度。もう一度。","Bạn kiểm tra điện thoại. Lại kiểm tra. Rồi lại.",8,0.5
+116,PV_0010,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,"Seven hundred people sign a letter. Almost everyone who works for you.","七百人が手紙に署名した。あなたの部下のほぼ全員が。","Bảy trăm người ký một lá thư. Gần như tất cả những người làm việc cho bạn.",11,0.5
+117,PV_0010,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,"They choose you.","彼らはあなたを選ぶ。","Họ chọn bạn.",3,0
+118,PV_0010,BEAT_04_04,PHASE_CRISIS,REFLECT,WEIGHT_LINE,"Not the board.","取締役会ではなく。","Không phải ban lãnh đạo.",3,1.5
+119,PV_0010,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,"The man who helped fire you  -  he signs it too. Publicly.","あなたを追い出すのを手伝った男 -  - 彼も署名する。公に。","Người đã giúp sa thải bạn  -  anh ta cũng ký. Công khai.",12,0.5
+120,PV_0010,BEAT_04_44,PHASE_CRISIS,REFLECT,WEIGHT_LINE,"He says he regrets it.","彼は後悔していると言う。","Anh ta nói anh ta hối hận.",5,1.5
+121,PV_0010,BEAT_04_05,PHASE_CRISIS,REFLECT,NARRATION,"Forty-eight hours.","四十八時間。","Bốn mươi tám giờ.",3,0.5
+122,PV_0010,BEAT_04_05,PHASE_CRISIS,REFLECT,NARRATION,"You don't have a company. You don't have a title. You don't have a desk.","あなたには会社がない。肩書きもない。デスクもない。","Bạn không có company. Không có chức danh. Không có bàn làm việc.",14,0.5
+123,PV_0010,BEAT_04_05,PHASE_CRISIS,REFLECT,NARRATION,"But you have something more dangerous.","しかし、あなたにはもっと危険なものがある。","Nhưng bạn có thứ nguy hiểm hơn.",6,0.5
+124,PV_0010,BEAT_04_05,PHASE_CRISIS,REFLECT,WEIGHT_LINE,"Loyalty.","忠誠心。","Sự trung thành.",1,2.0
+125,PV_0010,BEAT_04_06,PHASE_CRISIS,CONFLICT,NARRATION,"Monday. The biggest competitor calls.","月曜日。最大の競合が電話してくる。","Thứ Hai. Đối thủ lớn nhất gọi.",5,0.5
+126,PV_0010,BEAT_04_06,PHASE_CRISIS,CONFLICT,NARRATION,"They offer you a team. Unlimited budget. A fresh start. Everything you'd need to rebuild from scratch  -  faster, cleaner, with none of the mess.","チームを提供すると言う。無制限の予算。ゼロからのスタート。すべてをゼロから再構築するのに必要なものすべて -  - もっと速く、もっとクリーンに、ゴタゴタなしで。","Họ đề nghị bạn một team. Ngân sách không giới hạn. Khởi đầu mới. Mọi thứ bạn cần để build lại từ đầu  -  nhanh hơn, sạch hơn, không rắc rối.",24,0.5
+127,PV_0010,BEAT_04_06,PHASE_CRISIS,CONFLICT,NARRATION,"For a few hours, it almost makes sense. Start over. No board. No politics. Just build.","数時間、それはほぼ理にかなっていた。やり直す。取締役会なし。政治なし。ただ作るだけ。","Trong vài giờ, nó gần như có lý. Bắt đầu lại. Không board. Không chính trị. Chỉ build.",15,0.5
+128,PV_0010,BEAT_04_06,PHASE_CRISIS,CONFLICT,WEIGHT_LINE,"You say no.","あなたは断る。","Bạn từ chối.",3,1.5
+129,PV_0010,BEAT_04_06,PHASE_CRISIS,CONFLICT,NARRATION,"Because this isn't about building something new. It's about taking back what's yours.","なぜなら、これは新しいものを作ることじゃない。あなたのものを取り戻すことだ。","Vì đây không phải chuyện build thứ mới. Đây là chuyện lấy lại thứ của bạn.",14,1.0
+130,PV_0010,BEAT_04_07,PHASE_CRISIS,RESOLVE,NARRATION,"Tuesday.","火曜日。","Thứ Ba.",1,0.5
+131,PV_0010,BEAT_04_07,PHASE_CRISIS,RESOLVE,NARRATION,"You walk back into that building. Same door. Same hallway.","あなたはあのビルに戻る。同じドア。同じ廊下。","Bạn bước lại vào tòa nhà đó. Cùng cánh cửa. Cùng hành lang.",10,0.5
+132,PV_0010,BEAT_04_07,PHASE_CRISIS,RESOLVE,NARRATION,"Something happens in your chest. Not pain. Not panic.","胸の中で何かが起きる。痛みじゃない。パニックでもない。","Có gì đó xảy ra trong ngực bạn. Không phải đau. Không phải hoảng.",10,0
+133,PV_0010,BEAT_04_07,PHASE_CRISIS,RESOLVE,NARRATION,"Just a skip. And then it's gone.","ただ一拍飛んだだけ。そして消えた。","Chỉ là một nhịp bỏ. Rồi nó biến mất.",9,0.5
+134,PV_0010,BEAT_04_07,PHASE_CRISIS,RESOLVE,NARRATION,"People line the hallway. Some of them are clapping. Some of them are crying.","人々が廊下に並んでいる。拍手している人もいる。泣いている人もいる。","Mọi người đứng dọc hành lang. Vài người vỗ tay. Vài người khóc.",12,0.5
+135,PV_0010,BEAT_04_07,PHASE_CRISIS,RESOLVE,NARRATION,"You don't know what to do with that. So you just walk.","どうすればいいか分からない。だから歩くだけだ。","Bạn không biết phải làm gì với điều đó. Nên bạn cứ bước.",13,0.5
+136,PV_0010,BEAT_04_07,PHASE_CRISIS,RESOLVE,WEIGHT_LINE,"This time, no one can make you leave.","今度は、誰もあなたを追い出せない。","Lần này, không ai có quyền đuổi bạn nữa.",8,2.0
+137,PV_0010,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"The old board is gone. Every one of them.","旧取締役会は消えた。全員。","Ban lãnh đạo cũ đã biến mất. Tất cả.",8,0.5
+138,PV_0010,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"The chief scientist  -  the conscience  -  he's gone too. He left before the vote.","あの良心と呼ばれた男 -  - 彼も去った。投票の前に。","Chief scientist  -  lương tâm  -  anh ta cũng đi rồi. Trước khi bỏ phiếu.",14,0.5
+139,PV_0010,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"He didn't say goodbye. He just stopped showing up.","さよならも言わなかった。ただ来なくなっただけだ。","Anh ta không chào từ biệt. Chỉ ngừng xuất hiện.",10,1.0
+140,PV_0010,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"The new board  -  you picked them yourself.","新しい取締役会 -  - あなた自身が選んだ。","Ban lãnh đạo mới  -  bạn tự chọn.",8,1.0
+141,PV_0010,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"You sit at the head of the table. The same table.","テーブルの上座に座る。同じテーブルだ。","Bạn ngồi ở đầu bàn. Cùng cái bàn đó.",10,0
+142,PV_0010,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,WEIGHT_LINE,"Different chairs. Your chairs.","椅子は違う。あなたの椅子だ。","Ghế khác. Ghế của bạn.",4,1.5
+143,PV_0010,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Months pass. The company keeps growing. The models keep getting smarter.","数ヶ月が過ぎる。会社は成長し続ける。モデルはどんどん賢くなる。","Vài tháng trôi qua. Company tiếp tục lớn. Các model ngày càng thông minh hơn.",11,0.5
+144,PV_0010,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"The valuation doubles. Then doubles again. The company is now worth more than most countries.","評価額が倍になる。さらに倍になる。会社は今、ほとんどの国より価値がある。","Định giá nhân đôi. Rồi nhân đôi lần nữa. Company giờ đáng giá hơn hầu hết các quốc gia.",15,0.5
+145,PV_0010,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"And it's still losing money. Billions. Every quarter.","それでもまだ赤字だ。何十億ドル。毎四半期。","Và vẫn đang thua lỗ. Hàng tỷ đô. Mỗi quý.",9,0.5
+146,PV_0010,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"You don't think about that part too much.","その部分についてはあまり考えないようにしている。","Bạn không nghĩ nhiều về phần đó.",8,0
+147,PV_0010,BEAT_05_02,PHASE_RESOLUTION,REFLECT,WEIGHT_LINE,"You leave it.","放っておく。","Bạn bỏ qua.",3,1.0
+148,PV_0010,BEAT_05_03,PHASE_RESOLUTION,CONFLICT,NARRATION,"You convert the nonprofit into a for-profit company.","あなたは非営利組織を営利企業に変えた。","Bạn chuyển tổ chức phi lợi nhuận thành công ty vì lợi nhuận.",8,0.5
+149,PV_0010,BEAT_05_03,PHASE_RESOLUTION,CONFLICT,NARRATION,"You sign the papers. You do the interviews. You explain that this is how it has to be.","書類にサインする。インタビューを受ける。こうするしかないと説明する。","Bạn ký giấy tờ. Bạn trả lời phỏng vấn. Bạn giải thích rằng phải thế.",16,0.5
+150,PV_0010,BEAT_05_03,PHASE_RESOLUTION,CONFLICT,NARRATION,"The exact thing everyone warned you about.","みんなが警告していたまさにそのことだ。","Đúng điều mà ai cũng từng cảnh báo bạn.",7,0
+151,PV_0010,BEAT_05_03,PHASE_RESOLUTION,CONFLICT,WEIGHT_LINE,"The exact thing you said would never happen.","あなた自身が絶対にないと言っていたことだ。","Đúng điều mà bạn từng nói sẽ không bao giờ xảy ra.",9,1.5
+152,PV_0010,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,"You now control the thing you once said no one should control.","あなたは今、誰もコントロールすべきでないと言ったものをコントロールしている。","Bạn giờ kiểm soát thứ mà chính bạn từng nói không ai nên kiểm soát.",12,1.0
+153,PV_0010,BEAT_05_05,PHASE_RESOLUTION,CRISIS,WEIGHT_LINE,"And now there's no one left to stop you.","そして今、あなたを止められる者は誰もいない。","Và giờ  -  không còn ai để ngăn bạn lại.",9,1.0
+154,PV_0010,BEAT_05_05,PHASE_RESOLUTION,CRISIS,NARRATION,"Not even the person you see in the mirror. He stopped asking questions a while ago.","鏡の中の自分さえも。彼はしばらく前に質問するのをやめた。","Kể cả người bạn thấy trong gương. Anh ta đã ngừng đặt câu hỏi từ lâu rồi.",16,2.0
+155,PV_0010,BEAT_05_06,PHASE_RESOLUTION,CONFLICT,NARRATION,"One of the people who helped you start this  -  he sues you.","最初からあなたと一緒だった人の一人が -  - あなたを訴えた。","Một trong những người từng cùng bạn bắt đầu  -  anh ta kiện bạn.",12,0.5
+156,PV_0010,BEAT_05_06,PHASE_RESOLUTION,CONFLICT,NARRATION,"He says you lied. He says the whole thing was a trick  -  the nonprofit, the mission, all of it.","嘘をついたと言う。全部がトリックだったと -  - 非営利も、ミッションも、すべて。","Anh ta nói bạn lừa dối. Anh ta nói toàn bộ là mánh  -  phi lợi nhuận, sứ mệnh, tất cả.",20,0.5
+157,PV_0010,BEAT_05_06,PHASE_RESOLUTION,CONFLICT,NARRATION,"Headlines compare you to fraudsters. Magazine covers. Courtrooms.","見出しはあなたを詐欺師と比較する。雑誌の表紙。法廷。","Báo chí so sánh bạn với kẻ lừa đảo. Bìa tạp chí. Phòng xử án.",8,0.5
+158,PV_0010,BEAT_05_06,PHASE_RESOLUTION,CONFLICT,NARRATION,"Lawyers who call at seven in the morning. Reporters outside the office.","朝七時に電話してくる弁護士たち。オフィスの外の記者たち。","Luật sư gọi lúc bảy giờ sáng. Phóng viên đứng ngoài văn phòng.",11,0.5
+159,PV_0010,BEAT_05_06,PHASE_RESOLUTION,CONFLICT,NARRATION,"You try to explain it to someone once. Not a reporter. Just  -  someone.","一度だけ、誰かに説明しようとした。記者じゃない。ただ -  - 誰かに。","Có lần bạn thử giải thích cho ai đó. Không phải phóng viên. Chỉ  -  ai đó thôi.",13,0.5
+160,PV_0010,BEAT_05_06,PHASE_RESOLUTION,CONFLICT,NARRATION,"It doesn't come out right.","うまく言葉にならない。","Nó không ra đúng ý.",5,0
+161,PV_0010,BEAT_05_06,PHASE_RESOLUTION,CONFLICT,WEIGHT_LINE,"You stop trying after that.","それ以来、もう試さない。","Từ đó bạn không thử nữa.",5,1.5
+162,PV_0010,BEAT_05_07,PHASE_RESOLUTION,REFLECT,NARRATION,"Investigative reports come out. Long ones. The kind with timelines and leaked emails.","調査報告が出る。長いやつ。タイムラインとリークされたメールが含まれている類の。","Các bài điều tra xuất hiện. Dài. Loại có timeline và email bị rò rỉ.",13,0.5
+163,PV_0010,BEAT_05_07,PHASE_RESOLUTION,REFLECT,NARRATION,"They say you moved too fast. That you knew the risks and shipped anyway.","あなたは速すぎたと。リスクを知っていながらリリースしたと。","Họ nói bạn đi quá nhanh. Rằng bạn biết rủi ro nhưng vẫn ship.",14,0.5
+164,PV_0010,BEAT_05_07,PHASE_RESOLUTION,REFLECT,NARRATION,"They say you told the board one thing and did another.","取締役会には一つのことを言って別のことをしたと。","Họ nói bạn nói với board một đằng rồi làm một nẻo.",11,0.5
+165,PV_0010,BEAT_05_07,PHASE_RESOLUTION,REFLECT,NARRATION,"You read every word. You don't agree with most of it. But some of it  -  you don't argue.","一語一語読む。ほとんどには同意しない。でも一部は -  - 反論しない。","Bạn đọc từng chữ. Bạn không đồng ý phần lớn. Nhưng một số  -  bạn không phản bác.",18,1.0
+166,PV_0010,BEAT_05_07,PHASE_RESOLUTION,REFLECT,NARRATION,"The question isn't whether you're right anymore.","問題はもうあなたが正しいかどうかじゃない。","Câu hỏi không còn là bạn có đúng hay không.",7,0.5
+167,PV_0010,BEAT_05_07,PHASE_RESOLUTION,REFLECT,NARRATION,"The question is whether you're saving humanity  -  or selling it.","問題は、あなたが人類を救っているのか -  - それとも売り渡しているのかだ。","Câu hỏi là liệu bạn đang cứu nhân loại  -  hay bán nó.",11,1.0
+168,PV_0010,BEAT_05_07,PHASE_RESOLUTION,REFLECT,NARRATION,"You don't like thinking about any of this.","どれについても考えたくない。","Bạn không thích nghĩ về bất kỳ điều nào trong số này.",9,0.5
+169,PV_0010,BEAT_05_07,PHASE_RESOLUTION,REFLECT,NARRATION,"You look at the screen. The numbers look fine. Everything looks fine.","画面を見る。数字は問題ない。何もかも問題ない。","Bạn nhìn màn hình. Các con số ổn. Mọi thứ có vẻ ổn.",11,0
+170,PV_0010,BEAT_05_07,PHASE_RESOLUTION,REFLECT,NARRATION,"Something in them isn't wrong yet.","まだ何も間違っていない。","Chưa có gì sai trong đó.",6,0
+171,PV_0010,BEAT_05_07,PHASE_RESOLUTION,REFLECT,WEIGHT_LINE,"That's what bothers you.","それが気になる。","Đó mới là thứ khiến bạn bất an.",4,1.5
+172,PV_0010,BEAT_05_07,PHASE_RESOLUTION,REFLECT,NARRATION,"You stand in the server room sometimes. Late. After everyone's gone.","時々サーバールームに立つ。遅くに。みんなが帰った後。","Đôi khi bạn đứng trong phòng server. Khuya. Sau khi mọi người về hết.",10,0.5
+173,PV_0010,BEAT_05_07,PHASE_RESOLUTION,REFLECT,NARRATION,"The hum of the machines is the only sound  -  thousands of them, stacked floor to ceiling, processing things you can't fully explain anymore.","機械のうなりだけが聞こえる -  - 何千台も、床から天井までぎっしり、もう完全には説明できないものを処理している。","Tiếng ù của máy móc là âm thanh duy nhất  -  hàng ngàn chiếc, xếp từ sàn tới trần, xử lý những thứ bạn không thể giải thích hết nữa.",24,0.5
+174,PV_0010,BEAT_05_07,PHASE_RESOLUTION,REFLECT,NARRATION,"Something blurs. Not your vision. Something behind it. You blink. It clears.","何かがぼやける。視界じゃない。その奥にある何か。瞬きする。晴れる。","Có gì đó mờ đi. Không phải tầm nhìn. Thứ gì đó phía sau nó. Bạn chớp mắt. Nó biến mất.",13,0.5
+175,PV_0010,BEAT_05_07,PHASE_RESOLUTION,REFLECT,WEIGHT_LINE,"You leave without turning the light off. It doesn't matter. They never turn off.","電気を消さずに出る。関係ない。消えることはない。","Bạn rời đi mà không tắt đèn. Không quan trọng. Chúng không bao giờ tắt.",14,2.0
+176,PV_0010,BEAT_06_01,CALLBACK_CLOSE,CALLBACK,NARRATION,"You're back in that room.","あなたはあの部屋に戻っている。","Bạn lại ở trong căn phòng đó.",6,0.5
+177,PV_0010,BEAT_06_01,CALLBACK_CLOSE,CALLBACK,NARRATION,"The laptop. The screen. The cursor blinking.","ノートパソコン。画面。点滅するカーソル。","Cái laptop. Màn hình. Con trỏ nhấp nháy.",7,1.0
+178,PV_0010,BEAT_06_01,CALLBACK_CLOSE,CALLBACK,NARRATION,"Same glow you saw when you were eight.","八歳のときに見たのと同じ光。","Cùng ánh sáng bạn thấy lúc tám tuổi.",8,0.5
+179,PV_0010,BEAT_06_02,CALLBACK_CLOSE,CALLBACK,NARRATION,"You built the smartest thing in the world.","あなたは世界で最も賢いものを作った。","Bạn đã tạo ra thứ thông minh nhất thế giới.",8,0.5
+180,PV_0010,BEAT_06_02,CALLBACK_CLOSE,CALLBACK,NARRATION,"It got you fired.","それがあなたを追い出した。","Nó khiến bạn bị sa thải.",5,0.5
+181,PV_0010,BEAT_06_02,CALLBACK_CLOSE,CALLBACK,WEIGHT_LINE,"You took it back.","あなたはそれを取り戻した。","Bạn lấy lại nó.",4,1.5
+182,PV_0010,BEAT_06_03,CALLBACK_CLOSE,REFLECT,NARRATION,"But there's one question no one can answer.","しかし、誰にも答えられない問いが一つある。","Nhưng có một câu hỏi mà không ai trả lời được.",9,1.0
+183,PV_0010,BEAT_06_04,CALLBACK_CLOSE,CTA,WEIGHT_LINE,"Did you take control of it  -  or did it take control of you?","あなたがそれを支配したのか -  - それともそれがあなたを支配したのか？","Bạn kiểm soát nó  -  hay nó kiểm soát bạn?",13,2.0

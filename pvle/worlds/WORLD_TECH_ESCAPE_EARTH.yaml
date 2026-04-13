@@ -1,0 +1,146 @@
+# WORLD: WORLD_TECH_ESCAPE_EARTH
+# Generated: 2026-04-05
+# Source: /pvle-extract-anchor (Named Entity Mode)
+
+WORLD_ID: WORLD_TECH_ESCAPE_EARTH
+display_name: "The Man Who Was Trying to Escape Earth"
+domain: TECH_INDUSTRY
+era: MODERN_CONTEMPORARY
+implied_identity_mode: TRANSPARENT_VEIL
+implied_person: "Elon Musk"  # INTERNAL ONLY — never appears in any output
+veil_strictness: MAXIMUM
+
+tags:
+  - escape_pattern
+  - compulsive_builder
+  - richest_person
+  - mars_obsession
+  - childhood_trauma
+  - serial_departure
+  - government_power
+  - polarizing_figure
+
+seed_keywords:
+  - "Elon Musk"
+  - "escape earth"
+  - "richest person"
+  - "rockets and cars"
+  - "Mars colonization"
+
+era_anchors:
+  - year: 1971
+    event: "Born in South Africa to a wealthy, complicated family"
+  - year: 1983
+    event: "Hospitalized after schoolyard beating — broken bones, concussion"
+  - year: 1988
+    event: "Left South Africa at 17 — never looked back"
+  - year: 1995
+    event: "Started first internet company in a rented office"
+  - year: 1999
+    event: "Sold first company for $300M+ — immediately reinvested everything"
+  - year: 2002
+    event: "Founded rocket company with personal fortune — goal: Mars"
+  - year: 2008
+    event: "Three consecutive rocket failures. Car company bleeding cash. Nearly bankrupt. Personally funded 4th launch — last chance"
+  - year: 2012
+    event: "First private spacecraft reaches orbit. Car company goes public"
+  - year: 2021
+    event: "Became the richest person alive — $300B+"
+  - year: 2022
+    event: "Purchased global social media platform for $44B"
+  - year: 2025
+    event: "Entered government — appointed to senior advisory/efficiency role"
+  - year: 2026
+    event: "Running six companies while advising the most powerful office on earth"
+
+unique_circumstance_stack:
+  - "Father owned mining interests in southern Africa — wealth that shaped and scarred him"
+  - "Bullied so severely as a child he was hospitalized — stairs, concrete, broken face"
+  - "Taught himself programming — sold a video game at 12 for $500"
+  - "Left South Africa at 17 to avoid mandatory military service under apartheid"
+  - "Arrived in North America with almost nothing — showered at the YMCA"
+  - "Invested entire personal fortune from first exit into two companies simultaneously"
+  - "Rocket failed three consecutive launches — personally funded the 4th with last money"
+  - "Sleeps on factory floors during production crises rather than going home"
+  - "Has publicly stated he intends to die on Mars, not Earth"
+  - "12+ children across multiple partners and decades"
+  - "Works 80-120 hours weekly — describes it as compulsion, not choice"
+  - "Every tweet moves markets, starts fires, ends careers"
+  - "Went from builder to government advisor — critics say he's buying influence"
+  - "Half the world sees a visionary. The other half sees a man who can't be trusted with power"
+
+public_perception_markers:
+  - "Most polarizing tech figure of the 21st century — no neutral opinion exists"
+  - "Worshipped by builders and futurists, despised by labor advocates and regulators"
+  - "Every decision analyzed by millions in real time"
+  - "Name alone triggers strong emotional reaction — love or contempt, nothing between"
+
+forbidden_terms:
+  names:
+    - "Elon"
+    - "Musk"
+  companies:
+    - term: "Tesla"
+      replacement: "the electric car company"
+    - term: "SpaceX"
+      replacement: "the rocket company"
+    - term: "Twitter"
+      replacement: "the platform"
+    - term: "X"
+      replacement: "the platform"
+    - term: "PayPal"
+      replacement: "the payment company"
+    - term: "Neuralink"
+      replacement: "the brain interface project"
+    - term: "The Boring Company"
+      replacement: "the tunneling project"
+    - term: "xAI"
+      replacement: "the AI company"
+    - term: "DOGE"
+      replacement: "the efficiency office"
+    - term: "Starlink"
+      replacement: "the satellite network"
+  people:
+    - term: "Grimes"
+      replacement: "the musician"
+    - term: "Justine"
+      replacement: "your first wife"
+    - term: "Trump"
+      replacement: "the president"
+  places:
+    - term: "Pretoria"
+      replacement: "a city in South Africa"
+    - term: "Boca Chica"
+      replacement: "the launch site"
+    - term: "Fremont"
+      replacement: "the factory"
+    - term: "Hawthorne"
+      replacement: "the headquarters"
+
+key_tensions:
+  - "ESCAPE vs CONTROL — every departure leads to a larger empire"
+  - "BUILDER vs DESTROYER — creates industries, dismantles institutions"
+  - "ISOLATION vs INFLUENCE — most connected man alive, fundamentally alone"
+  - "FATHER vs ABSENCE — 12+ children, sleeps on factory floors"
+  - "EARTH vs MARS — wants to save humanity by leaving it"
+  - "VISIONARY vs TYRANT — depends entirely on who's watching"
+
+thematic_core:
+  identity: "ESCAPE_PATTERN"
+  thesis: "Every departure is sold as progress. South Africa → America → Mars. But the pattern isn't innovation — it's flight."
+  counter: "Or maybe escape IS the engine. Maybe the man only works when he's running from something."
+  unresolved: "What happens when there's nowhere left to go?"
+
+accessory_tags:
+  - rocket_on_launchpad
+  - factory_floor_sleeping_bag
+  - phone_screen_with_tweet
+  - mars_surface_red
+  - childhood_schoolyard
+  - government_briefing_room
+  - electric_car_assembly_line
+  - satellite_constellation
+  - empty_mansion
+
+used_in_episodes: [PV_0008]
+created: "2026-04-05"

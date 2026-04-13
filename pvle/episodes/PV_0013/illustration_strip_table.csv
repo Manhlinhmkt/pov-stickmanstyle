@@ -1,0 +1,96 @@
+﻿Strip_ID,Start_VO_ID,End_VO_ID,VO_Count,Life_Phase,Scene_Type,Duration_Sec,Strip_Summary
+PV_0013_001,1,4,4,HOOK,NARRATIVE_SCENE,11.6,Stickman in grey t-shirt at cafe table with open laptop. Bitcoin price on screen. TV in background.
+PV_0013_002,5,5,1,HOOK,NARRATIVE_SCENE,9.7,Stickman scene: Somebody behind the counter is talking about blockchain - us
+PV_0013_003,6,8,3,HOOK,NARRATIVE_SCENE,9.8,Stickman scene: You remember writing it into the first line of code. You kno
+PV_0013_004,9,12,4,HOOK,NARRATIVE_SCENE,10.8,Bold text on dark: 'One million coins. Untouched. Worth tens of billions.'
+PV_0013_005,13,15,3,HOOK,NARRATIVE_SCENE,7.9,Stickman scene: The largest fortune no one has ever moved. No bank holds it.
+PV_0013_006,16,16,1,HOOK,NARRATIVE_SCENE,7.4,Blockchain visualization - glowing wallet sitting untouched in vast digital space.
+PV_0013_007,17,18,2,HOOK,NARRATIVE_SCENE,7.5,Stickman scene: Because the person who owns it doesn't exist. You created di
+PV_0013_008,19,19,1,HOOK,TEXT_OVERLAY,5.2,Bold text on dark: 'Then you stood up and walked away.'
+PV_0013_009,20,23,4,PHASE_EARLY,NARRATIVE_SCENE,10.3,Stickman in dark hoodie at secondhand desk. Monitor humming. Late night glow. Coffee mug.
+PV_0013_010,24,25,2,PHASE_EARLY,NARRATIVE_SCENE,12.0,Stickman scene: The room smells like old coffee and warm plastic from the mo
+PV_0013_011,26,26,1,PHASE_EARLY,NARRATIVE_SCENE,2.8,Stickman scene: Nobody asked you to fix money.
+PV_0013_012,27,27,1,PHASE_EARLY,NARRATIVE_SCENE,11.1,Stickman scene: Nobody asked you to redesign how trust works between strange
+PV_0013_013,28,31,4,PHASE_EARLY,NARRATIVE_SCENE,9.7,Stickman scene: But the problem keeps you up at night. Every transaction in 
+PV_0013_014,32,33,2,PHASE_EARLY,NARRATIVE_SCENE,9.3,Stickman scene: A company that charges you for the privilege of holding your
+PV_0013_015,34,37,4,PHASE_EARLY,EMOTIONAL_CLOSEUP,10.7,Screen showing mathematical equations replacing bank icons. Stickman focused on code.
+PV_0013_016,38,39,2,PHASE_EARLY,NARRATIVE_SCENE,7.9,Stickman scene: Believing in something no one else can see yet. You don't ea
+PV_0013_017,40,41,2,PHASE_EARLY,NARRATIVE_SCENE,12.0,"Stickman scene: You just keep going until the screen starts to blur, you rea"
+PV_0013_018,42,45,4,PHASE_EARLY,EMOTIONAL_CLOSEUP,11.2,Stickman scene: Nobody knows your name. Nobody knows you tried. If you succe
+PV_0013_019,46,50,5,PHASE_EARLY,NARRATIVE_SCENE,10.7,Stickman at desk. Document titled Bitcoin on screen. Halloween night. Sending email.
+PV_0013_020,51,54,4,PHASE_EARLY,NARRATIVE_SCENE,10.7,Close-up stickman hands trembling over keyboard. Send button glowing on screen.
+PV_0013_021,55,58,4,PHASE_EARLY,NARRATIVE_SCENE,10.6,Email inbox showing few replies. Most silence. One disagreement. Stickman unfazed at desk.
+PV_0013_022,59,62,4,PHASE_EARLY,NARRATIVE_SCENE,9.7,Stickman at desk ignoring forum replies. Code editor open. Determined typing.
+PV_0013_023,63,67,5,PHASE_EARLY,NARRATIVE_SCENE,8.9,Registration form on screen: bitcoin.org. Fake name. Fake address. Stickman typing.
+PV_0013_024,68,71,4,PHASE_EARLY,NARRATIVE_SCENE,11.2,Profile page on screen: Birthday April 5 1975. Historical gold ban headline floating beside.
+PV_0013_025,72,73,2,PHASE_EARLY,NARRATIVE_SCENE,9.7,"Stickman scene: On April 5th, 1933, the US government made it illegal for ci"
+PV_0013_026,74,78,5,PHASE_EARLY,NARRATIVE_SCENE,8.8,Calendar showing April 5 circled. Gold bars + prohibition sign overlay. Nobody notices.
+PV_0013_027,79,79,1,PHASE_EARLY,NARRATIVE_SCENE,6.5,Stickman scene: No one to tell when the code compiles at 3 AM and it actuall
+PV_0013_028,80,81,2,PHASE_EARLY,EMOTIONAL_CLOSEUP,8.8,Stickman pushed back from desk. Sitting in dark. Hard drive light blinking.
+PV_0013_029,82,83,2,PHASE_EARLY,NARRATIVE_SCENE,10.2,Stickman staring at screen. Doubt visible. Then hand reaching for laptop again.
+PV_0013_030,84,86,3,PHASE_EARLY,EMOTIONAL_CLOSEUP,9.7,Stickman scene: You don't know what else to do with this feeling. You live a
+PV_0013_031,87,87,1,PHASE_EARLY,TEXT_OVERLAY,6.2,Bold text on dark: 'Because what you're building must never have an owner.'
+PV_0013_032,88,92,5,PHASE_CONFLICT,NARRATIVE_SCENE,9.4,Stickman pressing enter. Screen showing Block 0 mining. Genesis block creation.
+PV_0013_033,93,94,2,PHASE_CONFLICT,NARRATIVE_SCENE,10.2,Screen showing embedded headline in block data. Newspaper beside monitor. Timestamp and protest.
+PV_0013_034,95,97,3,PHASE_CONFLICT,NARRATIVE_SCENE,6.6,Stickman scene: It's not there for decoration. It's a timestamp. And a reaso
+PV_0013_035,98,101,4,PHASE_CONFLICT,NARRATIVE_SCENE,10.7,Single computer in dark room running sole network node. Mining blocks alone on Earth.
+PV_0013_036,102,102,1,PHASE_CONFLICT,NARRATIVE_SCENE,10.6,"Stickman scene: You mine block after block, alone, writing transactions into"
+PV_0013_037,103,105,3,PHASE_CONFLICT,NARRATIVE_SCENE,10.3,Stickman at desk. Empty network visualization. Blocks stacking with no receivers.
+PV_0013_038,106,108,3,PHASE_CONFLICT,NARRATIVE_SCENE,10.6,Split screen: stickman sending coins left. Faceless Finney receiving right. Worth: zero.
+PV_0013_039,109,112,4,PHASE_CONFLICT,NARRATIVE_SCENE,11.2,Transaction visualization: 10 coins moving between two nodes. First ever. Worth nothing.
+PV_0013_040,113,116,4,PHASE_CONFLICT,NARRATIVE_SCENE,10.7,Multiple faceless stickmen at various screens. Network graph growing. Math equations floating.
+PV_0013_041,117,117,1,PHASE_CONFLICT,NARRATIVE_SCENE,2.3,Stickman scene: They trust the code.
+PV_0013_042,118,118,1,PHASE_CONFLICT,NARRATIVE_SCENE,10.7,"Stickman scene: A few hundred users become a thousand, become ten thousand, "
+PV_0013_043,119,121,3,PHASE_CONFLICT,NARRATIVE_SCENE,10.6,Stickman typing on forum at 2 AM. Careful measured words. Building a disappearable voice.
+PV_0013_044,122,122,1,PHASE_CONFLICT,NARRATIVE_SCENE,7.0,Stickman scene: You're building a voice that can disappear one day without a
+PV_0013_045,123,124,2,PHASE_CONFLICT,NARRATIVE_SCENE,10.2,Network visualization growing like breathing organism. Stickman watching from corner of screen.
+PV_0013_046,125,127,3,PHASE_CONFLICT,CONTRAST_SPLIT,11.7,Close-up stickman dot eyes reflecting growing network graph. Expression still but knowing.
+PV_0013_047,128,131,4,PHASE_CONFLICT,CONTRAST_SPLIT,10.7,Split scene: pizza delivery with 10000 coins on left. Gold bars worth millions on right.
+PV_0013_048,132,136,5,PHASE_CONFLICT,NARRATIVE_SCENE,10.8,Stickman at desk. WikiLeaks logo on news screen. Forum warning post being typed. Hornet nest.
+PV_0013_049,137,139,3,PHASE_CONFLICT,NARRATIVE_SCENE,11.6,Stickman scene: Intelligence agencies are reading the forums now. You try to
+PV_0013_050,140,142,3,PHASE_CONFLICT,NARRATIVE_SCENE,10.7,Close-up stickman hands hovering over keyboard. Warning message half-typed. Hesitation.
+PV_0013_051,143,147,5,PHASE_CONFLICT,NARRATIVE_SCENE,11.1,News headlines swirling around screen. Governments mentioned. Too soon. Too fast.
+PV_0013_052,148,149,2,PHASE_CONFLICT,NARRATIVE_SCENE,11.7,Faceless crowd of stickmen using Bitcoin freely. Creator watching powerless from shadows.
+PV_0013_053,150,151,2,PHASE_CONFLICT,NARRATIVE_SCENE,6.0,Diagram: stickman at center of network. If you stay = centralized. Must remove self.
+PV_0013_054,152,152,1,PHASE_CONFLICT,NARRATIVE_SCENE,7.9,"Stickman scene: If it isn't decentralized, it's just another system run by a"
+PV_0013_055,153,155,3,PHASE_CONFLICT,NARRATIVE_SCENE,8.3,Close-up stickman at desk. Cursor blinking. Knuckles cracking. Realization moment.
+PV_0013_056,156,156,1,PHASE_CONFLICT,TEXT_OVERLAY,6.6,Bold text on dark: 'The only way your invention survives is if you don't.'
+PV_0013_057,157,161,5,PHASE_CRISIS,NARRATIVE_SCENE,7.9,Stickman passing folder icon to faceless successor stickman (Andresen). Quiet handoff.
+PV_0013_058,162,164,3,PHASE_CRISIS,NARRATIVE_SCENE,11.6,Stickman scene: You give them to a developer named Gavin Andresen. He's the 
+PV_0013_059,165,166,2,PHASE_CRISIS,NARRATIVE_SCENE,8.3,"List of things being given up: emails, bugs, patches, forum posts. Last time."
+PV_0013_060,167,167,1,PHASE_CRISIS,NARRATIVE_SCENE,13.0,"List of things being given up: emails, bugs, patches, forum posts. Last time."
+PV_0013_061,168,170,3,PHASE_CRISIS,NARRATIVE_SCENE,10.7,Stickman typing last emails. Screen: I have moved on. Sent folder filling up.
+PV_0013_062,171,175,5,PHASE_CRISIS,NARRATIVE_SCENE,11.7,Bold text: 'It's in good hands.'
+PV_0013_063,176,177,2,PHASE_CRISIS,NARRATIVE_SCENE,10.6,Email text on screen: stop calling me mysterious. Give credit to contributors.
+PV_0013_064,178,181,4,PHASE_CRISIS,NARRATIVE_SCENE,9.3,Stickman at desk staring at empty inbox. Sent. Done. No replies.
+PV_0013_065,182,185,4,PHASE_CRISIS,NARRATIVE_SCENE,10.7,Forum post on screen: Bitcoin presentation at CIA. Stickman reading. Fingers frozen.
+PV_0013_066,186,189,4,PHASE_CRISIS,EMOTIONAL_CLOSEUP,9.3,Stickman scene: The CIA. You read that line. You read it again.
+PV_0013_067,190,193,4,PHASE_CRISIS,EMOTIONAL_CLOSEUP,8.8,Stickman sitting very still at desk. Not panicking. Not running. Just sitting longer.
+PV_0013_068,194,196,3,PHASE_CRISIS,NARRATIVE_SCENE,7.4,Stickman scene: You just sit there a little longer than usual. With the keyb
+PV_0013_069,197,198,2,PHASE_CRISIS,EMOTIONAL_CLOSEUP,9.8,Stickman scene: With the thing you spent four years building alone in a room
+PV_0013_070,199,203,5,PHASE_CRISIS,EMOTIONAL_CLOSEUP,10.8,Stickman standing up from desk. Walking toward dark doorway. Chair pushed back. Empty.
+PV_0013_071,204,211,8,PHASE_RESOLUTION,NARRATIVE_SCENE,11.7,Stickman scene: And then it's over. Just like that. The price starts climbin
+PV_0013_072,212,216,5,PHASE_RESOLUTION,NARRATIVE_SCENE,7.9,Stickman at new cafe. Different city. Different laptop. Same coffee mug. Watching price.
+PV_0013_073,217,219,3,PHASE_RESOLUTION,NARRATIVE_SCENE,10.7,Wallet visualization: 1M coins untouched. Stickman watching. Richest person on paper only.
+PV_0013_074,220,220,1,PHASE_RESOLUTION,NARRATIVE_SCENE,6.1,Stickman scene: On a paper that doesn't have your name on it.
+PV_0013_075,221,222,2,PHASE_RESOLUTION,NARRATIVE_SCENE,11.1,"Montage: tax forms, doctor office, grocery store. Normal person living anonymous life."
+PV_0013_076,223,225,3,PHASE_RESOLUTION,NARRATIVE_SCENE,11.5,Stickman at restaurant with faceless date. Asked about work. Freelance software. Relief.
+PV_0013_077,226,228,3,PHASE_RESOLUTION,NARRATIVE_SCENE,7.0,Stickman scene: They don't ask more. You finish your drink and go home alone
+PV_0013_078,229,231,3,PHASE_RESOLUTION,EMOTIONAL_CLOSEUP,10.8,World map with search spotlights. Stickman standing invisible among them all.
+PV_0013_079,232,233,2,PHASE_RESOLUTION,NARRATIVE_SCENE,9.3,Faceless old stickman (Dorian) on lawn. Press stickmen surrounding. Scared. Wrong man.
+PV_0013_080,234,236,3,PHASE_RESOLUTION,EMOTIONAL_CLOSEUP,7.0,Stickman scene: He says he's never heard of Bitcoin. He's telling the truth.
+PV_0013_081,237,237,1,PHASE_RESOLUTION,EMOTIONAL_CLOSEUP,6.0,Stickman scene: You wonder if that's what you'd look like if they found you.
+PV_0013_082,238,239,2,PHASE_RESOLUTION,NARRATIVE_SCENE,11.6,Faceless suited stickman (Wright) in courtroom. Judge rejecting claim. Not Satoshi.
+PV_0013_083,240,242,3,PHASE_RESOLUTION,NARRATIVE_SCENE,11.7,Stickman watching news of impostors from distance. Letting them take the name. Unmoved.
+PV_0013_084,243,246,4,PHASE_RESOLUTION,NARRATIVE_SCENE,10.3,News headline on laptop: Hal Finney RIP. Stickman alone at cafe. Cannot attend funeral.
+PV_0013_085,247,249,3,PHASE_RESOLUTION,EMOTIONAL_CLOSEUP,8.8,"List of things impossible: flowers, funeral, goodbye message. Because speaking destroys all."
+PV_0013_086,250,251,2,PHASE_RESOLUTION,EMOTIONAL_CLOSEUP,10.7,Close-up stickman dot eyes. Grief held in silence. Weight of never speaking.
+PV_0013_087,252,256,5,PHASE_RESOLUTION,EMOTIONAL_CLOSEUP,9.4,"Bitcoin symbols everywhere: portfolios, legislation, dinner tables. Ubiquitous."
+PV_0013_088,257,257,1,PHASE_RESOLUTION,NARRATIVE_SCENE,13.9,People arguing about Bitcoin at dinner. None read whitepaper. Using invention without knowing creator.
+PV_0013_089,258,260,3,PHASE_RESOLUTION,NARRATIVE_SCENE,8.3,Government buildings with Bitcoin legislation signs. Laws about the thing. Not about the person.
+PV_0013_090,261,264,4,PHASE_RESOLUTION,NARRATIVE_SCENE,11.6,Empty chair at creator desk. Bitcoin everywhere around. Creator is nowhere.
+PV_0013_091,265,267,3,PHASE_RESOLUTION,NARRATIVE_SCENE,7.0,Stickman hands around coffee mug. Not correcting anyone. Being nobody.
+PV_0013_092,268,272,5,CALLBACK,NARRATIVE_SCENE,10.2,"Mirror of opening: same cafe, same laptop, same coffee. Price higher. Always higher."
+PV_0013_093,273,276,4,CALLBACK,NARRATIVE_SCENE,10.2,Faceless stranger leaning over. Where is Satoshi? Stickman taking sip. No answer.
+PV_0013_094,277,278,2,CALLBACK,NARRATIVE_SCENE,6.7,Bold text: 'The price of creating digital gold is that you can never claim it as yours.'
+PV_0013_095,279,279,1,CALLBACK,TEXT_OVERLAY,5.7,Bold text on dark: 'Is that you can never claim it as yours.'
