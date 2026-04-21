@@ -1,0 +1,309 @@
+VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_VI,Word_Count_EN,Pause_After
+1,PV_0022,BEAT_01_01,HOOK,ESTABLISH,WEIGHT_LINE,"You won't miss it.","Ban se khong nho no dau.",5,1.0
+2,PV_0022,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"Not in the way you think.","Khong theo cach ban nghi.",6,1.5
+3,PV_0022,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"You hear it once.","Ban nghe no mot lan.",4,0.5
+4,PV_0022,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"Someone said it to you once.","Ai do da noi cau do voi ban.",6,0.5
+5,PV_0022,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"You were sitting across from them at a plastic table with two cups of tea and nothing else between you.","Ban ngoi doi dien ho o mot cai ban nhua voi hai ly tra va khong co gi khac giua hai nguoi.",18,0.5
+6,PV_0022,BEAT_01_02,HOOK,REFLECT,NARRATION,"They said it like it was nothing.","Ho noi no nhu khong co gi.",7,0.5
+7,PV_0022,BEAT_01_02,HOOK,REFLECT,NARRATION,"Like they were giving directions to somewhere easy.","Nhu dang chi duong den mot cho rat de tim.",8,1.0
+8,PV_0022,BEAT_01_02,HOOK,REFLECT,NARRATION,"You believed them.","Ban da tin ho.",3,0.5
+9,PV_0022,BEAT_01_02,HOOK,REFLECT,NARRATION,"Not because it made sense.","Khong phai vi cau do hop ly.",6,0
+10,PV_0022,BEAT_01_02,HOOK,REFLECT,NARRATION,"Because you needed it.","Vi ban can no phai hop ly.",5,1.5
+11,PV_0022,BEAT_01_03,HOOK,ESTABLISH,NARRATION,"And now you're the one sitting across the table.","Va bay gio ban la nguoi ngoi doi dien.",9,0.5
+13,PV_0022,BEAT_01_03,HOOK,ESTABLISH,NARRATION,"You're the one with the sentence.","Ban la nguoi co cau noi do.",6,0
+14,PV_0022,BEAT_01_03,HOOK,ESTABLISH,NARRATION,"In your mouth.","Trong mieng minh.",3,0.5
+15,PV_0022,BEAT_01_03,HOOK,ESTABLISH,NARRATION,"Ready.","San sang.",1,1.0
+16,PV_0022,BEAT_01_03,HOOK,ESTABLISH,NARRATION,"But we're getting ahead.","Nhung ta dang di qua nhanh.",4,0.5
+17,PV_0022,BEAT_01_03,HOOK,ESTABLISH,NARRATION,"Let's go back.","Quay lai da.",3,2.0
+18,PV_0022,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"The rain didn't come this year.","Mua nay troi khong mua.",6,0.5
+19,PV_0022,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"The field cracked down the middle like something just gave up.","Ruong nut doc giua nhu the no bo cuoc.",11,0.5
+20,PV_0022,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Your child sits on the floor drawing shapes in the dirt.","Con ban ngoi duoi dat ve hinh trong bui.",10,0
+21,PV_0022,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"With a stick.","Bang mot cai que.",3,0.5
+22,PV_0022,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"The debt isn't new.","No khong phai moi.",4,0
+23,PV_0022,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"It's been here longer than the child.","No o day lau hon con ban.",7,0.5
+24,PV_0022,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Every month it grows and nothing you own grows with it.","Moi thang no lon them va khong thu gi ban co lon theo.",10,0.5
+25,PV_0022,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"You sell what you can.","Ban ban nhung gi ban duoc.",5,0
+26,PV_0022,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"A goat.","Mot con de.",2,0
+27,PV_0022,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"A tin roof.","Tam ton.",3,0
+28,PV_0022,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Your wife's earrings from the wedding.","Doi bong tai cuoi cua vo.",6,0.5
+29,PV_0022,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Then there's nothing left to sell.","Roi khong con gi de ban nua.",6,0.5
+30,PV_0022,BEAT_02_01,PHASE_EARLY,ESTABLISH,WEIGHT_LINE,"Except you.","Ngoai tru ban.",2,1.5
+31,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"A man shows up one morning.","Mot buoi sang co nguoi xuat hien.",6,0.5
+32,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"Not from the village.","Khong phai nguoi trong xom.",4,0
+33,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"Not from anywhere you recognize.","Khong phai tu dau ban biet.",5,0.5
+34,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"He sits across from you at the tea stall.","Ong ta ngoi doi dien ban o quan tra.",8,0
+35,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"Same thin build as yours.","Guong nguoi gon nhu ban.",5,0
+36,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"Same worn shirt.","Cung ao cu.",3,0.5
+37,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"He orders two cups.","Ong ta goi hai ly.",4,0
+38,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"Doesn't rush.","Khong voi.",2,0.5
+39,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"He asks about the harvest.","Ong hoi vu mua.",5,0
+40,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"About your family.","Hoi gia dinh.",3,0
+41,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"You don't know why you answer.","Ban khong biet vi sao minh tra loi.",6,0.5
+42,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"Maybe because he already seems to know.","Co le vi ong ta co ve da biet roi.",7,0.5
+43,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"Then he lifts his shirt.","Roi ong ta ven ao len.",5,0.5
+44,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"A scar runs across his side.","Mot vet seo chay ngang hong.",6,0
+45,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"Long.","Dai.",1,0
+46,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"Clean.","Sach.",1,0
+47,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"Healed.","Da lanh.",1,0.5
+48,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"He says: it's the part your body can afford to lose.","Ong noi: do la phan co the ban bo duoc.",10,0.5
+49,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"You already know people who did it.","Ban da biet nguoi trong xom lam roi.",7,0
+50,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"They're still here.","Ho van con day.",3,0.5
+51,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"He lets that sit.","Ong ta de yen cau do.",4,0.5
+52,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"He pours himself more tea.","Ong ta rot them tra.",5,0
+53,PV_0022,BEAT_02_02,PHASE_EARLY,CONFLICT,NARRATION,"He doesn't ask you to decide.","Ong ta khong bao ban quyet dinh.",6,1.0
+54,PV_0022,BEAT_02_03,PHASE_EARLY,REFLECT,NARRATION,"You say no.","Ban noi khong.",3,0.5
+55,PV_0022,BEAT_02_03,PHASE_EARLY,REFLECT,NARRATION,"Immediately.","Ngay lap tuc.",1,0.5
+56,PV_0022,BEAT_02_03,PHASE_EARLY,REFLECT,NARRATION,"You stand up and leave the table.","Ban dung day va bo di.",7,0
+57,PV_0022,BEAT_02_03,PHASE_EARLY,REFLECT,NARRATION,"The tea is still warm.","Tra van con am.",5,0.5
+58,PV_0022,BEAT_02_03,PHASE_EARLY,REFLECT,NARRATION,"You walk home and you don't look back.","Ban di ve va khong ngoai lai.",8,0.5
+59,PV_0022,BEAT_02_03,PHASE_EARLY,REFLECT,NARRATION,"That night you lie on the mat and stare at the ceiling.","Dem do ban nam tren chieu nhin len tran.",11,0
+60,PV_0022,BEAT_02_03,PHASE_EARLY,REFLECT,NARRATION,"The fan clicks on every rotation.","Quat keu tach moi vong quay.",6,0
+61,PV_0022,BEAT_02_03,PHASE_EARLY,REFLECT,NARRATION,"You think about the number he wrote on the receipt.","Ban nghi ve con so ong ta viet tren to giay.",10,0.5
+62,PV_0022,BEAT_02_03,PHASE_EARLY,REFLECT,NARRATION,"You don't want to think about it.","Ban khong muon nghi ve no.",7,0
+63,PV_0022,BEAT_02_03,PHASE_EARLY,REFLECT,NARRATION,"But it's already in there.","Nhung no da o trong dau roi.",5,0.5
+64,PV_0022,BEAT_02_03,PHASE_EARLY,REFLECT,NARRATION,"Three days later you come back to the same stall.","Ba ngay sau ban quay lai dung quan do.",9,0.5
+65,PV_0022,BEAT_02_03,PHASE_EARLY,REFLECT,NARRATION,"Nobody called you.","Khong ai goi ban.",3,0
+66,PV_0022,BEAT_02_03,PHASE_EARLY,REFLECT,NARRATION,"Nobody followed up.","Khong ai hoi han.",3,0.5
+67,PV_0022,BEAT_02_03,PHASE_EARLY,REFLECT,NARRATION,"The sentence is still in your head.","Cau noi van con trong dau ban.",7,0
+68,PV_0022,BEAT_02_03,PHASE_EARLY,REFLECT,WEIGHT_LINE,"Intact.","Nguyen ven.",1,1.5
+69,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"The bus leaves at night.","Xe khach chay luc dem.",5,0.5
+70,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"You sit in the back with a plastic bag.","Ban ngoi cuoi xe voi mot tui nylon.",8,0
+71,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"Everything you brought fits inside it.","Tat ca do dac nam gon trong do.",6,0.5
+72,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"The road smells like diesel and rain.","Duong mui dau va mua.",7,0
+73,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"The woman next to you is asleep before the bus clears the village.","Nguoi dan ba ben canh ngu truoc khi xe ra khoi xom.",12,0.5
+74,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"The bus stops.","Xe dung.",3,0
+75,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"People get off.","Nguoi xuong.",3,0
+76,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"New people get on.","Nguoi len.",4,0.5
+77,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"You stay in your seat.","Ban ngoi yen tai cho.",5,0.5
+76,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"The city is twelve hours away.","Thanh pho cach muoi hai tieng.",6,0.5
+77,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"You don't sleep.","Ban khong ngu.",3,1.0
+78,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"You go in whole.","Ban di vao nguyen ven.",4,1.5
+79,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"You wake up lighter.","Ban tinh day nhe hon.",4,1.5
+80,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"The room smells like disinfectant and old sheets.","Phong mui thuoc khu trung va ga giuong cu.",8,0
+81,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"The window is small and high and it's still dark outside.","Cua so nho va cao va ben ngoai van toi.",11,0.5
+82,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"There's a tube taped to your arm.","Co mot ong dan bang o canh tay ban.",7,0
+83,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"You try to sit up but your side won't let you.","Ban co ngoi day nhung hong khong cho.",10,0.5
+84,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"An envelope sits on the bedside table.","Mot phong bi nam tren tab dau giuong.",7,0.5
+85,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"You count it once.","Ban dem mot lan.",4,0
+86,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"It's less than they said.","It hon ho noi.",5,0.5
+87,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"You count it again.","Ban dem lai.",4,0
+88,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"Same number.","Cung con so do.",2,0.5
+89,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"You hold the envelope against your chest and close your eyes.","Ban ap phong bi vao nguc va nham mat lai.",11,0.5
+90,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"The scar across your side is real.","Vet seo ngang hong ban la that.",7,0
+91,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"It hurts when you breathe in.","No dau khi ban hit vao.",6,0.5
+92,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"You press your hand flat against it.","Ban ap ban tay len do.",7,0
+93,PV_0022,BEAT_02_04,PHASE_EARLY,CRISIS,NARRATION,"The skin feels like it belongs to someone else.","Da o do nhu cua nguoi khac.",9,1.5
+94,PV_0022,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"You go home.","Ban ve nha.",3,0.5
+95,PV_0022,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"The scar heals but the body doesn't come back.","Seo lanh nhung co the khong ve nhu cu.",9,0.5
+96,PV_0022,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"You try to lift a sack of rice the way you used to.","Ban thu nang bao gao nhu truoc.",11,0
+97,PV_0022,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"Your side locks up.","Hong bi cung lai.",4,0
+98,PV_0022,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"Your knees buckle.","Dau goi khuyu xuong.",3,0.5
+99,PV_0022,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"You sit on the ground and wait for it to pass.","Ban ngoi bet xuong doi cho no qua.",10,0.5
+100,PV_0022,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"Your child watches from the doorway.","Con ban dung o cua nhin.",6,0
+101,PV_0022,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"You wave them away.","Ban xua tay cho no di.",4,0.5
+102,PV_0022,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"The money lasted two months.","Tien xai duoc hai thang.",5,0
+103,PV_0022,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"Maybe less.","Co le it hon.",2,0.5
+104,PV_0022,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"Your wife doesn't ask where it came from.","Vo ban khong hoi tien tu dau.",7,0
+105,PV_0022,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"She counted it the night you got back.","Co ay dem no dem ban ve.",8,0
+106,PV_0022,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"You heard her in the kitchen.","Ban nghe thay o trong bep.",6,0.5
+107,PV_0022,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"The debt is still there.","No van con do.",5,0
+108,PV_0022,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"Now it's worse.","Gio con te hon.",3,0
+109,PV_0022,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"You paid half with the envelope.","Ban tra duoc nua bang phong bi.",6,0
+110,PV_0022,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"The other half grew while you were gone.","Nua con lai lon them luc ban di vang.",8,1.5
+111,PV_0022,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"The man with the phone comes back three months later.","Nguoi dan ong co dien thoai quay lai ba thang sau.",9,0.5
+112,PV_0022,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"He doesn't sit down.","Ong ta khong ngoi.",4,0
+113,PV_0022,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"He stands at the edge of the field and waits until you come to him.","Ong ta dung o bo ruong doi ban den.",13,0.5
+114,PV_0022,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"He says: I'm not here to buy anything.","Ong noi: toi khong den de mua gi.",8,0.5
+115,PV_0022,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"He hands you a phone.","Ong ta dua ban mot cai dien thoai.",5,0
+116,PV_0022,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"Cheap.","Re tien.",1,0
+117,PV_0022,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"One contact saved.","Mot so duy nhat trong danh ba.",3,0.5
+118,PV_0022,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"He says: there's another way to earn.","Ong noi: co cach khac de kiem tien.",7,0
+119,PV_0022,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"No surgery.","Khong mo.",2,0
+120,PV_0022,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"No bus.","Khong xe.",2,0
+121,PV_0022,BEAT_03_02,PHASE_CONFLICT,CONFLICT,WEIGHT_LINE,"Just a sentence.","Chi mot cau noi.",3,1.5
+122,PV_0022,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,"You practice at night.","Ban tap vao ban dem.",4,0.5
+123,PV_0022,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,"Alone.","Mot minh.",1,0.5
+124,PV_0022,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,"You say it out loud to the wall of your room.","Ban noi to voi buc tuong trong phong.",10,0
+125,PV_0022,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,"It sounds wrong the first few times.","May lan dau nghe sai.",7,0
+126,PV_0022,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,"Too loud.","To qua.",2,0
+127,PV_0022,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,"Too fast.","Nhanh qua.",2,0.5
+128,PV_0022,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,"You try it softer.","Ban thu nho hon.",4,0
+129,PV_0022,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,"Like a suggestion.","Nhu mot loi goi y.",3,0
+130,PV_0022,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,"Like someone sharing something they already went through.","Nhu nguoi chia se dieu ho da trai qua.",8,0.5
+131,PV_0022,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,"You adjust one word.","Ban sua mot tu.",4,0
+132,PV_0022,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,"Then another.","Roi mot tu nua.",2,0.5
+133,PV_0022,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,"You never say sell.","Ban khong bao gio noi ban.",4,0
+134,PV_0022,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,"You never say organ.","Khong bao gio noi noi tang.",4,0
+135,PV_0022,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,"You say help.","Ban noi giup.",3,0
+136,PV_0022,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,"Opportunity.","Co hoi.",1,0
+137,PV_0022,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,"Just this once.","Chi mot lan thoi.",3,0.5
+138,PV_0022,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,"You practice until it stops sounding like a lie.","Ban tap cho den khi no het nghe nhu noi doi.",9,0.5
+139,PV_0022,BEAT_03_03,PHASE_CONFLICT,REFLECT,NARRATION,"Or until you stop noticing.","Hoac cho den khi ban het de y.",5,1.0
+140,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"The first time is the neighbor.","Lan dau tien la nguoi hang xom.",6,0.5
+141,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"His wife is sick.","Vo anh ta om.",4,0
+142,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"His daughter stopped going to school last month.","Con gai anh ta nghi hoc thang truoc.",8,0.5
+143,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You know his situation because it used to be yours.","Ban biet hoan canh anh ta vi no tung la cua ban.",10,0.5
+144,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"That's why you go to him first.","Vi vay ban den gap anh ta dau tien.",7,0.5
+145,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You sit across from him.","Ban ngoi doi dien.",5,0
+146,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Two cups.","Hai ly.",2,0
+147,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You talk about the rain.","Ban noi chuyen mua.",5,0
+148,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"About the harvest.","Ve vu mua.",3,0
+149,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"About the debt.","Ve no.",3,0.5
+150,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You pour him more tea before he asks.","Ban rot tra cho anh ta truoc khi anh ta kip hoi.",7,0.5
+151,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Then you lift your shirt.","Roi ban ven ao len.",5,0.5
+152,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You show him the scar.","Ban cho anh ta thay vet seo.",5,0.5
+153,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"He goes quiet.","Anh ta im lang.",3,0
+154,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You watch his jaw work.","Ban nhin ham anh ta nghien.",5,0
+155,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"He's doing the math.","Anh ta dang tinh.",4,0
+156,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You know because you did the same thing.","Ban biet vi ban da lam y chang.",8,0.5
+157,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You don't say anything else.","Ban khong noi gi them.",5,0
+158,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You wait.","Ban cho.",2,1.0
+159,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"He looks at the scar for a long time.","Anh ta nhin vet seo rat lau.",8,0.5
+160,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"A motorbike passes behind the stall and neither of you look up.","Mot chiec xe may chay ngang sau quan va khong ai ngoai len.",12,0.5
+161,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"The tea gets cold.","Tra nguoi mat.",4,0
+162,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Neither of you touches it.","Khong ai dong vao ly.",5,0.5
+163,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"He doesn't say yes that day.","Hom do anh ta khong noi co.",6,0
+164,PV_0022,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"But he doesn't say no either.","Nhung cung khong noi khong.",6,1.0
+165,PV_0022,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"Three days later he comes to your house.","Ba ngay sau anh ta den nha ban.",8,0.5
+166,PV_0022,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"He stands outside.","Anh ta dung ngoai san.",3,0
+167,PV_0022,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"He doesn't knock.","Khong go cua.",3,0.5
+168,PV_0022,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"You already know why he's here.","Ban da biet anh ta den vi gi.",6,0.5
+169,PV_0022,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"You put him on the bus.","Ban dua anh ta len xe.",5,0.5
+170,PV_0022,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"Same route.","Cung tuyen.",2,0
+171,PV_0022,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"Same time.","Cung gio.",2,0
+172,PV_0022,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"He sits in the back with a plastic bag.","Anh ta ngoi cuoi xe voi tui nylon.",8,0
+173,PV_0022,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"Same bag you had.","Cung loai tui ban da mang.",4,0.5
+174,PV_0022,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"He looks back at you through the window.","Anh ta ngoai lai nhin ban qua cua kinh.",8,0.5
+175,PV_0022,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"You don't wave.","Ban khong vay tay.",3,0
+176,PV_0022,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"You don't say anything.","Ban khong noi gi.",4,0.5
+177,PV_0022,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"The bus pulls away and the dust takes a long time to settle.","Xe chay di va bui mat rat lau moi lang.",12,0.5
+178,PV_0022,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"You stand there until it does.","Ban dung do cho den khi bui lang.",6,0.5
+179,PV_0022,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"Then you walk home.","Roi ban di ve.",4,0
+180,PV_0022,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"Your phone buzzes once.","Dien thoai rung mot cai.",4,0
+181,PV_0022,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"The broker.","Thang co moi.",2,0.5
+182,PV_0022,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"He doesn't say thank you.","Ong ta khong noi cam on.",5,0
+183,PV_0022,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"He says: next one.","Ong ta noi: nguoi tiep theo.",4,2.0
+184,PV_0022,BEAT_04_01,PHASE_CRISIS,CONFLICT,WEIGHT_LINE,"You say less.","Ban noi it hon.",3,0.5
+185,PV_0022,BEAT_04_01,PHASE_CRISIS,CONFLICT,WEIGHT_LINE,"They say yes faster.","Ho dong y nhanh hon.",4,1.5
+186,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"The second one says yes before you finish.","Nguoi thu hai dong y truoc khi ban noi het.",8,0.5
+187,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"The third takes two visits.","Nguoi thu ba mat hai lan gap.",5,0.5
+188,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"After that you stop counting.","Sau do ban thoi dem.",5,1.0
+189,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"You sit at the same stall every time and you lift the same shirt and you wait for the same look on their face before you say a single word.","Ban ngoi o cung quan do moi lan va ven cung chiec ao do va doi cung anh mat do tren mat ho truoc khi noi mot loi nao.",27,0.5
+190,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"The tea stall owner puts two cups down before you sit.","Chu quan tra de hai ly ra truoc khi ban ngoi.",10,0.5
+191,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"He doesn't ask anymore.","Ong ta khong hoi nua.",4,1.0
+192,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"The fourth one is younger than you were.","Nguoi thu tu tre hon ban ngay do.",8,0.5
+193,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"Nineteen maybe.","Muoi chin co le.",2,0.5
+194,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"He sits across from you and his hands shake.","Anh ta ngoi doi dien va tay run.",9,0
+195,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"The same way yours did.","Y chang tay ban ngay truoc.",5,0.5
+196,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"He says no.","Anh ta noi khong.",3,0
+197,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"Immediately.","Ngay lap tuc.",1,0.5
+198,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"Same word.","Cung chu do.",2,0
+199,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"Same speed.","Cung toc do.",2,0.5
+200,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"You've heard it before.","Ban da nghe cau do roi.",4,0
+201,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"You know what it means.","Ban biet no co nghia gi.",5,0.5
+202,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"You use the exact sentence that was used on you.","Ban dung chinh xac cau noi tung dung voi ban.",10,0
+203,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"Same rhythm.","Cung nhip.",2,0
+204,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"Same pause before the number.","Cung khoang dung truoc con so.",5,1.0
+205,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"Your hand is steady when you show the scar.","Tay ban vung khi cho anh ta thay seo.",8,0
+206,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"Something in your chest tightens for half a second.","Gi do trong nguc thit chat nua giay.",9,0
+207,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"Then it's gone.","Roi no mat.",3,0
+208,PV_0022,BEAT_04_02,PHASE_CRISIS,CRISIS,NARRATION,"You keep talking.","Ban tiep tuc noi.",3,1.0
+209,PV_0022,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,"The broker raises the quota.","Thang co moi nang chi tieu.",5,0.5
+210,PV_0022,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,"Ten this year.","Muoi nguoi nam nay.",3,0.5
+211,PV_0022,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,"You don't argue.","Ban khong cai.",3,0
+212,PV_0022,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,"You already know which houses.","Ban da biet nha nao.",5,0
+213,PV_0022,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,"Which doors.","Cua nao.",2,0
+214,PV_0022,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,"Which months are worst.","Thang nao tui nhat.",4,0.5
+215,PV_0022,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,"You know which ones have loans and which ones just had a child and which ones watched someone else come back with an envelope.","Ban biet ai dang no va ai moi co con va ai da thay nguoi khac cam phong bi ve.",22,0.5
+216,PV_0022,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,"You walk through the village in the early morning when the light is still flat and gray and everyone is awake but nobody is talking yet.","Ban di qua xom luc sang som khi anh sang con bang phang va xam va ai cung da day nhung chua ai noi gi.",24,0.5
+217,PV_0022,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,"You look at the houses and you know.","Ban nhin nhung ngoi nha va ban biet.",8,0
+218,PV_0022,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,"The way you know when fruit is ready.","Nhu biet luc nao trai chin.",8,1.0
+219,PV_0022,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,"One afternoon you say the sentence.","Mot buoi chieu ban noi cau do.",6,0
+220,PV_0022,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,"And you realize you didn't think about it first.","Va ban nhan ra minh khong nghi truoc.",9,0.5
+221,PV_0022,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,"The words just came.","Cau tu do den.",4,0.5
+222,PV_0022,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,"Like breathing.","Nhu tho.",2,0.5
+223,PV_0022,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,"You try to remember the version the man taught you at the tea stall - the one with the scar - and you can't find it anymore.","Ban co nho lai phien ban ma nguoi dan ong day ban o quan tra - nguoi co vet seo - va ban khong tim thay no nua.",22,0.5
+224,PV_0022,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,"You don't know when you changed it.","Ban khong biet minh da sua no tu khi nao.",7,0
+225,PV_0022,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,"You don't know what the original sounded like.","Ban khong biet ban goc nghe nhu the nao.",8,1.0
+226,PV_0022,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"You're better than him.","Ban gioi hon ong ta.",4,0.5
+227,PV_0022,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"People say yes to you faster.","Nguoi ta dong y voi ban nhanh hon.",7,0.5
+228,PV_0022,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"The broker remembers your name now.","Thang co moi nho ten ban roi.",6,0.5
+229,PV_0022,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"He pays you more.","Ong ta tra ban nhieu hon nguoi khac.",9,0
+230,PV_0022,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"You don't ask why.","Ban khong hoi vi sao.",4,0.5
+231,PV_0022,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"There's a list in your phone now.","Trong dien thoai co mot danh sach.",7,0
+232,PV_0022,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"Names you added yourself.","Ten ban tu them vao.",4,0
+233,PV_0022,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"You look at it sometimes.","Thinh thoang ban mo ra xem.",5,0
+234,PV_0022,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"Some names are crossed out.","Mot so ten bi gach.",5,0
+235,PV_0022,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"You don't remember when.","Ban khong nho khi nao.",4,0
+236,PV_0022,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"You don't remember deciding.","Ban khong nho da quyet dinh.",4,0.5
+236,PV_0022,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"You don't hear the sentence as a sentence anymore.","Ban khong con nghe no nhu mot cau noi nua.",9,0.5
+237,PV_0022,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"You hear it before you say it.","Ban nghe no truoc khi ban noi.",7,0.5
+238,PV_0022,BEAT_04_05,PHASE_CRISIS,CRISIS,WEIGHT_LINE,"It's just the sound your mouth makes when it's working.","No chi la am thanh mieng ban phat ra khi no dang lam viec.",10,2.0
+239,PV_0022,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"Someone says no.","Ai do noi khong.",3,0.5
+240,PV_0022,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"You nod.","Ban gat dau.",2,0
+241,PV_0022,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"You leave.","Ban di.",2,0.5
+242,PV_0022,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"You don't follow up.","Ban khong hoi lai.",4,0
+243,PV_0022,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"You don't need to.","Khong can.",4,0.5
+244,PV_0022,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"They come back.","Ho quay lai.",3,0
+245,PV_0022,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"Three days.","Ba ngay.",2,0
+246,PV_0022,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"Sometimes a week.","Doi khi mot tuan.",3,0.5
+247,PV_0022,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"Everyone comes back.","Ai cung quay lai.",3,0.5
+248,PV_0022,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"You try to think of someone who didn't.","Ban thu nghi xem ai da khong quay lai.",8,0
+249,PV_0022,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"You can't.","Khong nho ra.",2,0.5
+250,PV_0022,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"You know this because you came back too.","Ban biet dieu nay vi ban cung da quay lai.",8,1.0
+251,PV_0022,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Your child's school fees come due again.","Den ky dong hoc phi cua con.",7,0.5
+252,PV_0022,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"You pay without thinking.","Ban dong khong nghi.",4,0
+253,PV_0022,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"You try to remember where the money came from.","Ban co nho xem tien tu dau.",8,0
+254,PV_0022,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"You can't separate it anymore.","Ban khong tach ra duoc nua.",5,1.0
+255,PV_0022,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"One night your wife asks why you need the phone.","Mot dem vo ban hoi sao can dien thoai.",10,0.5
+256,PV_0022,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"You hear yourself answer.","Ban nghe minh tra loi.",4,0.5
+257,PV_0022,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Same tone.","Cung giong do.",2,0
+258,PV_0022,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Same structure.","Cung cau truc do.",2,0.5
+259,PV_0022,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Reduce the problem.","Thu nho van de.",3,0
+260,PV_0022,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Present the solution as small.","Trinh bay giai phap nhu chuyen nho.",5,0
+261,PV_0022,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Anchor it in something she already knows.","Neo vao dieu co ay da biet.",7,0.5
+262,PV_0022,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"You're not recruiting her.","Ban khong dang tuyen co ay.",4,0
+263,PV_0022,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"You're not recruiting anyone.","Ban khong dang tuyen ai.",4,0
+264,PV_0022,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"You're just talking.","Ban chi dang noi chuyen.",3,0.5
+265,PV_0022,BEAT_05_02,PHASE_RESOLUTION,REFLECT,WEIGHT_LINE,"But the pattern is the same.","Nhung khuon mau do khong doi.",6,1.5
+266,PV_0022,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"She nods.","Co ay gat dau.",2,0
+267,PV_0022,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Before you finish.","Truoc khi ban noi xong.",3,0.5
+268,PV_0022,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"You look down at your hands.","Ban nhin xuong tay minh.",6,1.0
+269,PV_0022,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"The person you recruited first - the neighbor - he starts recruiting.","Nguoi ban tuyen dau tien - nguoi hang xom - anh ta bat dau di tuyen.",11,0.5
+270,PV_0022,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"You see him at the tea stall one morning.","Ban thay anh ta o quan tra mot buoi sang.",8,0
+271,PV_0022,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"Two cups.","Hai ly.",2,0
+272,PV_0022,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"A young man across from him.","Mot thanh nien ngoi doi dien.",5,0.5
+273,PV_0022,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"He lifts his shirt.","Anh ta ven ao.",4,0.5
+274,PV_0022,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"He says the sentence.","Anh ta noi cau do.",4,0
+275,PV_0022,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"Your sentence.","Cau cua ban.",2,0.5
+276,PV_0022,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"A woman you've never spoken to is sitting at another tea stall across the road.","Mot nguoi phu nu ban chua bao gio noi chuyen dang ngoi o quan tra ben kia duong.",14,0.5
+277,PV_0022,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"Two cups.","Hai ly.",2,0
+278,PV_0022,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"A man across from her.","Mot nguoi dan ong doi dien co ta.",4,0.5
+279,PV_0022,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"She lifts her shirt.","Co ta ven ao.",4,0.5
+280,PV_0022,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"She says the sentence.","Co ta noi cau do.",4,0
+281,PV_0022,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"Or something close to it.","Hoac gi do tuong tu.",5,0.5
+282,PV_0022,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"You try to remember if you told her.","Ban co nho xem minh da noi voi co ta chua.",8,0
+283,PV_0022,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"You can't.","Khong nho.",2,0.5
+284,PV_0022,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"She changed a word.","Co ta sua mot tu.",4,0
+285,PV_0022,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"It works better.","Nghe hay hon.",3,0.5
+286,PV_0022,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"You stop walking.","Ban dung lai.",3,0.5
+287,PV_0022,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"You listen.","Ban lang nghe.",2,0.5
+288,PV_0022,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,WEIGHT_LINE,"It sounds right.","Nghe dung.",3,1.5
+289,PV_0022,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,"There's a plastic cup on the ground near the stall.","Co mot ly nhua duoi dat gan quan.",10,0
+290,PV_0022,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,"Cracked at the rim.","Nut o mep.",4,0
+291,PV_0022,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,"You notice that.","Ban de y cai do.",3,0.5
+292,PV_0022,BEAT_05_04,PHASE_RESOLUTION,REFLECT,WEIGHT_LINE,"You don't remember learning it.","Ban khong nho da hoc no tu khi nao.",6,0.5
+293,PV_0022,BEAT_05_04,PHASE_RESOLUTION,REFLECT,WEIGHT_LINE,"You only remember using it.","Ban chi nho la da dung no.",5,0.5
+294,PV_0022,BEAT_05_04,PHASE_RESOLUTION,REFLECT,WEIGHT_LINE,"You don't remember choosing it.","Ban khong nho da chon no.",5,0.5
+295,PV_0022,BEAT_05_04,PHASE_RESOLUTION,REFLECT,WEIGHT_LINE,"It feels like it was always there.","Nhu no luon o do.",6,2.0
+295,PV_0022,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,"You won't miss it.","Ban se khong nho no.",4,0.5
+296,PV_0022,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,"Not in the way you think.","Khong theo cach ban nghi.",6,1.0
+297,PV_0022,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,"That's what they told you.","Do la dieu ho noi voi ban.",5,0
+298,PV_0022,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,"That's what you tell them. It still works.","Do la dieu ban noi voi ho.",5,0.5
+299,PV_0022,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,"The tea stall is still there.","Quan tra van o do.",6,0
+300,PV_0022,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,"Two cups.","Hai ly.",3,0
+301,PV_0022,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,"A low voice.","Giong nho.",3,0
+302,PV_0022,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,"The scar under the shirt.","Vet seo duoi ao.",5,0
+303,PV_0022,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,"The pause before the number.","Khoang dung truoc con so.",5,1.0
+304,PV_0022,BEAT_06_02,CALLBACK,CTA,WEIGHT_LINE,"You don't need to believe.","Ban khong can tin nua.",5,1.5
+305,PV_0022,BEAT_06_02,CALLBACK,CTA,WEIGHT_LINE,"They do.","Ho thi co.",2,2.0

@@ -1,0 +1,200 @@
+VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,Word_Count_EN,Pause_After
+1,PV_0027,BEAT_01_01,HOOK,ESTABLISH,WEIGHT_LINE,"You don't arrest people.",5,0.5
+2,PV_0027,BEAT_01_01,HOOK,ESTABLISH,WEIGHT_LINE,"You collect them.",3,2.0
+3,PV_0027,BEAT_01_02,HOOK,ESTABLISH,NARRATION,"Right now there are fourteen names on your phone.",9,0.5
+4,PV_0027,BEAT_01_02,HOOK,ESTABLISH,NARRATION,"Six of them exist on paper. The department knows about those.",10,0.5
+5,PV_0027,BEAT_01_02,HOOK,ESTABLISH,WEIGHT_LINE,"The rest don't exist at all.",6,1.5
+6,PV_0027,BEAT_01_03,HOOK,ESTABLISH,NARRATION,"Same charge. Different outcome.",4,0.5
+7,PV_0027,BEAT_01_03,HOOK,ESTABLISH,WEIGHT_LINE,"Your choice.",2,2.0
+8,PV_0027,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"They teach you about confidential informants in the academy.",9,0.5
+9,PV_0027,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"There's a whole briefing on it. PowerPoint slides. Protocol charts on the wall.",13,0.5
+10,PV_0027,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"The instructor calls them assets.",5,0.5
+11,PV_0027,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Asset management. Asset deployment. Asset protection.",6,0.5
+12,PV_0027,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"You write it down like it's a vocabulary test.",9,0.5
+13,PV_0027,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"It sounds clean. Organized.",4,0.5
+14,PV_0027,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Nobody mentions the word people.",5,1.0
+15,PV_0027,BEAT_02_02,PHASE_EARLY,TIME_MARKER,NARRATION,"First patrol.",2,0.5
+16,PV_0027,BEAT_02_02,PHASE_EARLY,TIME_MARKER,NARRATION,"You arrest a guy with half a gram tucked in his coat lining.",12,0.5
+17,PV_0027,BEAT_02_02,PHASE_EARLY,TIME_MARKER,NARRATION,"Book him. Process him. Photograph him. File the report.",9,0.5
+18,PV_0027,BEAT_02_02,PHASE_EARLY,TIME_MARKER,NARRATION,"Takes you an hour and a half for the paperwork alone.",10,0.5
+19,PV_0027,BEAT_02_02,PHASE_EARLY,TIME_MARKER,NARRATION,"By the time you finish, the shift's almost over.",8,0.5
+20,PV_0027,BEAT_02_02,PHASE_EARLY,TIME_MARKER,NARRATION,"Your sergeant looks at the whiteboard.",6,0.5
+21,PV_0027,BEAT_02_02,PHASE_EARLY,TIME_MARKER,NARRATION,"One arrest.",2,0.5
+22,PV_0027,BEAT_02_02,PHASE_EARLY,TIME_MARKER,NARRATION,"He doesn't say anything. Doesn't even look at you.",8,0.5
+23,PV_0027,BEAT_02_02,PHASE_EARLY,TIME_MARKER,WEIGHT_LINE,"But you hear it.",4,1.0
+24,PV_0027,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"A detective pulls you aside after the next shift.",8,0.5
+25,PV_0027,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"Senior guy. Fifteen years in narcotics. Jacket so wrinkled it looks like he slept in it.",14,0.5
+26,PV_0027,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"He walks you to the parking garage. Doesn't say why.",9,0.5
+27,PV_0027,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"Then he reaches into his jacket and pulls out a phone.",10,0.5
+28,PV_0027,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"Not the department phone. A different one.",6,0.5
+29,PV_0027,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"Prepaid. No case number. No serial log. No chain of custody.",10,0.5
+30,PV_0027,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"He flips it open. Contacts list. Just numbers. No names.",9,0.5
+31,PV_0027,BEAT_02_03,PHASE_EARLY,CONSTRAINT,WEIGHT_LINE,"This is how you get numbers.",6,0.5
+32,PV_0027,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"He says it the way someone explains where the supply closet is.",11,1.5
+33,PV_0027,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"You watch him do it for the first time.",8,0.5
+34,PV_0027,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"Booking room. Fluorescent light buzzing so loud you can hear it through the wall.",13,0.5
+35,PV_0027,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"Kid in the chair. Can't be more than nineteen.",8,0.5
+36,PV_0027,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"He's crying. Not loud. Just leaking.",6,0.5
+37,PV_0027,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"The detective doesn't comfort him. Doesn't sit down. Doesn't hesitate.",9,0.5
+38,PV_0027,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"He slides a charge sheet across the table and says three words.",11,0.5
+39,PV_0027,BEAT_02_04,PHASE_EARLY,REFLECT,WEIGHT_LINE,"Work this off.",3,1.0
+40,PV_0027,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"The kid nods. Doesn't look up. Just nods.",7,0.5
+41,PV_0027,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"The detective turns to you afterward.",6,0.5
+42,PV_0027,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"He doesn't explain anything. Doesn't need to.",7,0.5
+43,PV_0027,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"You already understood.",3,1.5
+44,PV_0027,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,"Your turn.",2,1.0
+45,PV_0027,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,"Same booking room. Same chair. Same fluorescent buzz.",8,0.5
+46,PV_0027,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,"This one won't look at you. Stares at the table like there's something written on it.",14,0.5
+47,PV_0027,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,"There isn't.",2,0.5
+48,PV_0027,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,"Hands shaking.",2,0.5
+49,PV_0027,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,"Keeps asking if this clears it. If this is all they have to do.",12,0.5
+50,PV_0027,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,"You don't answer that part.",5,1.0
+51,PV_0027,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"Work this off or do the time. That's the pitch.",9,0.5
+52,PV_0027,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"You explain what it means. Carefully. Slowly, like it matters that they understand.",12,0.5
+53,PV_0027,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"One buy. That's it. One buy and the charge disappears.",10,0.5
+54,PV_0027,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"They stop shaking. Just for a second.",6,0.5
+55,PV_0027,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"You mean it when you say that.",6,0.5
+56,PV_0027,BEAT_03_02,PHASE_CONFLICT,CONFLICT,WEIGHT_LINE,"You actually mean it.",4,1.0
+57,PV_0027,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"You send them in the next day.",6,0.5
+58,PV_0027,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"No wire. No body recorder. No training session beforehand.",8,0.5
+59,PV_0027,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"No extraction plan.",3,0.5
+60,PV_0027,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"Nobody back at the precinct even knows this is happening.",10,0.5
+61,PV_0027,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"They walk toward the house alone. You watch from the parking lot.",11,0.5
+62,PV_0027,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"Engine running. Phone in your hand. The dashboard clock reads nine fourteen.",11,0.5
+63,PV_0027,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"The streetlight above you buzzes. You notice it.",8,0.5
+64,PV_0027,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"Fifteen minutes pass. Maybe twenty. You don't time it.",9,1.0
+65,PV_0027,BEAT_03_04,PHASE_CONFLICT,REFLECT,NARRATION,"They come back. Shaking. Worse than before.",7,0.5
+66,PV_0027,BEAT_03_04,PHASE_CONFLICT,REFLECT,NARRATION,"But they came back. That's the thing.",6,0.5
+67,PV_0027,BEAT_03_04,PHASE_CONFLICT,REFLECT,NARRATION,"You file the bust report that night. Type it up at the precinct.",11,0.5
+68,PV_0027,BEAT_03_04,PHASE_CONFLICT,REFLECT,NARRATION,"Their name isn't in it. Not once. Nowhere in the system.",10,0.5
+69,PV_0027,BEAT_03_04,PHASE_CONFLICT,REFLECT,NARRATION,"It's like they didn't exist at all.",7,0.5
+70,PV_0027,BEAT_03_04,PHASE_CONFLICT,REFLECT,NARRATION,"Your sergeant reads the report the next morning. Nods.",9,0.5
+71,PV_0027,BEAT_03_04,PHASE_CONFLICT,REFLECT,NARRATION,"Commendation letter shows up in your file by Friday.",8,0.5
+72,PV_0027,BEAT_03_04,PHASE_CONFLICT,REFLECT,NARRATION,"Nobody asks where the arrest came from. Nobody checks.",8,0.5
+73,PV_0027,BEAT_03_04,PHASE_CONFLICT,REFLECT,WEIGHT_LINE,"The system doesn't ask.",4,1.5
+74,PV_0027,BEAT_03_05,PHASE_CONFLICT,REFLECT,WEIGHT_LINE,"You own them.",3,0.5
+75,PV_0027,BEAT_03_05,PHASE_CONFLICT,REFLECT,NARRATION,"That's the phrase. Not one they taught you in the academy.",10,0.5
+76,PV_0027,BEAT_03_05,PHASE_CONFLICT,REFLECT,NARRATION,"Not something anyone says out loud to anyone else.",8,0.5
+77,PV_0027,BEAT_03_05,PHASE_CONFLICT,REFLECT,NARRATION,"Just something you think when you look at the list.",10,0.5
+78,PV_0027,BEAT_03_05,PHASE_CONFLICT,REFLECT,NARRATION,"Clinical. Like inventory.",3,0.5
+79,PV_0027,BEAT_03_05,PHASE_CONFLICT,REFLECT,NARRATION,"You check your phone. Not the department one.",7,0.5
+80,PV_0027,BEAT_03_05,PHASE_CONFLICT,REFLECT,NARRATION,"You look around before you open it.",6,1.5
+81,PV_0027,BEAT_04_01,PHASE_CRISIS,CONFLICT,NARRATION,"Second one's faster. Much faster.",5,0.5
+82,PV_0027,BEAT_04_01,PHASE_CRISIS,CONFLICT,NARRATION,"Smaller charge this time. Bag of weed tucked in a coat pocket.",11,0.5
+83,PV_0027,BEAT_04_01,PHASE_CRISIS,CONFLICT,NARRATION,"You don't even explain the deal anymore. You just say it.",10,0.5
+84,PV_0027,BEAT_04_01,PHASE_CRISIS,CONFLICT,NARRATION,"Work this off.",3,0.5
+85,PV_0027,BEAT_04_01,PHASE_CRISIS,CONFLICT,NARRATION,"Three words. They nod. Same rhythm every time.",8,0.5
+86,PV_0027,BEAT_04_01,PHASE_CRISIS,CONFLICT,NARRATION,"Third one. You barely remember the booking.",7,0.5
+87,PV_0027,BEAT_04_01,PHASE_CRISIS,CONFLICT,NARRATION,"Fourth. Different face. Same chair.",5,0.5
+88,PV_0027,BEAT_04_01,PHASE_CRISIS,CONFLICT,NARRATION,"You tap the phone screen once. Just to scroll the list.",10,0.5
+89,PV_0027,BEAT_04_01,PHASE_CRISIS,CONFLICT,WEIGHT_LINE,"The list keeps growing.",4,1.0
+90,PV_0027,BEAT_04_02,PHASE_CRISIS,CONFLICT,NARRATION,"First week, you remember their names.",6,0.5
+91,PV_0027,BEAT_04_02,PHASE_CRISIS,CONFLICT,NARRATION,"Third week, you remember their charges.",6,0.5
+92,PV_0027,BEAT_04_02,PHASE_CRISIS,CONFLICT,NARRATION,"By the second month, you remember the weight of what they carried.",11,0.5
+93,PV_0027,BEAT_04_02,PHASE_CRISIS,CONFLICT,WEIGHT_LINE,"You don't remember when that changed.",6,1.5
+94,PV_0027,BEAT_04_03,PHASE_CRISIS,CONSTRAINT,NARRATION,"The department knows about six of them.",7,0.5
+95,PV_0027,BEAT_04_03,PHASE_CRISIS,CONSTRAINT,NARRATION,"Six registered informants. Proper files. Proper oversight forms signed in triplicate.",11,0.5
+96,PV_0027,BEAT_04_03,PHASE_CRISIS,CONSTRAINT,NARRATION,"The other eight live on the second phone.",8,0.5
+97,PV_0027,BEAT_04_03,PHASE_CRISIS,CONSTRAINT,NARRATION,"No files. No forms. No supervisor signature. No safety protocol.",9,0.5
+98,PV_0027,BEAT_04_03,PHASE_CRISIS,CONSTRAINT,WEIGHT_LINE,"No one knows they exist.",5,1.0
+99,PV_0027,BEAT_04_03,PHASE_CRISIS,CONSTRAINT,NARRATION,"If something goes wrong with any of them - and you know things go wrong - there's nothing on paper that connects back to you.",22,0.5
+100,PV_0027,BEAT_04_03,PHASE_CRISIS,CONSTRAINT,WEIGHT_LINE,"They were never yours.",4,1.5
+101,PV_0027,BEAT_04_04,PHASE_CRISIS,CONFLICT,NARRATION,"One of them starts calling you at two in the morning.",10,0.5
+102,PV_0027,BEAT_04_44,PHASE_CRISIS,CONFLICT,NARRATION,"Not to report anything. Not to give a name or a location.",11,0.5
+103,PV_0027,BEAT_04_04,PHASE_CRISIS,CONFLICT,NARRATION,"Just to ask if they're safe.",6,0.5
+104,PV_0027,BEAT_04_04,PHASE_CRISIS,CONFLICT,NARRATION,"You sit in the dark with the phone against your ear.",10,0.5
+105,PV_0027,BEAT_04_04,PHASE_CRISIS,CONFLICT,NARRATION,"You don't know what to say to that. So you say something about it being fine.",14,0.5
+106,PV_0027,BEAT_04_04,PHASE_CRISIS,CONFLICT,NARRATION,"They start bringing names you didn't ask for.",8,0.5
+107,PV_0027,BEAT_04_04,PHASE_CRISIS,CONFLICT,NARRATION,"People from their block. People who owe money. People with warrants.",10,0.5
+108,PV_0027,BEAT_04_04,PHASE_CRISIS,CONFLICT,NARRATION,"Trying to stay useful. Handing you people so you keep handing them time.",12,0.5
+109,PV_0027,BEAT_04_04,PHASE_CRISIS,CONFLICT,WEIGHT_LINE,"Trying to stay alive.",4,1.0
+110,PV_0027,BEAT_04_04,PHASE_CRISIS,CONFLICT,NARRATION,"You check the phone before the department one now.",8,0.5
+111,PV_0027,BEAT_04_04,PHASE_CRISIS,CONFLICT,NARRATION,"Stopped looking around when you open it.",7,0.5
+112,PV_0027,BEAT_04_44,PHASE_CRISIS,CONFLICT,NARRATION,"Stopped pretending it's separate from the job.",7,1.5
+113,PV_0027,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"They come in one afternoon.",5,0.5
+114,PV_0027,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"Same chair. But different this time.",6,0.5
+115,PV_0027,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"They don't look scared anymore.",5,0.5
+116,PV_0027,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"They look tired. The kind of tired that isn't about sleep.",11,0.5
+117,PV_0027,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"I think I'm done.",4,1.0
+118,PV_0027,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"You look at them. You don't say anything.",7,0.5
+119,PV_0027,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"You reach across the table. Slide the charge sheet back.",9,0.5
+120,PV_0027,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"The original one. The one from the first night.",9,0.5
+121,PV_0027,BEAT_04_05,PHASE_CRISIS,CRISIS,WEIGHT_LINE,"The one that never went away.",6,1.0
+122,PV_0027,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"They stare at it. Same paper. Same ink.",7,0.5
+123,PV_0027,BEAT_04_05,PHASE_CRISIS,CRISIS,NARRATION,"Then they pick up the pen.",6,1.5
+124,PV_0027,BEAT_04_06,PHASE_CRISIS,CRISIS,NARRATION,"They ask when this ends.",5,0.5
+125,PV_0027,BEAT_04_06,PHASE_CRISIS,CRISIS,NARRATION,"Not angry. Not demanding. Just asking.",5,0.5
+126,PV_0027,BEAT_04_06,PHASE_CRISIS,CRISIS,NARRATION,"You say: after this one. You're clear.",7,0.5
+127,PV_0027,BEAT_04_06,PHASE_CRISIS,CRISIS,NARRATION,"They look at you. First time in weeks they actually look at your face.",13,0.5
+128,PV_0027,BEAT_04_06,PHASE_CRISIS,CRISIS,NARRATION,"Something in their eyes that you recognize. Or don't want to.",10,0.5
+129,PV_0027,BEAT_04_06,PHASE_CRISIS,CRISIS,NARRATION,"You already know that's not true.",6,0.5
+130,PV_0027,BEAT_04_06,PHASE_CRISIS,CRISIS,WEIGHT_LINE,"You knew before you said it.",6,1.5
+131,PV_0027,BEAT_04_07,PHASE_CRISIS,REFLECT,NARRATION,"Work this off.",3,0.5
+132,PV_0027,BEAT_04_07,PHASE_CRISIS,REFLECT,NARRATION,"No explanation anymore. No pitch. Three words.",7,0.5
+133,PV_0027,BEAT_04_07,PHASE_CRISIS,REFLECT,NARRATION,"Next person. Same chair. Same sheet on the table.",8,0.5
+134,PV_0027,BEAT_04_07,PHASE_CRISIS,REFLECT,NARRATION,"You stop remembering the chair.",5,0.5
+135,PV_0027,BEAT_04_07,PHASE_CRISIS,REFLECT,NARRATION,"You stop seeing faces.",4,0.5
+136,PV_0027,BEAT_04_07,PHASE_CRISIS,REFLECT,WEIGHT_LINE,"You see output.",3,2.0
+137,PV_0027,BEAT_05_01,PHASE_RESOLUTION,CRISIS,NARRATION,"They call at two in the morning again.",7,0.5
+138,PV_0027,BEAT_05_01,PHASE_RESOLUTION,CRISIS,NARRATION,"The night before.",3,0.5
+139,PV_0027,BEAT_05_01,PHASE_RESOLUTION,CRISIS,NARRATION,"You look at the screen. Their number. The prepaid buzzing on the nightstand.",12,0.5
+140,PV_0027,BEAT_05_01,PHASE_RESOLUTION,CRISIS,NARRATION,"You roll over.",3,0.5
+141,PV_0027,BEAT_05_01,PHASE_RESOLUTION,CRISIS,WEIGHT_LINE,"You don't answer.",3,1.0
+142,PV_0027,BEAT_05_01,PHASE_RESOLUTION,CRISIS,NARRATION,"New target comes in the next day. File on your desk by noon.",11,0.5
+143,PV_0027,BEAT_05_01,PHASE_RESOLUTION,CRISIS,NARRATION,"You open it. Scan through the pages. The usual charges. The usual neighborhood.",12,0.5
+144,PV_0027,BEAT_05_01,PHASE_RESOLUTION,CRISIS,NARRATION,"Except the margin note.",4,0.5
+145,PV_0027,BEAT_05_01,PHASE_RESOLUTION,CRISIS,NARRATION,"Weapon notation. Known to carry.",5,0.5
+146,PV_0027,BEAT_05_01,PHASE_RESOLUTION,CRISIS,NARRATION,"You close the file. Sit there for a second.",8,0.5
+147,PV_0027,BEAT_05_01,PHASE_RESOLUTION,CRISIS,NARRATION,"Then you stand up and walk to the booking room.",9,0.5
+148,PV_0027,BEAT_05_01,PHASE_RESOLUTION,CRISIS,WEIGHT_LINE,"You don't tell them.",4,1.5
+149,PV_0027,BEAT_05_02,PHASE_RESOLUTION,CRISIS,NARRATION,"The phone rings later that night. Late.",7,0.5
+150,PV_0027,BEAT_05_02,PHASE_RESOLUTION,CRISIS,NARRATION,"Not the department phone.",4,0.5
+151,PV_0027,BEAT_05_02,PHASE_RESOLUTION,CRISIS,WEIGHT_LINE,"The other one.",3,1.0
+152,PV_0027,BEAT_05_02,PHASE_RESOLUTION,CRISIS,NARRATION,"You pick it up and hold it to your ear.",9,0.5
+153,PV_0027,BEAT_05_02,PHASE_RESOLUTION,CRISIS,NARRATION,"You wait for breathing.",4,1.0
+154,PV_0027,BEAT_05_02,PHASE_RESOLUTION,CRISIS,WEIGHT_LINE,"There is none.",3,2.0
+155,PV_0027,BEAT_05_03,PHASE_RESOLUTION,CRISIS,NARRATION,"The line stays open.",4,0.5
+156,PV_0027,BEAT_05_03,PHASE_RESOLUTION,CRISIS,NARRATION,"You don't hang up.",4,0.5
+157,PV_0027,BEAT_05_03,PHASE_RESOLUTION,CRISIS,NARRATION,"You hold the phone against your ear and wait.",9,0.5
+158,PV_0027,BEAT_05_03,PHASE_RESOLUTION,CRISIS,NARRATION,"Thirty seconds. A minute. Maybe longer.",6,0.5
+159,PV_0027,BEAT_05_03,PHASE_RESOLUTION,CRISIS,NARRATION,"Your jaw tightens. You're not sure when that started.",8,0.5
+160,PV_0027,BEAT_05_03,PHASE_RESOLUTION,CRISIS,WEIGHT_LINE,"Nothing.",1,2.0
+161,PV_0027,BEAT_05_04,PHASE_RESOLUTION,RESOLVE,NARRATION,"You put the phone down on the desk.",7,0.5
+162,PV_0027,BEAT_05_04,PHASE_RESOLUTION,RESOLVE,NARRATION,"Open the messages. Scroll to their thread. Delete it.",8,0.5
+163,PV_0027,BEAT_05_04,PHASE_RESOLUTION,RESOLVE,NARRATION,"Go to contacts. Find the number. Remove it.",7,0.5
+164,PV_0027,BEAT_05_04,PHASE_RESOLUTION,RESOLVE,NARRATION,"Pull the folder from the bottom drawer. The one without a case number.",12,0.5
+165,PV_0027,BEAT_05_04,PHASE_RESOLUTION,RESOLVE,NARRATION,"Close it.",2,0.5
+166,PV_0027,BEAT_05_04,PHASE_RESOLUTION,RESOLVE,NARRATION,"There's a water stain on the ceiling tile above your desk.",10,0.5
+167,PV_0027,BEAT_05_04,PHASE_RESOLUTION,RESOLVE,NARRATION,"You notice that.",3,1.0
+168,PV_0027,BEAT_05_04,PHASE_RESOLUTION,RESOLVE,NARRATION,"You look at the phone one more time.",7,0.5
+169,PV_0027,BEAT_05_04,PHASE_RESOLUTION,RESOLVE,NARRATION,"Thirteen contacts.",2,0.5
+170,PV_0027,BEAT_05_04,PHASE_RESOLUTION,RESOLVE,WEIGHT_LINE,"You still have thirteen.",4,1.5
+171,PV_0027,BEAT_05_05,PHASE_RESOLUTION,REFLECT,NARRATION,"They were never yours.",4,0.5
+172,PV_0027,BEAT_05_05,PHASE_RESOLUTION,REFLECT,NARRATION,"That's what you tell yourself.",5,0.5
+173,PV_0027,BEAT_05_05,PHASE_RESOLUTION,REFLECT,NARRATION,"Or maybe you don't tell yourself anything.",7,0.5
+174,PV_0027,BEAT_05_05,PHASE_RESOLUTION,REFLECT,WEIGHT_LINE,"You own them.",3,0.5
+175,PV_0027,BEAT_05_05,PHASE_RESOLUTION,REFLECT,WEIGHT_LINE,"Not a figure of speech anymore.",5,2.0
+176,PV_0027,BEAT_06_01,CALLBACK_CLOSE,RESOLVE,NARRATION,"A new detective starts riding along the next month.",9,0.5
+177,PV_0027,BEAT_06_01,CALLBACK_CLOSE,RESOLVE,NARRATION,"Young. Polished shoes. Reminds you of the academy.",8,0.5
+178,PV_0027,BEAT_06_01,CALLBACK_CLOSE,RESOLVE,NARRATION,"They watch you flip someone in the booking room.",8,0.5
+179,PV_0027,BEAT_06_01,CALLBACK_CLOSE,RESOLVE,NARRATION,"Same chair. Same charge sheet on the table. Same three words.",10,0.5
+180,PV_0027,BEAT_06_01,CALLBACK_CLOSE,RESOLVE,NARRATION,"Afterward, in the hallway, they ask how you do it.",9,0.5
+181,PV_0027,BEAT_06_01,CALLBACK_CLOSE,RESOLVE,NARRATION,"You say: don't ask. Tell.",5,0.5
+182,PV_0027,BEAT_06_01,CALLBACK_CLOSE,RESOLVE,NARRATION,"They flip their first one alone the next week.",8,0.5
+183,PV_0027,BEAT_06_01,CALLBACK_CLOSE,RESOLVE,NARRATION,"Your words. Your phrasing.",4,0.5
+184,PV_0027,BEAT_06_01,CALLBACK_CLOSE,RESOLVE,WEIGHT_LINE,"Your pitch.",2,1.0
+185,PV_0027,BEAT_06_02,CALLBACK_CLOSE,REFLECT,NARRATION,"They ask you one night if this is how it's supposed to work.",12,1.0
+186,PV_0027,BEAT_06_02,CALLBACK_CLOSE,REFLECT,NARRATION,"You don't answer.",3,0.5
+187,PV_0027,BEAT_06_02,CALLBACK_CLOSE,REFLECT,NARRATION,"You reach into your jacket. Pull out the phone. Hand it to them.",11,1.0
+188,PV_0027,BEAT_06_02,CALLBACK_CLOSE,REFLECT,WEIGHT_LINE,"Next week they don't ask anymore.",6,1.5
+189,PV_0027,BEAT_06_03,CALLBACK_CLOSE,REFLECT,NARRATION,"Thirteen numbers.",2,0.5
+190,PV_0027,BEAT_06_03,CALLBACK_CLOSE,REFLECT,NARRATION,"You remember their charges. Not their faces.",7,0.5
+191,PV_0027,BEAT_06_03,CALLBACK_CLOSE,REFLECT,NARRATION,"You reach into your pocket. Habit.",5,0.5
+192,PV_0027,BEAT_06_03,CALLBACK_CLOSE,REFLECT,NARRATION,"The phone's not there. You gave it away.",7,0.5
+193,PV_0027,BEAT_06_03,CALLBACK_CLOSE,REFLECT,WEIGHT_LINE,"Your hand still reaches.",4,1.5
+194,PV_0027,BEAT_06_04,CALLBACK_CLOSE,CALLBACK,NARRATION,"Someone new sits down.",4,0.5
+195,PV_0027,BEAT_06_04,CALLBACK_CLOSE,CALLBACK,NARRATION,"Same chair.",2,0.5
+196,PV_0027,BEAT_06_04,CALLBACK_CLOSE,CALLBACK,NARRATION,"Same charge sheet. Same offer.",5,0.5
+197,PV_0027,BEAT_06_04,CALLBACK_CLOSE,CALLBACK,WEIGHT_LINE,"You already know what they'll say.",6,1.5
+198,PV_0027,BEAT_06_05,CALLBACK_CLOSE,CTA,WEIGHT_LINE,"You own them.",3,1.0
+199,PV_0027,BEAT_06_05,CALLBACK_CLOSE,CTA,REFLECTION,"You don't remember when that stopped being a figure of speech.",11,2.0

@@ -7,7 +7,49 @@ skills_required:
 # WORKFLOW: /analyze-seed
 
 > **Phase:** Pre-ideation  
-> **Purpose:** Parse user seed → detect named entity OR match world → confirm before proceeding
+> **Purpose:** Parse user seed -> detect named entity OR match world -> confirm before proceeding
+
+## EXECUTION_CHECKLIST
+
+```yaml
+total_steps: 6
+steps:
+  - step: 1
+    name: "Parse Seed"
+    type: AUTO
+    output: "inline (parsed_seed)"
+
+  - step: 1b
+    name: "Named Entity Detection"
+    type: AUTO
+    output: "inline (entity detected or not)"
+    note: "If NAMED_ENTITY -> triggers /pvle-extract-anchor (separate workflow)"
+
+  - step: 1c
+    name: "Speech Time Input"
+    type: BLOCKING
+    gate: "Wait for user to specify target minutes"
+    output: "inline (speech_time_config)"
+
+  - step: 2
+    name: "Match World Registry"
+    type: AUTO
+    output: "inline (match result)"
+
+  - step: 3
+    name: "Display World (match or new)"
+    type: BLOCKING
+    gate: "Wait for user to confirm world"
+    output: "inline (world data displayed)"
+
+  - step: 4
+    name: "Ingest + Proceed"
+    type: AUTO
+    output: "World_ID confirmed"
+
+# On completion: verify all steps checked
+# On skip: VIOLATION -> HALT_AND_REPORT
+```
 
 ---
 

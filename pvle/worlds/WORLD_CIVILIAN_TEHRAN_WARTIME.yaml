@@ -1,0 +1,533 @@
+# WORLD: Civilian Inside Tehran During Wartime Escalation
+# Version: v2.0 (post-review optimization)
+# Created: 2026-04-13
+
+WORLD_ID: WORLD_CIVILIAN_TEHRAN_WARTIME
+display_name: "The Person Who Was Still Inside When It Started"
+domain: CIVILIAN_WARZONE
+era: MODERN_CONTEMPORARY
+implied_identity_mode: GENERIC_ARCHETYPE
+implied_person: null
+structure_id: LIFE_ADVERSITY
+
+tags:
+  - civilian_wartime
+  - tehran_under_fire
+  - ordinary_life_shattered
+  - survival_instinct
+  - information_blackout
+  - family_protection
+  - powerlessness
+  - the_other_side_of_the_screen
+  - moral_fracture
+  - counting_as_coping
+
+seed_keywords:
+  - "civilian Tehran"
+  - "Iran war civilian"
+  - "wartime escalation"
+  - "ordinary person under bombing"
+  - "civilian perspective war"
+  - "Tehran during strikes"
+  - "life under airstrikes"
+  - "the other side of the drone"
+
+# =============================================================================
+# SUBJECT ARCHETYPE
+# Mid-30s professional in Tehran - educated, modern, apolitical
+# Not a fighter, not a protester - just a person trying to live
+# =============================================================================
+
+subject_archetype:
+  role: "Software engineer at a Tehran tech company - mid-30s, married, one daughter (5)"
+  behavioral_details:
+    - "Takes the same metro line every morning - Tajrish to Mirdamad"
+    - "Daughter draws pictures of the family cat on the fridge door"
+    - "Keeps a VPN running at all times - for work and for the world"
+    - "Stores 20 liters of water in the kitchen - habit from parents"
+    - "Checks dollar exchange rate every morning before breakfast"
+    - "Argues with coworkers about Persepolis F.C. match results"
+    - "Buys his wife saffron ice cream from a specific shop on Valiasr Street"
+  motivation: "SURVIVAL + FAMILY - wants daughter out before borders close"
+  narrative_function: >
+    The subject is not political. They did not vote for the regime.
+    They did not ask for the war. They are the person on the other end
+    of the coordinates. When the drone operator watches a neighborhood,
+    this person lives in that neighborhood. When the CIA officer sends
+    an asset back across the border, this person is in the crowd
+    that does not know it is being watched.
+
+# =============================================================================
+# RECURRING MOTIF: COUNTING
+# The psychology of survival expressed as compulsive arithmetic
+# Phase 2 (VO) should thread this through the entire script
+# =============================================================================
+
+recurring_motif:
+  name: "THE MATH"
+  description: >
+    Survival reduces everything to numbers. The subject begins
+    counting instinctively - distance, seconds, bottles, people,
+    money. It starts as coping. It becomes identity.
+    By the end, the only number is one: alive.
+  instances:
+    - "12 kilometers to the first strike"
+    - "Count seconds between flash and sound"
+    - "20 liters of water in the kitchen"
+    - "Bus ticket to Turkey: price x3, then x3 again"
+    - "Savings cover departure for 2, not 3"
+    - "One box of insulin left on the shelf"
+    - "30-minute internet window"
+    - "Bread queue starts at 5 AM"
+    - "12 families in the parking garage"
+    - "3 months of salary for one insulin box"
+  resolution_echo: >
+    "You survived. That is the only number that matters.
+    It does not feel like enough."
+
+# =============================================================================
+# KEY FACTS - v2.0: added micro-specificity, moral fracture,
+#   regime-as-second-enemy, escalation spikes, before/after contrast
+# =============================================================================
+
+key_facts:
+  # --- WHO YOU ARE ---
+  1: >
+    You are a software engineer in Tehran. You build payment apps
+    for a company that cannot process international transactions
+    because of sanctions. You are good at your job. Your job exists
+    in a country the world has decided to isolate. You did not
+    choose the isolation. You just write code inside it.
+    Every morning you argue about football scores on the metro.
+    Every evening you bring saffron ice cream home on Fridays.
+    You are ordinary. That is the point.
+    (HOOK / PHASE_EARLY: ordinary life inside extraordinary constraints)
+
+  # --- THE CITY BEFORE (maximized contrast) ---
+  2: >
+    Before the escalation, Tehran is 9 million people complaining
+    about traffic on the Hemmat Expressway. University students
+    smoke in front of the bookshop on Enghelab Street. Couples
+    walk Darband trail on Friday afternoons. Your coworker is angry
+    because Persepolis lost again. The barista at your corner cafe
+    misspells your name on the cup - on purpose, you think. The regime
+    is background noise - oppressive, yes, but like weather. You have
+    learned where the lines are. You live inside them. Most people do.
+    You will not understand what this city was until it stops being this.
+    (PHASE_EARLY: the city is real - every detail is future loss)
+
+  # --- INFORMATION DEATH (spike 1) ---
+  3: >
+    It starts with the internet. Not with bombs. Speeds drop Monday.
+    Instagram dies Tuesday. WhatsApp goes dark Wednesday. By Thursday
+    your VPN icon spins and spins and never connects. Your mother calls
+    from the landline - she does not have one, she is at the neighbor's -
+    to ask if you saw the news. There is no news. That is the news.
+    The screen on your phone becomes a mirror. It shows your face
+    and nothing else.
+    When a government kills the internet, it is not hiding information
+    from the outside. It is building a wall around the inside.
+    (PHASE_EARLY / CONFLICT: information blackout as first weapon - SPIKE)
+
+  # --- SANCTIONS BEFORE BOMBS (slow burn) ---
+  4: >
+    Before the first explosion, sanctions have already hollowed
+    everything. The rial collapsed so many times you stopped
+    converting. Insulin costs three months of salary. Your daughter
+    needs a specific antibiotic - the pharmacy has the generic version
+    from a factory that lost its supply chain two sanctions rounds ago.
+    The pharmacist shrugs. The pill exists somewhere in the world.
+    The logistics do not exist in yours. War begins long before the
+    first sound. It begins when a shelf goes empty and stays empty.
+    (PHASE_EARLY / CONFLICT: economic warfare as lived experience)
+
+  # --- THE FIRST STRIKE (spike 2 - visceral) ---
+  5: >
+    The first airstrike hits a military facility 12 kilometers from
+    your apartment. You feel the vibration in your feet before you
+    hear anything. The glass of water on the kitchen counter shakes.
+    Then the sound. Your daughter wakes up screaming. Your wife grabs
+    her. You grab the phone. No signal. The power cuts mid-grab.
+    In the dark, you hear your neighbor praying through the wall.
+    You do not pray. You count. One second. Two. Three. If the next
+    impact is closer, you move. If not, you stay. You do not remember
+    deciding to count. Your hands decided for you. You are shaking.
+    (PHASE_CONFLICT: the first strike from the receiving end - SPIKE)
+
+  # --- THE SHELTER (micro-specificity) ---
+  6: >
+    There are no public bomb shelters in your neighborhood. The
+    basement parking garage was designed for twelve cars, not twelve
+    families. You carry blankets, water, your daughter's insulin,
+    your wife's documents, and one phone charger. The plastic bag
+    tears on the stairs. A bottle of water rolls under a parked car
+    and you leave it. Your daughter will not let go of the cat drawing
+    from the fridge. She carries it folded in her fist the entire night.
+    A man you have never spoken to gives her his jacket.
+    Someone brings a battery radio. Someone else brings bread.
+    Nobody is in charge. Nobody needs to be.
+    (PHASE_CONFLICT: grassroots survival - micro-details as emotional weight)
+
+  # --- THE REGIME IS ALSO YOUR ENEMY (second front) ---
+  7: >
+    After the first strikes, the IRGC sets up checkpoints on
+    Hemmat Expressway. Basij patrol the neighborhoods - not to help,
+    not to evacuate, but to watch. A man in your building is taken
+    for questioning because he has a satellite dish. He comes back
+    two days later and says nothing about where he was. You are being
+    bombed from above and controlled from within. The regime did not
+    start the war - but it is using the war. Curfew is announced.
+    Movement is restricted. The enemy is above you and around you.
+    You are in between.
+    (PHASE_CONFLICT: dual oppression - the civilian is trapped between two forces)
+
+  # --- DUAL-USE REALITY ---
+  8: >
+    The news says the strikes target only military infrastructure.
+    Your office building shares a block with an IRGC-linked logistics
+    center you did not know existed. The power grid that serves the
+    military facility also serves the hospital where your mother
+    gets dialysis. "Precision" is a word used by people who do not
+    live near the targets. From twelve kilometers away, it is strategy.
+    From your kitchen window, it is the glass of water shaking
+    on the counter again.
+    (PHASE_CONFLICT / CRISIS: precision evaporates at point of impact)
+
+  # --- THE MORAL FRACTURE (spike 3 - the hit) ---
+  9: >
+    In the pharmacy, there is one remaining box of insulin.
+    The man ahead of you says his son needs it. His son is diabetic.
+    Your daughter is diabetic. You both know there will not be another
+    shipment. The pharmacist looks at both of you and says nothing.
+    You take the box. You say "my daughter" and your voice does not
+    sound like yours. The man does not argue. He just stands there.
+    You walk out. You look back once. He is still standing at the
+    counter. That night your daughter sleeps. You do not.
+    You are not a bad person. You are a person who ran out of choices
+    the same day the pharmacy ran out of boxes.
+    (PHASE_CRISIS: survival vs morality fracture - SPIKE / irreversible)
+
+  # --- THE BORDER TRAP ---
+  10: >
+    When the land borders close, the price of a seat on a bus
+    to Turkey triples overnight. Then triples again. People who
+    can afford to leave, leave. A colleague at work sold his
+    apartment for a third of its value just to get his family out.
+    You calculate: your savings cover two seats, not three.
+    Your wife says she will not leave without you. You say you will
+    not leave without your mother. Your mother says she is too old
+    to leave. Nobody leaves. The math of escape is always one
+    person short.
+    (PHASE_CRISIS: the border trap - math motif)
+
+  # --- THE BREAD QUEUE ---
+  11: >
+    The bakery queue starts at 5 AM. By 7 it wraps around the block.
+    Faces lit by phone screens checking for signal. Flour is rationed.
+    A woman ahead of you has two children hanging on her arms.
+    A man pushes past her. Nobody reacts. The baker comes out and
+    says there is no more flour today. The queue dissolves.
+    Nobody riots. Nobody shouts. Everyone just walks home.
+    This is what war looks like when the cameras are watching
+    something else. There is no footage of people walking home
+    with empty bags.
+    (PHASE_CRISIS: daily survival without spectacle)
+
+  # --- THE 30-MINUTE WINDOW ---
+  12: >
+    When the internet comes back for 30 minutes - a government-
+    controlled window - you video-call your cousin in Canada.
+    She is crying. She says the whole world is watching. You want
+    to say: the world watches the explosions. It does not watch the
+    bread queue. It does not watch the man still standing at the
+    pharmacy counter. It does not watch twelve families in a parking
+    garage. But the connection is bad and you only have time to say:
+    "We are alive." She says: "Thank God." You do not correct her.
+    (PHASE_CRISIS / RESOLUTION: invisibility of civilian experience)
+
+  # --- THE DAUGHTER QUESTION (visceral version) ---
+  13: >
+    Your daughter asks: "Are the planes ours?" You open your mouth.
+    Nothing comes out. She is five. She thinks planes belong to
+    someone. She thinks someone decided this. She is right.
+    Someone did decide. In rooms you will never enter. In countries
+    where children do not flinch at loud sounds. You say: "No."
+    She asks: "Whose are they?" You say: "Go draw the cat."
+    She does. She draws the cat. But she draws it inside a box.
+    You do not ask what the box is.
+    (PHASE_CRISIS / RESOLUTION: innocence meets geopolitics - visceral)
+
+  # --- THE AFTER ---
+  14: >
+    When the ceasefire comes - if it comes - nothing returns.
+    The apartment has cracks running from ceiling to floor.
+    The metro station nearest your office is closed. Your company
+    lost its servers. The rial fell further than you can calculate.
+    The saffron ice cream shop on Valiasr is gone - not bombed,
+    just closed, because the owner left and did not come back.
+    Your daughter flinches at car doors slamming. Your wife sleeps
+    with the documents bag touching her arm. The cat drawing is still
+    on the fridge. The crack in the wall runs right through it.
+    You are alive. Everyone says that should be enough.
+    It is not.
+    (PHASE_RESOLUTION: survival is not recovery - before/after callback)
+
+# =============================================================================
+# IRREVERSIBLE MARKERS (5 points of no return)
+# =============================================================================
+
+irreversible_markers:
+  marker_1:
+    phase: PHASE_CONFLICT
+    description: >
+      Internet dies. The screen becomes a mirror. You are now
+      trapped inside information silence. The wall is built.
+    label: "INFORMATION_DEATH"
+
+  marker_2:
+    phase: PHASE_CONFLICT
+    description: >
+      The first airstrike. The vibration in your feet before
+      the sound. The glass of water shaking on the counter.
+      War is no longer news.
+    label: "FIRST_IMPACT"
+
+  marker_3:
+    phase: PHASE_CONFLICT
+    description: >
+      Basij patrol your neighborhood. You are being bombed
+      from above and controlled from within. No direction is safe.
+    label: "DUAL_OPPRESSION"
+
+  marker_4:
+    phase: PHASE_CRISIS
+    description: >
+      You take the last insulin box. You look back at the man.
+      He is still standing there. You cannot undo this.
+    label: "MORAL_FRACTURE"
+
+  marker_5:
+    phase: PHASE_CRISIS
+    description: >
+      Borders close. The math says two seats, not three.
+      Nobody leaves. The equation never balances.
+    label: "BORDER_TRAP"
+
+# =============================================================================
+# KEY LOCATIONS
+# =============================================================================
+
+key_locations:
+  - id: LOC_APARTMENT_TEHRAN
+    name: "The Apartment"
+    description: >
+      Mid-floor unit in west Tehran. Daughter's cat drawing on
+      the fridge. Glass of water on the kitchen counter that shakes
+      when the strikes are close. After: crack running ceiling
+      to floor, right through the drawing.
+
+  - id: LOC_BASEMENT_SHELTER
+    name: "The Parking Garage"
+    description: >
+      Underground level. Twelve families on concrete. One battery
+      radio. Bread passed between strangers. A plastic bag that
+      tore on the stairs. A water bottle under a parked car.
+
+  - id: LOC_BREAD_QUEUE
+    name: "The Bakery Queue"
+    description: >
+      A line starting before dawn. Faces lit by phone screens.
+      Dissolves without spectacle when the flour runs out.
+      No footage exists of people walking home with empty bags.
+
+  - id: LOC_PHARMACY
+    name: "The Pharmacy"
+    description: >
+      One box of insulin left on the shelf. Two fathers. One
+      pharmacist who says nothing. The place where survival
+      and morality split.
+
+  - id: LOC_METRO_STATION
+    name: "Tehran Metro - Tajrish to Mirdamad"
+    description: >
+      Daily commute. Where you argue about football scores.
+      After: the nearest station closed for structural damage.
+      The ordinary infrastructure of a life that stopped being ordinary.
+
+  - id: LOC_VALIASR_STREET
+    name: "Valiasr Street"
+    description: >
+      The longest street in Tehran. The saffron ice cream shop.
+      Friday walks. After: the shop is closed, the owner left,
+      the street is the same but nothing on it is.
+
+# =============================================================================
+# KEY TENSIONS
+# =============================================================================
+
+key_tensions:
+  primary: NORMAL_DESIRE_VS_IMPOSSIBLE_REALITY
+  secondary:
+    - PROTECTION_VS_CONTROL          # protect family but control nothing
+    - DUTY_VS_SELF                   # stay for mother or flee for daughter
+    - POWER_VS_ISOLATION             # world watches war, not you
+    - SURVIVAL_VS_MORALITY           # insulin box - what survival costs
+
+# =============================================================================
+# MICRO-TENSION LIBRARY (for visual mapping in Phase 3)
+# =============================================================================
+
+micro_tension_library:
+  survival_routines:
+    - "Counting water bottles stacked in the kitchen"
+    - "Checking phone signal - no bars, again"
+    - "Daughter's cat drawing folded in her fist"
+    - "Carrying blankets and documents down to parking garage"
+    - "Plastic bag tearing on the stairs"
+    - "Bread queue faces lit by phone screens before dawn"
+    - "Water bottle rolling under parked car, left behind"
+  escalation_signals:
+    - "Glass of water shaking on kitchen counter"
+    - "Power cutting mid-grab"
+    - "VPN icon spinning, never connecting"
+    - "Dollar exchange rate jumping on screen"
+    - "Pharmacy shelf - one box left"
+    - "Basij checkpoint on Hemmat Expressway"
+    - "Neighbor taken for satellite dish, returns saying nothing"
+  human_moments:
+    - "Stranger gives daughter his jacket in garage"
+    - "Someone brings bread, someone brings radio"
+    - "Baker says no flour - queue dissolves without spectacle"
+    - "Cousin in Canada crying on bad connection"
+    - "Wife sleeping with documents bag touching her arm"
+    - "Daughter draws cat inside a box"
+  before_after_echoes:
+    - "Before: arguing about Persepolis match / After: silence in queue"
+    - "Before: barista misspells name on cup / After: cafe closed"
+    - "Before: saffron ice cream on Fridays / After: shop gone, owner left"
+    - "Before: metro delay complaint / After: station closed for damage"
+    - "Before: cat drawing on fridge / After: crack runs through it"
+
+# =============================================================================
+# AUDIO TEXTURE LIBRARY (for Phase 3 - video prompts / sound design)
+# =============================================================================
+
+audio_texture_library:
+  pre_escalation:
+    - "Tehran traffic hum on Hemmat"
+    - "Metro announcement echo"
+    - "Football match on TV in background"
+    - "Cafe noise, cup clinking"
+  during_escalation:
+    - "VPN connecting sound - click-spin-click-fail"
+    - "Phone 'no signal' beep"
+    - "Distant thump - 2 second delay - then the sound"
+    - "Radio static between frequencies"
+    - "Silence after power cuts - then prayer through wall"
+    - "Plastic bag tearing"
+    - "Water bottle rolling on concrete"
+  resolution:
+    - "Car door slam - daughter flinches"
+    - "Silence where the ice cream shop radio used to play"
+    - "Landline ringing - the old sound"
+
+# =============================================================================
+# ACCESSORY TAGS
+# =============================================================================
+
+accessory_tags:
+  - "phone (always checking signal)"
+  - "backpack with documents and water"
+  - "plain hoodie - deliberately unremarkable"
+  - "daughter on shoulders (shelter scenes)"
+  - "plastic bag (shelter descent)"
+
+# =============================================================================
+# THEMATIC COUNTERPOINT (series-level coherence)
+# =============================================================================
+
+thematic_counterpoint:
+  note: >
+    This world is the mirror image of every power-perspective
+    Iran episode. PV_0009 decided to bomb. PV_0004 decided
+    to retaliate. PV_0018 ran the assets. PV_0011 pressed the
+    button. This person is on the other end of all of those
+    decisions. The coordinates. The dual-use building. The
+    neighborhood under pattern-of-life surveillance.
+    Every other episode says "you made the call."
+    This episode says "you were standing where it landed."
+  triangulation:
+    PV_0011_DRONE: "control - you press the button"
+    PV_0012_MOSSAD: "manipulation - you run the lie"
+    PV_0018_CIA: "proxy power - you trade lives at a distance"
+    PV_0019_CIVILIAN: "zero agency - you are the coordinate"
+
+# =============================================================================
+# PLATFORM SAFETY
+# =============================================================================
+
+platform_safety:
+  framing: "Fictionalized composite - civilian perspective during wartime escalation"
+  focus: "Survival psychology > political commentary. Human cost > military analysis."
+  forbidden:
+    - Graphic depictions of casualties or gore
+    - Specific real regime leaders by name
+    - Pro-regime or anti-regime political stance
+    - Glorification of any military force
+    - Specific real attack targets or classified details
+    - Portraying civilian as politically motivated
+  allowed:
+    - Economic impact of sanctions on daily life
+    - Emotional weight of displacement and uncertainty
+    - Family dynamics under extreme pressure
+    - Information blackout as psychological weapon
+    - The gap between strategic language and lived reality
+    - Moral micro-choices under survival pressure
+    - Dual oppression (external bombing + internal control)
+  note: >
+    The civilian is not pro-regime or anti-regime. They are pro-survival.
+    The regime is not the hero saving them. The regime is also compressing them.
+    Both forces are presented without political editorializing.
+    Key frame: psychological portrait of being trapped between two powers.
+
+# =============================================================================
+# HOOK CANDIDATES (v2.0 - pattern-disrupt priority)
+# =============================================================================
+
+hook_candidates:
+  option_1: "The first thing that disappears is not a building. It is the internet."
+  option_2: "You feel the vibration in your feet before you hear the sound."
+  option_3: "No one asked what you thought about the war. It just arrived."
+  option_4: "Twelve kilometers. That is how close the first strike lands. Close enough to shake the glass of water on your kitchen counter."
+
+# =============================================================================
+# META
+# =============================================================================
+
+used_in_episodes: [PV_0019]
+created: "2026-04-13"
+version: "2.0"
+review_notes: >
+  v2.0: Post-review optimization. Key changes:
+  (1) Added recurring_motif COUNTING as explicit narrative thread
+      with 10 instances and resolution echo
+  (2) Added Fact #9: MORAL_FRACTURE (insulin pharmacy scene)
+      - the irreversible micro-choice that defines character
+  (3) Added Fact #7: DUAL_OPPRESSION (regime as second enemy)
+      - Basij, checkpoints, satellite dish interrogation
+  (4) Upgraded Fact #2: before/after contrast maximized
+      - football arguments, barista, ice cream shop, metro complaints
+  (5) Added micro-specificity to Fact #5 and #6:
+      - glass of water shaking, plastic bag tears, bottle rolls away
+      - daughter carries cat drawing folded in fist
+  (6) Upgraded Fact #13: daughter draws cat inside a box
+      - visceral identity fracture, not philosophical
+  (7) Upgraded Fact #14: resolution with before/after callbacks
+      - ice cream shop gone, crack through the drawing
+  (8) Added audio_texture_library for Phase 3 sound design
+  (9) Added before_after_echoes in micro_tension_library
+  (10) Added SURVIVAL_VS_MORALITY tension
+  (11) Hook priority shifted to pattern-disrupt option_1
+  (12) Total key_facts: 12 -> 14 (added dual_oppression + moral_fracture)
+  (13) Total irreversible_markers: 4 -> 5 (added DUAL_OPPRESSION)
+  (14) Added series triangulation map for emotional coherence

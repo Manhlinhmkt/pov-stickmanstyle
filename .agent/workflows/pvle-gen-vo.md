@@ -14,6 +14,38 @@ skills_required:
 >   3. `vo_finalize_table.csv` (EN performance-optimized per line)
 >   4. `vo_script_table.csv` (EN + VI final)
 
+## EXECUTION_CHECKLIST
+
+```yaml
+total_steps: 4
+steps:
+  - step: 1
+    name: "DRAFT (vo_draft_table.csv)"
+    type: BLOCKING
+    gate: "Wait for user to review draft before humanize"
+    output: "pvle/episodes/{EP}/vo_draft_table.csv"
+
+  - step: 2
+    name: "ENHANCE (vo_enhanced_table.csv)"
+    type: BLOCKING
+    gate: "Wait for user to review humanized script before performance"
+    output: "pvle/episodes/{EP}/vo_enhanced_table.csv"
+
+  - step: 3
+    name: "FINALIZE (vo_finalize_table.csv)"
+    type: BLOCKING
+    gate: "Wait for user to review finalized script before translation"
+    output: "pvle/episodes/{EP}/vo_finalize_table.csv"
+
+  - step: 4
+    name: "SCRIPT (vo_script_table.csv - EN + VI + De-AI)"
+    type: AUTO
+    output: "pvle/episodes/{EP}/vo_script_table.csv"
+
+# On completion: verify all steps checked
+# On skip: VIOLATION -> HALT_AND_REPORT
+```
+
 ---
 
 ## STEP 1: DRAFT (vo_draft_table.csv)
@@ -426,13 +458,34 @@ checks:
   VO_ID: sequential, no gaps
 ```
 
-### 4.5: Output
+### 4.5: De-AI Scan
+
+Read skill file: `pvle-engine/phase-2/de-ai-rules.md`
+
+Scan `vo_script_table.csv` for AI signatures SIG_01 through SIG_10:
+
+```yaml
+de_ai_scan:
+  step_1: "Flag all lines matching AI signatures"
+  step_2: "Identify hotspots (3+ signatures within 10 consecutive lines)"
+  step_3: "If zero hotspots: SKIP - proceed to output"
+  step_4: "If hotspots found: apply correction techniques TECH_01-08"
+  step_5: "Re-translate VO_VI for changed lines"
+  step_6: "Re-verify word count within budget"
+  
+  important:
+    - "Fix only hotspots. Do not touch clean sections."
+    - "Do not distribute fixes evenly."
+    - "Ask: is any fix PROVING the script is human? If yes = remove fix."
+```
+
+### 4.6: Output
 
 File: `pvle/episodes/{EP}/vo_script_table.csv`
 
 Columns: `VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_VI,Word_Count_EN,Pause_After`
 
-### 4.6: Final Report
+### 4.7: Final Report
 
 ```
 === FINAL VO REPORT ===

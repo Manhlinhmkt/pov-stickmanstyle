@@ -158,7 +158,39 @@ RULE_LOGIC_BREAK:
 RULE_OVERLAPPING_THOUGHT:
   frequency: "1-2 per episode"
   description: "Second thought cuts in before first completes"
-  pattern: '"[thought A]" → "Or —" → "[unrelated]"'
+  pattern: '"[thought A]" -> "Or --" -> "[unrelated]"'
+
+RULE_WRONG_FOCUS_MUNDANE:
+  frequency: "1 per episode"
+  description: "Attention lands on truly mundane object during stress"
+  must_be:
+    - physical object with zero symbolic/metaphorical value
+    - noticed during cognitive load (crisis, stress, numbness)
+    - NOT explained or labeled by narrator
+  examples_good:
+    - '"There is a cable hanging loose behind the TV."'
+    - '"There is a bit of tape stuck on the corner."'
+    - '"There is a glass on the counter."'
+  examples_bad:
+    - '"There is a stain on the wall." (stain = moral stain)'
+    - '"There is a crack in the mirror." (crack = broken self)'
+    - '"A cat crosses the street." (screenwriting textbook trope)'
+  test: "Could this object appear in a poem about this scene? If YES = too symbolic."
+  see_also: "de-ai-rules.md TECH_03"
+
+RULE_SELF_CORRECTION_INLINE:
+  frequency: "1-2 per episode"
+  description: "Narrator corrects own memory mid-flow - brain glitch"
+  pattern: '"[Statement]. [Self-correction]."'
+  examples_good:
+    - '"It was already closed. You keep forgetting that."'
+    - '"Or you think you do."'
+    - '"You don''t remember when that changed."'
+  examples_bad:
+    - '"Actually, now that you think about it..."'
+    - '"You realize you were wrong about that."'
+  must_not: "Sound like narrator performing self-awareness"
+  see_also: "de-ai-rules.md TECH_05"
 ```
 
 ---
@@ -334,6 +366,21 @@ RULE_SPLIT_COMPOUND_ENDINGS:
   description: "Split multi-clause endings into separate VO lines"
   bad:  '"And that's fine. Or it's not. You haven't figured that out yet."'
   good: '3 separate VO rows — each lands individually'
+
+RULE_END_EARLY:
+  description: "Sometimes ending a thought 1 beat early is more human"
+  technique: "Remove the final explanatory/conclusive line of a sequence"
+  example:
+    AI_complete: |
+      "You drink it."
+      "It tastes the same."
+      "That should be comforting."
+      "It isn't."
+    human_early: |
+      "You drink it anyway."
+  principle: "The ABSENCE of conclusion IS the human signal"
+  frequency: "1-2 per episode where applicable"
+  see_also: "de-ai-rules.md TECH_06"
 ```
 
 ---
@@ -461,7 +508,7 @@ score_rubric:
 ```yaml
 FORBIDDEN:
   - Poetic uncertainty: "Perhaps the answer lies in..."
-  - Symmetric doubt: "You don't know. / Maybe. / Or —" (3-beat stack)
+  - Symmetric doubt: "You don't know. / Maybe. / Or --" (3-beat stack)
   - Explained fidgets: "You adjust your collar because you're nervous"
   - Narrator awareness: "Looking back, you realize..."
   - Clean parallel lists: "X. Y. Z." without breaking the third
@@ -469,4 +516,26 @@ FORBIDDEN:
   - AI hedging: "In some ways..." / "Part of you..."
   - Over-introspection: "You wonder if..." (more than 1x per episode)
   - Controlled chaos: Adding imperfections in a detectable pattern
+
+  # De-AI texture patterns (learned from PV_0020)
+  - 3-Line Moral Hammer: "Relieved. / Hate yourself. / Still relieved." (setup/conflict/loop)
+  - Negative Definition Loop: standalone "You don't [X]" > 3 times per episode
+  - Narrator Self-Identification: "You know what that makes you" (narrator too self-aware)
+  - Symbolic Wrong Focus: detail pretending to be mundane but carrying metaphorical weight
+  - "Though" Fake Conversational: using "though" at end of sentence to fake naturalness
+  - Setup/Punch Cliche: "That should be [X]. / It isn't." pattern
+  - Meta-Awareness: "trying to locate what you feel" / "feelings arrive in wrong order"
+  - Designed Imperfection: adding noise on a quota/schedule = new AI pattern
+  - Callback Commentary: adding observations after callbacks ("Same spot as always")
+
+  # De-AI structural patterns (learned from PV_0015)
+  - Narrator Explanation Mode: stepping outside POV to explain system/context as documentary
+  - Designed Inner Debate: clean self-argument (claim / No / rephrase / No)
+  - Documentary Framing: "On the other side", "There are [X] and there are [Y]"
+  - Writer Sentences: quotable, poster-ready lines that sound like taglines
+  - Designed Callback: identify -> recall -> project future -> self-implicate -> conclude
+  - Semantic Negative Cluster: 3+ "You don't [verb]" same meaning group within 20 lines
+  - Structured Emptiness: dramatic buildup to single-word weight line as climax
+
+  # see: de-ai-rules.md for full 3-tier detection + correction system
 ```

@@ -1,0 +1,247 @@
+VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,Word_Count_EN,Pause_After
+1,PV_0021,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"There's a scar on your side.",6,0
+2,PV_0021,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"Long. Curved. Like something was pulled out from under your ribs.",11,0.5
+3,PV_0021,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"You pull your shirt down.",5,0
+4,PV_0021,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"Not fast. Just enough so the fabric covers it.",9,0
+5,PV_0021,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"You've done this so many times your hand doesn't think anymore.",11,0
+6,PV_0021,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"Every morning before you leave the house.",7,0
+7,PV_0021,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"Every time someone stands behind you in line.",8,0
+8,PV_0021,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"The fabric catches on the raised edge sometimes.",8,0
+9,PV_0021,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"A small pull. Like a thread snagging on something it shouldn't.",11,0
+10,PV_0021,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"You don't flinch anymore.",4,0.5
+11,PV_0021,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"Some people have birthmarks. Moles. Things they were born with.",10,0
+12,PV_0021,BEAT_01_01,HOOK,ESTABLISH,WEIGHT_LINE,"You have this.",3,1.5
+13,PV_0021,BEAT_01_02,HOOK,ESTABLISH,NARRATION,"They said it grows back.",5,0.5
+14,PV_0021,BEAT_01_02,HOOK,ESTABLISH,WEIGHT_LINE,"So you believed them.",4,2.0
+15,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"The field hasn't grown anything in two seasons.",8,0
+16,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"You walk out every morning anyway because that's what you do.",11,0
+17,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"The soil cracks under your feet like something dry breaking apart.",11,0
+18,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"You bend down and press your thumb into the dirt.",10,0
+19,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"It turns to dust between your fingers.",7,0
+20,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Nothing holds.",2,0.5
+21,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Your child sits on the floor inside the house.",9,0
+22,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Not playing. Not crying. Just sitting there like that's a thing to do.",13,0
+23,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"You don't know when children stop asking for food.",9,0
+24,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"But yours stopped.",3,0.5
+25,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"You count what's left in the jar.",7,0
+26,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Rice. Some salt. A small bag of dried something you can't name anymore.",13,0
+27,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Three days. Maybe four if you skip yours.",8,0
+28,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"You've been skipping for a while now.",7,0
+29,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Your stomach doesn't even complain anymore.",6,0
+30,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"You don't remember when that started.",6,1.0
+31,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,"The man comes on Tuesdays.",5,0
+32,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,"He doesn't knock.",3,0
+33,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,"He stands at the edge of your yard and waits.",9,0
+34,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,"Not close enough to seem aggressive.",6,0
+35,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,"Not far enough to ignore.",5,0
+36,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,"Just at the edge. Like he's part of the fence.",10,0.5
+37,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,"You know what he's waiting for.",6,0
+38,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,"Everyone on this road knows.",5,0
+39,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,"You don't have it.",4,0
+40,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,"You didn't have it last week. Or the week before.",10,0
+41,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,"He leaves when the sun moves past the tree at the corner.",12,0
+42,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,"Every Tuesday like a clock that doesn't need winding.",9,0
+43,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,"You watch him go from the doorway.",7,0
+44,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,"Your hands are still wet from washing rice.",8,0
+45,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,"You wipe them on your shirt. Twice.",7,0
+46,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,WEIGHT_LINE,"He'll be back.",3,1.0
+47,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"Your neighbor came back three weeks ago.",7,0
+48,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"He was gone for five days.",6,0
+49,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"Nobody asked where.",3,0
+50,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"Around here people leave and come back and nobody counts the days.",12,0
+51,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"But he came back with money.",6,0.5
+52,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"Not a lot. But more than anyone here has seen in months.",11,0
+53,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"He bought new sheets for his roof.",7,0
+54,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"His wife got sandals. The kind with the plastic straps.",10,0
+55,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"Someone asked him how.",4,0
+56,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"He said a word you'd heard before but never paid attention to.",12,0
+57,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"He touched his side when he said it.",7,0
+58,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"Casually. Like adjusting his shirt.",5,0
+59,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"And then he said the thing everyone keeps repeating.",9,0
+60,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"It grows back.",3,0
+61,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,WEIGHT_LINE,"He said it like he was talking about hair.",9,1.5
+62,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"You don't think about it.",5,0
+63,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"Not really.",2,0.5
+64,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"But the number stays in your head.",7,0
+65,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"You hear it again at the well the next day.",10,0
+66,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"Someone's cousin did it. Went to the city for a week.",11,0
+67,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"Came back fine. Walking. Talking. Working again like nothing happened.",10,0
+68,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"The number is always the same no matter who tells it.",11,0
+69,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,WEIGHT_LINE,"Five thousand.",2,0.5
+70,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"You do the math against your debt while your child sleeps.",11,0
+71,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"It doesn't cover all of it.",6,0
+72,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"But it covers enough to make the man stop coming on Tuesdays.",11,0
+73,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"Maybe.",1,0
+74,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"You lie awake that night staring at the ceiling.",9,0
+75,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"Your child breathes in the dark next to you.",9,0
+76,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"Small breaths. Steady.",3,0
+77,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"You touch your side under the blanket.",7,0
+78,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"Just once. Just to feel it still there.",8,1.5
+79,PV_0021,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,"A paper is on your table one morning.",7,0
+80,PV_0021,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,"You didn't see who put it there.",7,0
+81,PV_0021,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,"A number is written in pencil on the back of a receipt.",11,0
+82,PV_0021,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,"No name. No address. No instructions.",6,0
+83,PV_0021,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,"Just the number.",3,0.5
+84,PV_0021,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,"The pencil is smudged where someone's thumb pressed.",8,0
+85,PV_0021,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,"You fold it.",3,0
+86,PV_0021,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,"Put it under the jar where you keep the salt.",10,0
+87,PV_0021,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,"Your fingers smell like pencil lead after.",7,0
+88,PV_0021,BEAT_03_01,PHASE_CONFLICT,CONFLICT,WEIGHT_LINE,"You don't throw it away.",5,1.0
+89,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"The woman two houses down is gone.",7,0
+90,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"Her daughter says she went to visit family in the next province.",12,0
+91,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"But her chair outside is empty.",6,0
+92,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"Her goat is still tied to the post and nobody fed it.",11,0
+93,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"The rope is starting to fray from the pulling.",9,0
+94,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"Nobody asks where she really went.",6,0.5
+95,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"You already know. Or you think you do.",7,0
+96,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"That night you pull the paper from under the jar.",10,0
+97,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"Your child coughs in the other room.",7,0
+98,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"A dry cough that shakes something loose inside them.",9,0
+99,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,"You unfold the receipt. The number is still there.",9,0
+100,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,WEIGHT_LINE,"That's it. That's the whole thing.",6,1.0
+101,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"The bus leaves at night.",5,0
+102,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"You sit by the window with a plastic bag on your lap.",11,0
+103,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"Everything you brought fits inside it.",6,0
+104,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"A change of clothes. Your ID card. Thirty in cash.",10,0
+105,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"The seat is warm from whoever sat here before you.",10,0
+106,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"You press your back into it and feel the vinyl crack a little.",12,0
+107,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"You watch the village disappear behind the dust.",8,0
+108,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"The lights from the last house blink once. Then nothing.",10,0.5
+109,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"The road gets smoother after the first hour.",8,0
+110,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"You touch your side through the shirt.",7,0
+111,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"Just once. Just to know it's still there.",8,0
+112,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,WEIGHT_LINE,"Your body is still whole.",5,0.5
+113,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"You keep thinking that.",4,0
+114,PV_0021,BEAT_03_33,PHASE_CONFLICT,CONFLICT,NARRATION,"You think it the whole ride like if you stop it won't be true.",13,1.0
+115,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"The room is small.",4,0
+116,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Four plastic chairs. Fluorescent light. No windows.",7,0
+117,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Three other people sit apart from each other.",8,0
+118,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Nobody talks.",2,0
+119,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Nobody looks at each other.",5,0.5
+120,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You all know why you're here but nobody says it.",10,0
+121,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"One of them keeps touching his side.",7,0
+122,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Same spot. Over and over. Like checking if something's still there.",10,0
+123,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You look away.",3,0
+124,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"There's a crack running through the floor tile.",8,0
+125,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You stare at that instead.",5,0.5
+126,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Someone calls a name. It isn't yours.",7,0
+127,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"One of them stands up and walks through a door at the end.",12,0
+128,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"The door closes.",3,0
+129,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You don't hear anything after that.",6,0
+130,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"The man sitting next to you rubs his hands together.",10,0
+131,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You do the same without meaning to.",7,0
+132,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Your jaw tightens. You're not sure when that started.",9,1.0
+133,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"Your name. Or a number. You're not sure which.",9,0
+134,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"You stand up.",3,0
+135,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"The light turns on.",4,0
+136,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"It's white. Too white. Everything is white and it hums.",10,0
+137,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"You're lying down now and you don't remember getting on the table.",12,0
+138,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"Someone puts something cold on your arm. A strap. A band.",11,0
+139,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"It smells sharp in here. Chemical.",6,0
+140,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"Like cleaning fluid mixed with something metal.",7,0
+141,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"People around you but you can't see their faces.",9,0
+142,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"Just shapes. Masks. Gloved hands.",5,0.5
+143,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"You ask the question.",4,0
+144,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"The one you've been holding since the village.",8,0
+145,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,"The one your neighbor answered so easily while touching his side.",10,0
+146,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,WEIGHT_LINE,"How long until it grows back.",6,1.0
+147,PV_0021,BEAT_03_06,PHASE_CONFLICT,CRISIS,NARRATION,"No one answers.",3,0.5
+148,PV_0021,BEAT_03_06,PHASE_CONFLICT,CRISIS,NARRATION,"Someone says count backward from ten.",6,0
+149,PV_0021,BEAT_03_06,PHASE_CONFLICT,CRISIS,NARRATION,"You get to seven.",4,0
+150,PV_0021,BEAT_03_06,PHASE_CONFLICT,CRISIS,NARRATION,"Or six. You don't remember which.",6,0
+151,PV_0021,BEAT_03_06,PHASE_CONFLICT,CRISIS,NARRATION,"The light gets softer. Then it's gone.",7,2.0
+152,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"You wake up.",3,0
+153,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"The ceiling is yellow. Stained.",5,0
+154,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"There's a fan above you that doesn't turn.",8,0
+155,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"You're in a different room now.",6,0
+156,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"Thin mattress. Thin blanket. A plastic bag of pills on a small table.",13,0
+157,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"The air is warm and still like nobody opened a window.",11,0.5
+158,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"Your side hurts.",3,0
+159,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"Not sharp. A deep pull. Like something stitched too tight.",10,0
+160,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"You press your hand flat against it.",7,0
+161,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"Gauze. Tape. Warm to the touch.",6,0.5
+162,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"Something is different inside you and you can't name it.",10,0
+163,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"Lighter.",1,0
+164,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,WEIGHT_LINE,"That's the closest you get.",5,1.0
+165,PV_0021,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,"You try to stand.",4,0
+166,PV_0021,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,"Your legs work but the balance is wrong.",8,0
+167,PV_0021,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,"Like someone shifted your center of gravity to one side.",10,0
+168,PV_0021,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,"You reach for the wall.",5,0
+169,PV_0021,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,"Your fingers press flat against the plaster. Cold.",8,0
+170,PV_0021,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,"You try to remember what before felt like.",8,0
+171,PV_0021,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,"The way your body balanced when everything was still inside.",10,0
+172,PV_0021,BEAT_04_02,PHASE_CRISIS,REFLECT,WEIGHT_LINE,"You can't.",2,0.5
+173,PV_0021,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,"Not the feeling. Not the weight.",6,0
+174,PV_0021,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,"Not what whole used to mean.",6,0
+175,PV_0021,BEAT_04_02,PHASE_CRISIS,REFLECT,WEIGHT_LINE,"Just gone.",2,1.0
+176,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,"There's an envelope on the table next to the pills.",10,0
+177,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,"Thin. Not sealed.",3,0
+178,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,"You open it. Count the bills.",6,0
+179,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,"Count again.",2,0
+180,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,"Then you stop.",3,0.5
+181,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,"It's not what they said. Not half. Not a third.",10,0
+182,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,"You pick up the phone they left. Dial the number.",10,0
+183,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,WEIGHT_LINE,"Nothing.",1,0.5
+184,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,"You dial again.",3,0
+185,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,"Same nothing.",2,0
+186,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,"The number doesn't connect to anything anymore.",7,1.0
+187,PV_0021,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,"A door opens in the next room.",7,0
+188,PV_0021,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,"You hear footsteps. Someone being walked in.",7,0
+189,PV_0021,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,"A chair scrapes against the floor.",6,0
+190,PV_0021,BEAT_04_44,PHASE_CRISIS,CRISIS,NARRATION,"Then quiet.",2,0.5
+191,PV_0021,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,"You lie back down.",4,0
+192,PV_0021,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,"There's a water stain on the ceiling shaped like nothing.",10,0
+193,PV_0021,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,"You stare at it because there's nothing else to stare at.",11,0
+194,PV_0021,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,"You wonder if the person in the next room asked the same question.",13,0
+195,PV_0021,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,"You wonder if anyone answered them.",6,2.0
+196,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"You come home.",3,0
+197,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"The bus ride takes longer this time.",7,0
+198,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"Or it feels longer. You're not sure anymore.",8,0.5
+199,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"Every bump on the road sends something through your side.",10,0
+200,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"You hold the plastic bag against it like a cushion.",10,0
+201,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"It doesn't help much. But you keep holding it.",9,0
+202,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"Your child runs to you when you step off the bus.",10,0
+203,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"You pick them up. Your side pulls sharp.",8,0
+204,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"Something tears a little inside. Or it feels that way.",10,0
+205,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"You hold them anyway.",4,0
+206,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"Not yet.",2,0.5
+207,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"The money pays half the debt.",6,0
+208,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"The man on Tuesday takes the bills and writes in his book.",11,0
+209,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"He doesn't nod. Doesn't say thank you.",7,0
+210,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"Just writes and closes the book.",6,0
+211,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"He'll be back. You knew that before you got on the bus.",11,1.0
+212,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,NARRATION,"You go back to the field the next week.",8,0
+213,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,NARRATION,"You pick up what you used to carry with one hand.",10,0
+214,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,NARRATION,"Your hands shake.",3,0
+215,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,NARRATION,"Your back won't straighten all the way.",7,0
+216,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,NARRATION,"You set it down. Try again. Same thing.",7,0
+217,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,NARRATION,"You used to do this without thinking about it.",9,0
+218,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,NARRATION,"Before it was just a thing your body did.",9,0
+219,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,NARRATION,"Now it's something your body fights you on every time.",10,0.5
+220,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,NARRATION,"You sit down at the edge of the field.",8,0
+221,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,NARRATION,"For a moment everything blurs - the dirt, the tools, the sky above the field - and then you blink and it's just the field again.",23,0
+222,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,NARRATION,"You don't mention it.",4,0
+223,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,NARRATION,"You don't remember when this stopped being easy.",8,0
+224,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,NARRATION,"No.",1,0
+225,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,WEIGHT_LINE,"You do remember.",3,1.0
+226,PV_0021,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,"You're standing in your yard one evening.",7,0
+227,PV_0021,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,"The air is warm and heavy and smells like rain that won't come.",13,0
+228,PV_0021,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,"Across the road someone pulls their shirt.",7,0
+229,PV_0021,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,"Just for a second. Adjusting. Or not.",6,0
+230,PV_0021,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,"You see the edge.",4,0
+231,PV_0021,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,"Same place on the body. Same curve.",7,0.5
+232,PV_0021,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,"They don't look at you.",5,0
+233,PV_0021,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,"You don't look at them.",5,0
+234,PV_0021,BEAT_05_03,PHASE_RESOLUTION,REFLECT,WEIGHT_LINE,"You don't need to.",4,1.0
+235,PV_0021,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,"A vehicle stops near their house the next morning.",9,0
+236,PV_0021,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,"It's not from here. The plates are from a different province.",11,0
+237,PV_0021,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,"No one comes out. No one goes in.",8,0
+238,PV_0021,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,"It just waits.",3,0.5
+239,PV_0021,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,"Then it leaves.",3,0
+240,PV_0021,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,"You close the door.",4,0
+241,PV_0021,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,"You don't like thinking about any of this.",8,1.5
+242,PV_0021,BEAT_06_01,CALLBACK_CLOSE,CALLBACK,NARRATION,"You pull your shirt down.",5,0.5
+243,PV_0021,BEAT_06_01,CALLBACK_CLOSE,CALLBACK,NARRATION,"The scar is still there.",5,0.5
+244,PV_0021,BEAT_06_01,CALLBACK_CLOSE,CALLBACK,WEIGHT_LINE,"It didn't grow back.",4,0.5
+245,PV_0021,BEAT_06_01,CALLBACK_CLOSE,CALLBACK,WEIGHT_LINE,"Nothing did.",2,1.5
+246,PV_0021,BEAT_06_02,CALLBACK_CLOSE,CTA,WEIGHT_LINE,"And somewhere, someone is always next.",6,2.0

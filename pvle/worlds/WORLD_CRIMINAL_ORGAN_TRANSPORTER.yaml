@@ -1,0 +1,533 @@
+# WORLD: WORLD_CRIMINAL_ORGAN_TRANSPORTER
+# Display: The Person Who Drove and Didn't Ask Where
+# Created: 2026-04-20
+
+WORLD_ID: WORLD_CRIMINAL_ORGAN_TRANSPORTER
+display_name: "The Person Who Drove and Didn't Ask Where"
+domain: CRIMINAL
+era: MODERN_CONTEMPORARY
+implied_identity_mode: GENERIC_ARCHETYPE
+implied_person: null
+
+tags:
+  - organ_trafficking
+  - human_cargo
+  - willful_ignorance
+  - logistics_of_evil
+  - moral_numbness
+  - cold_chain
+  - invisible_labor
+
+seed_keywords:
+  - "organ transporter"
+  - "organ courier"
+  - "kidney transport driver"
+  - "organ trafficking logistics"
+  - "human cargo driver"
+  - "transplant tourism driver"
+
+# ============================================================
+# CORE MECHANIC (narrative engine for this world)
+# ============================================================
+core_mechanic:
+  name: "THE_QUIET_CARGO"
+  description: >
+    The transporter never touches the organ. Never enters the operating
+    room. Never meets the buyer. You drive. You pick up a person at
+    Point A and deliver them to Point B. Sometimes you drive back with
+    one fewer passenger and one more cooler. The horror is not in what
+    you carry. The horror is in what you choose not to ask. You learned
+    early: the less you know, the more useful you are. Ignorance is not
+    a weakness in this chain. It is your job description.
+  operational_pattern:
+    structure: "pickup -> transit -> delivery -> return (sometimes with cooler)"
+    signature_behaviors:
+      - "You check the rearview mirror. They are quiet. That is how it should be."
+      - "You never ask their name. They never ask yours."
+      - "You adjust the AC exactly the same way every time."
+      - "You count the hours. Not because you care. Because the phone told you to."
+    silent_rules:
+      - "Never open the cooler."
+      - "Never take a route you cannot explain to a traffic stop."
+      - "Never remember faces."
+      - "If they cry, turn the radio up."
+  cargo_duality:
+    description: >
+      On the way there, you carry a person. They sit in the back seat.
+      They breathe, fidget, sometimes talk. On the way back, you carry
+      a cooler. It sits in the same seat. It does not breathe. The weight
+      is different. The silence is the same. Over time, both trips feel
+      identical. That is the moment you should worry. But you do not worry
+      anymore.
+    inbound: "Living person in backseat - nervous, quiet, sometimes crying"
+    outbound: "Cooler on backseat - cold, silent, balanced on a towel"
+    convergence: "The moment both feel the same weight to you"
+
+# ============================================================
+# PERSONAL ANCHOR (emotional through-line)
+# ============================================================
+personal_anchor:
+  name: "THE_DAUGHTER"
+  description: >
+    Never named. Never described. She exists only through time
+    references and comparison points. She is the unit of measurement
+    for how far you have drifted. You do not lose her. You lose the
+    ability to think about her during the drive. That is worse.
+  anchor_progression:
+    - stage: "PRESENT"
+      moment: "You kiss her forehead before leaving. You tell her you will be back by morning."
+    - stage: "COMPARISON"
+      moment: "The person in the backseat is younger than her. You notice. You keep driving."
+    - stage: "INTERFERENCE"
+      moment: "You catch yourself calculating her age against the passenger's. You stop."
+    - stage: "SEPARATION"
+      moment: "You do not think about her during the drive anymore. You think about her when you get home."
+    - stage: "ERASURE"
+      moment: "You get home. She is asleep. You do not check on her. You check the phone."
+  storytelling_device:
+    name: "THE_REARVIEW_MIRROR"
+    description: >
+      The mirror is how you observe your cargo without turning around.
+      Same gesture, same angle, same glass - but the meaning changes
+      as you change. The mirror progression IS the moral arc.
+    progression:
+      - phase: "EARLY"
+        behavior: "You look at them. You see a person. You almost speak."
+      - phase: "MID"
+        behavior: "You avoid looking. You adjust the mirror to see only the road."
+      - phase: "LATE"
+        behavior: "You look again. But only to check if the cooler shifted."
+
+# ============================================================
+# NARRATIVE ARC (suggested video structure)
+# ============================================================
+narrative_arc:
+  description: >
+    Three-act structure mapped to retention. Each act has clear
+    escalation events - not just behavioral shifts. The mid-section
+    survives on EVENTS, not just routine descriptions. ACT 2 uses a
+    SINGLE RECURRING PERSON threaded across multiple events - not a
+    montage of strangers. Same face, escalating stakes, cumulative impact.
+  acts:
+    - act: "ACT_1_NORMALIZATION"
+      label: "The First Drive"
+      video_position: "0:00 - 4:00 (hook + entry)"
+      function: "Establish POV, rules, first pickup. Person is still a PERSON."
+      key_moments:
+        - "You kiss your daughter before leaving. You tell her: morning."
+        - "The phone buzzes. Coordinates. A time. A number: 6."
+        - "You pick someone up. They have no bag. They sit in the back."
+        - "You check the rearview. You see their face. You almost speak."
+        - "You almost ask where they are going. You do not."
+      tension: "The impulse to ask vs the instruction not to"
+      checkpoint: "FIRST TIME YOU DON'T ASK"
+      emotional_state: "discomfort, curiosity, controlled fear"
+      contrast_anchor: "You used to talk to passengers. When you drove a taxi, you asked where they were going. Now silence is the first rule."
+
+    - act: "ACT_2_SYSTEM"
+      label: "The Machine Runs"
+      video_position: "4:00 - 11:00 (mid-video - retention danger zone)"
+      function: "Escalate through EVENTS threaded around ONE recurring person. Not a montage - a connected descent."
+      act2_thread:
+        description: >
+          One person appears across multiple events in ACT 2. Not the same
+          literal trip - but the same face returning in different contexts.
+          This transforms a montage into a connected story with 3x impact.
+        thread_beats:
+          - beat: "FIRST CONTACT"
+            moment: "They ask: where are you taking me? You say nothing. They stop asking."
+          - beat: "RECOGNITION"
+            moment: "They are younger than your daughter. You adjust the mirror away."
+          - beat: "CONSEQUENCE"
+            moment: "You see their face on a missing persons post. You scroll past. You recognize the road."
+      key_moments:
+        - "They ask: where are you taking me? You say nothing. They stop asking."
+        - "You check the rearview. They are younger than your daughter. You adjust the mirror away."
+        - "Traffic stop. You smile. You say: my cousin is visiting a doctor. The officer waves you through."
+        - "The phone buzzes during transit: faster. The donor is prepped. The clock is real."
+        - "The broker offers a double run. Same night. You say yes before he finishes the sentence."
+        - "You carry the cooler for the first time. Something shifts inside. You adjust the towel. You keep driving. It does not bother you."
+        - "You recognize the road. You know the exact pothole where the cooler slides."
+        - "Their face appears on a missing persons post. You scroll past."
+      tension: "Events force escalation - each run removes one more layer of resistance"
+      checkpoint: "FIRST TIME THE COOLER DOESN'T BOTHER YOU"
+      checkpoint_detail: >
+        Not just an internal shift. A sensory moment: something shifts
+        inside the cooler. You hear it. You adjust the towel. You keep
+        driving. The reaction that should have happened - does not. That
+        absence IS the checkpoint.
+      emotional_state: "numbness replacing discomfort, efficiency replacing caution"
+      retention_spikes:
+        - type: "SPIKE_EVENT"
+          trigger: "Donor younger than daughter (same person as thread)"
+          note: "Emotional gut-punch - forces viewer to feel the comparison"
+        - type: "SPIKE_EVENT"
+          trigger: "Traffic stop scene"
+          note: "Tension spike - will he get caught? Classic retention mechanic"
+        - type: "SPIKE_EVENT"
+          trigger: "Missing persons post (same person as thread)"
+          note: "Consequence made visible - the abstract becomes a face you recognize"
+        - type: "SPIKE_EVENT"
+          trigger: "Cooler shifts - sensory checkpoint moment"
+          note: "The absence of reaction is the spike. Viewer feels it before the character does not."
+
+    - act: "ACT_3_ROUTINE"
+      label: "Tuesday"
+      video_position: "11:00 - 15:00 (descent + ending)"
+      function: "Collapse into routine. The horror is that nothing feels wrong."
+      key_moments:
+        - "You train a new driver. You show him the route. You sound exactly like the man who showed you."
+        - "You check the mirror. You hope it is a cooler. People are harder."
+        - "You get home. Your daughter is asleep. You do not check on her. You check the phone."
+        - "The phone buzzes. New coordinates. You start the engine. Tuesday."
+      last_image:
+        description: >
+          The mirror - the narrative spine of the entire episode - becomes
+          unnecessary. The final frame is not action. It is absence.
+        moment: "You do not adjust the mirror anymore. There is nothing back there you need to see."
+        note: "Mirror callback. The device that carried the entire arc now dies. That death IS the ending."
+      tension: "Total absence of tension IS the tension - you feel nothing"
+      checkpoint: "THE MOMENT YOU HOPE FOR THE COOLER"
+      emotional_state: "complete numbness, routine as identity, preference for cargo over person"
+
+# ============================================================
+# KEY FACTS (behavior-first, POV-ready)
+# ============================================================
+key_facts:
+  # --- Observable behavior (VO-ready) ---
+  - "You drive a rented sedan - never the same car twice, never your own"
+  - "You receive coordinates by text message: a pickup time, a drop-off location, and a number that tells you how many hours you have"
+  - "The person in the backseat has been told to trust you. They do not know your name. You do not know theirs."
+  - "You stop only at pre-approved locations - specific gas stations where no cameras face the pumps"
+  - "Cold ischemia time for a kidney is 24 hours maximum - you have been told you have 6 to deliver the cooler"
+  - "You carry two phones: one for the broker, one for directions. Neither has your real number."
+  - "You were a regular driver before - delivery, taxi, long-haul. Someone noticed you were reliable and quiet."
+  - "You earn between $1,000 and $3,000 per trip depending on distance - more than a month of legitimate driving"
+  - "If you are stopped, the person in the backseat is your cousin visiting a doctor. The cooler contains food. That is the story."
+  - "You have never been inside the clinic. You stop at the gate. Someone comes out. The passenger gets out. You leave."
+
+  # --- System context (writer reference) ---
+  - "Organ trafficking networks prefer local drivers who know back roads and can avoid checkpoints over professional smugglers"
+  - "Most transporters in trafficking networks are recruited from existing informal transport labor - motorized rickshaw drivers, bus operators, or unlicensed taxi drivers"
+  - "The 24-hour cold ischemia window for kidneys creates the time pressure that defines every transport - the driver is racing a biological clock they barely understand"
+  - "Transporters are deliberately kept ignorant of the full network - they know only the pickup contact and the drop-off contact, never the broker, surgeon, or buyer"
+  - "In prosecution cases, transporters are often the weakest link - lowest paid, most exposed to law enforcement, and the first to be identified because they operate on public roads"
+
+# ============================================================
+# KEY LOCATIONS
+# ============================================================
+key_locations:
+  - id: LOC_PICKUP_POINT
+    name: "The Pickup Point"
+    description: "A bus station, a roadside, a village edge - where someone you have never met gets into your car without a bag"
+  - id: LOC_TRANSIT_ROAD
+    name: "The Road"
+    description: "Six hours of highway where you drive exactly the speed limit and check the mirror every ninety seconds"
+  - id: LOC_GAS_STATION
+    name: "The Gas Station"
+    description: "The only approved stop - specific pumps, no cameras, two minutes maximum"
+  - id: LOC_CLINIC_GATE
+    name: "The Gate"
+    description: "You never go past it. Someone comes out. Your passenger goes in. You wait in the car."
+  - id: LOC_RETURN_ROAD
+    name: "The Return"
+    description: "Same road, opposite direction, one passenger replaced by one cooler balanced on a towel on the backseat"
+  - id: LOC_DROP_OFF
+    name: "The Handoff"
+    description: "A parking lot where someone takes the cooler and hands you an envelope without counting"
+
+key_tensions:
+  - DUTY_VS_SELF
+  - NORMAL_DESIRE_VS_IMPOSSIBLE_REALITY
+  - IDENTITY_VS_LEGACY
+
+accessory_tags:
+  - "rented sedan with clean plates"
+  - "two disposable phones"
+  - "cooler on a towel in the backseat"
+  - "envelope of cash on the dashboard"
+
+# ============================================================
+# SUBJECT VARIANTS
+# ============================================================
+subject_variants:
+  - type: "THE_QUIET_DRIVER"
+    trigger: "Former taxi/delivery driver recruited for reliability and silence - never asks, never looks, never remembers"
+  - type: "THE_CLOCK_WATCHER"
+    trigger: "Obsessed with the time window - the 6-hour countdown becomes the only thing that feels real"
+  - type: "THE_PROMOTED"
+    trigger: "After enough clean runs, given a regular route - no longer a one-time favor but a scheduled employee"
+
+# ============================================================
+# TENSION CATALYSTS (ordered by escalation)
+# ============================================================
+tension_catalysts:
+  # --- ACT 1 level ---
+  - "The first time someone in the backseat asks where you are taking them - and you realize you do not have an answer"
+  - "You almost ask their name. The word forms. You swallow it."
+  # --- ACT 2 level ---
+  - "A person you picked up is younger than your daughter"
+  - "The phone buzzes during a trip: faster. The donor is being prepped. The clock is real."
+  - "A routine traffic stop. You smile. You say cousin. The officer waves you through."
+  - "The cooler is heavier than you expected. You adjust the towel. You do not open it."
+  - "The broker offers you a second run the same night. Double pay. You say yes without thinking."
+  - "You see someone you transported on a missing persons post. You scroll past."
+  - "You recognize the road. You have done this route before. You know the exact pothole where the cooler slides."
+  # --- ACT 3 level ---
+  - "The person in the backseat says thank you when they get out. You do not know what they are thanking you for."
+  - "You take a new driver on a ride-along. You hear yourself explain the rules. You sound like him."
+  - "You check the mirror. You hope it is a cooler. People are harder."
+
+# ============================================================
+# IRREVERSIBLE MARKERS (2 primary checkpoints + supporting)
+# ============================================================
+irreversible_markers:
+  primary_checkpoints:
+    - id: "CHECKPOINT_1"
+      marker: "The first time you drive someone and do not ask where they are going"
+      act: "ACT_1"
+      note: "The door closes on curiosity. This is the entry fee."
+    - id: "CHECKPOINT_2"
+      marker: "Something shifts inside the cooler. You hear it. You adjust the towel. You keep driving."
+      act: "ACT_2"
+      note: "Not internal realization - sensory moment. The reaction that should happen does not. That absence is the point of no return."
+      sensory_detail:
+        sound: "A dull, wet shift of weight inside sealed plastic"
+        action: "You reach back without looking. You adjust the towel. You straighten the wheel."
+        absence: "No flinch. No pause. No thought. You keep driving."
+  supporting:
+    - "The first time you notice the backseat smells different after a person vs after a cooler - and you prefer the cooler"
+    - "The first time you calculate your income by trips, not by months"
+    - "The first time the same donor sits in your car twice - and you both pretend not to recognize each other"
+    - "The first time you take a new driver on a ride-along to show them the route"
+    - "The first time you hope the backseat has a cooler instead of a person"
+
+# ============================================================
+# WILLFUL IGNORANCE (unique to this world)
+# ============================================================
+willful_ignorance:
+  description: >
+    The transporter's survival mechanism is not rationalization (like the
+    broker) or language corruption (like the recruiter). It is the
+    systematic construction of not-knowing. You do not ask because asking
+    makes you responsible. You do not look because looking makes you a
+    witness. You do not remember because remembering makes you guilty.
+    The horror is not what you know. The horror is the precision with
+    which you have engineered your own blindness - and the moment you
+    realize the blindness is no longer an act. You genuinely do not care.
+  identity_erosion_outside_car:
+    description: >
+      The numbness does not stay inside the car. It bleeds into the
+      spaces that used to be yours. You used to be a person who talked
+      to strangers. Who asked where they were going. Who remembered
+      names. The car changed that - but you do not notice because the
+      change happened on the road, and you left it there. Until you
+      realize: you do not talk to anyone anymore. Not just passengers.
+    contrast_markers:
+      - before: "You used to talk to passengers. When you drove a taxi, you asked where they were going. You liked the conversation."
+        after: "Now you eat alone. You do not call people back. Silence is not a rule anymore. It is who you are."
+      - before: "You used to remember regulars by name. The woman on Tuesdays. The old man with the cane."
+        after: "Now you remember routes by pothole. The curve where the cooler slides. The gas station with no camera."
+  stages:
+    - stage: "CURIOSITY"
+      marker: "You wonder what is happening. You almost ask. You do not."
+      mirror: "You look at them in the rearview. You see a face."
+    - stage: "DISCIPLINE"
+      marker: "You train yourself not to look. Not to ask. Not to remember faces."
+      mirror: "You tilt the mirror to see only the road behind you."
+    - stage: "HABIT"
+      marker: "You stop noticing the person. They are a pickup time and a drop-off coordinate."
+      mirror: "You forget to adjust the mirror. It does not matter."
+    - stage: "EFFICIENCY"
+      marker: "You optimize routes, timing, AC temperature. The cargo is a logistics variable."
+      mirror: "You check the mirror to see if the cooler shifted. Not the person."
+    - stage: "PREFERENCE"
+      marker: "You prefer the return trip. The cooler does not talk. Does not cry. Does not thank you."
+      mirror: "You hope the mirror shows a cooler. People are harder."
+    - stage: "NUMBNESS"
+      marker: "Someone asks what you do. You say: I drive. And it is true. That is all you do."
+      mirror: "You do not adjust the mirror anymore. There is nothing back there you need to see."
+
+# ============================================================
+# SOUND DESIGN (production reference layer)
+# ============================================================
+sound_design:
+  description: >
+    Sound evolves with the narrative arc. Silence is not static - it
+    progresses. Early drives are filled with human noise. Late drives
+    are mechanical. The absence of human sound IS the character arc
+    made audible.
+  progression:
+    - phase: "ACT_1"
+      label: "Human Noise"
+      layers:
+        - "Engine idle, low and uneven"
+        - "Road noise - gravel, then asphalt"
+        - "Breathing from the backseat"
+        - "Seat fabric shifting - the passenger is nervous"
+        - "Your own swallow before you almost ask"
+    - phase: "ACT_2"
+      label: "Mechanical Transition"
+      layers:
+        - "Phone buzz - short, urgent"
+        - "Radio turned up - just loud enough to cover crying"
+        - "Turn signal clicking at the gas station"
+        - "Cooler plastic scraping against seat leather"
+        - "Envelope paper - counting bills"
+    - phase: "ACT_3"
+      label: "Machine Silence"
+      layers:
+        - "AC hum only - 18 degrees, constant"
+        - "Turn signal - the only remaining human-initiated sound"
+        - "Engine at cruising RPM - perfectly steady"
+        - "No breathing. No shifting. No music."
+        - "The phone buzzes. You start the engine. That is all."
+
+# ============================================================
+# HOOK OPTIONS (ranked for YouTube retention)
+# ============================================================
+hook_options:
+  selected: "HOOK_DISTURBING"
+  selection_rationale: >
+    Progression in 2 lines. Creates immediate question: what happened
+    in between? Best for series audience + long-form retention.
+  options:
+    - id: "HOOK_DISTURBING"
+      rank: 1
+      lines:
+        - "The first time, you almost asked."
+        - "Now you turn the radio up when they cry."
+      note: "SELECTED. Implies full arc in 2 lines. High curiosity + discomfort. Creates question: what happened in between?"
+    - id: "HOOK_COLDEST"
+      rank: 2
+      lines:
+        - "On the way there, you carry a person."
+        - "On the way back, you carry a cooler."
+        - "After a while, they feel the same."
+      note: "Pure concept delivery. Sets up duality immediately. Backup option."
+    - id: "HOOK_CURIOSITY"
+      rank: 3
+      lines:
+        - "You don't know their name."
+        - "You don't know where they're going."
+        - "You just know you have six hours."
+      note: "Mystery-driven. Works for cold audience who hasn't seen series."
+
+# ============================================================
+# CREATIVE CONSTRAINTS
+# ============================================================
+creative_constraints:
+  primary_rule: "THE_ROAD_IS_THE_STORY"
+  description: >
+    The narrative lives inside the car - the sealed capsule where you and
+    your cargo exist for six hours. The dashboard, the mirror, the backseat.
+    All horror is experienced through the windshield, the rearview, and
+    the silence between driver and passenger. You never see the surgery.
+    You never meet the buyer. You never open the cooler. The entire episode
+    is about what happens in the space between two coordinates - and what
+    happens to a person who learns to treat that space as routine.
+  subject_framing: >
+    Subject is the most replaceable part of the chain - and knows it. Not
+    powerful enough to negotiate, not skilled enough to be essential, not
+    brave enough to refuse. The transporter is chosen for exactly one
+    quality: the ability to not-know. The transition from discomfort to
+    numbness to preference is the arc. The coldest moment is when you
+    realize the cooler is easier than the person - and you start hoping
+    every trip is a return trip.
+  ending_logic: >
+    The ending does not land on guilt or revelation. It lands on routine.
+    The phone buzzes. New coordinates. You start the engine. You check
+    the mirror. The backseat is empty. You drive. The horror is that
+    nothing about this feels wrong anymore. It just feels like Tuesday.
+  forbidden_framing:
+    - "Action thriller or car chase sequences"
+    - "Cool getaway driver fantasy"
+    - "Graphic surgical descriptions"
+    - "Subject as mastermind or key player"
+    - "Redemption arc or whistleblower ending"
+    - "Dramatic confrontation with law enforcement"
+  required_framing:
+    - "The car interior as the entire world of the narrative"
+    - "Rearview mirror as the primary observation device with meaning progression"
+    - "Silence as evolving texture - not static, but degrading from human to mechanical"
+    - "The duality of person-trip vs cooler-trip as central motif"
+    - "Daughter anchor as emotional distance measurement"
+    - "Willful ignorance shown as progressive, not sudden"
+    - "Time pressure (cold ischemia clock) as physical tension driver"
+    - "Mid-video events as retention spikes (not just routine descriptions)"
+    - "Two primary checkpoints: first time you don't ask + first time cooler doesn't bother"
+    - "Routine as the final horror - the phone buzzes, you drive. Tuesday."
+
+# ============================================================
+# MICRO-BEHAVIORS (POV texture layer - weaponized as motifs)
+# ============================================================
+micro_behaviors:
+  description: >
+    Not just texture. These are recurring motifs that carry different
+    meaning at different points in the narrative. The same action,
+    repeated, tells the story of moral erosion without exposition.
+  primary_motif:
+    name: "THE_MIRROR_CHECK"
+    technique: "MICRO_LOOP"
+    technique_note: >
+      Same line repeated 3 times across the episode. Same words,
+      different meaning each time. Viewer recognizes the repetition
+      and feels the shift without being told. High retention technique
+      for long-form video - creates pattern recognition that keeps
+      viewers watching for the next iteration.
+    loop_line: "You check the rearview."
+    progression:
+      - point: "EARLY (ACT 1)"
+        full_line: "You check the rearview. You see their face. You almost speak."
+        meaning: "curiosity - the person is still a person"
+      - point: "MID (ACT 2)"
+        full_line: "You check the rearview. You adjust it away. You see only road."
+        meaning: "avoidance - the person is becoming a problem"
+      - point: "LATE (ACT 3)"
+        full_line: "You check the rearview. You are checking if the cooler shifted."
+        meaning: "logistics - the person is gone, only cargo remains"
+      - point: "FINAL (last image)"
+        full_line: "You do not adjust the mirror anymore."
+        meaning: "extinction - the device itself is no longer needed"
+  supporting_behaviors:
+    - "You set the AC to exactly 18 degrees. The phone told you once. You never changed it."
+    - "You drive exactly 5 km/h under the speed limit. Never over. Never exactly on."
+    - "You put a towel on the seat before placing the cooler. Not to protect the seat. To stop the sliding."
+    - "You count potholes on the route. You know which ones make the cooler shift."
+    - "You turn the radio on when they cry. Not loud. Just loud enough."
+    - "You grip the steering wheel at 10 and 2. Always. Even when parked."
+
+# ============================================================
+# FAILURE MECHANICS (psychological realism)
+# ============================================================
+failure_mechanics:
+  description: >
+    The transporter's failures are not moral crises. They are logistics
+    errors - arriving late, taking a wrong turn, being stopped. The
+    system punishes operational failure, not moral failure. You learn
+    quickly: the only sin is being slow.
+  pattern:
+    - "You arrive late once. The phone call is short. You are not called for two weeks."
+    - "You take the highway instead of the back road. A toll camera captures your plate. The car is burned."
+    - "The cooler shifts and you hear something inside move. You grip the wheel tighter. You do not stop."
+    - "A donor panics mid-drive. They want out. You slow down. You do not stop. The phone told you: do not stop."
+    - "You are five minutes early. You wait in the parking lot. The engine running. The AC at 18."
+
+# ============================================================
+# CROSS-WORLD METADATA
+# ============================================================
+related_worlds:
+  - WORLD_CRIMINAL_ORGAN_DONOR
+  - WORLD_CRIMINAL_ORGAN_BROKER
+  - WORLD_CRIMINAL_ORGAN_SURGEON
+  - WORLD_CRIMINAL_ORGAN_BUYER
+  - WORLD_CRIMINAL_ORGAN_RECRUITER
+  - WORLD_CRIMINAL_ORGAN_DOCTOR_ADVISOR
+series_note: >
+  Seventh perspective in organ trafficking series. The most invisible role
+  in the chain - the one who physically connects every node but knows
+  none of them. POV sits inside the car, between coordinates, where
+  persons become cargo and silence becomes complicity.
+
+used_in_episodes: [PV_0024]
+created: "2026-04-20"

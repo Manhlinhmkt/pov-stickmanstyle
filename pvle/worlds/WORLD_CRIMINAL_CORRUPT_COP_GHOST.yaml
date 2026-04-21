@@ -1,0 +1,989 @@
+# WORLD: WORLD_CRIMINAL_CORRUPT_COP_GHOST
+# Display: The Cop Who Decides Who Disappears
+# Parent: WORLD_CRIMINAL_CORRUPT_COP
+# Created: 2026-04-21
+# Updated: 2026-04-21 (v2 - retention fix, perception distortion, 3 mini-arcs, active deletion)
+# Series: Corrupt Cop #5 (fabrication -> lethal force -> informants -> scene cleaning -> disappearance)
+
+WORLD_ID: WORLD_CRIMINAL_CORRUPT_COP_GHOST
+display_name: "The Cop Who Decides Who Disappears"
+domain: CRIMINAL
+era: MODERN_CONTEMPORARY
+implied_identity_mode: GENERIC_ARCHETYPE
+implied_person: null
+parent_world: WORLD_CRIMINAL_CORRUPT_COP
+
+tags:
+  - police_corruption
+  - enforced_disappearance
+  - off_book_detention
+  - bureaucratic_erasure
+  - ghost_detainees
+  - existence_as_currency
+
+seed_keywords:
+  - "cop who decides who disappears"
+  - "off-book detention"
+  - "ghost detainee"
+  - "no booking record"
+  - "enforced disappearance"
+  - "shadow custody"
+  - "erased arrest"
+
+# ============================================================
+# EMOTIONAL SPINE (erasure-of-person arc)
+# ============================================================
+emotional_spine:
+  arc: "convenience -> control -> selection -> authorship"
+  description: >
+    The episode is not about a cop who kills people. It is about
+    a cop who makes people stop existing inside the system. No
+    booking. No record. No phone call. No lawyer. The system does
+    not need to lie. The system just needs an empty database. And
+    you keep it empty. Each phase escalates the erasure - from
+    skipping paperwork to building infrastructure to selecting
+    who deserves to exist at all. Until the cop cannot tell
+    whether the empty database means they erased someone or no
+    one was ever there.
+  phase_mapping:
+    convenience: "You skip booking once. Not because you forgot. Because you decided not to. That distinction matters."
+    control: "You decide who enters the official system and who enters the shadow. The database is your gate."
+    selection: "You choose people no one is looking for. That's the skill. Not detention. Selection."
+    authorship: "If there's no record, it didn't happen. If they were never booked, they were never arrested. They were never there."
+
+# ============================================================
+# HOOK IDENTITY (viral-optimized, experiential)
+# ============================================================
+hook_identity:
+  primary: >
+    You pull them over.
+    You put them in the car.
+    You don't book them.
+    They were never here.
+  alternates:
+    - >
+      Someone calls the precinct
+      looking for the person you took.
+      The system says: no record.
+      The system is correct.
+    - >
+      You don't kill people.
+      You don't arrest people.
+      You make them stop existing.
+      The system does the rest.
+    - >
+      You don't call it in.
+      Not because you forgot.
+      Because you decided not to.
+
+# ============================================================
+# SIGNATURE LINE (repeats with escalating dissolution)
+# ============================================================
+signature_line:
+  line: "They were never here."
+  escalation_pattern:
+    occurrence_1:
+      context: "After first off-book hold. Describing what the system shows when someone checks."
+      weight: "PROCEDURAL - describing system output. The database is empty. That is a fact."
+      note: "The phrase sounds like a database result. Neutral. Technical. True."
+    occurrence_2:
+      context: "After snap moment. Standing ten feet from the phone while the desk sergeant says the words."
+      weight: "POSSESSIVE - the phrase is no longer about the system. It is about your power. You decided they were never here."
+      note: "Same words. The viewer hears them as an act of will now. Not a system response."
+    occurrence_3:
+      context: "Ending. New person in the car. Same route past booking. Same destination."
+      weight: "IDENTITY - you don't detain people. You erase them. This is who you are."
+  ending_variation: >
+    "They were never here."
+    You don't remember if they were.
+
+# ============================================================
+# SECONDARY MOTIF (the system check)
+# ============================================================
+secondary_motif:
+  line: "You check the system. No record."
+  description: >
+    The act of checking the database after an erasure. The cop
+    verifies their own absence - confirms that the person they
+    took does not exist in the system. This motif tracks the
+    cop's relationship to their own fabrication of emptiness.
+  escalation_pattern:
+    early: "ANXIOUS - You check the system three times. Not for them. For yourself. The absence holds. You exhale."
+    mid: "AUTOMATIC - You don't check anymore. You know there's nothing to find. You built the nothing."
+    end: "CONFUSION - You check the system. No record. You don't remember if you erased it or if it was never there."
+
+# ============================================================
+# SYSTEM PHRASE (the desk sergeant's confirmation)
+# ============================================================
+system_phrase:
+  line: "No one by that name was brought in."
+  description: >
+    The phrase the desk sergeant says when someone calls looking
+    for the person you took. Technically true. No booking means
+    no record means no person. The system confirms your lie by
+    doing what systems do: checking the database. The database
+    is empty. Because you never filled it. The horror is not
+    that the system lies. The horror is that the system tells the
+    truth. Your absence IS the truth now.
+  usage: >
+    Appears 3-4 times. First: FALSE SAFETY - you hear it after
+    the first erasure. A friend calls. Not a child. Not yet.
+    Just someone who knows their name. The system says no record.
+    That is your first taste of power. Second: a lawyer calls.
+    Same answer. Same nothing. Routine. Third: the child calls.
+    Same words. Same empty database. You are standing ten feet
+    away. You hear the dial tone. Fourth: you say it yourself.
+    Someone asks you directly. The words come out. You don't
+    check the system first. You don't need to.
+  key_lines:
+    - "A friend calls looking for them. 'No one by that name was brought in.' You hear it from across the room. The system works. You exhale. That is the first hit."
+    - "The lawyer calls. You hear the sergeant: 'No record of that individual.' The lawyer hangs up. The individual is thirty feet from the phone."
+    - "A child calls. 'Is my dad there?' The sergeant checks. 'No one by that name.' The child asks again. Same answer. Same empty database. Same dad in the room with no camera."
+    - "Someone asks you directly. You say the words yourself. You don't check first. You don't need to check what you built."
+
+# ============================================================
+# SCENE ANCHOR (THE ROOM - spatial thread)
+# ============================================================
+scene_anchor:
+  description: >
+    One specific space the viewer tracks across the episode. Not
+    a person. Not an object. A room. THE room. No camera. No
+    booking terminal. No window. It does not appear on the
+    precinct floor plan. Everyone calls it 'the waiting room.'
+    The room is the TRUE CHARACTER of this episode. The cop is
+    the operator. The room is the machine.
+  identification: "THE_ROOM"
+  spatial_anchor: "the room with no camera, no window, no floor plan entry"
+  room_origin: >
+    The room was there before you. That is the horror beneath
+    the horror. You did not build the infrastructure. You found
+    it. Someone walked this hallway before you. Someone opened
+    this door before you. The room does not need a teacher. The
+    room needs a user. And you were not the first.
+  stages:
+    - stage: "FIRST_SIGHT"
+      phase: "Phase 1-2 - First Awareness"
+      markers:
+        - "You walk past a door with no label. You hear nothing. A senior cop walks out. Doesn't look at you."
+        - "You ask what's behind the door. The answer is a look. The look says: don't ask."
+        - "You learn the name later. The waiting room. Everyone knows what it means. No one says what it means."
+      note: "Viewer meets the room before the cop uses it. The room exists as infrastructure someone else built. The cop inherits it."
+    - stage: "FIRST_USE"
+      phase: "Phase 2 - First Erasure"
+      markers:
+        - "You walk someone past booking. Past the desk. Past the cameras. To the door with no label."
+        - "Inside: a chair. A table. A light. No camera. No recording. No booking terminal. No name on the wall."
+        - "They ask when they can leave. You don't answer. The question assumes they arrived."
+      note: "The viewer watches the cop use infrastructure they did not build. The room was waiting. The cop just had to walk through the door."
+    - stage: "INFRASTRUCTURE"
+      phase: "Phase 3 - System Expansion"
+      markers:
+        - "You check the room before your shift. How many inside. You check it the way other people check the weather."
+        - "You have a number. Current occupancy. You don't use names. Names create memory. Numbers create distance."
+        - "The room is fuller than the holding cells. The holding cells have cameras. The room does not."
+      note: "The room becomes the cop's primary workspace. The official system is the secondary."
+    - stage: "AUTONOMOUS"
+      phase: "Phase 3 Late - Room > Cop"
+      markers:
+        - "You check the room before your shift. It's not empty. It should be empty."
+        - "You don't remember putting them there. You try. You can't."
+        - "Either you forgot. Or the room is being used by someone else now. You don't know which is worse."
+      note: "CRITICAL RETENTION BEAT. The room has exceeded the cop. The infrastructure no longer needs the architect. This is the first perception distortion - deployed mid-video to prevent predictability."
+    - stage: "SILENCE"
+      phase: "Phase 4 - Post-Snap"
+      markers:
+        - "You walk past the room. It's empty. You don't know when it emptied."
+        - "You check the system. No record of anyone being in the room. No record of the room."
+        - "You stand in the doorway. The chair is there. The table is there. The light is on. No one is inside. You don't remember the last person who was."
+      note: "The room becomes the physical manifestation of the cop's memory erosion. Empty room, empty database, empty memory."
+  post_snap_line: "The room is empty. The system is empty. You don't know which you emptied and which was always empty."
+
+# ============================================================
+# PERCEPTION DISTORTION (escalating unreliability)
+# ============================================================
+perception_distortion:
+  description: >
+    The world's unique retention mechanic. Unlike PV_0028's
+    friction (external contradictions), PV_0029 uses INTERNAL
+    perception failure. The cop's memory becomes as empty as the
+    database they maintain. Deployed strategically to break loop
+    predictability and prevent mid-video drop.
+  principle: >
+    Each distortion should make the viewer question whether the
+    cop is in control or the system is running itself. The
+    distortion is NOT explained. It is FELT. The viewer cannot
+    tell if the cop forgot or if the infrastructure has other
+    users. That ambiguity IS the horror.
+  deployment:
+    - timing: "Phase 3 mid (~5:30)"
+      distortion: "Room is occupied when it should be empty. You don't remember putting them there."
+      effect: "First crack in the cop's control narrative. Loop broken."
+    - timing: "Phase 3 late (~7:00)"
+      distortion: "You check the count. It doesn't match. One more than you remember taking."
+      effect: "Scale of the system exceeds the cop. Infrastructure is alive."
+    - timing: "Phase 4 post-snap (~10:00)"
+      distortion: "You check the system. No record. You check your memory. You find one. Then you're not sure."
+      effect: "Memory and database begin to merge. Both are empty. Both should not be."
+    - timing: "Phase 5 ending (~14:30)"
+      distortion: "You find a memory. You delete it. Active erasure of self."
+      effect: "The cop has internalized the method. Now applies it to themselves."
+  note: >
+    Deploy 1 distortion every ~90s during the dangerous middle
+    section (4:00-9:00). This prevents the loop from becoming
+    predictable and gives the viewer something the other corrupt
+    cop episodes did not: the sense that the system is BIGGER
+    than the cop operating it.
+
+# ============================================================
+# CORE MECHANIC (4-beat POV loop with surprise mutation)
+# ============================================================
+core_mechanic:
+  name: "THE_ERASED_CUSTODY"
+  description: >
+    The cop does not kill people. The cop does not beat people.
+    The cop makes people stop existing in the system. The skill
+    is not violence. The skill is selection - choosing people
+    whose absence will not be noticed, whose families will not
+    call, whose lawyers do not exist. The 4-beat loop mirrors
+    a normal arrest - but removes every checkpoint that would
+    make the person visible to the system. No dispatch call.
+    No booking. No phone call. No record. By the time the loop
+    completes, the person was never in custody.
+  pov_loop:
+    structure: "stop -> take -> hold -> erase"
+    beats:
+      - beat: "STOP"
+        line: "You choose them."
+        note: "Selection. Not random. Deliberate. Who looks like no one will notice."
+      - beat: "TAKE"
+        line: "You put them in the car."
+        note: "Radio off. Camera off. No dispatch call. No code. The car becomes the portal."
+      - beat: "HOLD"
+        line: "You don't book them."
+        note: "The waiting room. No camera. No booking terminal. No phone. No lawyer. No name."
+      - beat: "ERASE"
+        line: "They were never here."
+        note: "The absence IS the crime. No paperwork means no arrest means no person."
+  loop_mutation:
+    description: >
+      Each repetition degrades in BOTH selectivity AND awareness.
+      But critically: each cycle contains a SURPRISE element that
+      breaks the viewer's expectation of the loop. The loop does
+      not just escalate. It DISTORTS. The viewer should never be
+      able to predict what happens at the end of a cycle.
+    progression:
+      - cycle: 1
+        label: "CONVENIENT"
+        mutation: "First off-book hold. Too much paperwork. Too late at night. You skip booking. They're gone by morning. No one asks."
+        tempo: "SLOW - you check the system three times. Not for them. For yourself. The absence holds. You exhale."
+        emotional_state: "relief as justification"
+        surprise: null
+        surprise_note: "No surprise. Baseline. Establishes the clean loop so viewers learn the rhythm."
+      - cycle: 2
+        label: "DELIBERATE"
+        mutation: "You choose them. Not because of paperwork. Because you can. Because no one is looking for them."
+        tempo: "MEASURED - you check the system once. You know it works. The absence is reliable."
+        emotional_state: "power as competence"
+        surprise: >
+          You test the boundary. Someone with a phone that
+          keeps ringing. Someone who says 'yes' when you ask
+          'does anyone know you're here?' You book this one.
+          Normal process. The contrast is the reveal: you can
+          choose. That is the power. Not the room. The gate.
+        surprise_note: "The viewer sees the INVERSE of the loop - a normal booking - and understands: the cop is now CHOOSING who gets rights. Selection becomes active, not passive."
+      - cycle: 3
+        label: "SYSTEMATIC"
+        mutation: "You have a pipeline. Selection criteria. Routes that bypass cameras. The room. The timing. Infrastructure."
+        tempo: "FAST - no checking. You know the system is empty because you keep it empty."
+        emotional_state: "efficiency as identity"
+        surprise: >
+          You check the room before your shift. It's not empty.
+          It should be. You don't remember putting them there.
+          Either you forgot. Or the room has another user now.
+          You don't check which.
+        surprise_note: "CRITICAL DISTORTION. The room exceeds the cop. This is the moment the loop breaks expectation. The viewer thought they understood the system. They did not. The infrastructure is alive."
+      - cycle: 4
+        label: "AUTOMATIC"
+        mutation: "You take someone off the street. You don't remember why. You walk past booking without thinking. The room door opens. Your hand knows the handle."
+        tempo: "COMPRESSED - no selection. No criteria. The loop runs without the cop deciding."
+        emotional_state: "compulsion replaces choice"
+        surprise: >
+          The count doesn't match. One more than you remember
+          taking. You recount. Same number. You cannot account
+          for all of them. The system you built has exceeded
+          your memory of building it.
+        surprise_note: "The count mismatch is the final proof: the cop is no longer the architect. The cop is another user of infrastructure they can no longer track."
+
+# ============================================================
+# KEY FACTS (VO-ready + writer reference)
+# ============================================================
+key_facts:
+  # --- Killer lines (short, cold, experiential) ---
+  - "You pull them over. You put them in the car. You don't call it in. Not because you forgot. Because you decided not to."
+  - "The booking system has no entry because you never made one."
+  - "No booking. No phone call. No lawyer. No name. No person."
+  - "They get one question: 'Does anyone know you're here?' If the answer is no, you have all the time in the world."
+  - "The desk sergeant says 'no one by that name was brought in.' It's true. You never brought them in. You brought them somewhere else."
+  - "You choose people no one is looking for. That's the skill. Not detention. Selection."
+  - "The room has no camera. It doesn't appear on the floor plan. Everyone calls it 'the waiting room.'"
+  - "They ask when they can leave. You don't answer. The question assumes they arrived."
+  - "Someone files a missing persons report. The last known location is a traffic stop. Your traffic stop. Your camera was off."
+  - "You have a number. How many right now. You check it the way other people check the weather."
+  - "The lawyer calls. 'Is my client there?' The system checks. No record. The client is thirty feet from the phone."
+  - "You walk past booking every night. The desk sergeant doesn't look up anymore. Doesn't need to."
+  - "You don't kill people. You don't arrest people. You make them stop existing. The system does the rest."
+  - "Someone new in the car. Same route past booking. Same door. Same room. Same nothing."
+  - "The first time, you check the system three times. Not for them. For yourself."
+  - "You test it. Someone with a job. Someone with a phone that keeps ringing. Someone who says yes. You book this one. The contrast is the power."
+  - "You check the room. It's not empty. It should be. You don't remember putting them there."
+  - "Names create records. Records create people. You've learned to think in absences."
+  - "You find a memory. You delete it."
+
+  # --- Retention hooks (curiosity-gap, deploy every 60-90s) ---
+  - "Does anyone know you're here?" # selection criteria
+  - "The room." # spatial anchor
+  - "No record." # system confirmation
+  - "The child calls." # snap moment echo
+  - "How many right now." # inventory horror
+  - "They were never here." # signature
+  - "You don't remember putting them there." # perception distortion
+  - "You don't remember if they were." # dissolution
+  - "You book this one." # contrast/surprise
+
+  # --- System context (WRITER REFERENCE ONLY) ---
+  - "[REF] Chicago Homan Square: Guardian investigation revealed CPD operated an off-the-books interrogation facility. At least 7,000+ people detained 2004-2015 without appearing in booking databases. Denied attorney access. Families could not locate them."
+  - "[REF] 'Ghost detainee': term for persons held without official record. Originated in CIA black site context (Abu Ghraib, Salt Pit). The concept exists at local policing level through booking gaps and pre-arraignment holds."
+  - "[REF] In most US jurisdictions, police can hold a person 24-72 hours before arraignment. During this window, the detainee exists in a bureaucratic void - between 'field contact' and 'booking' - with no formal record of custody."
+  - "[REF] Pre-booking detention creates a documentation gap: no arrest record exists until booking is complete. A person detained but never booked was - according to the system - never in custody."
+  - "[REF] The 'transfer shuffle': immigration detainees moved between ICE facilities so frequently that attorneys and family members cannot locate them. ICE has acknowledged difficulty tracking detainees within its own system."
+  - "[REF] Multiple DOJ pattern-or-practice investigations documented off-the-books holds where suspects were questioned without Miranda warnings in unofficial locations before being formally arrested - or released without any record of the encounter."
+  - "[REF] Homan Square detainees reported being shackled to benches, denied access to attorneys for 12-24 hours, and not appearing in any police database. When attorneys arrived, police denied the person was in custody."
+
+# ============================================================
+# KEY LOCATIONS
+# ============================================================
+key_locations:
+  - id: LOC_THE_ROOM
+    name: "The Waiting Room"
+    description: "No camera. No window. No floor plan entry. Where people stop existing. The true character of this episode."
+  - id: LOC_PATROL_CAR
+    name: "The Patrol Car"
+    description: "Where the decision is made. Radio off. Camera off. The car becomes the portal between official and shadow."
+  - id: LOC_BOOKING_DESK
+    name: "The Booking Desk"
+    description: "Where you DON'T go. The desk you walk past. Ten feet of distance that erases a person."
+  - id: LOC_PRECINCT_HALLWAY
+    name: "The Hallway"
+    description: "Where the door with no label lives. Where eye contact means 'I didn't see anything.'"
+  - id: LOC_BACK_LOT
+    name: "The Back Lot"
+    description: "Where the car enters without cameras. Where no one sees who gets out. Or doesn't."
+  - id: LOC_DISPATCH_RADIO
+    name: "The Radio"
+    description: "The voice you don't answer. The call you don't make. Silence is the first step of every erasure."
+
+key_tensions:
+  - POWER_VS_ISOLATION
+  - DUTY_VS_SELF
+  - PROTECTION_VS_CONTROL
+
+accessory_tags:
+  - "badge on belt"
+  - "radio turned to silent"
+  - "car keys on a separate ring - the ring for the back entrance"
+
+# ============================================================
+# SNAP MOMENT (child's call + proximity + micro-hesitation)
+# ============================================================
+snap_moment:
+  description: >
+    The single moment that shifts from system horror to personal
+    horror. The snap is PROXIMITY + MICRO-HESITATION. The cop is
+    standing in the precinct - ten feet from the booking desk -
+    when a child calls looking for their parent. The desk sergeant
+    checks the system. No record. The cop hears the child's
+    voice. Almost steps forward. Almost. Then stops. That 'almost'
+    is where the viewer's heart breaks. The stillness after is
+    not coldness. It is CHOICE.
+  emotional_pre_payment:
+    description: >
+      The snap only lands if the viewer has INVESTED in the person
+      being held. Pre-payment must happen across Phases 2-3. The
+      viewer must recognize the specific person the child is
+      calling about - through operational details, not emotional
+      exposition.
+    deposits:
+      - phase: "Phase 2"
+        beat: "You take someone. Their phone rings three times during the drive. You turn it off. You remove the battery. You put the battery in your pocket."
+        note: "The phone becomes the viewer's tracking device. They will remember the ringing."
+      - phase: "Phase 3 early"
+        beat: "You walk past the room. You hear a voice asking to make a phone call. You recognize the voice. You don't stop."
+        note: "The voice connects Phase 2 to Phase 3. The viewer knows who is asking."
+      - phase: "Phase 3 mid"
+        beat: "You check the room. They're still there. They stopped asking about the phone. They ask when they can leave. You don't answer."
+        note: "The person is degrading from assertive to resigned. The viewer watches it happen."
+  foreshadow:
+    - "You take someone whose phone rings three times during the drive. You turn it off. You remove the battery."
+    - "You hear the desk sergeant answer a call. 'No one by that name.' Routine. Not your detainee. This time."
+    - "You walk past the room. You hear a voice inside asking to make a phone call. You don't stop."
+  setup: >
+    You are at the precinct. Night shift. Standing near the desk.
+    The phone rings. The desk sergeant answers.
+  event: >
+    A child's voice. Asking for their parent.
+    The desk sergeant checks the system.
+    "No one by that name was brought in tonight."
+    The child asks again. Same answer.
+  micro_hesitation: >
+    You almost step forward.
+    Almost.
+    Your foot moves. Your weight shifts.
+    Then it stops. You stop it.
+    Not because you don't care.
+    Because stepping forward means
+    unwinding every absence you've built.
+    Every empty database. Every no-record.
+    One step forward. Everything collapses.
+    You don't step forward.
+  sensory_beat: >
+    You hear the child's voice through the receiver.
+    You know where the parent is.
+    Thirty feet. Through one wall. Behind a door with no label.
+    The child hangs up.
+    The dial tone.
+    You don't move.
+  aftermath:
+    immediate:
+      - "The dial tone ends."
+      - "The desk sergeant hangs up."
+      - "You look at your foot. It moved. You moved it back."
+      - "Thirty feet. One wall. One door. No record."
+    cold_calculation: "The system worked. The database is empty. The child will call every precinct in the city. Every precinct will say the same thing. No record. No record. No record."
+    erasure: "You built this. The empty database is your architecture. The child is looking for someone the system says was never taken. The system is correct."
+  placement: "Late Phase 3 or early Phase 4 - after the viewer has tracked the person through pre-payment beats."
+  effect: >
+    Four-layer horror: (1) the viewer watched the cop take the
+    parent earlier - they KNOW where the parent is, (2) the
+    child's voice makes the absence human - this is not a system
+    diagram, this is a family, (3) the micro-hesitation - 'almost'
+    - means the cop is not a monster. The cop CHOSE. Choice is
+    worse than coldness, (4) the cop's real fear is not guilt. The
+    cop's fear is that stepping forward would unwind every absence
+    they've built. The system's integrity requires the child to
+    fail. And the cop lets it.
+
+# ============================================================
+# IDENTITY EROSION (absence arc)
+# ============================================================
+identity_erosion:
+  description: >
+    The cop does not become a monster in one moment. The badge
+    stops meaning custody and starts meaning selection. The most
+    dangerous stage is when the cop stops seeing the booking desk
+    as a step they skip and starts seeing it as a step that does
+    not exist. The infrastructure was always there. The room was
+    always there. The cop just had to walk through the door. And
+    once through, the door disappears behind them - the same way
+    the people inside disappear from the database.
+  stages:
+    - stage: "WITNESS"
+      marker: "You see another cop walk past booking with someone in cuffs. You say nothing. Silence is the first disappearance."
+    - stage: "CONVENIENCE"
+      marker: "You skip booking once. Not because you forgot. Because you decided not to. Too much paperwork. Too late. They're gone by morning. No one asks."
+    - stage: "METHOD"
+      marker: "You start selecting. People no one is looking for. The skill is not detention. The skill is choosing who won't be missed."
+    - stage: "INFRASTRUCTURE"
+      marker: "You have the room. You have the route. You have the timing. It is not improvisation anymore. It is a pipeline."
+    - stage: "AUTHORSHIP"
+      marker: "You decide who exists in the system. The database is yours. The absences are yours. You author reality by leaving it blank."
+    - stage: "DISSOLUTION"
+      marker: "You check the room. Empty. You check the system. Empty. You check your memory. You find one. You delete it."
+
+# ============================================================
+# CONTAGIOUS ERASURE (the method spreads through architecture)
+# ============================================================
+contagious_erasure:
+  description: >
+    The cop's method spreads through infrastructure, not
+    instruction. The room exists. The route exists. The new cop
+    just has to walk the same hallway. See the same door. Notice
+    the same silence. The system does not need a teacher. The
+    system needs architecture. And the architecture is already
+    built. The deepest horror: the cop does not remember learning
+    the method either. Someone walked this hallway before them.
+    The room predates the cop. The infrastructure is generational.
+  progression:
+    - stage: "OBSERVATION"
+      beat: "The new cop sees you walk past booking with someone in cuffs. Watches you turn left where everyone else turns right. Says nothing."
+    - stage: "SILENCE"
+      beat: "The new cop is asked about the person in the hallway. 'What person?' Your words. Not theirs."
+    - stage: "PARTICIPATION"
+      beat: "The new cop holds the door to the room. Doesn't look inside. Doesn't ask. The door is heavy. They hold it anyway."
+    - stage: "REPLICATION"
+      beat: "The new cop brings someone to the room alone. Doesn't tell you. Doesn't need to. The infrastructure teaches."
+    - stage: "AUTONOMY"
+      beat: "The new cop asks the same question you ask. 'Does anyone know you're here?' Same words. Same cadence. Same gate."
+  mirror_effect:
+    description: >
+      The moment the cop hears their own method in someone else.
+      But the mirror reflects BACKWARD too - the cop realizes
+      they do not remember learning it either. Who taught them?
+      Was there someone before the senior cop they watched? The
+      infrastructure predates everyone in the building. The room
+      has always been here.
+    beat: >
+      You hear the new cop say 'they were never here' on the phone.
+      Your phrase. Your cadence.
+      You don't remember teaching them.
+      Then: you don't remember learning it either.
+      The senior cop who walked past booking. Did they learn it
+      from someone too? You don't know. The room was here before
+      all of you. The room will be here after.
+  final_note: >
+    The horror of the mirror: the system does not replicate through
+    mentorship. It replicates through architecture. The room
+    exists. The route exists. The booking desk can be walked past.
+    No one needs to say 'do this.' The infrastructure IS the
+    instruction. And no one remembers who built it.
+
+# ============================================================
+# ENDING LOGIC (active deletion + absence as identity)
+# ============================================================
+ending_logic:
+  description: >
+    The ending is not about passive dissolution. It is about
+    ACTIVE DELETION. The cop does not merely forget. The cop
+    finds a memory and removes it - applying the same method
+    to their own mind that they applied to the database. The
+    system has been internalized. The cop is no longer erasing
+    people from the system. The cop is erasing people from
+    themselves. The database is empty. The memory is empty.
+    The cop made both empty. On purpose.
+  ending_beats:
+    - "You walk past the room. Empty. You check the system. Empty. You check your memory. Empty. All three match."
+    - "You drive past a street where you stopped someone last month. You remember the stop. You don't remember the person."
+    - "You look at the booking desk. You try to remember the last person you booked. You can't. You try to remember the last person you didn't. You can't do that either."
+    - "You check your memory. You find one. A face. A name. A phone that rang three times. You delete it. Not the system. Your memory. You delete it the way you delete a record. Deliberately. You choose not to remember."
+    - "'They were never here.' You don't remember if they were."
+    - "Someone new in the car. Same route. Same door. Same room. Same nothing."
+  active_deletion_beat:
+    description: >
+      The single most disturbing beat in the ending. The cop
+      finds a memory they did not erase - perhaps the child's
+      voice, perhaps the phone that rang three times - and
+      actively deletes it. Not forgetting. CHOOSING to forget.
+      The cop has become the database. The cop has learned to
+      empty themselves.
+    beat: >
+      You check your memory.
+      You find one.
+      You delete it.
+    effect: >
+      This transforms the cop from victim of dissolution to
+      AGENT of self-erasure. The method has been internalized.
+      The cop no longer needs the room. The cop IS the room.
+      Empty by design. Empty on purpose.
+  final_image: >
+    The patrol car. Night. You pull someone over. You put them
+    in the car. You drive. Past the booking desk. Past the
+    cameras. Past the hallway. To the door with no label. You
+    open the door. The room is ready. The room is always ready.
+    You don't ask their name. Names create records. Records
+    create people. And you've learned to think in absences.
+
+# ============================================================
+# PHASE GUIDANCE (15 min target - retention-optimized v2)
+# ============================================================
+phase_guidance:
+  description: >
+    Recommended narrative weight distribution for 15-minute target.
+    Word budget: 1755-2340 words at 130 WPM. v2 restructure:
+    Phase 3 split into 3 mini-arcs to prevent mid-video drop.
+    Perception distortion deployed every ~90s in danger zone.
+  phases:
+    - phase: "HOOK + CONDITIONING"
+      weight: "~8%"
+      duration_approx: "0:00-1:15"
+      content: "Hook (You pull them over. You put them in the car. You don't book them. They were never here.) + introduce precinct. First patrol. First time you see someone walk past booking."
+      signature_use: "none yet"
+      motif_use: "none yet"
+      intentionality_note: "CRITICAL: establish CHOICE immediately. 'Not because you forgot. Because you decided not to.' This prevents the viewer from reading convenience. They read power from the first second."
+    - phase: "FIRST ERASURE"
+      weight: "~18%"
+      duration_approx: "1:15-4:00"
+      content: "Scene anchor introduced (THE ROOM). First off-book hold. Walk past booking. 'Does anyone know you're here?' System phrase first occurrence."
+      signature_use: "'They were never here' (procedural - first occurrence)"
+      motif_use: "'You check the system. No record.' (anxious - three times - not for them, for yourself)"
+      scene_anchor: "FIRST_USE stage - first person taken to the room"
+      false_safety_beat: >
+        CRITICAL ADDITION. After first erasure, deploy FALSE SAFETY:
+        A friend calls the precinct looking for the person you took.
+        Not a child. Not yet. Just someone who knows their name.
+        The desk sergeant checks. 'No one by that name was brought in.'
+        You hear it from across the room. The system works. You
+        exhale. That exhale is the first hit of the drug. The viewer
+        sees the power for the first time. And the system's complicity.
+      snap_pre_payment: "Take someone whose phone rings three times. Turn it off. Remove battery. This person is tracked to snap moment."
+    - phase: "SYSTEM EXPANSION - ARC 1: SELECTION AS GAME"
+      weight: "~12%"
+      duration_approx: "4:00-5:45"
+      content: "The cop tests boundaries. Takes someone with a phone that keeps ringing. Takes someone with a job. Then: someone says 'yes' to 'does anyone know you're here?' You BOOK this one. Normal process. Contrast reveal."
+      retention_note: "The BOOKING is the surprise. The viewer expects another disappearance. Instead: a normal arrest. The contrast makes the power visible. The cop is not avoiding booking. The cop is CHOOSING who gets booked. Selection is now a game with rules only the cop knows."
+      distortion_deploy: "none - clean escalation. Save distortion for Arc 2."
+      key_beat: "You test it. Someone who says yes. You book them. Normal process. The contrast is the power: you can choose."
+    - phase: "SYSTEM EXPANSION - ARC 2: A PATTERN FORMS"
+      weight: "~10%"
+      duration_approx: "5:45-7:15"
+      content: "Scale expansion. Lawyer calls - no record. A person (not the system) notices a pattern: traffic stops in your zone with no corresponding bookings. The correlation exists. No one investigates it. Not because they can't. Because the system has no mechanism to investigate its own absences."
+      retention_note: "TENSION WITHOUT RESOLUTION. A threat appears. A data point. A question that could be asked. It is not asked. The system does not investigate what it does not record. The viewer holds their breath. Nothing happens. That nothing IS the horror."
+      distortion_deploy: "FIRST DISTORTION - you walk past the room, hear the voice asking for a phone call. You recognize the voice (snap pre-payment deposit)."
+      key_beat: "A person notices. A civil rights attorney. A data analyst. The pattern is real. The system does not have a mechanism to check what was never entered. The correlation is not proof. The correlation is not even a question. Because no one asks."
+    - phase: "SYSTEM EXPANSION - ARC 3: ROOM > COP"
+      weight: "~10%"
+      duration_approx: "7:15-8:45"
+      content: "The room exceeds the cop. You check before your shift. It's not empty. It should be. You don't remember putting them there. Count mismatch. The infrastructure has other users now. Or you've lost track. The system is bigger than you."
+      retention_note: "CRITICAL RETENTION BEAT. This is where the episode breaks from the series pattern. The other 4 cops are always in control of their method. This cop has lost control of theirs. The room is running itself. The viewer realizes the horror is not the cop. The horror is the ROOM."
+      distortion_deploy: "SECOND DISTORTION - room occupied, you don't remember. Count mismatch. One more than you remember taking."
+      scene_anchor: "AUTONOMOUS stage - the room as independent actor"
+      key_beat: "You check the room. It should be empty. It's not. You don't remember putting them there."
+    - phase: "SNAP + AFTERMATH"
+      weight: "~20%"
+      duration_approx: "8:45-11:45"
+      content: "Snap moment. Child calls precinct. Thirty feet. One wall. 'No one by that name.' Micro-hesitation: you almost step forward. Almost. Foot moves. Weight shifts. You stop it. Because one step unwinds every absence. You don't step forward."
+      signature_use: "'They were never here' (possessive - second occurrence, post-snap)"
+      motif_use: "'You check the system. No record.' (automatic - but now the absence has a child's voice)"
+      scene_anchor: "SILENCE stage - room emptiness mirrors database mirrors memory"
+      micro_hesitation_note: "The 'almost' is the most important beat. Without it: the cop is cold. With it: the cop CHOSE. Choice is worse than coldness. The viewer watches a person decide not to save a child. That is different from a person who never considered it."
+      distortion_deploy: "THIRD DISTORTION - you check the system, no record. You check your memory. You find one. Then you're not sure."
+    - phase: "IDENTITY + CONTAGION"
+      weight: "~15%"
+      duration_approx: "11:45-14:00"
+      content: "Contagion. New cop learns the route through architecture. 'Does anyone know you're here?' - same question, new mouth. Mirror effect: you don't remember teaching them. You don't remember learning it either. The room predates everyone."
+      signature_use: "'They were never here' (identity - third occurrence, permanent)"
+      motif_use: "'You check the system. No record.' (confusion - don't know if you erased or never entered)"
+      mirror_beat: "You hear your phrase. Your cadence. Then: you don't remember learning it either. Who taught you? The senior cop? Who taught them? The room was here before all of you."
+    - phase: "ENDING LOOP"
+      weight: "~7%"
+      duration_approx: "14:00-15:00"
+      content: "Active memory deletion. You find a memory. You delete it. Not the system. Your memory. Then: someone new in the car. Same route. Same door. Same room. Don't ask their name."
+      signature_use: "ending variation: 'You don't remember if they were.'"
+      active_deletion_note: "CRITICAL BEAT. The cop finds a memory - the phone that rang three times, the child's voice - and actively deletes it. The method has been internalized. The cop IS the database now. Empty by design."
+      distortion_deploy: "FOURTH AND FINAL DISTORTION - active self-erasure. 'You find one. You delete it.'"
+
+# ============================================================
+# CREATIVE CONSTRAINTS
+# ============================================================
+creative_constraints:
+  primary_rule: "ABSENCE_AS_POWER"
+  description: >
+    The horror is not violence. The horror is bureaucratic
+    nonexistence. The cop does not hurt people (that's the
+    Shooter). The cop does not own people (that's the Handler).
+    The cop does not erase scenes (that's the Cleaner). The cop
+    erases PEOPLE. Not by killing them. By making the system
+    say they were never there. The substance is not evidence
+    (PV_0025) or control (PV_0026) or ownership (PV_0027) or
+    reality (PV_0028). The substance is existence itself. The
+    addiction is deciding who gets to exist in the system.
+  subject_framing: >
+    Subject starts as a silent witness - someone who saw another
+    cop walk past booking and said nothing. The transition to
+    active erasure is shown through spatial details - the route
+    past booking, the door with no label, the room with no camera.
+    CRITICAL: establish intentionality from the FIRST erasure.
+    'Not because you forgot. Because you decided not to.' The
+    cop is never accidental. The convenience is real but the
+    CHOICE is the engine.
+  ending_logic: >
+    The ending lands on ACTIVE DELETION, not passive dissolution.
+    The cop finds a memory - a face, a phone, a child's voice -
+    and deliberately removes it. The method has been internalized.
+    The cop applies it to themselves. 'You find one. You delete
+    it.' The signature line returns final - 'They were never here'
+    - but now it describes the cop's own memory. The cop IS the
+    database. Empty by design. Last image: someone new in the car.
+    Same route. Same door. Don't ask their name. Names create
+    records. Records create people.
+  system_horror_rule: >
+    NEVER explain the system through exposition. Show through
+    what the system does NOT do: it does not cross-reference
+    traffic stops with booking records, does not audit rooms
+    without cameras, does not ask why someone walked past the
+    desk. The most powerful line about the system is: 'No one
+    by that name was brought in.' The system tells the TRUTH.
+    That is the horror. The cop's crime is never giving the
+    system anything to find.
+  scene_anchor_rule: >
+    THE_ROOM must appear in at least 4 phases (5 stages). It is
+    the TRUE CHARACTER of this episode. The cop is the operator.
+    The room is the machine. The room predates the cop. The room
+    will outlast the cop. The AUTONOMOUS stage (room occupied
+    without cop's knowledge) must appear mid-video to break loop
+    predictability.
+  retention_architecture: >
+    Phase 3 is the retention danger zone (~32%, 4:00-8:45). It
+    MUST be split into 3 mini-arcs to prevent mid-video drop:
+    ARC 1: Selection as Game (contrast via normal booking),
+    ARC 2: Pattern Forms (tension without resolution - a person
+    notices, system doesn't),
+    ARC 3: Room > Cop (perception distortion - room occupied,
+    cop doesn't remember).
+    Each arc contains a SURPRISE that breaks viewer expectation.
+    The loop is maintained but DISTORTED. 'Break the loop without
+    breaking the loop.'
+  perception_distortion_rule: >
+    Deploy 4 perception distortions across the episode:
+    (1) Room occupied when it should be empty (~5:30),
+    (2) Count mismatch (~7:00),
+    (3) Memory found but uncertain (~10:00),
+    (4) Active memory deletion (~14:30).
+    These prevent the video from becoming 'perfect logic' -
+    the viewer must always feel that the system is BIGGER than
+    the cop operating it.
+  false_safety_rule: >
+    The first system confirmation MUST come from a NON-DEVASTATING
+    source. A friend. A coworker. Not a child. The false safety
+    of the first 'no record' gives the viewer the first taste
+    of the system's power. It also pre-pays the snap moment:
+    when the child calls, the viewer has ALREADY heard 'no one
+    by that name' work on a less emotionally loaded call. They
+    know what the system will say. The dread is anticipatory.
+  snap_hesitation_rule: >
+    The snap moment MUST include micro-hesitation: 'You almost
+    step forward. Almost.' This transforms the cop's stillness
+    from coldness (which distances the viewer) to CHOICE (which
+    implicates the viewer). The 'almost' is where the moral
+    weight lives. Without it, the cop is a monster. With it,
+    the cop is a person who chose not to save a child. The
+    viewer chose too - by watching. By not looking away.
+  forbidden_framing:
+    - "Heroic whistleblower or redemption arc"
+    - "Single rogue cop - the infrastructure (the room, the route, the precedent) was built before this cop arrived"
+    - "Glorification of the cop's selection skill as clever tradecraft"
+    - "Pure psychopath - the first convenience must exist to make escalation possible"
+    - "Explaining the booking system through legal exposition"
+    - "Showing what happens to people in the room in detail - the horror is the ABSENCE, not treatment"
+    - "The cop getting caught - the horror is that the system confirms the absence as truth"
+    - "Killing the disappeared people - this cop ERASES existence, not life"
+    - "Resolving what happens after - the viewer never learns the outcome for the disappeared"
+    - "Passive memory loss in ending - the memory deletion must be ACTIVE and CHOSEN"
+    - "Predictable loop escalation - each cycle must contain a SURPRISE element"
+  required_framing:
+    - "'They were never here' - 3x escalation: procedural -> possessive -> identity"
+    - "Ending variation: 'You don't remember if they were.'"
+    - "'You check the system. No record.' - secondary motif 3x: anxious -> automatic -> confusion"
+    - "'No one by that name was brought in' - system phrase 4x: false safety -> lawyer -> child -> self-spoken"
+    - "4-beat loop (stop, take, hold, erase) with SURPRISE MUTATION each cycle"
+    - "Cycle 2 surprise: booking a 'yes' answer (contrast reveals selection power)"
+    - "Cycle 3 surprise: room occupied without cop's knowledge (infrastructure exceeds architect)"
+    - "Cycle 4 surprise: count mismatch (system exceeds cop's memory)"
+    - "Scene anchor THE_ROOM across 5 stages: first sight -> first use -> infrastructure -> autonomous (room > cop) -> silence"
+    - "Snap moment: child calls + micro-hesitation ('almost step forward, almost') + proximity (30 feet, one wall)"
+    - "Snap pre-payment: phone that rings three times -> voice asking for phone call -> child calls"
+    - "False safety: first 'no record' from casual caller, not devastating one"
+    - "Selection criteria shown through 'Does anyone know you're here?'"
+    - "Contagion with MIRROR EFFECT: 'You don't remember teaching them. You don't remember learning it either.'"
+    - "'Names create records. Records create people.' - the logic of erasure stated once, late"
+    - "ACTIVE memory deletion in ending: 'You find one. You delete it.' - not passive forgetting"
+    - "Perception distortion deployed 4x across episode to prevent predictability"
+    - "Phase 3 split into 3 mini-arcs: selection game / pattern forms / room > cop"
+    - "The room predates the cop. The room will outlast the cop. 'You did not build this.'"
+    - "Ending: same route, same door, same room, same nothing - the machine continues"
+
+# ============================================================
+# MICRO-BEHAVIORS (motif with progression)
+# ============================================================
+micro_behaviors:
+  description: >
+    Three signature micro-actions that repeat as motifs. Each
+    one evolves across the episode. The repetition creates the
+    rhythm - one motif return every 40-60 seconds of VO.
+  frequency: "1 motif return every ~40-60 seconds of VO"
+  behaviors:
+    - motif: "THE_RADIO"
+      description: "Turning off the dispatch radio before taking someone."
+      progression:
+        - "You reach for the radio. You turn it down. Then off. You check if anyone heard the last transmission."
+        - "The radio is off before you open the car door. You don't remember turning it off."
+        - "You notice the radio has been off for your entire shift. You don't remember when it stopped being on."
+    - motif: "THE_ROUTE"
+      description: "Walking past booking to the room."
+      progression:
+        - "You walk past the booking desk. You don't look at the sergeant. Your eyes find the hallway. The door with no label."
+        - "You walk past booking without adjusting your pace. The route is automatic. The sergeant doesn't look up."
+        - "You don't remember walking past booking. You are at the door. The handle is in your hand."
+    - motif: "THE_COUNT"
+      description: "Checking how many are in the room."
+      progression:
+        - "You check the room. One. You remember their face. You remember why."
+        - "You check the room. Four. You remember the number. Not the faces."
+        - "You check the room. The number doesn't match. One more than you remember. You recount. Same number."
+
+# ============================================================
+# SENSORY ANCHORS (audio/visual retention hooks)
+# ============================================================
+sensory_anchors:
+  description: >
+    Recurring sensory details that create rhythm and recognition
+    across the episode. Each anchor appears 2-3 times with subtle
+    variation. Deploy as production-level guidance for illustration
+    strips and video prompts.
+  anchors:
+    - id: "RADIO_SILENCE"
+      sense: "AUDIO"
+      description: "The moment the dispatch radio goes silent. The absence of sound that means the cop has crossed into the shadow system."
+      progression:
+        - "You turn the radio down. The static fades. The silence fills the car. The person in the backseat does not exist yet."
+        - "The radio is already off. The car is already silent. The silence is default now."
+      note: "Radio silence = crossing the line. The absence of dispatch contact means the absence of accountability."
+    - id: "DOOR_HANDLE"
+      sense: "TACTILE"
+      description: "The handle of the room's door. Heavy. Unlabeled. The physical act of opening the door to nonexistence."
+      progression:
+        - "You reach for the handle. Heavy metal. Cold. You hold it longer than you need to. Then you open it."
+        - "The handle is warm. Your hand knows it. You don't hesitate."
+        - "The handle is in your hand. You don't remember reaching for it."
+      note: "Door handle = Pavlovian trigger. Physical habit that humanizes without breaking tone. The cop's hand KNOWS the handle."
+    - id: "DIAL_TONE"
+      sense: "AUDIO"
+      description: "The sound of someone hanging up after being told 'no record.' The auditory signature of a successful erasure."
+      progression:
+        - "You hear the click. Then the tone. Someone was looking. No one found anything. You exhale."
+        - "The dial tone is shorter now. People stop asking faster."
+        - "A child's voice. Then the click. Then the tone. Longer this time. The child waited."
+      note: "Dial tone = confirmation sound. The erasure verified by the person looking for the erased."
+
+# ============================================================
+# TENSION CATALYSTS (retention-optimized v2)
+# ============================================================
+tension_catalysts:
+  # --- Phase 1-2 catalysts ---
+  - "You watch a senior cop walk past booking with someone in cuffs. Nobody looks up. That is the first lesson."
+  - "You skip booking because it's 3AM and you're tired. They're gone by morning. No one asks. Not even you."
+  - "The first time, you check the system three times. Not for them. For yourself. The absence holds. You exhale."
+  - "You take someone to the room. They ask to make a phone call. You look at the wall. There is no phone."
+  - "A friend calls looking for the person you took. 'No one by that name.' You hear it across the room. The system works."
+  # --- Phase 3 Arc 1 catalysts ---
+  - "You ask: 'Does anyone know you're here?' They say no. That is the answer that opens the door."
+  - "You test it. Someone with a job. Someone whose phone keeps ringing. Someone who says yes. You book this one. Normal process."
+  - "The contrast is the power. You can choose. Not everyone goes through the door. Only the ones you select."
+  # --- Phase 3 Arc 2 catalysts ---
+  - "A civil rights attorney matches missing persons reports to traffic stops in your zone. No bookings follow. The correlation exists. No one investigates."
+  - "The lawyer files a habeas corpus motion. No one can find the client. The motion has no body to produce."
+  - "The pattern is real. The system does not have a mechanism to investigate what was never entered."
+  # --- Phase 3 Arc 3 catalysts ---
+  - "You check the room before your shift. It's not empty. It should be. You don't remember putting them there."
+  - "The count doesn't match. One more than you remember taking. You recount. Same number."
+  - "The room has five chairs now. It had one when you started. You don't remember adding them."
+  # --- Phase 4 catalysts ---
+  - "A child calls. You're standing ten feet from the desk. You almost step forward. Almost."
+  - "You hear the dial tone. Longer this time. The child waited."
+  - "Internal Affairs asks about a missing persons report tied to your traffic stop. Your camera was off."
+  # --- Phase 5 catalysts ---
+  - "You hear the new cop say 'does anyone know you're here?' Your question. Their mouth."
+  - "You don't remember teaching them. You don't remember learning it either."
+  - "The room was here before you. The room will be here after. You don't know who built it."
+  # --- Phase 6 catalysts ---
+  - "You check your memory. You find one. You delete it."
+  - "Names create records. Records create people. You've learned to think in absences."
+  - "Someone new in the car. Same route. Same door. Same room. Same nothing."
+
+# ============================================================
+# IRREVERSIBLE MARKERS
+# ============================================================
+irreversible_markers:
+  - "You walk past booking with someone who is asking for a lawyer. You don't stop. The room is to the left. The lawyer is not."
+  - "You ask 'does anyone know you're here' and use the answer to decide their fate. The selection criterion is operational."
+  - "A friend calls. 'No one by that name.' You hear it work. You exhale. The first hit."
+  - "You book someone who says yes. Normal process. The contrast reveals: you've been choosing all along."
+  - "The room is occupied and you don't remember. The infrastructure has exceeded the architect."
+  - "A child calls looking for their parent. Thirty feet. One wall. You almost step forward. You don't."
+  - "You check your memory. You find one. You delete it. Deliberately."
+  - "The new cop uses your phrase. Your cadence. You don't remember teaching them. You don't remember learning it."
+  - "You look at the room. Empty. You check the system. Empty. You check your memory. Empty. You made all three."
+
+# ============================================================
+# HOOK OPTIONS (ready to use)
+# ============================================================
+hook_options:
+  option_1:
+    label: "cold + intentional (recommended)"
+    lines:
+      - "You pull them over."
+      - "You put them in the car."
+      - "You don't book them."
+      - "Not because you forgot."
+      - "Because you decided not to."
+  option_2:
+    label: "system horror"
+    lines:
+      - "Someone calls looking for the person you took."
+      - "The system checks."
+      - "No record."
+      - "The system is correct."
+  option_3:
+    label: "selection horror"
+    lines:
+      - "You ask one question."
+      - "'Does anyone know you're here?'"
+      - "If the answer is no,"
+      - "you have all the time in the world."
+
+# ============================================================
+# SUBJECT VARIANTS
+# ============================================================
+subject_variants:
+  - type: "THE_INHERITOR"
+    trigger: "Found the room already built. Found the route already walked. Inherited the infrastructure. The system was waiting for someone to use it."
+  - type: "THE_OPTIMIZER"
+    trigger: "Started skipping booking for efficiency. Discovered the power of absence. Built the selection criteria. Turned convenience into method."
+  - type: "THE_GATEKEEPER"
+    trigger: "Decides who enters the official system and who enters the shadow. Same arrest, different destination. Your choice."
+
+# ============================================================
+# FAILURE MECHANICS
+# ============================================================
+failure_mechanics:
+  description: >
+    The system occasionally cracks - a traffic camera, a witness
+    with a phone, a federal investigation that matches missing
+    persons reports to traffic stop data. But the real horror:
+    the system's defense is the truth. There is no record. There
+    is no booking. There is no evidence of custody. The absence
+    is the armor. The system cannot produce what was never entered.
+  pattern:
+    - "A traffic camera captured your stop. You took someone. No booking follows. A data analyst notices the gap. The gap is not illegal. Gaps exist. Your gap has a pattern."
+    - "A civil rights attorney matches missing persons reports to traffic stop locations. Your zone. Your shift. No bookings. The correlation is not proof. But it is a question no one has asked yet."
+    - "A federal investigation opens. They request booking records. Your records are clean. Perfectly clean. Nothing missing. Nothing extra. The absence of anomalies is its own anomaly."
+    - "Someone you took reappears. They file a report. They say your badge number. You say: no record of the stop. Their word against the database. The database wins."
+
+related_worlds:
+  - WORLD_CRIMINAL_CORRUPT_COP
+  - WORLD_CRIMINAL_CORRUPT_COP_SHOOTER
+  - WORLD_CRIMINAL_CORRUPT_COP_HANDLER
+  - WORLD_CRIMINAL_CORRUPT_COP_CLEANER
+series_note: >
+  Fifth episode in the corrupt cop series. PV_0025 explored
+  evidence fabrication (THE_MANUFACTURED_CASE) - signature:
+  'You don't find evidence. You place it.' PV_0026 explored
+  lethal force as addiction (THE_CALCULATED_SHOT) - signature:
+  'I feared for my life.' PV_0027 explored human ownership
+  through the CI system (THE_INFORMANT_MACHINE) - signature:
+  'You own them.' PV_0028 explored reality erasure through
+  scene cleaning (THE_SANITIZED_SCENE) - signature: 'By the
+  time you leave, it never happened.' PV_0029 explores
+  existence erasure through off-book detention (THE_ERASED_CUSTODY)
+  - signature: 'They were never here.' Connecting thread: all
+  five cops operate inside a system that never asks. Each
+  signature phrase creates a reality the system accepts without
+  verification. The difference: PV_0025 fabricates evidence.
+  PV_0026 fabricates self-defense. PV_0027 fabricates cooperation.
+  PV_0028 fabricates the scene. PV_0029 fabricates ABSENCE.
+  The Ghost is the inverse of the entire series: the others ADD
+  something false. The Ghost REMOVES something real. Without the
+  Ghost, the disappeared would eventually surface. With the Ghost,
+  the system says they were never there. And the system is correct.
+
+used_in_episodes: [PV_0029]
+created: "2026-04-21"
+updated: "2026-04-21"

@@ -9,6 +9,35 @@ skills_required:
 > **Phase:** Pre-ideation utility  
 > **Purpose:** Write confirmed WORLD_*.yaml to registry and update world-index.yaml
 
+## EXECUTION_CHECKLIST
+
+```yaml
+total_steps: 4
+steps:
+  - step: 1
+    name: "Receive World Data"
+    type: AUTO
+    output: "inline (validation result)"
+
+  - step: 2
+    name: "Write World File"
+    type: AUTO
+    output: "pvle/worlds/{WORLD_ID}.yaml"
+
+  - step: 3
+    name: "Update World Index"
+    type: AUTO
+    output: "pvle/engines/core/world-index.yaml"
+
+  - step: 4
+    name: "Confirm"
+    type: AUTO
+    output: "inline (confirmation message)"
+
+# On completion: verify all steps checked
+# On skip: VIOLATION -> HALT_AND_REPORT
+```
+
 ---
 
 ## STEP 1: Receive World Data

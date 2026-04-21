@@ -6,9 +6,49 @@ skills_required:
 
 # WORKFLOW: /pvle-gen-episode-brief
 
-> **Phase:** 1.2 — Ideation  
+> **Phase:** 1.2 - Ideation  
 > **Input:** Confirmed outline (from /pvle-gen-outline) + World_ID  
 > **Output:** `pvle/episodes/{EP}/episode_brief.md`
+
+## EXECUTION_CHECKLIST
+
+```yaml
+total_steps: 6
+steps:
+  - step: 1
+    name: "Assign Episode ID"
+    type: AUTO
+    output: "inline (EP assigned)"
+
+  - step: 2
+    name: "Load References"
+    type: AUTO
+    output: "inline (world + rules loaded)"
+
+  - step: 3
+    name: "Generate episode_brief.md Structure"
+    type: AUTO
+    output: "inline (brief content)"
+
+  - step: 3b
+    name: "Extract CHARACTER REGISTRY + Research Visual Anchors"
+    type: AUTO
+    output: "inline (character table + visual research)"
+
+  - step: 3c
+    name: "User Review CHARACTER REGISTRY"
+    type: BLOCKING
+    gate: "Wait for user to approve character registry before saving"
+    output: "inline (registry displayed)"
+
+  - step: 4
+    name: "Save File + Update World Index + Confirm"
+    type: AUTO
+    output: "pvle/episodes/{EP}/episode_brief.md"
+
+# On completion: verify all steps checked
+# On skip: VIOLATION -> HALT_AND_REPORT
+```
 
 ---
 

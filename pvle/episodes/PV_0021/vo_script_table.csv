@@ -1,0 +1,246 @@
+﻿VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_VI,Word_Count_EN,Pause_After
+1,PV_0021,BEAT_01_01,HOOK,ESTABLISH,NARRATION,There's a scar on your side.,Co mot vet seo ben hong ban.,6,0
+2,PV_0021,BEAT_01_01,HOOK,ESTABLISH,NARRATION,Long. Curved. Like something was pulled out from under your ribs.,Dai. Cong. Nhu co thu gi bi keo ra tu duoi xuong suon.,11,0.5
+3,PV_0021,BEAT_01_01,HOOK,ESTABLISH,NARRATION,You pull your shirt down.,Ban keo ao xuong.,5,0
+4,PV_0021,BEAT_01_01,HOOK,ESTABLISH,NARRATION,Not fast. Just enough so the fabric covers it.,Khong nhanh. Chi vua du de vai che di.,9,0
+5,PV_0021,BEAT_01_01,HOOK,ESTABLISH,NARRATION,You've done this so many times your hand doesn't think anymore.,Ban da lam viec nay nhieu den muc tay ban khong can nghi nua.,11,0
+6,PV_0021,BEAT_01_01,HOOK,ESTABLISH,NARRATION,Every morning before you leave the house.,Moi sang truoc khi ra khoi nha.,7,0
+7,PV_0021,BEAT_01_01,HOOK,ESTABLISH,NARRATION,Every time someone stands behind you in line.,Moi lan co ai do dung sau ban trong hang.,8,0
+8,PV_0021,BEAT_01_01,HOOK,ESTABLISH,NARRATION,The fabric catches on the raised edge sometimes.,Doi khi vai vuong vao mep seo noi len.,8,0
+9,PV_0021,BEAT_01_01,HOOK,ESTABLISH,NARRATION,A small pull. Like a thread snagging on something it shouldn't.,Mot cai keo nhe. Nhu soi chi mac vao cho khong nen mac.,11,0
+10,PV_0021,BEAT_01_01,HOOK,ESTABLISH,NARRATION,You don't flinch anymore.,Ban khong con giat minh nua.,4,0.5
+11,PV_0021,BEAT_01_01,HOOK,ESTABLISH,NARRATION,Some people have birthmarks. Moles. Things they were born with.,Co nguoi co bot. Not ruoi. Nhung thu ho sinh ra da co.,10,0
+12,PV_0021,BEAT_01_01,HOOK,ESTABLISH,WEIGHT_LINE,You have this.,Ban co cai nay.,3,1.5
+13,PV_0021,BEAT_01_02,HOOK,ESTABLISH,NARRATION,They said it grows back.,Ho noi no se moc lai.,5,0.5
+14,PV_0021,BEAT_01_02,HOOK,ESTABLISH,WEIGHT_LINE,So you believed them.,Nen ban da tin.,4,2.0
+15,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,The field hasn't grown anything in two seasons.,Canh dong khong moc gi duoc hai mua roi.,8,0
+16,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,You walk out every morning anyway because that's what you do.,Ban van ra dong moi sang vi do la viec ban lam.,11,0
+17,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,The soil cracks under your feet like something dry breaking apart.,Dat nut duoi chan ban nhu thu gi kho dang vo ra.,11,0
+18,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,You bend down and press your thumb into the dirt.,Ban cui xuong an ngon tay vao dat.,10,0
+19,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,It turns to dust between your fingers.,No thanh bui giua cac ngon tay ban.,7,0
+20,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,WEIGHT_LINE,Nothing holds.,Khong gi giu duoc.,2,0.5
+21,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,Your child sits on the floor inside the house.,Con ban ngoi tren nen nha ben trong.,9,0
+22,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,Not playing. Not crying. Just sitting there like that's a thing to do.,Khong choi. Khong khoc. Chi ngoi do nhu the do la mot viec.,13,0
+23,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,You don't know when children stop asking for food.,Ban khong biet khi nao con nit ngung doi an.,9,0
+24,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,But yours stopped.,Nhung con ban da ngung.,3,0.5
+25,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,You count what's left in the jar.,Ban dem nhung gi con trong lo.,7,0
+26,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,Rice. Some salt. A small bag of dried something you can't name anymore.,Gao. It muoi. Mot bich nho thu gi kho ban khong con goi ten duoc.,13,0
+27,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,Three days. Maybe four if you skip yours.,Ba ngay. Co the bon neu ban nhin phan minh.,8,0
+28,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,You've been skipping for a while now.,Ban da nhin mot thoi gian roi.,7,0
+29,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,Your stomach doesn't even complain anymore.,Bung ban con khong keu nua.,6,0
+30,PV_0021,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,You don't remember when that started.,Ban khong nho bat dau tu khi nao.,6,1.0
+31,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,The man comes on Tuesdays.,Nguoi do den vao thu Ba.,5,0
+32,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,He doesn't knock.,Khong go cua.,3,0
+33,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,He stands at the edge of your yard and waits.,Dung o ria san nha ban roi doi.,9,0
+34,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,Not close enough to seem aggressive.,Khong du gan de co ve de doa.,6,0
+35,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,Not far enough to ignore.,Khong du xa de lo di.,5,0
+36,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,Just at the edge. Like he's part of the fence.,Chi dung o ria. Nhu la mot phan cua hang rao.,10,0.5
+37,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,You know what he's waiting for.,Ban biet nguoi do dang doi gi.,6,0
+38,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,Everyone on this road knows.,Ai o con duong nay cung biet.,5,0
+39,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,You don't have it.,Ban khong co.,4,0
+40,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,You didn't have it last week. Or the week before.,Tuan truoc ban cung khong co. Tuan truoc nua cung vay.,10,0
+41,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,He leaves when the sun moves past the tree at the corner.,Nguoi do di khi nang qua khoi cay o goc duong.,12,0
+42,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,Every Tuesday like a clock that doesn't need winding.,Thu Ba nao cung vay nhu cai dong ho khong can len day.,9,0
+43,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,You watch him go from the doorway.,Ban nhin nguoi do di tu buc cua.,7,0
+44,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,Your hands are still wet from washing rice.,Tay ban van uot vi vua vo gao.,8,0
+45,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,NARRATION,You wipe them on your shirt. Twice.,Ban chui tay vao ao. Hai lan.,7,0
+46,PV_0021,BEAT_02_02,PHASE_EARLY,CONSTRAINT,WEIGHT_LINE,He'll be back.,Nguoi do se quay lai.,3,1.0
+47,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,Your neighbor came back three weeks ago.,Nguoi hang xom ve ba tuan truoc.,7,0
+48,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,He was gone for five days.,Di mat nam ngay.,6,0
+49,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,Nobody asked where.,Khong ai hoi di dau.,3,0
+50,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,Around here people leave and come back and nobody counts the days.,O day nguoi ta di roi ve va khong ai dem ngay.,12,0
+51,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,But he came back with money.,Nhung nguoi do ve voi tien.,6,0.5
+52,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,Not a lot. But more than anyone here has seen in months.,Khong nhieu. Nhung nhieu hon bat ky ai o day thay trong may thang.,11,0
+53,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,He bought new sheets for his roof.,Mua duoc tam ton moi lop mai.,7,0
+54,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,His wife got sandals. The kind with the plastic straps.,Vo duoc doi dep. Loai quai nhua.,10,0
+55,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,Someone asked him how.,Co nguoi hoi lam sao.,4,0
+56,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,He said a word you'd heard before but never paid attention to.,Nguoi do noi mot tu ban tung nghe nhung chua bao gio de y.,12,0
+57,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,He touched his side when he said it.,Nguoi do cham vao hong khi noi.,7,0
+58,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,Casually. Like adjusting his shirt.,Tu nhien. Nhu chinh lai ao.,5,0
+59,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,And then he said the thing everyone keeps repeating.,Roi nguoi do noi cau ma ai cung lap lai.,9,0
+60,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,It grows back.,No moc lai.,3,0
+61,PV_0021,BEAT_02_03,PHASE_EARLY,CONSTRAINT,WEIGHT_LINE,He said it like he was talking about hair.,Nguoi do noi nhu dang noi ve toc.,9,1.5
+62,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,You don't think about it.,Ban khong nghi ve chuyen do.,5,0
+63,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,Not really.,Khong that su.,2,0.5
+64,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,But the number stays in your head.,Nhung con so o lai trong dau.,7,0
+65,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,You hear it again at the well the next day.,Hom sau ban nghe lai o gieng nuoc.,10,0
+66,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,Someone's cousin did it. Went to the city for a week.,Anh ho cua ai do da lam. Di thanh pho mot tuan.,11,0
+67,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,Came back fine. Walking. Talking. Working again like nothing happened.,Ve binh thuong. Di dung. Noi chuyen. Lam lai nhu khong co gi.,10,0
+68,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,The number is always the same no matter who tells it.,Con so luc nao cung vay bat ke ai noi.,11,0
+69,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,WEIGHT_LINE,Five thousand.,Nam nghin.,2,0.5
+70,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,You do the math against your debt while your child sleeps.,Ban tinh toan so voi khoan no trong luc con ngu.,11,0
+71,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,It doesn't cover all of it.,Khong du tra het.,6,0
+72,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,But it covers enough to make the man stop coming on Tuesdays.,Nhung du de nguoi do ngung den vao thu Ba.,11,0
+73,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,Maybe.,Co le.,1,0
+74,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,You lie awake that night staring at the ceiling.,Dem do ban nam thao thuc nhin tran nha.,9,0
+75,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,Your child breathes in the dark next to you.,Con ban tho trong bong toi ben canh.,9,0
+76,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,Small breaths. Steady.,Hoi tho nhe. Deu.,3,0
+77,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,You touch your side under the blanket.,Ban cham vao hong duoi chan.,7,0
+78,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,Just once. Just to feel it still there.,Chi mot lan. De cam thay no van con do.,8,0
+79,PV_0021,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,You skip dinner that night. Not a decision. Your stomach just closes.,Toi do ban bo bua. Khong phai quyet dinh. Bung tu dong lai.,12,1.5
+80,PV_0021,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,A paper is on your table one morning.,Mot sang co to giay tren ban.,7,0
+81,PV_0021,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,You didn't see who put it there.,Ban khong thay ai de no o do.,7,0
+82,PV_0021,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,A number is written in pencil on the back of a receipt.,Mot con so viet bang but chi o mat sau to hoa don.,11,0
+83,PV_0021,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,No name. No address. No instructions.,Khong ten. Khong dia chi. Khong huong dan.,6,0
+84,PV_0021,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,Just the number.,Chi co con so.,3,0.5
+85,PV_0021,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,The pencil is smudged where someone's thumb pressed.,Net but chi nhoe o cho ngon tay ai do an vao.,8,0
+86,PV_0021,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,You fold it.,Ban gap lai.,3,0
+87,PV_0021,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,Put it under the jar where you keep the salt.,De duoi lo muoi.,10,0
+88,PV_0021,BEAT_03_01,PHASE_CONFLICT,CONFLICT,NARRATION,Your fingers smell like pencil lead after.,Ngon tay ban con mui chi sau do.,7,0
+89,PV_0021,BEAT_03_01,PHASE_CONFLICT,CONFLICT,WEIGHT_LINE,You don't throw it away.,Ban khong vut di.,5,1.0
+90,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,The woman two houses down is gone.,Ba hai nha ben mat tich.,7,0
+91,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,Her daughter says she went to visit family in the next province.,Con gai ba noi di tham ba con o tinh ben.,12,0
+92,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,But her chair outside is empty.,Nhung cai ghe ngoai hien trong khong.,6,0
+93,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,Her goat is still tied to the post and nobody fed it.,Con de van buoc o coc va khong ai cho an.,11,0
+94,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,The rope is starting to fray from the pulling.,Soi day bat dau sut vi keo.,9,0
+95,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,Nobody asks where she really went.,Khong ai hoi ba that su di dau.,6,0.5
+96,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,You already know. Or you think you do.,Ban da biet. Hoac ban nghi la biet.,7,0
+97,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,That night you pull the paper from under the jar.,Toi do ban rut to giay duoi lo ra.,10,0
+98,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,Your child coughs in the other room.,Con ban ho o phong ben.,7,0
+99,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,A dry cough that shakes something loose inside them.,Tieng ho khan rung len thu gi do ben trong.,9,0
+100,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,NARRATION,You unfold the receipt. The number is still there.,Ban mo to hoa don ra. Con so van o do.,9,0
+101,PV_0021,BEAT_03_02,PHASE_CONFLICT,CONFLICT,WEIGHT_LINE,That's it. That's the whole thing.,Chi vay thoi. Chi co vay.,6,1.0
+102,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,The bus leaves at night.,Xe di vao ban dem.,5,0
+103,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,You sit by the window with a plastic bag on your lap.,Ban ngoi canh cua so voi tui ni long tren dui.,11,0
+104,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,Everything you brought fits inside it.,Tat ca do ban mang vua trong do.,6,0
+105,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,A change of clothes. Your ID card. Thirty in cash.,Mot bo do thay. Chung minh thu. Ba muoi nghin tien mat.,10,0
+106,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,The seat is warm from whoever sat here before you.,Ghe con am vi nguoi ngoi truoc.,10,0
+107,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,You press your back into it and feel the vinyl crack a little.,Ban tua lung vao va nghe tieng da nhua keu nhe.,12,0
+108,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,You watch the village disappear behind the dust.,Ban nhin lang mat dan sau lop bui.,8,0
+109,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,The lights from the last house blink once. Then nothing.,Den nha cuoi cung nhap nhay mot cai. Roi khong con gi.,10,0.5
+110,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,The road gets smoother after the first hour.,Duong bot xoc sau mot tieng.,8,0
+111,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,You touch your side through the shirt.,Ban cham vao hong qua lop ao.,7,0
+112,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,Just once. Just to know it's still there.,Chi mot lan. De biet no van con.,8,0
+113,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,WEIGHT_LINE,Your body is still whole.,Co the ban van nguyen ven.,5,0.5
+114,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,You keep thinking that.,Ban cu nghi vay hoai.,4,0
+115,PV_0021,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,You think it the whole ride like if you stop it won't be true.,Ban nghi suot ca chuyen di nhu ngung la no se khong con dung nua.,13,1.0
+116,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,The room is small.,Can phong nho.,4,0
+117,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,Four plastic chairs. Fluorescent light. No windows.,Bon cai ghe nhua. Den huynh quang. Khong cua so.,7,0
+118,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,Three other people sit apart from each other.,Ba nguoi khac ngoi cach xa nhau.,8,0
+119,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,Nobody talks.,Khong ai noi.,2,0
+120,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,Nobody looks at each other.,Khong ai nhin nhau.,5,0.5
+121,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,You all know why you're here but nobody says it.,Ai cung biet vi sao minh o day nhung khong ai noi ra.,10,0
+122,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,Nobody asks anything here.,Khong ai hoi gi o day.,4,0
+123,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,WEIGHT_LINE,Then you notice you're not asking either.,Roi ban nhan ra ban cung khong hoi.,8,0.5
+124,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,One of them keeps touching his side.,Mot nguoi cu so hong.,7,0
+125,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,Same spot. Over and over. Like checking if something's still there.,Cung mot cho. Lien tuc. Nhu dang kiem tra thu gi con o do.,10,0
+126,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,You look away.,Ban nhin di cho khac.,3,0
+127,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,There's a crack running through the floor tile.,Co mot vet nut chay doc vien gach.,8,0
+128,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,You stare at that instead.,Ban nhin vao do thay.,5,0.5
+129,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,Someone calls a name. It isn't yours.,Ai do goi mot cai ten. Khong phai cua ban.,7,0
+130,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,One of them stands up and walks through a door at the end.,Mot nguoi dung day va di qua canh cua cuoi phong.,12,0
+131,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,The door closes.,Cua dong lai.,3,0
+132,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,You don't hear anything after that.,Sau do ban khong nghe thay gi.,6,0
+133,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,The man sitting next to you rubs his hands together.,Nguoi ngoi ben canh xoa hai tay vao nhau.,10,0
+134,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,You do the same without meaning to.,Ban cung lam vay ma khong dinh.,7,0
+135,PV_0021,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,Your jaw tightens. You're not sure when that started.,Ham ban cang lai. Ban khong biet tu luc nao.,9,1.0
+136,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,Your name. Or a number. You're not sure which.,Ten ban. Hoac mot con so. Ban khong chac.,9,0
+137,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,You stand up.,Ban dung day.,3,0
+138,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,The light turns on.,Den bat.,4,0
+139,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,It's white. Too white. Everything is white and it hums.,Trang. Trang qua. Tat ca deu trang va co tieng u u.,10,0
+140,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,You're lying down now and you don't remember getting on the table.,Ban dang nam va ban khong nho luc nao leo len ban.,12,0
+141,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,Someone puts something cold on your arm. A strap. A band.,Ai do dat thu gi lanh len tay ban. Mot day. Mot vong.,11,0
+142,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,It smells sharp in here. Chemical.,Mui hac. Hoa chat.,6,0
+143,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,Like cleaning fluid mixed with something metal.,Nhu nuoc lau nha pha voi mui kim loai.,7,0
+144,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,People around you but you can't see their faces.,Co nguoi xung quanh nhung ban khong thay mat ho.,9,0
+145,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,Just shapes. Masks. Gloved hands.,Chi bong dang. Khau trang. Tay deo gang.,5,0.5
+146,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,You ask the question.,Ban hoi cau do.,4,0
+147,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,The one you've been holding since the village.,Cau ban giu tu luc con o lang.,8,0
+148,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,NARRATION,The one your neighbor answered so easily while touching his side.,Cau ma nguoi hang xom tra loi de dang khi cham vao hong.,10,0
+149,PV_0021,BEAT_03_05,PHASE_CONFLICT,CRISIS,WEIGHT_LINE,How long until it grows back.,Bao lau thi no moc lai.,6,1.0
+150,PV_0021,BEAT_03_06,PHASE_CONFLICT,CRISIS,NARRATION,No one answers.,Khong ai tra loi.,3,0.5
+151,PV_0021,BEAT_03_06,PHASE_CONFLICT,CRISIS,NARRATION,Someone says count backward from ten.,Ai do bao dem nguoc tu muoi.,6,0
+152,PV_0021,BEAT_03_06,PHASE_CONFLICT,CRISIS,NARRATION,You get to seven.,Ban dem den bay.,4,0
+153,PV_0021,BEAT_03_06,PHASE_CONFLICT,CRISIS,NARRATION,Or six. You don't remember which.,Hoac sau. Ban khong nho.,6,0
+154,PV_0021,BEAT_03_06,PHASE_CONFLICT,CRISIS,NARRATION,The light gets softer. Then it's gone.,Anh sang diu dan. Roi tat.,7,2.0
+155,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,You wake up.,Ban tinh day.,3,0
+156,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"You try to sit up. For a second, your body doesn't follow.","Ban co ngoi day. Mot giay, co the khong theo.",12,0.5
+157,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,The ceiling is yellow. Stained.,Tran nha mau vang. Loang lo.,5,0
+158,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,There's a fan above you that doesn't turn.,Co cai quat tran khong quay.,8,0
+159,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,You're in a different room now.,Ban dang o mot can phong khac.,6,0
+160,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,Thin mattress. Thin blanket. A plastic bag of pills on a small table.,Nem mong. Chan mong. Mot bich thuoc tren ban nho.,13,0
+161,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,The air is warm and still like nobody opened a window.,Khong khi nong va tinh nhu chua ai mo cua so.,11,0.5
+162,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,Your side hurts.,Hong ban dau.,3,0
+163,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,Not sharp. A deep pull. Like something stitched too tight.,Khong nhoi. Mot cai keo sau. Nhu khau chat qua.,10,0
+164,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,You press your hand flat against it.,Ban ap ban tay vao.,7,0
+165,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,Gauze. Tape. Warm to the touch.,Gac. Bang keo. Am khi cham vao.,6,0.5
+166,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,Something is different inside you and you can't name it.,Co gi do khac ben trong ban va ban khong goi ten duoc.,10,0
+167,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,Lighter.,Nhe hon.,1,0
+168,PV_0021,BEAT_04_01,PHASE_CRISIS,CRISIS,WEIGHT_LINE,That's the closest you get.,Do la cach gan nhat ban dien ta duoc.,5,1.0
+169,PV_0021,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,You try to stand.,Ban co dung day.,4,0
+170,PV_0021,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,Your legs work but the balance is wrong.,Chan van duoc nhung thang bang bi sai.,8,0
+171,PV_0021,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,Like someone shifted your center of gravity to one side.,Nhu ai do dich trong tam ban sang mot ben.,10,0
+172,PV_0021,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,You reach for the wall.,Ban voi vao tuong.,5,0
+173,PV_0021,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,Your fingers press flat against the plaster. Cold.,Ngon tay an vao tuong voi. Lanh.,8,0
+174,PV_0021,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,You try to remember what before felt like.,Ban co nho truoc day cam giac the nao.,8,0
+175,PV_0021,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,The way your body balanced when everything was still inside.,Cai cach co the can bang khi moi thu van con ben trong.,10,0
+176,PV_0021,BEAT_04_02,PHASE_CRISIS,REFLECT,WEIGHT_LINE,You can't.,Khong nho duoc.,2,0.5
+177,PV_0021,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,Not the feeling. Not the weight.,Khong nho cam giac. Khong nho trong luong.,6,0
+178,PV_0021,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,Not what whole used to mean.,Khong nho nguyen ven tung co nghia gi.,6,0
+179,PV_0021,BEAT_04_02,PHASE_CRISIS,REFLECT,WEIGHT_LINE,Just gone.,Mat roi.,2,1.0
+180,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,There's an envelope on the table next to the pills.,Co mot phong bi tren ban canh bich thuoc.,10,0
+181,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,Thin. Not sealed.,Mong. Khong dan.,3,0
+182,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,Your hands open it. Count.,Tay ban mo ra. Dem.,5,0
+183,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,Count again.,Dem lai.,2,0
+184,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,Then you stop.,Roi ban ngung.,3,0.5
+185,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,It's not what they said. Not half. Not a third.,Khong dung nhu ho noi. Khong phai nua. Khong phai mot phan ba.,10,0
+186,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,Your hand picks up the phone they left. Dials.,Tay ban cam dien thoai ho de lai. Bam.,9,0
+187,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,WEIGHT_LINE,Nothing.,Khong co gi.,1,0.5
+188,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,You dial again.,Ban bam lai.,3,0
+189,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,Same nothing.,Cung khong co gi.,2,0
+190,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,The number doesn't connect to anything anymore.,So do khong con ket noi voi gi nua.,7,1.0
+191,PV_0021,BEAT_04_03,PHASE_CRISIS,CONFLICT,NARRATION,You think about what your neighbor said. You wait for it to feel true.,Ban nghi ve loi nguoi hang xom noi. Ban doi no thanh that.,13,0.5
+192,PV_0021,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,A door opens in the next room.,Mot canh cua mo o phong ben.,7,0
+193,PV_0021,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,You hear footsteps. Someone being walked in.,Ban nghe tieng buoc chan. Ai do duoc dua vao.,7,0
+194,PV_0021,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,A chair scrapes against the floor.,Ghe ket tren san.,6,0
+195,PV_0021,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,Then quiet.,Roi im.,2,0.5
+196,PV_0021,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,You lie back down.,Ban nam xuong lai.,4,0
+197,PV_0021,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,There's a water stain on the ceiling shaped like nothing.,Co vet nuoc tren tran hinh nhu khong gi ca.,10,0
+198,PV_0021,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,You stare at it because there's nothing else to stare at.,Ban nhin no vi khong co gi khac de nhin.,11,0
+199,PV_0021,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,You wonder if the person in the next room asked the same question.,Ban tu hoi nguoi phong ben co hoi cau giong ban khong.,13,0
+200,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,The ride is long. Every bump finds the stitches.,Chuyen xe dai. Moi o ga tim dung vet khau.,9,0
+201,PV_0021,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,You wonder if anyone answered them.,Ban tu hoi co ai tra loi ho khong.,6,0.5
+202,PV_0021,BEAT_04_04,PHASE_CRISIS,CRISIS,NARRATION,Your legs move toward the door before you decide to leave.,Chan ban buoc ve phia cua truoc khi ban quyet dinh di.,11,2.0
+203,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,You come home.,Ban ve nha.,3,0
+204,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,Every bump on the road sends something through your side.,Moi o ga gui gi do xuyen qua hong ban.,10,0
+205,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,Your child runs to you when you step off the bus.,Con ban chay ra khi ban buoc xuong xe.,10,0
+206,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,You pick them up. Your side pulls sharp.,Ban bong con len. Hong keo nhoi.,8,0
+207,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,The man on Tuesday takes it. Writes in his book. Closes it.,Nguoi thu Ba nhan tien. Ghi vao so. Gap lai.,12,0
+208,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,You hold them anyway.,Ban van bong.,4,0
+209,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,Not yet.,Chua buong.,2,0.5
+210,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,The money pays half the debt.,Tien tra duoc nua no.,6,0
+211,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,The man on Tuesday takes the bills and writes in his book.,Nguoi thu Ba nhan tien va ghi vao so.,11,0
+212,PV_0021,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,He'll be back. You knew that before you got on the bus.,Nguoi do se quay lai. Ban biet truoc khi len xe.,11,1.0
+213,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,NARRATION,You go back to the field the next week.,Tuan sau ban tro ra dong.,8,0
+214,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,NARRATION,You pick up what you used to carry with one hand.,Ban cam thu truoc day mot tay xach duoc.,10,0
+215,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,NARRATION,Your hands shake.,Tay ban run.,3,0
+216,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,NARRATION,Your back won't straighten all the way.,Lung ban khong thang het duoc.,7,0
+217,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,NARRATION,You set it down. Try again. Same thing.,Ban dat xuong. Thu lai. Cung vay.,7,0
+218,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,NARRATION,Now it's something your body fights you on every time.,Gio no thanh thu co the chong lai ban moi lan.,10,0.5
+219,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,NARRATION,"For a moment everything blurs - the dirt, the tools, the sky above the field - and then you blink and it's just the field again.","Mot khoang moi thu nhoe di - dat, dung cu, troi phia tren dong - roi ban chop mat va chi con la canh dong.",23,0
+220,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,NARRATION,You don't mention it.,Ban khong noi gi.,4,0
+221,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,NARRATION,No.,Khong.,1,0
+222,PV_0021,BEAT_05_02,PHASE_RESOLUTION,CONSTRAINT,WEIGHT_LINE,You do remember.,Ban nho.,3,1.0
+223,PV_0021,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,You're standing in your yard one evening.,Mot buoi chieu ban dung ngoai san.,7,0
+224,PV_0021,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,The air is warm and heavy and smells like rain that won't come.,Khong khi nong va nang va co mui mua se khong den.,13,0
+225,PV_0021,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,Across the road someone pulls their shirt.,Ben kia duong ai do keo ao.,7,0
+226,PV_0021,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,Just for a second. Adjusting. Or not.,Chi mot giay. Chinh ao. Hoac khong.,6,0
+227,PV_0021,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,You think you see something. Same place. Maybe.,Ban tuong thay gi do. Cung cho do. Co le.,9,0
+228,PV_0021,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,Same place on the body. Same curve.,Cung cho do tren nguoi. Cung duong cong do.,7,0.5
+229,PV_0021,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,They don't look at you.,Ho khong nhin ban.,5,0
+230,PV_0021,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,You don't look at them.,Ban khong nhin ho.,5,0
+231,PV_0021,BEAT_05_03,PHASE_RESOLUTION,REFLECT,WEIGHT_LINE,You don't need to.,Khong can.,4,1.0
+232,PV_0021,BEAT_05_03,PHASE_RESOLUTION,REFLECT,NARRATION,Nobody uses that word anymore. Not here.,Khong ai dung tu do nua. Khong phai o day.,7,0.5
+233,PV_0021,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,A vehicle stops near their house the next morning.,Sang hom sau co xe dung gan nha ho.,9,0
+234,PV_0021,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,It's not from here. The plates are from a different province.,Xe khong phai o day. Bien so tinh khac.,11,0
+235,PV_0021,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,No one comes out. No one goes in.,Khong ai buoc ra. Khong ai buoc vao.,8,0
+236,PV_0021,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,It just waits.,No chi doi.,3,0.5
+237,PV_0021,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,Then it leaves.,Roi no di.,3,0
+238,PV_0021,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,You close the door.,Ban dong cua lai.,4,0
+239,PV_0021,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,You don't like thinking about any of this.,Ban khong muon nghi ve chuyen nay.,8,1.5
+240,PV_0021,BEAT_06_01,CALLBACK_CLOSE,CALLBACK,NARRATION,You pull your shirt down.,Ban keo ao xuong.,5,0.5
+241,PV_0021,BEAT_06_01,CALLBACK_CLOSE,CALLBACK,NARRATION,The scar is still there.,Vet seo van o do.,5,0.5
+242,PV_0021,BEAT_06_01,CALLBACK_CLOSE,CALLBACK,WEIGHT_LINE,It didn't grow back.,No khong moc lai.,4,0.5
+243,PV_0021,BEAT_06_01,CALLBACK_CLOSE,CALLBACK,WEIGHT_LINE,Nothing did.,Khong gi moc lai ca.,2,1.5
+244,PV_0021,BEAT_06_02,CALLBACK_CLOSE,CTA,WEIGHT_LINE,"Somewhere behind you, a door opens.","O dau do phia sau ban, mot canh cua mo.",7,0.5
+245,PV_0021,BEAT_06_02,CALLBACK_CLOSE,CTA,WEIGHT_LINE,Or you think it does.,Hoac ban tuong vay.,5,3.0

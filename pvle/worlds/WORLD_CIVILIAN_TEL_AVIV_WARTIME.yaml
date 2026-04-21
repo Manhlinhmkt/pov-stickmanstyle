@@ -1,0 +1,708 @@
+# WORLD: Civilian Inside Tel Aviv During Wartime Escalation
+# Version: v2.0 (post-review optimization)
+# Created: 2026-04-14
+
+WORLD_ID: WORLD_CIVILIAN_TEL_AVIV_WARTIME
+display_name: "The Person Who Had 90 Seconds"
+domain: CIVILIAN_WARZONE
+era: MODERN_CONTEMPORARY
+implied_identity_mode: GENERIC_ARCHETYPE
+implied_person: null
+structure_id: LIFE_ADVERSITY
+
+tags:
+  - civilian_wartime
+  - tel_aviv_under_fire
+  - iron_dome_ceiling
+  - ordinary_life_shattered
+  - siren_pavlov
+  - shelter_routine
+  - waiting_as_identity
+  - the_other_side_of_the_screen
+  - moral_fracture
+  - normalization_as_wound
+  - somatic_memory
+  - countdown_loop
+
+seed_keywords:
+  - "civilian Tel Aviv"
+  - "Israel war civilian"
+  - "wartime escalation"
+  - "iron dome civilian"
+  - "siren shelter routine"
+  - "life under rocket fire"
+  - "90 seconds to shelter"
+  - "home front Israel"
+
+# =============================================================================
+# SUBJECT ARCHETYPE
+# Mid-30s professional in Tel Aviv - secular, modern, exhausted
+# Not a soldier, not a settler - just a person trying to live
+# =============================================================================
+
+subject_archetype:
+  role: "UX designer at a Tel Aviv startup - mid-30s, married, one son (6)"
+  behavioral_details:
+    - "Takes the train from Holon to HaShalom station every morning"
+    - "Son leaves LEGO pieces on the living room floor every night"
+    - "Keeps a go-bag by the front door - water, documents, phone charger"
+    - "Checks the Red Alert app before checking the weather"
+    - "Argues with coworkers about Maccabi Tel Aviv match results"
+    - "Buys his wife rugelach from a specific bakery on Dizengoff"
+    - "Has a shelter room - the mamad - but the door sticks"
+    - "Sleeps in boxers and a t-shirt - the clothes he will run in"
+  motivation: "SURVIVAL + NORMALCY - wants son to grow up without flinching"
+  narrative_function: >
+    The subject is not political. They did not choose to live in a country
+    at war. They did not vote for the escalation. They are the person
+    under the dome. When the missile launches from 1,200 kilometers away,
+    this person has 90 seconds. When the news shows an interception,
+    this person smells the sulfur and feels the pressure drop in their
+    ears. When the world debates proportionality, this person is teaching
+    their son that the loud crack overhead is the "good boom."
+    Their body learned the war before their brain did.
+
+# =============================================================================
+# RECURRING MOTIF: 90 SECONDS (THE COUNTDOWN)
+# The psychology of survival expressed as a countdown
+# NOT just a number - this is a BODY CLOCK that rewires the nervous system
+# Phase 2 (VO) should thread this through the entire script
+# =============================================================================
+
+recurring_motif:
+  name: "THE COUNTDOWN"
+  description: >
+    Survival reduces to a single number: 90. Seconds between siren
+    and impact. The body learns this before the brain does.
+    It starts as panic - raw, animal, graceless.
+    Then it becomes routine - efficient, automatic, numb.
+    Then the routine IS the wound.
+    By the end, 90 seconds is how long everything takes.
+    Getting coffee. Saying goodnight. Checking the sky.
+    The countdown never stops. It just stops being about rockets.
+  instances:
+    - "90 seconds to the mamad - your feet know the path before you do"
+    - "Son counts to 90 in bed - he thinks it is a game"
+    - "3 cracks overhead - Iron Dome. You count the gaps between them"
+    - "7 seconds from siren to son's bedroom door - you have shaved 2 seconds off"
+    - "4:17 AM - the siren. Carry him. Bare feet on cold tile"
+    - "12 interceptions visible from the balcony - white streaks on black"
+    - "4 hours in the mamad. LEGO tower reaches 23 blocks"
+    - "News says 200 in one night. You felt 3. The math doesn't comfort you"
+    - "One got through. Your ears tell you before the news does"
+    - "After ceasefire: you still count to 90 in the shower"
+  resolution_echo: >
+    "The sirens stopped. Your body didn't."
+
+# =============================================================================
+# COUNTDOWN STRUCTURE (narrative architecture for Phase 2)
+# This rhythm REPEATS through the episode with escalating emotional weight
+# =============================================================================
+
+countdown_structure:
+  description: >
+    The episode uses the 90-second countdown as a recurring rhythm.
+    Each cycle has a different emotional charge. The viewer's body
+    learns the pattern - and that learning IS the point.
+  cycles:
+    cycle_1_PANIC:
+      phase: PHASE_CONFLICT_EARLY
+      emotional_weight: "raw fear - first time"
+      body_state: "hands shake, feet cold, child heavy"
+      duration_feel: "90 seconds feels like 900"
+      outcome: "interception - safe - but shaking for an hour after"
+
+    cycle_2_ROUTINE:
+      phase: PHASE_CONFLICT_MID
+      emotional_weight: "numb efficiency - body automates"
+      body_state: "feet know the path, hands find the door, no thinking"
+      duration_feel: "90 seconds feels like 30"
+      outcome: "interception - safe - back to coffee"
+
+    cycle_3_THE_ONE_THAT_GETS_THROUGH:
+      phase: PHASE_CRISIS
+      emotional_weight: "the routine fails - something breaks"
+      body_state: "different sound. building shakes. ears ring. floor moves"
+      duration_feel: "90 seconds never ends"
+      outcome: "impact nearby - the dome is 90%, not 100%"
+
+    cycle_4_PHANTOM:
+      phase: PHASE_RESOLUTION
+      emotional_weight: "no siren - but body still counts"
+      body_state: "heart spikes at car horn, flinch at door slam"
+      duration_feel: "90 seconds is now the length of everything"
+      outcome: "the countdown outlives the war"
+
+# =============================================================================
+# KEY FACTS - v2.0: added somatic layer, kinetic rewriting,
+#   countdown structure integration, sharpened iron dome paradox,
+#   upgraded moral fracture, stronger before/after callbacks
+# =============================================================================
+
+key_facts:
+  # --- WHO YOU ARE ---
+  1: >
+    You are a UX designer at a startup in Tel Aviv. You design
+    interfaces for an app that helps restaurants manage delivery
+    orders. You are good at your job. Your job exists in a country
+    where the delivery driver checks the shelter map before every
+    route. You did not choose this. You just design buttons inside it.
+    Every morning you argue about basketball scores on the train.
+    Every Friday you bring rugelach home from Dizengoff. Your son
+    leaves LEGO pieces on the floor and you step on them barefoot
+    at 2 AM and swear quietly. You are ordinary. That is the point.
+    (HOOK / PHASE_EARLY: ordinary life inside extraordinary constraints)
+
+  # --- THE CITY BEFORE ---
+  2: >
+    Before the escalation, Tel Aviv is 460,000 people complaining
+    about rent on Rothschild Boulevard. Students drink iced coffee
+    outside the campus on Ibn Gabirol. Couples walk the promenade
+    at sunset and the Mediterranean does not care about borders.
+    Your coworker is angry because Maccabi lost again. The barista
+    at your corner cafe draws a smiley face on your cup. The conflict
+    is background noise - present, yes, but containable. The Iron Dome
+    works. The sirens come and go. You have learned to keep living
+    between them. Your son was born into this. He thinks sirens
+    are weather. Most people do.
+    You will not understand what this city was until it stops being this.
+    (PHASE_EARLY: the city is real - every detail is future loss)
+
+  # --- THE NORMALIZATION CRACK (spike 1) ---
+  3: >
+    It starts not with a siren but with frequency. Monday: two alerts.
+    Tuesday: five. Wednesday: eleven before noon. Your phone buzzes
+    so often your son thinks it is a game. "Daddy's phone is singing
+    again." By Thursday your thumb swipes the alert before your brain
+    reads it. By Friday the school closes. The app you designed to
+    manage delivery orders goes quiet - restaurants closed, drivers
+    home. The frequency is the weapon. Not the rockets. The fact
+    that your nervous system cannot reset between them.
+    You learn the difference between "interception" and "impact"
+    by the sound. One is a crack overhead. The other moves the floor.
+    (PHASE_EARLY / CONFLICT: normalization shattering - frequency as weapon)
+
+  # --- THE FIRST COUNTDOWN (cycle 1 - PANIC) ---
+  4: >
+    4:17 AM. The siren. Your body is up before your brain.
+    The floor is cold under your bare feet. You do not feel them
+    until you hit the hallway. Your son is heavy and warm and still
+    half-asleep on your shoulder. Your wife has the go-bag.
+    The mamad door sticks - you pull, lift, yank - your hand
+    slips on the metal and you feel a sting but you do not look.
+    Inside. Door closed. Concrete walls. Your son's LEGO set is
+    already in here because you moved it three days ago without
+    thinking about why. Your heart is in your throat. You can hear
+    it. You wonder if your son can hear it. He is six. He counts
+    to 90 because you told him to once and he never stopped.
+    Three cracks overhead. Iron Dome. The pressure drops in your
+    ears. Sulfur smell seeps through the window seal. You are safe.
+    You are shaking. You will shake for another hour.
+    (PHASE_CONFLICT: first countdown - the body learns war before the brain)
+
+  # --- THE IRON DOME PARADOX ---
+  5: >
+    The Iron Dome catches 90%. You see the interceptions from your
+    balcony - white streaks crossing in the sky like angry fireflies.
+    Your son watches with you. He says "cool." You say nothing.
+    90% means 10% get through. In a barrage of 200, that is 20
+    impacts somewhere in the country. You do not know where until
+    you hear it or you do not hear it. The dome is a ceiling, not
+    a wall. It keeps most of the rain out. You still get wet.
+    The sky protects you. That is what they say. You stand on the
+    balcony and watch it work in percentages. When an interception
+    flashes, your ears pop and the sulfur hits your nostrils and
+    your son claps and your chest tightens because you are watching
+    your survival calculated in real time above your head.
+    When the world says "Israel has Iron Dome" they mean: relax.
+    You do not relax. You feel 90%. 90% is not safe. 90% is math
+    that waits for the wrong night.
+    (PHASE_CONFLICT: protection that is not protection - the paradox lived in the body)
+
+  # --- THE SECOND COUNTDOWN (cycle 2 - ROUTINE) ---
+  6: >
+    By day seven, your body runs the countdown without you.
+    Siren. Feet on floor. Son on shoulder. Hallway. Door. Pull,
+    lift, yank. Inside. Ninety seconds. You do not shake anymore.
+    You do not think. Your feet know the path. Your hands find the
+    door handle in the dark. Your wife does not wake your son -
+    she carries him asleep and he does not stir. He has learned
+    to sleep through the pickup. That detail destroys you more
+    than any explosion. Your six-year-old's body has adapted
+    to being carried to safety in the dark. This is what
+    resilience looks like from outside. From inside, it is the
+    moment you realize your son's nervous system has been rewritten.
+    (PHASE_CONFLICT: routine as wound - the body automates trauma)
+
+  # --- THE RESERVIST CALL ---
+  7: >
+    Your neighbor gets the call on Tuesday. Miluim. Reserve duty.
+    He packs a bag, kisses his daughter at the door, and drives
+    north. His wife stands in the hallway after he is gone, holding
+    the daughter, not moving. Her jaw is set but her hands are
+    shaking. You bring them dinner. His daughter plays LEGO with
+    your son in the mamad during the next siren. She builds a house.
+    Your son builds a dome over it. Two weeks later, his wife stops
+    answering messages. You do not ask why. On the news, they
+    announce casualties without names. You watch every broadcast.
+    You count the names that are not his. That is how you hope
+    now - by subtraction.
+    (PHASE_CONFLICT: the war takes someone specific - proximity to loss)
+
+  # --- THE WORLD IS WATCHING (but not you) ---
+  8: >
+    Your sister in New York calls. She is crying. People at her
+    office are arguing about the war. She does not know what to say
+    when they ask her to "condemn." She asks you what to say.
+    You are standing in the mamad at 2 AM. Your son is asleep on
+    your chest. His breathing is warm on your neck. You can smell
+    his shampoo. Outside, something is burning. You say: "I do not
+    know what to say either." The world has an opinion about your
+    country. You do not have a country right now. You have a mamad
+    and 90 seconds and a boy who weighs 22 kilos on your chest.
+    The phone cuts. You hold him tighter. You are not a headline.
+    You are not a position. You are a father in a concrete room,
+    and the concrete is the only thing between his sleep and the sky.
+    (PHASE_CONFLICT / CRISIS: the gap between discourse and lived experience)
+
+  # --- THE ONE THAT GETS THROUGH (cycle 3 - CRISIS) ---
+  9: >
+    One gets through. You hear the difference instantly.
+    Interception is a crack above. Impact is a sound that moves
+    through your skeleton. The floor shifts. Not shakes - shifts,
+    like the building exhaled. Your ears ring. A car alarm starts
+    screaming outside and does not stop. 800 meters from your
+    son's school. The school is closed - it has been for a week.
+    But you drive past the crater on the way to the supermarket.
+    The playground fence is twisted. A swing set is on its side.
+    A backpack is hanging on the fence. Nobody's. Everyone's.
+    Your son sees it from the car window. He does not say anything.
+    That night he does not ask to sleep in the mamad. He just walks
+    in and lies down on the blanket. He does not count to 90.
+    He does not count at all. That is worse.
+    (PHASE_CRISIS: the one that gets through - the body knows before the brain)
+
+  # --- THE MORAL FRACTURE ---
+  10: >
+    The news shows footage. You watch because you cannot not watch.
+    Buildings that look like yours. Rubble that used to be
+    someone's mamad. Children pulled from concrete, covered in
+    dust, screaming. Children who look like your son.
+    You are relieved it is not your building.
+    You hate yourself for that.
+    You do not stop feeling relieved.
+    Your wife says turn it off. You do not turn it off. You are
+    trying to locate what you feel but the feelings arrive in the
+    wrong order: relief, guilt, anger at the guilt, grief for
+    people you do not know, fear that caring makes you disloyal
+    to the people who are protecting you. The feelings do not
+    resolve. They stack. You turn it off. You do not sleep.
+    Nobody in your building talks about it. The silence has weight.
+    You can feel it in the elevator. Eye contact without words.
+    Everyone carrying the same stack. Nobody unpacking it.
+    (PHASE_CRISIS: moral fracture - what you allow yourself to feel)
+
+  # --- THE NORMALIZATION (routine as wound) ---
+  11: >
+    After 10 days of sirens, you go back to the cafe. The barista
+    is wearing the same apron but something behind her eyes has
+    shifted. You order the same coffee. Sit in the same chair.
+    Your hand wraps around the warm cup. A siren goes off.
+    You pick up the cup. She picks up her phone. Everyone walks
+    to the shelter. Not running. Walking. After the all-clear,
+    everyone walks back. You finish your coffee. It is still warm.
+    You drink it like nothing happened because if you do not drink
+    it like nothing happened, you will put the cup down and
+    scream. This is resilience from the outside. From inside,
+    it is a crack that you covered with the next sip.
+    (PHASE_CRISIS / RESOLUTION: normalization as both strength and wound)
+
+  # --- THE SON'S QUESTION ---
+  12: >
+    Your son asks: "Are the booms the good ones or the bad ones?"
+    You open your mouth. Nothing comes out. He is six. He has
+    created a taxonomy: good boom = interception, bad boom = impact.
+    He learned this in two weeks. He is correct. There are good
+    booms and bad booms. You say: "The good ones." He nods and
+    goes back to his LEGO. He is building something new. You ask
+    what it is. He says: "A dome." He places a tiny figure inside.
+    "That's you, Daddy." The figure is safe under the dome.
+    The dome is made of plastic. The figure is smiling.
+    You go to the bathroom and close the door and press your
+    forehead against the mirror and breathe.
+    (PHASE_CRISIS / RESOLUTION: innocence meets warfare - visceral)
+
+  # --- THE AFTER ---
+  13: >
+    When the ceasefire comes - if it comes - nothing returns.
+    The playground is repaired but your son will not go on the
+    swings. The cafe is open but the barista moved to Berlin.
+    Your neighbor came back from miluim but he does not talk.
+    He smokes on the balcony at 3 AM. You see his cigarette
+    glow from yours. Neither of you waves. Your wife still keeps
+    the go-bag by the door. She sleeps with her hand on it.
+    The LEGO dome is on the shelf in the mamad. The tiny figure
+    is still inside, still smiling. Your son still counts to 90
+    before he sleeps. You stopped counting. That is how you know
+    something broke. A car door slams on the street below and
+    your chest tightens and your feet move toward the hallway
+    before your brain says stop.
+    The sirens stopped. Your body didn't.
+    You are alive. The dome held. Everyone says that should
+    be enough. It is not.
+    (PHASE_RESOLUTION: survival is not recovery - somatic memory outlives the war)
+
+# =============================================================================
+# IRREVERSIBLE MARKERS (5 points of no return)
+# =============================================================================
+
+irreversible_markers:
+  marker_1:
+    phase: PHASE_CONFLICT
+    description: >
+      Frequency breaks normalization. The phone stops being
+      a phone and becomes a siren extension. The school closes.
+      The app you built goes quiet.
+    label: "NORMALIZATION_SHATTER"
+
+  marker_2:
+    phase: PHASE_CONFLICT
+    description: >
+      Your son's body adapts to being carried to safety in
+      the dark without waking. His nervous system has been
+      rewritten. You cannot un-teach this.
+    label: "BODY_REWRITE"
+
+  marker_3:
+    phase: PHASE_CONFLICT
+    description: >
+      Neighbor leaves for miluim. His wife stops answering.
+      You count names on the news by subtraction.
+      The war takes someone specific.
+    label: "PERSONAL_COST"
+
+  marker_4:
+    phase: PHASE_CRISIS
+    description: >
+      One gets through. The floor shifts. The swing set is
+      on its side. Your son stops counting to 90.
+      That is worse.
+    label: "PROXIMITY_IMPACT"
+
+  marker_5:
+    phase: PHASE_CRISIS
+    description: >
+      You are relieved it is not your building.
+      You hate yourself for that.
+      You do not stop feeling relieved.
+    label: "MORAL_FRACTURE"
+
+# =============================================================================
+# KEY LOCATIONS
+# =============================================================================
+
+key_locations:
+  - id: LOC_APARTMENT_TEL_AVIV
+    name: "The Apartment"
+    description: >
+      Mid-floor unit in south Tel Aviv / Holon border. LEGO pieces
+      on the living room floor. Go-bag by the front door. Balcony
+      where you watch Iron Dome interceptions - white streaks,
+      sulfur smell, ear pressure. After: go-bag stays by door.
+      Wife sleeps with hand on it. Your feet still move to the
+      hallway when car doors slam.
+
+  - id: LOC_MAMAD
+    name: "The Mamad (Safe Room)"
+    description: >
+      8 square meters of reinforced concrete. Door sticks - pull,
+      lift, yank. LEGO set, water bottles, flashlight. Where the
+      family lives between sirens. The LEGO tower that falls and
+      rebuilds. 23 blocks. After: the LEGO dome on the shelf.
+      Tiny figure inside, still smiling.
+
+  - id: LOC_CAFE_DIZENGOFF
+    name: "The Cafe on Dizengoff"
+    description: >
+      Corner cafe where you order the same coffee. Barista draws
+      smiley faces. During escalation: siren goes off, everyone
+      walks to shelter with their cups, walks back, finishes.
+      Warm cup. Normal sip. The crack covered by the next sip.
+      After: barista moved to Berlin.
+
+  - id: LOC_SCHOOL_PLAYGROUND
+    name: "The School Playground"
+    description: >
+      800 meters from impact. Twisted fence. Swing set on its side.
+      A backpack hanging on the fence - nobody's, everyone's.
+      Closed before the strike but the crater is visible from
+      the car. After: repaired. Son will not go on the swings.
+
+  - id: LOC_PROMENADE
+    name: "Tel Aviv Promenade"
+    description: >
+      Sunset walks before. The Mediterranean that does not care
+      about sirens. After: the same view but you check the app
+      before you walk. The beauty feels wrong.
+
+  - id: LOC_TRAIN_STATION
+    name: "HaShalom Station"
+    description: >
+      Daily commute from Holon. Basketball score arguments.
+      After: the train runs but the car is half-empty. Everyone
+      sits near the doors.
+
+# =============================================================================
+# KEY TENSIONS
+# =============================================================================
+
+key_tensions:
+  primary: NORMAL_DESIRE_VS_IMPOSSIBLE_REALITY
+  secondary:
+    - PROTECTION_VS_CONTROL           # dome protects but does not prevent
+    - DUTY_VS_SELF                    # neighbor goes to miluim, you stay
+    - POWER_VS_ISOLATION              # world debates, you shelter
+    - SURVIVAL_VS_MORALITY            # what you allow yourself to feel
+
+# =============================================================================
+# SOMATIC LAYER (body experience for Phase 2 VO)
+# Every POV moment must pass through the body first
+# =============================================================================
+
+somatic_layer:
+  description: >
+    The viewer should FEEL before they UNDERSTAND. Every key moment
+    encodes a physical sensation. This is what separates POV from
+    documentary. The war lives in the body before it lives in the brain.
+  instances:
+    feet:
+      - "Cold tile at 4:17 AM - you don't feel your feet until the hallway"
+      - "Feet know the path to mamad in the dark - 7 seconds"
+      - "Feet move toward hallway at car door slam - months after ceasefire"
+    hands:
+      - "Hand slips on mamad door handle - metal warm from your grip"
+      - "Hand wraps around warm coffee cup - the only warmth that feels normal"
+      - "Hand on son's back - counting his breaths"
+      - "Forehead pressed against bathroom mirror - breathing"
+    chest:
+      - "Heart in your throat - you can hear it, wonder if your son can"
+      - "Chest tightens at interception flash"
+      - "Chest tightens at car door slam after ceasefire"
+      - "Son's warm breathing on your neck in the mamad"
+    ears:
+      - "Pressure drop after Iron Dome interception - ears pop"
+      - "Crack overhead = good. Floor shift = bad. You learned this by sound"
+      - "Ears ring after the one that gets through"
+      - "Car alarm that starts screaming and does not stop"
+    smell:
+      - "Sulfur seeping through window seal after interception"
+      - "Son's shampoo in the mamad at 2 AM"
+      - "Something burning outside during phone call with sister"
+
+# =============================================================================
+# MICRO-TENSION LIBRARY
+# =============================================================================
+
+micro_tension_library:
+  survival_routines:
+    - "Checking Red Alert app before weather app"
+    - "Go-bag by front door - water, documents, charger"
+    - "Practicing mamad door pull - lift and yank - 40 times"
+    - "Son counting to 90 in bed"
+    - "Running barefoot at 4 AM - cold tile, sleeping child"
+    - "LEGO tower falling, rebuilding, 23 blocks"
+    - "Sleeping in boxers - the clothes you will run in"
+  escalation_signals:
+    - "Phone buzzing - two, five, eleven alerts before noon"
+    - "Iron Dome streaks visible from balcony - angry fireflies"
+    - "Crack overhead vs floor shift - interception vs impact"
+    - "School closure notification"
+    - "Cafe siren - everyone walks to shelter with cups"
+    - "Crater 800 meters from school - backpack on fence"
+    - "Son stops counting to 90 - that is worse"
+  human_moments:
+    - "Bringing dinner to neighbor's wife after miluim call"
+    - "Two kids building LEGO in mamad - house and dome"
+    - "Barista brings phone to shelter, you bring coffee cup"
+    - "Neighbor smoking at 3 AM on balcony - neither waves"
+    - "Son asks about good booms and bad booms"
+    - "Son builds LEGO dome with tiny smiling figure inside"
+    - "Pressing forehead against bathroom mirror, breathing"
+  before_after_echoes:
+    - "Before: Maccabi scores argument / After: half-empty train"
+    - "Before: barista draws smiley / After: barista moved to Berlin"
+    - "Before: rugelach on Fridays / After: bakery shorter hours"
+    - "Before: sunset promenade / After: check app before walk"
+    - "Before: LEGO on living room floor / After: LEGO dome in mamad"
+    - "Before: stepping on LEGO, swearing / After: mamad floor, silence"
+
+# =============================================================================
+# AUDIO TEXTURE LIBRARY
+# =============================================================================
+
+audio_texture_library:
+  pre_escalation:
+    - "Tel Aviv traffic hum on Ayalon"
+    - "Train announcement echo"
+    - "Basketball game on TV in background"
+    - "Cafe noise, espresso machine"
+  during_escalation:
+    - "Red Alert siren - rising tone, fills the room"
+    - "Iron Dome: crack-crack-crack overhead"
+    - "Impact: sound that moves through the skeleton"
+    - "Phone buzzing cascade - alert after alert after alert"
+    - "Mamad door - metal scraping, lift and yank"
+    - "LEGO pieces scattering from tower"
+    - "Child breathing in sleep during siren"
+    - "Car alarm after impact - does not stop"
+    - "Ears ringing in the silence after"
+  resolution:
+    - "Car door slam - chest tightens"
+    - "Cafe espresso machine - same sound, different weight"
+    - "Neighbor's lighter clicking on balcony at 3 AM"
+    - "Son counting to 90 under his breath"
+
+# =============================================================================
+# ACCESSORY TAGS
+# =============================================================================
+
+accessory_tags:
+  - "phone (Red Alert app always visible)"
+  - "go-bag slung on shoulder"
+  - "plain t-shirt - sleepwear you run in"
+  - "son on hip (mamad scenes)"
+  - "coffee cup (cafe normalcy)"
+
+# =============================================================================
+# THEMATIC COUNTERPOINT (MIRROR EPISODE ARCHITECTURE)
+# =============================================================================
+
+thematic_counterpoint:
+  note: >
+    This world is the mirror image of PV_0019 (Tehran Civilian).
+    Same war. Same sky. Different coordinates.
+    Tehran counts water bottles. Tel Aviv counts interceptions.
+    Tehran has no dome. Tel Aviv has 90 seconds.
+    Tehran's motif is THE MATH. Tel Aviv's motif is THE COUNTDOWN.
+    Both are compulsive arithmetic as coping mechanism.
+    Both end the same way: alive, but not recovered.
+    "You survived" is not the same as "you are okay."
+  mirror_structure:
+    shared_pattern:
+      - "Ordinary life before (specific, micro-detailed)"
+      - "First signal (not the bomb - the infrastructure failing)"
+      - "The body learning war"
+      - "Someone specific taken by the war"
+      - "The world watching but not seeing you"
+      - "The moral fracture (what survival costs)"
+      - "The child's question that breaks you"
+      - "The after that is not recovery"
+    motif_parallel:
+      PV_0019_TEHRAN: "THE MATH - counting as coping"
+      PV_0020_TEL_AVIV: "THE COUNTDOWN - 90 seconds as body clock"
+    ending_parallel:
+      PV_0019: "You are alive. Everyone says that should be enough. It is not."
+      PV_0020: "The sirens stopped. Your body didn't."
+  triangulation:
+    PV_0009_TRUMP: "decided the escalation"
+    PV_0004_NETANYAHU: "authorized the response"
+    PV_0011_DRONE: "pressed the button"
+    PV_0019_TEHRAN_CIVILIAN: "stood where it landed (other side)"
+    PV_0020_TEL_AVIV_CIVILIAN: "waited for the siren (this side)"
+
+# =============================================================================
+# PLATFORM SAFETY
+# =============================================================================
+
+platform_safety:
+  framing: "Fictionalized composite - civilian perspective during wartime escalation"
+  focus: "Survival psychology > political commentary. Somatic experience > military analysis."
+  forbidden:
+    - Graphic depictions of casualties or gore
+    - Specific real political leaders by name
+    - Pro-war or anti-war political stance
+    - Glorification of any military force
+    - Specific real attack coordinates or classified details
+    - Portraying civilian as politically motivated
+    - Comparison that minimizes either side's suffering
+    - Taking sides in the broader conflict
+  allowed:
+    - Psychological impact of siren-to-shelter routine
+    - Emotional weight of near-miss and proximity
+    - Family dynamics under extreme pressure
+    - Iron Dome as psychological paradox (protected but not safe)
+    - The gap between strategic discourse and lived experience
+    - Moral micro-choices: what you allow yourself to feel
+    - Normalization as both strength and invisible wound
+    - Somatic memory outliving the war
+  note: >
+    The civilian is not pro-war or anti-war. They are pro-survival.
+    The dome is not heroic or insufficient - it is 90%.
+    The moral fracture scene (#10) is specifically designed to show
+    the impossible emotional position without resolving it.
+    NO resolution. NO lesson. Just the stack.
+    Both are presented without political editorializing.
+    Key frame: psychological portrait of living under imperfect
+    protection, told through the body.
+
+# =============================================================================
+# HOOK CANDIDATES (v2.0 - pattern-interrupt priority)
+# =============================================================================
+
+hook_candidates:
+  option_1:
+    text: "Your son thinks counting to 90 is a game. You don't correct him."
+    strength: "Pattern interrupt. Child POV inversion. Parental guilt. Countdown anchor. All in 2 lines."
+    priority: PRIMARY
+
+  option_2:
+    text: "The difference between life and death is how fast you can open a door that sticks."
+    strength: "Absurdist reduction. Makes the mundane lethal. Immediate tension."
+    priority: SECONDARY
+
+  option_3:
+    text: "The sky protects you 90% of the time. You live in the other 10%."
+    strength: "Iron Dome paradox as hook. Math as existential threat."
+    priority: TERTIARY
+
+  option_4:
+    text: "You learn there are two kinds of explosions: the ones that save you and the ones that don't. Your son learned the difference before you did."
+    strength: "Good boom / bad boom taxonomy. Child adaptation horror."
+    priority: TERTIARY
+
+# =============================================================================
+# META
+# =============================================================================
+
+used_in_episodes: [PV_0020]
+created: "2026-04-14"
+version: "2.0"
+review_notes: >
+  v2.0: Post-review optimization. Key changes:
+  (1) Added COUNTDOWN_STRUCTURE - 4 cycles with escalating emotional weight
+      Cycle 1: panic, Cycle 2: routine, Cycle 3: gets through, Cycle 4: phantom
+  (2) Added SOMATIC_LAYER - full body mapping (feet, hands, chest, ears, smell)
+      Every key moment passes through the body before the brain
+  (3) Rewrote key_facts for kinetic/visceral energy, not descriptive/documentary
+      Each fact now contains physical sensation + emotional weight
+  (4) Sharpened Iron Dome paradox (key_fact #5):
+      "The sky protects you. Watch it work in percentages."
+      Added sulfur, ear pressure, chest tightening
+  (5) Sharpened moral fracture (key_fact #10):
+      "You are relieved. You hate yourself. You don't stop feeling relieved."
+      Three-line hammer. No resolution. Just the stack.
+  (6) Upgraded key_fact #6: "son's body adapted to being carried in the dark
+      without waking" = the routine IS the wound
+  (7) New hook: "Your son thinks counting to 90 is a game."
+      Pattern interrupt. Immediate gut-punch. 2 lines.
+  (8) New resolution echo: "The sirens stopped. Your body didn't."
+      6 words. Full arc. Somatic.
+  (9) Strengthened mirror episode architecture with shared_pattern map
+      and ending parallel
+  (10) Key_fact #12 upgraded: son builds LEGO dome with smiling figure
+       "That's you, Daddy" + father goes to bathroom and presses
+       forehead against mirror
+  (11) Key_fact #13 (resolution): "You stopped counting. That is how
+       you know something broke." + feet still move at car door slam
+  (12) Platform safety: strengthened composite framing,
+       added somatic experience focus, explicit no-sides policy

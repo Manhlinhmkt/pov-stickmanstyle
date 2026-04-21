@@ -1,0 +1,283 @@
+# WORLD: WORLD_CRIMINAL_ORGAN_RECRUITER
+# Display: The Person Who Learned the Sentence That Makes People Say Yes
+# Created: 2026-04-18
+
+WORLD_ID: WORLD_CRIMINAL_ORGAN_RECRUITER
+display_name: "The Person Who Learned the Sentence That Makes People Say Yes"
+domain: CRIMINAL
+era: MODERN_CONTEMPORARY
+implied_identity_mode: GENERIC_ARCHETYPE
+implied_person: null
+
+tags:
+  - organ_trafficking
+  - victim_to_perpetrator
+  - psychological_manipulation
+  - moral_corruption
+  - recruitment_language
+  - self_betrayal
+  - identity_erosion
+
+seed_keywords:
+  - "organ recruiter"
+  - "ex-donor recruiter"
+  - "kidney village recruiter"
+  - "organ trafficking recruitment"
+  - "former seller turned recruiter"
+  - "victim becomes perpetrator"
+
+# ============================================================
+# CORE MECHANIC (narrative engine for this world)
+# ============================================================
+core_mechanic:
+  name: "THE_SENTENCE_PATTERN"
+  description: >
+    The recruiter never names what is being sold. The sentence always
+    reframes reality: reduce the problem to something urgent and
+    temporary, present the solution as small and reasonable, and anchor
+    it in proof the target can see with their own eyes. The power is not
+    in lying. The power is in making the truth bend toward yes.
+  verbal_pattern:
+    structure: "problem_reduction -> relief_framing -> normalization"
+    signature_sentences:
+      - "This solves the part that is killing you right now."
+      - "It is the part your body can afford to lose."
+      - "You already know people who did it. They are still here."
+      - "You won't miss it. Not in the way you think."
+    support_sentences:
+      - "You just need enough to get through this month."
+      - "It is only one time. Then it is over."
+      - "People come back fine. You have seen it yourself."
+  physical_proof:
+    description: >
+      The sentence is incomplete without the body. The recruiter lifts
+      their shirt, shows the scar, and says: look, I am fine. This is
+      the thing no broker can do. The scar is proof of survival - and
+      the most effective lie the recruiter tells, because it is also true.
+    signature_gesture: "lifting the shirt to show the scar"
+  sentence_evolution:
+    description: >
+      The sentence degrades as the recruiter becomes more skilled. What
+      begins as a full rehearsed pitch becomes instinct. The fewer words
+      used, the more dangerous the recruiter has become.
+    stages:
+      - stage: "STAGE_0_INHERITED"
+        example: "Someone said it to you first. You remember the exact words."
+        note: "The sentence existed before the recruiter. They inherited it from the person who recruited them."
+      - stage: "STAGE_1_FULL"
+        example: "This solves the part that is killing you right now. It is only one time. Look - I am fine."
+        note: "Full rehearsed pitch. Still feels like acting."
+      - stage: "STAGE_2_SHORTENED"
+        example: "It solves the part that is killing you. One time."
+        note: "Confidence strips away the padding."
+      - stage: "STAGE_3_FRAGMENT"
+        example: "Just enough."
+        note: "Language becoming instinct."
+      - stage: "STAGE_4_SILENCE"
+        example: "How much do you need?"
+        note: "The sentence is no longer needed. The recruiter has become the sentence."
+
+# ============================================================
+# KEY FACTS (behavior-first, POV-ready)
+# ============================================================
+key_facts:
+  # --- Observable behavior (VO-ready) ---
+  - "You don't go to the ones who still have options. You wait until they stop arguing with themselves."
+  - "You lift your shirt and say: look, I am fine. They look at the scar. They stop asking questions."
+  - "You never say 'sell' or 'organ.' You say 'help.' You say 'opportunity.' You say 'just this once.'"
+  - "You never push. You wait. You let them say yes to themselves. You just stay quiet."
+  - "You pause before saying the number. That pause matters more than the number itself."
+  - "Someone says no. You don't try again. You wait. They come back three days later. Everyone comes back. You know this because you came back too."
+  - "You practice the sentence alone before you say it to someone. You adjust one word. It works better."
+  - "You target people you know - neighbors, relatives, the ones who trust you - because trust is the only thing that works at the bottom of the chain"
+  - "You earn $500-$1,000 per referral - a fraction of the broker's cut, but steady income for a body that can no longer do heavy labor"
+  - "In kidney villages, you are both respected for having connections and avoided for what those connections mean"
+
+  # --- System context (writer reference) ---
+  - "Former sellers are recruited as recruiters specifically because they carry the scar - living proof that the procedure is survivable"
+  - "Recruiters who bring in consistent referrals are promoted to sub-broker status - given a phone, a territory, and a quota"
+  - "After enough repetitions, recruiters stop remembering which parts of the sentence are true and which parts they added to make it work"
+  - "The line between the recruiter's own story and the recruitment script dissolves over time - they begin using the same persuasion patterns outside of work, with family, with themselves"
+
+# ============================================================
+# KEY LOCATIONS
+# ============================================================
+key_locations:
+  - id: LOC_KIDNEY_VILLAGE
+    name: "The Village"
+    description: "Where half the adults carry the same scar and you know exactly which doors to knock on"
+  - id: LOC_TEA_STALL
+    name: "The Tea Stall"
+    description: "Two cups, a low voice, and a number written on the back of a receipt"
+  - id: LOC_TARGET_HOME
+    name: "The Target's Home"
+    description: "The kitchen table where you sit across from someone who trusts you and say the sentence you were taught"
+  - id: LOC_BUS_STOP
+    name: "The Bus Stop"
+    description: "Where you put someone on the overnight bus to the city - the last time they look at you before they go"
+  - id: LOC_BROKER_CHECKPOINT
+    name: "The Broker's Checkpoint"
+    description: "Roadside meeting where you hand over the referral and collect your envelope - the broker never remembers your name"
+  - id: LOC_ALONE
+    name: "Alone"
+    description: "Where you repeat the sentence quietly to make sure it still sounds right"
+
+key_tensions:
+  - DUTY_VS_SELF
+  - NORMAL_DESIRE_VS_IMPOSSIBLE_REALITY
+  - POWER_VS_ISOLATION
+
+accessory_tags:
+  - "lifted shirt showing scar"
+  - "cheap phone with one contact"
+  - "envelope with commission"
+  - "repeating the same sentence with slight variations"
+
+# ============================================================
+# SUBJECT VARIANTS
+# ============================================================
+subject_variants:
+  - type: "THE_SURVIVOR_RECRUITER"
+    trigger: "Former seller who survived and now recruits to earn what their body can no longer earn through labor"
+  - type: "THE_RATIONALIZER"
+    trigger: "Recruiter who genuinely believes they are helping people access an opportunity - denial as survival mechanism"
+  - type: "THE_QUOTA_WORKER"
+    trigger: "Promoted to sub-broker with territory and target numbers - recruitment becomes a job with KPIs"
+
+# ============================================================
+# TENSION CATALYSTS
+# ============================================================
+tension_catalysts:
+  - "The broker teaches you the sentence and you practice it alone until it stops sounding like a lie"
+  - "Someone you recruited comes back and cannot look at you - but they still bring someone else"
+  - "Your own scar itches when you say the words"
+  - "You recruit someone younger than you were when you sold - and you use the exact words that worked on you"
+  - "The broker raises your quota and you already know where to find them"
+  - "You catch yourself using the sentence pattern with your own family - not for recruitment, just to get what you need"
+  - "You realize you are better at this than the man who recruited you - and it does not bother you anymore"
+  - "Someone says no. You feel nothing. You know the math. They will come back."
+
+# ============================================================
+# IRREVERSIBLE MARKERS
+# ============================================================
+irreversible_markers:
+  - "You say the sentence to someone who trusts you for the first time"
+  - "You put someone on the bus and watch it leave"
+  - "You collect the envelope and count it in front of the broker"
+  - "You change one word in the sentence. It works better."
+  - "Someone you recruited recruits someone else"
+  - "You hear yourself say it - and it sounds exactly like him"
+
+# ============================================================
+# IDENTITY EROSION (unique to this world)
+# ============================================================
+identity_erosion:
+  description: >
+    The recruiter does not lose their body like the donor. They lose the
+    boundary between themselves and the system. The sentence pattern
+    infects their language. They begin using it everywhere - negotiating
+    with a landlord, calming a child, lying to a spouse. They do not
+    notice the shift. By the time they realize, the pattern IS how they
+    speak. The horror is not that they learned the sentence. The horror
+    is they cannot unlearn it.
+  stages:
+    - stage: "INHERITED"
+      marker: "Someone said the sentence to you. You remember every word."
+    - stage: "LEARNING"
+      marker: "Practicing the sentence alone, adjusting words, rehearsing tone"
+    - stage: "PERFORMING"
+      marker: "Delivering the sentence to targets, refining through repetition"
+    - stage: "IMPROVING"
+      marker: "Changing words, finding what works better - no longer copying, now evolving the system"
+    - stage: "MERGING"
+      marker: "Using the pattern outside recruitment without noticing - with family, with yourself"
+    - stage: "DISSOLVED"
+      marker: "Cannot distinguish between the script and your own voice. The sentence is how you think."
+
+# ============================================================
+# CREATIVE CONSTRAINTS
+# ============================================================
+creative_constraints:
+  primary_rule: "THE_SENTENCE_IS_THE_WEAPON"
+  description: >
+    The narrative lives inside language - the words that convert a person
+    into a product. The horror is not violence but persuasion. The
+    recruiter carries two wounds: the scar on their body and the script
+    in their mouth. Every recruitment is a reenactment of their own
+    exploitation - but from the other side of the table. The surgery is
+    never shown. The sentence is.
+  subject_framing: >
+    Subject is both victim and perpetrator simultaneously. They were made
+    by the same system they now serve. The core mechanism is corrupted
+    empathy - using genuine understanding of desperation as a recruitment
+    tool. The body that was sold now sells others. The transition from
+    victim to competent perpetrator is gradual - and the most dangerous
+    moment is when the recruiter feels pride instead of guilt.
+  ending_logic: >
+    The ending does not land on guilt, regret, or redemption. It lands
+    on competence without belief. The recruiter does not need to believe
+    the sentence anymore. They just need the other person to believe it.
+    The coldest version: "You don't know if it's true anymore.
+    You just know it works."
+  forbidden_framing:
+    - "Cool manipulator or con artist framing"
+    - "Pure villain without humanity"
+    - "Redemption arc or heroic whistleblower ending"
+    - "Graphic surgical descriptions"
+    - "Poverty porn or pity without complexity"
+  required_framing:
+    - "The sentence pattern as the central motif - repeated, evolving, degrading"
+    - "The scar as physical proof and recruitment tool"
+    - "Moral corruption shown as gradual erosion not sudden choice"
+    - "Each recruitment echoes the recruiter's own experience"
+    - "Identity erosion visible through language contamination"
+    - "Competence as the final horror - pride replacing guilt"
+    - "Ending lands on: you don't need to believe it. They do."
+
+# ============================================================
+# MICRO-BEHAVIORS (POV texture layer)
+# ============================================================
+micro_behaviors:
+  description: >
+    Small, specific actions that make the recruiter feel real in POV.
+    These are not dramatic. They are the mundane mechanics of
+    manipulation - the things that happen between the words.
+  behaviors:
+    - "You pause before saying the number. That pause matters more than the number."
+    - "You let them say yes to themselves. You just stay quiet."
+    - "You never push. You wait."
+    - "You pour the second cup of tea before they ask."
+    - "You look away when they start to cry. Not out of shame. Out of patience."
+    - "You count the seconds after you finish talking. If they speak first, it worked."
+
+# ============================================================
+# FAILURE MECHANICS (psychological realism)
+# ============================================================
+failure_mechanics:
+  description: >
+    Not every target says yes immediately. The recruiter knows this.
+    The recruiter was a no once too. The power is not in persuasion
+    but in patience - knowing that desperation has a timeline and
+    the answer always changes.
+  pattern:
+    - "Someone says no. You nod. You leave."
+    - "You don't follow up. You don't need to."
+    - "They come back three days later. Sometimes a week."
+    - "You know they will come back because you came back too."
+    - "Everyone says no the first time. That is part of saying yes."
+
+# ============================================================
+# CROSS-WORLD METADATA
+# ============================================================
+related_worlds:
+  - WORLD_CRIMINAL_ORGAN_DONOR
+  - WORLD_CRIMINAL_ORGAN_BROKER
+  - WORLD_CRIMINAL_ORGAN_SURGEON
+  - WORLD_CRIMINAL_ORGAN_BUYER
+series_note: >
+  Fifth perspective in organ trafficking series. The bridge between victim
+  and system - the person who proves the machine is self-replicating.
+  POV sits at the exact point where empathy becomes a weapon.
+
+used_in_episodes: [PV_0022]
+created: "2026-04-18"

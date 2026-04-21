@@ -1,0 +1,122 @@
+﻿Strip_ID,Start_VO_ID,End_VO_ID,VO_Count,Life_Phase,Scene_Type,Duration_Sec,Strip_Summary
+PV_0027_001,1,2,2,HOOK,TEXT_OVERLAY,5.7,You never arrest people.
+PV_0027_002,3,3,1,HOOK,POV_SHOT,4.7,"POV of phone screen showing fourteen contacts. Six marked, eight unmarked."
+PV_0027_003,4,5,2,HOOK,POV_SHOT,9.4,POV of phone screen: six registered names vs eight hidden numbers below.
+PV_0027_004,6,7,2,HOOK,TEXT_OVERLAY,5.3,The department does not know about the rest.
+PV_0027_005,8,9,2,PHASE_EARLY,NARRATIVE_SCENE,11.2,Stickman in classroom with PowerPoint slides on screen. Academy setting with protocol charts.
+PV_0027_006,10,11,2,PHASE_EARLY,NARRATIVE_SCENE,6.1,Stickman in new uniform at desk writing notes. Asset definition slides on wall.
+PV_0027_007,12,14,3,PHASE_EARLY,NARRATIVE_SCENE,11.7,Stickman writing neat rows in notebook. Clean definitions. Controlled handwriting.
+PV_0027_008,14b,14b,1,PHASE_EARLY,NARRATIVE_SCENE,7.9,Stickman walking out of briefing room. Hallway with floor cleaner smell. Paper cup on windowsill.
+PV_0027_009,14c,15,2,PHASE_EARLY,NARRATIVE_SCENE,8.0,Subject in uniform arresting man outside liquor store. First patrol scene.
+PV_0027_010,16,16,1,PHASE_EARLY,NARRATIVE_SCENE,8.8,Subject in uniform arresting man outside liquor store. First patrol scene.
+PV_0027_011,17,17,1,PHASE_EARLY,NARRATIVE_SCENE,6.0,Booking desk with forms. Stickman photographing suspect against wall. File cabinet open.
+PV_0027_012,18,18,1,PHASE_EARLY,NARRATIVE_SCENE,5.1,Sergeant at whiteboard scanning arrest numbers. Column showing single arrest circled.
+PV_0027_013,19,19,1,PHASE_EARLY,NARRATIVE_SCENE,7.0,Sergeant shrugging at young officer across desk. Single arrest file on table.
+PV_0027_014,20,20,1,PHASE_EARLY,NARRATIVE_SCENE,6.0,Sergeant at whiteboard scanning arrest numbers. One arrest highlighted.
+PV_0027_015,21,22,2,PHASE_EARLY,NARRATIVE_SCENE,7.0,Senior detective pulling young officer aside in precinct hallway. Hand on shoulder.
+PV_0027_016,23,24,2,PHASE_EARLY,NARRATIVE_SCENE,11.2,Senior detective in dim parking garage showing second phone. Hidden from cameras.
+PV_0027_017,25,25,1,PHASE_EARLY,NARRATIVE_SCENE,7.0,Detective showing prepaid phone to young officer in dim parking garage.
+PV_0027_018,26,26,1,PHASE_EARLY,NARRATIVE_SCENE,5.1,Senior detective holding phone with contact list. Young officer watching intently.
+PV_0027_019,27,28,2,PHASE_EARLY,NARRATIVE_SCENE,8.4,Senior detective sitting in booking room with crying kid. Fluorescent light buzzing.
+PV_0027_020,29,29,1,PHASE_EARLY,NARRATIVE_SCENE,4.7,Kid crying in booking chair. Senior detective standing. Three words visible on wall.
+PV_0027_021,30,31,2,PHASE_EARLY,NARRATIVE_SCENE,9.8,Detective showing prepaid phone to young officer in dim parking garage.
+PV_0027_022,32,32,1,PHASE_EARLY,NARRATIVE_SCENE,5.6,Young officer watching from doorway. Booking room scene through glass partition.
+PV_0027_023,33,33,1,PHASE_EARLY,NARRATIVE_SCENE,6.5,Young officer looking down at own hands. Hallway light casting shadows.
+PV_0027_024,34,34,1,PHASE_EARLY,NARRATIVE_SCENE,7.0,Young officer hearing Work this off for first time. Sound waves from booking room door.
+PV_0027_025,35,36,2,PHASE_EARLY,NARRATIVE_SCENE,10.7,Senior detective and young officer in car afterward. Dashboard light only. Quiet.
+PV_0027_026,37,38,2,PHASE_EARLY,NARRATIVE_SCENE,8.0,Senior detective handing charge sheet to officer. Showing how system works.
+PV_0027_027,39,41,3,PHASE_EARLY,NARRATIVE_SCENE,12.1,Young officer nodding at detective. Kid visible through glass. Radio clock visible.
+PV_0027_028,41b,41b,1,PHASE_EARLY,NARRATIVE_SCENE,9.7,"Subject driving home at night. Radio on, not listening. Hands gripping wheel."
+PV_0027_029,41c,41c,1,PHASE_EARLY,NARRATIVE_SCENE,7.0,Subject thinking about what to do different. Then stopping. Blank expression.
+PV_0027_030,42,42,1,PHASE_CONFLICT,TEXT_OVERLAY,1.9,Your turn.
+PV_0027_031,43,43,1,PHASE_CONFLICT,NARRATIVE_SCENE,5.1,Subject standing over shaking figure in booking room chair. Same fluorescent buzz.
+PV_0027_032,44,45,2,PHASE_CONFLICT,NARRATIVE_SCENE,8.4,CI in chair staring at table surface. Hands gripping chair edges. Will not look up.
+PV_0027_033,46,46,1,PHASE_CONFLICT,NARRATIVE_SCENE,5.1,CI hands shaking. Knee bouncing under table. Wiping palms on jeans repeatedly.
+PV_0027_034,47,48,2,PHASE_CONFLICT,NARRATIVE_SCENE,9.3,CI asking questions desperately. Subject standing with arms crossed. Not answering.
+PV_0027_035,49,49,1,PHASE_CONFLICT,NARRATIVE_SCENE,4.7,Subject explaining deal across booking table. CI's hands stop shaking for one second.
+PV_0027_036,50,50,1,PHASE_CONFLICT,NARRATIVE_SCENE,6.5,Subject explaining deal carefully across table. Hand gestures precise. Professional.
+PV_0027_037,51,51,1,PHASE_CONFLICT,NARRATIVE_SCENE,7.9,Subject explaining deal across booking table. CI's hands stop shaking for one second.
+PV_0027_038,52,54,3,PHASE_CONFLICT,NARRATIVE_SCENE,9.8,CI hands stop shaking for one second. Moment of clarity. Subject watching.
+PV_0027_039,54b,54b,1,PHASE_CONFLICT,NARRATIVE_SCENE,11.6,Subject sitting in car in driveway. Porch light on. Not going inside yet.
+PV_0027_040,55,56,2,PHASE_CONFLICT,NARRATIVE_SCENE,7.9,CI walking alone toward house at night. Subject watching from car in parking lot.
+PV_0027_041,57,58,2,PHASE_CONFLICT,NARRATIVE_SCENE,10.2,No extraction plan diagram. No backup car. Empty parking lot. Just CI walking alone.
+PV_0027_042,59,59,1,PHASE_CONFLICT,NARRATIVE_SCENE,7.4,CI walking toward house silhouette. Subject car visible across street.
+PV_0027_043,60,60,1,PHASE_CONFLICT,NARRATIVE_SCENE,5.1,"Subject in car, engine running, phone in hand. Dashboard clock reads 9:14."
+PV_0027_044,61,62,2,PHASE_CONFLICT,NARRATIVE_SCENE,8.9,Subject in car under buzzing streetlight. Dashboard clock. Waiting.
+PV_0027_045,63,64,2,PHASE_CONFLICT,NARRATIVE_SCENE,11.6,Subject typing bust report alone at precinct desk. CI name absent from screen.
+PV_0027_046,65,66,2,PHASE_CONFLICT,NARRATIVE_SCENE,11.6,CI name absent from report on screen. Their name nowhere in system. Ghost file.
+PV_0027_047,67,68,2,PHASE_CONFLICT,NARRATIVE_SCENE,9.3,Commendation letter on desk. Sergeant nodding. System confirming the invisible.
+PV_0027_048,69,69b,2,PHASE_CONFLICT,NARRATIVE_SCENE,6.2,CI thanking subject after first successful buy. Gratitude that haunts.
+PV_0027_049,69c,69c,1,PHASE_CONFLICT,TEXT_OVERLAY,3.8,That part stays with you.
+PV_0027_050,70,71,2,PHASE_CONFLICT,TEXT_OVERLAY,7.9,You own them.
+PV_0027_051,72,72,1,PHASE_CONFLICT,NARRATIVE_SCENE,5.6,Subject scrolling phone contact list in dark. Clinical expression. Inventory posture.
+PV_0027_052,73,73,1,PHASE_CONFLICT,NARRATIVE_SCENE,7.5,Subject checking phone before looking around. Not the department phone. The other one.
+PV_0027_053,74,75,2,PHASE_CRISIS,NARRATIVE_SCENE,10.7,"Rapid montage: multiple stickmen in same chair, same booking room. List growing on phone."
+PV_0027_054,76,77,2,PHASE_CRISIS,NARRATIVE_SCENE,7.0,Rapid flip montage: different faces in same booking chair. Same charge sheet.
+PV_0027_055,78,79,2,PHASE_CRISIS,NARRATIVE_SCENE,10.2,"Rapid montage: multiple stickmen in same chair, same booking room. List growing on phone."
+PV_0027_056,80,80,1,PHASE_CRISIS,NARRATIVE_SCENE,7.4,Subject at desk scrolling through growing contact list on hidden phone.
+PV_0027_057,81,82,2,PHASE_CRISIS,NARRATIVE_SCENE,8.0,Time distortion: names fading on phone screen. Only charges visible now.
+PV_0027_058,83,84,2,PHASE_CRISIS,NARRATIVE_SCENE,11.6,Phone screen showing growing contact list. Names fading to numbers.
+PV_0027_059,85,85,1,PHASE_CRISIS,NARRATIVE_SCENE,7.9,Six files in open cabinet vs many more numbers on hidden phone screen.
+PV_0027_060,86,86,1,PHASE_CRISIS,TEXT_OVERLAY,4.3,You don't remember when that changed.
+PV_0027_061,87,88,2,PHASE_CRISIS,NARRATIVE_SCENE,9.3,Split view: six files in cabinet vs eight numbers on hidden phone screen.
+PV_0027_062,89,91,3,PHASE_CRISIS,NARRATIVE_SCENE,11.2,CI calling at 2AM. Subject in bed. Phone glowing on nightstand. Dark room.
+PV_0027_063,92,92,1,PHASE_CRISIS,NARRATIVE_SCENE,10.7,CI bringing handwritten list of names. Desperate. Trying to stay useful.
+PV_0027_064,93,93,1,PHASE_CRISIS,TEXT_OVERLAY,3.3,Trying to stay alive.
+PV_0027_065,94,94,1,PHASE_CRISIS,NARRATIVE_SCENE,4.7,"Subject in dark bedroom, phone glowing against ear. 2AM clock visible."
+PV_0027_066,95,96,2,PHASE_CRISIS,NARRATIVE_SCENE,8.8,CI calling again. Not to report. Just to ask if safe. Phone against ear.
+PV_0027_067,97,97,1,PHASE_CRISIS,NARRATIVE_SCENE,9.7,CI handing new names on paper. Different handwriting. Desperate scrawl.
+PV_0027_068,98,98,1,PHASE_CRISIS,NARRATIVE_SCENE,7.0,CI hands steadier now. But eyes hollow. Trying to remain useful.
+PV_0027_069,99,99,1,PHASE_CRISIS,NARRATIVE_SCENE,8.3,CI handing paper with names to subject. Desperate posture. Trying to stay alive.
+PV_0027_070,100,102,3,PHASE_CRISIS,NARRATIVE_SCENE,9.8,CI handing paper with names to subject. Desperate posture. Trying to stay alive.
+PV_0027_071,103,103,1,PHASE_CRISIS,NARRATIVE_SCENE,7.0,Subject checking hidden phone before department phone. Automatic now. No looking around.
+PV_0027_072,104,104,1,PHASE_CRISIS,NARRATIVE_SCENE,3.7,Subject stopped pretending it is separate from the job. Same desk. Same routine.
+PV_0027_073,104b,104b,1,PHASE_CRISIS,NARRATIVE_SCENE,17.6,Subject checking phone compulsively. Message unread. List expanding.
+PV_0027_074,104c,104c,1,PHASE_CRISIS,NARRATIVE_SCENE,5.2,Subject opening message on phone. Not reading it. Closing. Mechanical.
+PV_0027_075,105,105c,3,PHASE_CRISIS,NARRATIVE_SCENE,11.9,Subject and CI in booking room. CI looks exhausted. Subject hesitates.
+PV_0027_076,106,108,3,PHASE_CRISIS,EMOTIONAL_CLOSEUP,11.7,"CI sitting in chair, tired posture. Subject sliding charge sheet back across table."
+PV_0027_077,109,110,2,PHASE_CRISIS,NARRATIVE_SCENE,9.3,Subject looking at CI silently. Not saying anything. Reaching across table slowly.
+PV_0027_078,111,112,2,PHASE_CRISIS,NARRATIVE_SCENE,8.9,Charge sheet from first night sliding back across table. Same crease down middle.
+PV_0027_079,113,114,2,PHASE_CRISIS,NARRATIVE_SCENE,8.0,CI staring at charge sheet. Same paper. Same ink. Then picking up pen.
+PV_0027_080,115,115,1,PHASE_CRISIS,EMOTIONAL_CLOSEUP,7.9,CI looking directly at subject for first time. Subject's hand trembling on desk edge.
+PV_0027_081,116,117,2,PHASE_CRISIS,NARRATIVE_SCENE,10.2,CI looking directly at subject for first time. Subject's hand trembling on desk edge.
+PV_0027_082,118,118,1,PHASE_CRISIS,EMOTIONAL_CLOSEUP,8.8,Subject hand trembling on desk edge. Fingers not gripping. Then closing hard.
+PV_0027_083,119,120,2,PHASE_CRISIS,TEXT_OVERLAY,7.1,You say it anyway.
+PV_0027_084,120b,120b,1,PHASE_CRISIS,TEXT_OVERLAY,4.3,You knew before you said it.
+PV_0027_085,121,122,2,PHASE_CRISIS,NARRATIVE_SCENE,5.6,"Assembly line: same chair, same sheet, same three words. Faces becoming output."
+PV_0027_086,123,125,3,PHASE_CRISIS,TEXT_OVERLAY,9.5,You see output.
+PV_0027_087,125b,125c,2,PHASE_CRISIS,NARRATIVE_SCENE,6.2,Aftermath moment. And then it is over. Just like that. Empty desk.
+PV_0027_088,126,127,2,PHASE_RESOLUTION,NARRATIVE_SCENE,9.8,Phone buzzing on nightstand in dark room. Subject rolling away. Screen going dark.
+PV_0027_089,128,129b,3,PHASE_RESOLUTION,NARRATIVE_SCENE,11.7,Subject rolling over in bed. Cold sheets on other side. Ignoring buzzing phone.
+PV_0027_090,130,130,1,PHASE_RESOLUTION,NARRATIVE_SCENE,7.9,Subject reading file at desk. Margin note circled: weapon notation. Walking to booking room.
+PV_0027_091,131,131,1,PHASE_RESOLUTION,NARRATIVE_SCENE,7.0,"File contents: same charges, same neighborhood, same type. Except margin note."
+PV_0027_092,132,132,1,PHASE_RESOLUTION,NARRATIVE_SCENE,4.2,Margin note closeup: weapon notation circled. Known to carry. Red ink.
+PV_0027_093,133,134,2,PHASE_RESOLUTION,NARRATIVE_SCENE,10.8,Subject closing file. Standing up. Walking to booking room. Not telling CI about weapon.
+PV_0027_094,135,137,3,PHASE_RESOLUTION,NARRATIVE_SCENE,8.0,Subject holding phone to ear in dark room. Waiting for breathing.
+PV_0027_095,138,139b,3,PHASE_RESOLUTION,EMOTIONAL_CLOSEUP,10.3,Close-up of phone against ear. Sound behind line. Then nothing.
+PV_0027_096,140,140,1,PHASE_RESOLUTION,TEXT_OVERLAY,3.4,Then nothing.
+PV_0027_097,141,142,2,PHASE_RESOLUTION,NARRATIVE_SCENE,8.8,"Subject sitting in kitchen, phone on table, light off. Hand next to phone. Still."
+PV_0027_098,143,144,3,PHASE_RESOLUTION,EMOTIONAL_CLOSEUP,10.5,Subject jaw tightening. Never calling back. Phone on table. Nothing.
+PV_0027_099,144b,144b,1,PHASE_RESOLUTION,NARRATIVE_SCENE,5.6,Phone on kitchen table. Hand staying next to it. Not moving.
+PV_0027_100,144c,144c,1,PHASE_RESOLUTION,EMOTIONAL_CLOSEUP,12.1,Subject sitting in dark kitchen. Phone beside hand. Light off. Completely still.
+PV_0027_101,145,146,4,PHASE_RESOLUTION,NARRATIVE_SCENE,11.2,Hands deleting contacts on phone screen. Thread vanishing. Number removed.
+PV_0027_102,147,147,1,PHASE_RESOLUTION,NARRATIVE_SCENE,7.0,Folder from bottom drawer. No case number. Closing it. Filing the absence.
+PV_0027_103,148,148,1,PHASE_RESOLUTION,NARRATIVE_SCENE,7.9,Subject staring at ceiling. Phone showing thirteen contacts. Water stain above.
+PV_0027_104,149,150,2,PHASE_RESOLUTION,NARRATIVE_SCENE,8.0,Subject staring at ceiling. Phone showing thirteen contacts. Water stain above.
+PV_0027_105,151,151,1,PHASE_RESOLUTION,NARRATIVE_SCENE,4.7,Subject telling self they were never his. Or maybe not saying anything at all.
+PV_0027_106,152,152,1,PHASE_RESOLUTION,NARRATIVE_SCENE,4.2,Subject staring blankly. Or maybe not saying anything at all.
+PV_0027_107,153,154,2,PHASE_RESOLUTION,TEXT_OVERLAY,6.2,You own them.
+PV_0027_108,155,155,1,CALLBACK_CLOSE,NARRATIVE_SCENE,4.7,Fresh detective watching subject flip someone. Same booking room. Taking notes.
+PV_0027_109,156,156,1,CALLBACK_CLOSE,NARRATIVE_SCENE,4.7,"New detective: clean jacket, neat tie, full notebook. Reminds subject of academy."
+PV_0027_110,157,157,1,CALLBACK_CLOSE,NARRATIVE_SCENE,7.4,New detective watching subject flip someone. Same chair. Same charge sheet. Same words.
+PV_0027_111,158,159,2,CALLBACK_CLOSE,NARRATIVE_SCENE,7.5,Hallway after flip. New detective asking how subject does it so fast.
+PV_0027_112,160,160b,2,CALLBACK_CLOSE,NARRATIVE_SCENE,10.8,New detective using subject's exact words on new CI. Subject hearing echo of self.
+PV_0027_113,160c,160c,1,CALLBACK_CLOSE,NARRATIVE_SCENE,4.2,Subject hearing own words echoed back. Not remembering saying it like that.
+PV_0027_114,161,161,1,CALLBACK_CLOSE,NARRATIVE_SCENE,6.5,New detective asking if this is how it is supposed to work. Night hallway.
+PV_0027_115,162,162,1,CALLBACK_CLOSE,NARRATIVE_SCENE,7.5,Subject pulling phone from jacket. Handing it to new detective. No words.
+PV_0027_116,163,163b,2,CALLBACK_CLOSE,NARRATIVE_SCENE,8.0,Next week. New detective not asking anymore. Phone now theirs. System replicated.
+PV_0027_117,164,166,3,CALLBACK_CLOSE,EMOTIONAL_CLOSEUP,13.0,Subject remembering charges not faces. Thirteen numbers. Empty recall.
+PV_0027_118,166b,166c,2,CALLBACK_CLOSE,NARRATIVE_SCENE,11.2,"Subject asleep, hand curled as if holding phone. Morning light."
+PV_0027_119,167,167,1,CALLBACK_CLOSE,NARRATIVE_SCENE,4.7,New stickman sitting in same chair. Same charge sheet. Subject standing. Loop continues.
+PV_0027_120,167b,169,3,CALLBACK_CLOSE,TEXT_OVERLAY,10.4,You already know what they'll say.
+PV_0027_121,170,170b,2,CALLBACK_CLOSE,TEXT_OVERLAY,10.3,You own them. You don't remember when it started.

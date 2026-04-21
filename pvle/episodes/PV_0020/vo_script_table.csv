@@ -1,0 +1,311 @@
+VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_VI,Word_Count_EN,Pause_After
+1,PV_0020,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"Your son counts to ninety before he falls asleep.","Con trai ban dem toi chin muoi truoc khi ngu.",9,0.5
+2,PV_0020,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"He does it every night.","No lam vay moi dem.",5,0
+3,PV_0020,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"Whispers them into the pillow.","Thi tham vao goi.",5,0.5
+4,PV_0020,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"He thinks it's a game.","No nghi do la tro choi.",5,0.5
+5,PV_0020,BEAT_01_01,HOOK,ESTABLISH,WEIGHT_LINE,"You don't correct him.","Ban khong sua.",5,1.5
+6,PV_0020,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"Because he's right.","Vi no dung.",4,2.0
+7,PV_0020,BEAT_01_02,HOOK,ESTABLISH,NARRATION,"You're a UX designer at a startup in Tel Aviv.","Ban la nha thiet ke UX tai mot startup o Tel Aviv.",9,0
+8,PV_0020,BEAT_01_02,HOOK,ESTABLISH,NARRATION,"You design buttons for a delivery app.","Ban thiet ke nut bam cho app giao hang.",7,0
+9,PV_0020,BEAT_01_02,HOOK,ESTABLISH,NARRATION,"The kind that tells a driver where to turn left.","Loai nut chi tai xe re trai o dau.",9,0
+10,PV_0020,BEAT_01_02,HOOK,ESTABLISH,NARRATION,"The driver checks the shelter map before every route.","Tai xe kiem tra ban do ham tru an truoc moi chuyen.",9,0.5
+11,PV_0020,BEAT_01_02,HOOK,ESTABLISH,NARRATION,"You didn't design that part.","Ban khong thiet ke phan do.",5,0
+12,PV_0020,BEAT_01_02,HOOK,ESTABLISH,NARRATION,"Someone else did.","Nguoi khac lam.",3,0
+13,PV_0020,BEAT_01_02,HOOK,ESTABLISH,NARRATION,"You just design the buttons inside it.","Ban chi thiet ke may cai nut ben trong.",7,0.5
+14,PV_0020,BEAT_01_02,HOOK,ESTABLISH,NARRATION,"Every morning you argue about basketball scores on the train.","Moi sang ban cai nhau ve ty so bong ro tren tau.",10,0
+15,PV_0020,BEAT_01_02,HOOK,ESTABLISH,NARRATION,"Every Friday you bring rugelach home from Dizengoff.","Moi thu Sau ban mang rugelach ve tu Dizengoff.",8,0.5
+16,PV_0020,BEAT_01_02,HOOK,ESTABLISH,NARRATION,"You step on LEGO at 2 AM and swear quietly.","Ban giam phai LEGO luc 2 gio sang va chui tham.",9,0
+17,PV_0020,BEAT_01_02,HOOK,ESTABLISH,NARRATION,"Your wife doesn't wake up.","Vo ban khong tinh.",5,0.5
+18,PV_0020,BEAT_01_02,HOOK,ESTABLISH,WEIGHT_LINE,"You are ordinary.","Ban la nguoi binh thuong.",3,1.0
+19,PV_0020,BEAT_01_02,HOOK,ESTABLISH,NARRATION,"That's the point.","Do moi la van de.",3,1.5
+20,PV_0020,BEAT_01_03,HOOK,CONSTRAINT,NARRATION,"The siren doesn't ask if you're ready.","Tieng coi bao dong khong hoi ban da san sang chua.",7,0.5
+21,PV_0020,BEAT_01_03,HOOK,CONSTRAINT,WEIGHT_LINE,"It gives you ninety seconds.","No cho ban chin muoi giay.",5,1.5
+22,PV_0020,BEAT_01_03,HOOK,CONSTRAINT,NARRATION,"What you do with them is the rest of your life.","Dieu ban lam trong khoang thoi gian do la phan con lai cua doi ban.",10,2.0
+23,PV_0020,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Before the escalation Tel Aviv is noise and heat and four hundred sixty thousand people complaining about rent.","Truoc khi leo thang Tel Aviv la tieng on va nong nuc va bon tram sau muoi nghin nguoi than phien ve gia thue nha.",15,0.5
+24,PV_0020,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Rothschild Boulevard on a Friday afternoon.","Dai lo Rothschild chieu thu Sau.",6,0
+25,PV_0020,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Students drink iced coffee on Ibn Gabirol.","Sinh vien uong ca phe da tren Ibn Gabirol.",7,0
+26,PV_0020,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"Couples walk the promenade at sunset and the air smells like salt and fried food and someone's cologne.","Cac cap di dao luc hoang hon va khong khi thoang mui muoi va do chien va nuoc hoa cua ai do.",15,0.5
+27,PV_0020,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"The Mediterranean doesn't care about borders.","Dia Trung Hai khong quan tam den bien gioi.",6,0
+28,PV_0020,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"It doesn't care about anything.","No khong quan tam den bat cu dieu gi.",5,0.5
+29,PV_0020,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"The salt sticks to your phone screen.","Muoi bam tren man hinh dien thoai.",6,0
+30,PV_0020,BEAT_02_01,PHASE_EARLY,ESTABLISH,NARRATION,"You wipe it with your shirt.","Ban lau bang ao.",6,0.5
+31,PV_0020,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,"Every morning you take the train from Holon to HaShalom.","Moi sang ban bat tau tu Holon den HaShalom.",10,0
+32,PV_0020,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,"Your coworker is angry because Maccabi lost.","Dong nghiep ban dang tuc vi Maccabi thua.",7,0
+33,PV_0020,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,"He's been angry about it since Sunday.","Anh ta tuc tu Chu nhat.",7,0
+34,PV_0020,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,"You argue about roster changes on the platform while the train is late.","Hai nguoi cai nhau ve doi hinh tren san ga trong khi tau tre.",12,0.5
+35,PV_0020,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,"The barista at your corner cafe draws a smiley face on your cup.","Co nhan vien pha che o quan goc ve mat cuoi tren coc cua ban.",12,0
+36,PV_0020,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,"Same face every time.","Cung mot khuon mat moi lan.",4,0.5
+37,PV_0020,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,"You bring rugelach home from Dizengoff on Fridays.","Ban mang rugelach ve tu Dizengoff moi thu Sau.",8,0
+38,PV_0020,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,"Your wife says you buy too many.","Vo ban noi ban mua nhieu qua.",7,0
+39,PV_0020,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,"You eat three on the walk home anyway.","Ban an ba cai tren duong ve.",7,0.5
+40,PV_0020,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,"Your son leaves LEGO on the floor.","Con trai de LEGO tren san.",6,0
+41,PV_0020,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,"You step on it in the dark every single time.","Ban giam phai trong bong toi moi lan.",9,0
+42,PV_0020,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,"You say something you shouldn't.","Ban noi dieu khong nen noi.",5,0.5
+43,PV_0020,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"The conflict is there. It's always been there, like traffic. Or the heat.","Xung dot van o do. No van luon o do, nhu xe co. Hoac cai nong.",13,0.5
+44,PV_0020,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"You stop noticing it after a while. Or you think you do.","Ban ngung de y sau mot thoi gian. Hoac ban nghi vay.",12,0.5
+45,PV_0020,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"The Iron Dome works.","Vom Sat hoat dong.",4,0
+46,PV_0020,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"The sirens come and go.","Coi bao dong den roi di.",5,0.5
+47,PV_0020,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"Your son was born into this.","Con trai ban sinh ra trong nay.",6,0
+48,PV_0020,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"He thinks sirens are weather.","No nghi coi bao dong la thoi tiet.",5,0.5
+49,PV_0020,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"Most people do.","Phan lon moi nguoi cung the.",3,1.0
+50,PV_0020,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"You don't remember when you stopped flinching.","Ban khong nho minh ngung giat minh tu khi nao.",7,0.5
+51,PV_0020,BEAT_02_04,PHASE_EARLY,REFLECT,NARRATION,"Or maybe you never did.","Hoac co khi chua bao gio.",5,0.5
+52,PV_0020,BEAT_02_04,PHASE_EARLY,REFLECT,WEIGHT_LINE,"You will not understand what this city was until it stops being this.","Ban se khong hieu thanh pho nay la gi cho den khi no ngung la the.",13,1.5
+53,PV_0020,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"It starts not with a siren but with frequency.","No bat dau khong phai bang coi bao dong ma bang tan suat.",9,0.5
+54,PV_0020,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"Monday: two alerts.","Thu Hai: hai canh bao.",3,0
+55,PV_0020,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"Tuesday: five.","Thu Ba: nam.",2,0
+56,PV_0020,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"Wednesday: eleven before noon.","Thu Tu: muoi mot truoc trua.",4,0.5
+57,PV_0020,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"Your phone buzzes so often your son says Daddy's phone is singing again.","Dien thoai rung nhieu den noi con trai noi dien thoai cua bo lai hat.",12,0.5
+58,PV_0020,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"By Thursday your thumb swipes the alert before your brain reads it.","Den thu Nam ngon tay ban quet canh bao truoc khi nao kip doc.",11,0.5
+59,PV_0020,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"You don't remember when that became automatic.","Ban khong nho tu luc nao viec do thanh tu dong.",7,0.5
+60,PV_0020,BEAT_03_02,PHASE_CONFLICT,CONSTRAINT,NARRATION,"Friday: school closes.","Thu Sau: truong dong cua.",3,0
+61,PV_0020,BEAT_03_02,PHASE_CONFLICT,CONSTRAINT,NARRATION,"The app you designed goes quiet.","App ban thiet ke im lang.",6,0
+62,PV_0020,BEAT_03_02,PHASE_CONFLICT,CONSTRAINT,NARRATION,"Restaurants closed.","Nha hang dong.",2,0
+63,PV_0020,BEAT_03_02,PHASE_CONFLICT,CONSTRAINT,NARRATION,"Drivers home.","Tai xe ve nha.",2,0
+64,PV_0020,BEAT_03_02,PHASE_CONFLICT,CONSTRAINT,NARRATION,"The buttons you designed are still there.","Nhung nut bam ban thiet ke van o do.",7,0
+65,PV_0020,BEAT_03_02,PHASE_CONFLICT,CONSTRAINT,NARRATION,"Nobody's pressing them.","Khong ai bam.",3,0.5
+66,PV_0020,BEAT_03_02,PHASE_CONFLICT,CONSTRAINT,WEIGHT_LINE,"The frequency is the weapon.","Tan suat la vu khi.",5,1.0
+67,PV_0020,BEAT_03_02,PHASE_CONFLICT,CONSTRAINT,NARRATION,"Not the rockets.","Khong phai ten lua.",3,0.5
+68,PV_0020,BEAT_03_02,PHASE_CONFLICT,CONSTRAINT,NARRATION,"The fact that your nervous system can't reset between them.","Viec he than kinh cua ban khong kip hoi phuc giua cac lan.",10,1.0
+69,PV_0020,BEAT_03_03,PHASE_CONFLICT,CRISIS,NARRATION,"Four seventeen AM.","Bon gio muoi bay sang.",3,0.5
+70,PV_0020,BEAT_03_03,PHASE_CONFLICT,CRISIS,NARRATION,"The siren.","Coi bao dong.",2,0
+71,PV_0020,BEAT_03_03,PHASE_CONFLICT,CRISIS,NARRATION,"Your body is up before your brain.","Co the ban dung day truoc nao.",7,0.5
+72,PV_0020,BEAT_03_03,PHASE_CONFLICT,CRISIS,NARRATION,"The floor is cold under your bare feet.","San lanh duoi chan tran.",7,0
+73,PV_0020,BEAT_03_03,PHASE_CONFLICT,CRISIS,NARRATION,"You don't feel them until the hallway.","Ban khong cam thay cho den hanh lang.",6,0.5
+74,PV_0020,BEAT_03_03,PHASE_CONFLICT,CRISIS,NARRATION,"Your son is heavy and warm and still half-asleep on your shoulder.","Con trai nang va am va con nua me tren vai ban.",11,0
+75,PV_0020,BEAT_03_03,PHASE_CONFLICT,CRISIS,NARRATION,"His face against your neck.","Mat no ap vao co ban.",5,0
+76,PV_0020,BEAT_03_03,PHASE_CONFLICT,CRISIS,NARRATION,"You can smell his shampoo.","Ban ngui thay dau goi cua no.",5,0.5
+77,PV_0020,BEAT_03_03,PHASE_CONFLICT,CRISIS,NARRATION,"Your wife has the go-bag.","Vo ban xach tui khan cap.",5,0
+78,PV_0020,BEAT_03_03,PHASE_CONFLICT,CRISIS,NARRATION,"She doesn't say anything.","Co ay khong noi gi.",4,0
+79,PV_0020,BEAT_03_03,PHASE_CONFLICT,CRISIS,NARRATION,"Neither of you does.","Khong ai noi.",4,0.5
+80,PV_0020,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"The mamad door sticks.","Cua phong an toan bi ket.",4,0
+81,PV_0020,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You pull.","Ban keo.",2,0
+82,PV_0020,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You lift.","Ban nang.",2,0
+83,PV_0020,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You yank.","Ban giat.",2,0
+84,PV_0020,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Your hand slips on the metal and you feel a sting but you don't look because looking takes half a second you don't have.","Tay truot tren kim loai ban cam buot nhung khong nhin vi nhin mat nua giay ma ban khong co.",20,0.5
+85,PV_0020,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Inside.","Ben trong.",1,0
+86,PV_0020,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Door closed.","Dong cua.",2,0
+87,PV_0020,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Concrete walls.","Tuong be tong.",2,0
+88,PV_0020,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Eight square meters.","Tam met vuong.",3,0.5
+89,PV_0020,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"His LEGO set is already in here.","Bo LEGO cua no da o san trong nay.",7,0
+90,PV_0020,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You moved it three days ago without thinking about why.","Ban chuyen vao ba ngay truoc ma khong nghi tai sao.",10,0.5
+91,PV_0020,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Water bottles.","Chai nuoc.",2,0
+92,PV_0020,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Flashlight.","Den pin.",1,0
+93,PV_0020,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"Your heart is in your throat.","Tim ban len den co hong.",6,0.5
+94,PV_0020,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You can hear it.","Ban nghe thay no.",4,0
+95,PV_0020,BEAT_03_04,PHASE_CONFLICT,CONFLICT,NARRATION,"You wonder if your son can hear it too.","Ban tu hoi con co nghe thay khong.",8,1.0
+96,PV_0020,BEAT_03_05,PHASE_CONFLICT,REFLECT,NARRATION,"Three cracks overhead.","Ba tieng no phia tren.",3,0.5
+97,PV_0020,BEAT_03_05,PHASE_CONFLICT,REFLECT,NARRATION,"Iron Dome.","Vom Sat.",2,0
+98,PV_0020,BEAT_03_05,PHASE_CONFLICT,REFLECT,NARRATION,"The pressure drops in your ears.","Ap suat giam trong tai.",6,0
+99,PV_0020,BEAT_03_05,PHASE_CONFLICT,REFLECT,NARRATION,"That pop that means someone above you did their job.","Tieng bup co nghia ai do phia tren da lam xong viec.",9,0.5
+100,PV_0020,BEAT_03_05,PHASE_CONFLICT,REFLECT,NARRATION,"Sulfur seeps through the window seal.","Mui luu huynh ri qua khe cua so.",6,0
+101,PV_0020,BEAT_03_05,PHASE_CONFLICT,REFLECT,NARRATION,"The smell hits your nose before the all-clear comes.","Mui xong vao truoc khi tin hieu an toan vang len.",9,0.5
+102,PV_0020,BEAT_03_05,PHASE_CONFLICT,REFLECT,NARRATION,"You're safe.","Ban an toan.",2,0
+103,PV_0020,BEAT_03_05,PHASE_CONFLICT,REFLECT,NARRATION,"You're shaking.","Ban dang run.",2,0
+104,PV_0020,BEAT_03_05,PHASE_CONFLICT,REFLECT,NARRATION,"You'll shake for another hour.","Ban se run them mot tieng nua.",5,0.5
+105,PV_0020,BEAT_03_05,PHASE_CONFLICT,REFLECT,NARRATION,"Your son is already asleep again on the mamad floor.","Con trai da ngu lai tren san phong an toan.",9,0.5
+106,PV_0020,BEAT_03_05,PHASE_CONFLICT,REFLECT,WEIGHT_LINE,"Ninety seconds felt like forever.","Chin muoi giay dai nhu mai mai.",5,1.5
+107,PV_0020,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"The Iron Dome catches ninety percent.","Vom Sat chan chin muoi phan tram.",6,0.5
+108,PV_0020,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"Your son watches the interceptions from the balcony.","Con trai xem danh chan tu ban cong.",8,0
+109,PV_0020,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"White streaks crossing the sky like angry fireflies.","Nhung vet sang xuyen qua troi nhu dom dom gian du.",8,0.5
+110,PV_0020,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"He says cool.","No noi hay qua.",3,0
+111,PV_0020,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"You say nothing.","Ban khong noi gi.",3,0.5
+112,PV_0020,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"In a barrage of two hundred that's twenty impacts somewhere in the country and you don't know where until you hear it or you don't.","Trong dot tan cong hai tram qua ten lua thi hai muoi qua roi dau do trong dat nuoc va ban khong biet o dau cho den khi nghe thay hoac khong.",23,0.5
+113,PV_0020,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"When an interception flashes your ears pop.","Khi danh chan loe sang tai ban noi bup.",7,0
+114,PV_0020,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"Sulfur hits your nostrils.","Luu huynh xong vao mui.",4,0
+115,PV_0020,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"Your son claps.","Con trai vo tay.",3,0
+116,PV_0020,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"Your chest tightens.","Nguc ban that lai.",3,0.5
+117,PV_0020,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"You're watching your survival calculated in real time above your head.","Ban dang nhin su song sot cua minh duoc tinh toan tren dau.",11,0.5
+118,PV_0020,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"When the world says Israel has Iron Dome they mean relax.","Khi the gioi noi Israel co Vom Sat ho muon noi binh tinh di.",10,0.5
+119,PV_0020,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"You don't relax.","Ban khong binh tinh duoc.",3,0
+120,PV_0020,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"You feel ninety percent.","Ban cam thay chin muoi phan tram.",4,0
+121,PV_0020,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,WEIGHT_LINE,"Ninety percent is not safe.","Chin muoi phan tram khong phai la an toan.",5,0.5
+122,PV_0020,BEAT_03_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"It's math that waits for the wrong night.","La phep toan cho dem sai.",8,1.0
+123,PV_0020,BEAT_03_07,PHASE_CONFLICT,CONFLICT,NARRATION,"By day seven your body runs the countdown without you.","Den ngay thu bay co the ban chay dem nguoc ma khong can ban.",9,0.5
+124,PV_0020,BEAT_03_07,PHASE_CONFLICT,CONFLICT,NARRATION,"Siren.","Coi.",1,0
+125,PV_0020,BEAT_03_07,PHASE_CONFLICT,CONFLICT,NARRATION,"Feet on floor.","Chan cham san.",3,0
+126,PV_0020,BEAT_03_07,PHASE_CONFLICT,CONFLICT,NARRATION,"Son on shoulder.","Con tren vai.",3,0
+127,PV_0020,BEAT_03_07,PHASE_CONFLICT,CONFLICT,NARRATION,"Hallway.","Hanh lang.",1,0
+128,PV_0020,BEAT_03_07,PHASE_CONFLICT,CONFLICT,NARRATION,"Door.","Cua.",1,0
+129,PV_0020,BEAT_03_07,PHASE_CONFLICT,CONFLICT,NARRATION,"Pull lift yank.","Keo nang giat.",3,0.5
+130,PV_0020,BEAT_03_07,PHASE_CONFLICT,CONFLICT,NARRATION,"Seven seconds.","Bay giay.",2,0
+131,PV_0020,BEAT_03_07,PHASE_CONFLICT,CONFLICT,NARRATION,"You've shaved two seconds off since the first night.","Ban da rut ngan hai giay so voi dem dau.",9,0.5
+132,PV_0020,BEAT_03_07,PHASE_CONFLICT,CONFLICT,NARRATION,"You don't shake anymore.","Ban khong run nua.",4,0
+133,PV_0020,BEAT_03_07,PHASE_CONFLICT,CONFLICT,NARRATION,"Your feet know the path in the dark.","Chan biet duong trong bong toi.",7,0
+134,PV_0020,BEAT_03_07,PHASE_CONFLICT,CONFLICT,NARRATION,"Your hands find the handle without looking.","Tay tim tay nam ma khong can nhin.",7,1.0
+135,PV_0020,BEAT_03_07,PHASE_CONFLICT,CONFLICT,NARRATION,"You think you should feel proud of that.","Ban nghi ban nen tu hao ve dieu do.",7,0
+136,PV_0020,BEAT_03_07,PHASE_CONFLICT,CONFLICT,NARRATION,"You don't.","Nhung khong.",2,1.0
+137,PV_0020,BEAT_03_08,PHASE_CONFLICT,REFLECT,NARRATION,"Your son sleeps through the pickup now.","Con trai ngu xuyen qua luc bi be di.",7,0.5
+138,PV_0020,BEAT_03_08,PHASE_CONFLICT,REFLECT,NARRATION,"He doesn't stir.","No khong nhuc nhich.",3,0
+139,PV_0020,BEAT_03_08,PHASE_CONFLICT,REFLECT,NARRATION,"He doesn't wake up when you lift him.","No khong tinh khi ban nang no len.",7,0
+140,PV_0020,BEAT_03_08,PHASE_CONFLICT,REFLECT,NARRATION,"He doesn't wake up when you run.","No khong tinh khi ban chay.",6,0.5
+141,PV_0020,BEAT_03_08,PHASE_CONFLICT,REFLECT,NARRATION,"His body learned something.","Co the no da hoc duoc dieu gi do.",4,0
+142,PV_0020,BEAT_03_08,PHASE_CONFLICT,REFLECT,NARRATION,"You still have to think about it.","Ban van phai suy nghi ve dieu do.",7,1.0
+143,PV_0020,BEAT_03_08,PHASE_CONFLICT,REFLECT,NARRATION,"You keep holding him a second longer than you need to.","Ban cu om no lau hon mot giay so voi can thiet.",11,0.5
+144,PV_0020,BEAT_03_08,PHASE_CONFLICT,REFLECT,NARRATION,"Ninety seconds used to feel like something.","Chin muoi giay tung la mot khoang thoi gian.",7,0.5
+145,PV_0020,BEAT_03_08,PHASE_CONFLICT,REFLECT,WEIGHT_LINE,"You don't remember when that changed.","Ban khong nho tu khi nao no thay doi.",6,1.5
+146,PV_0020,BEAT_03_09,PHASE_CONFLICT,CONFLICT,NARRATION,"Your neighbor gets the call on Tuesday.","Hang xom nhan cuoc goi vao thu Ba.",7,0
+147,PV_0020,BEAT_03_09,PHASE_CONFLICT,CONFLICT,NARRATION,"Miluim.","Miluim.",1,0
+148,PV_0020,BEAT_03_09,PHASE_CONFLICT,CONFLICT,NARRATION,"Reserve duty.","Nghia vu du bi.",2,0.5
+149,PV_0020,BEAT_03_09,PHASE_CONFLICT,CONFLICT,NARRATION,"He packs a bag.","Anh ta xep tui.",4,0
+150,PV_0020,BEAT_03_09,PHASE_CONFLICT,CONFLICT,NARRATION,"Kisses his daughter at the door.","Hon con gai o cua.",6,0
+151,PV_0020,BEAT_03_09,PHASE_CONFLICT,CONFLICT,NARRATION,"Drives north.","Lai xe ve phia bac.",2,0.5
+152,PV_0020,BEAT_03_09,PHASE_CONFLICT,CONFLICT,NARRATION,"His wife stands in the hallway after he's gone holding the daughter and not moving.","Vo anh ta dung trong hanh lang sau khi di om con gai va khong nhuc nhich.",14,0.5
+153,PV_0020,BEAT_03_09,PHASE_CONFLICT,CONFLICT,NARRATION,"Her jaw is set but her hands are shaking.","Ham co ay nghem chat nhung tay run.",8,0.5
+154,PV_0020,BEAT_03_09,PHASE_CONFLICT,CONFLICT,NARRATION,"You bring them dinner that night.","Ban mang com toi cho ho dem do.",6,0
+155,PV_0020,BEAT_03_09,PHASE_CONFLICT,CONFLICT,NARRATION,"You don't know what to say so you don't say anything.","Ban khong biet noi gi nen khong noi gi.",10,0.5
+156,PV_0020,BEAT_03_09,PHASE_CONFLICT,CONFLICT,NARRATION,"His daughter plays LEGO with your son in the mamad during the next siren.","Con gai anh ta choi LEGO voi con ban trong phong an toan luc coi keu.",12,0
+157,PV_0020,BEAT_03_09,PHASE_CONFLICT,CONFLICT,NARRATION,"She builds a house.","No xay mot ngoi nha.",4,0
+158,PV_0020,BEAT_03_09,PHASE_CONFLICT,CONFLICT,NARRATION,"Your son builds a dome over it.","Con trai ban xay vom tren do.",6,0.5
+159,PV_0020,BEAT_03_10,PHASE_CONFLICT,REFLECT,NARRATION,"Two weeks later she stops answering messages.","Hai tuan sau co ay ngung tra loi tin nhan.",7,0.5
+160,PV_0020,BEAT_03_10,PHASE_CONFLICT,REFLECT,NARRATION,"You don't ask why.","Ban khong hoi tai sao.",4,0.5
+161,PV_0020,BEAT_03_10,PHASE_CONFLICT,REFLECT,NARRATION,"On the news they announce casualties without names.","Tren tin tuc ho cong bo thuong vong khong ten.",8,0.5
+162,PV_0020,BEAT_03_10,PHASE_CONFLICT,REFLECT,NARRATION,"You watch every broadcast.","Ban xem moi ban tin.",4,0
+163,PV_0020,BEAT_03_10,PHASE_CONFLICT,REFLECT,NARRATION,"You sit on the couch with the volume low so your son can't hear.","Ban ngoi tren ghe am luong nho de con khong nghe thay.",12,0
+164,PV_0020,BEAT_03_10,PHASE_CONFLICT,REFLECT,NARRATION,"You count the names that aren't his.","Ban dem nhung cai ten khong phai cua anh ta.",7,0.5
+165,PV_0020,BEAT_03_10,PHASE_CONFLICT,REFLECT,WEIGHT_LINE,"That is how you hope now.","Do la cach ban hy vong bay gio.",6,0.5
+166,PV_0020,BEAT_03_10,PHASE_CONFLICT,REFLECT,NARRATION,"By subtraction.","Bang phep tru.",2,1.5
+167,PV_0020,BEAT_03_11,PHASE_CONFLICT,CONFLICT,NARRATION,"Your sister in New York calls.","Chi gai o New York goi.",6,0
+168,PV_0020,BEAT_03_11,PHASE_CONFLICT,CONFLICT,NARRATION,"She's crying.","Co ay khoc.",2,0.5
+169,PV_0020,BEAT_03_11,PHASE_CONFLICT,CONFLICT,NARRATION,"People at her office are arguing about the war.","Dong nghiep co ay dang tranh luan ve chien tranh.",8,0
+170,PV_0020,BEAT_03_11,PHASE_CONFLICT,CONFLICT,NARRATION,"She doesn't know what to say when they ask her to condemn.","Co ay khong biet noi gi khi ho bao len an.",10,0.5
+171,PV_0020,BEAT_03_11,PHASE_CONFLICT,CONFLICT,NARRATION,"She asks you what to say.","Co ay hoi ban nen noi gi.",6,0.5
+172,PV_0020,BEAT_03_11,PHASE_CONFLICT,CONFLICT,NARRATION,"You're standing in the mamad at 2 AM.","Ban dang dung trong phong an toan luc 2 gio sang.",7,0
+173,PV_0020,BEAT_03_11,PHASE_CONFLICT,CONFLICT,NARRATION,"Your son is asleep on your chest.","Con trai ngu tren nguc ban.",6,0
+174,PV_0020,BEAT_03_11,PHASE_CONFLICT,CONFLICT,NARRATION,"Twenty-two kilos.","Hai muoi hai ky.",2,0
+175,PV_0020,BEAT_03_11,PHASE_CONFLICT,CONFLICT,NARRATION,"His breathing is warm on your neck.","Hoi tho no am tren co ban.",6,0
+176,PV_0020,BEAT_03_11,PHASE_CONFLICT,CONFLICT,NARRATION,"You can smell his shampoo.","Ban ngui thay dau goi cua no.",5,0.5
+177,PV_0020,BEAT_03_11,PHASE_CONFLICT,CONFLICT,NARRATION,"Outside something is burning.","Ben ngoai cai gi do dang chay.",4,0
+178,PV_0020,BEAT_03_11,PHASE_CONFLICT,CONFLICT,NARRATION,"You can't tell what.","Ban khong biet la gi.",4,0.5
+179,PV_0020,BEAT_03_11,PHASE_CONFLICT,CONFLICT,NARRATION,"You say I don't know what to say either.","Ban noi anh cung khong biet phai noi gi.",8,1.0
+180,PV_0020,BEAT_03_11,PHASE_CONFLICT,CONFLICT,NARRATION,"The world has an opinion about your country.","The gioi co y kien ve dat nuoc ban.",8,0.5
+181,PV_0020,BEAT_03_11,PHASE_CONFLICT,CONFLICT,NARRATION,"You don't have a country right now.","Ban khong co dat nuoc luc nay.",7,0
+182,PV_0020,BEAT_03_11,PHASE_CONFLICT,CONFLICT,NARRATION,"You have a mamad and ninety seconds and a boy who weighs twenty-two kilos on your chest.","Ban co phong an toan va chin muoi giay va mot thang be hai muoi hai ky tren nguc.",15,0.5
+183,PV_0020,BEAT_03_11,PHASE_CONFLICT,CONFLICT,NARRATION,"The phone cuts.","Dien thoai mat song.",3,0
+184,PV_0020,BEAT_03_11,PHASE_CONFLICT,CONFLICT,NARRATION,"You hold him tighter.","Ban om no chat hon.",4,0.5
+185,PV_0020,BEAT_03_11,PHASE_CONFLICT,CONFLICT,NARRATION,"You're not a headline.","Ban khong phai tieu de.",4,0
+186,PV_0020,BEAT_03_11,PHASE_CONFLICT,CONFLICT,NARRATION,"You're not a position.","Ban khong phai lap truong.",4,0
+187,PV_0020,BEAT_03_11,PHASE_CONFLICT,CONFLICT,NARRATION,"You're a father in a concrete room.","Ban la mot nguoi cha trong phong be tong.",7,0.5
+188,PV_0020,BEAT_03_11,PHASE_CONFLICT,CONFLICT,WEIGHT_LINE,"The concrete is the only thing between his sleep and the sky.","Be tong la thu duy nhat giua giac ngu cua no va bau troi.",11,2.0
+189,PV_0020,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"One gets through.","Mot qua lot qua.",3,0.5
+190,PV_0020,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"You hear the difference instantly.","Ban nghe thay su khac biet ngay.",5,0.5
+191,PV_0020,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"Interception is a crack above.","Danh chan la tieng no phia tren.",5,0
+192,PV_0020,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"Impact is a sound that moves through your skeleton.","Va cham la am thanh truyen qua xuong.",9,0.5
+193,PV_0020,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"The floor shifts.","San dich chuyen.",3,0
+194,PV_0020,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"Not shakes.","Khong phai rung.",2,0
+195,PV_0020,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"Shifts.","Dich chuyen.",1,0
+196,PV_0020,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"Like the building exhaled.","Nhu toa nha tho ra.",4,0.5
+197,PV_0020,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"Your ears ring.","Tai ban u.",3,0
+198,PV_0020,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"A car alarm starts screaming outside.","Coi xe bat dau ren ri ben ngoai.",6,0
+199,PV_0020,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"It doesn't stop.","No khong ngung.",3,0.5
+200,PV_0020,BEAT_04_01,PHASE_CRISIS,CRISIS,WEIGHT_LINE,"Eight hundred meters from your son's school.","Tam tram met tu truong con ban.",7,1.5
+201,PV_0020,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"It was already closed. You keep forgetting that.","Truong da dong cua roi. Ban cu quen mat.",8,0.5
+202,PV_0020,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"But you drive past the crater on the way to the supermarket.","Nhung ban lai xe ngang ho bom tren duong di sieu thi.",11,0.5
+203,PV_0020,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"The playground fence is twisted.","Hang rao san choi bi xoan.",5,0
+204,PV_0020,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"A swing set on its side.","Xich du nam nghieng.",5,0
+205,PV_0020,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"A backpack hanging on the fence.","Mot ba lo treo tren hang rao.",6,0.5
+206,PV_0020,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"Nobody's.","Cua khong ai.",1,0
+207,PV_0020,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"Everyone's.","Cua tat ca.",1,1.0
+208,PV_0020,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,"Your son sees it from the car window.","Con trai nhin thay tu cua kinh xe.",7,0.5
+209,PV_0020,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,"He doesn't say anything.","No khong noi gi.",4,1.0
+210,PV_0020,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,"That night he walks into the mamad without being told.","Dem do no tu di vao phong an toan.",9,0
+211,PV_0020,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,"Lies down on the blanket.","Nam xuong tren chan.",5,0.5
+212,PV_0020,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,"He doesn't count to ninety.","No khong dem toi chin muoi.",5,0.5
+213,PV_0020,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,"You wait for him to start.","Ban doi no bat dau.",6,0
+214,PV_0020,BEAT_04_02,PHASE_CRISIS,REFLECT,NARRATION,"He doesn't start.","No khong dem.",3,1.0
+215,PV_0020,BEAT_04_02,PHASE_CRISIS,REFLECT,WEIGHT_LINE,"That is worse.","Dieu do te hon.",3,2.0
+216,PV_0020,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"The news shows footage.","Tin tuc chieu hinh.",4,0.5
+217,PV_0020,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"Buildings that look like yours.","Nhung toa nha giong toa nha ban.",5,0
+218,PV_0020,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"Rubble that used to be someone's mamad.","Dong do nat tung la phong an toan cua ai do.",7,0.5
+219,PV_0020,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"Children pulled from concrete.","Tre em duoc keo ra khoi be tong.",4,0.5
+220,PV_0020,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"Children who look like your son.","Nhung dua tre giong con ban.",6,0.5
+221,PV_0020,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"You're relieved it's not your building.","Ban nhe nhom vi khong phai toa nha minh.",6,0
+222,PV_0020,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"You don't look at your wife.","Ban khong nhin vo.",6,0.5
+223,PV_0020,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"Your wife says turn it off.","Vo ban noi tat di.",6,0
+224,PV_0020,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"The TV stays on.","TV van bat.",4,0.5
+225,PV_0020,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"There's a cable hanging loose behind the TV.","Co mot soi day treo long tong sau TV.",8,0.5
+226,PV_0020,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"You notice it.","Ban de y no.",3,0
+227,PV_0020,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"You look at it for a second.","Ban nhin no mot giay.",7,0
+228,PV_0020,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"You look away.","Ban nhin di cho khac.",3,0.5
+229,PV_0020,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"You turn it off eventually.","Ban tat no mot luc sau.",5,0.5
+230,PV_0020,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"You go to bed.","Ban di ngu.",4,0.5
+231,PV_0020,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,"Nobody in your building talks about it.","Khong ai trong toa nha noi ve chuyen do.",6,0.5
+232,PV_0020,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,"You see it in the elevator though.","Ban thay no trong thang may.",7,0
+233,PV_0020,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,"Eye contact that lasts half a second too long.","Anh mat keo dai lau hon nua giay.",9,0.5
+234,PV_0020,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,"Everyone carrying something.","Moi nguoi deu mang theo cai gi do.",3,0
+235,PV_0020,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,"You don't ask.","Ban khong hoi.",3,1.0
+236,PV_0020,BEAT_04_05,PHASE_CRISIS,CONFLICT,NARRATION,"After ten days you go back to the cafe.","Sau muoi ngay ban quay lai quan ca phe.",8,0.5
+237,PV_0020,BEAT_04_05,PHASE_CRISIS,CONFLICT,NARRATION,"The barista is wearing the same apron.","Co nhan vien pha che van mac cung tap de.",7,0
+238,PV_0020,BEAT_04_05,PHASE_CRISIS,CONFLICT,NARRATION,"Something behind her eyes has shifted.","Dieu gi do sau mat co ay da thay doi.",6,0.5
+239,PV_0020,BEAT_04_05,PHASE_CRISIS,CONFLICT,NARRATION,"You order the same coffee.","Ban goi cung loai ca phe.",5,0
+240,PV_0020,BEAT_04_05,PHASE_CRISIS,CONFLICT,NARRATION,"Sit in the same chair.","Ngoi cung cai ghe.",5,0
+241,PV_0020,BEAT_04_05,PHASE_CRISIS,CONFLICT,NARRATION,"Your hand wraps around the warm cup.","Tay ban om coc am.",7,0
+242,PV_0020,BEAT_04_05,PHASE_CRISIS,CONFLICT,NARRATION,"The only warmth that feels normal.","Hoi am duy nhat con binh thuong.",6,0.5
+243,PV_0020,BEAT_04_05,PHASE_CRISIS,CONFLICT,NARRATION,"The siren goes off.","Coi bao dong vang.",4,0
+244,PV_0020,BEAT_04_05,PHASE_CRISIS,CONFLICT,NARRATION,"She picks up her phone.","Co ay cam dien thoai.",5,0
+245,PV_0020,BEAT_04_05,PHASE_CRISIS,CONFLICT,NARRATION,"You pick up your cup.","Ban cam coc.",5,0
+246,PV_0020,BEAT_04_05,PHASE_CRISIS,CONFLICT,NARRATION,"Everyone walks to shelter.","Moi nguoi di vao ham.",4,0
+247,PV_0020,BEAT_04_05,PHASE_CRISIS,CONFLICT,NARRATION,"Not running.","Khong chay.",2,0
+248,PV_0020,BEAT_04_05,PHASE_CRISIS,CONFLICT,NARRATION,"Walking.","Di bo.",1,0.5
+249,PV_0020,BEAT_04_05,PHASE_CRISIS,CONFLICT,NARRATION,"After the all-clear everyone walks back.","Sau tin hieu an toan moi nguoi di ve.",6,0
+250,PV_0020,BEAT_04_05,PHASE_CRISIS,CONFLICT,NARRATION,"Your coffee is still warm.","Ca phe van con am.",5,0.5
+251,PV_0020,BEAT_04_05,PHASE_CRISIS,CONFLICT,NARRATION,"You drink it like nothing happened because if you don't drink it like nothing happened you'll put the cup down and scream.","Ban uong nhu khong co gi xay ra vi neu khong ban se dat coc xuong va het.",20,1.0
+252,PV_0020,BEAT_04_06,PHASE_CRISIS,CRISIS,NARRATION,"Your son asks: are the booms the good ones or the bad ones.","Con trai hoi: tieng no nay la loai tot hay loai xau.",11,0.5
+253,PV_0020,BEAT_04_06,PHASE_CRISIS,CRISIS,NARRATION,"He's six.","No sau tuoi.",2,0
+254,PV_0020,BEAT_04_06,PHASE_CRISIS,CRISIS,NARRATION,"He's correct.","No dung.",2,0.5
+255,PV_0020,BEAT_04_06,PHASE_CRISIS,CRISIS,NARRATION,"There are good booms and bad booms.","Co tieng no tot va tieng no xau.",6,0
+256,PV_0020,BEAT_04_06,PHASE_CRISIS,CRISIS,NARRATION,"He learned the difference in two weeks.","No hoc duoc su khac biet trong hai tuan.",7,0.5
+257,PV_0020,BEAT_04_06,PHASE_CRISIS,CRISIS,NARRATION,"You say the good ones.","Ban noi loai tot.",5,0
+258,PV_0020,BEAT_04_06,PHASE_CRISIS,CRISIS,NARRATION,"He nods.","No gat dau.",2,0
+259,PV_0020,BEAT_04_06,PHASE_CRISIS,CRISIS,NARRATION,"Goes back to his LEGO.","Quay lai choi LEGO.",5,0.5
+260,PV_0020,BEAT_04_06,PHASE_CRISIS,CRISIS,NARRATION,"He's building something new.","No dang xay cai gi moi.",4,0
+261,PV_0020,BEAT_04_06,PHASE_CRISIS,CRISIS,NARRATION,"You ask what.","Ban hoi cai gi.",3,0
+262,PV_0020,BEAT_04_06,PHASE_CRISIS,CRISIS,NARRATION,"A dome.","Mot cai vom.",2,0
+263,PV_0020,BEAT_04_06,PHASE_CRISIS,CRISIS,NARRATION,"He places a tiny figure inside.","No dat mot hinh nho ben trong.",6,0.5
+264,PV_0020,BEAT_04_06,PHASE_CRISIS,CRISIS,NARRATION,"That's you Daddy.","Do la bo Daddy.",3,0.5
+265,PV_0020,BEAT_04_06,PHASE_CRISIS,CRISIS,NARRATION,"The figure is safe under the dome.","Hinh nho an toan duoi vom.",7,0.5
+266,PV_0020,BEAT_04_06,PHASE_CRISIS,CRISIS,NARRATION,"The figure is smiling.","Hinh nho dang cuoi.",4,1.0
+267,PV_0020,BEAT_04_06,PHASE_CRISIS,CRISIS,WEIGHT_LINE,"The dome is made of plastic.","Cai vom lam bang nhua.",6,1.5
+268,PV_0020,BEAT_04_07,PHASE_CRISIS,REFLECT,NARRATION,"You go to the bathroom.","Ban vao nha ve sinh.",5,0
+269,PV_0020,BEAT_04_07,PHASE_CRISIS,REFLECT,NARRATION,"You close the door.","Ban dong cua.",4,0
+270,PV_0020,BEAT_04_07,PHASE_CRISIS,REFLECT,NARRATION,"You press your forehead against the mirror.","Ban ap tran vao guong.",7,0.5
+271,PV_0020,BEAT_04_07,PHASE_CRISIS,REFLECT,NARRATION,"Your hands grip the sink edge.","Tay ban bam mep bon rua.",6,0
+272,PV_0020,BEAT_04_07,PHASE_CRISIS,REFLECT,NARRATION,"The porcelain is cold under your fingers.","Su lanh duoi ngon tay.",7,0.5
+273,PV_0020,BEAT_04_07,PHASE_CRISIS,REFLECT,NARRATION,"Something in your chest catches - not pain - just a skip - and then it's gone.","Cai gi do trong nguc ban nghen lai - khong phai dau - chi la mot nhip lac - roi het.",14,0.5
+274,PV_0020,BEAT_04_07,PHASE_CRISIS,REFLECT,NARRATION,"You breathe.","Ban tho.",2,2.0
+275,PV_0020,BEAT_04_07,PHASE_CRISIS,REFLECT,NARRATION,"You step on a LEGO piece in the hallway that night.","Ban giam phai mot mieng LEGO trong hanh lang dem do.",11,1.0
+276,PV_0020,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"When the ceasefire comes you expect something to change. Nothing does.","Khi ngung ban den ban mong doi dieu gi do thay doi. Khong co gi thay doi.",11,0.5
+277,PV_0020,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"They fix the playground. New fence, new swing set. Your son won't go near it.","Ho sua lai san choi. Hang rao moi, xich du moi. Con trai khong chiu lai gan.",15,0.5
+278,PV_0020,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"The cafe is open. The barista moved to Berlin.","Quan ca phe mo lai. Co nhan vien pha che da chuyen di Berlin.",9,0
+279,PV_0020,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"Nobody told you, you just showed up one day and someone else was behind the counter.","Khong ai bao ban, ban chi den mot ngay va nguoi khac dung sau quay.",16,0.5
+280,PV_0020,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"She makes your coffee. No smiley face. Same taste. Exactly the same.","Co ay pha ca phe. Khong mat cuoi. Cung vi do. Y chang.",12,0.5
+281,PV_0020,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"You drink it anyway.","Ban van uong.",4,1.0
+282,PV_0020,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"Your neighbor came back from miluim.","Hang xom ve tu miluim.",6,0
+283,PV_0020,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"He doesn't talk about where he was.","Anh ta khong noi ve noi da o.",7,0
+284,PV_0020,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"He smokes on the balcony at 3 AM.","Anh ta hut thuoc tren ban cong luc 3 gio sang.",7,0
+285,PV_0020,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"You see his cigarette glow from yours.","Ban thay diem lua tu ban cong cua ban.",7,0
+286,PV_0020,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"Neither of you waves.","Khong ai vay tay.",4,0
+287,PV_0020,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"You don't need to.","Khong can.",4,0
+288,PV_0020,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"You both know what the other one is doing awake at 3 AM.","Hai nguoi deu biet nguoi kia dang lam gi khi thuc luc 3 gio sang.",11,1.0
+289,PV_0020,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Your wife sleeps with her hand on the go-bag.","Vo ban ngu tay dat tren tui khan cap.",8,0.5
+290,PV_0020,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Every night.","Moi dem.",2,0
+291,PV_0020,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"You tried moving it once.","Ban thu chuyen tui di mot lan.",5,0
+292,PV_0020,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"She moved it back without saying anything.","Co ay chuyen lai ma khong noi gi.",7,0.5
+293,PV_0020,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"The LEGO dome is on the shelf in the mamad.","Vom LEGO nam tren ke trong phong an toan.",8,0
+294,PV_0020,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"The tiny figure is still inside.","Hinh nho van o ben trong.",6,0
+295,PV_0020,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Still smiling.","Van cuoi.",2,1.0
+296,PV_0020,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"Your son still counts to ninety before he sleeps.","Con trai van dem toi chin muoi truoc khi ngu.",8,0.5
+297,PV_0020,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"You stopped counting.","Ban ngung dem.",3,0.5
+298,PV_0020,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,WEIGHT_LINE,"That is how you know something broke.","Do la cach ban biet co gi do da gay.",7,1.5
+299,PV_0020,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,"A car door slams on the street.","Cua xe dong sam tren duong.",7,0.5
+300,PV_0020,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,"Your chest tightens.","Nguc ban that lai.",3,0
+301,PV_0020,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,"Your feet move toward the hallway before your brain says stop.","Chan ban buoc ve phia hanh lang truoc khi nao kip ngan.",10,0.5
+302,PV_0020,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,"You stand there for a moment - hallway light off - door still closed - and for one second everything blurs and you can't remember if the ceasefire already happened or if you dreamed it.","Ban dung do mot chut - den hanh lang tat - cua van dong - va trong mot giay moi thu nhoa di va ban khong nho ngung ban da xay ra hay ban mo.",32,0.5
+303,PV_0020,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,"Then you walk back.","Roi ban quay lai.",4,0
+304,PV_0020,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,"You don't mention it.","Ban khong noi gi.",4,1.5
+305,PV_0020,BEAT_06_01,CALLBACK,CALLBACK,WEIGHT_LINE,"The sirens stopped.","Coi bao dong ngung.",3,1.5
+306,PV_0020,BEAT_06_01,CALLBACK,CALLBACK,WEIGHT_LINE,"Your body did not.","Co the ban thi khong.",4,2.0
+307,PV_0020,BEAT_06_02,CALLBACK,CTA,NARRATION,"You're alive.","Ban con song.",2,0
+308,PV_0020,BEAT_06_02,CALLBACK,CTA,NARRATION,"The dome held.","Vom giu duoc.",3,0.5
+309,PV_0020,BEAT_06_02,CALLBACK,CTA,NARRATION,"Everyone says that should be enough.","Moi nguoi noi the la du.",6,1.0
+310,PV_0020,BEAT_06_02,CALLBACK,CTA,WEIGHT_LINE,"It is not.","Khong du.",3,2.0

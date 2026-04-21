@@ -6,8 +6,66 @@ skills_required:
 
 # WORKFLOW: /pvle-run-full
 
-> **Purpose:** Macro runner — executes all PVLE phases in sequence  
+> **Purpose:** Macro runner - executes all PVLE phases in sequence  
 > **Use when:** Starting a new episode from scratch with a seed idea
+
+## EXECUTION_CHECKLIST
+
+```yaml
+total_steps: 9
+steps:
+  - step: 1
+    name: "/analyze-seed"
+    type: BLOCKING
+    gate: "Wait for user to confirm world"
+    output: "World_ID confirmed"
+
+  - step: 2
+    name: "/pvle-ingest-world (if new)"
+    type: AUTO
+    output: "pvle/worlds/{WORLD_ID}.yaml"
+
+  - step: 3
+    name: "/pvle-gen-outline (includes Title selection)"
+    type: BLOCKING
+    gate: "Wait for user to select title + confirm outline"
+    output: "inline (title + outline)"
+
+  - step: 4
+    name: "/pvle-gen-episode-brief"
+    type: BLOCKING
+    gate: "Wait for user to confirm CHARACTER REGISTRY"
+    output: "pvle/episodes/{EP}/episode_brief.md"
+
+  - step: 5
+    name: "/pvle-gen-breakdown"
+    type: AUTO
+    output: "pvle/episodes/{EP}/l2_breakdown_table.csv"
+
+  - step: 6
+    name: "/pvle-gen-vo"
+    type: AUTO
+    output: "pvle/episodes/{EP}/vo_script_table.csv"
+
+  - step: 7
+    name: "/pvle-character-review"
+    type: BLOCKING
+    gate: "Wait for user to approve character visuals"
+    output: "pvle/assets/characters/"
+
+  - step: 8
+    name: "/pvle-gen-image-prompts"
+    type: AUTO
+    output: "pvle/episodes/{EP}/image_prompts.csv"
+
+  - step: 9
+    name: "/pvle-gen-video-prompts"
+    type: AUTO
+    output: "pvle/episodes/{EP}/video_prompts.csv"
+
+# On completion: verify all steps checked
+# On skip: VIOLATION -> HALT_AND_REPORT
+```
 
 ---
 

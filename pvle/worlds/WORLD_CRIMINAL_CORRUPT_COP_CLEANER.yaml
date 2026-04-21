@@ -1,0 +1,799 @@
+# WORLD: WORLD_CRIMINAL_CORRUPT_COP_CLEANER
+# Display: The Cop Who Cleans the Scene
+# Parent: WORLD_CRIMINAL_CORRUPT_COP
+# Created: 2026-04-21
+# Updated: 2026-04-21 (v2 - friction + sensory + double reveal)
+# Series: Corrupt Cop #4 (fabrication -> lethal force -> informants -> scene cleaning)
+
+WORLD_ID: WORLD_CRIMINAL_CORRUPT_COP_CLEANER
+display_name: "The Cop Who Cleans the Scene"
+domain: CRIMINAL
+era: MODERN_CONTEMPORARY
+implied_identity_mode: GENERIC_ARCHETYPE
+implied_person: null
+parent_world: WORLD_CRIMINAL_CORRUPT_COP
+
+tags:
+  - police_corruption
+  - crime_scene_tampering
+  - evidence_destruction
+  - cover_up
+  - scene_management
+  - reality_erasure
+
+seed_keywords:
+  - "cop who cleans the scene"
+  - "crime scene tampering"
+  - "evidence destruction"
+  - "cover-up specialist"
+  - "scene sanitization"
+  - "police cover-up"
+  - "drop gun"
+
+# ============================================================
+# EMOTIONAL SPINE (erasure arc)
+# ============================================================
+emotional_spine:
+  arc: "witness -> accessory -> architect -> author"
+  description: >
+    The episode is not about a cop who commits crimes. It is about
+    the cop who arrives AFTER the crime and makes it disappear. The
+    system does not need a cover-up. The system has a person whose
+    skill is making reality match the report. Each phase escalates
+    the erasure - until the cleaner cannot tell the difference
+    between what happened and what they made the scene say. The
+    truth does not get buried. The truth gets replaced.
+  phase_mapping:
+    witness: "You see something wrong. You say nothing. That is the first clean."
+    accessory: "You help. Move one thing. Coach one phrase. The story holds."
+    architect: "You design the scene. You know where evidence needs to be. You know what the camera can verify."
+    author: "You write the official version. Not what happened. What needs to have happened. And it becomes the truth because you wrote it."
+
+# ============================================================
+# HOOK IDENTITY (viral-optimized, experiential)
+# ============================================================
+hook_identity:
+  primary: >
+    You arrive second.
+    By the time you leave,
+    it never happened.
+  alternates:
+    - >
+      They call you when the scene
+      doesn't match the story.
+      You make it match.
+    - >
+      You don't commit crimes.
+      You erase them.
+      Thirty-seven times and counting.
+    - >
+      The report is finished before
+      you see the scene.
+      Your job is making the scene agree.
+
+# ============================================================
+# SIGNATURE LINE (repeats with escalating dissolution)
+# ============================================================
+signature_line:
+  line: "By the time you leave, it never happened."
+  escalation_pattern:
+    occurrence_1:
+      context: "After first real clean. Describing the result to yourself."
+      weight: "CLINICAL - operational. Describing what a clean scene means."
+      note: "The phrase feels like professionalism. Job well done."
+    occurrence_2:
+      context: "After snap moment. Looking at a scene you already changed. Unable to remember the original."
+      weight: "DISSOCIATIVE - the fabrication has replaced memory. The words describe not what you did but what you have become."
+      note: "Same words. The viewer hears them as confession now."
+    occurrence_3:
+      context: "Ending. New call. New scene. Same work."
+      weight: "IDENTITY - you don't clean scenes. You author reality. This is who you are."
+  ending_variation: >
+    "By the time you leave, it never happened."
+    You don't remember what "it" was anymore.
+
+# ============================================================
+# SECONDARY MOTIF (the assessment beat)
+# ============================================================
+secondary_motif:
+  line: "You step back. You look at the scene."
+  description: >
+    The assessment beat. The cleaner steps back from the scene
+    they have altered and examines it the way a painter examines
+    a canvas. This is the moment between the physical work and
+    the narrative work. Between moving things and writing the
+    story. The motif tracks the cop's relationship to their own
+    fabrication - from conscious evaluation to automatic scan to
+    a moment where they step back and see something that looks
+    right but cannot explain why.
+  escalation_pattern:
+    early: "CONSCIOUS - You step back. You look at the scene. You check if it matches the story you need."
+    mid: "AUTOMATIC - You step back. It already matches. You knew it would. Your hands know the work."
+    end: "ABSENT - You step back. You look at the scene. It looks right. You don't know why."
+
+# ============================================================
+# SYSTEM PHRASE (the coaching command)
+# ============================================================
+system_phrase:
+  line: "Tell me again."
+  description: >
+    The phrase the cleaner uses to coach other officers through
+    their statements. When the first version of the story will
+    not hold up, the cleaner says 'Tell me again.' The officer
+    restarts. The cleaner stops them at the wrong parts. 'Tell
+    me again.' By the third time, the story is clean. It always
+    takes three times.
+  usage: >
+    Appears 3-4 times. First: genuine coaching of a shaken
+    officer after a bad shooting. Second: routine direction -
+    the cleaner says it like a film director giving notes.
+    Third: the cleaner says it to themselves - reconstructing
+    their own memory of a scene they can no longer verify.
+  key_lines:
+    - "Tell me again. Start from when you arrived. Not from when it started."
+    - "Tell me again. Skip the part about the hands. They were not up. They were reaching."
+    - "Tell me again. You sound like you're lying. You need to sound like you're remembering."
+
+# ============================================================
+# SCENE ANCHOR (THE HANDS - sensory thread)
+# ============================================================
+scene_anchor:
+  description: >
+    One specific sensory detail the viewer tracks across the
+    episode. Not a legal case. Not a witness. The hands. The
+    position of the victim's hands. The cleaner repositions
+    them in Phase 2. The detail keeps surfacing - an autopsy
+    note, a photo angle, a report line. Each time, the cleaner
+    adjusts the story. Until the cleaner looks at a scene and
+    cannot remember where the hands were before they moved them.
+    The hands become the visual thread that makes memory erosion
+    tangible. The viewer REMEMBERS what the cleaner moved. The
+    cleaner does not. That gap is the horror.
+  identification: "THE_HANDS"
+  sensory_anchor: "the position of the victim's hands"
+  stages:
+    - stage: "FIRST_CLEAN"
+      phase: "Phase 2 - First Real Clean"
+      markers:
+        - "The hands are up. Palms open. That is not self-defense. You reposition them. One on the waistband. One reaching."
+        - "You coach the officer. Tell me again. Third time, the story holds."
+        - "Report filed. Scene cleared. You drive home."
+      note: "Viewer sees the specific physical act. Hands repositioned. Small. Precise. Clinical. The viewer will remember this."
+    - stage: "RESURFACING"
+      phase: "Phase 3 - System Expansion"
+      markers:
+        - "The autopsy report notes bruising inconsistent with the hand position in the photos."
+        - "You call the officer. 'The hands. Were they up or down when you arrived?' The officer pauses. 'Down. No. Up. I think up.'"
+        - "You adjust one line in the report. 'Hands were observed reaching toward waistband.' One line changes everything."
+      note: "The hands are cracking the story. The cleaner patches. But the detail is specific enough that the viewer REMEMBERS it from Phase 2."
+    - stage: "REPLACED"
+      phase: "Phase 4 - Snap Aftermath"
+      markers:
+        - "Internal review pulls the file. You read your own report. 'Hands reaching toward waistband.'"
+        - "You try to remember. Were the hands up or down when you arrived? You wrote 'reaching.' You remember 'reaching.' But you moved them."
+        - "The fabrication has become your memory of the hands. The original position is gone."
+      note: "The viewer watched the cleaner move the hands in Phase 2. The cleaner can no longer access that memory. The viewer can. That asymmetry IS the horror."
+  post_snap_line: "You read the report. 'Hands reaching toward waistband.' You wrote it. You moved them. You remember reaching. Not up. Not open. Reaching. Because that is what you wrote."
+
+# ============================================================
+# CORE MECHANIC (4-beat POV loop with friction overlay)
+# ============================================================
+core_mechanic:
+  name: "THE_SANITIZED_SCENE"
+  description: >
+    The cop does not commit crimes. The cop makes crimes
+    disappear. The skill is not violence or fabrication. The
+    skill is forensic narrative - making a scene tell a story
+    that never happened. Moving a gun two inches. Removing a
+    shell casing. Coaching the words. Writing the report. By
+    the time the cleaner leaves, the scene is not a crime scene.
+    It is a story the system can accept.
+  pov_loop:
+    structure: "arrive -> read -> alter -> author"
+    beats:
+      - beat: "ARRIVE"
+        line: "You get the call."
+        note: "Not from dispatch. From a cop who needs the scene fixed. You always answer."
+      - beat: "READ"
+        line: "You read the scene."
+        note: "Not for evidence. For problems. What doesn't match. What the camera saw. What the report needs to say."
+      - beat: "ALTER"
+        line: "You fix it."
+        note: "Small changes. A gun moved. A casing pocketed. A camera battery pulled. The scene matches the story now."
+      - beat: "AUTHOR"
+        line: "You write the report."
+        note: "The report is what happened. Not what you saw. What you wrote. Ink makes it real."
+  friction_layer:
+    description: >
+      Not every scene is simple. Starting from cycle 2, the loop
+      encounters FRICTION - problems that resist clean resolution.
+      A detail that contradicts. Two things that cannot both be
+      true. A fix that creates a new problem. Friction prevents
+      the video from becoming monotone escalation. It creates
+      micro-decisions that hold retention in the middle section.
+    note: >
+      Friction appears between READ and ALTER. The cleaner reads
+      the scene, finds a problem they cannot cleanly solve, must
+      choose which version of the lie to commit to. This is NOT
+      a formal 5th beat - the 4-beat structure stays clean and
+      mirrors the other 3 episodes. Friction is an overlay that
+      appears in specific cycles only.
+  loop_mutation:
+    description: >
+      Each repetition degrades in BOTH hesitation AND precision.
+      The cleaner stops feeling the weight of the alteration. The
+      scenes stop being specific and become procedural. By the
+      final cycle, the cleaner does not assess before altering.
+      They alter before assessing. The compulsion to clean has
+      replaced the judgment to evaluate. The distinction between
+      memory and fabrication is gone.
+    progression:
+      - cycle: 1
+        label: "RELUCTANT"
+        mutation: "First real clean. You hesitate before touching anything. You tell yourself it is just procedure."
+        tempo: "SLOW - you look at every detail twice. You feel the weight of what you are changing."
+        emotional_state: "guilt as friction"
+        friction: null
+        friction_note: "No friction. Scene is straightforward. Establishes the baseline clean."
+      - cycle: 2
+        label: "COMPETENT"
+        mutation: "Second clean. Faster. You know where to look. You know what to move."
+        tempo: "MEASURED - efficient movements. No hesitation. The work is familiar."
+        emotional_state: "skill as justification"
+        friction: >
+          Two problems. The gun position says self-defense but the
+          casings say the shooter was moving. You can fix the gun
+          or the casings. Not both. You choose the gun. The casings
+          become a crack someone might find later.
+        friction_note: "First time the cleaner faces a choice. Creates latent tension - the unfixed detail is a time bomb the viewer tracks."
+      - cycle: 3
+        label: "PREEMPTIVE"
+        mutation: "You arrive and start working before anyone tells you what happened. You read the scene. You already know what it needs to say."
+        tempo: "FAST - you are changing things while still reading. Assessment and alteration are the same step."
+        emotional_state: "instinct replaces thought"
+        friction: >
+          A body camera was recording. You pull the battery. But
+          the camera was cloud-syncing. You don't know how much
+          uploaded. You clean the scene anyway. You write the
+          report knowing there might be footage that contradicts it.
+        friction_note: "Friction becomes ambient uncertainty. The cleaner proceeds DESPITE knowing the clean may not hold. This is the transition from skill to compulsion."
+      - cycle: 4
+        label: "AUTONOMOUS"
+        mutation: "You clean a scene that did not need cleaning. The shooting was justified. But your hands moved first. You have already changed three things before you realize it was clean."
+        tempo: "COMPRESSED - there is no pause between arrive and alter. You are already working."
+        emotional_state: "compulsion overrides assessment"
+        friction: null
+        friction_note: "No external friction needed. The friction is INTERNAL - the cleaner's own automation is the problem. This IS the snap moment."
+
+# ============================================================
+# KEY FACTS (VO-ready + writer reference)
+# ============================================================
+key_facts:
+  # --- Killer lines (short, cold, experiential) ---
+  - "You arrive second. The truth leaves first."
+  - "You don't touch evidence. You adjust it."
+  - "Two inches. That is all it takes. Two inches turns an execution into self-defense."
+  - "The gun was in his hand when you arrived. It was not. But it was when the photos were taken."
+  - "You coach them like an acting teacher. 'Don't say you fired. Say the weapon discharged.'"
+  - "The body camera battery died. You know because you pulled it yourself."
+  - "Thirty-seven scenes. Not one investigation. Not one question."
+  - "The report is finished before you see the scene. Your job is making the scene agree."
+  - "You don't commit crimes. You erase them. The system does not call it a cover-up. The system calls it scene management."
+  - "Tell me again. Start from when you arrived. Not from when it started."
+  - "The rookie saw everything. You tell them what they saw. They nod. Tomorrow they will remember your version."
+  - "Someone new calls. Same panic. Same silence. Same work."
+  - "You fix what happened. Or you fix what they say happened. You stopped knowing the difference."
+  - "You remember the report. You don't remember the scene."
+  - "You step back. You look at the scene. It looks right. You don't know why."
+
+  # --- Retention hooks (curiosity-gap, deploy every 60-90s) ---
+  - "Thirty-seven scenes." # scale
+  - "Not one question." # system complicity
+  - "Two inches." # the horror of small changes
+  - "The battery died." # euphemism as horror
+  - "Tell me again." # coaching
+  - "You can't remember the original." # identity dissolution
+  - "The hands." # sensory anchor - scene anchor thread
+
+  # --- System context (WRITER REFERENCE ONLY) ---
+  - "[REF] Walter Scott (2015): Officer Slager shot Scott in the back while fleeing. Bystander video appeared to show Slager picking up his Taser and dropping it near Scott's body. Only discovered because bystander filmed from distance."
+  - "[REF] Laquan McDonald (2016): Chicago officers' reports contradicted dashcam video. Burger King surveillance footage near scene reportedly had 86-minute gap. Multiple officers' written accounts aligned with each other but not with video."
+  - "[REF] Baltimore Gun Trace Task Force: officers carried replica firearms and BB guns to plant at scenes of unjustified force. Convicted 2018."
+  - "[REF] 'Drop gun' or 'throw-down weapon': unregistered firearm carried by officers to place near subjects after unjustified shootings. Documented across departments for decades."
+  - "[REF] Many departments allow officers 48-72 hours before giving formal statements after shootings - termed 'cooling off period' - enabling consultation with attorneys and alignment of accounts."
+  - "[REF] In most US jurisdictions, the same department that employs the officer investigates the officer-involved shooting. Independent investigation is the exception."
+  - "[REF] DOJ pattern-or-practice investigations in Cleveland, Chicago, Baltimore, and Ferguson all documented systematic failures in preserving scene evidence and investigating officer-involved incidents independently."
+  - "[REF] 'Scene integrity' is the legal standard for evidence preservation - but the first responders to secure the scene are often colleagues of the officer involved in the incident."
+
+# ============================================================
+# KEY LOCATIONS
+# ============================================================
+key_locations:
+  - id: LOC_THE_SCENE
+    name: "The Scene"
+    description: "Where it happened. Where it gets rewritten. Same location, two different events."
+  - id: LOC_PATROL_CAR_TRUNK
+    name: "The Trunk"
+    description: "Where the drop gun lives. Where the extra battery goes. Where evidence becomes property."
+  - id: LOC_PRECINCT_HALLWAY
+    name: "The Hallway"
+    description: "Where stories get aligned before the interview room door opens. Where 'tell me again' happens."
+  - id: LOC_REPORT_DESK
+    name: "The Desk"
+    description: "Where ink makes it real. Where the scene becomes the story. Where the story becomes the truth."
+  - id: LOC_EVIDENCE_ROOM
+    name: "The Evidence Room"
+    description: "Where things disappear legally. Where chain of custody has gaps no one audits."
+  - id: LOC_AUTOPSY_ROOM
+    name: "The Medical Examiner"
+    description: "Where the body tells a story you cannot rewrite. Where the cracks start."
+
+key_tensions:
+  - DUTY_VS_SELF
+  - POWER_VS_ISOLATION
+  - PROTECTION_VS_CONTROL
+
+accessory_tags:
+  - "badge on belt"
+  - "latex gloves in back pocket"
+  - "small flashlight clipped to vest"
+
+# ============================================================
+# SNAP MOMENT (double reveal - compulsion + perception failure)
+# ============================================================
+snap_moment:
+  description: >
+    The single moment that shifts from system horror to personal
+    horror. Two layers of reveal that land within seconds of each
+    other. Layer 1: the cleaner arrives, reads, starts working -
+    the viewer assumes a dirty scene. Layer 2: the scene was
+    already clean. The shooting was justified. The cleaner's
+    compulsion overrode assessment. Layer 3 (the twist): something
+    was already moved before the cleaner arrived. The angle is
+    wrong - but not the way the cleaner expected. Someone was here
+    first. Or the cleaner was here before and does not remember.
+    The ambiguity is the horror. The cleaner cannot tell their own
+    work from reality.
+  foreshadow:
+    - "Your hands start before your brain does. You notice. You don't stop."
+    - "You arrive at a scene and start reading for problems before you know what happened."
+    - "You catch yourself adjusting something that did not need adjusting. You leave it. This time."
+  setup: >
+    New call. You arrive. The scene is in front of you.
+    You start working.
+  event: >
+    You move the gun. You pocket a casing.
+    You reposition the hands.
+    Then you read the scene.
+  first_reveal: >
+    The scene was clean.
+    The shooting was justified.
+    You already changed three things.
+  second_reveal: >
+    You look at the gun again.
+    The angle is wrong. But not the way you expected.
+    Someone already moved it. Or you were here before.
+    You don't know which is worse.
+  sensory_beat: >
+    You look at your hands. Gloves on.
+    You don't remember putting them on.
+    You don't remember where the gun was.
+    You don't remember if the hands were up.
+  aftermath:
+    immediate:
+      - "You look at your hands."
+      - "You try to remember where the gun was."
+      - "You try to remember where the hands were."
+      - "You can't."
+    cold_calculation: "You write the report anyway. The report matches what you made. Not what was there. Not what was there before someone else. Not what was there before you."
+    erasure: "You cannot undo what you cannot remember. You cannot verify what you cannot distinguish from your own work."
+  placement: "Late Phase 3 or early Phase 4 - after the viewer trusts the cleaner's skill as deliberate."
+  effect: >
+    Four-layer horror: (1) the viewer watches the cleaner work
+    what they assume is a dirty scene - then realizes it was clean,
+    (2) the cleaner realizes they have contaminated evidence on a
+    justified shooting and cannot undo it without exposing
+    themselves and every previous clean, (3) something at the
+    scene was already altered - by another cleaner, by the cleaner
+    on a previous visit they don't remember, or by the system
+    itself - the ambiguity is never resolved, (4) the deepest
+    horror: the cleaner cannot distinguish between scenes they
+    cleaned, scenes others cleaned, and scenes that were never
+    dirty. Their perception has been replaced by their method.
+    The truth is not buried. The truth is indistinguishable from
+    the fabrication. Even to the fabricator.
+
+# ============================================================
+# IDENTITY EROSION (authorship arc)
+# ============================================================
+identity_erosion:
+  description: >
+    The cop does not become a cover-up specialist in one moment.
+    The badge stops meaning investigation and starts meaning
+    narration. The most dangerous stage is when the cleaner
+    stops seeing the difference between what happened and what
+    they wrote. The fabrication replaces memory. The report
+    becomes the truth - not because anyone believes it, but
+    because no other version exists anymore.
+  stages:
+    - stage: "WITNESS"
+      marker: "You see another cop do something wrong. You say nothing. Silence is the first clean."
+    - stage: "FIRST_ASSIST"
+      marker: "Someone asks you to move one thing. You do. The investigation closes. No one asks."
+    - stage: "COMPETENCE"
+      marker: "They call you now. Not dispatch. The other call. Because you know how to make a scene tell the right story."
+    - stage: "ARCHITECT"
+      marker: "You arrive and start working before anyone explains. You read the scene. You already know what it needs to say."
+    - stage: "AUTHOR"
+      marker: "The report is the truth. Not because it is accurate. Because your version is the only one that exists."
+    - stage: "DISSOLUTION"
+      marker: "You read a report from last year. Your handwriting. Your words. You cannot tell which details are real and which you placed."
+
+# ============================================================
+# CONTAGIOUS ERASURE (the method spreads)
+# ============================================================
+contagious_erasure:
+  description: >
+    The cleaner's method spreads the way all corruption spreads -
+    through proximity. A new cop watches the cleaner work.
+    Watches how a scene transforms. Watches how a story aligns.
+    The new cop does not need to be taught. They just need to be
+    present. Next month, they move something on their own. The
+    cleaner never told them to. The cleaner did not need to.
+  progression:
+    - stage: "OBSERVATION"
+      beat: "The new cop watches you work a scene. Watches you move the gun. Says nothing. Eyes on your hands."
+    - stage: "SILENCE"
+      beat: "The new cop is asked what they saw. They say: 'I arrived after.' Your words. Not theirs."
+    - stage: "PARTICIPATION"
+      beat: "The new cop moves something without being asked. Small. A casing. They look at you. You nod."
+    - stage: "REPLICATION"
+      beat: "The new cop gets a call. Not from dispatch. From another cop. The new cop says: 'Tell me again.'"
+    - stage: "AUTONOMY"
+      beat: "You hear the new cop coaching someone. Your phrase. Your cadence. Your method. You don't remember teaching them that."
+  final_note: >
+    The horror of AUTONOMY: the system reproduces itself without
+    instruction. The cleaner did not train the new cop. Proximity
+    was enough. The phrase spreads like a pathogen. The cleaner
+    has become patient zero of a corruption they cannot recall
+    transmitting. The system does not need a mentor. The system
+    needs one example.
+
+# ============================================================
+# ENDING LOGIC (dissolution of memory)
+# ============================================================
+ending_logic:
+  description: >
+    The ending is not about exposure. It is about dissolution.
+    The cleaner does not get caught. The cleaner loses the
+    boundary between memory and fabrication. They read their own
+    reports and cannot identify which details are observed and
+    which are authored. The signature line returns final - 'By
+    the time you leave, it never happened' - but now 'it' refers
+    not just to the crime but to the truth itself. The truth
+    never happened. Because the cleaner's version replaced it.
+    And the cleaner's version is the only one left.
+  ending_beats:
+    - "You read a report from last year. Your handwriting. Every detail is precise. You cannot tell which ones are real."
+    - "You drive past a scene you cleaned. You remember what you wrote. You don't remember what was there."
+    - "You remember the report. You don't remember the scene. You stopped knowing when that changed."
+    - "'By the time you leave, it never happened.' You don't remember what 'it' was anymore."
+    - "Your phone rings. New scene. Same panic. Same silence. Same work."
+  final_image: >
+    The phone rings. You answer. Same voice. Same fear. Same
+    silence before they say what happened. You are already
+    reaching for the gloves. You don't ask what happened. You
+    haven't asked in years. It doesn't matter what happened.
+    It matters what it needs to look like. You drive.
+
+# ============================================================
+# PHASE GUIDANCE (15 min target)
+# ============================================================
+phase_guidance:
+  description: >
+    Recommended narrative weight distribution for 15-minute target.
+    Word budget: 1755-2340 words at 130 WPM.
+  phases:
+    - phase: "HOOK + CONDITIONING"
+      weight: "~8%"
+      duration_approx: "0:00-1:15"
+      content: "Hook (You arrive second. By the time you leave, it never happened.) + introduce the silence that becomes complicity. First patrol. First time you see something wrong and say nothing."
+      signature_use: "none yet"
+      motif_use: "none yet"
+      sensory_note: "Glove snap - first occurrence. Deliberate. Conscious."
+    - phase: "FIRST CLEAN"
+      weight: "~18%"
+      duration_approx: "1:15-4:00"
+      content: "Scene anchor introduced (THE HANDS - viewer watches the cleaner reposition the victim's hands). First real scene alteration. System phrase introduced: 'Tell me again.' Coach another officer through their statement three times."
+      signature_use: "'By the time you leave, it never happened' (clinical - first occurrence)"
+      motif_use: "'You step back. You look at the scene.' (conscious - first occurrence)"
+      scene_anchor: "FIRST_CLEAN stage - hands repositioned from palms-open to reaching-toward-waistband"
+      friction: "None - baseline clean. Scene is straightforward. Establishes the cleaner's method."
+    - phase: "SYSTEM EXPANSION"
+      weight: "~32%"
+      duration_approx: "4:00-8:45"
+      content: "Loop mutation cycles 2-3. More scenes. More calls. You become the precinct's go-to. Scene anchor resurfaces (autopsy contradicts hand position). 'Two inches' line. Drop gun motif."
+      retention_note: "CRITICAL SECTION for retention. Every 60-90s deploy one of: friction event (contradiction that forces a choice), scene anchor resurfacing (the hands), system absence ('not one question'). Loop mutation prevents predictability. Scale reveal: 'Thirty-seven scenes. Not one question.'"
+      scene_anchor: "RESURFACING stage - autopsy notes bruising inconsistent with hand position, officer can't remember, report adjusted"
+      friction: "Cycle 2: gun vs casings contradiction (choose one fix). Cycle 3: cloud-syncing body camera (clean despite uncertainty)."
+      transition: "You stop reading what happened. You read what it needs to look like."
+    - phase: "SNAP + AFTERMATH"
+      weight: "~20%"
+      duration_approx: "8:45-11:45"
+      content: "Snap moment (double reveal: clean a clean scene + something already moved). Hands move before brain. Cannot remember original. Second reveal: angle already wrong before you arrived. Write report matching fabrication. Scene anchor final: read own report, cannot verify truth of the hands."
+      signature_use: "'By the time you leave, it never happened' (dissociative - second occurrence)"
+      motif_use: "'You step back. You look at the scene.' (automatic - but cannot see what was there before)"
+      scene_anchor: "REPLACED stage - reads own report 'hands reaching toward waistband' - cannot remember if they were up or down"
+      snap_layers: "Layer 1: viewer assumes dirty scene. Layer 2: scene was clean. Layer 3: something was already moved - ambiguous who/when."
+    - phase: "IDENTITY + CONTAGION"
+      weight: "~15%"
+      duration_approx: "11:45-14:00"
+      content: "Contagion (new cop learns the method through proximity). Memory dissolution (cannot tell real from authored). Contagion AUTONOMY: hear own phrase in someone else's mouth. 'You don't remember teaching them that.' Signature line returns final."
+      signature_use: "'By the time you leave, it never happened' (identity - third occurrence)"
+      motif_use: "'You step back. You look at the scene.' (absent - it looks right, you don't know why)"
+    - phase: "ENDING LOOP"
+      weight: "~7%"
+      duration_approx: "14:00-15:00"
+      content: "Phone rings. New scene. Already reaching for gloves. Don't ask what happened. Drive."
+      signature_use: "ending variation: 'You don't remember what it was anymore.'"
+
+# ============================================================
+# CREATIVE CONSTRAINTS
+# ============================================================
+creative_constraints:
+  primary_rule: "ERASURE_AS_AUTHORSHIP"
+  description: >
+    The horror is not the original crime. The horror is the
+    erasure. The cleaner does not commit violence. The cleaner
+    commits something worse: they remove the evidence that
+    violence occurred. They don't protect the shooter. They
+    protect the story. The system does not need to look away.
+    The system has a person who makes sure there is nothing
+    to see. The substance is not power (PV_0026) or people
+    (PV_0027) or evidence (PV_0025). The substance is reality
+    itself. The addiction is authorship.
+  subject_framing: >
+    Subject starts as a silent witness - someone who saw
+    something wrong and said nothing. The transition to active
+    erasure is shown through physical precision - hands that
+    know where evidence needs to be, words that know how stories
+    need to sound, reports that create the only surviving version
+    of events. The scene anchor (THE HANDS) makes the dissolution
+    visible and tangible - each resurface forces another layer of
+    fabrication until the original truth is physically impossible
+    to recover.
+  ending_logic: >
+    The ending lands on dissolution of memory. The cleaner reads
+    their own reports and cannot identify which details are real.
+    They drive past a scene and remember what they wrote, not what
+    was there. The signature line returns final - 'By the time you
+    leave, it never happened' - but now 'it' refers to the truth
+    itself. The last image: the phone rings. New scene. The cleaner
+    is already reaching for the gloves. They don't ask what
+    happened. They haven't asked in years.
+  system_horror_rule: >
+    NEVER explain the system through exposition. Show through what
+    the system does NOT do: it does not investigate its own, does
+    not verify scene integrity independently, does not compare
+    reports to physical evidence with fresh eyes. The most powerful
+    line about the system is: 'Thirty-seven scenes. Not one
+    question.' The viewer fills in the horror. The system is not
+    broken. The system has a cleaner. The system works perfectly.
+  scene_anchor_rule: >
+    The scene anchor (THE_HANDS) must appear in at least 3 phases.
+    It is a SENSORY DETAIL - the position of the victim's hands.
+    The viewer tracks the hands visually. The cleaner's memory of
+    the hands degrades. The gap between what the viewer remembers
+    and what the cleaner remembers IS the horror. This is not a
+    legal case or a witness - it is a physical, tangible detail
+    that the audience can see and the cleaner eventually cannot.
+  friction_rule: >
+    The middle section (4:00-8:45) MUST contain friction events
+    that prevent monotone escalation. Friction = a problem in the
+    scene that resists clean resolution. A choice that creates
+    latent consequences. Friction appears in cycles 2-3 as an
+    overlay on the 4-beat loop, NOT as a structural change. The
+    4-beat structure must remain consistent with the other 3
+    episodes in the series.
+  forbidden_framing:
+    - "Heroic whistleblower or redemption arc"
+    - "Single rogue cop - the system enables and needs the cleaner"
+    - "Glorification of the cleaner's skill as clever tradecraft"
+    - "Pure psychopath - the original silence must exist to make escalation possible"
+    - "Explaining forensic procedure through exposition"
+    - "Showing the original crime in detail - focus is the AFTERMATH, not the act"
+    - "The cleaner getting caught - the horror is that they never do"
+    - "Victim identification beyond the scene - the victim is erased BY the clean"
+    - "Resolving the snap moment ambiguity - 'someone already moved it' must stay unresolved"
+  required_framing:
+    - "'By the time you leave, it never happened' - 3x escalation: clinical -> dissociative -> identity"
+    - "Ending variation: 'You don't remember what it was anymore.'"
+    - "'You step back. You look at the scene.' - secondary motif 3x: conscious -> automatic -> absent ('It looks right. You don't know why.')"
+    - "'Tell me again' - system phrase 3-4x: coaching -> directing -> self-directed -> unnecessary"
+    - "4-beat loop (arrive, read, alter, author) with MUTATION each cycle: reluctant -> competent -> preemptive -> autonomous"
+    - "Friction overlay on cycles 2-3: gun-vs-casings contradiction (C2), cloud-syncing camera uncertainty (C3)"
+    - "Scene anchor THE_HANDS across 3 stages: reposition (Phase 2) -> autopsy contradiction (Phase 3) -> memory replaced (Phase 4)"
+    - "Snap moment DOUBLE REVEAL: clean a clean scene (compulsion) + something already moved (ambiguous perception failure)"
+    - "Contagion 5 stages: observation -> silence -> participation -> replication -> autonomy ('You don't remember teaching them that')"
+    - "'Two inches' as the recurring operational detail - small physical change, enormous narrative change"
+    - "Micro-hooks every 60-90s: scale reveals, friction choices, system absence, sensory anchors"
+    - "Ending: phone rings, new scene, already reaching for gloves, don't ask what happened"
+    - "3 high-impact dissolution lines deployed across phases: 'You fix what happened / You remember the report / It looks right'"
+
+# ============================================================
+# MICRO-BEHAVIORS (motif with progression)
+# ============================================================
+micro_behaviors:
+  description: >
+    Three signature micro-actions that repeat as motifs. Each
+    one evolves across the episode. The repetition creates the
+    rhythm - one motif return every 40-60 seconds of VO.
+  frequency: "1 motif return every ~40-60 seconds of VO"
+  behaviors:
+    - motif: "THE_GLOVES"
+      description: "Putting on gloves before scene work."
+      progression:
+        - "You pull on the gloves. You look around. You wait until the others leave."
+        - "You pull on the gloves in the car. Before you arrive. Before you see the scene."
+        - "You don't remember putting them on. They are already on when you look down."
+    - motif: "THE_ADJUSTMENT"
+      description: "Moving evidence by small amounts."
+      progression:
+        - "You move the gun two inches. You check the angle. You measure with your eyes."
+        - "You move the gun without measuring. Your hands know the distance."
+        - "You look at the scene and things are already where they need to be. You don't remember moving them."
+    - motif: "THE_REPORT"
+      description: "Writing the official version."
+      progression:
+        - "You write the report slowly. You check it against what you remember. You change two words."
+        - "You write the report from memory. Not from the scene. From the story."
+        - "You write the report. You read it back. You cannot tell which parts you observed and which you authored."
+
+# ============================================================
+# SENSORY ANCHORS (audio/visual retention hooks)
+# ============================================================
+sensory_anchors:
+  description: >
+    Recurring sensory details that create rhythm and recognition
+    across the episode. Each anchor appears 2-3 times with subtle
+    variation. These are NOT dialogue motifs (those are in
+    signature_line, secondary_motif, system_phrase). These are
+    physical/ambient textures that the viewer registers
+    subconsciously. Deploy as production-level guidance for
+    illustration strips and video prompts.
+  anchors:
+    - id: "GLOVE_SNAP"
+      sense: "AUDIO/TACTILE"
+      description: "The sound and act of pulling on latex gloves before scene work."
+      progression:
+        - "You pull on the gloves deliberately. One finger at a time. You look around first."
+        - "You pull on the gloves in the car. Before you arrive. Before you see the scene."
+        - "You look down. Gloves already on. You don't remember putting them on."
+      note: "Glove snap = Pavlovian trigger for the viewer. Each occurrence signals the cleaner is crossing the line."
+    - id: "CAMERA_CLICK"
+      sense: "AUDIO/VISUAL"
+      description: "The sound of the evidence camera. Photos taken AFTER the scene is altered."
+      progression:
+        - "You wait for the camera. Click. Click. The photos show your version now."
+        - "The camera is running when you arrive. You pull the battery. Write 'malfunction.'"
+        - "You hear a click from across the street. Not your camera. You don't know whose."
+      note: "Camera = truth-recording device. The cleaner's relationship with cameras tracks their relationship with truth."
+    - id: "RADIO_STATIC"
+      sense: "AUDIO"
+      description: "The patrol radio. Background noise that marks the boundary between official and unofficial."
+      progression:
+        - "You turn the radio down before you start working. Dispatch doesn't need to hear this."
+        - "The radio is off. You don't remember turning it off."
+      note: "Radio off = crossing the line. Silence is complicity. Shorter progression - appears only 2x."
+
+# ============================================================
+# TENSION CATALYSTS (retention-optimized)
+# ============================================================
+tension_catalysts:
+  - "You see a cop kick a gun closer to the body. You say nothing. That is the first clean."
+  - "They ask you to help. Just one thing. Move the casings two inches left. Two inches changes everything."
+  - "You coach the officer through the statement. Third try. The story holds. The investigation closes in a week."
+  - "Word spreads. They call you now. Not dispatch. The other call. The one that means a scene needs fixing."
+  - "You arrive before the investigators. You have twelve minutes. You need eight."
+  - "An autopsy report contradicts the scene you built. You call the officer. 'Tell me again what angle you were standing.'"
+  - "You keep a count. Thirty-seven. Not because you are proud. Because you cannot stop counting."
+  - "Internal Affairs reviews a file. Your report is pristine. They commend the thoroughness."
+  - "A civilian recorded the scene from their window before you arrived. You don't know the video exists. Yet."
+  - "You drive past a scene from three months ago. You remember the report. You don't remember what was there."
+  - "The new cop watches you work. They don't ask questions. Next month they move something without being told."
+  - "The gun position says self-defense. The casings say the shooter was moving. You can fix one. Not both. You choose."
+  - "The body camera was cloud-syncing. You pulled the battery but footage may exist. You clean the scene anyway."
+  - "You hear the new cop say 'Tell me again' to a rookie. Your phrase. Your cadence. You don't remember teaching them."
+
+# ============================================================
+# IRREVERSIBLE MARKERS
+# ============================================================
+irreversible_markers:
+  - "You move evidence for the first time. Not accidentally. Deliberately. Two inches."
+  - "You pull a body camera battery and write 'equipment malfunction' in the report."
+  - "You coach an officer to change their statement. Their trust is your tool."
+  - "You clean a scene where the victim could have survived. An ambulance was twelve minutes away. You were there for twenty."
+  - "You clean a clean scene. The shooting was justified. Your hands moved before your brain."
+  - "You read your own report and cannot tell which details you observed and which you authored."
+  - "You teach the new cop the process. Your words come out of their mouth at the next scene."
+  - "You hear your phrase in someone's mouth and do not remember speaking it first."
+
+# ============================================================
+# HOOK OPTIONS (ready to use)
+# ============================================================
+hook_options:
+  option_1:
+    label: "cold + immediate (recommended)"
+    lines:
+      - "You arrive second."
+      - "By the time you leave,"
+      - "it never happened."
+      - "Thirty-seven times and counting."
+  option_2:
+    label: "forensic horror"
+    lines:
+      - "Two inches."
+      - "That is all it takes."
+      - "Two inches turns an execution"
+      - "into self-defense."
+  option_3:
+    label: "system complicity"
+    lines:
+      - "They don't call dispatch."
+      - "They call you."
+      - "Because you know how to make"
+      - "a scene tell the right story."
+
+# ============================================================
+# SUBJECT VARIANTS
+# ============================================================
+subject_variants:
+  - type: "THE_SILENT_WITNESS"
+    trigger: "Starts with silence. Saw something wrong. Said nothing. Silence became skill. Skill became identity."
+  - type: "THE_FORENSIC_MIND"
+    trigger: "Crime scene training used in reverse. Knows what investigators look for. Removes it before they arrive."
+  - type: "THE_INHERITED_CLEANER"
+    trigger: "Learned from a senior cop who cleaned for twenty years. Inherited the method. Inherited the phone number people call."
+
+# ============================================================
+# FAILURE MECHANICS
+# ============================================================
+failure_mechanics:
+  description: >
+    The system occasionally cracks - a bystander video, a medical
+    examiner who writes what they found, a federal investigation.
+    But the real horror: even when cracks appear, the cleaner
+    patches them. One line changed in a report. One witness
+    coached again. The system does not need to be perfect. It
+    just needs to be faster than the truth.
+  pattern:
+    - "A bystander recorded the scene before you arrived. The video shows what was there. Not what you made."
+    - "The medical examiner's report contradicts the scene. Entry angle does not match position. You call: 'Can you review the positioning again?'"
+    - "A federal pattern-or-practice investigation opens. Your scenes are in the data. But the reports are pristine. They always are."
+    - "A journalist files FOIA for scene photos. The photos match your version. Because the photos were taken after you finished."
+
+related_worlds:
+  - WORLD_CRIMINAL_CORRUPT_COP
+  - WORLD_CRIMINAL_CORRUPT_COP_SHOOTER
+  - WORLD_CRIMINAL_CORRUPT_COP_HANDLER
+series_note: >
+  Fourth episode in the corrupt cop series. PV_0025 explored
+  evidence fabrication (THE_MANUFACTURED_CASE) - signature:
+  'You don't find evidence. You place it.' PV_0026 explored
+  lethal force as addiction (THE_CALCULATED_SHOT) - signature:
+  'I feared for my life.' PV_0027 explored human ownership
+  through the CI system (THE_INFORMANT_MACHINE) - signature:
+  'You own them.' PV_0028 explores reality erasure through
+  scene cleaning (THE_SANITIZED_SCENE) - signature: 'By the
+  time you leave, it never happened.' Connecting thread: all
+  four cops operate inside a system that never asks. Each
+  signature phrase creates a reality the system accepts without
+  verification. The difference: PV_0025 fabricates evidence.
+  PV_0026 fabricates self-defense. PV_0027 fabricates cooperation.
+  PV_0028 fabricates the scene itself. The cleaner is the final
+  link - without the cleaner, the other three would be visible.
+  The cleaner makes the system airtight.
+
+used_in_episodes: [PV_0028]
+created: "2026-04-21"
+updated: "2026-04-21"

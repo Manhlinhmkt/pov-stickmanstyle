@@ -6,10 +6,54 @@ skills_required:
 
 # WORKFLOW: /pvle-gen-video-prompts
 
-> **Phase:** 3.2 — Video  
+> **Phase:** 3.2 - Video  
 > **Input:** `illustration_strip_table.csv` + `image_prompts.csv` + `vo_script_table.csv`  
 > **Output:** `pvle/episodes/{EP}/video_prompts.csv`  
 > **Target tool:** Veo (Google video generation)
+
+## EXECUTION_CHECKLIST
+
+```yaml
+total_steps: 7
+steps:
+  - step: 1
+    name: "Read Inputs"
+    type: AUTO
+    output: "inline (data loaded)"
+
+  - step: 2
+    name: "Map Strips to Clips"
+    type: AUTO
+    output: "inline (clip mapping)"
+
+  - step: 3
+    name: "Select Camera Movement"
+    type: AUTO
+    output: "inline (camera selected)"
+
+  - step: 4
+    name: "Write Animation Notes"
+    type: AUTO
+    output: "inline (notes written)"
+
+  - step: 5
+    name: "Compose Veo Prompt"
+    type: AUTO
+    output: "inline (prompts composed)"
+
+  - step: 6
+    name: "Validate"
+    type: AUTO
+    output: "inline (validation report)"
+
+  - step: 7
+    name: "Output CSV"
+    type: AUTO
+    output: "pvle/episodes/{EP}/video_prompts.csv"
+
+# On completion: verify all steps checked
+# On skip: VIOLATION -> HALT_AND_REPORT
+```
 
 ---
 

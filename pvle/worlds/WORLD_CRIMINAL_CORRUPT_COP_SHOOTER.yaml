@@ -1,0 +1,541 @@
+# WORLD: WORLD_CRIMINAL_CORRUPT_COP_SHOOTER
+# Display: The Cop Who Decides Who Gets Shot
+# Parent: WORLD_CRIMINAL_CORRUPT_COP
+# Created: 2026-04-20
+# Optimized: v3 - experiential addiction, tempo escalation, memory distortion
+
+WORLD_ID: WORLD_CRIMINAL_CORRUPT_COP_SHOOTER
+display_name: "The Cop Who Decides Who Gets Shot"
+domain: CRIMINAL
+era: MODERN_CONTEMPORARY
+implied_identity_mode: GENERIC_ARCHETYPE
+implied_person: null
+parent_world: WORLD_CRIMINAL_CORRUPT_COP
+
+tags:
+  - police_corruption
+  - lethal_force
+  - progressive_addiction
+  - use_of_force
+  - systemic_violence
+  - control_as_identity
+
+seed_keywords:
+  - "cop who decides who gets shot"
+  - "officer-involved shooting"
+  - "I feared for my life"
+  - "use of force"
+  - "police shooting"
+  - "lethal force decision"
+
+# ============================================================
+# EMOTIONAL SPINE (core addiction arc)
+# ============================================================
+emotional_spine:
+  arc: "fear -> control -> habit -> identity"
+  description: >
+    The episode is not about a corrupt system. It is about what
+    happens when a person discovers that pointing a weapon at
+    someone feels like control, not fear. The system does not
+    corrupt the cop. The system gives the cop permission to stay
+    addicted. Each phase escalates the addiction - until drawing
+    the weapon is not a decision. It is who they are.
+  phase_mapping:
+    fear: "Training + first patrol. The weapon is heavy. You hope you never use it."
+    control: "First draw on unarmed person. You expected fear. You felt power."
+    habit: "Pattern established. Drawing is not a response. It is how you start conversations."
+    identity: "You cannot remember a version of yourself that did not reach for the holster first."
+
+# ============================================================
+# HOOK IDENTITY (viral-optimized, experiential)
+# ============================================================
+hook_identity:
+  primary: >
+    The call comes in.
+    You haven't arrived yet.
+    You already know who it is.
+  alternates:
+    - >
+      You don't protect people.
+      You sort them.
+    - >
+      Five words close every investigation.
+      You learned them in training.
+      Before you learned how to aim.
+    - >
+      The split-second decision.
+      You made it before you left the car.
+
+# ============================================================
+# SIGNATURE LINE (repeats with escalating emptiness)
+# ============================================================
+signature_line:
+  line: "I feared for my life."
+  escalation_pattern:
+    occurrence_1:
+      context: "Training room. Instructor teaches it like a formula."
+      weight: "MECHANICAL - memorized, rehearsed, clinical."
+      note: "The phrase is taught BEFORE they learn to aim. This order matters."
+    occurrence_2:
+      context: "After first shooting. Review board asks. The words come out without thinking."
+      weight: "AUTOMATIC - the phrase is muscle memory. Faster than thought."
+    occurrence_3:
+      context: "Ending. After the snap moment. Filing the last report."
+      weight: "EMPTY - the words have no meaning. But they still work. Every time."
+  ending_variation: >
+    "I feared for my life."
+    You don't remember if you did.
+
+# ============================================================
+# SECONDARY MOTIF (internal awareness line)
+# ============================================================
+secondary_motif:
+  line: "You reach before you think."
+  description: >
+    Unlike the signature line (system phrase, outward-facing), this
+    line is self-awareness (inward-facing). It tracks the cop's
+    relationship to their own body. The signature line is what the
+    system hears. This line is what the cop feels.
+  escalation_pattern:
+    early: "WARNING - You notice your hand moved. You pull it back."
+    mid: "HABIT - You notice your hand is already there. You don't pull it back."
+    end: "IDENTITY - You don't notice anymore. Someone else does."
+
+# ============================================================
+# CORE MECHANIC (4-beat POV loop with mutation + tempo)
+# ============================================================
+core_mechanic:
+  name: "THE_CALCULATED_SHOT"
+  description: >
+    The cop does not react. The cop decides. The split-second is
+    a lie. The split-second was chosen minutes ago. But the real
+    horror: each loop is not a repetition. It is a mutation. The
+    hesitation shrinks. The commands get faster. The trigger gets
+    lighter. By the end, the loop runs without the cop thinking.
+  pov_loop:
+    structure: "profile -> escalate -> fire -> narrate"
+    beats:
+      - beat: "PROFILE"
+        line: "You decide who looks dangerous."
+        note: "Target selection before contact. Happens in the car. Zip code = threat level."
+      - beat: "ESCALATE"
+        line: "You create the confrontation."
+        note: "Contradictory commands. 'Show your hands. Get on the ground.' They can't do both. That's the point."
+      - beat: "FIRE"
+        line: "The split second."
+        note: "Presented as reaction. Actually the conclusion of a sequence you started."
+      - beat: "NARRATE"
+        line: "Five words."
+        note: "'I feared for my life.' The file closes. No one asks the question that would break the answer."
+  loop_mutation:
+    description: >
+      Each repetition of the loop degrades in BOTH logic AND tempo.
+      Logic: the steps reorder and collapse. Tempo: the pauses
+      between beats shrink until the loop is nearly instantaneous.
+      By the final cycle, there is no command, no pause, no thought.
+      Profile and fire are the same beat.
+    progression:
+      - cycle: 1
+        mutation: "draw -> hesitate -> holster. No shot. But the feeling stays."
+        tempo: "SLOW - long pauses between beats. Time to think. Time to stop."
+        emotional_state: "discovery of power"
+      - cycle: 2
+        mutation: "aim -> force compliance -> no shot needed. The gun is the conversation."
+        tempo: "MEASURED - fewer pauses. Commands are deliberate but quick."
+        emotional_state: "control as communication"
+      - cycle: 3
+        mutation: "fire when 'avoidable.' Review board clears. System confirms."
+        tempo: "FAST - commands overlap. Compliance window shrinks."
+        emotional_state: "permission granted"
+      - cycle: 4
+        mutation: "fire when 'unnecessary.' You know it. Report says otherwise."
+        tempo: "COMPRESSED - nearly seamless. No gap between escalate and fire."
+        emotional_state: "habit overrides conscience"
+      - cycle: 5
+        mutation: "fire before you finish the command. Profile and fire are the same beat now."
+        tempo: "INSTANTANEOUS - no complete command. No pause. No thought."
+        emotional_state: "identity complete"
+
+# ============================================================
+# KEY FACTS
+# ============================================================
+key_facts:
+  # --- Killer lines (VO-ready, EXPERIENTIAL) ---
+  # Control experience (the viewer must FEEL it, not understand it)
+  - "They freeze when you point the gun. Everything stops. Except you."
+  - "You decide what happens next. No one interrupts you. No one can."
+  - "You expected fear. What you felt was control. You want to feel it again."
+  # Operational details
+  - "You learn the five words before you learn to aim. That order is not an accident."
+  - "You shout 'drop the weapon' after you fire. The audio does not have timestamps in court."
+  - "You give two commands at once. They can't do both. That's the point."
+  - "Your body camera clicks. You don't look at it. You already know."
+  - "No one asks the question that would break the answer."
+  - "They clear you in forty minutes. Forty minutes for a life."
+  - "Your partner saw what happened. Your partner saw what you wrote. Those are different events."
+  # Contagion
+  - "The rookie hesitates. You don't. The rookie fires after you. Your decision became theirs."
+  - "You reach before you think."
+
+  # --- System context (WRITER REFERENCE ONLY - never enters VO directly) ---
+  - "[REF] Graham v. Connor (1989): use of force judged by 'objectively reasonable' standard from officer's perspective, not hindsight. This is WHY 'I feared for my life' is sufficient."
+  - "[REF] Tennessee v. Garner (1985): deadly force only if suspect poses significant threat. In practice, officer's stated perception is rarely challenged."
+  - "[REF] Approximately 1,000 fatal police shootings annually in the US. No mandatory comprehensive federal reporting system."
+  - "[REF] Qualified immunity: officers shielded unless exact conduct previously ruled unconstitutional in nearly identical facts."
+  - "[REF] Contagious shooting: Amadou Diallo - 41 rounds at unarmed man reaching for wallet. All four officers acquitted."
+  - "[REF] Officers involved in fatal shootings charged in fewer than 2% of cases."
+  - "[REF] 'Furtive movement' - the phrase in reports when there was no weapon. Legally sufficient. Functionally unfalsifiable."
+
+# ============================================================
+# KEY LOCATIONS
+# ============================================================
+key_locations:
+  - id: LOC_TRAINING_ROOM
+    name: "The Training Room"
+    description: "Where the five words are taught like a formula. Before the range. Before the badge. The phrase comes first."
+  - id: LOC_PATROL_CAR
+    name: "The Patrol Car"
+    description: "Where the decision is made before the door opens. MDT shows the address. You already know."
+  - id: LOC_SIDEWALK
+    name: "The Sidewalk"
+    description: "Where commands overlap and compliance becomes impossible. Where the split second lives."
+  - id: LOC_PRECINCT_DESK
+    name: "The Precinct Desk"
+    description: "Where five words become the official record. Where 'furtive movement' replaces what happened."
+  - id: LOC_REVIEW_BOARD
+    name: "The Review Board Room"
+    description: "They already agree with you before you speak. Forty minutes for a life."
+  - id: LOC_LOCKER_ROOM
+    name: "The Locker Room"
+    description: "Where your partner learns what they saw. Where stories align before the file opens."
+  - id: LOC_TARGET_NEIGHBORHOOD
+    name: "The Target Neighborhood"
+    description: "Where threat level is decided by zip code. Where you arrive already reaching."
+
+key_tensions:
+  - POWER_VS_ISOLATION
+  - DUTY_VS_SELF
+  - PROTECTION_VS_CONTROL
+
+accessory_tags:
+  - "badge on belt"
+  - "holstered sidearm"
+  - "body camera with blinking red light"
+
+# ============================================================
+# SNAP MOMENT (with delay + loss of agency)
+# ============================================================
+snap_moment:
+  description: >
+    The single moment that shifts the episode from system horror
+    to personal horror. Built with three beats: the contradiction,
+    the visual evidence, and the loss of agency. The viewer realizes
+    before the cop. The cop realizes they did not decide. The
+    addiction fired for them.
+  setup: >
+    You shout: "Show your ID." They reach.
+  fire: >
+    You fire.
+  delay_beat: >
+    You see the ID after they fall.
+  loss_of_agency: >
+    You remember telling them to reach.
+    You don't remember deciding to fire.
+  aftermath: >
+    The ID is on the ground. Open. Photo facing up.
+    You told them to reach for it.
+  placement: "Late Phase 3 or early Phase 4 - after pattern is established and loop feels routine."
+  effect: >
+    Three-layer horror: (1) the viewer sees the contradiction
+    before the cop does, (2) the cop realizes they caused what
+    they punished, (3) the cop realizes they did not consciously
+    decide to fire - the addiction acted. The five words will still
+    work. But the cop knows something the system does not: the
+    trigger pulled itself.
+
+# ============================================================
+# IDENTITY EROSION (addiction arc)
+# ============================================================
+identity_erosion:
+  description: >
+    The cop does not become a killer in one moment. The holster
+    stops being a last resort and starts being a first instinct.
+    This is not corruption. This is addiction. The substance is
+    control. The system is the dealer. The badge is the prescription.
+  arc_type: "PROGRESSIVE_ADDICTION"
+  stages:
+    - stage: "FEAR"
+      marker: "You join to protect. The weapon is heavy on your hip. You hope you never use it."
+      emotional_core: "The gun is a burden."
+    - stage: "DISCOVERY"
+      marker: "You draw on someone unarmed. They freeze. Everything stops. Except you. You expected fear. What you felt was control."
+      emotional_core: "The gun is a feeling."
+    - stage: "FIRST_HIT"
+      marker: "You fire. They clear you in forty minutes. No one asks. The system does not check. The system files."
+      emotional_core: "The system permits."
+    - stage: "TOLERANCE"
+      marker: "One draw does not do it anymore. You need the escalation. The commands. The moment they freeze. You decide what happens next."
+      emotional_core: "The dosage increases."
+    - stage: "DEPENDENCE"
+      marker: "You approach every call with your hand on the holster. You reach before you think. It is not a decision. It is posture."
+      emotional_core: "The weapon is your body language."
+    - stage: "IDENTITY"
+      marker: "You look at the report. You recognize the words. Not the person. You remember writing it. You don't remember why."
+      emotional_core: "The addiction is who you are."
+
+# ============================================================
+# CONTAGIOUS ADDICTION (the infection spreads)
+# ============================================================
+contagious_addiction:
+  description: >
+    The cop's addiction does not stay contained. It infects.
+    The rookie rides along. Watches. Hesitates. Then follows.
+    This is not mentorship. This is transmission. The system
+    does not need to teach corruption. It just needs to pair
+    the rookie with you.
+  progression:
+    - stage: "OBSERVATION"
+      beat: "The rookie watches you draw on someone unarmed. Says nothing. Eyes wide."
+    - stage: "HESITATION"
+      beat: "The rookie's hand hovers near the holster. Does not commit. Looks at you."
+    - stage: "INFECTION"
+      beat: "The rookie hesitates. You don't. The rookie fires after you. Your decision became theirs. They did not decide."
+    - stage: "REPLICATION"
+      beat: "You teach the rookie the five words. The rookie uses them next month. Same phrase. Same weight. Different person. The cycle is complete."
+
+# ============================================================
+# ENDING LOGIC (memory distortion)
+# ============================================================
+ending_logic:
+  description: >
+    The ending is not about forgetting. It is about distortion.
+    The cop does not lose memory. The cop loses the connection
+    between words and meaning, between reports and people, between
+    actions and reasons. The five words still work. But they have
+    become pure procedure - disconnected from any experience they
+    once described.
+  ending_beats:
+    - "You look at the report. You recognize the words. Not the person."
+    - "You remember writing it. You don't remember why."
+    - "'I feared for my life.' You don't remember if you did."
+    - "You reach before you think. You stopped noticing."
+  final_image: >
+    The cop writing the report. Same words. Same form. The face
+    across the desk has changed. The words have not. They never do.
+
+# ============================================================
+# CREATIVE CONSTRAINTS
+# ============================================================
+creative_constraints:
+  primary_rule: "ADDICTION_NOT_SYSTEM"
+  description: >
+    The horror is not a broken system. The horror is what happens
+    when a person discovers that pointing a weapon at someone
+    feels like control. The system is the enabler - it never asks,
+    never checks, always clears. But the engine of the episode is
+    the cop's escalating need for the feeling of deciding who is
+    dangerous. Corruption is not the system failing. Corruption is
+    the cop becoming addicted to what the system permits.
+  subject_framing: >
+    Subject starts with genuine fear of the weapon. The transition
+    to addiction is shown through the body - hand drifting to holster,
+    contradictory commands delivered faster each time, body camera
+    that clicks off without looking. The coldest realization: the
+    cop does not draw because of danger. The cop draws because not
+    drawing feels wrong. The weapon is not a tool. It is a need.
+  ending_logic: >
+    The ending lands on memory distortion, not memory loss. The cop
+    recognizes their own words but not the person they describe.
+    Remembers writing the report but not the reason. The signature
+    line returns empty. The secondary motif completes: "You reach
+    before you think" has become permanent. The cop has become the
+    system's answer to every question it refuses to ask.
+  system_horror_rule: >
+    NEVER explain the system. NEVER name legal doctrines in VO.
+    Show the system through what it does NOT do: it does not ask,
+    does not check, does not remember. The most powerful line about
+    the system is: "No one asks the question that would break the
+    answer." The viewer feels the system without being taught.
+  control_experience_rule: >
+    NEVER say "control." SHOW control through its effects:
+    "They freeze when you point the gun. Everything stops. Except
+    you." The viewer must experience the same power rush the cop
+    feels. Addiction only works if the high is real for the audience.
+  forbidden_framing:
+    - "Explaining legal doctrines in VO (Graham v. Connor, qualified immunity - WRITER REFERENCE ONLY)"
+    - "Saying 'control' or 'power' directly - SHOW through freeze/stop/decide"
+    - "Heroic whistleblower or redemption arc"
+    - "Single bad apple narrative - the system is the enabler"
+    - "Glorification of violence as action-movie excitement"
+    - "Pure psychopath without the original fear that made addiction possible"
+    - "Explicit racial framing - show profiling through geography and behavior coding only"
+    - "Explaining the system - the system is felt, never taught"
+  required_framing:
+    - "'I feared for my life' - 3x with escalation: mechanical -> automatic -> empty"
+    - "Ending variation: 'You don't remember if you did.'"
+    - "'You reach before you think' - secondary motif 3x: warning -> habit -> identity"
+    - "4-beat loop (profile, escalate, fire, narrate) with MUTATION + TEMPO each cycle"
+    - "Control shown experientially: 'Everything stops. Except you.'"
+    - "Contradictory commands as escalation tool, tempo increasing each cycle"
+    - "Addiction arc: fear -> control -> habit -> identity"
+    - "Snap moment: three beats - contradiction, delay ('ID after they fall'), loss of agency ('don't remember deciding to fire')"
+    - "Contagious addiction: rookie hesitates, then fires after you, then learns the five words"
+    - "Body camera as motif: blinking -> click -> absent (show don't tell)"
+    - "System shown through absence: never asks, never checks, always clears"
+    - "Ending: memory distortion - recognize the words, not the person"
+
+# ============================================================
+# MICRO-BEHAVIORS (motif with rhythm + tempo escalation)
+# ============================================================
+micro_behaviors:
+  description: >
+    Three signature micro-actions that repeat as motifs. Each
+    one evolves across the episode. The repetition creates the
+    heartbeat of the video - one motif every 30-60 seconds of
+    VO. The evolution creates dread without explanation.
+  frequency: "1 motif return every ~30-60 seconds of VO"
+  behaviors:
+    - motif: "THE_HAND"
+      description: "Hand moves to holster."
+      progression:
+        - "Your hand rests on the holster. You notice. You pull it back."
+        - "Your hand is on the holster. You don't remember moving it."
+        - "Your hand never left. Someone else notices. You don't."
+    - motif: "THE_COMMANDS"
+      description: "Contradictory commands that make compliance impossible."
+      progression:
+        - "'Show your hands. Get on the ground.' Slow. Deliberate. Pause between."
+        - "'Hands up. On the ground. Don't move.' Faster. Overlapping. No pause."
+        - "You start the command. You don't finish it. The gun finishes it."
+    - motif: "THE_CAMERA"
+      description: "Body camera state."
+      progression:
+        - "The red light blinks. You notice it."
+        - "You hear the click. You don't look."
+        - "[absent] - the viewer understands without being told."
+
+# ============================================================
+# PHASE GUIDANCE (for outline generator)
+# ============================================================
+phase_guidance:
+  description: >
+    Recommended narrative weight distribution across the episode.
+    Not hardcoded runtime - the outline generator maps these
+    to the actual phase structure.
+  phases:
+    - phase: "CONDITIONING"
+      weight: "~10%"
+      content: "Hook + training room. Five words taught. First patrol. Weapon is heavy."
+      signature_use: "'I feared for my life' (mechanical)"
+      motif_use: "'You reach before you think' (warning)"
+    - phase: "FIRST HIGH"
+      weight: "~20%"
+      content: "First draw. Discovery of control. 'Everything stops. Except you.'"
+      key_moment: "The feeling that changes everything. Not fear. Control."
+    - phase: "ESCALATION"
+      weight: "~35%"
+      content: "Loop mutation cycles 2-4. Tempo accelerates. Commands overlap. System clears."
+      retention_note: "This phase holds the middle. Loop mutation prevents predictability. Tempo escalation creates urgency."
+    - phase: "SNAP"
+      weight: "~15%"
+      content: "The ID scene. Three beats: contradiction, delay, loss of agency."
+      signature_use: "'I feared for my life' (automatic, but the cop knows it's empty)"
+    - phase: "ERASURE"
+      weight: "~20%"
+      content: "Contagious addiction (rookie). Memory distortion. Report = identity."
+      signature_use: "'I feared for my life.' You don't remember if you did."
+      motif_use: "'You reach before you think' (identity - permanent)"
+
+# ============================================================
+# TENSION CATALYSTS
+# ============================================================
+tension_catalysts:
+  - "Your first draw. No shot. But your hand does not shake. It should shake."
+  - "They freeze when you point the gun. Everything stops. Except you. You want to feel it again."
+  - "They clear you in forty minutes. You spend longer choosing lunch."
+  - "Your shooting count is the highest in the precinct. Your sergeant calls you proactive."
+  - "A bystander has a phone. You did not see the phone. The phone saw everything."
+  - "The victim's family holds a press conference. Your name is not released. Theirs is."
+  - "The rookie hesitates. You don't. The rookie fires after you."
+  - "You drive through the neighborhood off duty. Someone recognizes you. They cross the street."
+  - "You approach a call. Your hand is already on the holster. It was there before the dispatcher finished talking."
+  - "Another officer fires because you fired. Three weapons. One target. One threat assessment. Yours."
+
+# ============================================================
+# IRREVERSIBLE MARKERS
+# ============================================================
+irreversible_markers:
+  - "You shoot someone reaching for the ID you told them to show. You see the ID after they fall. You don't remember deciding to fire."
+  - "You write 'furtive movement' for the third time. Same words. Different person. You don't remember the first."
+  - "The rookie hesitates. You don't. The rookie fires after you. Your decision became theirs."
+  - "You teach the rookie the five words. The rookie uses them next month. The cycle is complete."
+  - "Someone you shot survives. Files a civil suit. Dismissed. You never learn their name."
+  - "You hear 'officer-involved shooting' on the news. It is yours. You feel nothing."
+  - "You look at the report. You recognize the words. Not the person."
+
+# ============================================================
+# HOOK OPTIONS (ready to use)
+# ============================================================
+hook_options:
+  option_1:
+    label: "experiential + immediate (recommended)"
+    lines:
+      - "The call comes in."
+      - "You haven't arrived yet."
+      - "You already know who it is."
+  option_2:
+    label: "philosophical + cold"
+    lines:
+      - "You don't protect people."
+      - "You sort them."
+      - "And tonight, someone doesn't make the cut."
+  option_3:
+    label: "training horror"
+    lines:
+      - "Five words close every investigation."
+      - "You learned them in training."
+      - "Before you learned how to aim."
+
+# ============================================================
+# SUBJECT VARIANTS
+# ============================================================
+subject_variants:
+  - type: "THE_GUARDIAN_TURNED"
+    trigger: "Joined with genuine fear of the weapon. First draw felt like power, not duty. The fear never came back."
+  - type: "THE_PROACTIVE_COP"
+    trigger: "High numbers mean promotion. Every shooting is a stat. Every clearing is a dosage."
+  - type: "THE_INHERITED_PATTERN"
+    trigger: "Training officer had twelve shootings and twelve clearings. Addiction is inherited."
+
+# ============================================================
+# FAILURE MECHANICS
+# ============================================================
+failure_mechanics:
+  description: >
+    The system occasionally cracks - a bystander phone, a camera
+    that worked, a medical examiner who writes what they found.
+    But the real horror: even when the system cracks, it heals
+    itself. The investigation opens and closes. The name stays
+    unreleased. The five words still work.
+  pattern:
+    - "A bystander phone captures the full sequence. Your commands. Their compliance. Your shots. The video goes viral before the report is finished."
+    - "The body camera worked this time. IT has the footage. Your union rep says: say nothing."
+    - "The medical examiner's report contradicts your account. Entry angle. Distance. Sequence. It does not matter. The five words still work."
+    - "A federal pattern-or-practice investigation opens. Your precinct. Your unit. Your name is in the data. The investigation takes three years. You are still on the street."
+
+related_worlds:
+  - WORLD_CRIMINAL_CORRUPT_COP
+series_note: >
+  Second episode in the corrupt cop series. While PV_0025 explored
+  evidence fabrication (THE_MANUFACTURED_CASE), this episode
+  explores lethal force as progressive addiction (THE_CALCULATED_SHOT).
+  Connecting thread: both cops operate inside a system designed
+  to never ask. PV_0025's signature "You don't find evidence. You
+  place it" becomes PV_0026's "I feared for my life" - both are
+  phrases that create a reality the system accepts without checking.
+  The difference: PV_0025 is about fabricating evidence. PV_0026 is
+  about fabricating the self. The manufactured case vs. the
+  manufactured cop.
+
+used_in_episodes: [PV_0026]
+created: "2026-04-20"

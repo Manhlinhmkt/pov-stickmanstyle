@@ -6,9 +6,43 @@ skills_required:
 
 # WORKFLOW: /pvle-gen-breakdown
 
-> **Phase:** 2.0 — Scripting  
+> **Phase:** 2.0 - Scripting  
 > **Input:** `pvle/episodes/{EP}/episode_brief.md`  
 > **Output:** `pvle/episodes/{EP}/l2_breakdown_table.csv`
+
+## EXECUTION_CHECKLIST
+
+```yaml
+total_steps: 5
+steps:
+  - step: 1
+    name: "Read Episode Brief"
+    type: AUTO
+    output: "inline (brief loaded)"
+
+  - step: 2
+    name: "Calculate Beat Budget"
+    type: AUTO
+    output: "inline (budget calculated)"
+
+  - step: 3
+    name: "Expand Outline Bullets -> Beats"
+    type: AUTO
+    output: "inline (beats generated)"
+
+  - step: 4
+    name: "Validate"
+    type: AUTO
+    output: "inline (validation report)"
+
+  - step: 5
+    name: "Output CSV"
+    type: AUTO
+    output: "pvle/episodes/{EP}/l2_breakdown_table.csv"
+
+# On completion: verify all steps checked
+# On skip: VIOLATION -> HALT_AND_REPORT
+```
 
 ---
 

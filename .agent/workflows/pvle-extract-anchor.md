@@ -7,8 +7,49 @@ skills_required:
 # WORKFLOW: /pvle-extract-anchor
 
 > **Phase:** Pre-ideation (triggered from /analyze-seed when named entity detected)  
-> **Purpose:** Named person → anonymized title options → TRANSPARENT_VEIL world data  
+> **Purpose:** Named person -> anonymized title options -> TRANSPARENT_VEIL world data  
 > **Output:** Confirmed title + world YAML ready for /pvle-ingest-world
+
+## EXECUTION_CHECKLIST
+
+```yaml
+total_steps: 6
+steps:
+  - step: 1
+    name: "Entity Classification"
+    type: AUTO
+    output: "inline (entity type + veil strictness)"
+
+  - step: 2
+    name: "Research Real Person's Public Profile"
+    type: AUTO
+    output: "inline (extraction schema)"
+
+  - step: 3
+    name: "Generate Anonymized Title Options"
+    type: BLOCKING
+    gate: "Wait for user to select title A/B/C or custom"
+    output: "inline (3 title options displayed)"
+
+  - step: 4
+    name: "Confirm World ID"
+    type: BLOCKING
+    gate: "Wait for user to confirm World_ID"
+    output: "inline (WORLD_ID displayed)"
+
+  - step: 5
+    name: "Assemble World YAML"
+    type: AUTO
+    output: "inline (YAML assembled)"
+
+  - step: 6
+    name: "Pass to /pvle-ingest-world"
+    type: AUTO
+    output: "pvle/worlds/{WORLD_ID}.yaml"
+
+# On completion: verify all steps checked
+# On skip: VIOLATION -> HALT_AND_REPORT
+```
 
 ---
 

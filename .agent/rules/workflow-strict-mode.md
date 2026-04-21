@@ -2,7 +2,7 @@
 trigger: always_on
 ---
 
-# WORKFLOW STRICT MODE – ENGINE METHODOLOGY
+# WORKFLOW STRICT MODE - ENGINE METHODOLOGY
 
 > **Version:** v2025-Engine  
 > **Scope:** Workflow Execution Compliance  
@@ -63,6 +63,55 @@ turbo_activation: EXPLICIT_ANNOTATION_ONLY
 
 ---
 
+### RULE_19: Execution Checklist Verification (MANDATORY)
+
+Every workflow file contains an `EXECUTION_CHECKLIST` at the top.
+
+```yaml
+behavior:
+  on_workflow_start: "Read EXECUTION_CHECKLIST first"
+  on_each_step: "Mentally check off completed step"
+  on_workflow_end: "Verify ALL steps in checklist are completed"
+  on_missing_step: "HALT_AND_REPORT - do NOT skip"
+
+verification:
+  before_reporting_completion:
+    - "Count completed steps vs total_steps in checklist"
+    - "If count mismatch: ABORT completion, find skipped step"
+    - "If all match: report completion with step summary"
+```
+
+**On Violation:**
+- If a step is found skipped after completion report: REOPEN workflow
+- Execute skipped step before final confirmation
+
+---
+
+### RULE_20: Gate Enforcement (MANDATORY)
+
+Steps marked `type: BLOCKING` in EXECUTION_CHECKLIST require explicit user response.
+
+```yaml
+BLOCKING_behavior:
+  action: "Display output, then STOP and WAIT"
+  forbidden:
+    - "Assuming user approved based on silence"
+    - "Auto-proceeding after displaying output"
+    - "Inferring approval from context"
+    - "Combining BLOCKING step output with next step"
+  
+  valid_user_responses:
+    - Explicit confirmation: "ok", "proceed", "approved", "confirmed"
+    - Edit request: any modification instruction
+    - Rejection: "no", "change", "redo"
+
+AUTO_behavior:
+  action: "Execute immediately, report inline, continue to next step"
+  no_wait: true
+```
+
+---
+
 ## 2. WORKFLOW STEP REPORTING
 
 After each major step:
@@ -72,9 +121,9 @@ After each major step:
 
 **Format:**
 ```
-✅ Step [N] completed: [description]
+Step [N] completed: [description]
    Output: [file path]
-→ Next: Step [N+1]: [description]
+-> Next: Step [N+1]: [description]
 ```
 
 ---

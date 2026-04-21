@@ -889,5 +889,15 @@ FORBIDDEN:
   - Inserting new lines when reframing existing lines would work
   - Making sentences longer without adding cognitive load (linear extension)
   - Perfect symmetry in friction lines ("X is Y. Y is X." = AI signature)
+
+  # AI Generation Signatures (from PV_0020 De-AI audit)
+  - 3-Fragment Staccato: "Present. / Yes. / But containable." (AI cadence)
+  - Perfect Motif Arc: introduce/reinforce/transform/resolve trajectory too clean
+  - Emotional Meta-Awareness: "trying to locate what you feel" / "feelings arrive in wrong order"
+  - Designed Imperfection: adding "noise" consciously = creates new AI pattern
+  - Callback Commentary: adding comment after callback ("Might be the same one")
+  - Technique Distribution: spreading humanization techniques evenly = AI distribution
+  - Over-Polished Contrast: "learned something / can't unlearn" balanced opposition
+  - see: de-ai-rules.md for full detection + correction system
 ```
 

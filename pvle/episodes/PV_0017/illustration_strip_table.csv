@@ -1,0 +1,114 @@
+﻿Strip_ID,Start_VO_ID,End_VO_ID,VO_Count,Life_Phase,Scene_Type,Duration_Sec,Strip_Summary
+PV_0017_001,1,3,3,HOOK,POV_SHOT,7.7,POV morning routine - alarm clock, coffee mug on counter, car keys. Warm suburban kitchen.
+PV_0017_002,4,5,2,HOOK,NARRATIVE_SCENE,6.6,Stickman driving car, kissing child on forehead at kitchen table. Same mug, cereal bowl.
+PV_0017_003,6,8,3,HOOK,TEXT_OVERLAY,9.3,Stickman at door. Child not looking up. Dark background text: 'And that is the point.'
+PV_0017_004,9,11,3,HOOK,NARRATIVE_SCENE,8.5,Stickman across from FACELESS doctor in clinical office. Plastic kidney model on desk.
+PV_0017_005,12,12,1,HOOK,NARRATIVE_SCENE,6.5,Doctor says words stickman cannot understand. End-stage renal failure. Fluorescent office.
+PV_0017_006,13,15,3,HOOK,NARRATIVE_SCENE,8.8,Doctor explaining kidney failure. Stickman absorbing. Kidneys dying for a while.
+PV_0017_007,16,17,2,HOOK,NARRATIVE_SCENE,5,Stickman in chair processing. You just didn't know. Once they stop, so do you.
+PV_0017_008,18,19,2,HOOK,NARRATIVE_SCENE,5.8,Stickman sitting in car in hospital parking lot. Engine running. Not going anywhere.
+PV_0017_009,20,21,2,HOOK,NARRATIVE_SCENE,8.8,Stickman model kidney on desk. Phone buzzing, not looking. Doctor's office parking lot.
+PV_0017_010,22,24,3,HOOK,TEXT_OVERLAY,5.3,Dark background. Text: 'You did not choose this.'
+PV_0017_011,25,27,3,HOOK,TEXT_OVERLAY,9.2,Dark background. Text: 'Your body chose for you.' Stickman silhouette, medical wristband.
+PV_0017_012,28,29,2,PHASE_EARLY,NARRATIVE_SCENE,8.5,Stickman at transplant office waiting room. Plastic chairs, muted TV. Tired FACELESS patients.
+PV_0017_013,30,32,3,PHASE_EARLY,NARRATIVE_SCENE,7.7,Talk show playing at low volume. Everyone looks tired. Hospital waiting room.
+PV_0017_014,33,36,4,PHASE_EARLY,NARRATIVE_SCENE,5.8,Stickman filling forms. Medical history, insurance, emergency contact. Writing wife's name.
+PV_0017_015,37,39,3,PHASE_EARLY,NARRATIVE_SCENE,8.1,Stickman pausing at 'relationship to patient' line. Writing 'wife'. Heavier than expected.
+PV_0017_016,40,42,3,PHASE_EARLY,NARRATIVE_SCENE,8.9,FACELESS clerk handing number 847. Stickman folding paper, putting in wallet.
+PV_0017_017,43,45,3,PHASE_EARLY,NARRATIVE_SCENE,10.6,Stickman looking at wallet with folded number. Don't know why keeping it there.
+PV_0017_018,46,47,2,PHASE_EARLY,NARRATIVE_SCENE,7,Stickman in dialysis chair. Machine cleaning blood. Tubes connected to fistula in arm.
+PV_0017_019,48,50,3,PHASE_EARLY,NARRATIVE_SCENE,9.8,Needle doesn't hurt anymore. That bothers stickman. Book never read past first page.
+PV_0017_020,51,52,2,PHASE_EARLY,NARRATIVE_SCENE,5.4,Stickman staring at ceiling tiles. Counting. Forty-three. Unread book on lap.
+PV_0017_021,53,56,4,PHASE_EARLY,NARRATIVE_SCENE,8.6,FACELESS nurse checking tubes. Shoes squeak on floor. Sound stays longer than doctor's words.
+PV_0017_022,57,58,2,PHASE_EARLY,NARRATIVE_SCENE,6.9,Sleeping FACELESS man in next dialysis chair. Know his breathing rhythm but not his name.
+PV_0017_023,59,61,3,PHASE_EARLY,NARRATIVE_SCENE,9.3,Empty chair next Tuesday. Nobody says anything. FACELESS nurse changing sheets, calling next name.
+PV_0017_024,62,64,3,PHASE_EARLY,NARRATIVE_SCENE,7.9,Three months pass. Number moves from 847 to 843. Four spots in three months.
+PV_0017_025,65,67,3,PHASE_EARLY,POV_SHOT,10.1,POV of stickman hand holding updated number slip. Hospital waiting room background.
+PV_0017_026,68,68,1,PHASE_EARLY,TEXT_OVERLAY,2.7,Dark background. Text: 'Someone dies. You move up.'
+PV_0017_027,69,72,4,PHASE_EARLY,NARRATIVE_SCENE,9.9,Stickman checking number every Friday. Habit like checking weather. Routine gesture with phone.
+PV_0017_028,73,75,3,PHASE_EARLY,NARRATIVE_SCENE,9,Stickman with swollen ankles on couch. Twelve hours sleep, still tired. Itchy skin.
+PV_0017_029,76,77,2,PHASE_EARLY,NARRATIVE_SCENE,9.3,Everything tastes like metal. Like chewing a coin. Pushing plate away at dinner table.
+PV_0017_030,78,81,4,PHASE_EARLY,NARRATIVE_SCENE,11.9,Child watching stickman push food away. No questions this time. Worse than questions.
+PV_0017_031,82,83,2,PHASE_EARLY,NARRATIVE_SCENE,7.4,Stickman telling daughter 'under the weather'. Said it for five months. Kitchen doorway.
+PV_0017_032,84,84,1,PHASE_EARLY,NARRATIVE_SCENE,5.8,Stickman scratching wrist absent-mindedly. Dry skin from dialysis tape. Medical wristband visible.
+PV_0017_033,85,86,2,PHASE_EARLY,EMOTIONAL_CLOSEUP,9.4,Stickman in doorway watching wife. Face she makes when she thinks you cannot see.
+PV_0017_034,87,89,3,PHASE_EARLY,NARRATIVE_SCENE,10.1,Wife at laptop, life insurance pages. Closes tab when stickman walks in. Neither speaks.
+PV_0017_035,90,92,3,PHASE_EARLY,NARRATIVE_SCENE,12.4,Two stickmen on couch watching TV. Not looking at each other. Not sadness. Preparation.
+PV_0017_036,93,95,3,PHASE_CONFLICT,NARRATIVE_SCENE,9.3,Two stickmen in dialysis chairs. One leaning, whispering. Stickman has noticed for weeks.
+PV_0017_037,96,99,4,PHASE_CONFLICT,NARRATIVE_SCENE,9.4,Whisperer mentions a guy who can help. Outside the system. Says it quietly, almost bored.
+PV_0017_038,100,103,4,PHASE_CONFLICT,NARRATIVE_SCENE,8.3,Like recommending a restaurant. Stickman shakes head. No thanks. But can't forget it.
+PV_0017_039,104,105,2,PHASE_CONFLICT,NARRATIVE_SCENE,5.7,Stickman thinking about it in shower. And the next night. And the one after that.
+PV_0017_040,106,108,3,PHASE_CONFLICT,NARRATIVE_SCENE,7.8,Hotel lobby. Stickman and FACELESS broker in dark jacket. Carpet smells like cleaning product.
+PV_0017_041,109,111,3,PHASE_CONFLICT,NARRATIVE_SCENE,6.9,Broker gives no name. Stickman doesn't ask. Can get kidney. Four to six weeks.
+PV_0017_042,112,114,3,PHASE_CONFLICT,NARRATIVE_SCENE,6.6,Somewhere overseas. Clean facility. Licensed surgeon. Clinical, efficient delivery.
+PV_0017_043,115,116,2,PHASE_CONFLICT,NARRATIVE_SCENE,2.6,Broker describes it like vacation brochure - price, timeline, destination. Should never be a brochure.
+PV_0017_044,117,119,3,PHASE_CONFLICT,NARRATIVE_SCENE,19.4,One fifty thousand like refrigerator price tag. Coffee between them goes cold.
+PV_0017_045,120,122,3,PHASE_CONFLICT,NARRATIVE_SCENE,10.1,Don't need to know details. Don't touch coffee. Just be ready. Hotel lobby table.
+PV_0017_046,123,125,3,PHASE_CONFLICT,EMOTIONAL_CLOSEUP,6.6,Stickman saying no. System works. Wait your turn. Standing, shaking head.
+PV_0017_047,126,129,4,PHASE_CONFLICT,NARRATIVE_SCENE,8.5,Broker nods. Slides receipt with phone number. Convenience store receipt. Keep it. Just in case.
+PV_0017_048,130,132,3,PHASE_CONFLICT,NARRATIVE_SCENE,5.8,Receipt into wallet next to waiting list number. Two numbers. Two paths.
+PV_0017_049,133,136,4,PHASE_CONFLICT,NARRATIVE_SCENE,14.8,Not looking at either on drive home. Three weeks later emergency room. Wife drove at 2 AM.
+PV_0017_050,137,139,3,PHASE_CONFLICT,NARRATIVE_SCENE,9.7,Daughter still asleep. Don't wake her, would scare her. Meant: would make this real.
+PV_0017_051,140,142,3,PHASE_CONFLICT,NARRATIVE_SCENE,8.2,Creatinine spiked. Doctor says six months. Maybe less. Hospital room, IV drip.
+PV_0017_052,143,145,3,PHASE_CONFLICT,NARRATIVE_SCENE,5.9,Doctor says it gently. Like that helps. Wife in hallway, steady voice, shaking hands.
+PV_0017_053,146,148,3,PHASE_CONFLICT,NARRATIVE_SCENE,9.1,IV drip clicking every few seconds. Stickman starts counting. Hospital bed, dim room.
+PV_0017_054,149,152,4,PHASE_CONFLICT,NARRATIVE_SCENE,9.8,Lying in bed at night. House quiet. Daughter's birthday in seven months. Doing the math every night.
+PV_0017_055,153,155,3,PHASE_CONFLICT,NARRATIVE_SCENE,8.7,Six months minus three for decline minus two for complications. Might not make it to spring.
+PV_0017_056,156,159,4,PHASE_CONFLICT,NARRATIVE_SCENE,15.4,Imagining daughter opening presents without stickman. Thought doesn't finish. Faces wall.
+PV_0017_057,160,162,3,PHASE_CONFLICT,NARRATIVE_SCENE,8.7,Wife breathing in next room. Not sleeping either. What kind of father dies on waiting list.
+PV_0017_058,163,164,2,PHASE_CONFLICT,TEXT_OVERLAY,6.4,Stickman with closed eyes. Text: 'You already know what you're going to do.'
+PV_0017_059,165,167,3,PHASE_CONFLICT,NARRATIVE_SCENE,11,Number in wallet next morning. Three weeks old. Receipt soft from folding too many times.
+PV_0017_060,168,170,3,PHASE_CONFLICT,NARRATIVE_SCENE,7.7,Stickman in car, driveway. Engine off. Windshield fogging from breath.
+PV_0017_061,171,173,3,PHASE_CONFLICT,NARRATIVE_SCENE,7,Daughter's pink backpack on back seat. Keychain she picked out. Looking at it.
+PV_0017_062,174,176,3,PHASE_CONFLICT,NARRATIVE_SCENE,8.5,Stickman making call in fogged car. Broker answers second ring. 'Knew you'd call back.'
+PV_0017_063,177,180,4,PHASE_CONFLICT,NARRATIVE_SCENE,8.9,Can you travel? Yes. Have the money? One fifty thousand. Already calculated everything.
+PV_0017_064,181,184,4,PHASE_CONFLICT,NARRATIVE_SCENE,8.1,Retirement savings. College fund. She'll understand someday. Or won't. Alive to find out.
+PV_0017_065,185,187,3,PHASE_CONFLICT,NARRATIVE_SCENE,11.1,Saying yes. Date and city incoming. Not asking where kidney comes from.
+PV_0017_066,188,190,3,PHASE_CONFLICT,TEXT_OVERLAY,10.1,Dark background. Text: 'You don't ask anything.' Stickman silhouette on phone.
+PV_0017_067,191,193,3,PHASE_CONFLICT,NARRATIVE_SCENE,10.9,Stickman in half-empty parking lot after call. Streetlight buzzing. Don't remember starting engine.
+PV_0017_068,194,196,3,PHASE_CRISIS,NARRATIVE_SCENE,8.9,Stickman arriving in foreign city. Warm heavy air. Taxi driver asking about business.
+PV_0017_069,197,199,3,PHASE_CRISIS,NARRATIVE_SCENE,8.9,Told wife medical conference. Told daughter back by Friday. Promised to bring something.
+PV_0017_070,200,202,3,PHASE_CRISIS,NARRATIVE_SCENE,8.1,Promised. Looked up souvenir shops. In case she asks where you went. Preparing alibi.
+PV_0017_071,203,205,3,PHASE_CRISIS,NARRATIVE_SCENE,9.5,Unmarked clinic entrance. Bleach smell in hallway. FACELESS staff not looking up.
+PV_0017_072,206,209,4,PHASE_CRISIS,NARRATIVE_SCENE,9.4,No introductions. Someone takes bag, hands gown. Nobody says name. Different kind of number.
+PV_0017_073,210,213,4,PHASE_CRISIS,POV_SHOT,8.2,POV from operating table. White ceiling, bright lights. Stickman hands at frame edges.
+PV_0017_074,214,217,4,PHASE_CRISIS,NARRATIVE_SCENE,9.3,Finger clip, monitor beeping. Anesthesiologist counting backward. Sounds from other room.
+PV_0017_075,218,220,3,PHASE_CRISIS,NARRATIVE_SCENE,6.2,Machine sound, voice from other room. Don't know what's happening there.
+PV_0017_076,221,223,3,PHASE_CRISIS,NARRATIVE_SCENE,10.1,Sounds from adjacent room. Built survival on that not-knowing. Dread tint fade.
+PV_0017_077,224,227,4,PHASE_CRISIS,EMOTIONAL_CLOSEUP,8.5,Fingers grip table. Half-second tremble. Then close. Nobody sees. Micro-crack moment.
+PV_0017_078,228,229,2,PHASE_CRISIS,TEXT_OVERLAY,3.8,Dark background. Bold text: 'You chose not to know.'
+PV_0017_079,230,233,4,PHASE_CRISIS,NARRATIVE_SCENE,8.5,Stickman waking in recovery bed. Smaller room. Open window, traffic sounds outside.
+PV_0017_080,234,237,4,PHASE_CRISIS,EMOTIONAL_CLOSEUP,11,Hand on abdomen. Something inside that was not there yesterday. Quieter than expected.
+PV_0017_081,238,240,3,PHASE_CRISIS,NARRATIVE_SCENE,5.8,It belonged to someone. Someone in a room near yours. Recovery bed, single window.
+PV_0017_082,241,242,2,PHASE_CRISIS,TEXT_OVERLAY,8,Dark background. Text: 'You will never know who.' Stickman silhouette in bed.
+PV_0017_083,243,246,4,PHASE_CRISIS,NARRATIVE_SCENE,7.8,FACELESS nurse handing form. Voluntary donation. Family member. Stickman reading once.
+PV_0017_084,247,251,5,PHASE_CRISIS,NARRATIVE_SCENE,15.5,Signing false declaration. Pen heavy. Don't remember. Flight home seven hours by window.
+PV_0017_085,252,253,2,PHASE_CRISIS,NARRATIVE_SCENE,11.7,Sitting by window. Don't read, don't sleep, don't think. Antiseptic smell on hands.
+PV_0017_086,254,256,3,PHASE_CRISIS,NARRATIVE_SCENE,8.6,Washing hands in airplane bathroom. Smell won't go away. Reflection looks the same.
+PV_0017_087,257,257,1,PHASE_CRISIS,TEXT_OVERLAY,3.7,Dark background. Bold text: 'That is the strangest part.'
+PV_0017_088,258,261,4,PHASE_RESOLUTION,NARRATIVE_SCENE,7.4,Stickman at home door. Daughter runs to greet. Says you look better. She's right.
+PV_0017_089,262,263,2,PHASE_RESOLUTION,NARRATIVE_SCENE,7.7,Color returning to face. Feeling energy, clarity, hunger - terrified knowing what it cost.
+PV_0017_090,264,265,2,PHASE_RESOLUTION,NARRATIVE_SCENE,8.3,Wife holding stickman in doorway. Not letting go for long time. Not asking about trip.
+PV_0017_091,266,268,3,PHASE_RESOLUTION,NARRATIVE_SCENE,7.1,Stickman smiling. Eyes don't match mouth. Daughter handing drawing she made.
+PV_0017_092,269,271,3,PHASE_RESOLUTION,NARRATIVE_SCENE,10.9,Drawing of park - you and her. Holding it like glass. Puts on fridge with magnet.
+PV_0017_093,272,276,5,PHASE_RESOLUTION,NARRATIVE_SCENE,11.1,Looking at drawing every morning. Opening pill bottle. One pill. Immunosuppressant.
+PV_0017_094,277,279,3,PHASE_RESOLUTION,NARRATIVE_SCENE,11.1,Body will reject what's inside. Pill stops that. Every day for rest of life.
+PV_0017_095,280,281,2,PHASE_RESOLUTION,NARRATIVE_SCENE,8.9,Daughter picked up pill bottle once. Tried to read label. Took it from her gently.
+PV_0017_096,282,284,3,PHASE_RESOLUTION,TEXT_OVERLAY,7.5,She didn't ask again. Nobody asks. Text: 'Every pill is a clock that resets.'
+PV_0017_097,285,289,5,PHASE_RESOLUTION,NARRATIVE_SCENE,11.3,Two stickmen at dinner. Friend asks about transplant. Family donor? Cousin. Overseas.
+PV_0017_098,290,294,5,PHASE_RESOLUTION,NARRATIVE_SCENE,12.2,Very generous. Rehearsed so many times sounds true. Fake cousin David or Daniel.
+PV_0017_099,295,298,4,PHASE_RESOLUTION,NARRATIVE_SCENE,8.2,Doesn't matter - cousin doesn't exist. Friend nods, changes subject. Water sip.
+PV_0017_100,299,302,4,PHASE_RESOLUTION,NARRATIVE_SCENE,8.9,Hand is steady - surprising. Think you understand. You don't. Re-hook moment.
+PV_0017_101,303,305,3,PHASE_RESOLUTION,NARRATIVE_SCENE,8.2,Morning kitchen. Headline: organ trafficking ring dismantled. Twelve arrests.
+PV_0017_102,306,309,4,PHASE_RESOLUTION,NARRATIVE_SCENE,8.1,Reading two lines. Turning page. Hands shaking. Putting down paper, picking up coffee.
+PV_0017_103,310,311,2,PHASE_RESOLUTION,EMOTIONAL_CLOSEUP,11.3,Everything blurs - kitchen, light, daughter's voice - then comes back. Near-break.
+PV_0017_104,312,315,4,PHASE_RESOLUTION,NARRATIVE_SCENE,6.6,Blinks. Nobody noticed. Daughter asks what's in the news. Nothing interesting.
+PV_0017_105,316,321,6,PHASE_RESOLUTION,NARRATIVE_SCENE,11.8,Phone rings while doing dishes. Number recognized. Voice recognized. Offering liver, cornea.
+PV_0017_106,322,324,3,PHASE_RESOLUTION,NARRATIVE_SCENE,8.4,Like reading from menu. Stickman hangs up. Doesn't delete number. Don't know why.
+PV_0017_107,325,326,2,PHASE_RESOLUTION,NARRATIVE_SCENE,8.1,Phone face down on counter. Back to dishes. Warm water.
+PV_0017_108,327,328,2,PHASE_RESOLUTION,NARRATIVE_SCENE,4.4,That's it. Kitchen evening light. Warm water running.
+PV_0017_109,329,333,5,CALLBACK,NARRATIVE_SCENE,9.8,Morning callback. Same mug, same coffee. Driving to work. Kissing daughter on forehead.
+PV_0017_110,334,336,3,CALLBACK,NARRATIVE_SCENE,9,Daughter barely looks up. Pill bottle next to coffee maker. Everything looks the same.
+PV_0017_111,337,338,2,CALLBACK,TEXT_OVERLAY,6.5,Inside you something that will never be yours. Text: 'Never ask who it belonged to.'
+PV_0017_112,339,340,2,CALLBACK,TEXT_OVERLAY,10,Dark background. Text: 'If you've ever wondered what it feels like...' Stickman silhouette.
+PV_0017_113,341,341,1,CALLBACK,TEXT_OVERLAY,3.7,Dark background. Final text: 'Now you know.' Stickman silhouette with pill bottle.

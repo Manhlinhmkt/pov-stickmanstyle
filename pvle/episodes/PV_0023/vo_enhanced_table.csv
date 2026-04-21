@@ -1,0 +1,246 @@
+VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,Word_Count_EN,Pause_After
+1,PV_0023,BEAT_01_01,HOOK,ESTABLISH,NARRATION,Stethoscope on the chest.,4,0
+2,PV_0023,BEAT_01_01,HOOK,ESTABLISH,NARRATION,Left hand steadies. Right hand listens.,6,0.5
+3,PV_0023,BEAT_01_01,HOOK,ESTABLISH,NARRATION,The heartbeat is steady.,4,0.5
+4,PV_0023,BEAT_01_01,HOOK,ESTABLISH,NARRATION,"You write one word on the form.",7,0.5
+5,PV_0023,BEAT_01_01,HOOK,ESTABLISH,WEIGHT_LINE,Unremarkable.,1,1.5
+6,PV_0023,BEAT_01_02,HOOK,CONSTRAINT,NARRATION,"The room is clean. The light works. The gloves are new.",11,0
+7,PV_0023,BEAT_01_02,HOOK,CONSTRAINT,NARRATION,Same equipment you'd find in any clinic anywhere.,8,0
+8,PV_0023,BEAT_01_02,HOOK,CONSTRAINT,NARRATION,Same fluorescent light overhead.,4,0.5
+9,PV_0023,BEAT_01_02,HOOK,CONSTRAINT,NARRATION,Different room.,2,0.5
+10,PV_0023,BEAT_01_02,HOOK,CONSTRAINT,WEIGHT_LINE,Different purpose.,2,1.5
+11,PV_0023,BEAT_01_02,HOOK,CONSTRAINT,NARRATION,You don't think about the difference anymore.,7,0
+12,PV_0023,BEAT_01_02,HOOK,CONSTRAINT,NARRATION,"Or you do, and it doesn't slow you down.",8,1.0
+13,PV_0023,BEAT_01_03,HOOK,REFLECT,NARRATION,Two hands.,2,0
+14,PV_0023,BEAT_01_03,HOOK,REFLECT,NARRATION,Two rooms.,2,0.5
+15,PV_0023,BEAT_01_03,HOOK,REFLECT,WEIGHT_LINE,The hands don't change.,4,1.5
+16,PV_0023,BEAT_01_03,HOOK,REFLECT,NARRATION,Only what they're used for.,5,0.5
+17,PV_0023,BEAT_01_03,HOOK,REFLECT,NARRATION,"You didn't plan this. Nobody plans this.",7,0
+18,PV_0023,BEAT_01_03,HOOK,REFLECT,NARRATION,"You were trained to diagnose, to observe, to report.",8,0
+19,PV_0023,BEAT_01_03,HOOK,REFLECT,NARRATION,The training works in both rooms.,6,0
+20,PV_0023,BEAT_01_03,HOOK,REFLECT,WEIGHT_LINE,That's the problem.,3,2.0
+21,PV_0023,BEAT_02_01,PHASE_EARLY,TIME_MARKER,TIME_MARKER,You are twenty-nine.,4,1.0
+22,PV_0023,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,"Medical school cost more than your parents' house.",8,0
+23,PV_0023,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,"Seven years of training, and the debt still grows faster than you can pay it.",14,0
+24,PV_0023,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,"Your hospital salary covers the rent, the electricity, the insurance.",10,0
+25,PV_0023,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,Not the interest.,3,1.0
+26,PV_0023,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,"You eat lunch at the hospital cafeteria because it's three dollars cheaper.",11,0
+27,PV_0023,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,You don't remember when that started.,6,0
+28,PV_0023,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,"You take the bus home instead of driving, most weeks.",9,0
+29,PV_0023,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,You studied medicine to help people.,6,0
+30,PV_0023,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,"You're good at it. You know you're good at it.",10,0
+31,PV_0023,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,But good doesn't pay the interest.,6,0
+32,PV_0023,BEAT_02_01,PHASE_EARLY,TIME_MARKER,NARRATION,That part hasn't started yet.,5,1.0
+33,PV_0023,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,A man calls your office line on a Thursday.,8,0
+34,PV_0023,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,He calls you Doctor.,4,0
+35,PV_0023,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,Not your name. Just Doctor.,5,0.5
+36,PV_0023,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,He has a simple request.,5,0
+37,PV_0023,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,Blood compatibility test. Tissue typing.,5,0
+38,PV_0023,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,Standard workup for a standard patient.,6,0.5
+39,PV_0023,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,"He'll send the patient to you.",6,0
+40,PV_0023,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,"You'll run the labs, write the results.",7,0
+41,PV_0023,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,"He'll pick up the report.",5,0
+42,PV_0023,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,No one else needs to see it.,6,1.0
+43,PV_0023,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,"He says it the way a cardiologist would refer a case to a nephrologist.",13,0
+44,PV_0023,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,"Clean, professional, routine.",3,0.5
+45,PV_0023,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,He mentions a number.,4,0
+46,PV_0023,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,"More than your monthly salary, for one exam.",8,0.5
+47,PV_0023,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,You don't say yes.,4,0
+48,PV_0023,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,You don't say no either.,5,0
+49,PV_0023,BEAT_02_02,PHASE_EARLY,ESTABLISH,NARRATION,You write down the address.,5,1.0
+50,PV_0023,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,The address is a back office behind a pharmacy.,8,0
+51,PV_0023,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"End of an alley, past a metal gate that doesn't lock.",10,0
+52,PV_0023,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,The light is yellow and hums when you flip it on.,10,0
+53,PV_0023,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,"The equipment is old, but it works.",7,0
+54,PV_0023,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,Stethoscope. Blood pressure cuff. Sample tubes.,6,0
+55,PV_0023,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,A sharps container that's never been emptied.,7,0.5
+56,PV_0023,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,Everything you'd find in a real clinic.,7,0
+57,PV_0023,BEAT_02_03,PHASE_EARLY,CONSTRAINT,NARRATION,Because it is one.,4,0.5
+58,PV_0023,BEAT_02_03,PHASE_EARLY,CONSTRAINT,WEIGHT_LINE,Just not yours.,3,1.0
+59,PV_0023,BEAT_02_04,PHASE_EARLY,CONFLICT,NARRATION,The first one sits across from you.,7,0
+60,PV_0023,BEAT_02_04,PHASE_EARLY,CONFLICT,NARRATION,Thin. Dark circles under the eyes.,6,0
+61,PV_0023,BEAT_02_04,PHASE_EARLY,CONFLICT,NARRATION,"He doesn't look at you. He looks at the floor.",9,0.5
+62,PV_0023,BEAT_02_04,PHASE_EARLY,CONFLICT,NARRATION,"You place the stethoscope on his chest, the way you've done it a thousand times before.",15,0
+63,PV_0023,BEAT_02_04,PHASE_EARLY,CONFLICT,NARRATION,But your hand isn't steady.,5,0
+64,PV_0023,BEAT_02_04,PHASE_EARLY,CONFLICT,NARRATION,You check the blood pressure. You check it again.,9,0
+65,PV_0023,BEAT_02_04,PHASE_EARLY,CONFLICT,NARRATION,You listen to the heart. You listen to it again.,9,0
+66,PV_0023,BEAT_02_04,PHASE_EARLY,CONFLICT,NARRATION,Not because the readings were unclear.,6,0.5
+67,PV_0023,BEAT_02_04,PHASE_EARLY,CONFLICT,NARRATION,You write the results on a form with no letterhead.,9,0
+68,PV_0023,BEAT_02_04,PHASE_EARLY,CONFLICT,NARRATION,"No hospital logo. No department name. Just your handwriting.",9,0
+69,PV_0023,BEAT_02_04,PHASE_EARLY,CONFLICT,NARRATION,You sign at the bottom.,5,0
+70,PV_0023,BEAT_02_04,PHASE_EARLY,CONFLICT,NARRATION,The pen feels heavier than it should.,7,1.0
+71,PV_0023,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,You drive home with the radio off.,7,0
+72,PV_0023,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,The streetlights pass in the windshield one at a time.,9,0
+73,PV_0023,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,The envelope is in the glove compartment.,7,0
+74,PV_0023,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,"You don't open it until the car is parked, engine off, windows up.",12,0.5
+75,PV_0023,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,"Three months of hospital overtime, in a single envelope.",8,0
+76,PV_0023,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,"For one exam. One patient. One form.",7,0
+77,PV_0023,BEAT_02_05,PHASE_EARLY,REFLECT,WEIGHT_LINE,One signature.,2,1.0
+78,PV_0023,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,You tell yourself it was just a blood test.,8,0
+79,PV_0023,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,Just numbers on a page.,5,0
+80,PV_0023,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,You've run a hundred of them.,6,0
+81,PV_0023,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,This one just went to a different address.,7,1.0
+82,PV_0023,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,You wash your hands before dinner.,6,0
+83,PV_0023,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,You wash them again before bed.,6,0
+84,PV_0023,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,You wash them a third time and stand there looking at the faucet.,12,0
+85,PV_0023,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,The soap smells the same as it always does.,8,0
+86,PV_0023,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,Your hands smell different.,4,0
+87,PV_0023,BEAT_02_05,PHASE_EARLY,REFLECT,NARRATION,Or you think they do.,5,1.5
+88,PV_0023,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,Morning.,1,0
+89,PV_0023,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"Eleven o'clock, second patient of the day.",7,0
+90,PV_0023,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,A woman sits on your exam table. Routine checkup.,8,0
+91,PV_0023,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,You listen to her heart.,5,0
+92,PV_0023,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,You take her blood pressure. Normal.,6,0
+93,PV_0023,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"You write: within normal range.",5,0
+94,PV_0023,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,"She smiles and says thank you, Doctor.",7,0.5
+95,PV_0023,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,You nod.,2,0
+96,PV_0023,BEAT_03_01,PHASE_CONFLICT,ESTABLISH,NARRATION,That part still feels normal.,5,1.0
+97,PV_0023,BEAT_03_02,PHASE_CONFLICT,CONTRAST,NARRATION,That evening.,2,0
+98,PV_0023,BEAT_03_02,PHASE_CONFLICT,CONTRAST,NARRATION,"Seven-thirty, back office behind the pharmacy.",6,0
+99,PV_0023,BEAT_03_02,PHASE_CONFLICT,CONTRAST,NARRATION,A man sits on a different table.,7,0
+100,PV_0023,BEAT_03_02,PHASE_CONFLICT,CONTRAST,NARRATION,"You listen to his heart, the same way.",7,0
+101,PV_0023,BEAT_03_02,PHASE_CONFLICT,CONTRAST,NARRATION,You take his blood pressure. Normal.,6,0
+102,PV_0023,BEAT_03_02,PHASE_CONFLICT,CONTRAST,NARRATION,"You write: within normal range.",5,0.5
+103,PV_0023,BEAT_03_02,PHASE_CONFLICT,CONTRAST,NARRATION,Same words. Same handwriting. Same pen.,6,0
+104,PV_0023,BEAT_03_02,PHASE_CONFLICT,CONTRAST,NARRATION,He doesn't smile.,3,0
+105,PV_0023,BEAT_03_02,PHASE_CONFLICT,CONTRAST,NARRATION,He doesn't say anything.,4,0
+106,PV_0023,BEAT_03_02,PHASE_CONFLICT,CONTRAST,NARRATION,You use the same sentence you used this morning.,9,0
+107,PV_0023,BEAT_03_02,PHASE_CONFLICT,CONTRAST,NARRATION,"One patient says thank you. The other says nothing.",8,1.0
+108,PV_0023,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,You stop checking twice.,4,0
+109,PV_0023,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"You used to listen to the heart, then listen again, just to be sure.",13,0
+110,PV_0023,BEAT_03_33,PHASE_CONFLICT,CONFLICT,NARRATION,Now you listen once.,4,0
+111,PV_0023,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,Then you stop listening that long.,6,0.5
+112,PV_0023,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"The stethoscope doesn't care how long you hold it there.",10,0
+113,PV_0023,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,It picks up whatever's there. That's enough.,7,0
+114,PV_0023,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"Your ears still hear the same thing, either way.",8,0
+115,PV_0023,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"Some nights you drive home and try to separate the morning exams from the evening ones in your head.",17,0
+116,PV_0023,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,"Morning patients and evening donors, all in the same list.",9,0
+117,PV_0023,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,You try to put them in different categories.,8,0
+118,PV_0023,BEAT_03_03,PHASE_CONFLICT,CONFLICT,NARRATION,Then you stop trying.,4,1.0
+119,PV_0023,BEAT_03_04,PHASE_CONFLICT,CONSTRAINT,NARRATION,The sample goes through the hospital lab.,7,0
+120,PV_0023,BEAT_03_04,PHASE_CONFLICT,CONSTRAINT,NARRATION,"You write a name on the tube that doesn't belong to anyone.",11,0
+121,PV_0023,BEAT_03_04,PHASE_CONFLICT,CONSTRAINT,NARRATION,"It sits on the rack between the ten o'clock cholesterol panel and the eleven o'clock thyroid check.",16,0
+122,PV_0023,BEAT_03_04,PHASE_CONFLICT,CONSTRAINT,NARRATION,Nobody looks at the name on the tube.,7,0
+123,PV_0023,BEAT_03_04,PHASE_CONFLICT,CONSTRAINT,NARRATION,The machine reads the barcode. The machine reads the numbers.,10,0.5
+124,PV_0023,BEAT_03_04,PHASE_CONFLICT,CONSTRAINT,NARRATION,"Your handwriting on the false name is steady now.",8,0
+125,PV_0023,BEAT_03_04,PHASE_CONFLICT,CONSTRAINT,NARRATION,It used to shake.,4,0
+126,PV_0023,BEAT_03_04,PHASE_CONFLICT,CONSTRAINT,WEIGHT_LINE,It doesn't.,2,1.0
+127,PV_0023,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,A donor looks at you during the exam.,7,0
+128,PV_0023,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,Not at the equipment. Not at the wall.,7,0
+129,PV_0023,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,At you.,2,0.5
+130,PV_0023,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,He asks: is this safe.,5,0.5
+131,PV_0023,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,You answer the way you've practiced.,6,0
+132,PV_0023,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,Same tone you use in the morning clinic.,7,0
+133,PV_0023,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,Same pause before the reassurance.,5,0
+134,PV_0023,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,Everything is within normal range. No abnormalities detected.,8,0.5
+135,PV_0023,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,He nods slowly.,3,0
+136,PV_0023,BEAT_03_05,PHASE_CONFLICT,CONFLICT,NARRATION,He believes you because you sound like a doctor.,9,0
+137,PV_0023,BEAT_03_05,PHASE_CONFLICT,CONFLICT,WEIGHT_LINE,You sound like a doctor because you are one.,8,1.5
+138,PV_0023,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,The form has a checkbox at the bottom.,7,0
+139,PV_0023,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,Suitable for procedure.,3,0.5
+140,PV_0023,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,Your pen hovers over the box.,6,0
+141,PV_0023,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,Not because you don't know the answer.,7,0.5
+142,PV_0023,BEAT_03_06,PHASE_CONFLICT,REFLECT,WEIGHT_LINE,Because you do.,3,1.5
+143,PV_0023,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,You know what the checkbox means.,6,0
+144,PV_0023,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,You know where the form goes after you sign it.,9,0
+145,PV_0023,BEAT_03_06,PHASE_CONFLICT,REFLECT,NARRATION,"You know what happens to the person sitting across from you after you check it.",14,1.0
+146,PV_0023,BEAT_03_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,You check the box.,4,0
+147,PV_0023,BEAT_03_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,You sign.,2,0.5
+148,PV_0023,BEAT_03_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,The next one comes two weeks later. You don't hesitate.,10,0
+149,PV_0023,BEAT_03_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,The one after that comes ten days later. You don't look up.,11,0
+150,PV_0023,BEAT_03_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,The one after that comes a week later.,8,0
+151,PV_0023,BEAT_03_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,You adjust the stethoscope around your neck. Habit.,8,0
+152,PV_0023,BEAT_03_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,There's a water stain on the ceiling tile above the exam chair.,11,0
+153,PV_0023,BEAT_03_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,You notice it every time.,5,1.5
+154,PV_0023,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,A new sample arrives.,4,0
+155,PV_0023,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,Smaller volume than usual.,4,0
+156,PV_0023,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"The tube is light in your hand, lighter than any you've processed before.",12,0
+157,PV_0023,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"You hold it up to the light. The blood sits at the bottom, barely covering the line.",15,0.5
+158,PV_0023,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,You don't ask why the volume is small.,7,0
+159,PV_0023,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"You already know why, and you don't want to hear it confirmed.",11,1.0
+160,PV_0023,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,You run the test anyway.,5,0
+161,PV_0023,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"You label the tube, the same way you label every tube.",10,0
+162,PV_0023,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"The false name doesn't bother you anymore. The small volume does.",10,0
+163,PV_0023,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,The results come back clean.,5,0.5
+164,PV_0023,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,Everything within normal range.,4,0
+165,PV_0023,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,"Healthy. Viable. Compatible.",3,0
+166,PV_0023,BEAT_04_01,PHASE_CRISIS,CRISIS,NARRATION,That's the part you'll remember.,5,1.0
+167,PV_0023,BEAT_04_02,PHASE_CRISIS,CONFLICT,NARRATION,The broker calls.,3,0
+168,PV_0023,BEAT_04_02,PHASE_CRISIS,CONFLICT,NARRATION,Results?,1,0.5
+169,PV_0023,BEAT_04_02,PHASE_CRISIS,CONFLICT,NARRATION,"You look at the numbers on your desk.",7,0
+170,PV_0023,BEAT_04_02,PHASE_CRISIS,CONFLICT,NARRATION,Kidney function is borderline.,4,0
+171,PV_0023,BEAT_04_02,PHASE_CRISIS,CONFLICT,NARRATION,You could clear it. You've cleared worse.,7,0.5
+172,PV_0023,BEAT_04_02,PHASE_CRISIS,CONFLICT,NARRATION,But the tube.,3,0
+173,PV_0023,BEAT_04_02,PHASE_CRISIS,CONFLICT,NARRATION,The one that was too light.,6,0.5
+174,PV_0023,BEAT_04_02,PHASE_CRISIS,CONFLICT,NARRATION,"You say: not compatible.",4,0
+175,PV_0023,BEAT_04_02,PHASE_CRISIS,CONFLICT,NARRATION,You don't sign the form.,5,1.0
+176,PV_0023,BEAT_04_02,PHASE_CRISIS,CONFLICT,NARRATION,"Your jaw tightens for half a second, then releases.",8,0
+177,PV_0023,BEAT_04_02,PHASE_CRISIS,CONFLICT,NARRATION,Nobody sees it.,3,0
+178,PV_0023,BEAT_04_02,PHASE_CRISIS,CONFLICT,NARRATION,You set the phone down gently and stare at the wall.,10,1.0
+179,PV_0023,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,One week later.,3,0
+180,PV_0023,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,The broker calls again.,4,0
+181,PV_0023,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,A different doctor cleared the sample.,6,0
+182,PV_0023,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,Someone less careful.,3,0
+183,PV_0023,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"Or not less careful. Just less willing to stop.",8,0
+184,PV_0023,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,Or maybe they didn't look at the volume at all.,9,0.5
+185,PV_0023,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,It didn't matter that you said no.,7,0
+186,PV_0023,BEAT_04_03,PHASE_CRISIS,CRISIS,WEIGHT_LINE,It mattered that someone said yes.,6,1.5
+187,PV_0023,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,The system doesn't need your signature.,6,0
+188,PV_0023,BEAT_04_03,PHASE_CRISIS,CRISIS,WEIGHT_LINE,It needs a signature.,4,1.5
+189,PV_0023,BEAT_04_03,PHASE_CRISIS,CRISIS,NARRATION,"The donor went to the surgeon anyway. Your refusal changed nothing except your sleep that night.",14,1.0
+190,PV_0023,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,"The next time the broker calls, you pick up on the second ring.",11,0
+191,PV_0023,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,You don't look at the volume.,6,0
+192,PV_0023,BEAT_04_44,PHASE_CRISIS,REFLECT,NARRATION,You read the blood type.,5,0
+193,PV_0023,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,You read the kidney function.,5,0
+194,PV_0023,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,You read the compatibility score.,5,0
+195,PV_0023,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,You sign.,2,0.5
+196,PV_0023,BEAT_04_04,PHASE_CRISIS,REFLECT,NARRATION,You don't ask anything you don't need to know.,9,0
+197,PV_0023,BEAT_04_04,PHASE_CRISIS,REFLECT,WEIGHT_LINE,You've learned what you don't need to know.,8,2.0
+198,PV_0023,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,You stop reading the name on the form.,7,0
+199,PV_0023,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,The name is at the top. You start at the middle.,10,0
+200,PV_0023,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,Blood type. Kidney function. Tissue match.,6,0
+201,PV_0023,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,Compatibility.,1,0.5
+202,PV_0023,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,That's everything you need.,4,0
+203,PV_0023,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,That's everything the broker needs.,5,0
+204,PV_0023,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,The name was never the point.,6,0
+205,PV_0023,BEAT_05_01,PHASE_RESOLUTION,RESOLVE,NARRATION,You're not sure when you stopped looking at it.,9,1.0
+206,PV_0023,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,Morning shift.,2,0
+207,PV_0023,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"A patient's chest. Stethoscope. Notes on a clipboard.",8,0
+208,PV_0023,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,Signature at the bottom.,4,0.5
+209,PV_0023,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,Evening.,1,0
+210,PV_0023,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,"A donor's chest. Stethoscope. Notes on a clipboard.",8,0
+211,PV_0023,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,Signature at the bottom.,4,0.5
+212,PV_0023,BEAT_05_02,PHASE_RESOLUTION,REFLECT,NARRATION,Same stethoscope. Same clipboard. Same pen.,6,0
+213,PV_0023,BEAT_05_02,PHASE_RESOLUTION,REFLECT,WEIGHT_LINE,Same hand.,2,1.5
+214,PV_0023,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,You didn't become a different person.,6,0
+215,PV_0023,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,You didn't cross a line.,5,0
+216,PV_0023,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,The line moved.,3,0
+217,PV_0023,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,Or maybe it was never there.,6,0
+218,PV_0023,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"Maybe there's no line between diagnosing a patient and evaluating a donor.",11,0
+219,PV_0023,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"The blood type is the same blood type. The kidney function test is the same test.",15,0
+220,PV_0023,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"The stethoscope doesn't know. The lab doesn't know. The form doesn't know.",11,0.5
+221,PV_0023,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,You just do what you were trained to do.,8,0
+222,PV_0023,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,Observe. Translate. Write it down. Sign.,6,0
+223,PV_0023,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,"The training doesn't know the difference between a patient and a donor.",12,0
+224,PV_0023,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,WEIGHT_LINE,Neither do you.,3,1.0
+225,PV_0023,BEAT_05_03,PHASE_RESOLUTION,RESOLVE,NARRATION,Not anymore.,2,1.5
+226,PV_0023,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,"Someone at a dinner party asks what you do for a living.",11,0
+227,PV_0023,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,"You say: doctor.",3,0.5
+228,PV_0023,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,They nod. They ask which hospital.,6,0
+229,PV_0023,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,You tell them the name.,5,0
+230,PV_0023,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,"They say: oh, that's a good one.",7,0
+231,PV_0023,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,You nod.,2,0
+232,PV_0023,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,You don't add anything.,4,0
+233,PV_0023,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,You don't subtract anything.,4,0
+234,PV_0023,BEAT_05_04,PHASE_RESOLUTION,REFLECT,NARRATION,You refill your glass and change the subject.,8,0
+235,PV_0023,BEAT_05_04,PHASE_RESOLUTION,REFLECT,WEIGHT_LINE,That's the whole answer.,4,1.5
+236,PV_0023,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,Stethoscope on the chest.,4,0
+237,PV_0023,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,Left hand steadies. Right hand listens.,6,0.5
+238,PV_0023,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,The heartbeat is steady.,4,0.5
+239,PV_0023,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,"You write one word on the form.",7,0.5
+240,PV_0023,BEAT_06_01,CALLBACK,CALLBACK,WEIGHT_LINE,Unremarkable.,1,1.0
+241,PV_0023,BEAT_06_01,CALLBACK,CALLBACK,NARRATION,No abnormalities detected.,3,1.5
+242,PV_0023,BEAT_06_02,CALLBACK,CTA,NARRATION,You walk into the room.,5,0
+243,PV_0023,BEAT_06_02,CALLBACK,CTA,NARRATION,You pick up the clipboard.,5,0
+244,PV_0023,BEAT_06_02,CALLBACK,CTA,NARRATION,You don't check which room you're in.,7,0.5
+245,PV_0023,BEAT_06_02,CALLBACK,CTA,WEIGHT_LINE,The exam is the same.,5,2.0

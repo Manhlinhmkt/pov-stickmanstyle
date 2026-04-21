@@ -155,3 +155,75 @@ worlds:
     episodes: [PV_0017]
     created: "2026-04-13"
 
+  WORLD_INTELLIGENCE_CIA_IRAN_OFFICER:
+    file: "pvle/worlds/WORLD_INTELLIGENCE_CIA_IRAN_OFFICER.yaml"
+    display_name: "The Person Who Runs Assets in a Country They Cannot Enter"
+    domain: MILITARY_INTELLIGENCE
+    identity_mode: GENERIC_ARCHETYPE
+    tags: [cia_field_officer, iran_war_2026, asset_running, proxy_warfare, moral_injury, invisible_betrayal, double_paranoia]
+    episodes: [PV_0018]
+    created: "2026-04-13"
+
+  WORLD_CIVILIAN_TEHRAN_WARTIME:
+    file: "pvle/worlds/WORLD_CIVILIAN_TEHRAN_WARTIME.yaml"
+    display_name: "The Person Who Was Still Inside When It Started"
+    domain: CIVILIAN_WARZONE
+    identity_mode: GENERIC_ARCHETYPE
+    tags: [civilian_wartime, tehran_under_fire, ordinary_life_shattered, survival_instinct, information_blackout, family_protection, powerlessness, moral_fracture]
+    episodes: [PV_0019]
+    created: "2026-04-13"
+
+  WORLD_CIVILIAN_TEL_AVIV_WARTIME:
+    file: "pvle/worlds/WORLD_CIVILIAN_TEL_AVIV_WARTIME.yaml"
+    display_name: "The Person Who Had 90 Seconds"
+    domain: CIVILIAN_WARZONE
+    identity_mode: GENERIC_ARCHETYPE
+    tags: [civilian_wartime, tel_aviv_under_fire, iron_dome_ceiling, siren_pavlov, normalization_as_wound, somatic_memory, countdown_loop, moral_fracture]
+    episodes: [PV_0020]
+    created: "2026-04-14"
+
+  WORLD_CRIMINAL_ORGAN_DONOR:
+    file: "pvle/worlds/WORLD_CRIMINAL_ORGAN_DONOR.yaml"
+    display_name: "The Person Who Sold What They Couldn't Get Back"
+    domain: CRIMINAL
+    identity_mode: GENERIC_ARCHETYPE
+    tags: [organ_trafficking, desperate_poverty, body_as_commodity, betrayed_trust, irreversible_loss, invisible_victim]
+    episodes: [PV_0021]
+    created: "2026-04-18"
+
+  WORLD_CRIMINAL_ORGAN_DOCTOR_ADVISOR:
+    file: "pvle/worlds/WORLD_CRIMINAL_ORGAN_DOCTOR_ADVISOR.yaml"
+    display_name: "The Person Who Decided They Were Healthy Enough"
+    domain: CRIMINAL
+    identity_mode: GENERIC_ARCHETYPE
+    tags: [organ_trafficking, medical_gatekeeper, diagnostic_weapon, dual_practice, clipboard_executioner, hippocratic_corruption, corruption_of_expertise]
+    episodes: [PV_0023]
+    created: "2026-04-19"
+
+  WORLD_CRIMINAL_CORRUPT_COP_HANDLER:
+    file: "pvle/worlds/WORLD_CRIMINAL_CORRUPT_COP_HANDLER.yaml"
+    display_name: "The Cop Who Runs Informants"
+    domain: CRIMINAL
+    identity_mode: GENERIC_ARCHETYPE
+    tags: [police_corruption, informant_exploitation, human_ownership, coerced_cooperation, snitch_system, puppet_master]
+    episodes: [PV_0027]
+    created: "2026-04-21"
+
+  WORLD_CRIMINAL_CORRUPT_COP_CLEANER:
+    file: "pvle/worlds/WORLD_CRIMINAL_CORRUPT_COP_CLEANER.yaml"
+    display_name: "The Cop Who Cleans the Scene"
+    domain: CRIMINAL
+    identity_mode: GENERIC_ARCHETYPE
+    tags: [police_corruption, crime_scene_tampering, evidence_destruction, cover_up, scene_management, reality_erasure]
+    episodes: [PV_0028]
+    created: "2026-04-21"
+
+  WORLD_CRIMINAL_CORRUPT_COP_GHOST:
+    file: "pvle/worlds/WORLD_CRIMINAL_CORRUPT_COP_GHOST.yaml"
+    display_name: "The Cop Who Decides Who Disappears"
+    domain: CRIMINAL
+    identity_mode: GENERIC_ARCHETYPE
+    tags: [police_corruption, enforced_disappearance, off_book_detention, bureaucratic_erasure, ghost_detainees, existence_as_currency]
+    episodes: [PV_0029]
+    created: "2026-04-21"
+

@@ -6,10 +6,55 @@ skills_required:
 
 # WORKFLOW: /pvle-gen-image-prompts
 
-> **Phase:** 3.1 — Illustration  
+> **Phase:** 3.1 - Illustration  
 > **Input:** `vo_script_table.csv` + `l2_breakdown_table.csv` + `episode_brief.md`  
 > **Output:** `illustration_strip_table.csv` + `image_prompts.csv`  
 > **Target tool:** Nano Banana (Gemini Image Generation)
+
+## EXECUTION_CHECKLIST
+
+```yaml
+total_steps: 7
+steps:
+  - step: 1
+    name: "Read Inputs"
+    type: AUTO
+    output: "inline (data loaded)"
+
+  - step: 2
+    name: "Load Rules"
+    type: AUTO
+    output: "inline (style constants extracted)"
+
+  - step: 3
+    name: "Generate Strip Table"
+    type: AUTO
+    output: "pvle/episodes/{EP}/illustration_strip_table.csv"
+
+  - step: 3.5
+    name: "Verify Character Review (prerequisite)"
+    type: BLOCKING
+    gate: "ABORT if character review not completed - run /pvle-character-review first"
+    output: "inline (check result)"
+
+  - step: 4
+    name: "Generate Image Prompts"
+    type: AUTO
+    output: "inline (prompts generated)"
+
+  - step: 5
+    name: "Validate + Output Image Prompts"
+    type: AUTO
+    output: "pvle/episodes/{EP}/image_prompts.csv"
+
+  - step: 7
+    name: "Update Episode Registry"
+    type: AUTO
+    output: "episode_registry.csv updated"
+
+# On completion: verify all steps checked
+# On skip: VIOLATION -> HALT_AND_REPORT
+```
 
 ---
 
@@ -328,6 +373,30 @@ Columns: `Slate,Start_VO_ID,End_VO_ID,Life_Phase,Scene_Type,Image_Prompt`
 
 ---
 
+## STEP 7: Update Episode Registry
+
+After image_prompts.csv is written successfully:
+
+1. Read `episode_registry.csv` (root directory)
+2. Check if Episode_ID already exists:
+   - EXISTS: Update row (in case title changed)
+   - NOT EXISTS: Append new row
+3. Extract from episode_brief.md:
+   - **Episode_Title**: from METADATA table
+   - **Main_Character**: from CHARACTER REGISTRY SUBJECT row
+     - TRANSPARENT_VEIL: use implied_person from world YAML (internal only)
+     - GENERIC_ARCHETYPE: use role descriptor from Veil_Name or world display_name
+   - **Theme**: derive from world domain + tags (1 short keyword)
+4. Write updated CSV (UTF-8 BOM)
+
+Confirm:
+```
+Episode registered: [Episode_ID] | [Title] | [Main_Character] | [Theme]
+```
+
+---
+
 ## USER INPUT
 
 > `Episode_ID`: {{Episode_ID}}
+

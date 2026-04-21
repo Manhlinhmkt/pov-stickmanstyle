@@ -1,0 +1,102 @@
+﻿Strip_ID,Start_VO_ID,End_VO_ID,VO_Count,Life_Phase,Scene_Type,Duration_Sec,Strip_Summary
+PV_0023_001,1,3,3,HOOK,POV_SHOT,6,"First-person view: stethoscope placed on patient chest, bright clinical exam room"
+PV_0023_002,4,5,2,HOOK,TEXT_OVERLAY,5.2,Bold white text on dark grey background: 'Unremarkable.'
+PV_0023_003,6,7,2,HOOK,NARRATIVE_SCENE,8.4,Doctor stickman in exam room. Morning patient exits smiling vs current figure seated silent
+PV_0023_004,8,10,3,HOOK,TEXT_OVERLAY,7.1,Bold text on dark background: 'Same equipment. Different purpose.'
+PV_0023_005,11,13,3,HOOK,NARRATIVE_SCENE,9.8,Doctor stickman looking at own hands. Two doorways behind - one bright one dark
+PV_0023_006,14,17,4,HOOK,NARRATIVE_SCENE,11.1,Doctor stickman in corridor between training certificates. Lab coat and stethoscope. That's the problem
+PV_0023_007,18,19,2,HOOK,NARRATIVE_SCENE,11.5,Doctor stickman at exam desk with clock. Compatibility forms and lab equipment
+PV_0023_008,20,20,1,HOOK,TEXT_OVERLAY,4.8,Bold white text on dark background: 'You are good at your job.'
+PV_0023_009,21,22,2,PHASE_EARLY,NARRATIVE_SCENE,6.5,Doctor stickman at desk with diploma and stack of bills. Modest apartment
+PV_0023_010,23,25,3,PHASE_EARLY,NARRATIVE_SCENE,13.5,"Doctor stickman reviewing paycheck at desk. Debt growing, interest unpaid"
+PV_0023_011,26,27,2,PHASE_EARLY,NARRATIVE_SCENE,7.8,Doctor stickman alone in hospital cafeteria eating cheap lunch
+PV_0023_012,28,30,3,PHASE_EARLY,NARRATIVE_SCENE,10.7,Doctor stickman walking hospital corridor. Good at medicine but debt remains
+PV_0023_013,31,33,3,PHASE_EARLY,NARRATIVE_SCENE,8.3,Doctor stickman holding office phone. Shadow figure on other end. Evening light
+PV_0023_014,34,36,3,PHASE_EARLY,NARRATIVE_SCENE,7.9,"Phone conversation detail. Medical terms: blood compatibility, tissue typing"
+PV_0023_015,37,39,3,PHASE_EARLY,NARRATIVE_SCENE,8.3,Doctor stickman listening on phone. Notepad with instructions and arrangement
+PV_0023_016,40,41,2,PHASE_EARLY,NARRATIVE_SCENE,11.2,Doctor stickman still on phone. Private arrangement described professionally
+PV_0023_017,42,43,2,PHASE_EARLY,NARRATIVE_SCENE,6,Doctor stickman hearing money amount. Notepad showing more than monthly salary
+PV_0023_018,44,46,3,PHASE_EARLY,EMOTIONAL_CLOSEUP,7.5,Doctor stickman at desk. Phone down. Hand writing address. Tense expression. Cool blue wash
+PV_0023_019,47,48,2,PHASE_EARLY,POV_SHOT,8.3,"First-person entering back office. Metal gate behind, narrow alley visible outside"
+PV_0023_020,49,50,2,PHASE_EARLY,NARRATIVE_SCENE,7.8,Dim exam room interior. Yellow humming light. Old but functional equipment
+PV_0023_021,51,52,2,PHASE_EARLY,NARRATIVE_SCENE,6.5,"Medical equipment on tray: stethoscope, blood cuff, sample tubes. Sharps container overfull"
+PV_0023_022,53,55,3,PHASE_EARLY,TEXT_OVERLAY,8,Bold text on dark background: 'Just not yours.'
+PV_0023_023,56,58,3,PHASE_EARLY,EMOTIONAL_CLOSEUP,10.7,"Thin donor stickman (dot eyes, fearful mouth) seated on chair. Doctor standing opposite. Dread grey vignette"
+PV_0023_024,59,61,3,PHASE_EARLY,NARRATIVE_SCENE,14.8,Doctor stickman placing stethoscope on donor chest. Shoes untied. Hand unsteady
+PV_0023_025,62,63,2,PHASE_EARLY,NARRATIVE_SCENE,8.3,Doctor stickman checking blood pressure twice. Listening to heart twice
+PV_0023_026,64,65,2,PHASE_EARLY,NARRATIVE_SCENE,7,Doctor stickman pausing after readings. Hands already knew the answer
+PV_0023_027,66,67,2,PHASE_EARLY,NARRATIVE_SCENE,9.2,"Doctor stickman signing blank form at desk. No letterhead, just handwriting"
+PV_0023_028,68,68,1,PHASE_EARLY,NARRATIVE_SCENE,4.2,Close view of pen in doctor's hand. Pen heavy. Single light overhead
+PV_0023_029,69,70,2,PHASE_EARLY,NARRATIVE_SCENE,10.6,"Doctor stickman driving car at night, radio off. Past hospital and gas station"
+PV_0023_030,71,72,2,PHASE_EARLY,NARRATIVE_SCENE,7.4,Streetlights passing through windshield one at a time. Doctor counting three
+PV_0023_031,73,74,2,PHASE_EARLY,NARRATIVE_SCENE,9.3,Doctor stickman in parked car. Opening envelope from glove compartment
+PV_0023_032,75,77,3,PHASE_EARLY,TEXT_OVERLAY,8.8,Bold text on dark background: 'One exam. One form. One signature.'
+PV_0023_033,78,79,2,PHASE_EARLY,NARRATIVE_SCENE,6,"Doctor stickman at home. Telling self it was just a blood test, just numbers"
+PV_0023_034,80,81,2,PHASE_EARLY,NARRATIVE_SCENE,7,Doctor stickman staring at wall. This test went to a different address
+PV_0023_035,82,84,3,PHASE_EARLY,NARRATIVE_SCENE,11.1,Doctor stickman at bathroom sink washing hands third time. Faucet running
+PV_0023_036,85,87,3,PHASE_EARLY,EMOTIONAL_CLOSEUP,9.3,Doctor stickman looking at own hands under bathroom light. Hands smell different. Warm amber edges
+PV_0023_037,88,90,3,PHASE_CONFLICT,NARRATIVE_SCENE,7.4,Bright legitimate clinic morning. Doctor examining patient (faceless) on table
+PV_0023_038,91,93,3,PHASE_CONFLICT,NARRATIVE_SCENE,10.7,"Doctor stickman writing 'within range.' Patient (faceless) smiling, saying thank you"
+PV_0023_039,94,95,2,PHASE_CONFLICT,NARRATIVE_SCENE,13.5,Doctor stickman nodding at patient. Morning routine. Everything feels normal
+PV_0023_040,96,96,1,PHASE_CONFLICT,NARRATIVE_SCENE,3.8,Doctor stickman in corridor thinking. From outside this morning looks like training
+PV_0023_041,97,99,3,PHASE_CONFLICT,NARRATIVE_SCENE,6.9,Evening. Back office behind pharmacy. Donor (faceless) on different table
+PV_0023_042,100,102,3,PHASE_CONFLICT,NARRATIVE_SCENE,8.8,Doctor stickman listening to donor's heart. Same way. Writing 'within range.'
+PV_0023_043,103,104,2,PHASE_CONFLICT,NARRATIVE_SCENE,6,"Same pen, same handwriting, same words. Donor doesn't smile, doesn't speak"
+PV_0023_044,105,106,2,PHASE_CONFLICT,CONTRAST_SPLIT,8.8,Split: left 'MORNING' patient saying thank you vs right 'EVENING' donor silent. Same doctor posture
+PV_0023_045,107,109,3,PHASE_CONFLICT,NARRATIVE_SCENE,9.7,"Doctor stickman placing stethoscope quickly. One check, not two. Efficient motion"
+PV_0023_046,110,112,3,PHASE_CONFLICT,NARRATIVE_SCENE,9.7,Doctor stickman with stethoscope. Ears hear same thing either way. Mechanical
+PV_0023_047,113,114,2,PHASE_CONFLICT,NARRATIVE_SCENE,12,Doctor stickman driving home at night. Morning patients and evening donors same list
+PV_0023_048,115,117,3,PHASE_CONFLICT,NARRATIVE_SCENE,11.2,Doctor stickman at wheel. Categories dissolving. System never had them
+PV_0023_049,118,119,2,PHASE_CONFLICT,POV_SHOT,8.3,First-person: lab tray with sample tubes. False name written on middle tube
+PV_0023_050,120,120,1,PHASE_CONFLICT,NARRATIVE_SCENE,9.2,Lab rack: illegal tube sitting between routine cholesterol and thyroid check samples
+PV_0023_051,121,121,1,PHASE_CONFLICT,NARRATIVE_SCENE,5.1,Lab machine reading barcode. Machine reading numbers. No questions asked
+PV_0023_052,122,124,3,PHASE_CONFLICT,TEXT_OVERLAY,7.5,Bold text transitioning shaky to steady: 'It used to shake. It doesn't.'
+PV_0023_053,125,127,3,PHASE_CONFLICT,EMOTIONAL_CLOSEUP,10.7,Doctor stickman facing donor (faceless) who looks directly at doctor. Donor asks question. Grey vignette
+PV_0023_054,128,130,3,PHASE_CONFLICT,NARRATIVE_SCENE,13.9,Doctor stickman answering with practiced calm. Same clinical tone as morning. Donor nods slowly
+PV_0023_055,131,132,2,PHASE_CONFLICT,NARRATIVE_SCENE,9.3,Doctor stickman in white coat. Sounds like a doctor because is one. Back office dim
+PV_0023_056,133,135,3,PHASE_CONFLICT,POV_SHOT,7.9,Extreme close-up: pen hovering over checkbox. 'Suitable for procedure' visible on form
+PV_0023_057,136,137,2,PHASE_CONFLICT,TEXT_OVERLAY,6.6,Bold text on dark background: 'Because you do.'
+PV_0023_058,138,140,3,PHASE_CONFLICT,NARRATIVE_SCENE,14.4,Doctor stickman looking at form. Understanding where it goes. Donor (faceless) across table
+PV_0023_059,141,142,2,PHASE_CONFLICT,NARRATIVE_SCENE,7.9,"Doctor stickman checking box and signing. Next donor two weeks later, no hesitation"
+PV_0023_060,143,144,2,PHASE_CONFLICT,NARRATIVE_SCENE,8.8,Sequence of donors (faceless) arriving. Intervals shortening. Forms accumulating on desk
+PV_0023_061,145,147,3,PHASE_CONFLICT,NARRATIVE_SCENE,11.1,Doctor stickman adjusting stethoscope. Looking up at water stain on ceiling tile above chair
+PV_0023_062,148,148,1,PHASE_CONFLICT,NARRATIVE_SCENE,7.8,Doctor stickman thinking about ceiling stain. Doesn't know who owns building
+PV_0023_063,149,150,2,PHASE_CONFLICT,NARRATIVE_SCENE,8.9,Doctor stickman in anonymous space. No address known. No real names. Used to bother him
+PV_0023_064,151,153,3,PHASE_CRISIS,POV_SHOT,8.3,First-person: small blood tube held up to light. Noticeably less blood. Light passing through
+PV_0023_065,154,155,2,PHASE_CRISIS,EMOTIONAL_CLOSEUP,11.6,Doctor stickman holding tube up to light. Blood barely covering line. Desaturated grey
+PV_0023_066,156,156,1,PHASE_CRISIS,NARRATIVE_SCENE,4.7,Doctor stickman looking at small tube. Whoever this came from had little to give
+PV_0023_067,157,158,2,PHASE_CRISIS,NARRATIVE_SCENE,7.9,"Doctor stickman not asking why. Already knows. Dark lab, single desk lamp"
+PV_0023_068,159,161,3,PHASE_CRISIS,NARRATIVE_SCENE,11.5,Doctor stickman labeling tube with false name. Running test. Small volume visible in tube
+PV_0023_069,162,163,2,PHASE_CRISIS,EMOTIONAL_CLOSEUP,9.8,Doctor stickman chest tightening. Not guilt. Recognition. Results on desk. Grey vignette
+PV_0023_070,164,165,2,PHASE_CRISIS,TEXT_OVERLAY,4.7,Bold text on dark background: 'Healthy. Viable. Compatible.'
+PV_0023_071,166,168,3,PHASE_CRISIS,NARRATIVE_SCENE,7.9,Doctor stickman on phone with broker shadow. Lab results on desk. Kidney function numbers
+PV_0023_072,169,172,4,PHASE_CRISIS,EMOTIONAL_CLOSEUP,13.1,"Doctor stickman refusing. Form unsigned. Saying 'not compatible.' Rigid, jaw tight. Grey vignette"
+PV_0023_073,173,175,3,PHASE_CRISIS,NARRATIVE_SCENE,11.2,Doctor stickman sitting alone. Phone on desk. Staring at wall. Nobody watching
+PV_0023_074,176,178,3,PHASE_CRISIS,NARRATIVE_SCENE,12.9,Doctor stickman on phone. Broker different tone. Another doctor cleared the sample
+PV_0023_075,179,180,2,PHASE_CRISIS,NARRATIVE_SCENE,7.9,Doctor stickman processing. Maybe other doctor didn't check volume. Refusal meaningless
+PV_0023_076,181,182,2,PHASE_CRISIS,EMOTIONAL_CLOSEUP,8,Doctor stickman sitting still. It mattered that someone said yes. Grey vignette
+PV_0023_077,183,185,3,PHASE_CRISIS,TEXT_OVERLAY,10.4,Bold stacked text: 'It needs a signature. And there's always someone.'
+PV_0023_078,186,186,1,PHASE_CRISIS,NARRATIVE_SCENE,7.5,Doctor stickman lying in bed. Donor went to surgeon. Sleep lost. Dark room
+PV_0023_079,187,189,3,PHASE_CRISIS,NARRATIVE_SCENE,9.2,Doctor stickman answering phone on second ring. Skipping volume. Reading blood type
+PV_0023_080,190,192,3,PHASE_CRISIS,NARRATIVE_SCENE,6,"Doctor stickman reading kidney function, compatibility. Signing. No pause"
+PV_0023_081,193,194,2,PHASE_CRISIS,TEXT_OVERLAY,9.8,Bold text: 'You've learned what you don't need to know.'
+PV_0023_082,195,197,3,PHASE_RESOLUTION,NARRATIVE_SCENE,11.6,Doctor stickman reading form from middle. Name field at top ignored. Data fields only
+PV_0023_083,198,199,2,PHASE_RESOLUTION,NARRATIVE_SCENE,6.9,Doctor stickman at desk. Everything broker needs. Name was never the point
+PV_0023_084,200,201,2,PHASE_RESOLUTION,NARRATIVE_SCENE,10.2,Doctor stickman not sure when stopped looking at names. Form blurred at top
+PV_0023_085,202,204,3,PHASE_RESOLUTION,NARRATIVE_SCENE,7,"Morning shift: patient chest, stethoscope, clipboard, signature at bottom"
+PV_0023_086,205,207,3,PHASE_RESOLUTION,NARRATIVE_SCENE,6.5,"Evening: donor chest, stethoscope, clipboard, signature at bottom. Identical sequence"
+PV_0023_087,208,209,2,PHASE_RESOLUTION,TEXT_OVERLAY,5.2,Bold text on dark background: 'Same stethoscope. Same clipboard. Same hand.'
+PV_0023_088,210,213,4,PHASE_RESOLUTION,EMOTIONAL_CLOSEUP,12.5,Doctor stickman standing still in corridor. Willing has always been there. No line. Gold light fading
+PV_0023_089,214,214,1,PHASE_RESOLUTION,NARRATIVE_SCENE,12.9,Doctor stickman standing. Maybe no line between diagnosing patients and evaluating donors
+PV_0023_090,215,215,1,PHASE_RESOLUTION,NARRATIVE_SCENE,5.6,Medical equipment on desk. Stethoscope doesn't know. Lab doesn't know. Form doesn't know
+PV_0023_091,216,217,2,PHASE_RESOLUTION,NARRATIVE_SCENE,6.5,"Doctor stickman in loop: observe, translate, write, sign. Five-minute cycle"
+PV_0023_092,218,220,3,PHASE_RESOLUTION,NARRATIVE_SCENE,14.8,Doctor stickman writing. Everything blurs - names and forms. Then clears. Keeps writing
+PV_0023_093,221,223,3,PHASE_RESOLUTION,TEXT_OVERLAY,10.3,Bold text on dark background: 'Neither do you. Not anymore.'
+PV_0023_094,224,226,3,PHASE_RESOLUTION,NARRATIVE_SCENE,9.7,Doctor stickman at dinner party. Someone (faceless) asking what he does. Glass in hand
+PV_0023_095,227,229,3,PHASE_RESOLUTION,NARRATIVE_SCENE,10.2,Doctor stickman responding 'doctor.' They say good hospital. Nothing added or subtracted
+PV_0023_096,230,231,2,PHASE_RESOLUTION,NARRATIVE_SCENE,7,Doctor stickman refilling glass. Changing subject. That's the whole answer. Neutral posture
+PV_0023_097,232,234,3,CALLBACK,NARRATIVE_SCENE,7.5,Doctor stickman placing stethoscope. Left hand steadies. Right hand listens. Mirror of HOOK
+PV_0023_098,235,237,3,CALLBACK,TEXT_OVERLAY,8.1,Bold text: 'Unremarkable. No abnormalities detected.'
+PV_0023_099,238,240,3,CALLBACK,NARRATIVE_SCENE,8.8,"Doctor stickman stepping through doorway. Gloves, stethoscope, clipboard. Ambiguous room"
+PV_0023_100,241,241,1,CALLBACK,NARRATIVE_SCENE,3.7,Doctor stickman in room. Doesn't check which one. Exam is the same
+PV_0023_101,242,243,2,CALLBACK,TEXT_OVERLAY,8.6,Bold text on dark background: 'It was always the same.'

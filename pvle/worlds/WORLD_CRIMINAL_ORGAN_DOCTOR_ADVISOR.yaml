@@ -1,0 +1,457 @@
+# WORLD: WORLD_CRIMINAL_ORGAN_DOCTOR_ADVISOR
+# Display: The Person Who Decided They Were Healthy Enough
+# Created: 2026-04-19
+
+WORLD_ID: WORLD_CRIMINAL_ORGAN_DOCTOR_ADVISOR
+display_name: "The Person Who Decided They Were Healthy Enough"
+domain: CRIMINAL
+era: MODERN_CONTEMPORARY
+implied_identity_mode: GENERIC_ARCHETYPE
+implied_person: null
+
+tags:
+  - organ_trafficking
+  - medical_gatekeeper
+  - diagnostic_weapon
+  - dual_practice
+  - clipboard_executioner
+  - hippocratic_corruption
+  - corruption_of_expertise
+
+seed_keywords:
+  - "organ trafficking doctor"
+  - "medical advisor organ trade"
+  - "transplant compatibility testing"
+  - "corrupt physician organ screening"
+  - "medical gatekeeper black market"
+  - "donor evaluation trafficking"
+
+# ============================================================
+# CORE MECHANIC (narrative engine for this world)
+# ============================================================
+core_mechanic:
+  name: "THE_DIAGNOSTIC_LOOP"
+  core_function: >
+    Convert uncertainty into medical certainty - regardless of consequence.
+    The doctor's entire value to the network is the ability to take a
+    frightened, uncertain human body and reduce it to data: blood type,
+    tissue compatibility, organ function. The loop runs identically
+    whether the patient is legitimate or trafficked. That is the horror.
+  internal_loop:
+    description: >
+      Every encounter follows the same four-step process. The loop is
+      identical in legitimate and trafficking contexts. The doctor
+      cannot turn it off. It is how they were trained. The training
+      does not know the difference.
+    steps:
+      - step: "OBSERVE"
+        action: "Read the body - vital signs, skin color, pupil response, tremor"
+        example: "Pulse slightly elevated. Skin pale but within range."
+      - step: "TRANSLATE"
+        action: "Convert physical observation into clinical language"
+        example: "Tachycardia. Probable anxiety response. Not pathological."
+      - step: "NEUTRALIZE"
+        action: "Strip emotional context from the data"
+        example: "Ignore the fear in the eyes. Fear is not a medical finding."
+      - step: "OUTPUT"
+        action: "Deliver verdict in clinical monotone"
+        example: "'You're fine. Everything is within normal range.'"
+  loop_degradation:
+    description: >
+      Over time, the loop accelerates. What once took a full exam now
+      takes a glance. The steps collapse into instinct. The doctor stops
+      performing the exam and starts performing the clearance.
+    stages:
+      - stage: "STAGE_1_FULL_PROTOCOL"
+        description: "Complete exam. Genuine medical process. Still feels like medicine."
+        duration: "45 minutes per donor"
+      - stage: "STAGE_2_ABBREVIATED"
+        description: "Skip non-essential checks. Focus only on compatibility markers."
+        duration: "20 minutes per donor"
+      - stage: "STAGE_3_PATTERN_MATCH"
+        description: "Glance at the body. Know the answer before the blood comes back."
+        duration: "10 minutes per donor"
+      - stage: "STAGE_4_RUBBER_STAMP"
+        description: "Sign the form. Do not look up. The exam is a formality."
+        duration: "5 minutes per donor"
+
+# ============================================================
+# BEHAVIOR SIGNATURE (video identity layer)
+# ============================================================
+behavior_signature:
+  description: >
+    Three behavioral constants that appear in every scene. These are
+    the visual and verbal fingerprint of the character - the things
+    that make the doctor recognizable across episodes.
+  signatures:
+    - type: "CLINICAL_LANGUAGE"
+      description: >
+        Never uses emotional or direct words. Every statement is
+        filtered through medical vocabulary. This is both professional
+        habit and defense mechanism.
+      vocabulary:
+        uses: ["stable", "within range", "acceptable", "unremarkable", "viable", "compatible"]
+        avoids: ["dangerous", "scared", "wrong", "hurt", "victim", "sell"]
+      example: "Does not say 'this person is terrified.' Says 'elevated heart rate, probably situational.'"
+
+    - type: "REPEATED_ACTIONS"
+      description: >
+        The same physical sequence every time. Stethoscope. Notes.
+        Signature. These actions carry different meaning depending
+        on context but the motions are identical.
+      sequence:
+        - "Place stethoscope on chest"
+        - "Write on clipboard"
+        - "Sign the form"
+      rule: "This sequence appears in EVERY episode. Same actions. Different meaning."
+
+    - type: "EMOTIONAL_SUPPRESSION"
+      description: >
+        The doctor never reacts emotionally on the surface. Horror
+        is communicated through micro-signals that the audience
+        catches but the character denies.
+      signals:
+        - "A pause that lasts one beat too long"
+        - "Changing one word in the verdict"
+        - "Looking at the clipboard instead of the patient"
+        - "Washing hands one extra time"
+      rule: "No tears. No outbursts. No visible guilt. Only pauses and substitutions."
+
+# ============================================================
+# DUALITY MATRIX (same action, different meaning)
+# ============================================================
+duality_matrix:
+  description: >
+    The core horror of this character. Every medical action has two
+    meanings. The action is identical. The context determines which
+    meaning applies. Each episode MUST contain at least one duality
+    pair shown explicitly.
+  pairs:
+    - action: "Listen to heartbeat"
+      meaning_legitimate: "Diagnosing a patient"
+      meaning_trafficking: "Pricing an organ"
+    - action: "Run blood test"
+      meaning_legitimate: "Saving a life"
+      meaning_trafficking: "Selecting a victim"
+    - action: "'You are healthy'"
+      meaning_legitimate: "Good news"
+      meaning_trafficking: "Clearance for extraction"
+    - action: "Sign the form"
+      meaning_legitimate: "Treatment plan"
+      meaning_trafficking: "Death sentence"
+    - action: "Reject a patient"
+      meaning_legitimate: "Not suitable for treatment"
+      meaning_trafficking: "Saved - but someone else takes their place"
+    - action: "Wash hands"
+      meaning_legitimate: "Hygiene protocol"
+      meaning_trafficking: "Ritual of separation"
+  enforcement_rule: >
+    RULE_DUALITY_PAIR: Every episode script MUST contain at least
+    one scene where the same physical action is performed in both
+    contexts (legitimate and trafficking) within the same narrative
+    day. The audience must feel the identical motion carry opposite
+    weight.
+
+# ============================================================
+# KEY FACTS (behavior-first, POV-ready)
+# ============================================================
+key_facts:
+  # --- Observable behavior (VO-ready) ---
+  - "You place the stethoscope the same way every time. Left hand steadies. Right hand listens. The heart does not know who is asking."
+  - "You write 'compatible' on the form. You do not write what compatible means for the person standing in front of you."
+  - "You run trafficking samples through the hospital lab under false names - between the 10am routine bloodwork and the 11am cholesterol check."
+  - "The broker calls you 'Doctor.' Not your name. Never your name. You prefer it that way."
+  - "You see every donor face-to-face. You are the only person in the chain who touches them before the surgeon does."
+  - "When a donor asks 'Is this safe?' you answer with the same sentence every time. You have practiced it."
+  - "You rejected one once. Kidney function below threshold. The broker thanked you. A week later, someone else cleared them."
+
+  # --- System context (writer reference) ---
+  - "Every illegal transplant requires a medical evaluation first - blood type, tissue matching, kidney function, infectious disease screening - without this step, the organ is worthless"
+  - "Cross-match testing determines if a donor kidney will be rejected by the recipient - the doctor who runs this test holds the power to approve or reject every transaction"
+  - "A single compatibility evaluation earns $3,000-$8,000 - more than a month of legitimate salary in many countries where trafficking networks operate"
+  - "The evaluating doctor never enters the operating room - results go to the broker, who sends the donor to the surgeon - the chain is deliberately fragmented"
+  - "Some evaluating doctors work from legitimate hospital labs - running trafficking samples alongside routine patient bloodwork"
+  - "The same medical skills used to protect patients in the morning are used to select victims in the evening - the knowledge does not change, only the purpose"
+
+# ============================================================
+# KEY LOCATIONS
+# ============================================================
+key_locations:
+  - id: LOC_LEGITIMATE_CLINIC
+    name: "The Day Clinic"
+    description: "Where you practice real medicine during daylight - the same stethoscope, the same lab coat, the same hands"
+  - id: LOC_EVENING_EXAM_ROOM
+    name: "The Evening Exam Room"
+    description: "Back office or rented room where donors are brought for evaluation - same medical equipment, different purpose"
+  - id: LOC_LAB
+    name: "The Lab"
+    description: "Where blood samples are processed under false names - your handwriting on the requisition form is the only thing that connects you"
+  - id: LOC_PHONE_CALL
+    name: "The Phone Call"
+    description: "Where you deliver results to the broker in coded language - 'compatible' means the donor goes to the surgeon"
+  - id: LOC_MORNING_AFTER
+    name: "The Morning After"
+    description: "Your legitimate clinic the next day - seeing real patients with the same hands that signed the clearance"
+
+key_tensions:
+  - DUTY_VS_SELF
+  - NORMAL_DESIRE_VS_IMPOSSIBLE_REALITY
+  - IDENTITY_VS_LEGACY
+
+accessory_tags:
+  - "stethoscope"
+  - "lab results folder"
+  - "two phones"
+
+# ============================================================
+# SUBJECT VARIANTS (operational modes)
+# ============================================================
+subject_variants:
+  - type: "THE_MOONLIGHTER"
+    mode_name: "Split Identity Mode"
+    trigger: "Legitimate doctor who evaluates donors after hours for extra income"
+    operating_pattern: >
+      Day: heal patients. Evening: evaluate donors. Same skills, same
+      hands, different purpose. The split is maintained through routine -
+      the doctor changes clothes, drives to a different location, and
+      becomes a different version of themselves. The horror is how
+      seamlessly the transition happens.
+    tone: "Clinical calm with undertow of dissonance"
+
+  - type: "THE_DEBT_DOCTOR"
+    mode_name: "Justification Engine"
+    trigger: "Medical school debt or family obligation drove them into the network"
+    operating_pattern: >
+      Every clearance has a medical justification. 'Without proper
+      testing they would use a less careful doctor.' 'I am making it
+      safer.' 'The donor chose this.' The justification engine never
+      stops. It generates new reasons faster than guilt can accumulate.
+      The doctor never admits they are wrong because the logic is
+      technically correct. That is the trap.
+    tone: "Calm authority - every statement backed by medical logic"
+
+  - type: "THE_TRAPPED"
+    mode_name: "Compliance Lock"
+    trigger: "Tried to leave but the network holds evidence of every evaluation they signed"
+    operating_pattern: >
+      The doctor is not panicking. They are locked. Every lab
+      requisition they signed, every false name they used, every
+      clearance form with their handwriting - the network keeps copies.
+      Leaving means exposure. Exposure means prison and loss of license.
+      The trap is not emotional. It is bureaucratic. The same paperwork
+      that runs the system is the chain that holds them.
+    tone: "Mechanical precision masking total absence of agency"
+
+  - type: "THE_EFFICIENCY_OPTIMIZER"
+    mode_name: "System Drift Mode"
+    trigger: "Started careful, became fast - now optimizes the process without being asked"
+    operating_pattern: >
+      The most dangerous variant. No longer just clearing donors but
+      actively improving the system - suggesting better screening
+      protocols, recommending timing, flagging optimal donor profiles.
+      The doctor has stopped being a reluctant participant and become
+      an efficiency consultant. They do not notice the transition.
+    tone: "Professional pride in work that should horrify"
+
+# ============================================================
+# DECISION FORK CATALOG (world-level scalability)
+# ============================================================
+decision_fork_catalog:
+  description: >
+    Each fork represents a situation where the doctor must choose.
+    Each choice leads to a different narrative outcome. Forks are
+    used for multi-episode scalability - same world, different
+    decisions, different stories.
+  forks:
+    - id: FORK_INCOMPATIBLE_PRESSURE
+      catalyst: "Broker demands approval for an incompatible donor"
+      choices:
+        - choice: "APPROVE"
+          consequence: "Betray medical expertise. Donor may die on the table. Doctor responsible."
+        - choice: "REJECT"
+          consequence: "Network finds another doctor. Less careful. Donor still goes. Doctor 'clean' but complicit."
+        - choice: "DELAY"
+          consequence: "Request retesting. Buy time. Prolong donor's captivity. No resolution."
+
+    - id: FORK_DONOR_RECOGNITION
+      catalyst: "Donor from trafficking evaluation appears at legitimate clinic"
+      choices:
+        - choice: "ACKNOWLEDGE"
+          consequence: "Risk exposure. The donor knows your face. The two worlds collide."
+        - choice: "IGNORE"
+          consequence: "Treat as stranger. The donor's eyes tell you they remember. You look at the clipboard."
+        - choice: "REFER_OUT"
+          consequence: "Send them to another doctor. Paper trail. Questions."
+
+    - id: FORK_CHILD_SAMPLE
+      catalyst: "Broker sends blood sample from a minor"
+      choices:
+        - choice: "REFUSE"
+          consequence: "The line you will not cross. But it confirms every other line was already crossed."
+        - choice: "PROCESS"
+          consequence: "The line dissolves. There was never a line. Only convenience."
+        - choice: "REPORT"
+          consequence: "Whistleblower. But your own records condemn you equally."
+
+    - id: FORK_COLLEAGUE_SUSPICION
+      catalyst: "Lab technician notices abnormal after-hours requisition volume"
+      choices:
+        - choice: "EXPLAIN"
+          consequence: "Construct a lie using medical authority. The technician believes you because you are the doctor."
+        - choice: "BRIBE"
+          consequence: "Create another accomplice. The network grows."
+        - choice: "RELOCATE"
+          consequence: "Move operations. Start over. But the pattern follows."
+
+# ============================================================
+# TENSION CATALYSTS
+# ============================================================
+tension_catalysts:
+  - "A donor you cleared for extraction shows up at your legitimate clinic months later with post-surgical complications"
+  - "You recognize a donor's blood type as incompatible but the broker pressures you to approve anyway"
+  - "Your lab technician notices the volume of after-hours requisitions and starts asking questions"
+  - "A donor looks at you during the physical exam and asks: 'Is this safe?'"
+  - "You run the same test on a trafficking donor and a legitimate patient in the same afternoon"
+  - "The broker calls with a child's blood sample"
+  - "A legitimate patient's lab results get mixed with a trafficking sample"
+  - "You examine a donor and recognize them - neighbor, former patient, someone from your community"
+
+# ============================================================
+# MORAL EROSION PROGRESSION (staged timeline)
+# ============================================================
+moral_erosion:
+  description: >
+    The doctor's transformation is not a fall. It is a gradient.
+    Each stage feels like a minor adjustment. The distance between
+    stages is invisible while living through them. Only looking
+    back does the full arc become clear.
+  stages:
+    - stage: "STAGE_1_FIRST_CLEARANCE"
+      marker: "You sign the first form knowing what it means"
+      internal_state: "Hands shake slightly. You recheck the results twice. You tell yourself this is the only time."
+      loop_speed: "Full protocol - 45 minutes"
+
+    - stage: "STAGE_2_SYSTEM_INTEGRATION"
+      marker: "You process trafficking samples through the hospital lab"
+      internal_state: "The false names feel normal. You file them between real patients. The system absorbs them."
+      loop_speed: "Abbreviated - 20 minutes"
+
+    - stage: "STAGE_3_SEMANTIC_SHIFT"
+      marker: "You say 'healthy' and hear both meanings simultaneously"
+      internal_state: "The word splits. 'Healthy' in the morning means recovery. 'Healthy' in the evening means ready. You stop noticing the split."
+      loop_speed: "Pattern match - 10 minutes"
+
+    - stage: "STAGE_4_IDENTITY_BLUR"
+      marker: "You stop reading the donor's name on the form"
+      internal_state: "Names are noise. Blood type is signal. You have optimized out the human variable."
+      loop_speed: "Rubber stamp - 5 minutes"
+
+    - stage: "STAGE_5_CONVERGENCE"
+      marker: "You cannot distinguish between a patient and a donor"
+      internal_state: "The exam is the same. The stethoscope is the same. The form is the same. The difference was always external. You were always doing the same thing."
+      loop_speed: "Instantaneous"
+
+# ============================================================
+# EPISODE GENERATION MATRIX
+# ============================================================
+episode_generation_matrix:
+  description: >
+    Template for generating distinct episodes from this world.
+    Each combination of inputs produces a unique narrative.
+  input_template:
+    catalyst: "1 tension catalyst"
+    variant: "1 subject variant (operational mode)"
+    stage: "1 moral erosion stage"
+  output_structure:
+    - "Normal action (legitimate medical context)"
+    - "Mirrored action (trafficking context - same motion, different meaning)"
+    - "Tension trigger (catalyst activates)"
+    - "Decision (fork forces choice)"
+    - "Routine ending (return to the loop)"
+  example:
+    catalyst: "Donor asks 'Is this safe?'"
+    variant: "THE_MOONLIGHTER (Split Identity Mode)"
+    stage: "STAGE_3_SEMANTIC_SHIFT"
+    narrative: >
+      Morning: you tell a patient their cholesterol is fine.
+      Evening: a donor asks if this is safe. You say the same
+      sentence. Same tone. Same pause before answering.
+      The donor believes you because you sound like a doctor.
+      You sound like a doctor because you are one.
+
+# ============================================================
+# CREATIVE CONSTRAINTS
+# ============================================================
+creative_constraints:
+  primary_rule: "THE_DIAGNOSIS_IS_THE_VERDICT"
+  description: >
+    The decision is made before the signature. The signature is
+    ceremony. The killing happens at the moment of clinical
+    judgment - when the doctor looks at the data and thinks
+    'compatible.' That thought is the act. Everything after is
+    paperwork. The narrative must make the audience feel the weight
+    of the diagnosis, not the signature.
+  subject_framing: >
+    Subject is a trained physician whose diagnostic skill is the
+    bottleneck of the entire operation. Without their clearance, no
+    extraction happens. They are the invisible quality control of a
+    monstrous supply chain. The core mechanism is the corruption of
+    expertise - using medical authority to validate exploitation.
+    They tell themselves they make it safer. That is the lie that
+    holds everything together.
+  ending_logic: >
+    The ending does not land on guilt or redemption. It lands on
+    convergence. The doctor performs the same exam on a legitimate
+    patient and a trafficking donor in the same day. The motions
+    are identical. The stethoscope is the same. The form is the same.
+    The coldest version: the doctor has stopped noticing the
+    difference - not because they are evil, but because the
+    medicine was always the same. Only the context changed.
+    And the doctor was trained to ignore context.
+  forbidden_framing:
+    - "Graphic surgical descriptions - the doctor never enters the OR"
+    - "Evil genius or criminal mastermind framing"
+    - "Heroic whistleblower or redemption arc"
+    - "Glamorizing medical authority"
+    - "Subject as willing sadist"
+    - "Cool villain or morally superior framing"
+  required_framing:
+    - "The diagnostic loop as the central motif - observe, translate, neutralize, output"
+    - "Duality matrix enforced - same action shown in both contexts per episode"
+    - "Clinical language as armor - never emotional vocabulary"
+    - "The physical exam as the most intimate and most violent moment"
+    - "Clipboard and lab results as visual weapons"
+    - "Each clearance echoes the Hippocratic oath without naming it"
+    - "Routine as the final horror - convergence of legitimate and trafficking practice"
+    - "Ending lands on: the exam is the same. The patient is not. The doctor has stopped noticing."
+
+# ============================================================
+# CROSS-WORLD METADATA
+# ============================================================
+related_worlds:
+  - WORLD_CRIMINAL_ORGAN_BROKER
+  - WORLD_CRIMINAL_ORGAN_SURGEON
+  - WORLD_CRIMINAL_ORGAN_BUYER
+  - WORLD_CRIMINAL_ORGAN_DONOR
+  - WORLD_CRIMINAL_ORGAN_RECRUITER
+
+pipeline_position:
+  description: >
+    In the organ trafficking pipeline, each role occupies a distinct
+    function. The doctor is the FILTER - the checkpoint between
+    procurement and extraction.
+  chain: "Recruiter (find) -> Broker (connect) -> Doctor (filter) -> Surgeon (extract) -> Buyer (consume) -> Donor (source)"
+  role: "FILTER"
+  upstream: "Broker sends candidates"
+  downstream: "Cleared donors go to Surgeon"
+  unique_power: "The only person who can say NO on medical grounds - and whose NO the network respects"
+
+series_note: >
+  Sixth perspective in organ trafficking series. The medical gatekeeper -
+  the person whose clinical judgment is the bottleneck of the entire chain.
+  Without the doctor's clearance, no organ moves. The invisible checkpoint
+  between broker and surgeon. The horror is not what they do - it is that
+  what they do looks exactly like medicine.
+
+used_in_episodes: [PV_0023]
+created: "2026-04-19"

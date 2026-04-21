@@ -6,10 +6,60 @@ skills_required:
 
 # WORKFLOW: /pvle-character-review
 
-> **Phase:** 3.1 — Pre-Image-Prompt Visual Validation  
+> **Phase:** 3.1 - Pre-Image-Prompt Visual Validation  
 > **Input:** `episode_brief.md` (CHARACTER REGISTRY section)  
 > **Output:** Review artifact + approved character assets saved to `pvle/assets/characters/`  
-> **Gate:** BLOCKING — user must approve before image prompt generation
+> **Gate:** BLOCKING - user must approve before image prompt generation
+
+## EXECUTION_CHECKLIST
+
+```yaml
+total_steps: 8
+steps:
+  - step: 1
+    name: "Load Character Data"
+    type: AUTO
+    output: "inline (character data loaded)"
+
+  - step: 2
+    name: "Check Asset Library"
+    type: AUTO
+    output: "inline (HIT/MISS report)"
+
+  - step: 3
+    name: "Generate SUBJECT Evolution Sheet"
+    type: AUTO
+    output: "generated image (subject evolution)"
+
+  - step: 4
+    name: "Generate Supporting Characters Sheet"
+    type: AUTO
+    output: "generated image (supporting characters)"
+
+  - step: 5
+    name: "Generate Key Scene Samples"
+    type: AUTO
+    output: "generated images (1-2 scene samples)"
+
+  - step: 6
+    name: "Create Review Artifact"
+    type: AUTO
+    output: "character_review_{EP}.md"
+
+  - step: 7
+    name: "User Approval"
+    type: BLOCKING
+    gate: "Wait for user to approve character visuals"
+    output: "inline (approval request)"
+
+  - step: 8
+    name: "Save Approved Assets"
+    type: AUTO
+    output: "pvle/assets/characters/ + character_index.yaml"
+
+# On completion: verify all steps checked
+# On skip: VIOLATION -> HALT_AND_REPORT
+```
 
 ---
 

@@ -1,0 +1,129 @@
+# WORLD: WORLD_CRIMINAL_ORGAN_DONOR
+# Display: The Person Who Sold What They Couldn't Get Back
+# Created: 2026-04-18
+
+WORLD_ID: WORLD_CRIMINAL_ORGAN_DONOR
+display_name: "The Person Who Sold What They Couldn't Get Back"
+domain: CRIMINAL
+era: MODERN_CONTEMPORARY
+implied_identity_mode: GENERIC_ARCHETYPE
+implied_person: null
+
+tags:
+  - organ_trafficking
+  - desperate_poverty
+  - body_as_commodity
+  - betrayed_trust
+  - irreversible_loss
+  - invisible_victim
+
+seed_keywords:
+  - "organ seller"
+  - "kidney donor trafficking"
+  - "sold kidney poverty"
+  - "organ trafficking victim"
+  - "kidney village"
+  - "body sold for debt"
+
+key_facts:
+  - "Poverty is the primary driver - sellers are recruited from impoverished communities with promises of $5,000-$10,000 that are rarely paid in full"
+  - "Brokers lie to sellers - claiming kidneys regenerate, or that humans have three kidneys - to minimize perceived risk"
+  - "Sellers typically receive less than 10% of what the buyer pays - a kidney costs the buyer $100,000-$200,000 while the seller gets $5,000 or less, often nothing"
+  - "Post-surgery, sellers are abandoned in cheap hotel rooms with stitches, painkillers, and zero follow-up medical care"
+  - "Most sellers report their financial situation did NOT improve long-term - many end up in worse poverty because the surgery left them unable to do physical labor"
+  - "Regions where organ selling is prevalent are called Kidney Villages - entire communities where a significant portion of adults carry the same surgical scar"
+  - "Sellers are often coerced through forged documents creating false family ties to make the illegal procedure appear as legal altruistic donation"
+  - "Many sellers do not seek medical help for post-surgery complications out of fear of arrest, shame, or lack of legal recourse"
+  - "Former sellers are sometimes recruited as recruiters themselves - bringing new victims into the network to earn small commissions"
+  - "The scar is permanent and visible - a mark that tells everyone in the community what you did, creating lifelong social stigma"
+
+key_locations:
+  - id: LOC_HOME_VILLAGE
+    name: "The Village"
+    description: "Where debt presses and the broker's man comes with a number written on a scrap of paper"
+  - id: LOC_BROKER_MEETING_POINT
+    name: "The Meeting Point"
+    description: "Bus station or roadside tea stall where the broker explains the deal in simple words"
+  - id: LOC_TRANSIT
+    name: "The Journey"
+    description: "Overnight bus or van to the city - the last hours with your body still complete"
+  - id: LOC_CLINIC_WAITING
+    name: "The Waiting Room"
+    description: "Small room where you sit with other sellers - nobody talks, everyone knows why they are here"
+  - id: LOC_RECOVERY_ROOM
+    name: "The Recovery Room"
+    description: "Cheap hotel mattress where you wake with stitches, a half-dose of painkillers, and a phone number that stops answering"
+
+key_tensions:
+  - NORMAL_DESIRE_VS_IMPOSSIBLE_REALITY
+  - DUTY_VS_SELF
+  - PROTECTION_VS_CONTROL
+
+accessory_tags:
+  - "lifted shirt showing scar"
+  - "crumpled banknote"
+  - "plastic bag with belongings"
+
+# SUBJECT VARIANTS (for multi-episode scalability)
+subject_variants:
+  - type: "THE_DEBT_TRAPPED"
+    trigger: "Sells to pay off family debt that compounds faster than labor can repay"
+  - type: "THE_PARENT"
+    trigger: "Sells to fund child's medical treatment or education"
+  - type: "THE_DECEIVED"
+    trigger: "Told it was a simple procedure with no permanent consequences"
+  - type: "THE_COERCED"
+    trigger: "Kidnapped or forced into donation without consent"
+  - type: "THE_RECRUITER"
+    trigger: "Former seller now bringing others into the network for commission"
+
+# TENSION CATALYSTS (world-level situation patterns)
+tension_catalysts:
+  - "The broker's number sounds like freedom but the math never adds up"
+  - "Someone in your village already did it and came back different"
+  - "The money arrives short or not at all"
+  - "Your body fails at work you used to do without thinking"
+  - "A new broker asks you to bring someone else"
+
+# IRREVERSIBLE MARKERS (points of no return)
+irreversible_markers:
+  - "You get on the bus to the city"
+  - "You sign a paper you cannot read"
+  - "You count the money and it is not what they promised"
+  - "You lift your shirt and the scar is real"
+
+# CREATIVE CONSTRAINTS (episode-level enforcement)
+creative_constraints:
+  primary_rule: "THE_BODY_IS_THE_PRICE"
+  description: >
+    The narrative lives inside the body. Every sensation is currency.
+    The horror is not violence but transaction - the moment a human being
+    becomes inventory. The surgery itself is a gap - you go under, you wake
+    up lighter. The real story is before and after: the desperation that
+    brings you here and the emptiness that follows you home.
+  subject_framing: >
+    Subject is not a criminal - they are poverty made flesh. The core
+    mechanism is the commodification of desperation - how the system converts
+    human need into human parts. The body is both the product and the price.
+  forbidden_framing:
+    - "Graphic surgical gore or body horror"
+    - "Subject as willing participant or entrepreneur"
+    - "Poverty porn or pity framing"
+    - "Heroic sacrifice narrative"
+    - "Cool or edgy nihilism"
+  required_framing:
+    - "Desperation as the only engine of consent"
+    - "The body remembering what the mind tries to forget"
+    - "Promise vs reality - the money that never comes"
+    - "The scar as permanent social marker"
+    - "Ending lands on the impossibility of buying back what was sold"
+
+# CROSS-WORLD METADATA (production reference only - not narrative)
+related_worlds:
+  - WORLD_CRIMINAL_ORGAN_BROKER
+  - WORLD_CRIMINAL_ORGAN_SURGEON
+  - WORLD_CRIMINAL_ORGAN_BUYER
+series_note: "Fourth perspective in organ trafficking series. The victim's POV - the person at the bottom of the chain whose body funds everyone above."
+
+used_in_episodes: [PV_0021]
+created: "2026-04-18"

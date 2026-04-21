@@ -1,0 +1,634 @@
+# WORLD: WORLD_CRIMINAL_CORRUPT_COP_HANDLER
+# Display: The Cop Who Runs Informants
+# Parent: WORLD_CRIMINAL_CORRUPT_COP
+# Created: 2026-04-21
+# Optimized: v2 - CI anchor, loop mutation, retention hooks, contagion mechanic
+
+WORLD_ID: WORLD_CRIMINAL_CORRUPT_COP_HANDLER
+display_name: "The Cop Who Runs Informants"
+domain: CRIMINAL
+era: MODERN_CONTEMPORARY
+implied_identity_mode: GENERIC_ARCHETYPE
+implied_person: null
+parent_world: WORLD_CRIMINAL_CORRUPT_COP
+
+tags:
+  - police_corruption
+  - informant_exploitation
+  - human_ownership
+  - coerced_cooperation
+  - snitch_system
+  - puppet_master
+
+seed_keywords:
+  - "cop who runs informants"
+  - "confidential informant handler"
+  - "snitch system"
+  - "work off charges"
+  - "CI exploitation"
+  - "informant control"
+  - "off-book informant"
+
+# ============================================================
+# EMOTIONAL SPINE (ownership arc)
+# ============================================================
+emotional_spine:
+  arc: "tool -> leverage -> inventory -> ownership"
+  description: >
+    The episode is not about catching criminals through informants.
+    It is about what happens when a person discovers that owning
+    other people feels like competence. The system calls it
+    cooperation. The cop calls it management. The viewer watches
+    it become possession. Each phase escalates the dehumanization -
+    until the CI is not a person with a deal. The CI is a number
+    on a phone the department does not know about.
+  phase_mapping:
+    tool: "First CI. The program is a tool. Justice is the goal. The weight of the deal is felt."
+    leverage: "More CIs. The charge does not need to be serious. A bag of weed is enough. Leverage is leverage."
+    inventory: "You manage them like accounts. Names, charges, phone numbers. Output per week."
+    ownership: "They try to quit. You remind them the original charge still exists. They don't quit. They can't."
+
+# ============================================================
+# HOOK IDENTITY (viral-optimized, experiential)
+# ============================================================
+hook_identity:
+  primary: >
+    You don't arrest people.
+    You collect them.
+  alternates:
+    - >
+      Fourteen on your phone right now.
+      Six exist on paper.
+      The rest don't exist at all.
+    - >
+      They think they're working off a charge.
+      They're working for you.
+      Forever.
+    - >
+      You decide who goes to prison
+      and who goes to work for you.
+      Same charge. Different outcome.
+      Your choice.
+
+# ============================================================
+# SIGNATURE LINE (repeats with escalating weight)
+# ============================================================
+signature_line:
+  line: "You own them."
+  escalation_pattern:
+    occurrence_1:
+      context: "After first flip. Describing the CI relationship to yourself."
+      weight: "CLINICAL - operational. Describing a management dynamic."
+      note: "The phrase feels like jargon. Professional distance."
+    occurrence_2:
+      context: "After snap moment. Looking at the phone. Thirteen numbers left."
+      weight: "POSSESSIVE - ownership is no longer metaphor. It is literal."
+      note: "Same words. The viewer hears them differently now."
+    occurrence_3:
+      context: "Ending. New person in the chair. Same charge. Same offer."
+      weight: "IDENTITY - you don't run informants. You own people. This is who you are."
+  ending_variation: >
+    "You own them."
+    You don't remember when that stopped being a figure of speech.
+
+# ============================================================
+# SECONDARY MOTIF (the second phone)
+# ============================================================
+secondary_motif:
+  line: "You check the phone. Not the department one."
+  description: >
+    The second phone is the physical manifestation of the off-book
+    system. It tracks the cop's relationship to secrecy. The
+    signature line is what the cop believes. The secondary motif
+    is what the cop does. The phone IS the corruption - it holds
+    the names the system does not know about.
+  escalation_pattern:
+    early: "CONSCIOUS - You reach for the second phone. You look around first."
+    mid: "AUTOMATIC - You check it before the department phone. It is your first instinct."
+    end: "ABSENT - The phone is gone. You erased it. But your hand still reaches for the pocket."
+
+# ============================================================
+# SYSTEM PHRASE (the deal that never ends)
+# ============================================================
+system_phrase:
+  line: "Work this off."
+  description: >
+    The equivalent of PV_0026's 'I feared for my life' and
+    PV_0025's 'You don't find evidence. You place it.' This is
+    the phrase the system uses to create compliance. It implies
+    an endpoint that does not exist. The deal never ends because
+    one buy leads to another name, another name leads to another
+    buy, and the original charge never disappears.
+  usage: >
+    Appears 3-4 times. First: genuine offer. Second: routine
+    phrase with no intention of clearing the debt. Third: the CI
+    asks when it ends. You say it again. The viewer understands
+    before the CI does - it never ends.
+  key_lines:
+    - "Work this off. Three words. They always say yes."
+    - "One buy clears the charge. That is what you say. One buy becomes two. Two becomes a name. A name becomes a list."
+    - "They ask when it ends. You say: one more. You always say one more."
+
+# ============================================================
+# CI ANCHOR CHARACTER (single person, three stages)
+# ============================================================
+ci_anchor:
+  description: >
+    One CI the viewer tracks across the episode. Not named. Known
+    by pattern - visual details, behavioral tics, the 2AM calls.
+    This person is the emotional throughline. The viewer watches
+    them go from scared to dependent to gone. When the snap moment
+    hits, the viewer loses someone they recognized.
+  identification: "THE_ONE_WHO_CALLS_AT_2AM"
+  stages:
+    - stage: "SCARED"
+      phase: "Phase 2 - First Flip"
+      markers:
+        - "This one won't look at you."
+        - "Hands shaking."
+        - "Keeps asking if this clears it."
+      note: "Viewer meets them at their most vulnerable. First flip."
+    - stage: "DEPENDENT"
+      phase: "Phase 3 - System Expansion"
+      markers:
+        - "They call you at 2AM. Not to report. To ask if they're safe."
+        - "They start bringing names you didn't ask for. Trying to stay useful."
+        - "They ask when it ends. You say: one more."
+      note: "The CI has become dependent on the handler. Stockholm dynamic."
+    - stage: "GONE"
+      phase: "Phase 4 - Snap Moment"
+      markers:
+        - "You send them somewhere new. You know the target carries."
+        - "The phone rings. Not the department phone. The other one."
+        - "You wait for breathing. There is none."
+      note: "The viewer loses someone they recognized. The cop counts inventory."
+  post_snap_line: "You still have thirteen."
+
+# ============================================================
+# CORE MECHANIC (4-beat POV loop with mutation)
+# ============================================================
+core_mechanic:
+  name: "THE_INFORMANT_MACHINE"
+  description: >
+    The cop does not catch criminals. The cop catches people and
+    converts them into tools. The skill is not investigation. The
+    skill is leverage. Find someone vulnerable. Find their charge.
+    Offer the deal. They say yes because the alternative is prison.
+    They belong to you now. The system calls it cooperation. You
+    call it inventory. Each loop mutates - the hesitation shrinks,
+    the CIs become less human, the deals become less real.
+  pov_loop:
+    structure: "catch -> flip -> deploy -> squeeze"
+    beats:
+      - beat: "CATCH"
+        line: "You find someone with a charge."
+        note: "Target selection. Small enough to scare. Too small for a real case."
+      - beat: "FLIP"
+        line: "You offer the deal."
+        note: "'Work this off or do the time.' Three words. They always say yes."
+      - beat: "DEPLOY"
+        line: "You send them in."
+        note: "No training. No wire protocol. No extraction plan. They buy. You wait."
+      - beat: "SQUEEZE"
+        line: "You need more."
+        note: "One buy is never enough. The debt never clears. They owe you another name."
+  loop_mutation:
+    description: >
+      Each repetition degrades in BOTH empathy AND caution. The
+      cop stops feeling the weight of the deal. The CIs stop
+      being people and become units of output. By the final cycle,
+      there is no hesitation, no weight, no person - just a number
+      on a phone and a charge that never expires.
+    progression:
+      - cycle: 1
+        label: "HESITANT"
+        mutation: "First flip. You feel the weight. The CI cries. You almost stop."
+        tempo: "SLOW - long pauses. You explain the deal carefully. You mean it when you say 'one buy.'"
+        emotional_state: "guilt as friction"
+      - cycle: 2
+        label: "EFFICIENT"
+        mutation: "Faster flip. Smaller charge. You don't explain - you pitch. The CI nods."
+        tempo: "MEASURED - fewer pauses. The deal is rehearsed. The wording is optimized."
+        emotional_state: "competence as justification"
+      - cycle: 3
+        label: "EXPLOITATIVE"
+        mutation: "You stop caring if the charge is serious. A bag of weed is enough. Leverage is leverage."
+        tempo: "FAST - no explanation. 'Work this off.' Three words. Next."
+        emotional_state: "efficiency as identity"
+      - cycle: 4
+        label: "DISPOSABLE"
+        mutation: "You send them into danger you understand. You do not warn them. If they don't come back, you delete the number."
+        tempo: "COMPRESSED - no pause between deploy and squeeze. The CI is already the next assignment."
+        emotional_state: "inventory management"
+
+# ============================================================
+# KEY FACTS (VO-ready + writer reference)
+# ============================================================
+key_facts:
+  # --- Killer lines (short, cold, experiential) ---
+  - "You catch someone with a bag. You don't book them. You recruit them."
+  - "The deal is simple. Work this off or do the time. They always take the deal."
+  - "One buy clears the charge. That is what you say. One buy becomes two. Two becomes a name. A name becomes a list."
+  - "You don't file paperwork for every meeting. Paperwork creates witnesses."
+  - "They call you from blocked numbers. You answer on a phone the department doesn't know about."
+  - "You have fourteen CIs. The department knows about six."
+  - "You decide who goes to prison and who goes to work for you. Same charge. Different outcome. Your choice."
+  - "If they get hurt, you were never there. If they die, they were never yours."
+  - "They try to quit. You remind them the original charge still exists. They don't quit."
+  - "You tell them where to go. Who to buy from. How much. You are the architect. They are the hands."
+  - "You stop seeing faces. You see output."
+  - "Someone new sits in the chair. Same charge. Same offer. Same answer."
+
+  # --- Retention hooks (curiosity-gap, deploy every 60-90s) ---
+  - "You have fourteen." # curiosity
+  - "The department knows about six." # gap
+  - "They think it ends." # tension
+  - "It doesn't." # payoff
+  - "One more. You always say one more." # dread
+  - "You still have thirteen." # cold calculation post-snap
+
+  # --- System context (WRITER REFERENCE ONLY) ---
+  - "[REF] Rachel Hoffman, 23, killed in 2008 during a police-directed drug buy in Tallahassee. No training, no backup protocol. Florida passed 'Rachel's Law' afterward - first state law to protect CIs."
+  - "[REF] FBI agent John Connolly ran Whitey Bulger as CI for decades. Leaked identities of other informants to Bulger, who had them killed. Connolly convicted of second-degree murder 2008."
+  - "[REF] DEA informant Andrew Chambers involved in over 300 cases, repeatedly lied under oath. DEA kept using him because he produced results. Dozens of convictions compromised."
+  - "[REF] The Innocence Project: informant testimony contributed to approximately 15-20% of wrongful convictions later overturned by DNA."
+  - "[REF] Most jurisdictions have no mandatory limit on how long a person can be kept as a CI. Some informants 'work off' charges for years with no formal endpoint."
+  - "[REF] Officers often maintain 'off-book' informants - CIs not registered in departmental databases - to avoid oversight and information-sharing requirements."
+  - "[REF] Many departments have no written policy requiring handlers to document CI meetings, payments, or deployments. The handler-CI relationship exists in a documentation void."
+
+# ============================================================
+# KEY LOCATIONS
+# ============================================================
+key_locations:
+  - id: LOC_BOOKING_ROOM
+    name: "The Booking Room"
+    description: "Where charges become leverage. You don't process them. You pitch them."
+  - id: LOC_PARKING_LOT
+    name: "The Parking Lot"
+    description: "Engine running. No cameras. No paperwork. Where you meet them."
+  - id: LOC_BURNER_PHONE
+    name: "The Second Phone"
+    description: "The phone the department does not know about. The real CI list lives here."
+  - id: LOC_TARGET_HOUSE
+    name: "The Target House"
+    description: "Where you send them. No training. No wire check. No extraction plan."
+  - id: LOC_PRECINCT_DESK
+    name: "The Precinct Desk"
+    description: "Where you file the bust report. The CI's name is not in it. They were never there."
+  - id: LOC_INTERROGATION_ROOM
+    name: "The Interrogation Room"
+    description: "Where the next one sits. Same chair. Same offer. Same answer. The cycle."
+
+key_tensions:
+  - POWER_VS_ISOLATION
+  - DUTY_VS_SELF
+  - PROTECTION_VS_CONTROL
+
+accessory_tags:
+  - "badge on belt"
+  - "prepaid phone in jacket pocket"
+  - "manila folder with mugshots"
+
+# ============================================================
+# SNAP MOMENT (foreshadowed + sensory + aftermath)
+# ============================================================
+snap_moment:
+  description: >
+    The single moment that shifts from system horror to personal
+    horror. The CI anchor - the one who calls at 2AM, the one
+    the viewer has tracked across the episode - is sent into a
+    buy the cop knows is dangerous. The cop does not warn them.
+    The CI does not come back. The cop's first instinct is not
+    grief. It is evidence destruction.
+  foreshadow:
+    - "They call you at 2AM the night before. You don't answer."
+    - "You know the target carries. You send them anyway."
+    - "You don't check the wire. You didn't give them one."
+  setup: >
+    You send them somewhere new.
+    You know the target carries.
+    You do not tell them.
+  event: >
+    The phone rings.
+    Not the department phone.
+    The other one.
+  sensory_beat: >
+    You wait for breathing.
+    There is none.
+  aftermath:
+    immediate:
+      - "You delete the thread."
+      - "You remove the number."
+      - "You close the file."
+    cold_calculation: "You still have thirteen."
+    erasure: "They were never yours."
+  placement: "Late Phase 3 or early Phase 4 - after CI anchor is established and viewer is attached."
+  effect: >
+    Three-layer horror: (1) the viewer knew - the foreshadowing
+    told them what the cop refused to say, (2) the sensory beat -
+    waiting for breathing that does not come - makes it physical,
+    (3) the cold calculation - 'You still have thirteen' - reveals
+    the cop's grief response is inventory adjustment. The CI was
+    always disposable. The viewer just didn't want to believe it.
+
+# ============================================================
+# IDENTITY EROSION (ownership arc)
+# ============================================================
+identity_erosion:
+  description: >
+    The cop does not become a puppet master in one moment. The
+    badge stops meaning law enforcement and starts meaning human
+    resource management. The most dangerous stage is when the cop
+    stops seeing CIs as people and starts seeing them as inventory -
+    units of leverage that produce cases on demand.
+  stages:
+    - stage: "IDEALIST"
+      marker: "You want to take drugs off the street. The CI program is a tool. You believe the deal."
+    - stage: "FIRST_FLIP"
+      marker: "You flip someone for the first time. They cry. You feel the weight of what you offered."
+    - stage: "EFFICIENCY"
+      marker: "You stop caring if the charge is serious. A bag of weed is enough. Leverage is leverage."
+    - stage: "INVENTORY"
+      marker: "You have a list. Names, charges, phone numbers. You manage them like accounts. Output per week."
+    - stage: "OWNERSHIP"
+      marker: "They try to quit. You remind them the original charge still exists. They don't quit. They can't."
+    - stage: "ERASURE"
+      marker: "One does not come back. You delete the number. You remove the name. You still have thirteen."
+
+# ============================================================
+# CONTAGIOUS OWNERSHIP (the method spreads)
+# ============================================================
+contagious_ownership:
+  description: >
+    The cop's method does not stay contained. A new detective
+    rides along. Watches how you flip someone. Watches how you
+    manage the phone. This is not mentorship. This is transmission.
+    The system does not need to teach exploitation. It just needs
+    to pair the new detective with you.
+  progression:
+    - stage: "OBSERVATION"
+      beat: "The new detective watches you flip someone in the booking room. Says nothing. Takes notes."
+    - stage: "IMITATION"
+      beat: "The new detective tries the pitch. Too soft. Too honest. You correct them: 'Don't ask. Tell.'"
+    - stage: "ADOPTION"
+      beat: "The new detective flips their first CI alone. Uses your words. Your phrasing. Your phone."
+    - stage: "REPLICATION"
+      beat: "The new detective has their own second phone now. Their own list. Their own version of 'work this off.' The cycle is complete."
+
+# ============================================================
+# ENDING LOGIC (inventory as identity)
+# ============================================================
+ending_logic:
+  description: >
+    The ending is not about regret. It is about reduction. The cop
+    does not lose humanity in a dramatic moment. The cop reduces
+    humanity to data points. Names become numbers. People become
+    output. The final image is not looking back. It is looking
+    forward - same chair, same charge, same offer - because the
+    machine does not stop. It does not need to. No one is watching.
+  ending_beats:
+    - "You look at the phone. Thirteen numbers. Each one is a person who cannot say no."
+    - "You don't remember the first one's face. You remember their charge."
+    - "'You own them.' You don't remember when that stopped being a figure of speech."
+    - "Someone new sits in the chair. Same charge. Same offer. Same answer."
+  final_image: >
+    The interrogation room. New person. Same chair. The cop says
+    the words. The person nods. The cycle restarts. No one is
+    watching. No one ever was.
+
+# ============================================================
+# PHASE GUIDANCE (15 min target)
+# ============================================================
+phase_guidance:
+  description: >
+    Recommended narrative weight distribution for 15-minute target.
+    Word budget: 1755-2340 words at 130 WPM.
+  phases:
+    - phase: "HOOK + CONDITIONING"
+      weight: "~8%"
+      duration_approx: "0:00-1:15"
+      content: "Hook (You don't arrest people. You collect them.) + introduce the CI program as tool. First patrol. First arrest that becomes a pitch."
+      signature_use: "none yet"
+      motif_use: "none yet"
+    - phase: "FIRST FLIP"
+      weight: "~18%"
+      duration_approx: "1:15-4:00"
+      content: "CI anchor introduced (won't look at you, hands shaking). First flip. First deploy. Weight of the deal felt. System phrase introduced: 'Work this off.'"
+      signature_use: "'You own them' (clinical - first occurrence)"
+      motif_use: "'You check the phone. Not the department one.' (conscious - first occurrence)"
+      ci_anchor: "SCARED stage"
+    - phase: "SYSTEM EXPANSION"
+      weight: "~32%"
+      duration_approx: "4:00-8:45"
+      content: "Loop mutation cycles 2-4. More CIs. Second phone. Off-book meetings. CI anchor becomes dependent (calls at 2AM). Inventory mindset. Micro-hooks every 60-90s."
+      retention_note: "This phase holds the middle. Loop mutation prevents predictability. Escalation lines: 'One buy becomes two. Two becomes a name. A name becomes a list.' Transition: 'You stop seeing faces. You see output.'"
+      ci_anchor: "DEPENDENT stage - calls at 2AM, brings unsolicited names, asks when it ends"
+    - phase: "SNAP + AFTERMATH"
+      weight: "~20%"
+      duration_approx: "8:45-11:45"
+      content: "Foreshadow (2AM call unanswered, target carries). Deploy CI anchor. Phone rings. Breathing beat. Evidence destruction. 'You still have thirteen.'"
+      signature_use: "'You own them' (possessive - second occurrence, post-snap)"
+      motif_use: "'You check the phone' (automatic - but now checking for silence)"
+      ci_anchor: "GONE stage"
+    - phase: "IDENTITY + CONTAGION"
+      weight: "~15%"
+      duration_approx: "11:45-14:00"
+      content: "Contagion (new detective learns the method). Memory reduction (charges remembered, faces forgotten). Signature line returns final."
+      signature_use: "'You own them' (identity - third occurrence, permanent)"
+      motif_use: "'You check the phone' (absent - phone erased, hand still reaches)"
+    - phase: "ENDING LOOP"
+      weight: "~7%"
+      duration_approx: "14:00-15:00"
+      content: "Same chair. Same charge. Same offer. Same answer. The machine continues. No one is watching."
+      signature_use: "ending variation: 'You don't remember when that stopped being a figure of speech.'"
+
+# ============================================================
+# CREATIVE CONSTRAINTS
+# ============================================================
+creative_constraints:
+  primary_rule: "OWNERSHIP_AS_ADDICTION"
+  description: >
+    The horror is not catching criminals. The horror is owning
+    people. The CI system gives one cop the power to decide who
+    goes to prison and who becomes a tool. No judge. No lawyer.
+    No oversight committee. Just you and a charge and a choice
+    you offer that is not really a choice. The substance is not
+    violence (PV_0026) or fabrication (PV_0025). The substance
+    is people. The addiction is ownership.
+  subject_framing: >
+    Subject starts believing the CI program serves justice. The
+    transition to human ownership is shown through operational
+    details - the second phone, the off-book meetings, the names
+    that never appear in reports. The CI anchor character makes
+    the transition visible - from a shaking person to a 2AM
+    caller to a silence on the other end of the phone.
+  ending_logic: >
+    The ending lands on inventory as identity. The cop looks at
+    the phone. Thirteen numbers. Each one is a person who cannot
+    say no. The signature line returns final time - 'You own
+    them' - but now it describes not what the cop does but who
+    the cop is. The last image: the interrogation room. Someone
+    new sits in the chair. Same charge. Same offer. Same answer.
+  system_horror_rule: >
+    NEVER explain the CI system through exposition. Show through
+    what the system does NOT do: it does not track off-book CIs,
+    does not audit handler meetings, does not limit how long
+    someone can 'work off' a charge. The most powerful line about
+    the system is: 'The department knows about six.' The viewer
+    fills in the horror.
+  ci_anchor_rule: >
+    The CI anchor must appear in at least 3 phases. They are NOT
+    named. They are recognized by pattern: the shaking hands,
+    the 2AM calls, the question that never gets answered ('When
+    does this end?'). The viewer must feel attached before the
+    snap moment removes them.
+  forbidden_framing:
+    - "Heroic whistleblower or redemption arc"
+    - "Single rogue cop - the system enables and rewards CI production"
+    - "Glorification of handler skill as clever tradecraft"
+    - "Pure psychopath - the original idealism must exist to make corruption possible"
+    - "Explaining the CI system through exposition or legal terminology"
+    - "Naming the CI anchor - recognition by pattern only"
+    - "Showing the CI's death - only the silence on the phone"
+  required_framing:
+    - "'You own them' - 3x escalation: clinical -> possessive -> identity"
+    - "Ending variation: 'You don't remember when that stopped being a figure of speech.'"
+    - "'You check the phone. Not the department one.' - secondary motif 3x: conscious -> automatic -> absent"
+    - "'Work this off' - system phrase 3-4x: genuine -> routine -> hollow -> unanswered"
+    - "4-beat loop (catch, flip, deploy, squeeze) with MUTATION each cycle: hesitant -> efficient -> exploitative -> disposable"
+    - "CI anchor across 3 stages: scared (shaking hands) -> dependent (2AM calls) -> gone (silence)"
+    - "Snap moment: foreshadow (unanswered 2AM call) + event (phone rings) + sensory beat (breathing) + cold calculation ('still have thirteen')"
+    - "Contagion: new detective learns the words, gets their own phone, runs their own list"
+    - "Off-book CIs as the real corruption layer: 'The department knows about six'"
+    - "Micro-hooks every 60-90s: curiosity gaps, tension-payoff pairs"
+    - "Ending: same chair, same charge, same offer, same answer - the machine continues"
+
+# ============================================================
+# MICRO-BEHAVIORS (motif with progression)
+# ============================================================
+micro_behaviors:
+  description: >
+    Three signature micro-actions that repeat as motifs. Each
+    one evolves across the episode. The repetition creates the
+    rhythm - one motif return every 40-60 seconds of VO.
+  frequency: "1 motif return every ~40-60 seconds of VO"
+  behaviors:
+    - motif: "THE_PHONE"
+      description: "Checking the second phone."
+      progression:
+        - "You check the phone. Not the department one. You look around first."
+        - "You check the phone before the department one. You stopped looking around."
+        - "The phone is gone. Your hand still reaches for the pocket."
+    - motif: "THE_PITCH"
+      description: "The deal offered."
+      progression:
+        - "'Work this off or do the time.' You explain what it means. You mean it."
+        - "'Work this off.' No explanation. They already know. Everyone knows."
+        - "You don't say it anymore. You just look at the charge sheet. They nod."
+    - motif: "THE_COUNT"
+      description: "Counting CIs."
+      progression:
+        - "You have three. You know their names."
+        - "You have nine. You know their charges."
+        - "You have fourteen. You know their output."
+
+# ============================================================
+# TENSION CATALYSTS (retention-optimized)
+# ============================================================
+tension_catalysts:
+  - "You catch someone with a dime bag. Not enough for a case. Enough for a pitch."
+  - "They cry in the booking room. You wait. Tears dry. Deals don't."
+  - "Your first CI brings back a name. You get the arrest. Your sergeant nods. The system confirms."
+  - "One CI is not enough. You need volume. The phone gets heavier."
+  - "They call at 2AM. Not to report. To ask if they're safe."
+  - "You bring names you didn't ask for. Trying to stay useful. Trying to stay alive."
+  - "You ask when it ends. You say: one more. You always say one more."
+  - "A CI refuses a buy. You remind them of the charge. They go."
+  - "The new detective watches you flip someone. Takes notes. Asks how you do it."
+  - "Internal Affairs audits CI files. Your six registered CIs check out. The other eight never existed on paper."
+  - "Someone asks about the one who stopped calling. You say they moved. No one checks."
+
+# ============================================================
+# IRREVERSIBLE MARKERS
+# ============================================================
+irreversible_markers:
+  - "You flip someone on a charge you know won't hold. You do it anyway. Leverage is leverage."
+  - "You send a CI into a buy without a wire. Paperwork says otherwise."
+  - "You keep a CI working past the original deal. The charge is your leverage forever."
+  - "You send them into danger you understand. You do not warn them."
+  - "One does not come back. You delete the number first. Then you delete the name."
+  - "You teach the new detective how to flip. Your words come out of their mouth next month."
+  - "You look at the phone. Fourteen numbers. You remember their charges. Not their faces."
+
+# ============================================================
+# HOOK OPTIONS (ready to use)
+# ============================================================
+hook_options:
+  option_1:
+    label: "cold + immediate (recommended)"
+    lines:
+      - "You don't arrest people."
+      - "You collect them."
+      - "Fourteen on your phone right now."
+      - "Six exist on paper."
+      - "The rest don't exist at all."
+  option_2:
+    label: "deal horror"
+    lines:
+      - "They think they're working off a charge."
+      - "They're working for you."
+      - "Forever."
+  option_3:
+    label: "god complex"
+    lines:
+      - "You decide who goes to prison"
+      - "and who goes to work for you."
+      - "Same charge. Different outcome."
+      - "Your choice."
+
+# ============================================================
+# SUBJECT VARIANTS
+# ============================================================
+subject_variants:
+  - type: "THE_BUILDER"
+    trigger: "Starts with one CI. Builds a network. The network IS the career. Without it, arrest numbers collapse."
+  - type: "THE_PROTECTOR_TURNED"
+    trigger: "Genuinely believes CIs are protected. Stops protecting them when protection costs more than replacement."
+  - type: "THE_INHERITED_HANDLER"
+    trigger: "Takes over a CI list from a retiring detective. Inherits the second phone. Inherits the method."
+
+# ============================================================
+# FAILURE MECHANICS
+# ============================================================
+failure_mechanics:
+  description: >
+    The system occasionally cracks - a CI goes public, a defense
+    attorney finds the pattern, an audit goes deeper than the
+    registered files. But the real horror: even when exposed, the
+    cop's defense is the truth - every bust was real. The drugs
+    were real. The arrests were real. The method is invisible
+    because the results are visible.
+  pattern:
+    - "A defense attorney notices the same CI code in twelve case files. Files a motion. The judge does not read it."
+    - "A CI goes to the press. Your name is not in any file. Their word against your absence."
+    - "Internal Affairs audits CI funds. Your registered CIs check out. The rest never existed on paper."
+    - "A CI's family files a missing person report. You were the last person they called. The call was on the phone you already destroyed."
+
+related_worlds:
+  - WORLD_CRIMINAL_CORRUPT_COP
+  - WORLD_CRIMINAL_CORRUPT_COP_SHOOTER
+series_note: >
+  Third episode in the corrupt cop series. PV_0025 explored
+  evidence fabrication (THE_MANUFACTURED_CASE) - signature:
+  'You don't find evidence. You place it.' PV_0026 explored
+  lethal force as addiction (THE_CALCULATED_SHOT) - signature:
+  'I feared for my life.' PV_0027 explores human ownership
+  through the CI system (THE_INFORMANT_MACHINE) - signature:
+  'You own them.' Connecting thread: all three cops operate
+  inside a system that never asks. Each signature phrase creates
+  a reality the system accepts without verification. The
+  difference: PV_0025 fabricates evidence. PV_0026 fabricates
+  self-defense. PV_0027 fabricates cooperation.
+
+used_in_episodes: [PV_0027]
+created: "2026-04-21"

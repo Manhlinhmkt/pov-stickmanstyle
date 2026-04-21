@@ -1,0 +1,377 @@
+# WORLD: CIA Field Officer - Iran War
+# Version: v2.1 (second review optimization)
+# Created: 2026-04-13
+
+WORLD_ID: WORLD_INTELLIGENCE_CIA_IRAN_OFFICER
+display_name: "The Person Who Runs Assets in a Country They Cannot Enter"
+domain: MILITARY_INTELLIGENCE
+era: MODERN_CONTEMPORARY
+implied_identity_mode: GENERIC_ARCHETYPE
+structure_id: LIFE_IMPOSSIBLE_CHOICE
+
+tags:
+  - cia_field_officer
+  - iran_war_2026
+  - asset_running
+  - proxy_warfare
+  - moral_injury
+  - invisible_betrayal
+  - double_paranoia
+
+seed_keywords:
+  - "CIA field officer"
+  - "Iran war"
+  - "case officer"
+  - "covert operations iran"
+  - "intelligence asset running"
+  - "running agents denied territory"
+
+# =============================================================================
+# RECURRING ASSET ARCHETYPE
+# Not a named character - a composite with human micro-details
+# Makes the "expendable asset" feel like a real person
+# =============================================================================
+
+recurring_asset_archetype:
+  role: "Mid-level telecom engineer with access to IRGC communication networks"
+  behavioral_details:
+    - "Always orders tea, never coffee"
+    - "Checks his watch every two minutes - nervous habit"
+    - "Wears the same grey jacket every meeting"
+    - "Has a daughter roughly the same age as yours"
+    - "Slides his phone across the table face-down before speaking"
+  motivation: "IDEOLOGY + MONEY - believes regime is failing his family"
+  relationship_to_you: >
+    He calls you by a name that is not yours.
+    You call him by a name that is not his.
+    He trusts you more than anyone in his own country.
+    In your cable to Langley, he is CARDINAL-7.
+  narrative_function: >
+    The asset is the emotional anchor. When he disappears,
+    the viewer feels loss - not because they know his name,
+    but because they know he orders tea and checks his watch.
+
+# =============================================================================
+# KEY FACTS - v2.1: added micro-tensions, CI threat, haunting resolution
+# =============================================================================
+
+key_facts:
+  # --- WHO YOU ARE ---
+  1: >
+    You are a CIA Operations Officer. Your job is to recruit people
+    inside countries you cannot enter - and convince them to betray
+    everything they know for reasons you help them believe in.
+    You use MICE: Money, Ideology, Compromise, Ego. You find the crack
+    in someone's loyalty and you press it open.
+    (HOOK / PHASE_EARLY: who you are and what you actually do)
+
+  # --- THE CENTRAL PARADOX ---
+  2: >
+    Iran has been a "denied area" since 1979. You have never set foot
+    there. You run your Iranian assets from stations in Dubai, Istanbul,
+    Baku, and Iraqi Kurdistan - always one border away from the people
+    whose lives depend on your decisions. You know the streets of Tehran
+    from satellite images. You have memorized neighborhoods you will
+    never walk through.
+    (ALL PHASES: power without presence)
+
+  # --- THE MEETING RITUAL (with micro-tension) ---
+  3: >
+    A single asset meeting takes 3-6 hours of counter-surveillance
+    detection routes before a 15-minute conversation. You take three
+    taxis. You walk through a souk. You sit in a cafe for forty minutes
+    reading a newspaper you already finished. You watch. The same man
+    passes you twice - different shirt, same shoes. A car that should
+    not be parked there is still parked there. Your pulse stays flat.
+    You were trained for this. Then you sit across from someone who
+    could be executed for talking to you - he orders tea, checks his
+    watch, and slides his phone face-down - and you ask him to do it
+    again next month.
+    (PHASE_EARLY / CONFLICT: the ritual of invisible war + micro paranoia)
+
+  # --- DEHUMANIZATION AS TRADECRAFT ---
+  4: >
+    You build trust over months. Developmental contacts become assets.
+    Assets become sources. Sources become people who call you "friend"
+    in a language you learned specifically to recruit them. He tells you
+    about his daughter's school. You tell him about yours - except yours
+    is a legend, a fabricated story designed to build rapport. His
+    daughter is real. Yours is a technique. But in your cable back to
+    Langley, none of this exists. He is a cryptonym. He is production.
+    (PHASE_EARLY / CONFLICT: intimacy as weapon)
+
+  # --- THE CALCULUS OF EXPENDABILITY ---
+  5: >
+    Every time you send an asset back across the border, you calculate
+    the probability they will be caught. You have a number in your head.
+    You never say it out loud. If the number goes above a threshold
+    you were trained to recognize, you are supposed to suspend contact.
+    Sometimes headquarters says the operation is too important.
+    You send him anyway. He checks his watch. He picks up his grey
+    jacket. He walks toward the taxi stand without looking back.
+    (PHASE_CONFLICT: expendability + human detail collision)
+
+  # --- SIGNATURE SITUATION 1: THE LAST MESSAGE ---
+  6: >
+    One morning your asset sends a message through the covert
+    communication channel. Two words: "They know." Then silence.
+    No response to your follow-up. No check-in the next day.
+    No signal the next week. You will never know if he was arrested,
+    executed, or simply went dark. The channel stays open.
+    You check it every morning for months. The grey jacket.
+    The tea he always ordered. The watch he always checked.
+    Gone.
+    (PHASE_CRISIS: The Last Message - the void of not knowing)
+
+  # --- SIGNATURE SITUATION 2: THE WRONG TARGET ---
+  7: >
+    Intelligence you gathered - coordinates, facility layouts,
+    personnel schedules - is passed to military planners. A strike
+    happens. Afterward, a damage assessment lands on your desk.
+    The facility was dual-use. Civilian workers were present.
+    Your information was accurate. The targeting decision was not yours.
+    But the information was. You cannot un-provide the coordinates.
+    (PHASE_CRISIS / RESOLUTION: information becomes casualties)
+
+  # --- SIGNATURE SITUATION 3: EXFIL THAT DOESN'T COME ---
+  8: >
+    When an asset is compromised, exfiltration is the moral contract -
+    you promised to get them out. But exfil requires approval from
+    Langley. Approval requires a committee. The committee weighs risk
+    vs. reward. Sometimes the answer is: "Not at this time."
+    You promised a person their life. Your institution said no.
+    He has a daughter roughly the same age as yours.
+    You cannot tell him. You cannot tell anyone.
+    (PHASE_CRISIS: the irreversible betrayal)
+
+  # --- SIGNATURE SITUATION 4: THE ASSET TURNS ---
+  9: >
+    After the network compromise, a new asset surfaces. Volunteers.
+    Provides intelligence that checks out - locations, names, timelines.
+    Everything is accurate. Everything is verifiable. And something
+    feels wrong. You cannot name it. Your gut says the information is
+    too clean. Too convenient. Too exactly what headquarters wants
+    to hear. He gives you what you need. It is also exactly what
+    they want you to believe. You file the cable anyway because
+    you cannot prove a negative. And because your career depends
+    on production.
+    (PHASE_CRISIS: the paranoia of contaminated intelligence)
+
+  # --- CI THREAT: YOU ARE BEING WATCHED ---
+  10: >
+    Someone at Langley asks about one of your assets by a detail
+    they should not know. An internal review is opened -
+    routine, they say. A counterintelligence officer sits in on
+    your next briefing. Takes notes you cannot see. Asks questions
+    about meetings you had six months ago. You realize: you are
+    not just watching others. You are being watched. The same
+    paranoia you cultivated in your assets is now pointed at you.
+    (PHASE_CONFLICT / CRISIS: paranoia reversal - hunter becomes hunted)
+
+  # --- WARTIME ACCELERATION ---
+  11: >
+    The 2026 Iran conflict created wartime pressure for HUMINT inside
+    Iran's military infrastructure. Asset recruitment was accelerated.
+    Vetting was shortened from months to weeks. Communication security
+    was loosened because speed mattered more than safety.
+    You recruited people faster than you could protect them.
+    When the network was compromised, it was not one person -
+    it was eleven. You read the names. You recognized three.
+    One always ordered tea.
+    (PHASE_CRISIS: systemic failure as personal disaster)
+
+  # --- HOMECOMING (haunting version) ---
+  12: >
+    You go home to suburban Virginia. Your daughter asks what you did
+    today. You say "meetings." She asks: "Do you help people?"
+    You say yes. It is the most honest lie you have ever told.
+    Your wife knows you work for the government. She does not know
+    that someone in Tehran trusted you with their life - and you
+    do not know if that person is still alive. The encrypted phone
+    stays in your jacket pocket. You check it under the table
+    during dinner. One night, months after you stopped checking,
+    the phone vibrates. Unknown signal. You stare at it.
+    You do not open it.
+    (PHASE_RESOLUTION / CALLBACK: the haunting that never ends)
+
+# =============================================================================
+# IRREVERSIBLE MARKERS (4 points of no return)
+# =============================================================================
+
+irreversible_markers:
+  marker_1:
+    phase: PHASE_CONFLICT
+    description: >
+      You recruit your first wartime asset knowing the vetting period
+      has been cut from 6 months to 3 weeks. You file the cable
+      anyway. Production pressure overrides tradecraft.
+    label: "EXPEDIENT_RECRUITMENT"
+
+  marker_2:
+    phase: PHASE_CRISIS
+    description: >
+      Your intelligence is used for a strike. You see the BDA
+      (battle damage assessment). Civilian casualties listed.
+      You cannot un-provide the coordinates.
+    label: "INFORMATION_BECOMES_WEAPON"
+
+  marker_3:
+    phase: PHASE_CRISIS
+    description: >
+      Exfiltration denied for a compromised asset. You must continue
+      normal operations knowing someone who trusted you has been
+      abandoned. You cannot warn them. You cannot resign without
+      compromising others.
+    label: "BETRAYAL_BY_INSTITUTION"
+
+  marker_4:
+    phase: PHASE_CRISIS
+    description: >
+      You file intelligence from a possible double agent because
+      you cannot prove it and your career depends on production.
+      If he is real, you saved lives. If he is turned, you fed
+      disinformation to your own side. You will never know which.
+    label: "CONTAMINATED_INTELLIGENCE"
+
+# =============================================================================
+# KEY LOCATIONS
+# =============================================================================
+
+key_locations:
+  - id: LOC_STATION_GULF
+    name: "CIA Station - Gulf City"
+    description: >
+      Anonymous floor in a commercial tower. Looks like a consulting
+      firm. SCIF behind the reception desk. This is where you plan
+      operations into a country you cannot enter.
+
+  - id: LOC_MEETING_SITE
+    name: "Asset Meeting Point"
+    description: >
+      A cafe at the edge of a souk. Same man passes twice -
+      different shirt, same shoes. A car that should not be there.
+      You arrive 3 hours early. The meeting lasts 15 minutes.
+      He orders tea.
+
+  - id: LOC_SAFE_HOUSE
+    name: "Debriefing Safe House"
+    description: >
+      Ordinary apartment in an expat neighborhood. Blackout curtains.
+      Recording equipment behind the bookshelf. This is where assets
+      become sources and conversations become cables.
+
+  - id: LOC_LANGLEY_VAULT
+    name: "Langley SCIF"
+    description: >
+      Windowless room in the Original Headquarters Building.
+      Where cables arrive stamped NOFORN. Where the CI officer
+      sits in on your briefing and takes notes you cannot see.
+
+  - id: LOC_HOME_VIRGINIA
+    name: "Suburban Home - Northern Virginia"
+    description: >
+      Split-level house near a good school district. Your daughter's
+      drawings on the fridge. Encrypted phone in your jacket on
+      the coat rack. The phone that vibrated once, months later.
+      Two lives under one roof.
+
+# =============================================================================
+# KEY TENSIONS (v2.1 - 5 tensions, sharpened)
+# =============================================================================
+
+key_tensions:
+  primary: DUTY_VS_SELF
+  secondary:
+    - LOYALTY_VS_EXPENDABILITY    # asset trusts you, system treats them as production
+    - TRUTH_VS_NARRATIVE          # you know the truth, cables get edited upward
+    - POWER_VS_ISOLATION          # you control lives but cannot tell anyone
+    - NORMAL_DESIRE_VS_IMPOSSIBLE_REALITY  # suburban dad / handler of doomed people
+
+# =============================================================================
+# MICRO-TENSION LIBRARY (for visual mapping in Phase 3)
+# =============================================================================
+
+micro_tension_library:
+  surveillance_paranoia:
+    - "Same man passes twice - different shirt, same shoes"
+    - "Car parked where it should not be"
+    - "Phone buzzes once, then stops"
+    - "Hotel lobby mirror shows someone looking away too quickly"
+    - "Coffee ordered but never touched - watching the door"
+  asset_behavioral_tics:
+    - "Orders tea, never coffee"
+    - "Checks watch every two minutes"
+    - "Slides phone face-down before speaking"
+    - "Same grey jacket every meeting"
+    - "Looks at the exit before sitting down"
+  internal_threat:
+    - "CI officer takes notes you cannot see"
+    - "Someone at Langley knows a detail they should not"
+    - "Your badge access log is reviewed"
+    - "A colleague asks about an operation you never discussed"
+
+# =============================================================================
+# ACCESSORY TAGS
+# =============================================================================
+
+accessory_tags:
+  - "encrypted phone in jacket pocket"
+  - "diplomatic passport"
+  - "plain business suit - deliberately forgettable"
+  - "earpiece (station scenes only)"
+
+# =============================================================================
+# PLATFORM SAFETY
+# =============================================================================
+
+platform_safety:
+  framing: "Fictionalized composite - inspired by real-world intelligence dynamics"
+  focus: "Psychology > politics. Moral injury > operational detail."
+  forbidden:
+    - Specific real regime leaders by name
+    - Real-time targeting descriptions
+    - Glorification of intelligence operations
+    - Graphic depictions of interrogation or torture
+    - Specific classified tradecraft details
+  allowed:
+    - Generic descriptions of intelligence process
+    - Emotional weight of moral decisions
+    - Family impact of secret life
+    - Ambiguity of right and wrong in wartime
+  note: >
+    Same approach as PV_0011 (Drone Operator) and PV_0012 (Mossad Katsa).
+    Key: frame as psychological portrait, not political commentary.
+
+# =============================================================================
+# HOOK CANDIDATES (v2.1 - sharpened)
+# =============================================================================
+
+hook_candidates:
+  option_1: "You have never been to Iran. But someone there trusts you with their life."
+  option_2: "You are responsible for people in a country you are not allowed to enter."
+  option_3: "Someone in Tehran is about to disappear. And they trust you."
+  option_4: "You have never met the people who will die because of your work. But one of them orders tea and checks his watch every two minutes."
+
+# =============================================================================
+# META
+# =============================================================================
+
+used_in_episodes: [PV_0018]
+created: "2026-04-13"
+version: "2.1"
+review_notes: >
+  v2.1: Second review optimization. Key changes:
+  (1) Added recurring_asset_archetype with human micro-details
+      (tea, watch, grey jacket, daughter same age)
+  (2) Added micro-tension library for visual paranoia
+      (same man twice, car that shouldn't be there, CI notes)
+  (3) Added signature situation #4: The Asset Turns
+      (contaminated intelligence - paranoia of double agent)
+  (4) Added CI threat axis: YOU are being watched
+      (counterintelligence officer, internal review, paranoia reversal)
+  (5) Upgraded resolution: daughter asks "do you help people" +
+      phone vibrates months later (open loop / rewatch bait)
+  (6) Added 4th irreversible marker: CONTAMINATED_INTELLIGENCE
+  (7) Asset micro-details woven into key_facts for emotional thread
+      (tea/watch/jacket recurring across facts 3,5,6,11)
+  (8) Total key_facts: 10 -> 12 (added CI threat + haunting resolution)

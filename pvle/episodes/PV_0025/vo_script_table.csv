@@ -1,0 +1,204 @@
+VO_ID,Episode_ID,Beat_ID,Life_Phase,Beat_Type,VO_Type,VO_EN,VO_VI,Word_Count_EN,Pause_After
+1,PV_0025,BEAT_00_01,HOOK,ESTABLISH,NARRATION,"The camera turns off.","Camera tat.",4,0.5
+2,PV_0025,BEAT_00_01,HOOK,ESTABLISH,NARRATION,"You have seventeen seconds.","Ban co muoi bay giay.",5,0.5
+3,PV_0025,BEAT_00_01,HOOK,ESTABLISH,NARRATION,"That's all the time you need.","Do la tat ca thoi gian ban can.",6,0.5
+4,PV_0025,BEAT_00_01,HOOK,ESTABLISH,NARRATION,"The alley's dark. One streetlight buzzing at the far end.","Con hem toi. Mot ngon den duong vo vo o cuoi ngo.",10,0
+5,PV_0025,BEAT_00_01,HOOK,ESTABLISH,NARRATION,"In those seventeen seconds, the crime happens.","Trong muoi bay giay do, toi ac xay ra.",7,0.5
+6,PV_0025,BEAT_00_01,HOOK,ESTABLISH,WEIGHT_LINE,"Not the one on the street. The one you create.","Khong phai vu ngoai duong. Ma vu ban tao ra.",9,1.5
+7,PV_0025,BEAT_00_02,HOOK,ESTABLISH,NARRATION,"You tap the bag through their pocket. Casual.","Ban so bich qua tui ho. Binh thuong.",7,0
+8,PV_0025,BEAT_00_02,HOOK,ESTABLISH,NARRATION,"Like checking for a lighter. Like you've done it a hundred times.","Nhu dang kiem cai bat lua. Nhu ban da lam tram lan roi.",11,0
+9,PV_0025,BEAT_00_02,HOOK,ESTABLISH,NARRATION,"Because you have.","Vi dung la vay.",3,0.5
+10,PV_0025,BEAT_00_02,HOOK,ESTABLISH,NARRATION,"You reach in. You pull it out. Hold it up where the dash camera can see.","Ban tho tay vao. Rut ra. Gio len cho camera hanh trinh quay duoc.",14,0.5
+11,PV_0025,BEAT_00_02,HOOK,ESTABLISH,NARRATION,"Evidence.","Bang chung.",1,1.0
+12,PV_0025,BEAT_00_03,HOOK,CONSTRAINT,WEIGHT_LINE,"You don't find evidence. You place it.","Ban khong tim bang chung. Ban dat no vao.",7,2.0
+13,PV_0025,BEAT_01_01,PHASE_EARLY,ESTABLISH,NARRATION,"You graduate the academy on a Tuesday.","Ban tot nghiep hoc vien vao mot ngay thu Ba.",7,0.5
+14,PV_0025,BEAT_01_01,PHASE_EARLY,ESTABLISH,NARRATION,"Your mother takes a photo. You don't remember if you smiled.","Me ban chup mot tam hinh. Ban khong nho minh co cuoi khong.",10,0
+15,PV_0025,BEAT_01_01,PHASE_EARLY,ESTABLISH,NARRATION,"Badge still has that weight to it when you pin it on.","Huy hieu van con nang khi ban gai no len.",11,0.5
+16,PV_0025,BEAT_01_01,PHASE_EARLY,ESTABLISH,NARRATION,"Like it means something. Like every arrest you make will matter.","Nhu no co y nghia. Nhu moi vu bat giu se deu quan trong.",11,0.5
+17,PV_0025,BEAT_01_01,PHASE_EARLY,ESTABLISH,NARRATION,"You believe the system works. That's why you're here.","Ban tin he thong van hanh dung. Vi the ban o day.",9,0.5
+18,PV_0025,BEAT_01_01,PHASE_EARLY,ESTABLISH,NARRATION,"Protect and serve. It's on the side of every patrol car in the lot.","Bao ve va phuc vu. Ghi tren thanh moi xe tuan tra trong bai.",13,0.5
+19,PV_0025,BEAT_01_01,PHASE_EARLY,ESTABLISH,NARRATION,"You run your thumb across the badge once before you get in the car.","Ban xoa ngon tay cai qua huy hieu mot lan truoc khi len xe.",13,1.0
+20,PV_0025,BEAT_01_02,PHASE_EARLY,CONFLICT,NARRATION,"First week on patrol.","Tuan dau tuan tra.",4,0.5
+21,PV_0025,BEAT_01_02,PHASE_EARLY,CONFLICT,NARRATION,"You watch a man you know is guilty walk out of the courtroom.","Ban nhin mot nguoi ban biet la co toi buoc ra khoi phong xu.",12,0.5
+22,PV_0025,BEAT_01_02,PHASE_EARLY,CONFLICT,NARRATION,"Not enough evidence. That's what the prosecutor says. She doesn't look at you when she says it.","Khong du bang chung. Cong to vien noi vay. Ba ay khong nhin ban khi noi.",15,0
+23,PV_0025,BEAT_01_02,PHASE_EARLY,CONFLICT,NARRATION,"The judge says something you don't catch. Doesn't matter.","Tham phan noi gi do ban khong nghe ro. Khong quan trong.",9,0
+24,PV_0025,BEAT_01_02,PHASE_EARLY,CONFLICT,NARRATION,"The man walks. He doesn't even hurry. Pushes the door open with one hand.","Nguoi dan ong buoc di. Khong voi. Day cua bang mot tay.",13,0.5
+25,PV_0025,BEAT_01_02,PHASE_EARLY,CONFLICT,NARRATION,"You stand there in the gallery. Your hands are in your pockets.","Ban dung do trong khu ghe ngoi. Hai tay tho tui.",11,0
+26,PV_0025,BEAT_01_02,PHASE_EARLY,CONFLICT,NARRATION,"You don't remember putting them there.","Ban khong nho luc nao tho tay vao.",6,0.5
+27,PV_0025,BEAT_01_02,PHASE_EARLY,CONFLICT,NARRATION,"The hallway outside smells like floor wax. Someone's eating a sandwich on a bench.","Hanh lang ben ngoai mui san bong. Ai do dang an banh mi tren ghe.",13,0.5
+28,PV_0025,BEAT_01_02,PHASE_EARLY,CONFLICT,NARRATION,"You walk past them. Don't say anything. The system failed and nobody looked up. Not even the security guard by the elevator.","Ban di ngang qua ho. Khong noi gi. He thong that bai va khong ai nhin len. Ke ca bao ve o thang may.",20,1.0
+29,PV_0025,BEAT_01_03,PHASE_EARLY,CONSTRAINT,NARRATION,"Your partner turns to you in the patrol car that night.","Dong nghiep quay sang ban trong xe tuan tra toi do.",10,0.5
+30,PV_0025,BEAT_01_03,PHASE_EARLY,CONSTRAINT,NARRATION,"Doesn't look at you. Eyes on the road. Both hands on the wheel.","Khong nhin ban. Mat huong ra duong. Hai tay tren vo lang.",12,0
+31,PV_0025,BEAT_01_03,PHASE_EARLY,CONSTRAINT,WEIGHT_LINE,"This isn't how it works.","Khong phai lam kieu nay.",5,1.5
+32,PV_0025,BEAT_01_03,PHASE_EARLY,CONSTRAINT,NARRATION,"You don't ask what he means. The radio crackles. He turns it down.","Ban khong hoi y anh ta la gi. Bo dam xeo xet. Anh ta van nho.",12,0
+33,PV_0025,BEAT_01_03,PHASE_EARLY,CONSTRAINT,NARRATION,"You look out the window. The streetlights slide past one by one.","Ban nhin ra cua kinh. Den duong luot qua tung cai mot.",11,0
+34,PV_0025,BEAT_01_03,PHASE_EARLY,CONSTRAINT,NARRATION,"Something about the way he said it. Like he's been waiting to.","Cai cach anh ta noi. Nhu da cho san tu lau.",11,1.0
+35,PV_0025,BEAT_01_04,PHASE_EARLY,REFLECT,NARRATION,"First time you watch your partner reach into someone's pocket.","Lan dau ban nhin dong nghiep tho tay vao tui nguoi khac.",9,0.5
+36,PV_0025,BEAT_01_04,PHASE_EARLY,REFLECT,NARRATION,"Pull out something that wasn't there ten seconds ago.","Rut ra thu gi do muoi giay truoc con chua co.",9,0.5
+37,PV_0025,BEAT_01_04,PHASE_EARLY,REFLECT,NARRATION,"The guy's face hits the hood of the car. Metal on bone.","Mat thang kia dap vao capo xe. Kim loai va xuong.",11,0
+38,PV_0025,BEAT_01_04,PHASE_EARLY,REFLECT,NARRATION,"You hear it before you understand what happened.","Ban nghe thay truoc khi hieu chuyen gi xay ra.",8,0.5
+39,PV_0025,BEAT_01_04,PHASE_EARLY,REFLECT,NARRATION,"You're standing three feet behind. Close enough to hear the breathing.","Ban dung cach ba buoc. Du gan de nghe tieng tho.",11,0
+40,PV_0025,BEAT_01_04,PHASE_EARLY,REFLECT,NARRATION,"Close enough to see the bag in your partner's hand.","Du gan de thay cai bich trong tay dong nghiep.",10,0
+41,PV_0025,BEAT_01_04,PHASE_EARLY,REFLECT,NARRATION,"You say nothing. Your partner doesn't look back at you.","Ban khong noi gi. Dong nghiep khong quay lai nhin.",9,0.5
+42,PV_0025,BEAT_01_04,PHASE_EARLY,REFLECT,NARRATION,"He doesn't need to.","Anh ta khong can.",4,0.5
+43,PV_0025,BEAT_01_04,PHASE_EARLY,REFLECT,WEIGHT_LINE,"Your silence is the first yes.","Su im lang cua ban la tieng dong y dau tien.",6,1.5
+44,PV_0025,BEAT_02_01,PHASE_CONFLICT,CONFLICT,NARRATION,"Your first time.","Lan dau cua ban.",3,0.5
+45,PV_0025,BEAT_02_01,PHASE_CONFLICT,CONFLICT,NARRATION,"The suspect is guilty. You know it. Everyone on the block knows it.","Nghi pham co toi. Ban biet. Ca khu pho biet.",12,0
+46,PV_0025,BEAT_02_01,PHASE_CONFLICT,CONFLICT,NARRATION,"The evidence just isn't there. Not enough for paper. Not enough for court.","Bang chung khong co. Khong du lam ho so. Khong du ra toa.",12,0.5
+47,PV_0025,BEAT_02_01,PHASE_CONFLICT,CONFLICT,NARRATION,"So you help.","Nen ban giup.",3,0.5
+48,PV_0025,BEAT_02_01,PHASE_CONFLICT,CONFLICT,NARRATION,"Small bag. Right pocket. You learn to do it with one hand.","Bich nho. Tui phai. Ban hoc cach lam bang mot tay.",11,0
+49,PV_0025,BEAT_02_01,PHASE_CONFLICT,CONFLICT,NARRATION,"The other hand holds their shoulder. Steady. Like you're helping them balance.","Tay kia giu vai ho. Vung. Nhu dang do ho dung.",11,0.5
+50,PV_0025,BEAT_02_01,PHASE_CONFLICT,CONFLICT,NARRATION,"You make the evidence match what you already know is true.","Ban lam bang chung khop voi dieu ban da biet la that.",10,0.5
+51,PV_0025,BEAT_02_01,PHASE_CONFLICT,CONFLICT,NARRATION,"Your hands don't shake. You notice that. You thought they would.","Tay ban khong run. Ban de y dieu do. Ban tuong se run.",11,0.5
+52,PV_0025,BEAT_02_01,PHASE_CONFLICT,CONFLICT,NARRATION,"They don't. Not even a little.","Nhung khong. Khong he.",6,1.0
+53,PV_0025,BEAT_02_02,PHASE_CONFLICT,REFLECT,NARRATION,"Nothing happens.","Khong co gi xay ra.",2,0.5
+54,PV_0025,BEAT_02_02,PHASE_CONFLICT,REFLECT,NARRATION,"No questions. No report flagged. Nobody calls you in.","Khong ai hoi. Khong bao cao bi danh dau. Khong ai goi ban vao.",8,0.5
+55,PV_0025,BEAT_02_02,PHASE_CONFLICT,REFLECT,NARRATION,"You file the paperwork at your desk. Same form you always use.","Ban lam giay to tai ban. Cung mau don nhu moi khi.",11,0
+56,PV_0025,BEAT_02_02,PHASE_CONFLICT,REFLECT,NARRATION,"The precinct smells like old coffee and printer ink.","Don canh sat mui ca phe cu va muc in.",9,0
+57,PV_0025,BEAT_02_02,PHASE_CONFLICT,REFLECT,NARRATION,"Fluorescent light hums above you. One of them flickers every thirty seconds or so.","Den huynh quang vo ve phia tren. Mot bong nhay cu ba muoi giay.",13,0
+58,PV_0025,BEAT_02_02,PHASE_CONFLICT,REFLECT,NARRATION,"Nobody's reading over your shoulder. Nobody ever does.","Khong ai doc qua vai ban. Chua bao gio co.",8,0.5
+59,PV_0025,BEAT_02_02,PHASE_CONFLICT,REFLECT,NARRATION,"That's how you know it works.","Do la cach ban biet no hoat dong.",6,0.5
+60,PV_0025,BEAT_02_02,PHASE_CONFLICT,REFLECT,NARRATION,"No one checks.","Khong ai kiem tra.",3,0
+61,PV_0025,BEAT_02_02,PHASE_CONFLICT,REFLECT,WEIGHT_LINE,"No one ever checks.","Chua bao gio co ai kiem tra.",4,1.0
+62,PV_0025,BEAT_02_02,PHASE_CONFLICT,REFLECT,NARRATION,"The system doesn't catch you because the system doesn't want to.","He thong khong bat ban vi he thong khong muon bat.",11,1.0
+63,PV_0025,BEAT_02_03,PHASE_CONFLICT,PRIVILEGE,NARRATION,"Commendation letter in your file. Two weeks later.","Thu khen thuong trong ho so. Hai tuan sau.",7,0.5
+64,PV_0025,BEAT_02_03,PHASE_CONFLICT,PRIVILEGE,NARRATION,"The sergeant shakes your hand in his office. Door open so everyone sees.","Trung si bat tay ban trong phong. Cua mo cho moi nguoi thay.",12,0
+65,PV_0025,BEAT_02_03,PHASE_CONFLICT,PRIVILEGE,NARRATION,"Tells you good work. Solid numbers. Says your name to the room.","Noi lam tot. So lieu chac. Doc ten ban cho ca phong nghe.",11,0.5
+66,PV_0025,BEAT_02_03,PHASE_CONFLICT,PRIVILEGE,NARRATION,"The paper's warm from the printer. You fold it. Put it in your locker.","To giay con am tu may in. Ban gap lai. Bo vao tu do.",13,0.5
+67,PV_0025,BEAT_02_03,PHASE_CONFLICT,PRIVILEGE,NARRATION,"You close the locker. Stand there a second. Your reflection in the metal is blurry.","Ban dong tu. Dung do mot giay. Hinh phan chieu tren kim loai mo nhoet.",14,0
+68,PV_0025,BEAT_02_03,PHASE_CONFLICT,PRIVILEGE,WEIGHT_LINE,"The system doesn't just stay silent. It rewards you.","He thong khong chi im lang. No thuong ban.",9,1.5
+69,PV_0025,BEAT_02_04,PHASE_CONFLICT,CONSTRAINT,NARRATION,"Second time is easier.","Lan thu hai de hon.",4,0
+70,PV_0025,BEAT_02_04,PHASE_CONFLICT,CONSTRAINT,NARRATION,"Third time you don't even think about it.","Lan thu ba ban con khong nghi.",8,0.5
+71,PV_0025,BEAT_02_04,PHASE_CONFLICT,CONSTRAINT,NARRATION,"Fourth time - you check the body camera first. It's already off.","Lan thu tu - ban kiem camera than truoc. Da tat san.",11,0
+72,PV_0025,BEAT_02_04,PHASE_CONFLICT,CONSTRAINT,NARRATION,"You don't remember turning it off. But it's off.","Ban khong nho da tat luc nao. Nhung no da tat.",9,0.5
+73,PV_0025,BEAT_02_04,PHASE_CONFLICT,CONSTRAINT,NARRATION,"You sit down at the precinct desk. Pen on paper.","Ban ngoi xuong ban o don. But tren giay.",9,0
+74,PV_0025,BEAT_02_04,PHASE_CONFLICT,CONSTRAINT,NARRATION,"You write down what happened. Except it didn't.","Ban viet lai nhung gi da xay ra. Chi la no khong xay ra.",8,0.5
+75,PV_0025,BEAT_02_04,PHASE_CONFLICT,CONSTRAINT,NARRATION,"Doesn't matter. The report says it did.","Khong quan trong. Bao cao ghi la co.",7,0
+76,PV_0025,BEAT_02_04,PHASE_CONFLICT,CONSTRAINT,WEIGHT_LINE,"Ink makes it real.","Muc lam no thanh that.",4,1.0
+77,PV_0025,BEAT_02_04,PHASE_CONFLICT,CONSTRAINT,NARRATION,"If it's written, it happened. That's the rule.","Da viet la da xay ra. Do la quy tac.",8,0
+78,PV_0025,BEAT_02_04,PHASE_CONFLICT,CONSTRAINT,NARRATION,"Nobody made the rule. But everyone follows it.","Khong ai dat ra quy tac. Nhung ai cung theo.",7,1.5
+79,PV_0025,BEAT_02_05,PHASE_CONFLICT,CONFLICT,NARRATION,"Body camera off is reflex now.","Tat camera than gio la phan xa.",6,0.5
+80,PV_0025,BEAT_02_05,PHASE_CONFLICT,CONFLICT,NARRATION,"You don't even hear the click anymore. Like blinking.","Ban con khong nghe tieng tach nua. Nhu chop mat.",9,0.5
+81,PV_0025,BEAT_02_05,PHASE_CONFLICT,CONFLICT,NARRATION,"Seventeen seconds is all you need. Sometimes twelve. Depends on the pocket.","Muoi bay giay la du. Doi khi muoi hai. Tuy tui.",11,0
+82,PV_0025,BEAT_02_05,PHASE_CONFLICT,CONFLICT,NARRATION,"You don't rush.","Ban khong voi.",3,0.5
+83,PV_0025,BEAT_02_05,PHASE_CONFLICT,CONFLICT,NARRATION,"You say 'stop resisting' before they move. Before they even tense up.","Ban noi 'ngung chong cu' truoc khi ho nhuc nhich. Truoc khi ho kip gang.",11,0
+84,PV_0025,BEAT_02_05,PHASE_CONFLICT,CONFLICT,NARRATION,"The audio picks it up. That's the evidence now. Your voice on the recording.","Ban ghi am duoc. Do la bang chung bay gio. Giong ban tren ban thu.",13,0.5
+85,PV_0025,BEAT_02_05,PHASE_CONFLICT,CONFLICT,NARRATION,"Later in the courtroom it sounds so clear. So professional.","Sau nay trong phong xu no nghe ro rang. Chuyen nghiep.",9,0
+86,PV_0025,BEAT_02_05,PHASE_CONFLICT,CONFLICT,NARRATION,"The quota board in the precinct has your name near the top. Right next to the ones who actually investigate.","Bang chi tieu o don co ten ban gan dinh. Ngay canh nhung nguoi thuc su dieu tra.",18,0
+87,PV_0025,BEAT_02_05,PHASE_CONFLICT,CONFLICT,NARRATION,"Somebody circled it. You don't know when.","Ai do khoanh tron no. Ban khong biet tu luc nao.",7,0
+88,PV_0025,BEAT_02_05,PHASE_CONFLICT,CONFLICT,NARRATION,"Sergeant asks why your numbers dipped this month. Leans on the doorframe.","Trung si hoi sao so lieu thang nay giam. Dua vao khung cua.",11,0
+89,PV_0025,BEAT_02_05,PHASE_CONFLICT,CONFLICT,NARRATION,"You don't answer. You just go back out.","Ban khong tra loi. Chi di ra ngoai.",8,1.0
+90,PV_0025,BEAT_02_05,PHASE_CONFLICT,CONFLICT,NARRATION,"You think about saying something once. To someone.","Ban nghi den viec noi gi do mot lan. Voi ai do.",8,0
+91,PV_0025,BEAT_02_05,PHASE_CONFLICT,CONFLICT,NARRATION,"You don't.","Ban khong.",2,1.5
+92,PV_0025,BEAT_02_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"You stop noticing the difference.","Ban ngung nhan ra su khac biet.",5,1.0
+93,PV_0025,BEAT_02_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"The loop.","Vong lap.",2,0.5
+94,PV_0025,BEAT_02_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"You choose them. You prepare the story.","Ban chon ho. Ban chuan bi cau chuyen.",7,0
+95,PV_0025,BEAT_02_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"You plant the evidence. You swear to it.","Ban dat bang chung. Ban the truoc toa.",7,0.5
+96,PV_0025,BEAT_02_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"Choose. Prepare. Plant. Swear.","Chon. Chuan bi. Dat. The.",4,0.5
+97,PV_0025,BEAT_02_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"Every night. Same four steps. Same order. Same gloves.","Moi dem. Cung bon buoc. Cung thu tu. Cung doi gang.",9,0
+98,PV_0025,BEAT_02_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"Sometimes you eat a granola bar in the car between the second and third step.","Doi khi ban an thanh granola trong xe giua buoc hai va buoc ba.",14,0
+99,PV_0025,BEAT_02_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"The wrapper goes under the seat with the other ones.","Vo bao nhet duoi ghe voi may cai khac.",10,0
+100,PV_0025,BEAT_02_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"That's the part that should bother you. It doesn't.","Do la phan dang le phai lam ban kho chiu. Nhung khong.",9,0.5
+101,PV_0025,BEAT_02_06,PHASE_CONFLICT,ESTABLISH,NARRATION,"You don't remember when it stopped feeling like a decision.","Ban khong nho tu bao gio no khong con la mot quyet dinh nua.",10,1.0
+102,PV_0025,BEAT_02_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,"You don't pick criminals.","Ban khong chon toi pham.",4,0.5
+103,PV_0025,BEAT_02_07,PHASE_CONFLICT,CONSTRAINT,WEIGHT_LINE,"You pick people no one will defend.","Ban chon nhung nguoi khong ai bao ve.",7,1.5
+104,PV_0025,BEAT_02_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,"No phone. No lawyer on speed dial.","Khong dien thoai. Khong luat su trong danh ba.",6,0
+105,PV_0025,BEAT_02_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,"No one waiting at home to ask where they went.","Khong ai o nha cho de hoi ho di dau.",10,0.5
+106,PV_0025,BEAT_02_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,"You scan the block from the patrol car. Windows down. Engine idling.","Ban quan sat khu pho tu xe tuan tra. Cua kinh ha. May no.",10,0
+107,PV_0025,BEAT_02_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,"You pick the one standing alone. Hoodie up. Hands in pockets.","Ban chon nguoi dung mot minh. Ao hoodie trum dau. Tay tho tui.",10,0
+108,PV_0025,BEAT_02_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,"Nobody's gonna file a complaint. And if they do - it goes to your precinct.","Khong ai se nop don. Va neu ho lam - no gui ve don cua ban.",13,0
+109,PV_0025,BEAT_02_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,"Your precinct.","Don cua ban.",2,0.5
+110,PV_0025,BEAT_02_07,PHASE_CONFLICT,CONSTRAINT,NARRATION,"They don't even see you coming.","Ho con khong thay ban toi.",6,1.0
+111,PV_0025,BEAT_02_08,PHASE_CONFLICT,REFLECT,NARRATION,"Your partner saw everything. That's why they'll never say anything.","Dong nghiep ban thay het. Vi the ho se khong bao gio noi.",10,0.5
+112,PV_0025,BEAT_02_08,PHASE_CONFLICT,REFLECT,NARRATION,"You don't talk about it in the car. You talk about the game. About lunch.","Ban khong noi chuyen do trong xe. Ban noi ve tran dau. Ve bua trua.",13,0
+113,PV_0025,BEAT_02_08,PHASE_CONFLICT,REFLECT,NARRATION,"The silence between those conversations is where the truth lives.","Su im lang giua nhung cuoc noi chuyen do la noi su that nam.",10,0.5
+114,PV_0025,BEAT_02_08,PHASE_CONFLICT,REFLECT,NARRATION,"The public defender doesn't read the file. Too many cases. Not enough hours.","Luat su chi dinh khong doc ho so. Qua nhieu vu. Khong du gio.",12,0
+115,PV_0025,BEAT_02_08,PHASE_CONFLICT,REFLECT,NARRATION,"She carries a stack of folders half as tall as her briefcase. Half of them are yours.","Ba ay mang chong ho so cao bang nua cai cap. Mot nua la cua ban.",15,0.5
+116,PV_0025,BEAT_02_08,PHASE_CONFLICT,REFLECT,NARRATION,"The judge nods because you're in uniform.","Tham phan gat dau vi ban mac dong phuc.",7,0.5
+117,PV_0025,BEAT_02_08,PHASE_CONFLICT,REFLECT,NARRATION,"You say 'in plain view' and those three words close every question.","Ban noi 'trong tam nhin' va ba tu do dong moi cau hoi lai.",11,0.5
+118,PV_0025,BEAT_02_08,PHASE_CONFLICT,REFLECT,NARRATION,"The courtroom's cold. Air conditioning hums above the bench.","Phong xu lanh. May lanh vo ve phia tren ghe tham phan.",9,0
+119,PV_0025,BEAT_02_08,PHASE_CONFLICT,REFLECT,NARRATION,"Nobody objects. Nobody asks a follow-up.","Khong ai phan doi. Khong ai hoi them.",6,0.5
+120,PV_0025,BEAT_02_08,PHASE_CONFLICT,REFLECT,NARRATION,"The system is too tired to check.","He thong qua met de kiem tra.",7,0.5
+121,PV_0025,BEAT_02_08,PHASE_CONFLICT,REFLECT,NARRATION,"You walk out of the courthouse into the parking lot and the air hits you - warm and thick and slow - and for a second you just stand there holding your keys.","Ban buoc ra khoi toa an vao bai do xe va khong khi ap vao mat - am va dac va cham - va mot giay ban chi dung do cam chia khoa.",30,0
+122,PV_0025,BEAT_02_08,PHASE_CONFLICT,REFLECT,NARRATION,"You realize that's the point. It was always the point.","Ban nhan ra do la muc dich. Luc nao cung la muc dich.",10,2.0
+123,PV_0025,BEAT_03_01,PHASE_CRISIS,CONFLICT,NARRATION,"Your name is on the promotion list.","Ten ban tren danh sach thang chuc.",7,0.5
+124,PV_0025,BEAT_03_01,PHASE_CRISIS,CONFLICT,NARRATION,"You look at it on the board. Coffee in one hand.","Ban nhin no tren bang. Ca phe mot tay.",10,0
+125,PV_0025,BEAT_03_01,PHASE_CRISIS,CONFLICT,NARRATION,"Every arrest on that list is manufactured.","Moi vu bat trong danh sach do deu la dan dung.",7,0
+126,PV_0025,BEAT_03_01,PHASE_CRISIS,CONFLICT,NARRATION,"Not one real case.","Khong co vu that nao.",4,0.5
+127,PV_0025,BEAT_03_01,PHASE_CRISIS,CONFLICT,NARRATION,"There's a pen mark next to your name. You don't know who put it there.","Co vet but ben canh ten ban. Ban khong biet ai danh dau.",14,0.5
+128,PV_0025,BEAT_03_01,PHASE_CRISIS,CONFLICT,NARRATION,"You teach the rookie the method. Same patrol car. Same route.","Ban day tan binh phuong phap. Cung xe tuan tra. Cung tuyen duong.",10,0.5
+129,PV_0025,BEAT_03_01,PHASE_CRISIS,CONFLICT,NARRATION,"He's sitting where you sat three years ago. Same posture. Same quiet. Same hands folded in his lap.","Anh ta ngoi cho ban ngoi ba nam truoc. Cung tu the. Cung im lang. Cung hai tay chap trong long.",17,0
+130,PV_0025,BEAT_03_01,PHASE_CRISIS,CONFLICT,NARRATION,"You say it the same way your partner said it to you.","Ban noi giong het cach dong nghiep da noi voi ban.",11,0.5
+131,PV_0025,BEAT_03_01,PHASE_CRISIS,CONFLICT,WEIGHT_LINE,"This is how it works.","No la vay do.",5,1.5
+132,PV_0025,BEAT_03_01,PHASE_CRISIS,CONFLICT,NARRATION,"He nods. Doesn't ask questions. You remember that feeling.","Anh ta gat dau. Khong hoi. Ban nho cam giac do.",9,0
+133,PV_0025,BEAT_03_01,PHASE_CRISIS,CONFLICT,NARRATION,"You had it too.","Ban cung tung nhu vay.",4,1.0
+134,PV_0025,BEAT_03_02,PHASE_CRISIS,CRISIS,NARRATION,"You stop checking first.","Ban ngung kiem tra truoc.",4,0.5
+135,PV_0025,BEAT_03_02,PHASE_CRISIS,CRISIS,NARRATION,"Used to matter - guilty or not. Used to be a line.","Truoc kia con quan trong - co toi hay khong. Truoc kia con co ranh gioi.",10,0
+136,PV_0025,BEAT_03_02,PHASE_CRISIS,CRISIS,NARRATION,"Tonight is different.","Toi nay khac.",3,0.5
+137,PV_0025,BEAT_03_02,PHASE_CRISIS,CRISIS,NARRATION,"The person against the wall.","Nguoi dung dua tuong.",5,0
+138,PV_0025,BEAT_03_02,PHASE_CRISIS,CRISIS,NARRATION,"You know they're innocent.","Ban biet ho vo toi.",4,0
+139,PV_0025,BEAT_03_02,PHASE_CRISIS,CRISIS,NARRATION,"Not maybe. Not probably.","Khong phai co the. Khong phai co le.",4,0.5
+140,PV_0025,BEAT_03_02,PHASE_CRISIS,CRISIS,NARRATION,"You know.","Ban biet.",2,0.5
+141,PV_0025,BEAT_03_02,PHASE_CRISIS,CRISIS,NARRATION,"Their hands are up. Palms open. Shaking.","Tay ho gio len. Long ban tay mo. Run.",7,0
+142,PV_0025,BEAT_03_02,PHASE_CRISIS,CRISIS,NARRATION,"There's a grocery bag on the ground next to them. Milk and something in a box.","Co tui di cho duoi dat canh ho. Sua va gi do trong mot cai hop.",14,0
+143,PV_0025,BEAT_03_02,PHASE_CRISIS,CRISIS,NARRATION,"They were walking home.","Ho dang di bo ve nha.",4,0.5
+144,PV_0025,BEAT_03_02,PHASE_CRISIS,CRISIS,NARRATION,"Your thumb moves to the bag in your vest pocket. For half a second your fingers don't grip. They hover. Then they close.","Ngon cai ban chuyen sang tui ao gile. Nua giay ngon tay khong nam. Chung lo lung. Roi chung khep lai.",21,0
+145,PV_0025,BEAT_03_02,PHASE_CRISIS,CRISIS,NARRATION,"You do it anyway.","Ban van lam.",4,0.5
+146,PV_0025,BEAT_03_02,PHASE_CRISIS,CRISIS,NARRATION,"Same motion. Same pocket. Same seventeen seconds.","Cung dong tac. Cung tui. Cung muoi bay giay.",7,1.5
+147,PV_0025,BEAT_03_03,PHASE_CRISIS,CRISIS,WEIGHT_LINE,"You don't find evidence. You place it.","Ban khong tim bang chung. Ban dat no vao.",7,1.5
+148,PV_0025,BEAT_03_03,PHASE_CRISIS,CRISIS,NARRATION,"Same words.","Cung nhung tu.",2,0.5
+149,PV_0025,BEAT_03_03,PHASE_CRISIS,CRISIS,WEIGHT_LINE,"Different weight.","Trong luong khac.",2,2.0
+150,PV_0025,BEAT_03_04,PHASE_CRISIS,CONFLICT,NARRATION,"Internal Affairs calls on a Thursday.","Thanh tra noi bo goi vao thu Nam.",6,0.5
+151,PV_0025,BEAT_03_04,PHASE_CRISIS,CONFLICT,NARRATION,"Your partner calls you first. Forty minutes before IA does.","Dong nghiep goi ban truoc. Bon muoi phut truoc khi thanh tra goi.",9,0.5
+152,PV_0025,BEAT_03_04,PHASE_CRISIS,CONFLICT,NARRATION,"Tells you what to say. What not to say. What to forget.","Noi ban nen noi gi. Khong nen noi gi. Nen quen gi.",11,0.5
+153,PV_0025,BEAT_03_04,PHASE_CRISIS,CONFLICT,NARRATION,"You write it on a napkin in the break room. Then throw the napkin away.","Ban ghi len khan giay trong phong nghi. Roi vut khan giay di.",13,0.5
+154,PV_0025,BEAT_03_04,PHASE_CRISIS,CONFLICT,NARRATION,"The IA interview takes twenty-two minutes. You counted.","Buoi phong van thanh tra keo dai hai muoi hai phut. Ban dem.",9,0
+155,PV_0025,BEAT_03_04,PHASE_CRISIS,CONFLICT,NARRATION,"They ask the same questions three different ways. You give the same answer three different ways. The woman across the table writes something down and doesn't show you.","Ho hoi cung cau hoi theo ba cach. Ban tra loi giong nhau theo ba cach. Nguoi phu nu doi dien ghi gi do va khong cho ban xem.",28,0
+156,PV_0025,BEAT_03_04,PHASE_CRISIS,CONFLICT,NARRATION,"Routine. Standard. Nothing to see.","Binh thuong. Tieu chuan. Khong co gi.",5,0
+157,PV_0025,BEAT_03_04,PHASE_CRISIS,CONFLICT,NARRATION,"It works every time.","Lan nao cung vay.",4,1.0
+158,PV_0025,BEAT_03_04,PHASE_CRISIS,CONFLICT,NARRATION,"You drive through the neighborhood that night. Windows down. Air warm.","Ban lai xe qua khu pho toi do. Cua kinh ha. Khong khi am.",10,0.5
+159,PV_0025,BEAT_03_04,PHASE_CRISIS,CONFLICT,NARRATION,"Someone you arrested is standing on the corner. Same spot. Same clothes.","Nguoi ban tung bat dang dung o goc pho. Cung cho. Cung bo do.",11,0
+160,PV_0025,BEAT_03_04,PHASE_CRISIS,CONFLICT,NARRATION,"They see the patrol car.","Ho thay xe tuan tra.",5,0
+161,PV_0025,BEAT_03_04,PHASE_CRISIS,CONFLICT,NARRATION,"They don't run.","Ho khong chay.",3,0.5
+162,PV_0025,BEAT_03_04,PHASE_CRISIS,CONFLICT,NARRATION,"They just look at you.","Ho chi nhin ban.",5,0.5
+163,PV_0025,BEAT_03_04,PHASE_CRISIS,CONFLICT,NARRATION,"You keep driving. Your foot doesn't change on the gas.","Ban tiep tuc lai. Chan khong doi tren ga.",10,0.5
+164,PV_0025,BEAT_03_04,PHASE_CRISIS,CONFLICT,NARRATION,"The rearview mirror. Their face getting smaller.","Guong chieu hau. Mat ho nho dan.",7,2.0
+165,PV_0025,BEAT_04_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"Not caught.","Khong bi bat.",2,0.5
+166,PV_0025,BEAT_04_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"Not punished.","Khong bi phat.",2,0.5
+167,PV_0025,BEAT_04_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"The investigation goes nowhere. File closed. Two pages. Stamp at the bottom. You've seen longer parking tickets.","Dieu tra khong di den dau. Ho so dong. Hai trang. Con dau o cuoi. Ban da thay phieu phat do xe dai hon.",17,0.5
+168,PV_0025,BEAT_04_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"The system protects itself because you are the system.","He thong tu bao ve minh vi ban la he thong.",9,1.0
+169,PV_0025,BEAT_04_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"You're the training officer now. Title comes with a different parking spot.","Ban la huong dan vien bay gio. Chuc danh di kem cho do xe khac.",11,0
+170,PV_0025,BEAT_04_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"Same desk your partner sat at. Same chair. The armrest's cracked on the left side.","Cung ban dong nghiep tung ngoi. Cung ghe. Tay vin nut ben trai.",14,0
+171,PV_0025,BEAT_04_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"There's a coffee stain on the corner of the desk.","Co vet ca phe o goc ban.",10,0
+172,PV_0025,BEAT_04_01,PHASE_RESOLUTION,RESOLVE,NARRATION,"Or a different one. You can't tell.","Hoac vet khac. Ban khong phan biet duoc.",7,1.0
+173,PV_0025,BEAT_04_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Rookies learn the method.","Tan binh hoc phuong phap.",4,0.5
+174,PV_0025,BEAT_04_02,PHASE_RESOLUTION,REFLECT,NARRATION,"You watch them do it for the first time. Same hesitation you had.","Ban nhin ho lam lan dau. Cung do du nhu ban tung co.",12,0
+175,PV_0025,BEAT_04_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Same silence after. Same look in the car on the way back.","Cung im lang sau do. Cung anh mat tren xe luc ve.",11,0.5
+176,PV_0025,BEAT_04_02,PHASE_RESOLUTION,REFLECT,NARRATION,"One of them looks at you. Mouth open like he's about to ask something.","Mot nguoi nhin ban. Mieng he nhu sap hoi gi do.",13,0
+177,PV_0025,BEAT_04_02,PHASE_RESOLUTION,REFLECT,NARRATION,"He doesn't.","Anh ta khong hoi.",2,0.5
+178,PV_0025,BEAT_04_02,PHASE_RESOLUTION,REFLECT,NARRATION,"You don't want him to.","Ban khong muon anh ta hoi.",5,0
+179,PV_0025,BEAT_04_02,PHASE_RESOLUTION,REFLECT,NARRATION,"Three months later he's doing it on his own. No guidance needed. No questions.","Ba thang sau anh ta tu lam. Khong can huong dan. Khong cau hoi.",12,0.5
+180,PV_0025,BEAT_04_02,PHASE_RESOLUTION,REFLECT,NARRATION,"You see him file the paperwork after. Same form. Same pen.","Ban thay anh ta lam giay to sau do. Cung mau don. Cung cay but.",10,0
+181,PV_0025,BEAT_04_02,PHASE_RESOLUTION,REFLECT,WEIGHT_LINE,"The method is the department. The department is the method.","Phuong phap la co quan. Co quan la phuong phap.",9,1.5
+182,PV_0025,BEAT_04_03,PHASE_RESOLUTION,CRISIS,NARRATION,"You sit at your desk. Late. Everyone else gone home.","Ban ngoi tai ban. Muon. Moi nguoi da ve het.",9,0.5
+183,PV_0025,BEAT_04_03,PHASE_RESOLUTION,CRISIS,NARRATION,"Arrest records spread out in front of you. Years of them. Stacked by date.","Ho so bat giu bai ra truoc mat. Nhieu nam. Xep theo ngay.",12,0
+184,PV_0025,BEAT_04_03,PHASE_RESOLUTION,CRISIS,NARRATION,"You try to remember one real arrest.","Ban co nho lai mot vu bat that.",7,0.5
+185,PV_0025,BEAT_04_03,PHASE_RESOLUTION,CRISIS,NARRATION,"One case where the evidence was already there before you got to it.","Mot vu ma bang chung da co san truoc khi ban den.",12,0.5
+186,PV_0025,BEAT_04_03,PHASE_RESOLUTION,CRISIS,NARRATION,"You flip through the pages. Manila folders. Blue ink. Black ink.","Ban lat tung trang. Bia ho so mau vang. Muc xanh. Muc den.",10,0
+187,PV_0025,BEAT_04_03,PHASE_RESOLUTION,CRISIS,NARRATION,"The real ones and the fake ones read exactly the same.","Nhung vu that va vu gia doc y chang nhau.",10,0.5
+188,PV_0025,BEAT_04_03,PHASE_RESOLUTION,CRISIS,NARRATION,"Same handwriting. Same forms. Same box checked on line fourteen.","Cung chu viet. Cung mau don. Cung o danh dau o dong muoi bon.",10,0
+189,PV_0025,BEAT_04_03,PHASE_RESOLUTION,CRISIS,NARRATION,"For a second the pages blur - dates run into names run into case numbers - and then you blink and they're just files again.","Mot giay cac trang nhoe di - ngay thang chay vao ten chay vao so vu - roi ban chop mat va chung chi la ho so.",22,0
+190,PV_0025,BEAT_04_03,PHASE_RESOLUTION,CRISIS,WEIGHT_LINE,"You can't.","Ban khong the.",2,1.5
+191,PV_0025,BEAT_04_03,PHASE_RESOLUTION,CRISIS,NARRATION,"You close the folder. Leave it on the desk.","Ban dong ho so. De no tren ban.",8,0
+192,PV_0025,BEAT_04_03,PHASE_RESOLUTION,CRISIS,NARRATION,"The light in the hallway buzzes when you walk out.","Den hanh lang vo ve khi ban buoc ra.",10,1.5
+193,PV_0025,BEAT_05_01,CALLBACK,CALLBACK,NARRATION,"The camera turns off.","Camera tat.",4,0.5
+194,PV_0025,BEAT_05_01,CALLBACK,CALLBACK,NARRATION,"Seventeen seconds.","Muoi bay giay.",2,0.5
+195,PV_0025,BEAT_05_01,CALLBACK,CALLBACK,NARRATION,"That's all it ever took.","Chi can co the thoi.",5,0.5
+196,PV_0025,BEAT_05_01,CALLBACK,CALLBACK,WEIGHT_LINE,"You don't find evidence. You place it.","Ban khong tim bang chung. Ban dat no vao.",7,1.5
+197,PV_0025,BEAT_05_01,CALLBACK,CALLBACK,NARRATION,"Same alley. Same click. Same hands.","Cung con hem. Cung tieng tach. Cung doi tay.",6,0.5
+198,PV_0025,BEAT_05_01,CALLBACK,CALLBACK,NARRATION,"But you're older now. Grey at the temples. Lines around the eyes.","Nhung ban gia hon roi. Toc bac mai. Nep nhan quanh mat.",11,0
+199,PV_0025,BEAT_05_01,CALLBACK,CALLBACK,NARRATION,"The words don't mean what you do anymore.","Nhung tu do khong con nghia la dieu ban lam nua.",8,0
+200,PV_0025,BEAT_05_01,CALLBACK,CALLBACK,WEIGHT_LINE,"They mean what you are.","Chung co nghia la con nguoi ban.",5,0.5
+201,PV_0025,BEAT_05_01,CALLBACK,CALLBACK,NARRATION,"They always did.","Luc nao cung vay.",3,1.5
+202,PV_0025,BEAT_05_02,CALLBACK,CTA,NARRATION,"You can't tell which ones were real.","Ban khong phan biet duoc dau la that.",7,0.5
+203,PV_0025,BEAT_05_02,CALLBACK,CTA,WEIGHT_LINE,"You're not sure there were any.","Ban khong chac la co vu nao that.",6,2.0

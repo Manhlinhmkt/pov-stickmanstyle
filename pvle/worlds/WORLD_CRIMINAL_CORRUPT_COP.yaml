@@ -1,0 +1,325 @@
+# WORLD: WORLD_CRIMINAL_CORRUPT_COP
+# Display: The Cop Who Creates the Crime
+# Created: 2026-04-20
+
+WORLD_ID: WORLD_CRIMINAL_CORRUPT_COP
+display_name: "The Cop Who Creates the Crime"
+domain: CRIMINAL
+era: MODERN_CONTEMPORARY
+implied_identity_mode: GENERIC_ARCHETYPE
+implied_person: null
+
+tags:
+  - police_corruption
+  - fabricated_evidence
+  - institutional_abuse
+  - moral_erosion
+  - manufactured_crime
+  - blue_wall_of_silence
+
+seed_keywords:
+  - "corrupt cop"
+  - "planted evidence"
+  - "fabricated crime"
+  - "framing innocent people"
+  - "police corruption"
+  - "false arrest"
+  - "testilying"
+
+# ============================================================
+# HOOK IDENTITY (viral-optimized)
+# ============================================================
+hook_identity:
+  primary: "You don't catch criminals. You make them."
+  alternates:
+    - "You write the crime before it happens."
+    - "Every arrest you made was already written."
+    - "The camera turns off. You have seventeen seconds. That's when the crime begins."
+
+# ============================================================
+# SIGNATURE LINE (repeats throughout episode)
+# ============================================================
+signature_line:
+  line: "You don't find evidence. You place it."
+  usage: >
+    Appears minimum 3 times across the episode. First time: cold
+    statement of method. Second time: after the snap moment - same
+    words, different weight. Third time: ending - the line has
+    become who they are, not what they do.
+
+# ============================================================
+# CORE MECHANIC (4-beat POV loop)
+# ============================================================
+core_mechanic:
+  name: "THE_MANUFACTURED_CASE"
+  description: >
+    The cop does not catch criminals. The cop creates them. The
+    skill is not in lying. The skill is in making the lie look
+    like procedure. Paperwork is the cleanest part of the crime.
+    If it is written, it happened.
+  pov_loop:
+    structure: "choose -> prepare -> place -> swear"
+    beats:
+      - beat: "CHOOSE"
+        line: "You choose them."
+        note: "Target selection - people no one will defend."
+      - beat: "PREPARE"
+        line: "You prepare the story."
+        note: "Report written before arrest. Narrative first, reality second."
+      - beat: "PLACE"
+        line: "You make it real."
+        note: "The 17 seconds. Camera off. Bag planted. Crime created."
+      - beat: "SWEAR"
+        line: "You repeat it under oath."
+        note: "Testilying. The courtroom completes the manufacture."
+  escalation_stages:
+    - stage: "NOBLE_CAUSE"
+      marker: "You know they are guilty. The evidence just is not there. So you help."
+      note: "First plant justified by certainty."
+    - stage: "QUOTA"
+      marker: "The numbers are low. Sergeant asks why. You stop checking if they are guilty first."
+      note: "Guilt becomes irrelevant. Availability is enough."
+    - stage: "ROUTINE"
+      marker: "The report is already written. You just need someone to fit it."
+      note: "Manufacturing becomes procedure."
+    - stage: "SYSTEM"
+      marker: "You are the training officer now. The rookies learn your method."
+      note: "Corruption replicates through mentorship."
+
+# ============================================================
+# KEY FACTS (killer lines - VO-ready)
+# ============================================================
+key_facts:
+  # --- Killer lines (short, cold, repeatable) ---
+  - "You have seventeen seconds when the camera goes dark. That's all you need."
+  - "The report is already written. You just need someone to fit it."
+  - "You don't pick criminals. You pick people no one will defend."
+  - "Your partner saw it. That's why they'll never say it."
+  - "You say 'stop resisting' before they move. The audio is evidence."
+  - "Paperwork is the cleanest part of the crime. If it's written, it happened."
+  - "You say 'in plain view' because those three words close every question."
+  - "You tell the rookie: this is how it works. The rookie does it next week."
+  - "Someone files a complaint. The complaint goes to the same precinct. Nothing happens."
+
+  # --- System context (writer reference) ---
+  - "The LAPD Rampart scandal: CRASH unit officers planted evidence, committed perjury, dealt drugs - over 100 convictions reversed, city paid more than 125 million in settlements."
+  - "Chicago Sgt. Ronald Watts and his narcotics unit planted drugs on innocent people and extorted dealers - hundreds of wrongful convictions dismissed."
+  - "Baltimore 2017: body camera caught Officer Richard Pinheiro hiding drugs in a lot then 'discovering' them on camera - convicted of fabricating evidence."
+  - "'Flaking' is police jargon for planting contraband. 'Testilying' is police jargon for perjury on the stand. Both terms coined inside departments."
+  - "'Dropsy' testimony: officer claims suspect dropped contraband in plain view when approached - creates legal grounds for arrest from an illegal search."
+  - "The Innocence Project estimates official misconduct contributed to approximately 54% of wrongful convictions later overturned by DNA."
+
+# ============================================================
+# KEY LOCATIONS
+# ============================================================
+key_locations:
+  - id: LOC_PATROL_CAR
+    name: "The Patrol Car"
+    description: "Where the second bag lives and the camera has a story for why it turned off."
+  - id: LOC_ALLEY
+    name: "The Alley"
+    description: "Where arrests happen without witnesses and evidence appears in seventeen seconds."
+  - id: LOC_PRECINCT_DESK
+    name: "The Precinct Desk"
+    description: "Where ink makes it real. Report matches arrest matches plant."
+  - id: LOC_COURTROOM
+    name: "The Courtroom"
+    description: "Where you say 'in plain view' and the judge nods because you are in uniform."
+  - id: LOC_LOCKER_ROOM
+    name: "The Locker Room"
+    description: "Where stories are aligned and silences are confirmed."
+  - id: LOC_TARGET_NEIGHBORHOOD
+    name: "The Target Neighborhood"
+    description: "Where no one files complaints because complaints go to the same precinct."
+
+key_tensions:
+  - DUTY_VS_SELF
+  - POWER_VS_ISOLATION
+  - PROTECTION_VS_CONTROL
+
+accessory_tags:
+  - "badge on belt"
+  - "body camera with red light off"
+  - "small bag in vest pocket"
+
+# ============================================================
+# SNAP MOMENT (the personal horror point)
+# ============================================================
+snap_moment:
+  description: >
+    The single moment that shifts the episode from system horror
+    to personal horror. Everything before this is procedure.
+    Everything after this is irreversible.
+  moment: >
+    Tonight, you plant evidence on someone you know is innocent.
+    Not maybe innocent. You know.
+  placement: "Late Phase 3 or early Phase 4 - after routine is established."
+  effect: "Viewer realizes the gradient has already completed. The cop cannot go back."
+
+# ============================================================
+# PAPERWORK HORROR (disturbing realism layer)
+# ============================================================
+paperwork_horror:
+  description: >
+    The most disturbing element is not violence. It is
+    bureaucracy. The crime becomes real the moment it is
+    documented. The system does not verify. The system files.
+  lines:
+    - "Paperwork is the cleanest part of the crime."
+    - "Ink makes it real."
+    - "If it's written, it happened."
+    - "The form has a box for probable cause. You fill it in first. Then you create it."
+
+# ============================================================
+# IDENTITY EROSION
+# ============================================================
+identity_erosion:
+  description: >
+    The cop does not become corrupt in one moment. The badge
+    stops meaning protection and starts meaning permission. The
+    most dangerous stage is when the cop forgets there was ever
+    a version of themselves that would not do this.
+  stages:
+    - stage: "IDEALIST"
+      marker: "You joined to protect people. You believe the badge means something."
+    - stage: "FRUSTRATED"
+      marker: "The system lets guilty people walk. The evidence is never enough."
+    - stage: "NOBLE_CAUSE"
+      marker: "You help the evidence. Just this once. They deserve to be caught."
+    - stage: "ROUTINE"
+      marker: "The report is already written. You just need someone to fit it."
+    - stage: "INSTITUTIONAL"
+      marker: "You are the method. The rookies learn it from you."
+    - stage: "DISSOLVED"
+      marker: "You look at your arrest record. You can't tell which ones were real. You're not sure there were any."
+
+# ============================================================
+# CREATIVE CONSTRAINTS
+# ============================================================
+creative_constraints:
+  primary_rule: "THE_SYSTEM_IS_THE_CHARACTER"
+  description: >
+    The horror is not a rogue cop. The horror is a system that
+    rewards fabrication with promotions, protects it with silence,
+    and punishes honesty with isolation. The manufactured case is
+    cheaper than the real one. No one asks because asking is expensive.
+  subject_framing: >
+    Subject starts as someone who believes in the mission. The
+    transition from protector to predator is shown through small
+    operational details - the bag, the camera timing, the rehearsed
+    testimony. The coldest realization: they are not breaking the
+    system. They ARE the system working as designed.
+  ending_logic: >
+    The ending lands on dissolution of memory. The cop looks at
+    their arrest record. They cannot tell which ones were real.
+    They are not sure there were any. The signature line returns
+    one final time - but now it describes who they are, not what
+    they do.
+  forbidden_framing:
+    - "Heroic whistleblower or redemption arc"
+    - "Single bad apple narrative - the system must be shown as complicit"
+    - "Glorification of corruption as clever or cool"
+    - "Pure monster without the original idealism that made corruption possible"
+  required_framing:
+    - "Signature line repeated minimum 3 times with escalating weight"
+    - "4-beat loop (choose, prepare, place, swear) visible in structure"
+    - "17 seconds as the recurring operational detail"
+    - "Paperwork horror - ink makes it real"
+    - "Snap moment: planting on someone known to be innocent"
+    - "Blue wall shown through actions not exposition"
+    - "Moral erosion as gradient not switch"
+    - "Ending: you can't tell which ones were real. You're not sure there were any."
+
+# ============================================================
+# MICRO-BEHAVIORS (top 3 - cinematic priority)
+# ============================================================
+micro_behaviors:
+  description: >
+    Three signature micro-actions that repeat across the episode.
+    Cinematic gold - each one is a visual beat.
+  behaviors:
+    - "You check the camera. Red light off. Seventeen seconds."
+    - "You tap the bag through their pocket before you reach in."
+    - "You say 'stop resisting' before they move."
+
+# ============================================================
+# TENSION CATALYSTS
+# ============================================================
+tension_catalysts:
+  - "Your first plant works. Commendation letter in your file."
+  - "The public defender does not fight it. The system is too tired to check."
+  - "You see your name on a promotion list. Every arrest on that list is manufactured."
+  - "Body camera footage surfaces from another officer's unit. Your stomach drops."
+  - "The rookie asks: did you plant that? You do not answer. That is the answer."
+  - "Internal Affairs opens a file. Your partner calls you first."
+  - "You drive through the neighborhood. Someone you arrested stares. They do not run."
+
+# ============================================================
+# IRREVERSIBLE MARKERS
+# ============================================================
+irreversible_markers:
+  - "You plant on someone you know is innocent. Not maybe. You know."
+  - "You testify under oath using words you rehearsed in the locker room."
+  - "You teach the rookie how to do it."
+  - "You keep confiscated cash. Not evidence. Income."
+  - "Someone goes to prison on your testimony. You do not remember their name."
+
+# ============================================================
+# HOOK OPTIONS (ready to use)
+# ============================================================
+hook_options:
+  option_1:
+    label: "clean + cold"
+    lines:
+      - "You write the report before the arrest."
+      - "The story is already finished."
+      - "You just need someone to fit it."
+  option_2:
+    label: "disturbing"
+    lines:
+      - "You don't catch criminals."
+      - "You make them."
+      - "And tonight, you need one more."
+  option_3:
+    label: "darkest - recommended"
+    lines:
+      - "The camera turns off."
+      - "You have seventeen seconds."
+      - "That's when the crime begins."
+
+# ============================================================
+# SUBJECT VARIANTS
+# ============================================================
+subject_variants:
+  - type: "THE_NOBLE_CAUSE_COP"
+    trigger: "Starts planting only on people they believe are guilty. The first plant feels like justice."
+  - type: "THE_QUOTA_COP"
+    trigger: "Plants to hit numbers. Does not care about guilt. Cares about the sergeant's whiteboard."
+  - type: "THE_INHERITED_COP"
+    trigger: "Learned from a senior partner who learned from theirs. Corruption is generational."
+
+# ============================================================
+# FAILURE MECHANICS
+# ============================================================
+failure_mechanics:
+  description: >
+    The system occasionally produces a crack - a witness phone,
+    a camera angle, a public defender who reads. The real fear
+    is not Internal Affairs. The real fear is the partner who
+    might talk first.
+  pattern:
+    - "A witness has a phone. You did not see the phone."
+    - "The public defender requests body camera footage. Your stomach drops."
+    - "Internal Affairs calls you in. Your union rep says: say nothing."
+    - "Someone files a complaint. The complaint goes to the same precinct."
+
+related_worlds:
+  - WORLD_CRIMINAL_CORRUPT_COP_SHOOTER
+series_note: >
+  Law enforcement corruption domain. POV from inside the machinery
+  of injustice. The signature line - "You don't find evidence. You
+  place it." - anchors the episode the way the recruiter's sentence
+  anchored the organ series.
+
+used_in_episodes: [PV_0025]
+created: "2026-04-20"
