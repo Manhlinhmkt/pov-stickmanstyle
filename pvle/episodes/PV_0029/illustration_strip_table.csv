@@ -1,0 +1,114 @@
+﻿Strip_ID,Start_VO_ID,End_VO_ID,VO_Count,Life_Phase,Scene_Type,Duration_Sec,Strip_Summary
+PV_0029_001,1,3,3,HOOK,POV_SHOT,6.1,First-person POV from patrol car interior. Rural road at night. Suspect visible in back seat.
+PV_0029_002,4,5,2,HOOK,NARRATIVE_SCENE,7.0,Stickman cop by patrol car on dark road. Putting suspect in back. Not calling it in.
+PV_0029_003,6,7,2,HOOK,NARRATIVE_SCENE,5.6,Radio on belt untouched. Stickman standing by car on empty road. Hand away from radio.
+PV_0029_004,8,9,2,HOOK,TEXT_OVERLAY,6.7,"Bold white text on dark: ""Not because you forgot. Because you decided not to."""
+PV_0029_005,10,11,2,HOOK,TEXT_OVERLAY,7.2,"Bold white text on black: ""They were never here."""
+PV_0029_006,12,14,3,PHASE_EARLY,NARRATIVE_SCENE,7.4,Young stickman in fresh uniform walking precinct hallway. Night shift. Burnt coffee smell.
+PV_0029_007,15,16,2,PHASE_EARLY,NARRATIVE_SCENE,5.6,Everything new. Badge catching light when stickman moves. Precinct night shift glow.
+PV_0029_008,17,18,2,PHASE_EARLY,NARRATIVE_SCENE,6.5,Belt pulling at hips. Not used to weight yet. Young cop adjusting gear.
+PV_0029_009,19,21,3,PHASE_EARLY,NARRATIVE_SCENE,9.7,"Stickman watching cop walk someone past booking desk, past cameras. Through unlabeled door."
+PV_0029_010,22,24,3,PHASE_EARLY,NARRATIVE_SCENE,8.8,Door with no label. Cop does not come back. Neither does person. Hallway silent.
+PV_0029_011,25,26,2,PHASE_EARLY,NARRATIVE_SCENE,5.1,Waiting for someone to say something. No one does. Young stickman standing alone.
+PV_0029_012,27,28,2,PHASE_EARLY,NARRATIVE_SCENE,7.0,Holding empty cup. Still holding it. Precinct quiet around him.
+PV_0029_013,29,31,3,PHASE_EARLY,NARRATIVE_SCENE,7.4,"Young stickman facing senior cop near hallway. Asking about the door. No answer, just a look."
+PV_0029_014,32,33,2,PHASE_EARLY,NARRATIVE_SCENE,8.8,Conversation over before finished asking. Kind of look that ends things.
+PV_0029_015,34,35,2,PHASE_EARLY,EMOTIONAL_CLOSEUP,4.2,Young stickman nodding. Understanding nothing. Cool blue wash.
+PV_0029_016,36,39,4,PHASE_EARLY,NARRATIVE_SCENE,10.7,Precinct corridor near unlabeled door. Everyone knows. No one says it in front of captain.
+PV_0029_017,40,43,4,PHASE_EARLY,NARRATIVE_SCENE,8.8,Break room: stickman sitting. TV on wall. Normal silence. No one mentions anything.
+PV_0029_018,44,47,4,PHASE_EARLY,NARRATIVE_SCENE,10.6,Stickman rinsing cup at sink. TV playing game. Another cop watching. Ordinary Tuesday.
+PV_0029_019,48,49,2,PHASE_EARLY,NARRATIVE_SCENE,9.8,Stickman placing cup back. Like any other Tuesday. Nothing mentioned.
+PV_0029_020,50,50,1,PHASE_EARLY,TEXT_OVERLAY,3.8,"Bold white text on dark grey: ""Silence is the first disappearance."""
+PV_0029_021,51,54,4,PHASE_CONFLICT,NARRATIVE_SCENE,10.7,Stickman in plainclothes at 3AM. Walking past booking desk. Tired. Turning left.
+PV_0029_022,55,57,3,PHASE_CONFLICT,NARRATIVE_SCENE,6.5,Past cameras. Reaching for cold door handle on unlabeled door. Dark hallway.
+PV_0029_023,58,60,3,PHASE_CONFLICT,NARRATIVE_SCENE,8.3,Door handle cold. Door with no label. Room with no camera. Stickman entering.
+PV_0029_024,61,62,2,PHASE_CONFLICT,NARRATIVE_SCENE,9.2,"Interior: chair, table, flickering fluorescent. No window. Bare room."
+PV_0029_025,63,64,2,PHASE_CONFLICT,NARRATIVE_SCENE,4.2,No vent. Air does not move in here. Still room. Empty.
+PV_0029_026,65,68,4,PHASE_CONFLICT,NARRATIVE_SCENE,8.4,Stickman closing heavy door. Lock clicking different. Heavier. Alone in hallway.
+PV_0029_027,69,72,4,PHASE_CONFLICT,NARRATIVE_SCENE,10.8,Stickman at closed door asking one question. Faceless figure saying no. Door closing.
+PV_0029_028,73,76,4,PHASE_CONFLICT,NARRATIVE_SCENE,11.5,"Patrol car at night during drive. Phone rings three times, goes quiet. Battery removed."
+PV_0029_029,77,79,3,PHASE_CONFLICT,NARRATIVE_SCENE,9.3,Battery warm in jacket pocket against ribs. Feeling it through lining. Night highway.
+PV_0029_030,80,81,2,PHASE_CONFLICT,NARRATIVE_SCENE,6.0,Wallet in glove box. Keys in cup holder. Belongings of someone who was never here.
+PV_0029_031,82,84,3,PHASE_CONFLICT,NARRATIVE_SCENE,11.6,"Gas station dumpster at night. Stickman slowing car, not stopping. Everything tossed."
+PV_0029_032,85,87,3,PHASE_CONFLICT,NARRATIVE_SCENE,5.6,Next morning: stickman checking room. Empty. Checking twice. No one asks.
+PV_0029_033,88,89,2,PHASE_CONFLICT,NARRATIVE_SCENE,6.0,Desk sergeant typing. Does not look up. Stickman walking past.
+PV_0029_034,90,91,2,PHASE_CONFLICT,NARRATIVE_SCENE,8.3,Friend calls precinct two days later. Stickman hearing sergeant across room.
+PV_0029_035,92,94,3,PHASE_CONFLICT,NARRATIVE_SCENE,11.6,Sergeant: no one by that name. Not looking up. Said it before. Routine denial.
+PV_0029_036,95,97,3,PHASE_CONFLICT,NARRATIVE_SCENE,6.0,True. Never brought them in. Brought them somewhere else. Stickman at desk.
+PV_0029_037,98,98,1,PHASE_CONFLICT,NARRATIVE_SCENE,10.2,"Stickman leaning back in chair, exhaling. Whole precinct feels normal. Fluorescent humming."
+PV_0029_038,99,101,3,PHASE_CONFLICT,NARRATIVE_SCENE,7.0,Fluorescent light above desk. First time. First time the system held.
+PV_0029_039,102,103,2,PHASE_CONFLICT,TEXT_OVERLAY,6.1,"Bold text on dark: ""Not because it worked. Because there was nothing to hold."""
+PV_0029_040,104,105,2,PHASE_CONFLICT,NARRATIVE_SCENE,8.4,"Stickman lying in bed, morning light. Badge on nightstand. Six hours straight. Best sleep."
+PV_0029_041,106,112,7,PHASE_CONFLICT,NARRATIVE_SCENE,9.3,Computer terminal at night. Booking system empty. Screen glow. Three checks. Same result.
+PV_0029_042,113,115,3,PHASE_CONFLICT,TEXT_OVERLAY,7.5,"Bold white text on black: ""They were never here."""
+PV_0029_043,116,121,6,PHASE_CONFLICT,NARRATIVE_SCENE,10.2,"Second time. Not easier, clearer. Known route. Third door, no label. Handle warm."
+PV_0029_044,122,124,3,PHASE_CONFLICT,TEXT_OVERLAY,8.0,"Bold text: ""You are not testing the system anymore. You are using it."""
+PV_0029_045,125,128,4,PHASE_CONFLICT,NARRATIVE_SCENE,7.9,"Patrol car at night. Stickman choosing. Not paperwork, not late. Because he can."
+PV_0029_046,129,131,3,PHASE_CONFLICT,NARRATIVE_SCENE,9.7,Testing who disappears. Phone ringing person. Job mention person. Three faceless figures.
+PV_0029_047,132,135,4,PHASE_CONFLICT,NARRATIVE_SCENE,10.2,Someone waiting at home. Learning patterns. Not who breaks. Who gets missed.
+PV_0029_048,136,137,2,PHASE_CONFLICT,NARRATIVE_SCENE,6.5,Stickman in patrol car tapping dashboard once. Dark lot. Controlled stillness.
+PV_0029_049,138,139,2,PHASE_CONFLICT,TEXT_OVERLAY,6.6,"Bold text: ""You are not choosing people. You are choosing how much they exist."""
+PV_0029_050,140,143,4,PHASE_CONFLICT,NARRATIVE_SCENE,7.0,One answers yes. My wife. Stickman pausing. Patrol car interior at night.
+PV_0029_051,144,148,5,PHASE_CONFLICT,CONTRAST_SPLIT,4.6,"Left: stickman fingerprinted at booking desk. Right: empty room door, no record."
+PV_0029_052,149,150,2,PHASE_CONFLICT,NARRATIVE_SCENE,14.4,Normal way. Watching process like never seen. All procedure for one who said yes.
+PV_0029_053,151,151,1,PHASE_CONFLICT,TEXT_OVERLAY,3.8,"Bold text: ""You are choosing who gets rights."""
+PV_0029_054,152,155,4,PHASE_CONFLICT,NARRATIVE_SCENE,10.7,Lawyer calls. Sergeant at desk says no record. Client in room. Stickman overhearing.
+PV_0029_055,156,158,3,PHASE_CONFLICT,NARRATIVE_SCENE,7.8,Lawyer voice through receiver. Asking again. Louder. Stickman adjusting belt.
+PV_0029_056,159,160,2,PHASE_CONFLICT,EMOTIONAL_CLOSEUP,5.7,"Stickman rigid, hand on belt. Thirty feet from phone. Desaturated grey vignette."
+PV_0029_057,161,163,3,PHASE_CONFLICT,NARRATIVE_SCENE,5.6,Lawyer calls next day. Same answer. Same silence after.
+PV_0029_058,164,165,2,PHASE_CONFLICT,NARRATIVE_SCENE,6.0,Client stops asking for phone. Stops asking for anything. Room going quiet.
+PV_0029_059,166,169,4,PHASE_CONFLICT,NARRATIVE_SCENE,8.8,Water cup placed through cracked door. Untouched next morning. Still there. Full.
+PV_0029_060,170,172,3,PHASE_CONFLICT,NARRATIVE_SCENE,9.7,Walking past unlabeled door. Air near door still. Always still.
+PV_0029_061,173,175,3,PHASE_CONFLICT,NARRATIVE_SCENE,6.5,Voice inside asking for phone call. Recognizing the voice. Not stopping.
+PV_0029_062,176,177,2,PHASE_CONFLICT,NARRATIVE_SCENE,3.7,Feet not slowing down. Keep walking. Hallway stretching.
+PV_0029_063,178,179,2,PHASE_CONFLICT,NARRATIVE_SCENE,8.8,Vending machine end of hall. Out of everything except water. Taking the water.
+PV_0029_064,180,184,5,PHASE_CONFLICT,NARRATIVE_SCENE,10.7,How many right now. Checking like weather. A number. Not names. Never names.
+PV_0029_065,185,185,1,PHASE_CONFLICT,NARRATIVE_SCENE,10.2,Number in head like checking account balance. Something monitored. Not talked about.
+PV_0029_066,186,187,2,PHASE_CONFLICT,NARRATIVE_SCENE,6.1,Adjusting count when things change. Not writing it down. Quiet routine.
+PV_0029_067,188,190,3,PHASE_CONFLICT,NARRATIVE_SCENE,7.4,Checking room before shift. Not empty. Should be. Stickman at open door.
+PV_0029_068,191,192,2,PHASE_CONFLICT,NARRATIVE_SCENE,4.7,Did not put anyone there. Or does not remember. Stickman uncertain at door.
+PV_0029_069,193,195,3,PHASE_CONFLICT,NARRATIVE_SCENE,7.9,Either forgot. Or someone else using room. Someone who does not work here.
+PV_0029_070,196,199,4,PHASE_CONFLICT,NARRATIVE_SCENE,9.8,Break room. Too-hot coffee. Drinking anyway. Unbothered. Normal routine.
+PV_0029_071,200,203,4,PHASE_CONFLICT,NARRATIVE_SCENE,7.4,Counting this week. One more than remembered. Recount. Same number.
+PV_0029_072,204,205,2,PHASE_CONFLICT,NARRATIVE_SCENE,7.0,Pen cap on floor near door. Not picking it up. Room operating independently.
+PV_0029_073,206,208,3,PHASE_CONFLICT,EMOTIONAL_CLOSEUP,10.3,Stickman alone near door. Room does not wait. Fills on its own. Cool blue dread wash.
+PV_0029_074,209,213,5,PHASE_CONFLICT,NARRATIVE_SCENE,11.7,Driving home on back streets. No cameras. Route 9. Choosing convenience now.
+PV_0029_075,214,215,2,PHASE_CRISIS,NARRATIVE_SCENE,7.9,Room interior. Faceless figure stopped asking about phone. Asking when to leave.
+PV_0029_076,216,217,2,PHASE_CRISIS,NARRATIVE_SCENE,4.7,"No answer. The question assumes they arrived. Stickman at door, silent."
+PV_0029_077,218,220,3,PHASE_CRISIS,NARRATIVE_SCENE,6.9,Sound one night from other side of precinct. Door opening. Heavy click.
+PV_0029_078,221,222,2,PHASE_CRISIS,EMOTIONAL_CLOSEUP,4.7,Stickman alone in corridor. Did not open it. Grey vignette. Dread.
+PV_0029_079,223,225,3,PHASE_CRISIS,NARRATIVE_SCENE,4.2,Late night. Standing near booking desk. Precinct mostly empty.
+PV_0029_080,226,228,3,PHASE_CRISIS,NARRATIVE_SCENE,8.8,Sandwich wrapper on counter. Clock says 11:47. Empty precinct at night.
+PV_0029_081,229,230,2,PHASE_CRISIS,EMOTIONAL_CLOSEUP,5.1,Jaw tight. Not sure when that started. Desaturated grey. Pre-dread.
+PV_0029_082,231,234,4,PHASE_CRISIS,NARRATIVE_SCENE,7.9,Phone rings. Knowing before hearing name. Before sergeant picks up. Already knowing.
+PV_0029_083,235,238,4,PHASE_CRISIS,POV_SHOT,8.8,First-person POV: phone receiver. Small child voice coming through. Dark precinct.
+PV_0029_084,239,240,2,PHASE_CRISIS,NARRATIVE_SCENE,7.0,Sergeant picking up. No one by that name tonight. Stickman frozen thirty feet away.
+PV_0029_085,241,244,4,PHASE_CRISIS,NARRATIVE_SCENE,7.5,Child asks again. Says name slower this time. Same answer. Stickman hearing.
+PV_0029_086,245,247,3,PHASE_CRISIS,EMOTIONAL_CLOSEUP,4.2,Almost stepping forward. Foot moves. Weight shifts. Grey wash. Crisis.
+PV_0029_087,248,249,2,PHASE_CRISIS,EMOTIONAL_CLOSEUP,8.8,"Weight shifting. Throat tightening, swallowing. Then gone. Cold grey wash."
+PV_0029_088,250,251,2,PHASE_CRISIS,EMOTIONAL_CLOSEUP,7.5,Stopping. Stepping forward means unwinding every absence ever made. Standing still.
+PV_0029_089,252,254,3,PHASE_CRISIS,TEXT_OVERLAY,7.0,"Bold text on black: ""Every left turn. Every closed door. Every name that was never entered."""
+PV_0029_090,255,259,5,PHASE_CRISIS,NARRATIVE_SCENE,9.3,Thirty feet. One wall. Unlabeled door. Air on this side still. Always still.
+PV_0029_091,260,262,3,PHASE_CRISIS,NARRATIVE_SCENE,4.7,Child hangs up. Click. Dial tone. Dark precinct.
+PV_0029_092,263,265,3,PHASE_CRISIS,EMOTIONAL_CLOSEUP,7.1,Hands still. Did not move. They were never here. Grey to black vignette.
+PV_0029_093,266,270,5,PHASE_CRISIS,NARRATIVE_SCENE,11.6,System works. Database empty. Picking up sandwich wrapper. Throwing away. Mundane.
+PV_0029_094,271,272,2,PHASE_CRISIS,EMOTIONAL_CLOSEUP,6.6,Stickman standing alone in empty precinct. Night. Staying. Grey fading to black.
+PV_0029_095,273,276,4,PHASE_RESOLUTION,NARRATIVE_SCENE,7.0,New cop in fresh uniform. Radio still on. Sees left turn. Does not ask.
+PV_0029_096,277,280,4,PHASE_RESOLUTION,NARRATIVE_SCENE,9.8,Stickman remembering not asking. Remembering the cup. Already finished it.
+PV_0029_097,281,283,3,PHASE_RESOLUTION,NARRATIVE_SCENE,9.3,"Coffee machine. New cop says ""What person?"" Own words from another mouth."
+PV_0029_098,284,285,2,PHASE_RESOLUTION,EMOTIONAL_CLOSEUP,4.2,Tall stickman watching words leave new cop mouth. Warm amber bittersweet glow.
+PV_0029_099,286,288,3,PHASE_RESOLUTION,NARRATIVE_SCENE,9.3,New cop holding unlabeled door. Holds it like done a hundred times. Not looking inside.
+PV_0029_100,289,290,2,PHASE_RESOLUTION,NARRATIVE_SCENE,3.7,Lock clicks behind them. Same sound. Stickman hearing from distance.
+PV_0029_101,291,293,3,PHASE_RESOLUTION,NARRATIVE_SCENE,8.3,Two weeks later. New cop leads someone to room alone. Was not there when it happened.
+PV_0029_102,294,296,3,PHASE_RESOLUTION,NARRATIVE_SCENE,6.0,Nobody told them to. Or maybe somebody did. Does not know anymore.
+PV_0029_103,297,298,2,PHASE_RESOLUTION,EMOTIONAL_CLOSEUP,19.0,Tallest stickman trying to remember being new. Cannot find that version. Amber fade.
+PV_0029_104,299,302,4,PHASE_RESOLUTION,NARRATIVE_SCENE,9.3,Hearing new cop ask the question. Same words. Same tone. Through hallway door.
+PV_0029_105,303,304,2,PHASE_RESOLUTION,EMOTIONAL_CLOSEUP,6.5,Tallest stickman alone in corridor. Does not remember teaching. Does not remember learning.
+PV_0029_106,305,307,3,PHASE_RESOLUTION,TEXT_OVERLAY,8.5,"Bold text on black: ""They were never here."""
+PV_0029_107,308,310,3,PHASE_RESOLUTION,NARRATIVE_SCENE,5.6,Checking system. No record. Staring at screen. Cursor blinking.
+PV_0029_108,311,313,3,PHASE_RESOLUTION,EMOTIONAL_CLOSEUP,11.7,Cannot tell if erased or never existed. Closing tab. Cursor gone. Expression empty. Grey.
+PV_0029_109,314,317,4,CALLBACK_CLOSE,NARRATIVE_SCENE,8.5,Phone on desk. Rang three times. Finding memory. Deleting it. Night precinct.
+PV_0029_110,318,320,3,CALLBACK_CLOSE,TEXT_OVERLAY,7.5,"Bold text: ""Names create records. Records create people."""
+PV_0029_111,321,323,3,CALLBACK_CLOSE,NARRATIVE_SCENE,4.6,Patrol car at night. Same route. Same left turn. New faceless person in back.
+PV_0029_112,324,326,3,CALLBACK_CLOSE,NARRATIVE_SCENE,8.0,"Stickman hand on warm handle. Same door, no label. Not asking their name."
+PV_0029_113,327,328,2,CALLBACK_CLOSE,TEXT_OVERLAY,7.1,"Bold text: ""They were never here."" Smaller: ""You do not remember if you were."""
